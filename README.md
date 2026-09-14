@@ -391,9 +391,9 @@ The cluster is shared. These are not suggestions:
   writing (`ls -ld ~/ctrn ~/ctrn/hf_cache ~/ctrn/hf_cache/hub`):
 
   ```
-  drwxr-xr-x 62 humzai users 20480 Sep  8 14:50 /home/humzai/ctrn
-  drwxr-xr-x  5 humzai users  4096 Aug 18 14:59 /home/humzai/ctrn/hf_cache
-  drwxr-xr-x 10 humzai users  4096 Aug 18 15:28 /home/humzai/ctrn/hf_cache/hub
+  drwxr-xr-x 62 <user> <group> 20480 Sep  8 14:50 $HOME/ctrn
+  drwxr-xr-x  5 <user> <group>  4096 Aug 18 14:59 $HOME/ctrn/hf_cache
+  drwxr-xr-x 10 <user> <group>  4096 Aug 18 15:28 $HOME/ctrn/hf_cache/hub
   ```
 
   (`rwxr-xr-x`: owner has read/write/execute, group and everyone else have read/execute --
