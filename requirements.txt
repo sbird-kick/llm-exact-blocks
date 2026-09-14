@@ -1,0 +1,10 @@
+# Pinned to the versions the verification run actually used.
+# numpy is not imported by this repo directly; it is pinned because transformers
+# pulls it in and a mismatch there is the usual cause of an import-time surprise.
+torch==2.13.0
+transformers==5.15.0
+numpy==2.5.2
+
+# Optional, for `python -m pytest -q tests/test_cpu.py`. The test file also runs
+# as a plain script (`python tests/test_cpu.py`) with nothing but torch installed.
+# pytest

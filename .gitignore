@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# generated corpus, checkpoints, reports, cluster logs
+data/
+runs/
+logs/
+*.jsonl
+*.pkl
+*.pt
+*.out
