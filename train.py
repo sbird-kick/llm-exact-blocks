@@ -229,9 +229,9 @@ def main():
         sched.step()
 
         if step % args.log_every == 0 or step == 1:
-            rec = dict(step=step, loss=float(loss), lm=float(lm), probe=float(probe),
-                       span=float(span), route=float(route),
-                       gate=float(blk.gate), mass=float(last["mass"].mean()),
+            rec = dict(step=step, loss=loss.item(), lm=lm.item(),
+                       probe=probe.item(), span=span.item(), route=route.item(),
+                       gate=blk.gate.item(), mass=float(last["mass"].mean()),
                        secs=round(time.time() - t0, 1))
             history["train"].append(rec)
             print(f"step {step:>5} loss {rec['loss']:.4f} lm {rec['lm']:.4f} "

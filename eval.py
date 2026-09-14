@@ -63,7 +63,7 @@ def main():
     blk.attach(model, targs["read_layer"], targs["route_layer"], targs["write_layer"])
     print(f"checkpoint {args.ckpt} (step {ck['step']}), read {targs['read_layer']} / "
           f"route {targs['route_layer']} / write {targs['write_layer']}, "
-          f"gate {float(blk.gate):+.4f}")
+          f"gate {blk.gate.item():+.4f}")
 
     rows = read_jsonl(os.path.join(args.data, f"{args.split}.jsonl"))
     cells = sorted({p.cell for p in rows if p.cell},

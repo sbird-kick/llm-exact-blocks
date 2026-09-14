@@ -6,12 +6,16 @@
 #
 # EVERY GPU JOB GOES TO --partition=batch. Never dev.
 #
+# The reference run (3000 steps, bs 64, Qwen3-1.7B) took 4m14s wall including corpus
+# generation and the full test eval, so --time is set to 40 minutes: room for a much
+# longer run, still tight enough to schedule on a busy queue.
+#
 #SBATCH --job-name=exact-block-train
 #SBATCH --partition=batch
 #SBATCH --gres=gpu:1
 #SBATCH --cpus-per-task=8
 #SBATCH --mem=64G
-#SBATCH --time=01:30:00
+#SBATCH --time=00:40:00
 #SBATCH --export=ALL
 #SBATCH --output=logs/%x-%j.out
 
