@@ -11,6 +11,7 @@ own token -- and fall back to a character-level stub when it is not.
 """
 from __future__ import annotations
 
+import argparse
 import os
 import random
 import sys
@@ -277,6 +278,30 @@ def test_block_is_bitwise_inert_at_gate_zero():
                         use_cache=False).last_hidden_state
     assert torch.equal(base, after), "remove() must put the host back exactly"
     print("  block: inert at gate 0, causal write site, hooks detach cleanly")
+
+
+def test_greedy_decode_terminates():
+    """Shape/termination only: the tiny model is RANDOM, so its digits mean nothing --
+    this just checks the free-running decode loop in eval.py actually stops within its
+    digit budget and hands back the shape run_greedy_eval promises, on both host and
+    block passes and on a mix of arithmetic and off rows."""
+    from exact_block.data import Problem
+    from eval import run_greedy_eval
+
+    m = tiny_model()
+    tok = StubTok()
+    blk = CalcBlock(m.config.hidden_size, dmax=4, ops=OPS).float()
+    blk.attach(m, 0, 1, 2)
+    args = argparse.Namespace(dmax=4)
+    rows = problems_for_test() + [
+        Problem(op="off", a=0, b=0, ans=0, prompt="shelf 12 held volume 34, filed under",
+               completion="", roles=["d", "d"], cell="", tmpl=0)]
+    ev = run_greedy_eval(m, blk, tok, rows, args, device="cpu", bs=2)
+    assert ev["n_arith"] == 2 and ev["n_off"] == 1
+    assert 0.0 <= ev["host"] <= 1.0 and 0.0 <= ev["block"] <= 1.0
+    assert 0.0 <= ev["fire_on_off"] <= 1.0
+    assert isinstance(ev["examples"], list) and len(ev["examples"]) <= 5
+    print("  greedy decode: terminates within the digit budget on host and block passes")
 
 
 def main():

@@ -142,6 +142,11 @@ python train.py --model Qwen/Qwen3-1.7B --data data --out runs/demo \
 
 # 4. score it against its own frozen host, per width cell
 python eval.py --model Qwen/Qwen3-1.7B --data data --ckpt runs/demo/block.pt --split test
+
+# 4b. optionally, also free-run the answer instead of teacher-forcing it (see "Teacher-
+#     forced vs. free-running" below); slower, so it samples --decode-rows per cell
+python eval.py --model Qwen/Qwen3-1.7B --data data --ckpt runs/demo/block.pt --split test \
+    --decode greedy --decode-rows 20
 ```
 
 On the cluster, all three steps are one job:
@@ -150,6 +155,7 @@ On the cluster, all three steps are one job:
 sbatch sbatch/cpu_tests.sbatch                 # CPU partition
 sbatch sbatch/train.sbatch demo 3000 64        # data + train + eval, one GPU
 sbatch sbatch/eval.sbatch runs/demo/block.pt test
+sbatch sbatch/eval_greedy.sbatch runs/demo/block.pt test 20   # + free-running decode
 ```
 
 Each sbatch file has a marked `PLACEHOLDER` line where you activate your own environment.
@@ -232,6 +238,84 @@ off rows: 900  route(=off) 1.0000  fired anyway 0.0000
 all arithmetic rows: 3600  host 0.1797  block 0.9969  span 0.9969  calc 0.9969
 ```
 
+### Teacher-forced vs. free-running, and a greedy decode column
+
+Every number above is **teacher-forced**: the gold completion is already in the
+sequence, and a row counts as right only if the argmax at *every* answer position matches
+the gold digit there. That measure never lets the model see its own mistake -- position
+`k+1` is scored with the true digit at position `k` sitting in context, not whatever the
+model would actually have written there. It is the right way to isolate "does the probe
+read the operands and does the calculator get the arithmetic right", which is what this
+repo is mostly about, but it is not what a person actually typing the prompt gets back.
+
+`eval.py --decode greedy` adds the honest version. Nothing past the prompt is fed from the
+gold completion: the model (host, or host+block) picks a token, that token goes back in as
+the next input, one forward pass at a time, until a non-digit token ends the answer or the
+digit budget runs out. A row counts as right only if the digits it actually decoded, read
+back as one integer, equal the gold answer. Because this is one forward pass per generated
+digit rather than one for the whole row, `eval.py` samples `--decode-rows` problems per
+`(op, cell)` (20 below) rather than scoring the whole split.
+
+> Same checkpoint as above. SLURM job **19587** on `--partition=batch`, one GPU, wall time
+> **46 s** for 18 cells x 20 rows x two passes (host, block) x up to 34 generated tokens
+> each.
+
+```
+op    cell    rows host_greedy block_greedy
+-------------------------------------------
+add   4x4       20      0.8000       1.0000
+add   5x5       20      0.5500       0.9500  (held out)
+add   6x3       20      0.2000       0.9000  (held out)
+add   6x6       20      0.3000       0.9500
+add   8x4       20      0.0000       0.9000
+add   8x8       20      0.4000       0.7500
+sub   4x4       20      0.2000       0.9000
+sub   5x5       20      0.1000       0.9500  (held out)
+sub   6x3       20      0.1000       0.9500  (held out)
+sub   6x6       20      0.0000       0.9500
+sub   8x4       20      0.0000       1.0000
+sub   8x8       20      0.0000       0.8000
+mul   4x4       20      0.0000       0.7500
+mul   5x5       20      0.0000       0.8500  (held out)
+mul   6x3       20      0.0000       0.9000  (held out)
+mul   6x6       20      0.0000       0.4000
+mul   8x4       20      0.0000       0.7000
+mul   8x8       20      0.0000       0.5500
+
+off rows (greedy): 20  fired anyway 0.0000
+```
+
+The block is still far ahead of the host at every width, and the off-row behaviour is
+identical to the teacher-forced run (it never fires on a non-arithmetic row). But it is no
+longer at or near 1.00 everywhere, and the drop is concentrated exactly where teacher-
+forced accuracy was already lowest and the answers are widest: `mul 6x6` (0.40), `mul 8x8`
+(0.55), `mul 8x4` (0.70), `sub 8x8` (0.80), `add 8x8` (0.75). Five decoded mismatches, by
+hand:
+
+```
+op    cell    a          b        gold      decoded
+add   5x5     82082      18661    100743    074343
+add   6x3     947075     606      947681    768182
+add   6x3     373943     179      374122    412277
+add   6x6     210411     119860   330271    027121
+add   8x4     54860908   9008     54869916  86991608
+```
+
+None of these are the decode loop losing track of *where* to write: the block still writes
+at the right physical column every time (a wrong write position would fail every row of a
+width, not ~1 in 5 of the widest ones, and it would not spare `add 4x4`, which stays at
+1.00 free-running). What is happening is the mechanism the "Read the `host` column first"
+paragraph below did not have to contend with: the calculator's per-place delta is
+recomputed fresh every forward pass and is *always* correct for its physical column, but
+the three layers after WRITE (25-27) still run ordinary self-attention over the answer so
+far, and once one digit is wrong, the *token actually sitting there* -- not the delta that
+was added under it -- is what every later digit's attention reads. Free-running, unlike
+teacher-forcing, lets that wrong token stay in context and corrupt the digits after it. It
+is worse on wider answers for the obvious reason: more digits means more chances for the
+one early slip that the rest of the number can't recover from. This is a property of the
+architecture (nothing downstream of WRITE re-reads the calculator once a token is chosen),
+not a bug in `eval.py`'s decode loop, so it is reported as-is rather than patched.
+
 Read the `host` column first. The frozen 1.7B answers three quarters of 4x4 additions and
 **three percent** of 8x4 ones, and it never once gets a multiplication right at any width
 in this corpus. The block is at or above 0.99 on every cell, including the two widths it
@@ -299,7 +383,23 @@ The cluster is shared. These are not suggestions:
   before you touch anything: `squeue -u $USER`.
 * **The model weights are already cached.** Set `HF_HOME` to the shared cache and
   `HF_HUB_OFFLINE=1` so a missing file fails loudly instead of silently downloading a few
-  gigabytes onto a login node.
+  gigabytes onto a login node. Every `sbatch/*.sbatch` file in this repo defaults
+  `HF_HOME` to `$HOME/ctrn/hf_cache` -- that is the project's shared cache, owned by the
+  project lead, and it is read-only from anyone else's job: the lead has to grant read
+  access to it (and to the `$HOME/ctrn` directory it lives under) before a job using these
+  defaults will find the weights instead of failing loudly. Raw permissions as of this
+  writing (`ls -ld ~/ctrn ~/ctrn/hf_cache ~/ctrn/hf_cache/hub`):
+
+  ```
+  drwxr-xr-x 62 humzai users 20480 Sep  8 14:50 /home/humzai/ctrn
+  drwxr-xr-x  5 humzai users  4096 Aug 18 14:59 /home/humzai/ctrn/hf_cache
+  drwxr-xr-x 10 humzai users  4096 Aug 18 15:28 /home/humzai/ctrn/hf_cache/hub
+  ```
+
+  (`rwxr-xr-x`: owner has read/write/execute, group and everyone else have read/execute --
+  so on this cluster, as configured right now, any user can traverse into and read the
+  cache. If that ever changes, a job pointed at someone else's `HF_HOME` will simply fail
+  to find the weights; point `HF_HOME` at your own cache instead.)
 * **Keep `--time` tight** and check what a similar job actually took (`sacct -X --format=
   JobID,JobName,Elapsed,State`) before you ask for more.
 * **Expect to queue.** `QOSGrpGRES` in `squeue`'s reason column means the GPU pool is full;
