@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Turn signed-bank rows (any language) into the corpus format train.py and eval.py read.
 
-    python data_gen/bank_to_corpus.py --bank banks/out/v3_61/signed_A_int.jsonl \\
+    python data_gen/bank_to_corpus.py --bank banks/v3_61/signed_A_int.jsonl \\
         --langs ru,uk,pl --out data_slavic
     python train.py --data data_slavic ...            # unchanged
     python eval.py  --data data_slavic ...            # unchanged
