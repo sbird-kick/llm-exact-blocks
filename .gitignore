@@ -12,3 +12,10 @@ logs/
 *.pkl
 *.pt
 *.out
+
+# regenerated banks (python banks/make_banks.py) and the v5 tools' outputs
+banks/v3_61/
+banks/v4/
+banks/v4wild/
+banks/v5/bank/
+banks/v5/_selftest_tmp/

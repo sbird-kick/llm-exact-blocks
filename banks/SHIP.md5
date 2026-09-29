@@ -1,0 +1,17 @@
+# md5 of every file gen_signed_bank_ml.py writes for the three shipped banks (md5sum format:
+# run `md5sum -c SHIP.md5` from banks/, or `python banks/make_banks.py --check-only`).
+# Empty files (d41d8cd9...) are real: v4wild has no bank-B and no decimal rows.
+55059014df99f892359e1654940ee731  v3_61/signed_A_dec.jsonl
+f7109cd406045305b5a2f99c33fab331  v3_61/signed_A_int.jsonl
+1b910fd90cbdef6ca3efd656654721c2  v3_61/signed_B_dec.jsonl
+c13e9de788c1c921fb6e0317f2022171  v3_61/signed_B_int.jsonl
+699c1403f140240a22a2fae6e28550b9  v4/pairs.json
+1f27dfadda9bbfab3ccbb1331082813e  v4/signed_A_dec.jsonl
+7e221b1af66b3c526fda4803e126de3e  v4/signed_A_int.jsonl
+b12aee99b9dd7ac5229bc2db92ba45f8  v4/signed_B_dec.jsonl
+4b78a364b0852f7391ba3480e4c7833e  v4/signed_B_int.jsonl
+802eb617db05941c5ecea67a53275edb  v4wild/pairs.json
+d41d8cd98f00b204e9800998ecf8427e  v4wild/signed_A_dec.jsonl
+d05c8325fea8d942f05cca7eef2819d9  v4wild/signed_A_int.jsonl
+d41d8cd98f00b204e9800998ecf8427e  v4wild/signed_B_dec.jsonl
+d41d8cd98f00b204e9800998ecf8427e  v4wild/signed_B_int.jsonl

@@ -117,9 +117,13 @@ exact_block/numerals.py   the locator: digit-token runs -> LSD-first lane vector
 exact_block/calc.py       exact add/sub/mul as column arithmetic, plus the refusals
 exact_block/block.py      CalcBlock (probe/tagger/router/gate/write), the hooks, build_batch
 exact_block/data.py       templated prose corpus: distractors, reversed order, `off` rows
+exact_block/numerals_ml.py  opt-in per-language numeral parsing (digit systems, separators)
 train.py                  four supervised losses, frozen host, ~0.06 M trainable params
 eval.py                   host vs host+block answer accuracy, per op and width cell
 tests/test_cpu.py         CPU-only: calculator exactness, locator, hooks, bitwise inertness
+tests/test_numerals_ml.py, tests/test_bank_corpus.py   CPU-only, standard library only
+banks/                    the multilingual banks: regeneration script and md5s (see below)
+data_gen/                 bank -> corpus converter, the v5 tool list, DATA_GENERATION.md
 sbatch/                   SLURM runners for the cluster
 ```
 
@@ -134,7 +138,9 @@ pip install -r requirements.txt
 python -m exact_block.data --out data --seed 0
 
 # 2. the CPU tests. No GPU, no model download, no network.
-python tests/test_cpu.py          # or: python -m pytest -q tests/test_cpu.py
+python tests/test_cpu.py          # or: python -m pytest -q tests/
+python tests/test_numerals_ml.py  # the per-language numeral rules (standard library only)
+python tests/test_bank_corpus.py  # the bank -> corpus converter (build_batch part needs torch)
 
 # 3. train (one GPU; 231 s for 3000 steps on an RTX PRO 6000 at the defaults)
 python train.py --model Qwen/Qwen3-1.7B --data data --out runs/demo \
@@ -196,6 +202,63 @@ Each part is therefore supervised directly:
 Training uses the positions `build_batch` located; **evaluation uses the tagger's own**
 (`--learned-spans` is forced on in `eval.py`), because at deployment nothing tells the
 block where the digits are.
+
+## Other languages: the multilingual banks
+
+The English corpus above is what `python -m exact_block.data` writes, and it is unchanged.
+For other languages the project has **signed word-problem banks**: one-step problems
+written from blind-verified templates, where the story's meaning (not the numbers' size)
+decides which number is subtracted from which, with one to four distractor numbers of the
+same kind. Everything about them is in three places:
+
+* [`banks/README.md`](banks/README.md): the three banks, what each adds, the row format,
+  and `python banks/make_banks.py`, which regenerates them byte for byte and checks 14 md5s;
+* [`data_gen/DATA_GENERATION.md`](data_gen/DATA_GENERATION.md): how templates are written,
+  validated, verified blind and turned into rows, how the work is cut into resumable rounds,
+  the language-specific pitfalls, and what makes a distractor hard (with recipes);
+* [`data_gen/V5_TOOLS.md`](data_gen/V5_TOOLS.md): the tools of bank v5 (25 languages,
+  add / sub / mul / div). The v5 templates arrive when that bank is finished.
+
+**Languages.** `v3_61`: 61 languages (bank A; 36 of them also bank B): Amharic, Arabic,
+Bulgarian, Bengali, Tibetan, Czech, German, Greek, English, Spanish, Basque, Persian,
+Finnish, French, Gujarati, Hausa, Hebrew, Hindi, Hungarian, Armenian, Indonesian,
+Icelandic, Italian, Japanese, Georgian, Kazakh, Khmer, Kannada, Korean, Latin, Lithuanian,
+Malayalam, Mongolian, Marathi, Malay, Burmese, Nepali, Dutch, Punjabi, Polish, Portuguese,
+Romanian, Russian, Sinhala, Slovak, Albanian, Serbian, Swedish, Swahili, Tamil, Telugu,
+Thai, Filipino, Turkish, Ukrainian, Urdu, Uzbek, Vietnamese, Yoruba, Chinese, Zulu.
+`v4`: 25 of them (ar bn de el en es fa fr he hi id it ja ko nl pl pt ru sw ta th tr uk vi
+zh) with 4-5-number rows added. `v4wild`: English, with addition and product as well.
+
+**Training and evaluating on a bank.** `data_gen/bank_to_corpus.py` writes a bank's rows
+in exactly the format `train.py` and `eval.py` already read, so neither needs a new flag:
+
+```bash
+python banks/make_banks.py                                   # once: regenerate the banks
+python data_gen/bank_to_corpus.py --bank banks/v3_61/signed_A_int.jsonl \
+    --langs hi,bn,ta,te --out data_indic                     # omit --langs for all 61 languages
+python train.py --model Qwen/Qwen3-1.7B --data data_indic --out runs/indic --steps 3000 --bs 64
+python eval.py  --model Qwen/Qwen3-1.7B --data data_indic --ckpt runs/indic/block.pt --split test
+```
+
+Things to know before you read the numbers:
+
+* **Negative answers are left out.** Half of a signed bank's subtraction rows have the
+  smaller number as the minuend. The block has no sign channel, so the converter keeps the
+  other half and prints how many rows it dropped and why. The negative rows are for
+  readers of the model's internal state, not for this block.
+* **The split is by story** (story N goes to the same split in every language, so test
+  stories and their numerals are never trained on); `--split-by lang-story` or `pair`
+  changes that, and `--test-langs xx,yy` holds whole languages out for a transfer test.
+* **The banks have no `off` rows**, so the router's `off` class is untrained unless you add
+  some: `grep '"op": "off"' data/train.jsonl >> data_indic/train.jsonl` (and the same for
+  `val` / `test`) after generating the English corpus.
+* **Only subtraction in most banks.** `v3_61` and `v4` are subtraction only; `v4wild` adds
+  addition and product (English). The width cells are few (`1x1`, `2x2`, `4x1`, `4x3`, `6x6`)
+  because the bank's numerals come from eight fixed categories.
+* **Per-language numerals.** The banks write plain ASCII digits, so `numerals.py` reads them
+  as they are. For text that did not come from a generator (native digits such as ৩৫০ or
+  ๓๕๐, "250.000" in German, "2 500" in French), `exact_block/numerals_ml.py` has the rules
+  for all 61 languages; `python -m exact_block.numerals_ml` prints the coverage table.
 
 ## What to expect
 
@@ -360,10 +423,13 @@ purpose:
   floating-point operands and scale alignment, and the "scratch lane" arm that writes a
   tool buffer into the prompt instead of the answer.
 * **A fourth span class** (`C-digit`) for a third operand.
-* **Grouped numerals and locales.** The real locator understands that `250,000` is one
-  number in English and `250.000` is one number in German, with a rule table per language
-  and three rules to keep `3.64 ERA` from reading as thousands. This corpus writes plain
-  ASCII integers, so the locator here is just "maximal runs of digit tokens".
+* **Grouped numerals and locales in the locator.** The real locator understands that
+  `250,000` is one number in English and `250.000` is one number in German, with a rule
+  table per language and three rules to keep `3.64 ERA` from reading as thousands. This
+  corpus writes plain ASCII integers, so the locator here is just "maximal runs of digit
+  tokens". The rule table itself is now in `exact_block/numerals_ml.py` (opt-in, text level,
+  not wired into `build_batch`), together with the native digit systems of the
+  multilingual banks.
 * **Non-Qwen hosts.** Everything assumes one token per digit and a digit token that never
   absorbs the preceding space. Qwen3 does that; Llama-3 does not, and the tests will say
   so rather than train something quietly wrong.
