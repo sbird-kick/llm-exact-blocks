@@ -1,0 +1,184 @@
+{
+ "language": "Kazakh (Cyrillic script)",
+ "language_code": "kk",
+ "lead_in": "Жауабы:",
+ "decimal_separator": ",",
+ "items": [
+  {
+   "story_id": 7,
+   "bank": "A",
+   "domain": "balance",
+   "unit": "теңге",
+   "sign_convention": "had minus spent",
+   "facts_min_first": "Айгерімнің шотында {M} теңге болды, ол {S} теңге жұмсады.",
+   "facts_sub_first": "Айгерім {S} теңге жұмсады, оның шотында {M} теңге болды.",
+   "question": "Айгерімнің шотындағы қалдық қанша теңге болды?",
+   "distractor_sentence": "Оның шоты {D} нөмірлі бөлімшеде ашылған.",
+   "agreement_safe": true,
+   "agreement_note": "Kazakh nouns and units never inflect for number after a numeral (e.g. üш теңге, 51 теңге, 4870 теңге all use the singular unqualified noun теңге), and any suffix in the sentence (locative -та, possessive -ы) attaches to the following noun, not to the numeral, so it does not change with the value.",
+   "decimals_natural": true,
+   "gloss_en": "Aigerim had M tenge in her account, she spent S tenge. What is the balance in Aigerim's account now?",
+   "notes": "Айгерім ис an invented given name, not a real person.",
+   "distractor_ok": true,
+   "verifier": {
+    "tag": "V7",
+    "natural": 3,
+    "comment": ""
+   }
+  },
+  {
+   "story_id": 8,
+   "bank": "A",
+   "domain": "balance",
+   "unit": "теңге",
+   "sign_convention": "deposited minus withdrawn",
+   "facts_min_first": "Серіктестіктің шотына {M} теңге түсті, одан {S} теңге алынды.",
+   "facts_sub_first": "Серіктестіктің шотынан {S} теңге алынды, оған {M} теңге түсті.",
+   "question": "Серіктестіктің шотындағы қалдық қанша теңге болды?",
+   "distractor_sentence": "Бұл шот {D} нөмірлі банкте тіркелген.",
+   "agreement_safe": true,
+   "agreement_note": "Kazakh nouns and units never inflect for number after a numeral (e.g. üш теңге, 51 теңге, 4870 теңге all use the singular unqualified noun теңге), and any suffix in the sentence (locative -та, possessive -ы) attaches to the following noun, not to the numeral, so it does not change with the value.",
+   "decimals_natural": true,
+   "gloss_en": "M tenge was deposited into the partnership's account, S tenge was withdrawn from it. What is the balance in the partnership's account now?",
+   "notes": "",
+   "distractor_ok": true,
+   "verifier": {
+    "tag": "V7",
+    "natural": 3,
+    "comment": ""
+   }
+  },
+  {
+   "story_id": 9,
+   "bank": "A",
+   "domain": "net",
+   "unit": "теңге",
+   "sign_convention": "income minus expenses",
+   "facts_min_first": "Отбасының бір айдағы кірісі {M} теңге, ал шығысы {S} теңге болды.",
+   "facts_sub_first": "Отбасының бір айдағы шығысы {S} теңге, ал кірісі {M} теңге болды.",
+   "question": "Отбасының сол айдағы таза нәтижесі қанша теңге болды?",
+   "distractor_sentence": "Бұл отбасы {D} нөмірлі үйде тұрады.",
+   "agreement_safe": true,
+   "agreement_note": "Kazakh nouns and units never inflect for number after a numeral (e.g. üш теңге, 51 теңге, 4870 теңге all use the singular unqualified noun теңге), and any suffix in the sentence (locative -та, possessive -ы) attaches to the following noun, not to the numeral, so it does not change with the value.",
+   "decimals_natural": true,
+   "gloss_en": "The family's income for one month was M tenge, its expenses were S tenge. What was the family's net result for that month, in tenge?",
+   "notes": "",
+   "distractor_ok": true,
+   "verifier": {
+    "tag": "V7",
+    "natural": 3,
+    "comment": ""
+   }
+  },
+  {
+   "story_id": 10,
+   "bank": "A",
+   "domain": "net",
+   "unit": "гол",
+   "sign_convention": "goals scored minus conceded",
+   "facts_min_first": "Команда маусымда {M} гол соқты, оған қарсы {S} гол соғылды.",
+   "facts_sub_first": "Командаға қарсы маусымда {S} гол соғылды, ал команда {M} гол соқты.",
+   "question": "Команданың маусымдағы гол айырмасы қандай болды?",
+   "distractor_sentence": "Команда {D} нөмірлі дивизионда ойнайды.",
+   "agreement_safe": true,
+   "agreement_note": "Kazakh nouns and units never inflect for number after a numeral (e.g. üш теңге, 51 теңге, 4870 теңге all use the singular unqualified noun теңге), and any suffix in the sentence (locative -та, possessive -ы) attaches to the following noun, not to the numeral, so it does not change with the value.",
+   "decimals_natural": false,
+   "gloss_en": "The team scored M goals in the season, and had S goals scored against it. What was the team's goal difference for the season?",
+   "notes": "",
+   "distractor_ok": true,
+   "verifier": {
+    "tag": "V7",
+    "natural": 3,
+    "comment": ""
+   }
+  },
+  {
+   "story_id": 11,
+   "bank": "A",
+   "domain": "net",
+   "unit": "доллар",
+   "sign_convention": "gains minus losses",
+   "facts_min_first": "Трейдердің бір айдағы табысы {M} доллар, ал зияны {S} доллар болды.",
+   "facts_sub_first": "Трейдердің бір айдағы зияны {S} доллар, ал табысы {M} доллар болды.",
+   "question": "Трейдердің сол айдағы таза нәтижесі қанша доллар болды?",
+   "distractor_sentence": "Ол {D} нөмірлі биржада сауда жасайды.",
+   "agreement_safe": true,
+   "agreement_note": "Kazakh nouns and units never inflect for number after a numeral (e.g. üш теңге, 51 теңге, 4870 теңге all use the singular unqualified noun теңге), and any suffix in the sentence (locative -та, possessive -ы) attaches to the following noun, not to the numeral, so it does not change with the value.",
+   "decimals_natural": true,
+   "gloss_en": "The trader's gain for one month was M dollars, their loss was S dollars. What was the trader's net result for that month, in dollars?",
+   "notes": "",
+   "distractor_ok": true,
+   "verifier": {
+    "tag": "V7",
+    "natural": 3,
+    "comment": ""
+   }
+  },
+  {
+   "story_id": 14,
+   "bank": "A",
+   "domain": "score vs par",
+   "unit": "соққы",
+   "sign_convention": "strokes minus par",
+   "facts_min_first": "Гольфшы бір раундта {M} соққы жасады, ал пар {S} соққы болды.",
+   "facts_sub_first": "Раундтың пары {S} соққы болды, ал гольфшы {M} соққы жасады.",
+   "question": "Гольфшының нәтижесі парға қатысты қандай болды?",
+   "distractor_sentence": "Ол {D} нөмірлі алаңда ойнады.",
+   "agreement_safe": true,
+   "agreement_note": "Kazakh nouns and units never inflect for number after a numeral (e.g. üш теңге, 51 теңге, 4870 теңге all use the singular unqualified noun теңге), and any suffix in the sentence (locative -та, possessive -ы) attaches to the following noun, not to the numeral, so it does not change with the value.",
+   "decimals_natural": false,
+   "gloss_en": "The golfer made M strokes in one round, while par was S strokes. What was the golfer's result relative to par?",
+   "notes": "",
+   "distractor_ok": true,
+   "verifier": {
+    "tag": "V7",
+    "natural": 3,
+    "comment": ""
+   }
+  },
+  {
+   "story_id": 16,
+   "bank": "A",
+   "domain": "level vs reference",
+   "unit": "қабат",
+   "sign_convention": "level minus reference level",
+   "facts_min_first": "Лифттің көрсеткіші {M} деп тұр, ал жер қабатының көрсеткіші {S} деп белгіленген.",
+   "facts_sub_first": "Жер қабатының көрсеткіші {S} деп белгіленген, ал лифттің көрсеткіші {M} деп тұр.",
+   "question": "Лифт жер қабатына қатысты қай деңгейде тұр?",
+   "distractor_sentence": "Бұл ғимаратта {D} лифт бар.",
+   "agreement_safe": true,
+   "agreement_note": "Kazakh nouns and units never inflect for number after a numeral (e.g. üш теңге, 51 теңге, 4870 теңге all use the singular unqualified noun теңге), and any suffix in the sentence (locative -та, possessive -ы) attaches to the following noun, not to the numeral, so it does not change with the value.",
+   "decimals_natural": false,
+   "gloss_en": "The elevator's indicator shows M, while the ground floor's indicator is marked S. What level is the elevator at relative to the ground floor?",
+   "notes": "",
+   "distractor_ok": true,
+   "verifier": {
+    "tag": "V7",
+    "natural": 2,
+    "comment": "көрсеткіші ... деп тұр is a stiff way to state a floor number."
+   }
+  },
+  {
+   "story_id": 17,
+   "bank": "B",
+   "domain": "relative",
+   "unit": "гол",
+   "sign_convention": "party named in question minus the other party",
+   "facts_min_first": "А командасы ойында {M} гол соқты, ал Б командасы {S} гол соқты.",
+   "facts_sub_first": "Б командасы ойында {S} гол соқты, ал А командасы {M} гол соқты.",
+   "question": "А командасының Б командасына қатысты гол айырмасы қандай болды?",
+   "distractor_sentence": "Бұл ойын {D} нөмірлі стадионда өтті.",
+   "agreement_safe": true,
+   "agreement_note": "Kazakh nouns and units never inflect for number after a numeral (e.g. üш теңге, 51 теңге, 4870 теңге all use the singular unqualified noun теңге), and any suffix in the sentence (locative -та, possessive -ы) attaches to the following noun, not to the numeral, so it does not change with the value.",
+   "decimals_natural": false,
+   "gloss_en": "Team A scored M goals in the match, while team B scored S goals. What was team A's goal difference relative to team B?",
+   "notes": "А және Б — team labels, not real names.",
+   "distractor_ok": true,
+   "verifier": {
+    "tag": "V7",
+    "natural": 3,
+    "comment": ""
+   }
+  }
+ ]
+}

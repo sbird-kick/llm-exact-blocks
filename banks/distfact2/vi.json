@@ -1,0 +1,66 @@
+{
+  "language_code": "vi",
+  "refused": [],
+  "items": [
+    {
+      "story_id": 5,
+      "distractor_fact": "Một chi nhánh ngân hàng ở khu vực khác cũng có một tài khoản dự phòng với số dư là {D} đô la.",
+      "gloss_en": "A bank branch in a different area also has a reserve account with a balance of ${D}.",
+      "entity_note": "A different owner kind: a bank branch (a place), not a classmate (a person) as in the first distractor; not Lan's own account whose starting balance and spending the question compares."
+    },
+    {
+      "story_id": 6,
+      "distractor_fact": "Chủ cửa hàng cũng có một khoản tiết kiệm cá nhân với số dư là {D} đô la vào ngày hôm đó.",
+      "gloss_en": "The shop owner also has a personal savings amount with a balance of ${D} that day.",
+      "entity_note": "A different owner kind: the shop owner's personal savings (a person), not a neighboring shop (a place) as in the first distractor; not the shop's own cash register whose deposit and withdrawal the question compares."
+    },
+    {
+      "story_id": 7,
+      "distractor_fact": "Quỹ lớp học của Minh ở trường cũng có {D} đô la tiền quỹ vào đầu tuần đó.",
+      "gloss_en": "Minh's class fund at school also had ${D} of fund money at the start of that week.",
+      "entity_note": "A different owner kind: the class fund (an organization), not Minh's younger brother (a person) as in the first distractor; not Minh's own pocket money whose starting amount and spending the question compares."
+    },
+    {
+      "story_id": 8,
+      "distractor_fact": "Công ty nơi ông Hùng làm việc cũng có một quỹ phúc lợi riêng với số dư là {D} đô la trong tháng đó.",
+      "gloss_en": "The company where Mr. Hung works also has its own welfare fund with a balance of ${D} that month.",
+      "entity_note": "A different owner kind: his employer (an organization), not a neighboring family (a household/person) as in the first distractor; not Mr. Hung's own family whose income and expenses the question compares."
+    },
+    {
+      "story_id": 9,
+      "distractor_fact": "Một cầu thủ của đội đối thủ cũng đã tự ghi được {D} bàn thắng cá nhân trong mùa giải này.",
+      "gloss_en": "A player on the rival team also personally scored {D} individual goals this season.",
+      "entity_note": "A different owner kind: an individual player (a person), not a different team (an organization) as in the first distractor; not the story's own team whose goals scored and conceded the question compares."
+    },
+    {
+      "story_id": 10,
+      "distractor_fact": "Một quỹ đầu tư khác do cùng công ty quản lý cũng đã ghi nhận khoản lãi là {D} đô la trong năm đó.",
+      "gloss_en": "A different investment fund managed by the same company also recorded gains of ${D} that year.",
+      "entity_note": "A different owner kind: a different fund (an organization), not a different investor (a person) as in the first distractor; not the story's own investor whose gains and losses the question compares."
+    },
+    {
+      "story_id": 13,
+      "distractor_fact": "Tại một giải golf khác được tổ chức vào năm trước, nhà vô địch của giải đó đã đánh tổng cộng {D} cú trong vòng chung kết.",
+      "gloss_en": "At a different golf tournament held the previous year, that tournament's champion took a total of {D} strokes in the final round.",
+      "entity_note": "A different owner kind: a past edition of a different tournament (a series), not a different golfer on a different course (a person) as in the first distractor; that tournament's own par is unstated, so it cannot be paired against the story's par."
+    },
+    {
+      "story_id": 14,
+      "distractor_fact": "Tại một giải mini golf khác được tổ chức vào năm trước, người vô địch giải đó đã đánh tổng cộng {D} cú trong vòng chơi của mình.",
+      "gloss_en": "At a different mini golf tournament held the previous year, that tournament's champion took a total of {D} strokes in their round.",
+      "entity_note": "A different owner kind: a past edition of a different mini golf tournament (a series), not a different player at a different course (a person) as in the first distractor; that tournament's own par is unstated, so it cannot be paired against the story's par."
+    },
+    {
+      "story_id": 15,
+      "distractor_fact": "Một công ty vận hành đường sắt khác cũng có một chuyến tàu đến ga vào phút thứ {D} tính từ nửa đêm hôm đó, nhưng không công bố lịch trình của chuyến đó.",
+      "gloss_en": "A different railway operating company also had a train arrive at the station at the minute mark {D} past midnight that day, but did not publish that train's schedule.",
+      "entity_note": "A different owner kind: a different railway company (an organization), not a different train on a different line (an object) as in the first distractor; that company's own schedule is unstated, so it cannot be paired against the story's schedule."
+    },
+    {
+      "story_id": 16,
+      "distractor_fact": "Một nhân viên bảo vệ ở tòa nhà văn phòng gần đó cũng ghi nhận vị trí hiện tại của mình là tầng được đánh số {D}, nhưng tầng trệt của tòa nhà đó không được nêu.",
+      "gloss_en": "A security guard at a nearby office building also recorded his current location as the floor numbered {D}, but that building's ground floor was not stated.",
+      "entity_note": "A different owner kind: a security guard (a person), not a different building's elevator (a place) as in the first distractor; that building's own ground floor is unstated, so it cannot be paired against the story's reference floor."
+    }
+  ]
+}

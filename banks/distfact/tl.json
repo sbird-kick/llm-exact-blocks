@@ -1,0 +1,102 @@
+{
+ "language_code": "tl",
+ "refused": [],
+ "items": [
+  {
+   "story_id": 1,
+   "distractor_fact": "Sa kalapit na bayan, naitala ang temperatura na {D}°C nang parehong araw.",
+   "gloss_en": "In the neighboring town, a temperature of {D}°C was recorded on the same day.",
+   "entity_note": "a thermometer reading from a different town, not the one being compared"
+  },
+  {
+   "story_id": 2,
+   "distractor_fact": "Sa parehong araw, ang presyo ng bahagi ng ibang kumpanya ay ${D}.",
+   "gloss_en": "On the same day, another company's share price is ${D}.",
+   "entity_note": "a different company's share price"
+  },
+  {
+   "story_id": 3,
+   "distractor_fact": "Sa kalapit na reservoir, umabot sa {D} m ang antas ng tubig.",
+   "gloss_en": "In the nearby reservoir, the water level reached {D} m.",
+   "entity_note": "a different reservoir's water level"
+  },
+  {
+   "story_id": 4,
+   "distractor_fact": "Ang ibang drone sa parehong misyon ay may taas na {D} m mula sa lupa.",
+   "gloss_en": "The other drone in the same mission has an altitude of {D} m from the ground.",
+   "entity_note": "a different drone's altitude"
+  },
+  {
+   "story_id": 5,
+   "distractor_fact": "Ang ibang pakete sa parehong padala ay may bigat na {D} kg.",
+   "gloss_en": "The other package in the same shipment has a weight of {D} kg.",
+   "entity_note": "a different package's weight"
+  },
+  {
+   "story_id": 6,
+   "distractor_fact": "Ang ibang makina sa pabrika ay may bilis na {D} km/h.",
+   "gloss_en": "The other engine in the factory has a speed of {D} km/h.",
+   "entity_note": "a different engine's speed"
+  },
+  {
+   "story_id": 8,
+   "distractor_fact": "Ang ibang kliyente ng parehong bangko ay nagdeposito ng ₱{D}.",
+   "gloss_en": "A different client of the same bank deposited ₱{D}.",
+   "entity_note": "a different bank client's deposit"
+  },
+  {
+   "story_id": 9,
+   "distractor_fact": "Ang kalapit na tindahan ay may kita na ₱{D} ngayong buwan.",
+   "gloss_en": "The neighboring store has an income of ₱{D} this month.",
+   "entity_note": "a different store's income"
+  },
+  {
+   "story_id": 10,
+   "distractor_fact": "Ang ibang koponan sa parehong liga ay nakapasok ng {D} na goal.",
+   "gloss_en": "The other team in the same league scored {D} goals.",
+   "entity_note": "a different team's goals scored"
+  },
+  {
+   "story_id": 11,
+   "distractor_fact": "Ang ibang trader sa parehong pirmahan ay may kabuuang kita na ₱{D}.",
+   "gloss_en": "A different trader at the same firm has total gains of ₱{D}.",
+   "entity_note": "a different trader's gains"
+  },
+  {
+   "story_id": 12,
+   "distractor_fact": "Ang ibang pabrika, na may sariling target na hindi nabanggit dito, ay may aktwal na produksyon na {D} piraso.",
+   "gloss_en": "A different factory, with its own target not stated here, has an actual production of {D} units.",
+   "entity_note": "a different factory with its own unstated target"
+  },
+  {
+   "story_id": 13,
+   "distractor_fact": "Sa ibang lungsod, ayon sa sariling weather station nito, ang aktwal na ulan ay {D} mm.",
+   "gloss_en": "In a different city, according to its own weather station, the actual rainfall is {D} mm.",
+   "entity_note": "a different city's own weather station reading"
+  },
+  {
+   "story_id": 14,
+   "distractor_fact": "Ang ibang golyer, sa ibang course, ay may {D} stroke sa round nito.",
+   "gloss_en": "A different golfer, on a different course, has {D} strokes in his round.",
+   "entity_note": "a different golfer on a different course (unstated par)"
+  },
+  {
+   "story_id": 15,
+   "distractor_fact": "Ang ibang tren, sa ibang linya, ay dumating ng {D} minuto matapos ang hatinggabi.",
+   "gloss_en": "A different train, on a different line, arrived {D} minutes after midnight.",
+   "entity_note": "a different train on a different line with its own timetable"
+  },
+  {
+   "story_id": 16,
+   "distractor_fact": "Sa ibang lokasyon, na may sariling reference mark, ang taas ng markang sinukat ay {D} m.",
+   "gloss_en": "At a different location, which has its own reference mark, the height of the mark measured is {D} m.",
+   "entity_note": "a different location with its own reference mark"
+  },
+  {
+   "story_id": 20,
+   "distractor_fact": "Ngayong quarter, ang kita ng Company Z ay ₱{D}.",
+   "gloss_en": "This quarter, Company Z's profit is ₱{D}.",
+   "entity_note": "a third company (Company Z) not part of the comparison"
+  }
+ ]
+}

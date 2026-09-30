@@ -1,0 +1,78 @@
+{
+  "language_code": "ta",
+  "refused": [],
+  "items": [
+    {
+      "story_id": 1,
+      "distractor_fact": "தனியார் வானிலை செயலி ஒன்று அதே காலையில் {D} டிகிரி செல்சியஸ் என அறிவித்தது.",
+      "gloss_en": "A private weather app reported {D} degrees Celsius that same morning.",
+      "entity_note": "belongs to a private weather app (an organisation/service), a different kind of owner from the first distractor's neighbouring town's weather station (a place)"
+    },
+    {
+      "story_id": 2,
+      "distractor_fact": "ஒரு பரிவர்த்தனை நிதியத்தின் (ETF) அலகு விலை அதே நாளில் {D} ரூபாயாக முடிவடைந்தது.",
+      "gloss_en": "An exchange-traded fund's unit price closed at {D} rupees that same day.",
+      "entity_note": "belongs to a financial instrument (an ETF), a different kind of owner from the first distractor's another company (an organisation)"
+    },
+    {
+      "story_id": 3,
+      "distractor_fact": "ஒரு விவசாயியின் தனியார் குளத்தின் நீர்மட்டம் அதே நாளில் {D} மீட்டராக இருந்தது.",
+      "gloss_en": "A farmer's private pond's water level was {D} meters on the same day.",
+      "entity_note": "belongs to a person (a farmer's private pond), a different kind of owner from the first distractor's lake in the next district (a place)"
+    },
+    {
+      "story_id": 4,
+      "distractor_fact": "அருகில் ஒரு ஆர்வலர் பறக்கவிட்ட ட்ரோன் அதே நேரத்தில் {D} மீட்டர் உயரத்தில் இருந்தது.",
+      "gloss_en": "Nearby, a drone flown by an enthusiast was at an altitude of {D} meters at the same time.",
+      "entity_note": "belongs to a person (the enthusiast operating the drone), a different kind of owner from the first distractor's another balloon (an instrument)"
+    },
+    {
+      "story_id": 5,
+      "distractor_fact": "அதே மாவட்டத்தில் உள்ள ஒரு பல்கலைக்கழக வளாகத்தில் வசிப்பவர்களின் எண்ணிக்கை அதே ஆண்டில் {D} ஆக இருந்தது.",
+      "gloss_en": "The number of residents in a university campus in the same district was {D} in that same year.",
+      "entity_note": "belongs to an organisation (a university campus), a different kind of owner from the first distractor's neighbouring town (a place)"
+    },
+    {
+      "story_id": 6,
+      "distractor_fact": "வேறொரு வங்கிக் கிளையில் இந்த மாதம் மொத்தமாக டெபாசிட் செய்யப்பட்ட தொகை {D} ரூபாய்.",
+      "gloss_en": "At a different bank branch, the total amount deposited this month is {D} rupees.",
+      "entity_note": "belongs to an organisation (a different bank branch's total), a different kind of owner from the first distractor's different customer's account (a person)"
+    },
+    {
+      "story_id": 8,
+      "distractor_fact": "இந்த மாதம் அருகிலுள்ள ஒரு தெரு வியாபாரியின் மொத்த வருமானம் {D} ரூபாய்.",
+      "gloss_en": "This month, a nearby street vendor's total income was {D} rupees.",
+      "entity_note": "belongs to a person (an individual street vendor), a different kind of owner from the first distractor's different nearby shop (an organisation)"
+    },
+    {
+      "story_id": 9,
+      "distractor_fact": "இதே லீக்கில் வேறு அணியில் உள்ள ஒரு தனிப்பட்ட வீரர் இந்த பருவத்தில் தனிப்பட்ட முறையில் அடித்த கோல்களின் எண்ணிக்கை {D}.",
+      "gloss_en": "An individual player belonging to a different team in the same league personally scored a total of {D} goals this season.",
+      "entity_note": "belongs to a person (an individual player on a different team), a different kind of owner from the first distractor's different team (an organisation)"
+    },
+    {
+      "story_id": 10,
+      "distractor_fact": "ஒரு முதலீட்டு நிதியம் இந்த ஆண்டு ஈட்டிய லாபம் {D} ரூபாய்.",
+      "gloss_en": "An investment fund earned a profit of {D} rupees this year.",
+      "entity_note": "belongs to an organisation (an investment fund), a different kind of owner from the first distractor's different investor (a person)"
+    },
+    {
+      "story_id": 14,
+      "distractor_fact": "அதே ஆண்டு நடந்த வேறொரு போட்டியில் விளையாடிய வீரர் ஒருவர், அப்போட்டிக்கான தனி பார் எண்ணிக்கையுடன் ஒப்பிடும்போது, மொத்தம் {D} அடிகள் அடித்தார்.",
+      "gloss_en": "A player who played in a different tournament held the same year hit a total of {D} strokes, measured against that tournament's own separate par count.",
+      "entity_note": "belongs to a player in a different tournament/series with its own unstated par, a different kind of owner from the first distractor's player on an entirely different course (a place)"
+    },
+    {
+      "story_id": 15,
+      "distractor_fact": "ஒரு தனியார் பேருந்து நிறுவனத்தின் பேருந்து ஒன்று, அதன் சொந்த நேரவரம்பின்படி, நள்ளிரவு முதல் {D} நிமிடங்கள் கழித்து வந்தடைந்தது.",
+      "gloss_en": "A bus belonging to a private bus company arrived {D} minutes after midnight, according to its own timetable.",
+      "entity_note": "belongs to an organisation (a private bus company) with its own separate schedule, a different kind of owner from the first distractor's train on a different route (an instrument/series)"
+    },
+    {
+      "story_id": 17,
+      "distractor_fact": "இந்தத் தொடரில் விளையாடிய, அணி அ அல்லது அணி ஆவில் இல்லாத ஒரு வீரர் தனிப்பட்ட முறையில் அடித்த கோல்களின் எண்ணிக்கை {D}.",
+      "gloss_en": "A player who played in this series but is not on Team A or Team B personally scored a total of {D} goals.",
+      "entity_note": "belongs to a person (an individual player, not part of Team A or Team B), a different kind of owner from the first distractor's third team (an organisation)"
+    }
+  ]
+}

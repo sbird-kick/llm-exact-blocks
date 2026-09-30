@@ -1,0 +1,66 @@
+{
+  "language_code": "vi",
+  "refused": [],
+  "items": [
+    {
+      "story_id": 5,
+      "distractor_fact": "Hoa, bạn cùng lớp của Lan, có một tài khoản tiết kiệm riêng với số dư là {D} đô la.",
+      "gloss_en": "Hoa, Lan's classmate, has her own separate savings account with a balance of ${D}.",
+      "entity_note": "The balance belongs to a different person's (Hoa's) separate account, not Lan's account described in the story."
+    },
+    {
+      "story_id": 6,
+      "distractor_fact": "Cửa hàng bên cạnh cũng đã nộp vào quỹ riêng của họ {D} đô la trong ngày hôm đó.",
+      "gloss_en": "The neighboring shop also deposited ${D} into their own separate register that same day.",
+      "entity_note": "The deposit amount belongs to a different, neighboring shop's register, not the shop's register in the story."
+    },
+    {
+      "story_id": 7,
+      "distractor_fact": "Em trai của Minh cũng có {D} đô la tiền tiêu vặt vào đầu tuần đó.",
+      "gloss_en": "Minh's younger brother also had ${D} of pocket money at the start of that same week.",
+      "entity_note": "The amount belongs to Minh's brother, a different person, not Minh's own pocket money in the story."
+    },
+    {
+      "story_id": 8,
+      "distractor_fact": "Gia đình hàng xóm của ông Hùng có tổng chi phí trong tháng là {D} đô la.",
+      "gloss_en": "Mr. Hung's neighboring family had total monthly expenses of ${D}.",
+      "entity_note": "The expense figure belongs to a different, neighboring family, not Mr. Hung's family whose net result is asked about."
+    },
+    {
+      "story_id": 9,
+      "distractor_fact": "Một đội bóng khác trong cùng giải đấu đã ghi được {D} bàn trong mùa giải này.",
+      "gloss_en": "A different team in the same league scored {D} goals this season.",
+      "entity_note": "The goal count belongs to a different team in the league, not the team whose own goal difference is asked about."
+    },
+    {
+      "story_id": 10,
+      "distractor_fact": "Một nhà đầu tư khác trong cùng quỹ đã có khoản lãi là {D} đô la trong năm đó.",
+      "gloss_en": "A different investor in the same fund had gains of ${D} that year.",
+      "entity_note": "The gain figure belongs to a different investor in the fund, not the investor whose net result is asked about."
+    },
+    {
+      "story_id": 13,
+      "distractor_fact": "Một tay golf khác, thi đấu ở một sân khác, đã đánh {D} cú trong vòng đấu của mình.",
+      "gloss_en": "A different golfer, playing on a different course, took {D} strokes in their own round.",
+      "entity_note": "The stroke count belongs to a different golfer on a different, unnamed course, whose own par is left unstated, so it cannot form a second subtraction."
+    },
+    {
+      "story_id": 14,
+      "distractor_fact": "Ở một đường golf mini khác, một người chơi khác đã đánh {D} cú trong vòng chơi của mình.",
+      "gloss_en": "At a different mini golf course, a different player took {D} strokes in their own round.",
+      "entity_note": "The stroke count belongs to a different player at a different mini golf course, whose own par is left unstated, so it cannot form a second subtraction."
+    },
+    {
+      "story_id": 15,
+      "distractor_fact": "Một chuyến tàu khác, chạy trên tuyến đường khác, đã đến ga vào phút thứ {D} tính từ nửa đêm.",
+      "gloss_en": "A different train, running on a different line, arrived at the station at the minute mark {D} past midnight.",
+      "entity_note": "The arrival time belongs to a different train on a different line, whose own schedule is left unstated, so it cannot form a second subtraction with this train's timetable."
+    },
+    {
+      "story_id": 16,
+      "distractor_fact": "Ở một tòa nhà khác, thang máy hiện dừng ở tầng được đánh số {D}.",
+      "gloss_en": "In a different building, an elevator is currently stopped at the floor numbered {D}.",
+      "entity_note": "The floor number belongs to an elevator in a different building, whose own ground-floor reference is left unstated, so it cannot form a second subtraction with this building's ground floor."
+    }
+  ]
+}

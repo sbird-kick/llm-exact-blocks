@@ -1,0 +1,102 @@
+{
+  "language_code": "tl",
+  "refused": [],
+  "items": [
+    {
+      "story_id": 1,
+      "distractor_fact": "Ayon sa sensor ng isang de-kotseng weather instrument, {D}°C ang nabasa nito sa parehong oras.",
+      "gloss_en": "According to the sensor of a car-mounted weather instrument, it read {D}°C at the same time.",
+      "entity_note": "a mobile car-mounted sensor (an instrument), not a different town (a place) as in the first distractor."
+    },
+    {
+      "story_id": 2,
+      "distractor_fact": "Sa parehong araw, ang halaga ng isang ETF na sumusubaybay sa industriyang ito ay ${D}.",
+      "gloss_en": "On the same day, the value of an ETF tracking this industry is ${D}.",
+      "entity_note": "a different financial instrument (an industry-tracking ETF), not another company (an organisation) as in the first distractor."
+    },
+    {
+      "story_id": 3,
+      "distractor_fact": "Ayon sa ahensya ng tubig na namamahala sa rehiyon, ang minimum na itinakdang antas para sa mga reservoir nito ay {D} m.",
+      "gloss_en": "According to the water agency managing the region, the minimum level it has set for its reservoirs is {D} m.",
+      "entity_note": "a regulatory agency's policy threshold (an organisation), not another reservoir (a place) as in the first distractor."
+    },
+    {
+      "story_id": 4,
+      "distractor_fact": "Itinakda ng air traffic authority ang pinakamataas na taas na {D} m para sa sonang paliparan na ito.",
+      "gloss_en": "The air traffic authority set the maximum altitude of {D} m for this airspace zone.",
+      "entity_note": "a regulatory ceiling set by an authority (an organisation), not another drone (an instrument) as in the first distractor."
+    },
+    {
+      "story_id": 5,
+      "distractor_fact": "Ang bigat ng bag na dala ng courier na naghatid ng pakete ay {D} kg.",
+      "gloss_en": "The weight of the bag carried by the courier who delivered the package is {D} kg.",
+      "entity_note": "the courier's own bag (a person's belongings), not another package (an object) as in the first distractor."
+    },
+    {
+      "story_id": 6,
+      "distractor_fact": "Ayon sa supplier ng makina, ang rated speed nito sa spec sheet ay {D} km/h.",
+      "gloss_en": "According to the machine's supplier, its rated speed on the spec sheet is {D} km/h.",
+      "entity_note": "the supplier's spec-sheet rating (an organisation), not another engine (an instrument) as in the first distractor."
+    },
+    {
+      "story_id": 8,
+      "distractor_fact": "Ayon sa parehong bangko, ang interes na kinita ng savings account nito ngayong buwan ay ₱{D}.",
+      "gloss_en": "According to the same bank, the interest earned by its savings account this month is ₱{D}.",
+      "entity_note": "the bank's own interest figure (an organisation), not another client (a person) as in the first distractor."
+    },
+    {
+      "story_id": 9,
+      "distractor_fact": "Ayon sa accountant ng tindahan, ang kanyang personal na komisyon ngayong buwan ay ₱{D}.",
+      "gloss_en": "According to the store's accountant, her personal commission this month is ₱{D}.",
+      "entity_note": "the accountant's personal commission (a person), not another store (an organisation) as in the first distractor."
+    },
+    {
+      "story_id": 10,
+      "distractor_fact": "Sa parehong liga, ang nangungunang scorer ay nakapasok ng {D} na goal nang mag-isa.",
+      "gloss_en": "In the same league, the top scorer alone scored {D} goals.",
+      "entity_note": "an individual player's goal tally (a person), not another team (an organisation) as in the first distractor."
+    },
+    {
+      "story_id": 11,
+      "distractor_fact": "Ayon sa parehong pirmahan, ang kabuuang kita ng buong fund ngayong taon ay ₱{D}.",
+      "gloss_en": "According to the same firm, the total gain of the entire fund this year is ₱{D}.",
+      "entity_note": "the firm's fund-wide total (an organisation), not another trader (a person) as in the first distractor."
+    },
+    {
+      "story_id": 12,
+      "distractor_fact": "Ang production quota ng shift supervisor mismo, na hiwalay sa buong pabrika, ay {D} piraso.",
+      "gloss_en": "The shift supervisor's own personal quota, separate from the whole factory, is {D} pieces.",
+      "entity_note": "a supervisor's personal quota (a person), not another factory (an organisation) as in the first distractor."
+    },
+    {
+      "story_id": 13,
+      "distractor_fact": "Ayon sa isang pribadong kumpanya ng agrikultura na may sariling sensor, {D} mm ang naitala nito sa parehong buwan.",
+      "gloss_en": "According to a private agricultural company with its own sensor, it recorded {D} mm in the same month.",
+      "entity_note": "a private company's own sensor reading (an organisation), not another city (a place) as in the first distractor."
+    },
+    {
+      "story_id": 14,
+      "distractor_fact": "Sa ibang tournament, ang course record sa ibang course ay {D} stroke.",
+      "gloss_en": "In a different tournament, the course record at a different course is {D} strokes.",
+      "entity_note": "a tournament committee's course record (an organisation) at a separate course, not another golfer (a person) as in the first distractor."
+    },
+    {
+      "story_id": 15,
+      "distractor_fact": "Ayon sa opisina ng riles, ang oras ng pag-alis ng serbisyong karga sa parehong istasyon ay {D} minuto matapos ang hatinggabi.",
+      "gloss_en": "According to the railway authority, the departure time of the freight service at the same station is {D} minutes after midnight.",
+      "entity_note": "the railway authority's freight-service departure time (an organisation), not another train on another line (an instrument/series) as in the first distractor."
+    },
+    {
+      "story_id": 16,
+      "distractor_fact": "Ayon sa lokal na pamahalaan, ang itinakdang minimum elevation para sa mga bagong gusali sa bayan na ito ay {D} m.",
+      "gloss_en": "According to the local government, the minimum elevation set for new buildings in this town is {D} m.",
+      "entity_note": "the local government's elevation regulation (an organisation), not another location's own reference mark (a place) as in the first distractor."
+    },
+    {
+      "story_id": 20,
+      "distractor_fact": "Ayon sa isang analyst, ang inaasahang kabuuang kita ng industriya ngayong quarter ay ₱{D}.",
+      "gloss_en": "According to an analyst, the projected total income for the industry this quarter is ₱{D}.",
+      "entity_note": "an analyst's industry-wide estimate (attributed to a person), not a third company (an organisation) as in the first distractor."
+    }
+  ]
+}

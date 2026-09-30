@@ -1,0 +1,250 @@
+{
+ "language": "Malayalam",
+ "language_code": "ml",
+ "lead_in": "ഉത്തരം:",
+ "decimal_separator": ".",
+ "items": [
+  {
+   "story_id": 1,
+   "bank": "A",
+   "domain": "change",
+   "unit": "°C",
+   "sign_convention": "after minus before",
+   "facts_min_first": "ഇന്ന് വൈകുന്നേരം ഒരു നഗരത്തിലെ താപനില {M}°C ആയിരുന്നു; ഇന്ന് രാവിലെ അത് {S}°C ആയിരുന്നു.",
+   "facts_sub_first": "ഇന്ന് രാവിലെ ഒരു നഗരത്തിലെ താപനില {S}°C ആയിരുന്നു; ഇന്ന് വൈകുന്നേരം അത് {M}°C ആയിരുന്നു.",
+   "question": "താപനിലയിൽ ഉണ്ടായ മാറ്റം എന്തായിരുന്നു?",
+   "distractor_sentence": "ഈ കാലാവസ്ഥാ നിലയത്തിന്റെ നമ്പർ {D} ആണ്.",
+   "agreement_safe": true,
+   "agreement_note": "സംഖ്യയ്ക്ക് ശേഷം വരുന്ന ഏകകചിഹ്നം ഒരിക്കലും രൂപം മാറില്ല, ഏത് സംഖ്യയ്ക്കും (3, 51, 4870) ഒരുപോലെ.",
+   "decimals_natural": true,
+   "gloss_en": "This evening a city's temperature was {M} °C; this morning it was {S} °C. What was the change in temperature?",
+   "notes": "",
+   "distractor_ok": true,
+   "verifier": {
+    "tag": "V13",
+    "natural": 3,
+    "comment": ""
+   }
+  },
+  {
+   "story_id": 2,
+   "bank": "A",
+   "domain": "change",
+   "unit": "€",
+   "sign_convention": "after minus before",
+   "facts_min_first": "വ്യാപാരം അവസാനിച്ചപ്പോൾ ഒരു കമ്പനിയുടെ ഓഹരി വില €{M} ആയിരുന്നു; വ്യാപാരം തുടങ്ങിയപ്പോൾ അത് €{S} ആയിരുന്നു.",
+   "facts_sub_first": "വ്യാപാരം തുടങ്ങിയപ്പോൾ ഒരു കമ്പനിയുടെ ഓഹരി വില €{S} ആയിരുന്നു; വ്യാപാരം അവസാനിച്ചപ്പോൾ അത് €{M} ആയിരുന്നു.",
+   "question": "ദിവസത്തിൽ ഓഹരി വിലയിൽ ഉണ്ടായ മാറ്റം എന്തായിരുന്നു?",
+   "distractor_sentence": "ഈ കമ്പനിക്ക് {D} ശാഖാ ഓഫീസുകൾ ഉണ്ട്.",
+   "agreement_safe": true,
+   "agreement_note": "സംഖ്യയ്ക്ക് ശേഷം വരുന്ന ഏകകചിഹ്നം ഒരിക്കലും രൂപം മാറില്ല, ഏത് സംഖ്യയ്ക്കും (3, 51, 4870) ഒരുപോലെ.",
+   "decimals_natural": true,
+   "gloss_en": "At the close of trading a company's share price was €{M}; at the opening of trading it was €{S}. What was the change in the share price during the day?",
+   "notes": "",
+   "distractor_ok": true,
+   "verifier": {
+    "tag": "V13",
+    "natural": 3,
+    "comment": ""
+   }
+  },
+  {
+   "story_id": 3,
+   "bank": "A",
+   "domain": "change",
+   "unit": "m",
+   "sign_convention": "after minus before",
+   "facts_min_first": "മഴയ്ക്ക് ശേഷം ഒരു തടാകത്തിലെ ജലനിരപ്പ് {M} m ആയിരുന്നു; മഴയ്ക്ക് മുൻപ് അത് {S} m ആയിരുന്നു.",
+   "facts_sub_first": "മഴയ്ക്ക് മുൻപ് ഒരു തടാകത്തിലെ ജലനിരപ്പ് {S} m ആയിരുന്നു; മഴയ്ക്ക് ശേഷം അത് {M} m ആയിരുന്നു.",
+   "question": "തടാകത്തിലെ ജലനിരപ്പിൽ ഉണ്ടായ മാറ്റം എന്തായിരുന്നു?",
+   "distractor_sentence": "ഈ തടാകത്തിന് അടുത്തുള്ള പാർക്കിന്റെ കവാടം നമ്പർ {D} ആണ്.",
+   "agreement_safe": true,
+   "agreement_note": "സംഖ്യയ്ക്ക് ശേഷം വരുന്ന ഏകകചിഹ്നം ഒരിക്കലും രൂപം മാറില്ല, ഏത് സംഖ്യയ്ക്കും (3, 51, 4870) ഒരുപോലെ.",
+   "decimals_natural": true,
+   "gloss_en": "After the rain a lake's water level was {M} m; before the rain it was {S} m. What was the change in the lake's water level?",
+   "notes": "",
+   "distractor_ok": true,
+   "verifier": {
+    "tag": "V13",
+    "natural": 3,
+    "comment": ""
+   }
+  },
+  {
+   "story_id": 4,
+   "bank": "A",
+   "domain": "balance",
+   "unit": "€",
+   "sign_convention": "deposited minus withdrawn",
+   "facts_min_first": "ഈ മാസം ഒരു സേവിംഗ്സ് അക്കൗണ്ടിലേക്ക് €{M} നിക്ഷേപിച്ചു; അതിൽ നിന്ന് €{S} പിൻവലിച്ചു.",
+   "facts_sub_first": "ഈ മാസം ഒരു സേവിംഗ്സ് അക്കൗണ്ടിൽ നിന്ന് €{S} പിൻവലിച്ചു; അതിലേക്ക് €{M} നിക്ഷേപിച്ചു.",
+   "question": "ഈ മാസത്തെ അക്കൗണ്ടിന്റെ ബാലൻസ് എത്രയായിരുന്നു?",
+   "distractor_sentence": "ഈ ബാങ്ക് ശാഖ നില നമ്പർ {D} ലാണ് സ്ഥിതി ചെയ്യുന്നത്.",
+   "agreement_safe": true,
+   "agreement_note": "സംഖ്യയ്ക്ക് ശേഷം വരുന്ന ഏകകചിഹ്നം ഒരിക്കലും രൂപം മാറില്ല, ഏത് സംഖ്യയ്ക്കും (3, 51, 4870) ഒരുപോലെ.",
+   "decimals_natural": true,
+   "gloss_en": "During the month €{M} was deposited into a savings account; €{S} was withdrawn from it. What is the account's balance for the month?",
+   "notes": "",
+   "distractor_ok": true,
+   "verifier": {
+    "tag": "V13",
+    "natural": 3,
+    "comment": ""
+   }
+  },
+  {
+   "story_id": 5,
+   "bank": "A",
+   "domain": "balance",
+   "unit": "€",
+   "sign_convention": "had minus spent",
+   "facts_min_first": "ഒരു ഗിഫ്റ്റ് കാർഡിൽ തുടക്കത്തിൽ €{M} ഉണ്ടായിരുന്നു; അതിൽ നിന്ന് €{S} ചെലവഴിച്ചു.",
+   "facts_sub_first": "ഒരു ഗിഫ്റ്റ് കാർഡിൽ നിന്ന് €{S} ചെലവഴിച്ചു; തുടക്കത്തിൽ അതിൽ €{M} ഉണ്ടായിരുന്നു.",
+   "question": "കാർഡിൽ ബാക്കിയുള്ള ബാലൻസ് എത്രയാണ്?",
+   "distractor_sentence": "ഈ ഗിഫ്റ്റ് കാർഡ് ഇഷ്യൂ ചെയ്തത് സ്റ്റോർ നമ്പർ {D} ൽ നിന്നാണ്.",
+   "agreement_safe": true,
+   "agreement_note": "സംഖ്യയ്ക്ക് ശേഷം വരുന്ന ഏകകചിഹ്നം ഒരിക്കലും രൂപം മാറില്ല, ഏത് സംഖ്യയ്ക്കും (3, 51, 4870) ഒരുപോലെ.",
+   "decimals_natural": true,
+   "gloss_en": "A gift card had €{M} on it at the start; €{S} was spent from the card. What is the remaining balance on the card?",
+   "notes": "",
+   "distractor_ok": true,
+   "verifier": {
+    "tag": "V13",
+    "natural": 3,
+    "comment": ""
+   }
+  },
+  {
+   "story_id": 6,
+   "bank": "A",
+   "domain": "balance",
+   "unit": "GB",
+   "sign_convention": "had minus spent",
+   "facts_min_first": "ഒരു മൊബൈൽ ഡാറ്റ പ്ലാനിൽ മാസത്തിന്റെ തുടക്കത്തിൽ {M} GB ഉണ്ടായിരുന്നു; ഈ മാസം {S} GB ഉപയോഗിച്ചു.",
+   "facts_sub_first": "ഈ മാസം ഒരു മൊബൈൽ ഡാറ്റ പ്ലാനിൽ നിന്ന് {S} GB ഉപയോഗിച്ചു; മാസത്തിന്റെ തുടക്കത്തിൽ അതിൽ {M} GB ഉണ്ടായിരുന്നു.",
+   "question": "ബാക്കിയുള്ള ഡാറ്റ ബാലൻസ് എത്രയാണ്?",
+   "distractor_sentence": "ഈ പ്ലാൻ കരാർ നമ്പർ {D} ന് കീഴിലാണ് രജിസ്റ്റർ ചെയ്തിരിക്കുന്നത്.",
+   "agreement_safe": true,
+   "agreement_note": "സംഖ്യയ്ക്ക് ശേഷം വരുന്ന ഏകകചിഹ്നം ഒരിക്കലും രൂപം മാറില്ല, ഏത് സംഖ്യയ്ക്കും (3, 51, 4870) ഒരുപോലെ.",
+   "decimals_natural": true,
+   "gloss_en": "A mobile data plan had {M} GB at the start of the month; {S} GB was used during the month. What is the remaining data balance?",
+   "notes": "",
+   "distractor_ok": true,
+   "verifier": {
+    "tag": "V13",
+    "natural": 3,
+    "comment": ""
+   }
+  },
+  {
+   "story_id": 7,
+   "bank": "A",
+   "domain": "net",
+   "unit": "€",
+   "sign_convention": "in minus out",
+   "facts_min_first": "ഒരു കുടുംബത്തിന്റെ ഈ മാസത്തെ വരുമാനം €{M} ആയിരുന്നു; അതിന്റെ ഈ മാസത്തെ ചെലവ് €{S} ആയിരുന്നു.",
+   "facts_sub_first": "ഒരു കുടുംബത്തിന്റെ ഈ മാസത്തെ ചെലവ് €{S} ആയിരുന്നു; അതിന്റെ ഈ മാസത്തെ വരുമാനം €{M} ആയിരുന്നു.",
+   "question": "ഈ മാസം കുടുംബത്തിന്റെ അറ്റ ഫലം എന്തായിരുന്നു?",
+   "distractor_sentence": "ഈ കുടുംബം ഈ വർഷം ഫ്ലാറ്റ് നമ്പർ {D} ലേക്ക് താമസം മാറി.",
+   "agreement_safe": true,
+   "agreement_note": "സംഖ്യയ്ക്ക് ശേഷം വരുന്ന ഏകകചിഹ്നം ഒരിക്കലും രൂപം മാറില്ല, ഏത് സംഖ്യയ്ക്കും (3, 51, 4870) ഒരുപോലെ.",
+   "decimals_natural": true,
+   "gloss_en": "A household's income for the month was €{M}; its expenses for the month were €{S}. What was the household's net result for the month?",
+   "notes": "",
+   "distractor_ok": true,
+   "verifier": {
+    "tag": "V13",
+    "natural": 3,
+    "comment": ""
+   }
+  },
+  {
+   "story_id": 8,
+   "bank": "A",
+   "domain": "net",
+   "unit": "goal",
+   "sign_convention": "in minus out",
+   "facts_min_first": "ഒരു സീസണിൽ ഒരു ഫുട്ബോൾ ടീം {M} ഗോൾ നേടി; അതേ സീസണിൽ അവർ {S} ഗോൾ വഴങ്ങി.",
+   "facts_sub_first": "ഒരു സീസണിൽ ഒരു ഫുട്ബോൾ ടീം {S} ഗോൾ വഴങ്ങി; അതേ സീസണിൽ അവർ {M} ഗോൾ നേടി.",
+   "question": "സീസണിൽ ടീമിന്റെ ഗോൾ വ്യത്യാസം എന്തായിരുന്നു?",
+   "distractor_sentence": "ഈ ടീം അവരുടെ ഹോം മത്സരങ്ങൾ കളിച്ചത് ഗേറ്റ് നമ്പർ {D} ഉള്ള സ്റ്റേഡിയത്തിലാണ്.",
+   "agreement_safe": true,
+   "agreement_note": "മലയാളത്തിൽ സംഖ്യയ്ക്ക് ശേഷമുള്ള നാമം രൂപം മാറാതെ അടിസ്ഥാന രൂപത്തിൽ തന്നെ നിൽക്കും, 3, 51, 4870 എന്നിവയ്ക്കും ഒരുപോലെ.",
+   "decimals_natural": false,
+   "gloss_en": "Over a season a football team scored {M} goals; it conceded {S} goals. What was the team's goal difference for the season?",
+   "notes": "",
+   "distractor_ok": true,
+   "verifier": {
+    "tag": "V13",
+    "natural": 3,
+    "comment": ""
+   }
+  },
+  {
+   "story_id": 9,
+   "bank": "A",
+   "domain": "net",
+   "unit": "€",
+   "sign_convention": "in minus out",
+   "facts_min_first": "ഈ പാദത്തിൽ ഒരു ചെറുകിട ബിസിനസ് €{M} ലാഭം രേഖപ്പെടുത്തി; അതേ പാദത്തിൽ അത് €{S} നഷ്ടം രേഖപ്പെടുത്തി.",
+   "facts_sub_first": "ഈ പാദത്തിൽ ഒരു ചെറുകിട ബിസിനസ് €{S} നഷ്ടം രേഖപ്പെടുത്തി; അതേ പാദത്തിൽ അത് €{M} ലാഭം രേഖപ്പെടുത്തി.",
+   "question": "ഈ പാദത്തിൽ ബിസിനസിന്റെ അറ്റ ഫലം എന്തായിരുന്നു?",
+   "distractor_sentence": "ഈ ബിസിനസ് ലൈസൻസ് നമ്പർ {D} ന് കീഴിലാണ് രജിസ്റ്റർ ചെയ്തിരിക്കുന്നത്.",
+   "agreement_safe": true,
+   "agreement_note": "സംഖ്യയ്ക്ക് ശേഷം വരുന്ന ഏകകചിഹ്നം ഒരിക്കലും രൂപം മാറില്ല, ഏത് സംഖ്യയ്ക്കും (3, 51, 4870) ഒരുപോലെ.",
+   "decimals_natural": true,
+   "gloss_en": "During the quarter a small business recorded €{M} in gains; it recorded €{S} in losses. What was the business's net result for the quarter?",
+   "notes": "",
+   "distractor_ok": true,
+   "verifier": {
+    "tag": "V13",
+    "natural": 3,
+    "comment": ""
+   }
+  },
+  {
+   "story_id": 15,
+   "bank": "A",
+   "domain": "arrival vs schedule",
+   "unit": "min",
+   "sign_convention": "actual minus scheduled, late positive",
+   "facts_min_first": "ഒരു ട്രെയിനിന്റെ യഥാർത്ഥ വരവ് സമയ റീഡിംഗ് {M} min ആയിരുന്നു; അതിന്റെ ഷെഡ്യൂൾ ചെയ്ത വരവ് സമയ റീഡിംഗ് {S} min ആയിരുന്നു.",
+   "facts_sub_first": "ഒരു ട്രെയിനിന്റെ ഷെഡ്യൂൾ ചെയ്ത വരവ് സമയ റീഡിംഗ് {S} min ആയിരുന്നു; അതിന്റെ യഥാർത്ഥ വരവ് സമയ റീഡിംഗ് {M} min ആയിരുന്നു.",
+   "question": "ട്രെയിൻ ഷെഡ്യൂളുമായി താരതമ്യപ്പെടുത്തുമ്പോൾ എത്ര മിനിറ്റ് ആയിരുന്നു, വൈകുന്നത് പോസിറ്റീവ് ആയി കണക്കാക്കുമ്പോൾ?",
+   "distractor_sentence": "ഈ ട്രെയിൻ പുറപ്പെട്ടത് പ്ലാറ്റ്ഫോം നമ്പർ {D} ൽ നിന്നാണ്.",
+   "agreement_safe": true,
+   "agreement_note": "സംഖ്യയ്ക്ക് ശേഷം വരുന്ന ഏകകചിഹ്നം ഒരിക്കലും രൂപം മാറില്ല, ഏത് സംഖ്യയ്ക്കും (3, 51, 4870) ഒരുപോലെ.",
+   "decimals_natural": false,
+   "gloss_en": "A train's actual arrival time reading was {M} min; its scheduled arrival time reading was {S} min. How many minutes was the train relative to its schedule, with lateness counted as positive?",
+   "notes": "",
+   "distractor_ok": true,
+   "verifier": {
+    "tag": "V13",
+    "natural": 2,
+    "comment": "'സമയ റീഡിംഗ്' is an English calque for an arrival time."
+   }
+  },
+  {
+   "story_id": 16,
+   "bank": "A",
+   "domain": "level vs reference",
+   "unit": "floor",
+   "sign_convention": "level minus reference",
+   "facts_min_first": "ഒരു ലിഫ്റ്റ് പാനലിൽ കാണിച്ച നില റീഡിംഗ് {M} ആയിരുന്നു; കെട്ടിടത്തിന്റെ ഗ്രൗണ്ട് ഫ്ലോർ റീഡിംഗ് {S} ആണ്.",
+   "facts_sub_first": "ഒരു കെട്ടിടത്തിന്റെ ഗ്രൗണ്ട് ഫ്ലോർ റീഡിംഗ് {S} ആണ്; അതിന്റെ ലിഫ്റ്റ് പാനലിൽ കാണിച്ച നില റീഡിംഗ് {M} ആയിരുന്നു.",
+   "question": "ഗ്രൗണ്ട് ഫ്ലോറുമായി താരതമ്യപ്പെടുത്തുമ്പോൾ പാനൽ കാണിക്കുന്ന നില റീഡിംഗ് എന്താണ്?",
+   "distractor_sentence": "ഈ കെട്ടിടത്തിലെ ലിഫ്റ്റ് നമ്പർ {D} ആണ്.",
+   "agreement_safe": true,
+   "agreement_note": "മലയാളത്തിൽ സംഖ്യയ്ക്ക് ശേഷമുള്ള നാമം രൂപം മാറാതെ അടിസ്ഥാന രൂപത്തിൽ തന്നെ നിൽക്കും, 3, 51, 4870 എന്നിവയ്ക്കും ഒരുപോലെ.",
+   "decimals_natural": false,
+   "gloss_en": "A lift panel showed a floor reading of {M}; the building's ground floor reading is {S}. Relative to the ground floor, what floor reading does the panel show?",
+   "notes": "",
+   "distractor_ok": true,
+   "verifier": {
+    "tag": "V13",
+    "natural": 2,
+    "comment": "'നില റീഡിംഗ്' is a calque."
+   }
+  }
+ ]
+}

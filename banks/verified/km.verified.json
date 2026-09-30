@@ -1,0 +1,272 @@
+{
+ "language": "Khmer (Khmer script, but ASCII digits)",
+ "language_code": "km",
+ "lead_in": "ចម្លើយគឺ",
+ "decimal_separator": ".",
+ "items": [
+  {
+   "story_id": 1,
+   "bank": "A",
+   "domain": "change",
+   "unit": "អង្សាសេ",
+   "sign_convention": "after minus before",
+   "facts_min_first": "នៅពេលថ្ងៃត្រង់ សីតុណ្ហភាពនៅសួនច្បារមានកម្រិត {M} អង្សាសេ ចំណែកនៅពេលព្រឹកមានកម្រិត {S} អង្សាសេ",
+   "facts_sub_first": "នៅពេលព្រឹក សីតុណ្ហភាពនៅសួនច្បារមានកម្រិត {S} អង្សាសេ ចំណែកនៅពេលថ្ងៃត្រង់មានកម្រិត {M} អង្សាសេ",
+   "question": "សីតុណ្ហភាពបានប្រែប្រួលទៅជាប៉ុន្មាន",
+   "distractor_sentence": "សួនច្បារនេះបើកបម្រើសាធារណជនតាំងពីឆ្នាំ {D}",
+   "agreement_safe": true,
+   "agreement_note": "Khmer nouns and classifiers never inflect for number after a numeral; the unit word follows {M}/{S}/{D} unchanged whether the numeral is 3, 51, or 4870.",
+   "decimals_natural": false,
+   "gloss_en": "At noon the temperature in the garden was {M}°C, while in the morning it was {S}°C. How much did the temperature change?",
+   "notes": "",
+   "distractor_ok": false,
+   "verifier": {
+    "tag": "V8",
+    "natural": 3,
+    "comment": "The distractor puts the number in a year slot (ឆ្នាំ 17), which does not read as a real year."
+   }
+  },
+  {
+   "story_id": 2,
+   "bank": "A",
+   "domain": "change",
+   "unit": "ដុល្លារ",
+   "sign_convention": "after minus before",
+   "facts_min_first": "ថ្លៃភាគហ៊ុននៅពេលបិទផ្សារមានតម្លៃ {M} ដុល្លារ ចំណែកនៅពេលបើកផ្សារមានតម្លៃ {S} ដុល្លារ",
+   "facts_sub_first": "ថ្លៃភាគហ៊ុននៅពេលបើកផ្សារមានតម្លៃ {S} ដុល្លារ ចំណែកនៅពេលបិទផ្សារមានតម្លៃ {M} ដុល្លារ",
+   "question": "តម្លៃភាគហ៊ុននេះបានប្រែប្រួលទៅជាប៉ុន្មានក្នុងថ្ងៃនោះ",
+   "distractor_sentence": "ក្រុមហ៊ុននេះបានចុះបញ្ជីនៅផ្សារហ៊ុនតាំងពីឆ្នាំ {D}",
+   "agreement_safe": true,
+   "agreement_note": "Khmer nouns and classifiers never inflect for number after a numeral; the unit word follows {M}/{S}/{D} unchanged whether the numeral is 3, 51, or 4870.",
+   "decimals_natural": false,
+   "gloss_en": "At market close the share price was {M} dollars, while at market open it was {S} dollars. How much did the share price change that day?",
+   "notes": "",
+   "distractor_ok": false,
+   "verifier": {
+    "tag": "V8",
+    "natural": 3,
+    "comment": "Same year-slot distractor problem."
+   }
+  },
+  {
+   "story_id": 3,
+   "bank": "A",
+   "domain": "change",
+   "unit": "ម៉ែត្រ",
+   "sign_convention": "after minus before",
+   "facts_min_first": "បន្ទាប់ពីភ្លៀងធ្លាក់ខ្លាំង កម្រិតទឹកក្នុងអាងស្តុកទឹកមានកម្រិត {M} ម៉ែត្រ ចំណែកមុនពេលភ្លៀងធ្លាក់មានកម្រិត {S} ម៉ែត្រ",
+   "facts_sub_first": "មុនពេលភ្លៀងធ្លាក់ កម្រិតទឹកក្នុងអាងស្តុកទឹកមានកម្រិត {S} ម៉ែត្រ ចំណែកបន្ទាប់ពីភ្លៀងធ្លាក់ខ្លាំងមានកម្រិត {M} ម៉ែត្រ",
+   "question": "កម្រិតទឹកបានប្រែប្រួលទៅជាប៉ុន្មាន",
+   "distractor_sentence": "អាងស្តុកទឹកនេះត្រូវបានសាងសង់រួចរាល់តាំងពីឆ្នាំ {D}",
+   "agreement_safe": true,
+   "agreement_note": "Khmer nouns and classifiers never inflect for number after a numeral; the unit word follows {M}/{S}/{D} unchanged whether the numeral is 3, 51, or 4870.",
+   "decimals_natural": false,
+   "gloss_en": "After heavy rain the reservoir's water level was {M} meters, while before the rain it was {S} meters. How much did the water level change?",
+   "notes": "",
+   "distractor_ok": false,
+   "verifier": {
+    "tag": "V8",
+    "natural": 3,
+    "comment": "Same year-slot distractor problem."
+   }
+  },
+  {
+   "story_id": 4,
+   "bank": "A",
+   "domain": "change",
+   "unit": "ម៉ែត្រ",
+   "sign_convention": "after minus before",
+   "facts_min_first": "នៅចុងបញ្ចប់នៃការហោះហើរ យន្តហោះគ្មានមនុស្សបើកមានកម្ពស់ {M} ម៉ែត្រពីដី ចំណែកនៅដើមការហោះហើរមានកម្ពស់ {S} ម៉ែត្រ",
+   "facts_sub_first": "នៅដើមការហោះហើរ យន្តហោះគ្មានមនុស្សបើកមានកម្ពស់ {S} ម៉ែត្រពីដី ចំណែកនៅចុងបញ្ចប់ការហោះហើរមានកម្ពស់ {M} ម៉ែត្រ",
+   "question": "កម្ពស់របស់យន្តហោះគ្មានមនុស្សបើកបានប្រែប្រួលទៅជាប៉ុន្មាន",
+   "distractor_sentence": "យន្តហោះគ្មានមនុស្សបើកម៉ូដែលនេះត្រូវបានផលិតចេញលក់ក្នុងឆ្នាំ {D}",
+   "agreement_safe": true,
+   "agreement_note": "Khmer nouns and classifiers never inflect for number after a numeral; the unit word follows {M}/{S}/{D} unchanged whether the numeral is 3, 51, or 4870.",
+   "decimals_natural": false,
+   "gloss_en": "At the end of the flight the drone's altitude was {M} meters above the ground, while at the start it was {S} meters. How much did the drone's altitude change?",
+   "notes": "",
+   "distractor_ok": false,
+   "verifier": {
+    "tag": "V8",
+    "natural": 3,
+    "comment": "Same year-slot distractor problem."
+   }
+  },
+  {
+   "story_id": 5,
+   "bank": "A",
+   "domain": "change",
+   "unit": "គីឡូក្រាម",
+   "sign_convention": "after minus before",
+   "facts_min_first": "បន្ទាប់ពីការវេចខ្ចប់ឡើងវិញ កញ្ចប់នេះមានទម្ងន់ {M} គីឡូក្រាម ចំណែកមុនពេលវេចខ្ចប់ឡើងវិញមានទម្ងន់ {S} គីឡូក្រាម",
+   "facts_sub_first": "មុនពេលវេចខ្ចប់ឡើងវិញ កញ្ចប់នេះមានទម្ងន់ {S} គីឡូក្រាម ចំណែកបន្ទាប់ពីវេចខ្ចប់ឡើងវិញមានទម្ងន់ {M} គីឡូក្រាម",
+   "question": "ទម្ងន់កញ្ចប់នេះបានប្រែប្រួលទៅជាប៉ុន្មាន",
+   "distractor_sentence": "ក្រុមហ៊ុនដឹកជញ្ជូននេះមានឃ្លាំងសាខាចំនួន {D} កន្លែង",
+   "agreement_safe": true,
+   "agreement_note": "Khmer nouns and classifiers never inflect for number after a numeral; the unit word follows {M}/{S}/{D} unchanged whether the numeral is 3, 51, or 4870.",
+   "decimals_natural": false,
+   "gloss_en": "After repacking, the package weighed {M} kilograms, while before repacking it weighed {S} kilograms. How much did the package's weight change?",
+   "notes": "",
+   "distractor_ok": true,
+   "verifier": {
+    "tag": "V8",
+    "natural": 3,
+    "comment": ""
+   }
+  },
+  {
+   "story_id": 6,
+   "bank": "A",
+   "domain": "change",
+   "unit": "នាក់",
+   "sign_convention": "after minus before",
+   "facts_min_first": "នៅចុងឆ្នាំនេះ ភូមិមួយមានចំនួនប្រជាជន {M} នាក់ ចំណែកនៅដើមឆ្នាំមានចំនួនប្រជាជន {S} នាក់",
+   "facts_sub_first": "នៅដើមឆ្នាំនេះ ភូមិមួយមានចំនួនប្រជាជន {S} នាក់ ចំណែកនៅចុងឆ្នាំមានចំនួនប្រជាជន {M} នាក់",
+   "question": "ចំនួនប្រជាជននៃភូមិនេះបានប្រែប្រួលទៅជាប៉ុន្មាននាក់",
+   "distractor_sentence": "ភូមិនេះមានផ្លូវសំខាន់ចំនួន {D} ខ្សែ",
+   "agreement_safe": true,
+   "agreement_note": "Khmer nouns and classifiers never inflect for number after a numeral; the unit word follows {M}/{S}/{D} unchanged whether the numeral is 3, 51, or 4870.",
+   "decimals_natural": false,
+   "gloss_en": "At the end of this year the village had a population of {M}, while at the start of the year it had a population of {S}. How much did the village's population change?",
+   "notes": "",
+   "distractor_ok": true,
+   "verifier": {
+    "tag": "V8",
+    "natural": 3,
+    "comment": ""
+   }
+  },
+  {
+   "story_id": 7,
+   "bank": "A",
+   "domain": "change",
+   "unit": "គីឡូម៉ែត្រក្នុងមួយម៉ោង",
+   "sign_convention": "after minus before",
+   "facts_min_first": "នៅពេលចេញផុតពីផ្លូវកោង ឡានមួយគ្រឿងបានបើកបរដោយល្បឿន {M} គីឡូម៉ែត្រក្នុងមួយម៉ោង ចំណែកមុននឹងចូលផ្លូវកោងមានល្បឿន {S} គីឡូម៉ែត្រក្នុងមួយម៉ោង",
+   "facts_sub_first": "មុននឹងចូលផ្លូវកោង ឡានមួយគ្រឿងបានបើកបរដោយល្បឿន {S} គីឡូម៉ែត្រក្នុងមួយម៉ោង ចំណែកនៅពេលចេញផុតពីផ្លូវកោងមានល្បឿន {M} គីឡូម៉ែត្រក្នុងមួយម៉ោង",
+   "question": "ល្បឿនរបស់ឡាននេះបានប្រែប្រួលទៅជាប៉ុន្មាន",
+   "distractor_sentence": "ផ្លូវកោងនេះមានប្រវែងសរុបប្រហែល {D} ម៉ែត្រ",
+   "agreement_safe": true,
+   "agreement_note": "Khmer nouns and classifiers never inflect for number after a numeral; the unit word follows {M}/{S}/{D} unchanged whether the numeral is 3, 51, or 4870.",
+   "decimals_natural": false,
+   "gloss_en": "As it exited the curve, a car was traveling at {M} km/h, while before entering the curve it was traveling at {S} km/h. How much did the car's speed change?",
+   "notes": "",
+   "distractor_ok": true,
+   "verifier": {
+    "tag": "V8",
+    "natural": 3,
+    "comment": ""
+   }
+  },
+  {
+   "story_id": 9,
+   "bank": "A",
+   "domain": "balance",
+   "unit": "ដុល្លារ",
+   "sign_convention": "deposited minus withdrawn",
+   "facts_min_first": "ក្នុងខែនេះ គណនីធនាគាររបស់នាងបានទទួលការដាក់ប្រាក់សរុបចំនួន {M} ដុល្លារ ហើយបានដកប្រាក់សរុបចំនួន {S} ដុល្លារ",
+   "facts_sub_first": "ក្នុងខែនេះ គណនីធនាគាររបស់នាងបានដកប្រាក់សរុបចំនួន {S} ដុល្លារ ហើយបានទទួលការដាក់ប្រាក់សរុបចំនួន {M} ដុល្លារ",
+   "question": "សមតុល្យគណនីរបស់នាងឥឡូវនេះមានចំនួនប៉ុន្មាន",
+   "distractor_sentence": "នាងបានបើកគណនីនេះនៅសាខាធនាគារចំនួន {D}",
+   "agreement_safe": true,
+   "agreement_note": "Khmer nouns and classifiers never inflect for number after a numeral; the unit word follows {M}/{S}/{D} unchanged whether the numeral is 3, 51, or 4870.",
+   "decimals_natural": false,
+   "gloss_en": "This month her bank account received total deposits of {M} dollars and total withdrawals of {S} dollars. What is her account balance now?",
+   "notes": "",
+   "distractor_ok": false,
+   "verifier": {
+    "tag": "V8",
+    "natural": 3,
+    "comment": "The distractor reads as opened the account at 17 branches rather than at branch number 17."
+   }
+  },
+  {
+   "story_id": 10,
+   "bank": "A",
+   "domain": "net",
+   "unit": "ដុល្លារ",
+   "sign_convention": "in minus out",
+   "facts_min_first": "ក្នុងខែនេះ ហាងតូចមួយមានចំណូលសរុបចំនួន {M} ដុល្លារ និងមានចំណាយសរុបចំនួន {S} ដុល្លារ",
+   "facts_sub_first": "ក្នុងខែនេះ ហាងតូចមួយមានចំណាយសរុបចំនួន {S} ដុល្លារ និងមានចំណូលសរុបចំនួន {M} ដុល្លារ",
+   "question": "លទ្ធផលសុទ្ធរបស់ហាងនេះសម្រាប់ខែនេះមានចំនួនប៉ុន្មាន",
+   "distractor_sentence": "ហាងតូចនេះមានបុគ្គលិកធ្វើការចំនួន {D} នាក់",
+   "agreement_safe": true,
+   "agreement_note": "Khmer nouns and classifiers never inflect for number after a numeral; the unit word follows {M}/{S}/{D} unchanged whether the numeral is 3, 51, or 4870.",
+   "decimals_natural": false,
+   "gloss_en": "This month a small shop had total income of {M} dollars and total expenses of {S} dollars. What was the shop's net result for the month?",
+   "notes": "",
+   "distractor_ok": true,
+   "verifier": {
+    "tag": "V8",
+    "natural": 3,
+    "comment": ""
+   }
+  },
+  {
+   "story_id": 12,
+   "bank": "A",
+   "domain": "net",
+   "unit": "ដុល្លារ",
+   "sign_convention": "gains minus losses",
+   "facts_min_first": "ក្នុងឆ្នាំនេះ ផលប័ត្រវិនិយោគរបស់គាត់មានប្រាក់ចំណេញសរុបចំនួន {M} ដុល្លារ និងមានការខាតបង់សរុបចំនួន {S} ដុល្លារ",
+   "facts_sub_first": "ក្នុងឆ្នាំនេះ ផលប័ត្រវិនិយោគរបស់គាត់មានការខាតបង់សរុបចំនួន {S} ដុល្លារ និងមានប្រាក់ចំណេញសរុបចំនួន {M} ដុល្លារ",
+   "question": "លទ្ធផលសុទ្ធនៃការវិនិយោគរបស់គាត់សម្រាប់ឆ្នាំនេះមានចំនួនប៉ុន្មាន",
+   "distractor_sentence": "គាត់មានគណនីវិនិយោគផ្សេងគ្នាសរុបចំនួន {D}",
+   "agreement_safe": true,
+   "agreement_note": "Khmer nouns and classifiers never inflect for number after a numeral; the unit word follows {M}/{S}/{D} unchanged whether the numeral is 3, 51, or 4870.",
+   "decimals_natural": false,
+   "gloss_en": "This year, his investment portfolio had total gains of {M} dollars and total losses of {S} dollars. What was the net result of his investments for the year?",
+   "notes": "",
+   "distractor_ok": true,
+   "verifier": {
+    "tag": "V8",
+    "natural": 3,
+    "comment": ""
+   }
+  },
+  {
+   "story_id": 17,
+   "bank": "A",
+   "domain": "arrival vs schedule",
+   "unit": "នាទី",
+   "sign_convention": "actual minus scheduled, late counted positive",
+   "facts_min_first": "រថភ្លើងមួយបានមកដល់ស្ថានីយ៍ជាក់ស្តែងនៅម៉ោងស្មើនឹងម៉ោង {M} គិតជានាទី ខណៈកាលវិភាគបានកំណត់ម៉ោងមកដល់ស្មើនឹងម៉ោង {S} គិតជានាទី",
+   "facts_sub_first": "កាលវិភាគបានកំណត់ម៉ោងមកដល់របស់រថភ្លើងមួយស្មើនឹងម៉ោង {S} គិតជានាទី ខណៈរថភ្លើងនោះបានមកដល់ស្ថានីយ៍ជាក់ស្តែងស្មើនឹងម៉ោង {M} គិតជានាទី",
+   "question": "រថភ្លើងនេះមកដល់ឆាប់ជាងឬយឺតជាងកាលវិភាគប៉ុន្មាននាទី គិតយឺតជាចំនួនវិជ្ជមាន",
+   "distractor_sentence": "ស្ថានីយ៍រថភ្លើងនេះមានផ្លាតហ្វមសរុបចំនួន {D}",
+   "agreement_safe": true,
+   "agreement_note": "Khmer nouns and classifiers never inflect for number after a numeral; the unit word follows {M}/{S}/{D} unchanged whether the numeral is 3, 51, or 4870.",
+   "decimals_natural": false,
+   "gloss_en": "A train actually arrived at the station at a time equal to {M} minutes (on a running clock), while the schedule set its arrival at a time equal to {S} minutes. How many minutes relative to schedule did the train arrive, with late counted as positive?",
+   "notes": "times expressed as minute counts on a shared clock so both facts strings avoid separate digit-bearing clock times",
+   "distractor_ok": true,
+   "verifier": {
+    "tag": "V8",
+    "natural": 2,
+    "comment": "The minutes-as-a-clock-number wrapper is clunky, though the late-is-positive clause fixes the sign."
+   }
+  },
+  {
+   "story_id": 18,
+   "bank": "A",
+   "domain": "level vs reference",
+   "unit": "ជាន់",
+   "sign_convention": "level minus reference",
+   "facts_min_first": "ការិយាល័យមួយស្ថិតនៅជាន់ដែលមានលេខរៀងស្មើនឹង {M} រាប់ពីជាន់សំរេច ខណៈជាន់សំរេចត្រូវបានកំណត់ឲ្យមានលេខរៀងស្មើនឹង {S}",
+   "facts_sub_first": "ជាន់សំរេចត្រូវបានកំណត់ឲ្យមានលេខរៀងស្មើនឹង {S} ខណៈការិយាល័យមួយស្ថិតនៅជាន់ដែលមានលេខរៀងស្មើនឹង {M}",
+   "question": "ការិយាល័យនេះស្ថិតនៅជាន់ណាមួយធៀបនឹងជាន់សំរេច",
+   "distractor_sentence": "អគារនេះមានជណ្តើរយន្តសរុបចំនួន {D}",
+   "agreement_safe": true,
+   "agreement_note": "Khmer nouns and classifiers never inflect for number after a numeral; the unit word follows {M}/{S}/{D} unchanged whether the numeral is 3, 51, or 4870.",
+   "decimals_natural": false,
+   "gloss_en": "An office is on a floor whose number equals {M} counting from the reference floor, while the reference floor is set at number {S}. Which floor number is the office on relative to the reference floor?",
+   "notes": "floor described via an abstract 'number equal to' construction so both directions and negative (basement) floors read naturally without an ordinal-inflected noun",
+   "distractor_ok": true,
+   "verifier": {
+    "tag": "V8",
+    "natural": 2,
+    "comment": ""
+   }
+  }
+ ]
+}

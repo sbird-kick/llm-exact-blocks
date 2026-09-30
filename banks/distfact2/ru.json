@@ -1,0 +1,84 @@
+{
+  "language_code": "ru",
+  "refused": [],
+  "items": [
+    {
+      "story_id": 1,
+      "distractor_fact": "Комнатный термометр в той же квартире в это время показывал {D} °C.",
+      "gloss_en": "The room thermometer in the same apartment showed {D} °C at that time.",
+      "entity_note": "a different instrument (an indoor room thermometer) in the same apartment, unlike the first distractor's different village (a place)"
+    },
+    {
+      "story_id": 2,
+      "distractor_fact": "Облигации этой же компании в тот день продавались по {D} $.",
+      "gloss_en": "Bonds of the same company were selling at {D} $ that day.",
+      "entity_note": "a different financial instrument (the company's bonds), unlike the first distractor's different company (an organisation)"
+    },
+    {
+      "story_id": 4,
+      "distractor_fact": "Другая туристическая группа на этом же маршруте начала подъём с высоты {D} м.",
+      "gloss_en": "A different tour group on this same route began its ascent from an altitude of {D} m.",
+      "entity_note": "a different tour group (an organisation), unlike the first distractor's different climber (a person)"
+    },
+    {
+      "story_id": 5,
+      "distractor_fact": "Средний вес участников другой команды на этом турнире составлял {D} кг.",
+      "gloss_en": "The average weight of participants on a different team at this tournament was {D} kg.",
+      "entity_note": "an aggregate figure for a different team (an organisation), unlike the first distractor's different athlete (a person)"
+    },
+    {
+      "story_id": 7,
+      "distractor_fact": "На соседней трассе радар зафиксировал скорость лидера гонки {D} км/ч.",
+      "gloss_en": "On a neighboring track, radar recorded the race leader's speed at {D} km/h.",
+      "entity_note": "a different track (a place), unlike the first distractor's different competitor (a person)"
+    },
+    {
+      "story_id": 9,
+      "distractor_fact": "В тот же месяц знакомый открыл в этом же банке вклад на {D} $.",
+      "gloss_en": "That same month, an acquaintance opened a deposit at this same bank for {D} $.",
+      "entity_note": "a different person (an acquaintance), unlike the first distractor's separate account (an instrument)"
+    },
+    {
+      "story_id": 10,
+      "distractor_fact": "Расходы местного благотворительного фонда за тот же месяц составили {D} $.",
+      "gloss_en": "The expenses of a local charitable fund for that same month amounted to {D} $.",
+      "entity_note": "a different organisation (a charitable fund), unlike the first distractor's neighboring family (a household)"
+    },
+    {
+      "story_id": 11,
+      "distractor_fact": "Лучший бомбардир другой команды забил за этот же сезон {D}.",
+      "gloss_en": "The top scorer of a different team scored {D} over this same season.",
+      "entity_note": "an individual player (a person), unlike the first distractor's different club (an organisation)"
+    },
+    {
+      "story_id": 14,
+      "distractor_fact": "В любительском турнире, который проходил в тот же день, результат одного из участников составил {D}.",
+      "gloss_en": "In an amateur tournament held that same day, one participant's result was {D}.",
+      "entity_note": "a different tournament (an organisation/event) whose own par is unstated, unlike the first distractor's different course (a place)"
+    },
+    {
+      "story_id": 15,
+      "distractor_fact": "У другого перевозчика в этот же день фактическое время прибытия состава соответствовало отметке {D} мин от полуночи.",
+      "gloss_en": "For a different carrier, that same day, the actual arrival time of the train corresponded to a mark of {D} minutes from midnight.",
+      "entity_note": "a different carrier (an organisation) with its own unstated schedule, unlike the first distractor's different train on a different route (an instrument/place)"
+    },
+    {
+      "story_id": 17,
+      "distractor_fact": "В игре другой лиги, которая проходила в этот же день, одна из команд забила {D}.",
+      "gloss_en": "In a game of a different league, played that same day, one of the teams scored {D}.",
+      "entity_note": "a different league (an organisation), unlike the first distractor's different match of the same round (a series)"
+    },
+    {
+      "story_id": 19,
+      "distractor_fact": "В квалификационном раунде этого же турнира лучший результат составил {D}.",
+      "gloss_en": "In a qualifying round of this same tournament, the best result was {D}.",
+      "entity_note": "an aggregate result from a different, unnamed round (an organisation-like grouping), unlike the first distractor's named third runner (a person)"
+    },
+    {
+      "story_id": 20,
+      "distractor_fact": "В параллельном потоке на этом же экзамене лучший результат составил {D}.",
+      "gloss_en": "In a parallel cohort on this same exam, the best result was {D}.",
+      "entity_note": "an aggregate result from a different, unnamed cohort (an organisation-like grouping), unlike the first distractor's named third student (a person)"
+    }
+  ]
+}

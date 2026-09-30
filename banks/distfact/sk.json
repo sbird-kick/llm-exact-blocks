@@ -1,0 +1,78 @@
+{
+  "language_code": "sk",
+  "refused": [],
+  "items": [
+    {
+      "story_id": 1,
+      "distractor_fact": "V susednom meste v ten istý deň namerali {D} °C.",
+      "gloss_en": "In a neighboring city, they measured {D} °C on that same day.",
+      "entity_note": "A different city's temperature reading, not the city in the story."
+    },
+    {
+      "story_id": 2,
+      "distractor_fact": "Akcie inej spoločnosti sa v ten istý deň obchodovali za {D} €.",
+      "gloss_en": "Shares of another company traded at €{D} on that same day.",
+      "entity_note": "A different company's share price, not the company in the story."
+    },
+    {
+      "story_id": 3,
+      "distractor_fact": "Hladina susedného jazera dosahovala {D} m.",
+      "gloss_en": "The level of a neighboring lake reached {D} m.",
+      "entity_note": "A different lake's water level, not the lake in the story."
+    },
+    {
+      "story_id": 4,
+      "distractor_fact": "Na inom účte v tej istej banke bol tento mesiac vklad vo výške {D} €.",
+      "gloss_en": "At another account in the same bank, this month's deposit amounted to €{D}.",
+      "entity_note": "A different account's deposit amount, not the account in the story."
+    },
+    {
+      "story_id": 5,
+      "distractor_fact": "Iná darčeková karta mala na začiatku hodnotu {D} €.",
+      "gloss_en": "Another gift card had a starting value of €{D}.",
+      "entity_note": "A different gift card's starting value, not the card in the story."
+    },
+    {
+      "story_id": 6,
+      "distractor_fact": "Iná SIM karta v tej istej domácnosti mala dátový limit {D} GB.",
+      "gloss_en": "Another SIM card in the same household had a data limit of {D} GB.",
+      "entity_note": "A different SIM card's data limit, not the plan in the story."
+    },
+    {
+      "story_id": 7,
+      "distractor_fact": "Iná domácnosť v tej istej ulici mala tento mesiac výdavky vo výške {D} €.",
+      "gloss_en": "Another household on the same street had expenses of €{D} this month.",
+      "entity_note": "A different household's expenses, not the household in the story."
+    },
+    {
+      "story_id": 8,
+      "distractor_fact": "Hodnota gólov iného tímu v tej istej lige za sezónu bola {D}.",
+      "gloss_en": "The value of another team's goals in the same league for the season was {D}.",
+      "entity_note": "A different team's goal count, not the team in the story; the story's own 'hodnota X bola {D}' frame keeps the bare number invariant since no noun follows it."
+    },
+    {
+      "story_id": 9,
+      "distractor_fact": "Iný malý podnik v tom istom meste zaznamenal tento kvartál stratu vo výške {D} €.",
+      "gloss_en": "Another small business in the same town recorded a loss of €{D} this quarter.",
+      "entity_note": "A different business's loss, not the business in the story."
+    },
+    {
+      "story_id": 15,
+      "distractor_fact": "Vlak na susednej trati mal v ten istý deň nameraný čas príchodu {D} min.",
+      "gloss_en": "A train on the neighboring line had a measured arrival-time reading of {D} min that same day.",
+      "entity_note": "A different train on a different line, whose own schedule is not stated, so it cannot be compared to this train's schedule."
+    },
+    {
+      "story_id": 16,
+      "distractor_fact": "Výťah v susednej budove ukazoval hodnotu podlažia {D}.",
+      "gloss_en": "The lift in a neighboring building showed a floor reading of {D}.",
+      "entity_note": "A different building's lift, whose own ground-floor reference is not stated, so it cannot substitute for this building's ground floor."
+    },
+    {
+      "story_id": 17,
+      "distractor_fact": "Hodnota gólov iného tímu v inom zápase toho dňa bola {D}.",
+      "gloss_en": "The value of another team's goals in a different match that day was {D}.",
+      "entity_note": "A different team in a different match, not either team in the story; uses the 'hodnota X bola {D}' frame to keep the number invariant."
+    }
+  ]
+}

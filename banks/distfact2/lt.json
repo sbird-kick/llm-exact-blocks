@@ -1,0 +1,102 @@
+{
+  "language_code": "lt",
+  "refused": [],
+  "items": [
+    {
+      "story_id": 1,
+      "distractor_fact": "Kito termometro rodmuo tą pačią naktį buvo {D}°C.",
+      "gloss_en": "Another thermometer's reading that same night was {D}°C. Bare digit followed by the invariant symbol °C, grammatical for any integer.",
+      "entity_note": "Owner is an instrument (a different thermometer), whereas the first distractor's owner was a place (a neighboring town)."
+    },
+    {
+      "story_id": 2,
+      "distractor_fact": "Vieno prekiautojo sąskaitos likutis tą pačią dieną buvo {D}€.",
+      "gloss_en": "One trader's account balance that same day was {D}€. Digit+€ construction, invariant for any integer.",
+      "entity_note": "Owner is a person (a trader), whereas the first distractor's owner was an organisation (another company)."
+    },
+    {
+      "story_id": 3,
+      "distractor_fact": "Kito matavimo prietaiso rodmuo tą pačią dieną buvo {D} m.",
+      "gloss_en": "Another measuring instrument's reading that same day was {D} m. Digit+m construction, the symbol never inflects.",
+      "entity_note": "Owner is an instrument (a different gauge), whereas the first distractor's owner was a place (another pond)."
+    },
+    {
+      "story_id": 7,
+      "distractor_fact": "Vieno darbuotojo asmeninės pajamos per tą patį mėnesį buvo {D}€.",
+      "gloss_en": "One employee's personal income for the same month was {D}€. Digit+€ construction, invariant for any integer.",
+      "entity_note": "Owner is a person (an employee), whereas the first distractor's owner was an organisational subunit (another department)."
+    },
+    {
+      "story_id": 8,
+      "distractor_fact": "Vieno žaidėjo asmeniškai įmuštų įvarčių skaičius per sezoną buvo {D} įv.",
+      "gloss_en": "One player's personally scored goal count during the season was {D} goals. Fixed abbreviation 'įv.' never inflects after a numeral.",
+      "entity_note": "Owner is a person (an individual player), whereas the first distractor's owner was an organisation (another team)."
+    },
+    {
+      "story_id": 9,
+      "distractor_fact": "Kito fondo pelnas per tą patį ketvirtį buvo {D}€.",
+      "gloss_en": "Another fund's profit for the same quarter was {D}€. Digit+€ construction, invariant for any integer.",
+      "entity_note": "Owner is an organisation (a fund), whereas the first distractor's owner was a person (another investor)."
+    },
+    {
+      "story_id": 10,
+      "distractor_fact": "Vieno darbuotojo asmeniškai pagamintų vienetų skaičius per tą patį mėnesį buvo {D} vnt.",
+      "gloss_en": "One worker's personally produced unit count during the same month was {D} units. Fixed abbreviation 'vnt.' never inflects after a numeral.",
+      "entity_note": "Owner is a person (an individual worker), whereas the first distractor's owner was an organisational unit (another workshop); the worker's own plan figure is not stated, so this cannot substitute for the workshop's plan-vs-actual pair (rule 6)."
+    },
+    {
+      "story_id": 11,
+      "distractor_fact": "Vieno pardavimų vadybininko asmeniškai pasiektas rezultatas per tą patį mėnesį buvo {D}€.",
+      "gloss_en": "One sales manager's personally achieved result for the same month was {D}€. Digit+€ construction, invariant for any integer.",
+      "entity_note": "Owner is a person (a manager), whereas the first distractor's owner was an organisation (another branch); the manager's own target is not stated, so this cannot substitute for the branch's actual-vs-target pair (rule 6)."
+    },
+    {
+      "story_id": 12,
+      "distractor_fact": "Kito regiono meteorologijos tarnybos registruotas kritulių kiekis tą pačią dieną buvo {D} mm.",
+      "gloss_en": "Another region's weather service's recorded rainfall amount on the same day was {D} mm. Digit+mm construction, invariant for any integer.",
+      "entity_note": "Owner is an organisation (a weather service), whereas the first distractor's owner was a place/instrument (another station); that service's own forecast is not stated, so this cannot substitute for the story's forecast (rule 6)."
+    },
+    {
+      "story_id": 13,
+      "distractor_fact": "Praėjusio turnyro rezultatų suvestinėje kito ruožo vidutinis smūgių skaičius buvo {D}.",
+      "gloss_en": "In last tournament's results summary, the average stroke count for a different hole was {D}. Bare-predicate pattern ('skaičius buvo {D}'), invariant for any integer.",
+      "entity_note": "Owner is an event/organisation (a past tournament), whereas the first distractor's owner was a person (another player); it is also tied to a different hole, so this story's stated par does not apply to it (rule 6)."
+    },
+    {
+      "story_id": 14,
+      "distractor_fact": "Turnyro lentelėje nurodytas visų žaidėjų vidurkis buvo {D}.",
+      "gloss_en": "In the tournament table, the average of all players was {D}. Bare-predicate pattern, invariant for any integer.",
+      "entity_note": "Owner is an organisation/event (the tournament as a whole), whereas the first distractor's owner was a single person (another player); an overall average across all players is not tied to this hole's stated par (rule 6)."
+    },
+    {
+      "story_id": 15,
+      "distractor_fact": "Kito vežėjo organizuojamo maršruto traukinio faktinis atvykimo laikas buvo {D} min nuo paros pradžios.",
+      "gloss_en": "Another carrier's operated route's train's actual arrival time was {D} min from the start of the day. Invariant abbreviation 'min' never inflects after a numeral.",
+      "entity_note": "Owner is an organisation (a carrier company), whereas the first distractor's owner was a different line/service; that carrier's own schedule is not stated, so this cannot substitute for the story's timetable value (rule 6)."
+    },
+    {
+      "story_id": 16,
+      "distractor_fact": "Netoliese esančio krovininio lifto ekrane rodomas aukšto numeris buvo {D}.",
+      "gloss_en": "The floor number shown on the display of a nearby freight elevator was {D}. Bare-predicate pattern ('numeris buvo {D}'), invariant for any integer.",
+      "entity_note": "Owner is an instrument (a different elevator), whereas the first distractor's owner was a place (another building); that elevator's own reference floor is not stated, so this cannot substitute for the story's reference value (rule 6)."
+    },
+    {
+      "story_id": 17,
+      "distractor_fact": "Vieno žaidėjo asmeniškai įmuštų įvarčių skaičius per visą sezoną buvo {D}.",
+      "gloss_en": "One player's personally scored goal count over the whole season was {D}. Bare-predicate pattern, invariant for any integer.",
+      "entity_note": "Owner is a person (an individual player), whereas the first distractor's owner was an organisation (a third team)."
+    },
+    {
+      "story_id": 19,
+      "distractor_fact": "Vieno analitiko prognozuotas pelno rodiklis buvo {D}%.",
+      "gloss_en": "One analyst's forecasted profit indicator was {D}%. Digit+% construction, invariant for any integer.",
+      "entity_note": "Owner is a person (an analyst) giving a forecast, whereas the first distractor's owner was an organisation (a third company)."
+    },
+    {
+      "story_id": 20,
+      "distractor_fact": "Vieno aukščiamačio prietaiso užfiksuota reikšmė buvo {D} m.",
+      "gloss_en": "One altimeter device's recorded value was {D} m. Digit+m construction, invariant for any integer.",
+      "entity_note": "Owner is an instrument (an altimeter), whereas the first distractor's owner was a person (a third hiker)."
+    }
+  ]
+}

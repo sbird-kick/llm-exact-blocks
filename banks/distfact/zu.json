@@ -1,0 +1,90 @@
+{
+  "language_code": "zu",
+  "refused": [],
+  "items": [
+    {
+      "story_id": 2,
+      "distractor_fact": "Inani lesheya kwenye inkampani lalingu-${D} ngalolo suku.",
+      "gloss_en": "Another company's share price was $D that day.",
+      "entity_note": "a different company's share price, not the company whose closing-vs-opening change is asked about"
+    },
+    {
+      "story_id": 4,
+      "distractor_fact": "Ukuphakama kwenye indiza kwakungu-{D} m ngaso leso sikhathi.",
+      "gloss_en": "Another plane's altitude was D m at that same time.",
+      "entity_note": "a different plane's altitude, not the plane whose altitude change is asked about"
+    },
+    {
+      "story_id": 5,
+      "distractor_fact": "Isisindo sengane enye sasingu-{D} kg ngalolo suku.",
+      "gloss_en": "Another child's weight was D kg that day.",
+      "entity_note": "a different child's weight, not the child whose weight change is asked about"
+    },
+    {
+      "story_id": 6,
+      "distractor_fact": "Umngane wakhe wayenemali engu-${D} esikhwameni sakhe ngalolo suku.",
+      "gloss_en": "His friend had $D in his wallet that day.",
+      "entity_note": "a different person's wallet money, not the balance of the man whose spending is asked about"
+    },
+    {
+      "story_id": 7,
+      "distractor_fact": "Kwafakwa imali engu-${D} kwenye i-akhawunti ngalolo suku.",
+      "gloss_en": "D was deposited into a different account that day.",
+      "entity_note": "a different account's deposit, not the account whose balance after deposit and withdrawal is asked about"
+    },
+    {
+      "story_id": 8,
+      "distractor_fact": "Umndeni omunye wathola imali engeniso engu-${D} ngale nyanga.",
+      "gloss_en": "Another family earned $D in income this month.",
+      "entity_note": "a different family's income, not the family whose net result this month is asked about"
+    },
+    {
+      "story_id": 9,
+      "distractor_fact": "Elinye ithimba embaqweni lafaka amagoli angu-{D} kule sizini.",
+      "gloss_en": "Another team in the league scored D goals this season.",
+      "entity_note": "a different team's season tally, not the team whose goal difference is asked about"
+    },
+    {
+      "story_id": 10,
+      "distractor_fact": "Umtshalizimali omunye wathola inzuzo engu-${D} kulo nyaka.",
+      "gloss_en": "A different investor made a $D gain this year.",
+      "entity_note": "a different investor's gain, not the investor whose net result this year is asked about"
+    },
+    {
+      "story_id": 14,
+      "distractor_fact": "Umdlali omunye wagcina ngamashothi angu-{D} kwelinye ihobhole.",
+      "gloss_en": "Another player finished with D strokes on a different hole.",
+      "entity_note": "a different player on a different hole, whose own par is not the stated par S"
+    },
+    {
+      "story_id": 15,
+      "distractor_fact": "Isikhathi sokufika kwenye indiza ngempela sasingu-{D} imizuzu ngalolo suku.",
+      "gloss_en": "Another plane's actual arrival reading was D minutes that day.",
+      "entity_note": "a different flight's actual arrival reading, not the flight compared to its own schedule, and its own scheduled time is not stated"
+    },
+    {
+      "story_id": 17,
+      "distractor_fact": "Ithimba C lafaka amagoli angu-{D} emdlalweni owahlukene ngaleli viki.",
+      "gloss_en": "Team C scored D goals in a different match this week.",
+      "entity_note": "a third team in a different match, not Alpha or Beta whose goal difference is compared"
+    },
+    {
+      "story_id": 18,
+      "distractor_fact": "Igatsha lase-Delta lathengisa izinto ezingu-{D} ngeviki elifanayo.",
+      "gloss_en": "The Delta branch sold D units the same week.",
+      "entity_note": "a third branch's sales, not Ridge or Vale whose sales difference is compared"
+    },
+    {
+      "story_id": 19,
+      "distractor_fact": "Idolobha i-Eastfield lalinezinga lokushisa elingu-{D} °C ngalolo suku.",
+      "gloss_en": "Eastfield had a temperature of D °C that day.",
+      "entity_note": "a third town's temperature, not Norview or Southgate whose difference is compared"
+    },
+    {
+      "story_id": 20,
+      "distractor_fact": "Umgijimi wesithathu wagijima ngesikhathi esingu-{D} imizuzwana.",
+      "gloss_en": "The third runner ran in D seconds.",
+      "entity_note": "a third runner's time, not the first or second runner whose difference is compared"
+    }
+  ]
+}

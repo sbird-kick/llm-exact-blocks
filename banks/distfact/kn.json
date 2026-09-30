@@ -1,0 +1,60 @@
+{
+  "language_code": "kn",
+  "refused": [],
+  "items": [
+    {
+      "story_id": 1,
+      "distractor_fact": "ಪಕ್ಕದ ನಗರದಲ್ಲಿ ಅದೇ ದಿನ ತಾಪಮಾನ {D}°C ಆಗಿತ್ತು.",
+      "gloss_en": "In the neighboring city, the temperature that same day was {D}°C.",
+      "entity_note": "a different city's temperature reading, not the one whose dawn/noon temperatures the question compares"
+    },
+    {
+      "story_id": 2,
+      "distractor_fact": "ಬೇರೊಂದು ಕಂಪನಿಯ ಷೇರು ಬೆಲೆ ಅದೇ ದಿನ €{D} ಆಗಿತ್ತು.",
+      "gloss_en": "Another company's share price that same day was €{D}.",
+      "entity_note": "a different company's share price, not the one whose opening/closing price the question compares"
+    },
+    {
+      "story_id": 3,
+      "distractor_fact": "ಪಕ್ಕದ ಸರೋವರದ ನೀರಿನ ಮಟ್ಟ ಅದೇ ಸಂಜೆ {D} m ಆಗಿತ್ತು.",
+      "gloss_en": "The neighboring lake's water level that same evening was {D} m.",
+      "entity_note": "a different lake, not the one whose before/after-rain levels the question compares"
+    },
+    {
+      "story_id": 4,
+      "distractor_fact": "ಬೇರೊಂದು ಉಳಿತಾಯ ಖಾತೆಗೆ ಇದೇ ತಿಂಗಳು €{D} ಠೇವಣಿ ಮಾಡಲಾಯಿತು.",
+      "gloss_en": "Into another savings account, €{D} was deposited this same month.",
+      "entity_note": "a different savings account, not the one whose deposit/withdrawal the question compares"
+    },
+    {
+      "story_id": 5,
+      "distractor_fact": "ಬೇರೊಂದು ಗಿಫ್ಟ್ ಕಾರ್ಡ್‌ನಲ್ಲಿ ಆರಂಭದಲ್ಲಿ €{D} ಇತ್ತು.",
+      "gloss_en": "Another gift card had €{D} on it at the start.",
+      "entity_note": "a different gift card, not the one whose starting amount/spending the question compares"
+    },
+    {
+      "story_id": 6,
+      "distractor_fact": "ಬೇರೊಂದು ಡೇಟಾ ಯೋಜನೆಯಲ್ಲಿ ಇದೇ ತಿಂಗಳ ಆರಂಭದಲ್ಲಿ {D} GB ಇತ್ತು.",
+      "gloss_en": "Another data plan had {D} GB at the start of this same month.",
+      "entity_note": "a different mobile data plan, not the one whose starting/used data the question compares"
+    },
+    {
+      "story_id": 7,
+      "distractor_fact": "ಬೇರೊಂದು ಕುಟುಂಬದ ಈ ತಿಂಗಳ ಆದಾಯ €{D} ಆಗಿತ್ತು.",
+      "gloss_en": "Another household's income for this month was €{D}.",
+      "entity_note": "a different household, not the one whose income/expenses the question compares"
+    },
+    {
+      "story_id": 8,
+      "distractor_fact": "ಬೇರೊಂದು ತಂಡ ಇದೇ ಋತುವಿನಲ್ಲಿ {D} ಗೋಲ್ ಗಳಿಸಿತು.",
+      "gloss_en": "Another team scored {D} goals in this same season.",
+      "entity_note": "a different football team, not the one whose scored/conceded goals the question compares"
+    },
+    {
+      "story_id": 9,
+      "distractor_fact": "ಬೇರೊಂದು ಸಣ್ಣ ವ್ಯವಹಾರ ಇದೇ ತ್ರೈಮಾಸಿಕದಲ್ಲಿ €{D} ಲಾಭ ದಾಖಲಿಸಿತು.",
+      "gloss_en": "Another small business recorded €{D} in gains during this same quarter.",
+      "entity_note": "a different small business, not the one whose gains/losses the question compares"
+    }
+  ]
+}

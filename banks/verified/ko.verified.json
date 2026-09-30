@@ -1,0 +1,250 @@
+{
+ "language": "Korean",
+ "language_code": "ko",
+ "lead_in": "정답은",
+ "decimal_separator": ".",
+ "items": [
+  {
+   "story_id": 1,
+   "bank": "A",
+   "domain": "change",
+   "unit": "°C",
+   "sign_convention": "after minus before",
+   "facts_min_first": "오늘 저녁 기온은 {M}도였다. 오늘 아침 기온은 {S}도였다.",
+   "facts_sub_first": "오늘 아침 기온은 {S}도였다. 오늘 저녁 기온은 {M}도였다.",
+   "question": "기온은 아침부터 저녁까지 얼마나 변했는가?",
+   "distractor_sentence": "이 관측 자료는 {D}번 관측소에서 수집되었다.",
+   "agreement_safe": true,
+   "agreement_note": "한국어는 숫자 뒤에 오는 단위/분류사(도, 원, 개, 골, 타, 분, 층, m, 점, cm, mm, 초)가 어떤 정수 값에도 형태가 바뀌지 않는다 (예: 3도, 51도, 4870도 모두 자연스러움); 한국어 명사·동사에는 수 일치가 없어 이 구조는 항상 안전함.",
+   "decimals_natural": true,
+   "gloss_en": "This evening's temperature was {M} degrees. This morning's temperature was {S} degrees. How much did the temperature change from morning to evening?",
+   "notes": "",
+   "distractor_ok": true,
+   "verifier": {
+    "tag": "V3",
+    "natural": 3,
+    "comment": ""
+   }
+  },
+  {
+   "story_id": 2,
+   "bank": "A",
+   "domain": "change",
+   "unit": "원",
+   "sign_convention": "after minus before",
+   "facts_min_first": "장 마감 때 그 주식의 가격은 {M}원이었다. 장이 열릴 때 가격은 {S}원이었다.",
+   "facts_sub_first": "장이 열릴 때 그 주식의 가격은 {S}원이었다. 장 마감 때 가격은 {M}원이었다.",
+   "question": "주가는 개장 때부터 마감 때까지 얼마나 변했는가?",
+   "distractor_sentence": "이 종목은 {D}번 거래소에 상장되어 있다.",
+   "agreement_safe": true,
+   "agreement_note": "한국어는 숫자 뒤에 오는 단위/분류사(도, 원, 개, 골, 타, 분, 층, m, 점, cm, mm, 초)가 어떤 정수 값에도 형태가 바뀌지 않는다 (예: 3도, 51도, 4870도 모두 자연스러움); 한국어 명사·동사에는 수 일치가 없어 이 구조는 항상 안전함.",
+   "decimals_natural": true,
+   "gloss_en": "At market close the stock's price was {M} won. At market open the price was {S} won. How much did the stock price change from open to close?",
+   "notes": "",
+   "distractor_ok": true,
+   "verifier": {
+    "tag": "V3",
+    "natural": 3,
+    "comment": ""
+   }
+  },
+  {
+   "story_id": 3,
+   "bank": "A",
+   "domain": "change",
+   "unit": "cm",
+   "sign_convention": "after minus before",
+   "facts_min_first": "저녁에 측정한 저수지 수위는 {M}cm였다. 아침에 측정한 수위는 {S}cm였다.",
+   "facts_sub_first": "아침에 측정한 저수지 수위는 {S}cm였다. 저녁에 측정한 수위는 {M}cm였다.",
+   "question": "저수지 수위는 아침부터 저녁까지 얼마나 변했는가?",
+   "distractor_sentence": "이 저수지는 {D}번 국도 옆에 있다.",
+   "agreement_safe": true,
+   "agreement_note": "한국어는 숫자 뒤에 오는 단위/분류사(도, 원, 개, 골, 타, 분, 층, m, 점, cm, mm, 초)가 어떤 정수 값에도 형태가 바뀌지 않는다 (예: 3도, 51도, 4870도 모두 자연스러움); 한국어 명사·동사에는 수 일치가 없어 이 구조는 항상 안전함.",
+   "decimals_natural": true,
+   "gloss_en": "The reservoir's water level measured in the evening was {M} cm. The level measured in the morning was {S} cm. How much did the water level change from morning to evening?",
+   "notes": "",
+   "distractor_ok": true,
+   "verifier": {
+    "tag": "V3",
+    "natural": 3,
+    "comment": ""
+   }
+  },
+  {
+   "story_id": 4,
+   "bank": "A",
+   "domain": "balance",
+   "unit": "원",
+   "sign_convention": "deposited minus withdrawn",
+   "facts_min_first": "그 통장에 입금된 금액은 {M}원이고, 그중 출금된 금액은 {S}원이다.",
+   "facts_sub_first": "그 통장에서 출금된 금액은 {S}원이고, 입금된 금액은 {M}원이다.",
+   "question": "그 통장의 잔액은 얼마인가?",
+   "distractor_sentence": "이 계좌는 {D}번 지점에서 개설되었다.",
+   "agreement_safe": true,
+   "agreement_note": "한국어는 숫자 뒤에 오는 단위/분류사(도, 원, 개, 골, 타, 분, 층, m, 점, cm, mm, 초)가 어떤 정수 값에도 형태가 바뀌지 않는다 (예: 3도, 51도, 4870도 모두 자연스러움); 한국어 명사·동사에는 수 일치가 없어 이 구조는 항상 안전함.",
+   "decimals_natural": false,
+   "gloss_en": "The amount deposited into the account is {M} won, and of that, the amount withdrawn is {S} won. What is the account's balance?",
+   "notes": "",
+   "distractor_ok": true,
+   "verifier": {
+    "tag": "V3",
+    "natural": 3,
+    "comment": "「그중」 implies the withdrawal is part of the deposit, which breaks when the subtrahend fill is the larger number."
+   }
+  },
+  {
+   "story_id": 5,
+   "bank": "A",
+   "domain": "balance",
+   "unit": "원",
+   "sign_convention": "put in minus taken out",
+   "facts_min_first": "오늘 카페 금고에 넣은 돈은 {M}원이고, 거기서 꺼내 쓴 돈은 {S}원이다.",
+   "facts_sub_first": "오늘 카페 금고에서 꺼내 쓴 돈은 {S}원이고, 넣은 돈은 {M}원이다.",
+   "question": "지금 금고에 남은 돈은 얼마인가?",
+   "distractor_sentence": "이 카페는 {D}번째로 문을 연 지점이다.",
+   "agreement_safe": true,
+   "agreement_note": "한국어는 숫자 뒤에 오는 단위/분류사(도, 원, 개, 골, 타, 분, 층, m, 점, cm, mm, 초)가 어떤 정수 값에도 형태가 바뀌지 않는다 (예: 3도, 51도, 4870도 모두 자연스러움); 한국어 명사·동사에는 수 일치가 없어 이 구조는 항상 안전함.",
+   "decimals_natural": false,
+   "gloss_en": "Money put into the cafe's cash box today is {M} won, and money taken out of it is {S} won. How much money remains in the cash box now?",
+   "notes": "",
+   "distractor_ok": true,
+   "verifier": {
+    "tag": "V3",
+    "natural": 3,
+    "comment": ""
+   }
+  },
+  {
+   "story_id": 6,
+   "bank": "A",
+   "domain": "balance",
+   "unit": "원",
+   "sign_convention": "had minus spent",
+   "facts_min_first": "이번 달 손에 쥐고 있던 돈은 {M}원이었고, 그중 쓴 돈은 {S}원이다.",
+   "facts_sub_first": "이번 달 쓴 돈은 {S}원이었고, 손에 쥐고 있던 돈은 {M}원이다.",
+   "question": "이번 달이 끝난 뒤 남은 돈은 얼마인가?",
+   "distractor_sentence": "이 가계부는 {D}번째 노트에 적혀 있다.",
+   "agreement_safe": true,
+   "agreement_note": "한국어는 숫자 뒤에 오는 단위/분류사(도, 원, 개, 골, 타, 분, 층, m, 점, cm, mm, 초)가 어떤 정수 값에도 형태가 바뀌지 않는다 (예: 3도, 51도, 4870도 모두 자연스러움); 한국어 명사·동사에는 수 일치가 없어 이 구조는 항상 안전함.",
+   "decimals_natural": false,
+   "gloss_en": "The money on hand this month was {M} won, of which the money spent is {S} won. How much money is left after this month?",
+   "notes": "",
+   "distractor_ok": true,
+   "verifier": {
+    "tag": "V3",
+    "natural": 3,
+    "comment": "「그중」 again presupposes the spend is contained in the amount held."
+   }
+  },
+  {
+   "story_id": 7,
+   "bank": "A",
+   "domain": "net",
+   "unit": "원",
+   "sign_convention": "income minus expenses",
+   "facts_min_first": "이번 달 그 프리랜서의 수입은 {M}원이었고, 지출은 {S}원이었다.",
+   "facts_sub_first": "이번 달 그 프리랜서의 지출은 {S}원이었고, 수입은 {M}원이었다.",
+   "question": "이번 달 그 프리랜서의 순수익은 얼마인가?",
+   "distractor_sentence": "그는 이 일을 {D}번째 해째 하고 있다.",
+   "agreement_safe": true,
+   "agreement_note": "한국어는 숫자 뒤에 오는 단위/분류사(도, 원, 개, 골, 타, 분, 층, m, 점, cm, mm, 초)가 어떤 정수 값에도 형태가 바뀌지 않는다 (예: 3도, 51도, 4870도 모두 자연스러움); 한국어 명사·동사에는 수 일치가 없어 이 구조는 항상 안전함.",
+   "decimals_natural": false,
+   "gloss_en": "This month the freelancer's income was {M} won, and expenses were {S} won. What is the freelancer's net profit this month?",
+   "notes": "",
+   "distractor_ok": false,
+   "verifier": {
+    "tag": "V3",
+    "natural": 3,
+    "comment": "Distractor 「17번째 해째」 doubles the ordinal marker and is ungrammatical."
+   }
+  },
+  {
+   "story_id": 8,
+   "bank": "A",
+   "domain": "net",
+   "unit": "골",
+   "sign_convention": "goals scored minus conceded, one team over a season",
+   "facts_min_first": "이번 시즌 그 팀이 넣은 골은 {M}골이고, 실점한 골은 {S}골이다.",
+   "facts_sub_first": "이번 시즌 그 팀이 실점한 골은 {S}골이고, 넣은 골은 {M}골이다.",
+   "question": "이번 시즌 그 팀의 득실차는 얼마인가?",
+   "distractor_sentence": "그 팀은 이 리그에서 {D}번째 시즌을 보내고 있다.",
+   "agreement_safe": true,
+   "agreement_note": "한국어는 숫자 뒤에 오는 단위/분류사(도, 원, 개, 골, 타, 분, 층, m, 점, cm, mm, 초)가 어떤 정수 값에도 형태가 바뀌지 않는다 (예: 3도, 51도, 4870도 모두 자연스러움); 한국어 명사·동사에는 수 일치가 없어 이 구조는 항상 안전함.",
+   "decimals_natural": false,
+   "gloss_en": "This season the team's goals scored are {M}, and goals conceded are {S}. What is the team's goal difference this season?",
+   "notes": "",
+   "distractor_ok": true,
+   "verifier": {
+    "tag": "V3",
+    "natural": 3,
+    "comment": ""
+   }
+  },
+  {
+   "story_id": 9,
+   "bank": "A",
+   "domain": "net",
+   "unit": "원",
+   "sign_convention": "gains minus losses",
+   "facts_min_first": "그 투자자가 이번 분기에 얻은 이익은 {M}원이고, 입은 손실은 {S}원이다.",
+   "facts_sub_first": "그 투자자가 이번 분기에 입은 손실은 {S}원이고, 얻은 이익은 {M}원이다.",
+   "question": "이번 분기 그 투자자의 순손익은 얼마인가?",
+   "distractor_sentence": "그는 이 펀드에 {D}번째로 가입한 고객이다.",
+   "agreement_safe": true,
+   "agreement_note": "한국어는 숫자 뒤에 오는 단위/분류사(도, 원, 개, 골, 타, 분, 층, m, 점, cm, mm, 초)가 어떤 정수 값에도 형태가 바뀌지 않는다 (예: 3도, 51도, 4870도 모두 자연스러움); 한국어 명사·동사에는 수 일치가 없어 이 구조는 항상 안전함.",
+   "decimals_natural": false,
+   "gloss_en": "The gains the investor made this quarter are {M} won, and losses suffered are {S} won. What is the investor's net profit or loss this quarter?",
+   "notes": "",
+   "distractor_ok": true,
+   "verifier": {
+    "tag": "V3",
+    "natural": 3,
+    "comment": ""
+   }
+  },
+  {
+   "story_id": 13,
+   "bank": "A",
+   "domain": "score vs par",
+   "unit": "타",
+   "sign_convention": "strokes minus par",
+   "facts_min_first": "그 선수가 이번 라운드에서 친 타수는 {M}타이고, 그 코스의 기준 타수(파)는 {S}타이다.",
+   "facts_sub_first": "그 코스의 기준 타수(파)는 {S}타이고, 그 선수가 이번 라운드에서 친 타수는 {M}타이다.",
+   "question": "그 선수는 파 대비 몇 타를 기록했는가?",
+   "distractor_sentence": "이 골프장은 {D}번째 홀이 가장 어렵기로 유명하다.",
+   "agreement_safe": true,
+   "agreement_note": "한국어는 숫자 뒤에 오는 단위/분류사(도, 원, 개, 골, 타, 분, 층, m, 점, cm, mm, 초)가 어떤 정수 값에도 형태가 바뀌지 않는다 (예: 3도, 51도, 4870도 모두 자연스러움); 한국어 명사·동사에는 수 일치가 없어 이 구조는 항상 안전함.",
+   "decimals_natural": false,
+   "gloss_en": "The strokes the golfer took this round are {M}, and the course's par is {S}. How many strokes relative to par did the golfer score?",
+   "notes": "",
+   "distractor_ok": true,
+   "verifier": {
+    "tag": "V3",
+    "natural": 3,
+    "comment": ""
+   }
+  },
+  {
+   "story_id": 14,
+   "bank": "A",
+   "domain": "score vs par",
+   "unit": "타",
+   "sign_convention": "strokes minus par",
+   "facts_min_first": "그 아마추어 선수가 오늘 기록한 타수는 {M}타이고, 오늘 코스의 파는 {S}타이다.",
+   "facts_sub_first": "오늘 코스의 파는 {S}타이고, 그 아마추어 선수가 오늘 기록한 타수는 {M}타이다.",
+   "question": "그 선수는 오늘 파 대비 몇 타를 기록했는가?",
+   "distractor_sentence": "이 대회는 올해로 {D}회째 열리고 있다.",
+   "agreement_safe": true,
+   "agreement_note": "한국어는 숫자 뒤에 오는 단위/분류사(도, 원, 개, 골, 타, 분, 층, m, 점, cm, mm, 초)가 어떤 정수 값에도 형태가 바뀌지 않는다 (예: 3도, 51도, 4870도 모두 자연스러움); 한국어 명사·동사에는 수 일치가 없어 이 구조는 항상 안전함.",
+   "decimals_natural": false,
+   "gloss_en": "The strokes the amateur golfer recorded today are {M}, and today's course par is {S}. How many strokes relative to par did the golfer record today?",
+   "notes": "",
+   "distractor_ok": true,
+   "verifier": {
+    "tag": "V3",
+    "natural": 3,
+    "comment": ""
+   }
+  }
+ ]
+}

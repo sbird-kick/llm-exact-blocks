@@ -1,0 +1,102 @@
+{
+ "language_code": "yo",
+ "refused": [],
+ "items": [
+  {
+   "story_id": 1,
+   "distractor_fact": "Ìwọ̀n ìgbóná ní ìlú mìíràn di {D} °C ní àárọ̀ ọjọ́ kan náà.",
+   "gloss_en": "The temperature in another town became {D}°C that same morning.",
+   "entity_note": "A different town's thermometer, not the one in the question."
+  },
+  {
+   "story_id": 2,
+   "distractor_fact": "Ọjà mìíràn ní ilé ìtajà kejì ta ní {D} dọ́là ní ọjọ́ kan náà.",
+   "gloss_en": "A different good at a second shop sold for {D} dollars that same day.",
+   "entity_note": "A different shop and a different good than the one whose opening/closing price is asked about."
+  },
+  {
+   "story_id": 3,
+   "distractor_fact": "Odò mìíràn ní àgbègbè kejì ní ìwọ̀n omi tí ó jẹ́ {D} mítà ní ọjọ́ kan náà.",
+   "gloss_en": "A different river in a different area had a water level of {D} meters that same day.",
+   "entity_note": "A different river in a different area, not the river in the question."
+  },
+  {
+   "story_id": 4,
+   "distractor_fact": "Arìnrìnàjò mìíràn tí ó wà lórí òkè mìíràn wà ní ìwọ̀n gíga tí ó jẹ́ {D} mítà ní àkókò kan náà.",
+   "gloss_en": "A different hiker, on a different mountain, was at an altitude of {D} meters at the same time.",
+   "entity_note": "A different hiker on a different mountain, not the hiker in the question."
+  },
+  {
+   "story_id": 5,
+   "distractor_fact": "Ẹnìkejì ní {D} dọ́là nínú àkáǹtì rẹ̀ ní báńkì mìíràn.",
+   "gloss_en": "A second person has {D} dollars in their account at a different bank.",
+   "entity_note": "A different person's account at a different bank, not the account in the question."
+  },
+  {
+   "story_id": 6,
+   "distractor_fact": "Ọmọdé kejì ní {D} dọ́là lọ́wọ́ rẹ̀ ní ọjọ́ kan náà.",
+   "gloss_en": "A second child has {D} dollars in hand that same day.",
+   "entity_note": "A different child, not the one whose spending is in the question."
+  },
+  {
+   "story_id": 7,
+   "distractor_fact": "Ilé-iṣẹ́ oúnjẹ mìíràn ní òpópónà kejì ní owó tí ó wọlé tí ó jẹ́ {D} dọ́là ní oṣù kan náà.",
+   "gloss_en": "A different restaurant on a different street had income of {D} dollars in the same month.",
+   "entity_note": "A different restaurant on a different street, not the business in the question."
+  },
+  {
+   "story_id": 10,
+   "distractor_fact": "Ilé-iṣẹ́ mìíràn ṣe ẹ̀yà {D} ọjà ní ọ̀sẹ̀ kan náà, ní ìbámu pẹ̀lú àfojúsùn tirẹ̀ tí a kò sọ níhìín.",
+   "gloss_en": "A different factory produced {D} units of goods in the same week, against its own target which is not stated here.",
+   "entity_note": "A different factory with its own unstated target, so its production figure cannot be paired with the question's target."
+  },
+  {
+   "story_id": 11,
+   "distractor_fact": "Ìlú mìíràn gba òjò tí ó jẹ́ mílímítà {D} ní oṣù kan náà, gẹ́gẹ́ bí àyẹ̀wò ojú-ọjọ́ tirẹ̀ tí a kò sọ níhìín.",
+   "gloss_en": "A different town received rainfall of {D} millimeters in the same month, against its own weather forecast which is not stated here.",
+   "entity_note": "A different town with its own unstated forecast, so its rainfall figure cannot be paired with the question's forecast."
+  },
+  {
+   "story_id": 13,
+   "distractor_fact": "Ọ̀kọ̀ ojú irin mìíràn tí ń rìn ní ọ̀nà mìíràn dé ní ìṣẹ́jú {D} kọjá wákàtí, gẹ́gẹ́ bí àkókò tirẹ̀ tí a kò sọ níhìín.",
+   "gloss_en": "A different train, running on a different line, arrived at minute {D} past the hour, against its own schedule which is not stated here.",
+   "entity_note": "A different train on a different line with its own unstated schedule, not the train in the question."
+  },
+  {
+   "story_id": 14,
+   "distractor_fact": "Ọkọ̀ òfurufú mìíràn tí ń rìn ní ipa ọ̀nà mìíràn dé ní ìṣẹ́jú {D} kọjá wákàtí, gẹ́gẹ́ bí àkókò tirẹ̀ tí a kò sọ níhìín.",
+   "gloss_en": "A different flight, on a different route, arrived at minute {D} past the hour, against its own schedule which is not stated here.",
+   "entity_note": "A different flight on a different route with its own unstated schedule, not the flight in the question."
+  },
+  {
+   "story_id": 15,
+   "distractor_fact": "Pẹpẹ́ atẹ ẹlẹ́tà ọkọ̀ mìíràn nínú ilé mìíràn dúró sí ilẹ̀ {D}, gẹ́gẹ́ bí ilẹ̀ ìtọ́kasí tirẹ̀ tí a kò sọ níhìín.",
+   "gloss_en": "A different elevator car, in a different building, stopped at floor {D}, against its own reference floor which is not stated here.",
+   "entity_note": "A different elevator in a different building with its own unstated reference floor, not the elevator in the question."
+  },
+  {
+   "story_id": 16,
+   "distractor_fact": "Ibùdó wíwọ̀n omi mìíràn ní ẹnu odò mìíràn ní ìwọ̀n tí ó jẹ́ mítà {D}, gẹ́gẹ́ bí ìlà ìtọ́kasí tirẹ̀ tí a kò sọ níhìín.",
+   "gloss_en": "A different water gauge, at a different river mouth, had a reading of {D} meters, against its own datum which is not stated here.",
+   "entity_note": "A different gauge at a different river mouth with its own unstated datum, not the gauge in the question."
+  },
+  {
+   "story_id": 18,
+   "distractor_fact": "Aṣáré mìíràn nínú ìdíje mìíràn bo ọ̀nà tó jẹ́ mítà {D} ní àkókò kan náà.",
+   "gloss_en": "A different runner, in a different race, covered a distance of {D} meters at the same time.",
+   "entity_note": "A different runner in a different race, neither Ade nor Bola."
+  },
+  {
+   "story_id": 19,
+   "distractor_fact": "Akẹ́kọ̀ọ́ mìíràn gba ìdá ọgọ́rùn-ún {D} nínú àdánwò mìíràn.",
+   "gloss_en": "A different student scored {D} percent on a different test.",
+   "entity_note": "A different student on a different test, neither Tola nor Sade."
+  },
+  {
+   "story_id": 20,
+   "distractor_fact": "Ilé gogoro mìíràn ní ìlú mìíràn ga tó mítà {D}.",
+   "gloss_en": "A different tower, in a different city, is {D} meters tall.",
+   "entity_note": "A different tower in a different city, neither Kappa nor Sigma."
+  }
+ ]
+}

@@ -1,0 +1,90 @@
+{
+  "language_code": "he",
+  "refused": [],
+  "items": [
+    {
+      "story_id": 1,
+      "distractor_fact": "באותו הבוקר עמדה הטמפרטורה בעיר החוף הסמוכה על {D}°C.",
+      "gloss_en": "That same morning, the temperature in the nearby coastal city stood at D°C.",
+      "entity_note": "different place — a nearby coastal city, not the mountain city the question compares."
+    },
+    {
+      "story_id": 2,
+      "distractor_fact": "באותו יום המסחר עמד מחיר המניה של חברה אחרת על {D}₪.",
+      "gloss_en": "On that same trading day, the share price of a different company stood at D₪.",
+      "entity_note": "different entity — another company's stock, not the one in the story."
+    },
+    {
+      "story_id": 3,
+      "distractor_fact": "באותו החודש עמד מפלס המים באגם סמוך על {D} מ'.",
+      "gloss_en": "During that same month, the water level in a nearby lake stood at D m.",
+      "entity_note": "different place — a nearby lake, not the lake in the story."
+    },
+    {
+      "story_id": 4,
+      "distractor_fact": "באותה הטיסה עמד גובהו מעל פני הים של רחפן אחר על {D} מ'.",
+      "gloss_en": "On that same flight, the altitude above sea level of a different drone stood at D m.",
+      "entity_note": "different entity — another drone, not the one in the story."
+    },
+    {
+      "story_id": 5,
+      "distractor_fact": "באותה עונת האימונים עמד משקלה של מתעמלת אחרת על {D} ק\"ג.",
+      "gloss_en": "During that same training season, the weight of a different gymnast stood at D kg.",
+      "entity_note": "different entity — another gymnast, not the one in the story."
+    },
+    {
+      "story_id": 6,
+      "distractor_fact": "באותו העשור עמד מספר התושבים בישוב שכן על {D} נפש.",
+      "gloss_en": "During that same decade, the number of residents in a neighboring settlement stood at D people.",
+      "entity_note": "different place — a neighboring settlement, not the settlement in the story."
+    },
+    {
+      "story_id": 7,
+      "distractor_fact": "במקביל נמדדה במכ\"ם מהירותו של רכב אחר שעמדה על {D} קמ\"ש.",
+      "gloss_en": "In parallel, the radar measured a different car's speed, which stood at D km/h.",
+      "entity_note": "different entity — another car's radar reading, not tied to either reading of the story's car."
+    },
+    {
+      "story_id": 8,
+      "distractor_fact": "באותו היום היה בארנקו של עמיתו של דני סכום שעמד על {D}₪.",
+      "gloss_en": "On that same day, in the wallet of Danny's colleague there was an amount that stood at D₪.",
+      "entity_note": "different entity — Danny's colleague's own wallet, not Danny's wallet."
+    },
+    {
+      "story_id": 9,
+      "distractor_fact": "באותו החודש הפקידה עמיתתה של מיכל לחשבונה סכום שעמד על {D}₪.",
+      "gloss_en": "During that same month, Michal's colleague deposited into her own account an amount that stood at D₪.",
+      "entity_note": "different entity — a colleague's own account, not Michal's account."
+    },
+    {
+      "story_id": 10,
+      "distractor_fact": "באותו החודש עמדו הכנסותיה של חברה מתחרה על {D}₪.",
+      "gloss_en": "During that same month, a competing company's income stood at D₪.",
+      "entity_note": "different entity — a competing company, not the company in the story."
+    },
+    {
+      "story_id": 11,
+      "distractor_fact": "מספר השערים שקבוצה יריבה הבקיעה באותה העונה עמד על {D}.",
+      "gloss_en": "The number of goals a rival team scored in that same season stood at D.",
+      "entity_note": "different entity — a rival team, not the team in the story."
+    },
+    {
+      "story_id": 12,
+      "distractor_fact": "במהלך אותה השנה עמד סך הרווחים של משקיע אחר בתיק ניירות ערך נפרד על {D}₪.",
+      "gloss_en": "During that same year, a different investor's total gains in a separate securities portfolio stood at D₪.",
+      "entity_note": "different entity — another investor with a separate portfolio, not the investor in the story."
+    },
+    {
+      "story_id": 15,
+      "distractor_fact": "מספר המכות שביצע גולפן אחר במסלול נפרד באותו הטורניר עמד על {D}.",
+      "gloss_en": "The number of strokes a different golfer made on a separate course in that same tournament stood at D.",
+      "entity_note": "different entity and different course — another golfer on a separate course whose par is not stated, so the story's par does not apply to him."
+    },
+    {
+      "story_id": 16,
+      "distractor_fact": "במקביל עמדה הקומה שאליה הגיעה מעלית בבניין סמוך על {D}.",
+      "gloss_en": "In parallel, the floor reached by an elevator in a nearby building stood at D.",
+      "entity_note": "different place — a nearby building with its own unstated reference floor, so the story's reference floor does not apply to it."
+    }
+  ]
+}

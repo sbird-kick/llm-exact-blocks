@@ -1,0 +1,84 @@
+{
+ "language_code": "sq",
+ "refused": [],
+ "items": [
+  {
+   "story_id": 1,
+   "distractor_fact": "Stacioni në fshatin fqinj regjistroi {D}°C po atë mëngjes.",
+   "gloss_en": "The station in the neighboring village recorded {D} °C that same morning.",
+   "entity_note": "a different village's own station, not the morning/afternoon thermometer the question compares"
+  },
+  {
+   "story_id": 2,
+   "distractor_fact": "Një kompani tjetër e regjistruar në të njëjtën bursë mbylli ditën me çmim ${D}.",
+   "gloss_en": "Another company listed on the same exchange closed the day at ${D}.",
+   "entity_note": "a different company's stock, not the one whose open and close prices are compared"
+  },
+  {
+   "story_id": 3,
+   "distractor_fact": "Rezervuari në komunën fqinje kishte një nivel uji prej {D}m po atë muaj.",
+   "gloss_en": "The reservoir in the neighboring municipality had a water level of {D} m that same month.",
+   "entity_note": "a different reservoir, not the one whose level this month vs last month is compared"
+  },
+  {
+   "story_id": 4,
+   "distractor_fact": "Një dron tjetër, i nisur nga po ai aeroport, arriti një lartësi prej {D}m atë ditë.",
+   "gloss_en": "Another drone, launched from the same airport, reached an altitude of {D} m that day.",
+   "entity_note": "a different drone, not the one whose initial and final measurements are compared"
+  },
+  {
+   "story_id": 5,
+   "distractor_fact": "Një paketë tjetër në të njëjtin transport peshonte {D}kg në mbërritje.",
+   "gloss_en": "Another package in the same shipment weighed {D} kg on arrival.",
+   "entity_note": "a different package, not the one whose weight before and after shipping is compared"
+  },
+  {
+   "story_id": 6,
+   "distractor_fact": "Motori i mjetit tjetër në të njëjtin test arriti një shpejtësi prej {D}km/h.",
+   "gloss_en": "The engine of the other vehicle in the same test reached a speed of {D} km/h.",
+   "entity_note": "a different engine/vehicle, not the one whose initial and final readings are compared"
+  },
+  {
+   "story_id": 7,
+   "distractor_fact": "Një lojtar tjetër në të njëjtën seancë mbylli me {D}pts.",
+   "gloss_en": "Another player in the same session finished with {D} pts.",
+   "entity_note": "a different player, not the one whose start/end score is compared"
+  },
+  {
+   "story_id": 8,
+   "distractor_fact": "Një klient tjetër i të njëjtës bankë depozitoi ${D} po atë javë.",
+   "gloss_en": "Another client of the same bank deposited ${D} that same week.",
+   "entity_note": "a different client, not the one whose deposit and withdrawal are compared"
+  },
+  {
+   "story_id": 9,
+   "distractor_fact": "Një anëtar tjetër i klubit fitoi {D}pts po atë muaj.",
+   "gloss_en": "Another club member earned {D} pts that same month.",
+   "entity_note": "a different member, not the one whose points balance is asked about"
+  },
+  {
+   "story_id": 10,
+   "distractor_fact": "Një depo tjetër e të njëjtit zinxhir mori një sasi prej {D} po atë javë.",
+   "gloss_en": "Another warehouse in the same chain received a stock count of {D} that same week.",
+   "entity_note": "a different warehouse, not the one whose stock balance is asked about"
+  },
+  {
+   "story_id": 11,
+   "distractor_fact": "Një dyqan tjetër në të njëjtin qendër tregtare pati të ardhura prej ${D} këtë muaj.",
+   "gloss_en": "Another shop in the same mall had income of ${D} this month.",
+   "entity_note": "a different shop, not the one whose net result is asked about"
+  },
+  {
+   "story_id": 12,
+   "distractor_fact": "Numri i golave të shënuara nga një ekip tjetër arriti {D} gjatë sezonit.",
+   "gloss_en": "The number of goals scored by another team reached {D} during the season.",
+   "entity_note": "a different team, not the one whose goal difference for the season is asked about"
+  },
+  {
+   "story_id": 16,
+   "distractor_fact": "Treni tjetër, në linjën fqinje, mbërriti {D}min pas mesnate.",
+   "gloss_en": "The other train, on the neighboring line, arrived {D} min after midnight.",
+   "entity_note": "a different train on a different line, with its own unstated schedule — not the train whose actual arrival vs its own schedule is compared"
+  }
+ ]
+}

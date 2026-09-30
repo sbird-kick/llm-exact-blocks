@@ -1,0 +1,66 @@
+{
+  "language_code": "gu",
+  "refused": [],
+  "items": [
+    {
+      "story_id": 1,
+      "distractor_fact": "તે જ દિવસે પડોશી શહેરનું તાપમાન {D}°C નોંધાયું.",
+      "gloss_en": "That same day a neighboring city's temperature was recorded as {D} °C.",
+      "entity_note": "a different city (a neighboring one) than the city in the story"
+    },
+    {
+      "story_id": 2,
+      "distractor_fact": "એ જ દિવસે એક હરીફ કંપનીનો શેરનો ભાવ €{D} હતો.",
+      "gloss_en": "That same day a rival company's share price was €{D}.",
+      "entity_note": "a different company (a rival) than the company whose share price is compared"
+    },
+    {
+      "story_id": 3,
+      "distractor_fact": "એ જ વિસ્તારના બીજા તળાવનું પાણીનું સ્તર {D} m હતું.",
+      "gloss_en": "Another lake in the same area had a water level of {D} m.",
+      "entity_note": "a different lake than the lake in the story"
+    },
+    {
+      "story_id": 4,
+      "distractor_fact": "એક બીજા બચત ખાતામાં આ મહિને €{D} જમા છે.",
+      "gloss_en": "Another savings account holds €{D} deposited this month.",
+      "entity_note": "a different savings account than the one in the story"
+    },
+    {
+      "story_id": 5,
+      "distractor_fact": "એક બીજા ગિફ્ટ કાર્ડમાં શરૂઆતમાં €{D} હતા.",
+      "gloss_en": "Another gift card had €{D} on it at the start.",
+      "entity_note": "a different gift card than the one in the story"
+    },
+    {
+      "story_id": 6,
+      "distractor_fact": "એક બીજા મોબાઇલ ડેટા પ્લાનમાં મહિનાની શરૂઆતમાં {D} GB હતું.",
+      "gloss_en": "Another mobile data plan had {D} GB at the start of the month.",
+      "entity_note": "a different mobile data plan than the one in the story"
+    },
+    {
+      "story_id": 7,
+      "distractor_fact": "એક પડોશી પરિવારની આ મહિનાની આવક €{D} હતી.",
+      "gloss_en": "A neighboring household's income for the month was €{D}.",
+      "entity_note": "a different household (a neighboring one) than the household in the story"
+    },
+    {
+      "story_id": 8,
+      "distractor_fact": "એ જ લીગમાં એક બીજી ટીમે એ જ સીઝનમાં {D} ગોલ કર્યા.",
+      "gloss_en": "In the same league, another team scored {D} goals that same season.",
+      "entity_note": "a different football team in the same league than the team in the story"
+    },
+    {
+      "story_id": 9,
+      "distractor_fact": "એ જ ત્રિમાસિકમાં એક બીજા નાના વેપારે €{D} નફો નોંધાવ્યો.",
+      "gloss_en": "In the same quarter, another small business recorded €{D} in gains.",
+      "entity_note": "a different small business than the one in the story"
+    },
+    {
+      "story_id": 15,
+      "distractor_fact": "એ જ સ્ટેશન પર બીજી લાઇનની એક ટ્રેનનું આગમન સમય રીડિંગ {D} min નોંધાયું.",
+      "gloss_en": "At the same station, another train on a different line had an arrival time reading of {D} min recorded.",
+      "entity_note": "shared-reference domain (arrival vs schedule): a different train on a different line, whose own schedule is not stated"
+    }
+  ]
+}

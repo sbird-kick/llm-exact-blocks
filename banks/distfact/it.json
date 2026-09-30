@@ -1,0 +1,108 @@
+{
+  "language_code": "it",
+  "refused": [],
+  "items": [
+    {
+      "story_id": 1,
+      "distractor_fact": "La centralina meteorologica della valle vicina ha rilevato {D}°C quella stessa mattina.",
+      "gloss_en": "The weather station in the neighboring valley recorded {D}°C that same morning.",
+      "entity_note": "A different weather station, in another valley, not the mountain station whose morning-to-afternoon change is asked about."
+    },
+    {
+      "story_id": 2,
+      "distractor_fact": "Un titolo diverso, quotato sullo stesso mercato, valeva {D} euro in quell'istante.",
+      "gloss_en": "A different stock, listed on the same market, was worth {D} euros at that moment.",
+      "entity_note": "A different security than the one whose open-to-close price change is asked about."
+    },
+    {
+      "story_id": 3,
+      "distractor_fact": "Una seconda mongolfiera, in volo nelle vicinanze, si trovava a {D} m di quota nello stesso istante.",
+      "gloss_en": "A second hot air balloon, flying nearby, was at an altitude of {D} m at the same moment.",
+      "entity_note": "A different balloon than the one whose altitude change during the flight is asked about."
+    },
+    {
+      "story_id": 4,
+      "distractor_fact": "Un secondo pacco, spedito lo stesso giorno, pesava {D} kg.",
+      "gloss_en": "A second package, shipped the same day, weighed {D} kg.",
+      "entity_note": "A different package than the one whose before/after weight change is asked about."
+    },
+    {
+      "story_id": 5,
+      "distractor_fact": "Nel villaggio vicino, la popolazione era pari a {D}.",
+      "gloss_en": "In the neighboring village, the population was equal to {D}.",
+      "entity_note": "A different village than the one whose year-over-year population change is asked about."
+    },
+    {
+      "story_id": 6,
+      "distractor_fact": "Marco, il coinquilino di Giulia, disponeva di {D} euro nello stesso periodo.",
+      "gloss_en": "Marco, Giulia's roommate, had {D} euros available during the same period.",
+      "entity_note": "A different person (Giulia's roommate) than the one whose end-of-week balance is asked about."
+    },
+    {
+      "story_id": 7,
+      "distractor_fact": "Su un conto di risparmio separato, il saldo registrato a fine mese era di {D} euro.",
+      "gloss_en": "In a separate savings account, the balance recorded at the end of the month was {D} euros.",
+      "entity_note": "A different account (a separate savings account) than the checking account whose deposits-minus-withdrawals balance is asked about."
+    },
+    {
+      "story_id": 8,
+      "distractor_fact": "Un'azienda concorrente, operante nello stesso settore, ha registrato entrate per {D} euro nel trimestre.",
+      "gloss_en": "A competing business, operating in the same sector, recorded income of {D} euros during the quarter.",
+      "entity_note": "A different business (a competitor) than the one whose net quarterly result is asked about."
+    },
+    {
+      "story_id": 9,
+      "distractor_fact": "Una squadra rivale, nello stesso campionato, ha totalizzato un numero di reti pari a {D} durante la stagione.",
+      "gloss_en": "A rival team, in the same league, totaled a number of goals equal to {D} during the season.",
+      "entity_note": "A different team than the one whose season goal difference is asked about; the number stays bare after 'pari a', matching the story's own construction."
+    },
+    {
+      "story_id": 10,
+      "distractor_fact": "Un altro investitore, con un portafoglio diverso, ha ottenuto guadagni pari a {D} euro nello stesso anno.",
+      "gloss_en": "Another investor, with a different portfolio, obtained gains equal to {D} euros in the same year.",
+      "entity_note": "A different investor than the one whose net yearly result is asked about."
+    },
+    {
+      "story_id": 11,
+      "distractor_fact": "In un altro stabilimento del gruppo, la produzione dello stesso mese è stata pari a {D} unità.",
+      "gloss_en": "At another plant in the group, the production for the same month was equal to {D} units.",
+      "entity_note": "A different plant with its own unstated target, so it cannot form a second actual-vs-target pair with the stated {S}."
+    },
+    {
+      "story_id": 12,
+      "distractor_fact": "In una città vicina, la quantità di pioggia caduta nello stesso mese è stata pari a {D} mm.",
+      "gloss_en": "In a nearby city, the amount of rain that fell during the same month was equal to {D} mm.",
+      "entity_note": "A different city with its own unstated forecast, so it cannot form a second actual-vs-forecast pair with the stated {S}."
+    },
+    {
+      "story_id": 13,
+      "distractor_fact": "Un altro giocatore, che gareggiava su un campo diverso, ha ottenuto un punteggio pari a {D}.",
+      "gloss_en": "Another player, competing on a different course, obtained a score equal to {D}.",
+      "entity_note": "A different player on a different golf course whose par is not stated, so it cannot form a second score-vs-par pair with the stated {S}."
+    },
+    {
+      "story_id": 14,
+      "distractor_fact": "Un volo diverso, su una rotta differente, è atterrato a {D} min dopo mezzogiorno.",
+      "gloss_en": "A different flight, on a different route, landed at {D} min after noon.",
+      "entity_note": "A different flight on a different route/timetable with no scheduled time given, so it cannot form a second arrival-vs-schedule pair with the stated {S}."
+    },
+    {
+      "story_id": 15,
+      "distractor_fact": "Nell'edificio adiacente, l'appartamento di un vicino si trova al piano {D}.",
+      "gloss_en": "In the adjacent building, a neighbor's apartment is on floor {D}.",
+      "entity_note": "A different building whose own entrance floor is not stated, so it cannot form a second level-vs-reference pair with the stated {S}."
+    },
+    {
+      "story_id": 16,
+      "distractor_fact": "Su un'asta idrometrica situata più a valle, il livello del fiume misurato è stato pari a {D} cm.",
+      "gloss_en": "On a gauge staff located further downstream, the measured river level was equal to {D} cm.",
+      "entity_note": "A different gauge site downstream whose own reference level is not stated, so it cannot form a second level-vs-reference pair with the stated {S}."
+    },
+    {
+      "story_id": 17,
+      "distractor_fact": "In un'altra partita del campionato, il numero di reti segnate da una terza squadra era pari a {D}.",
+      "gloss_en": "In another match of the league, the number of goals scored by a third team was equal to {D}.",
+      "entity_note": "A different team in a different match than the Rossi-versus-Blu match whose goal difference is asked about; the number stays bare after 'pari a', matching the story's own construction."
+    }
+  ]
+}

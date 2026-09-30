@@ -1,0 +1,26 @@
+{
+ "language_code": "fi",
+ "refused": [],
+ "items": [
+  {"story_id": 1, "distractor_fact": "Naapurikylän sääasemalla lukema oli samaan aikaan {D} °C.", "gloss_en": "At the neighboring village's weather station, the reading was {D} °C at the same time.", "entity_note": "a different weather station in the neighboring village, not the story's own thermometer"},
+  {"story_id": 2, "distractor_fact": "Kilpailevan yhtiön osakekurssi oli samana aamuna {D} €.", "gloss_en": "A competing company's stock price was {D} € that same morning.", "entity_note": "a different, competing company's stock"},
+  {"story_id": 3, "distractor_fact": "Toisen joen vedenkorkeus samana aamuna oli {D} cm.", "gloss_en": "Another river's water level that same morning was {D} cm.", "entity_note": "a different river"},
+  {"story_id": 4, "distractor_fact": "Toisen lentokoneen korkeus samalla hetkellä oli {D} m.", "gloss_en": "Another airplane's altitude at the same moment was {D} m.", "entity_note": "a different airplane"},
+  {"story_id": 5, "distractor_fact": "Naapurikylän asukasluku samana vuonna oli {D}.", "gloss_en": "The neighboring village's population that same year was {D}.", "entity_note": "a different, neighboring village"},
+  {"story_id": 6, "distractor_fact": "Toisen auton tutkalukema samalla tiellä oli {D} km/h.", "gloss_en": "Another car's radar reading on the same road was {D} km/h.", "entity_note": "a different car"},
+  {"story_id": 7, "distractor_fact": "Toisen tilin saldo samana päivänä oli {D} €.", "gloss_en": "Another account's balance that same day was {D} €.", "entity_note": "a different bank account"},
+  {"story_id": 8, "distractor_fact": "Toisen yrityksen kuukausitulos oli {D} €.", "gloss_en": "Another company's monthly result was {D} €.", "entity_note": "a different company"},
+  {"story_id": 9, "distractor_fact": "Toisen joukkueen maaliero kaudelta oli {D}.", "gloss_en": "Another team's season goal difference was {D}.", "entity_note": "a different team's own season total"},
+  {"story_id": 10, "distractor_fact": "Toisen sijoittajan vuosituotto oli {D} €.", "gloss_en": "Another investor's annual result was {D} €.", "entity_note": "a different investor"},
+  {"story_id": 11, "distractor_fact": "Toisen tehtaan tuotantomäärä kuukaudessa oli {D}.", "gloss_en": "Another factory's monthly production quantity was {D}.", "entity_note": "a different factory, whose own target is not stated"},
+  {"story_id": 12, "distractor_fact": "Toisen myymälän myynti kuukaudessa oli {D} €.", "gloss_en": "Another store's monthly sales were {D} €.", "entity_note": "a different store, whose own target is not stated"},
+  {"story_id": 13, "distractor_fact": "Toisella sääasemalla mitattu sadesumma samana kuukautena oli {D} mm.", "gloss_en": "The rainfall total measured at another weather station that same month was {D} mm.", "entity_note": "a different weather station, whose own forecast is not stated"},
+  {"story_id": 14, "distractor_fact": "Toisen pelaajan lyöntimäärä viereisellä väylällä oli {D}.", "gloss_en": "Another player's stroke count on the neighboring hole was {D}.", "entity_note": "a different player on a different hole, whose own par is not stated"},
+  {"story_id": 15, "distractor_fact": "Toisen junan toteutunut saapumislukema samana aamuna oli {D}.", "gloss_en": "Another train's actual arrival reading that same morning was {D}.", "entity_note": "a different train, whose own schedule is not stated"},
+  {"story_id": 16, "distractor_fact": "Toisessa rakennuksessa toimiston kerroslukema oli {D}.", "gloss_en": "In another building, the office's floor reading was {D}.", "entity_note": "a different building, whose own street level is not stated"},
+  {"story_id": 17, "distractor_fact": "Toisen ottelun kotijoukkueen maalimäärä oli {D}.", "gloss_en": "Another match's home team's goal count was {D}.", "entity_note": "a different match's home team"},
+  {"story_id": 18, "distractor_fact": "Toisen ottelun kotijoukkueen pistemäärä oli {D}.", "gloss_en": "Another match's home team's point total was {D}.", "entity_note": "a different match's home team"},
+  {"story_id": 19, "distractor_fact": "Toisen kilpailun voittajan loppuaika oli {D} s.", "gloss_en": "Another race's winner's finishing time was {D} s.", "entity_note": "a different race's winner"},
+  {"story_id": 20, "distractor_fact": "Toisen luokan oppilaan kokeen pistemäärä oli {D}.", "gloss_en": "A student from a different class's exam score was {D}.", "entity_note": "a different class's student"}
+ ]
+}

@@ -1,0 +1,90 @@
+{
+  "language_code": "hu",
+  "refused": [],
+  "items": [
+    {
+      "story_id": 1,
+      "distractor_fact": "A meteorológus saját házának hőmérője ugyanezen a reggelen {D} fokot mutatott.",
+      "gloss_en": "The meteorologist's own house thermometer showed {D} degrees that same morning.",
+      "entity_note": "owner is a person's private instrument (the meteorologist's home thermometer), not another town as in the first distractor"
+    },
+    {
+      "story_id": 2,
+      "distractor_fact": "Az egyik kereskedő ugyanezen a napon zárásban {D} dollár értékű részvényt tartott a portfóliójában.",
+      "gloss_en": "One trader held, at that same day's close, {D} dollars' worth of stock in his portfolio.",
+      "entity_note": "owner is a person (a trader's portfolio), not another traded product as in the first distractor"
+    },
+    {
+      "story_id": 3,
+      "distractor_fact": "Egy horgász a saját mérőbotjával egy másik tavon ugyanazon a hétvégén {D} métert mért.",
+      "gloss_en": "An angler, with his own measuring rod, measured {D} meters at a different lake that same weekend.",
+      "entity_note": "owner is a person (an angler with his own gauge), not another lake itself as in the first distractor"
+    },
+    {
+      "story_id": 4,
+      "distractor_fact": "Egy másik pilóta drónja ugyanezen a napon {D} méter magasságban repült.",
+      "gloss_en": "Another pilot's drone flew at a height of {D} meters that same day.",
+      "entity_note": "owner is a person (a different pilot who owns the drone), not the drone itself as an unowned object as in the first distractor"
+    },
+    {
+      "story_id": 5,
+      "distractor_fact": "Egy másik ügyfél csomagja feladáskor {D} kilogramm volt.",
+      "gloss_en": "Another customer's package weighed {D} kilograms at shipping.",
+      "entity_note": "owner is a person (a different customer), not the package itself as an unowned object as in the first distractor"
+    },
+    {
+      "story_id": 6,
+      "distractor_fact": "A helyi iskola tanulóinak létszáma ugyanabban az évben {D} fő volt.",
+      "gloss_en": "The local school's number of students was {D} persons in that same year.",
+      "entity_note": "owner is an organisation (the local school's own headcount), not another settlement as in the first distractor"
+    },
+    {
+      "story_id": 7,
+      "distractor_fact": "A közúti sebességmérő kamera egy másik szakaszon {D} kilométer per órás sebességet mért.",
+      "gloss_en": "The road speed camera measured a speed of {D} kilometers per hour on a different stretch.",
+      "entity_note": "owner is an instrument (a speed camera), not another car as in the first distractor"
+    },
+    {
+      "story_id": 9,
+      "distractor_fact": "Egy másik ügyfél ugyanabban a hónapban {D} eurót fizetett be egy másik bankfióknál.",
+      "gloss_en": "Another customer paid in {D} euros at a different bank branch that same month.",
+      "entity_note": "owner is a person (a different customer at a different branch), not another savings account as in the first distractor"
+    },
+    {
+      "story_id": 10,
+      "distractor_fact": "Egy vállalat ugyanabban a hónapban {D} forintos bevételt könyvelt el.",
+      "gloss_en": "A company booked revenue of {D} forints in that same month.",
+      "entity_note": "owner is an organisation (a company), not another household as in the first distractor"
+    },
+    {
+      "story_id": 11,
+      "distractor_fact": "A liga legjobb gólszerzője a szezonban {D} gólt szerzett.",
+      "gloss_en": "The league's top scorer scored {D} goals in the season.",
+      "entity_note": "owner is a person (an individual player's personal tally), not another team as in the first distractor"
+    },
+    {
+      "story_id": 12,
+      "distractor_fact": "Egy másik exportmegrendelés keretében ugyanabban a hónapban {D} darabot szállítottak ki.",
+      "gloss_en": "Under a different export order, {D} units were shipped out in that same month.",
+      "entity_note": "owner is a separate order/contract (a series), not another factory as in the first distractor; that order carries no stated plan, so the story's target does not apply to it"
+    },
+    {
+      "story_id": 13,
+      "distractor_fact": "A meteorológiai szolgálat egy másik mérőállomásán ugyanazon a napon {D} milliméter csapadékot mértek.",
+      "gloss_en": "At a different measuring station of the meteorological service, {D} millimeters of rainfall were measured that same day.",
+      "entity_note": "owner is an instrument/station run by an organisation, not another settlement as in the first distractor; that station's own forecast is not stated, so the story's forecast does not apply to it"
+    },
+    {
+      "story_id": 14,
+      "distractor_fact": "Egy másik golfpálya legjobb eredménye {D} ütés volt.",
+      "gloss_en": "The best result at a different golf course was {D} strokes.",
+      "entity_note": "owner is a place (a different course), not another player on another hole as in the first distractor; that course's own par is not stated, so the story's par does not apply to it"
+    },
+    {
+      "story_id": 15,
+      "distractor_fact": "Egy utas saját órája szerint a szomszédos peronon egy másik szerelvény a(z) {D}. percben futott be.",
+      "gloss_en": "According to a passenger's own watch, a different train arrived at the {D}th minute on the neighbouring platform.",
+      "entity_note": "owner is a person (a passenger's own timing of a different train), not another train's own line and timetable as in the first distractor"
+    }
+  ]
+}

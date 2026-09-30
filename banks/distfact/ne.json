@@ -1,0 +1,96 @@
+{
+ "language_code": "ne",
+ "refused": [],
+ "items": [
+  {
+   "story_id": 5,
+   "distractor_fact": "उसको छिमेकीसँग सोही दिन {D} रुपैयाँ थियो।",
+   "gloss_en": "His neighbor had {D} rupees that same day.",
+   "entity_note": "a different person (the neighbor), not the traveller whose balance the question asks about"
+  },
+  {
+   "story_id": 6,
+   "distractor_fact": "छिमेकीको बैंक खातामा सोही महिना {D} रुपैयाँ जम्मा थियो।",
+   "gloss_en": "The neighbor's bank account had a balance of {D} rupees that same month.",
+   "entity_note": "a different bank account belonging to a different person"
+  },
+  {
+   "story_id": 7,
+   "distractor_fact": "छिमेकी परिवारको आम्दानी सोही महिना {D} रुपैयाँ भयो।",
+   "gloss_en": "The neighboring family's income was {D} rupees that same month.",
+   "entity_note": "a different household than the one in the question"
+  },
+  {
+   "story_id": 8,
+   "distractor_fact": "अर्को टोलीले सोही सिजनमा {D} गोल गर्यो।",
+   "gloss_en": "Another team scored {D} goals that same season.",
+   "entity_note": "a different team than the one whose goal difference is asked about"
+  },
+  {
+   "story_id": 9,
+   "distractor_fact": "अर्को व्यापारीलाई सोही वर्ष {D} रुपैयाँ नाफा भयो।",
+   "gloss_en": "Another trader had a profit of {D} rupees that same year.",
+   "entity_note": "a different trader than the one in the question"
+  },
+  {
+   "story_id": 10,
+   "distractor_fact": "छिमेकी कारखानाले सोही महिना {D} टन उत्पादन गर्यो।",
+   "gloss_en": "A neighboring factory produced {D} tons that same month.",
+   "entity_note": "a different factory with its own unstated target, not the one being measured against its target"
+  },
+  {
+   "story_id": 11,
+   "distractor_fact": "सहरको अर्को पसलको बिक्री सोही महिना {D} रुपैयाँ भयो।",
+   "gloss_en": "Another shop in the city had sales of {D} rupees that same month.",
+   "entity_note": "a different shop with its own unstated sales target"
+  },
+  {
+   "story_id": 12,
+   "distractor_fact": "छिमेकी जिल्लामा सोही वर्ष {D} मिलिमिटर वर्षा भयो।",
+   "gloss_en": "In the neighboring district, {D} millimeters of rain fell that same year.",
+   "entity_note": "a different district with its own unstated forecast"
+  },
+  {
+   "story_id": 13,
+   "distractor_fact": "अर्को कोर्समा खेलेको खेलाडीले {D} स्ट्रोक खेल्यो।",
+   "gloss_en": "A golfer playing on a different course took {D} strokes.",
+   "entity_note": "a different course whose par is not the one stated in the story"
+  },
+  {
+   "story_id": 14,
+   "distractor_fact": "अर्को रेलमार्गको रेल मध्यरातदेखि {D} मिनेटपछि आइपुग्यो।",
+   "gloss_en": "A train on another line arrived {D} minutes after midnight.",
+   "entity_note": "a different train on a different line with its own unstated schedule"
+  },
+  {
+   "story_id": 15,
+   "distractor_fact": "छिमेकी भवनको एलिभेटर तल्ला {D} मा रोकियो।",
+   "gloss_en": "The neighboring building's elevator stopped at floor {D}.",
+   "entity_note": "a different building whose entrance floor is not the reference stated in the story"
+  },
+  {
+   "story_id": 16,
+   "distractor_fact": "छिमेकी तालको पानीको सतह सोही दिन {D} सेन्टिमिटरमा नापियो।",
+   "gloss_en": "The neighboring lake's water level was measured at {D} centimeters that same day.",
+   "entity_note": "a different lake with its own unstated reference mark"
+  },
+  {
+   "story_id": 17,
+   "distractor_fact": "उस्तै दिन खेलिएको अर्को खेलमा टोली गले {D} गोल गर्यो।",
+   "gloss_en": "In another match played the same day, Team C scored {D} goals.",
+   "entity_note": "a third team in an entirely different match, not टोली क or टोली ख"
+  },
+  {
+   "story_id": 19,
+   "distractor_fact": "परीक्षामा विद्यार्थी गले {D} अंक ल्यायो।",
+   "gloss_en": "Student C got {D} marks in the exam.",
+   "entity_note": "a third student, not विद्यार्थी क or विद्यार्थी ख"
+  },
+  {
+   "story_id": 20,
+   "distractor_fact": "एकै समयमा सहर गको तापक्रम {D}°C थियो।",
+   "gloss_en": "At the same time, City C's temperature was {D}°C.",
+   "entity_note": "a third city, not सहर क or सहर ख"
+  }
+ ]
+}

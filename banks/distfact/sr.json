@@ -1,0 +1,102 @@
+{
+  "language_code": "sr",
+  "refused": [],
+  "items": [
+    {
+      "story_id": 1,
+      "distractor_fact": "У суседном селу је истог јутра термометар показивао {D} °C.",
+      "gloss_en": "In the neighboring village, that same morning, the thermometer showed {D} °C.",
+      "entity_note": "a different village's thermometer, not the terrace one the story compares"
+    },
+    {
+      "story_id": 2,
+      "distractor_fact": "Акција другог предузећа тог дана коштала је {D} €.",
+      "gloss_en": "That day, another company's share cost {D} €.",
+      "entity_note": "a different company's share price, not the one the question tracks"
+    },
+    {
+      "story_id": 3,
+      "distractor_fact": "Мерна станица суседне реке забележила је ниво од {D} cm.",
+      "gloss_en": "The gauge station on the neighboring river recorded a level of {D} cm.",
+      "entity_note": "a different river's gauge station, not the one before/after the rain"
+    },
+    {
+      "story_id": 4,
+      "distractor_fact": "Оближњи врх на карти означен је висином од {D} m.",
+      "gloss_en": "A nearby peak on the map is marked with an altitude of {D} m.",
+      "entity_note": "a different mountain peak, not the hiker's own climb"
+    },
+    {
+      "story_id": 5,
+      "distractor_fact": "Тег у оближњој теретани показивао је {D} kg.",
+      "gloss_en": "The scale at a nearby gym showed {D} kg.",
+      "entity_note": "a different gym's scale, not the one the athlete used all season"
+    },
+    {
+      "story_id": 6,
+      "distractor_fact": "Са другог рачуна у истој банци подигнуто је {D} $.",
+      "gloss_en": "From another account at the same bank, {D} $ was withdrawn.",
+      "entity_note": "a different bank account than the one being tracked"
+    },
+    {
+      "story_id": 7,
+      "distractor_fact": "Његов сапутник је током истог путовања потрошио {D} $.",
+      "gloss_en": "His travel companion spent {D} $ during the same trip.",
+      "entity_note": "a different traveler (the companion), not the traveler in the question"
+    },
+    {
+      "story_id": 8,
+      "distractor_fact": "Друга продавница истог ланца имала је трошкове од {D} $.",
+      "gloss_en": "Another store in the same chain had expenses of {D} $.",
+      "entity_note": "a different store in the chain, not the shop the question is about"
+    },
+    {
+      "story_id": 10,
+      "distractor_fact": "Други инвеститор је на својој позицији остварио губитак од {D} $.",
+      "gloss_en": "Another investor made a loss of {D} $ on their own position.",
+      "entity_note": "a different investor, not the one whose net result is asked"
+    },
+    {
+      "story_id": 11,
+      "distractor_fact": "Друга фабрика истог концерна произвела је {D} комада тог месеца.",
+      "gloss_en": "Another factory in the same conglomerate produced {D} units that month.",
+      "entity_note": "a different factory with its own unstated plan"
+    },
+    {
+      "story_id": 12,
+      "distractor_fact": "Друга продавница истог ланца остварила је продају од {D} $.",
+      "gloss_en": "Another store in the same chain achieved sales of {D} $.",
+      "entity_note": "a different store with its own unstated sales target"
+    },
+    {
+      "story_id": 13,
+      "distractor_fact": "У суседном граду измерено је {D} mm падавина тог месеца.",
+      "gloss_en": "In the neighboring town, {D} mm of rainfall was measured that month.",
+      "entity_note": "a different town with its own unstated forecast"
+    },
+    {
+      "story_id": 15,
+      "distractor_fact": "Други воз на супротном смеру стигао је у тренутку који је износио {D} минута.",
+      "gloss_en": "Another train, on the opposite line, arrived at a moment amounting to {D} minutes.",
+      "entity_note": "a different train and line, with its own unstated timetable"
+    },
+    {
+      "story_id": 16,
+      "distractor_fact": "У суседној згради лифт се зауставио на спрату означеном бројем {D}.",
+      "gloss_en": "In the neighboring building, the elevator stopped at the floor marked number {D}.",
+      "entity_note": "a different building's elevator, with its own floor numbering"
+    },
+    {
+      "story_id": 19,
+      "distractor_fact": "Предузеће Гама остварило је добит од {D} $ у истом кварталу.",
+      "gloss_en": "Company Gamma achieved a profit of {D} $ in the same quarter.",
+      "entity_note": "a third company, distinct from Alfa and Beta"
+    },
+    {
+      "story_id": 20,
+      "distractor_fact": "Тркач Јовановић је на истој трци постигао време од {D} s.",
+      "gloss_en": "Runner Jovanović posted a time of {D} s in the same race.",
+      "entity_note": "a third runner, distinct from Milić and Radović"
+    }
+  ]
+}

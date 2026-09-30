@@ -1,0 +1,192 @@
+{
+  "language_code": "en",
+  "refused": [],
+  "items": [
+    {
+      "story_id": 1,
+      "distractor_fact": "A hiker's pocket thermometer, some way up the hill, showed {D} °C at that same hour.",
+      "gloss_en": "A hiker's pocket thermometer, some way up the hill, showed {D} °C at that same hour.",
+      "entity_note": "a hiker's own instrument up the hill (a person), not a different village's gauge (a place) as in the first distractor, and not the noon/dawn thermometer the question compares"
+    },
+    {
+      "story_id": 2,
+      "distractor_fact": "A different broker's own model portfolio was marked at {D} cents that same day.",
+      "gloss_en": "A different broker's own model portfolio was marked at {D} cents that same day.",
+      "entity_note": "a different broker's holding (an organisation), not another listing (an entity) as in the first distractor, and not the stock whose opening/closing prices are compared"
+    },
+    {
+      "story_id": 3,
+      "distractor_fact": "A local angler's own tide marker read {D} cm at that same hour.",
+      "gloss_en": "A local angler's own tide marker read {D} cm at that same hour.",
+      "entity_note": "an angler's personal marker (a person), not a different reach of the river (a place) as in the first distractor"
+    },
+    {
+      "story_id": 4,
+      "distractor_fact": "The tracking radar at the nearby airfield logged an unrelated contact at {D} m that same day.",
+      "gloss_en": "The tracking radar at the nearby airfield logged an unrelated contact at {D} m that same day.",
+      "entity_note": "an instrument (radar) logging an unrelated contact, not a second balloon (an entity) as in the first distractor, and not the balloon whose two readings are compared"
+    },
+    {
+      "story_id": 5,
+      "distractor_fact": "The neighbouring warehouse logged its own consignment at {D} kg that same day.",
+      "gloss_en": "The neighbouring warehouse logged its own consignment at {D} kg that same day.",
+      "entity_note": "a different warehouse (a place), not a second crate (an entity) as in the first distractor"
+    },
+    {
+      "story_id": 6,
+      "distractor_fact": "A local historian noted {D} residents living in a neighbouring hamlet that year.",
+      "gloss_en": "A local historian noted {D} residents living in a neighbouring hamlet that year.",
+      "entity_note": "a historian's own tally (a person), not the neighbouring village's own count (a place) as in the first distractor"
+    },
+    {
+      "story_id": 7,
+      "distractor_fact": "The branch's own petty cash tin held {D} dollars that same morning.",
+      "gloss_en": "The branch's own petty cash tin held {D} dollars that same morning.",
+      "entity_note": "the branch's petty cash (an organisation), not another customer (a person) as in the first distractor, and not the customer whose balance is asked about"
+    },
+    {
+      "story_id": 8,
+      "distractor_fact": "Someone volunteering for a different local society had, from her own pocket, put by {D} pounds that same week.",
+      "gloss_en": "Someone volunteering for a different local society had, from her own pocket, put by {D} pounds that same week.",
+      "entity_note": "a volunteer's personal saving (a person), not a neighbouring club's deposit (an organisation) as in the first distractor"
+    },
+    {
+      "story_id": 9,
+      "distractor_fact": "A vending machine in the town library, unconnected to the college's machines, took in {D} credits that same term.",
+      "gloss_en": "A vending machine in the town library, unconnected to the college's machines, took in {D} credits that same term.",
+      "entity_note": "a machine at a different site (an instrument/place), not another student's card (a person) as in the first distractor"
+    },
+    {
+      "story_id": 11,
+      "distractor_fact": "A different charity in the same city held {D} dollars in its accounts at the start of the month.",
+      "gloss_en": "A different charity in the same city held {D} dollars in its accounts at the start of the month.",
+      "entity_note": "a different charity (an organisation), not a separate fund at the same charity (an entity) as in the first distractor"
+    },
+    {
+      "story_id": 12,
+      "distractor_fact": "A trader who works only on market days took {D} pesos over that same weekend, at a stand across town.",
+      "gloss_en": "A trader who works only on market days took {D} pesos over that same weekend, at a stand across town.",
+      "entity_note": "an itinerant trader (a person), not the stall next to it (a place) as in the first distractor"
+    },
+    {
+      "story_id": 13,
+      "distractor_fact": "The scoreboard at a different ground in the league recorded a season total of {D} goals scored there.",
+      "gloss_en": "The scoreboard at a different ground in the league recorded a season total of {D} goals scored there.",
+      "entity_note": "a different ground's own tally (a place), not a rival side in the same division (an organisation) as in the first distractor"
+    },
+    {
+      "story_id": 14,
+      "distractor_fact": "A private investor known to the broker had personally logged gains of {D} francs that year.",
+      "gloss_en": "A private investor known to the broker had personally logged gains of {D} francs that year.",
+      "entity_note": "an individual investor (a person), not a separate portfolio at the same firm (an entity) as in the first distractor"
+    },
+    {
+      "story_id": 15,
+      "distractor_fact": "The water authority's separate treatment works released {D} megalitres over that same period.",
+      "gloss_en": "The water authority's separate treatment works released {D} megalitres over that same period.",
+      "entity_note": "a different organisation's own works (an organisation), not a reservoir further downstream (a place) as in the first distractor"
+    },
+    {
+      "story_id": 16,
+      "distractor_fact": "A freelance mechanic operating from his own garage billed {D} rupees for work that same month.",
+      "gloss_en": "A freelance mechanic operating from his own garage billed {D} rupees for work that same month.",
+      "entity_note": "a freelance individual (a person), not a workshop across town (an organisation) as in the first distractor"
+    },
+    {
+      "story_id": 17,
+      "distractor_fact": "A neighbouring factory, under different ownership, produced {D} units that same quarter, with no target ever set for it here.",
+      "gloss_en": "A neighbouring factory, under different ownership, produced {D} units that same quarter, with no target ever set for it here.",
+      "entity_note": "a different, independently owned factory (an organisation) with its own unstated target, not a second production line at the same works (an entity) as in the first distractor"
+    },
+    {
+      "story_id": 18,
+      "distractor_fact": "A separate ticket agency, working to its own unpublished target, sold {D} tickets that same weekend.",
+      "gloss_en": "A separate ticket agency, working to its own unpublished target, sold {D} tickets that same weekend.",
+      "entity_note": "a ticket agency (an organisation) with its own unstated target, not a stall at a different fair (a place) as in the first distractor"
+    },
+    {
+      "story_id": 19,
+      "distractor_fact": "A rain gauge kept by a hobbyist a few miles off recorded {D} mm that same week, with no forecast ever attached to it.",
+      "gloss_en": "A rain gauge kept by a hobbyist a few miles off recorded {D} mm that same week, with no forecast ever attached to it.",
+      "entity_note": "a hobbyist's own instrument (a person), with no forecast of its own, not a neighbouring valley (a place) as in the first distractor"
+    },
+    {
+      "story_id": 20,
+      "distractor_fact": "A community hall across town welcomed {D} visitors that same day; nobody there had ever drawn up a plan to compare it to.",
+      "gloss_en": "A community hall across town welcomed {D} visitors that same day; nobody there had ever drawn up a plan to compare it to.",
+      "entity_note": "a different venue (a place) with no plan of its own, not a similar event across town (an organisation/series) as in the first distractor"
+    },
+    {
+      "story_id": 21,
+      "distractor_fact": "An independent farmer working her own smallholding brought in {D} sacks at that same harvest, with no figure ever set for her in advance.",
+      "gloss_en": "An independent farmer working her own smallholding brought in {D} sacks at that same harvest, with no figure ever set for her in advance.",
+      "entity_note": "an individual farmer (a person) with no target of her own, not a neighbouring co-operative (an organisation) as in the first distractor"
+    },
+    {
+      "story_id": 22,
+      "distractor_fact": "In a separate tournament held that same weekend, another entrant's round was recorded at {D} strokes, on a course whose par was never announced.",
+      "gloss_en": "In a separate tournament held that same weekend, another entrant's round was recorded at {D} strokes, on a course whose par was never announced.",
+      "entity_note": "a different tournament (a series/event) whose course's par is unstated, not simply a different course (a place) as in the first distractor"
+    },
+    {
+      "story_id": 23,
+      "distractor_fact": "A friend playing socially, keeping her own private scorecard with no par marked on it, went round in {D} strokes.",
+      "gloss_en": "A friend playing socially, keeping her own private scorecard with no par marked on it, went round in {D} strokes.",
+      "entity_note": "a person playing informally with no par recorded (a person), not a neighbouring club (a place/organisation) as in the first distractor"
+    },
+    {
+      "story_id": 24,
+      "distractor_fact": "A corporate outing organised by a different company recorded a round of {D} strokes on a course whose card gave no par.",
+      "gloss_en": "A corporate outing organised by a different company recorded a round of {D} strokes on a course whose card gave no par.",
+      "entity_note": "a different company's outing (an organisation), not a course across town (a place) as in the first distractor"
+    },
+    {
+      "story_id": 25,
+      "distractor_fact": "In a charity scramble held that same day, one team's better-ball score was noted at {D} strokes, on a course with no published par.",
+      "gloss_en": "In a charity scramble held that same day, one team's better-ball score was noted at {D} strokes, on a course with no published par.",
+      "entity_note": "a different competition (a series/event), not an unrelated course (a place) as in the first distractor"
+    },
+    {
+      "story_id": 26,
+      "distractor_fact": "A different ferry company, running to its own unpublished timetable, docked its vessel at {D} minutes past the hour that day.",
+      "gloss_en": "A different ferry company, running to its own unpublished timetable, docked its vessel at {D} minutes past the hour that day.",
+      "entity_note": "a rival company (an organisation) with its own unstated timetable, not simply a different route (a place/series) as in the first distractor"
+    },
+    {
+      "story_id": 27,
+      "distractor_fact": "A passenger waiting at a different stop, going by her own watch rather than any timetable, said the next coach came at {D} minutes past the hour.",
+      "gloss_en": "A passenger waiting at a different stop, going by her own watch rather than any timetable, said the next coach came at {D} minutes past the hour.",
+      "entity_note": "a waiting passenger (a person) with no timetable of her own, not a different route (a place/series) as in the first distractor"
+    },
+    {
+      "story_id": 28,
+      "distractor_fact": "At a different junction across the network, the noticeboard showed a service recorded arriving at {D} minutes past, with no schedule posted for comparison.",
+      "gloss_en": "At a different junction across the network, the noticeboard showed a service recorded arriving at {D} minutes past, with no schedule posted for comparison.",
+      "entity_note": "a different junction (a place), not a different line (a series) as in the first distractor"
+    },
+    {
+      "story_id": 29,
+      "distractor_fact": "A different airline's flight, arriving at a gate with no published schedule posted there, touched down at {D} minutes after the hour.",
+      "gloss_en": "A different airline's flight, arriving at a gate with no published schedule posted there, touched down at {D} minutes after the hour.",
+      "entity_note": "a rival airline (an organisation) with no schedule posted, not simply a different route (a series) as in the first distractor"
+    },
+    {
+      "story_id": 30,
+      "distractor_fact": "A porter working several streets away, where the lift there has no floor marked as ground, said the level he uses each day is numbered {D}.",
+      "gloss_en": "A porter working several streets away, where the lift there has no floor marked as ground, said the level he uses each day is numbered {D}.",
+      "entity_note": "an individual porter (a person) with no ground floor marked, not a neighbouring building (a place) as in the first distractor"
+    },
+    {
+      "story_id": 31,
+      "distractor_fact": "A separate survey company, working to a datum of its own that was never recorded here, logged a reading of {D} cm at one of its own benchmarks.",
+      "gloss_en": "A separate survey company, working to a datum of its own that was never recorded here, logged a reading of {D} cm at one of its own benchmarks.",
+      "entity_note": "a different survey company (an organisation) with its own unstated datum, not a marker on a different staff nearby (an instrument) as in the first distractor"
+    },
+    {
+      "story_id": 32,
+      "distractor_fact": "A gauge in a different building on the same site, answering to a reference pressure that was never quoted, showed {D} kPa.",
+      "gloss_en": "A gauge in a different building on the same site, answering to a reference pressure that was never quoted, showed {D} kPa.",
+      "entity_note": "a different building's own gauge (a place/instrument), not a second vessel in the same plant (an entity) as in the first distractor"
+    }
+  ]
+}

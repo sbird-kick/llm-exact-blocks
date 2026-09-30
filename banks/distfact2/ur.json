@@ -1,0 +1,126 @@
+{
+  "language_code": "ur",
+  "refused": [],
+  "items": [
+    {
+      "story_id": 1,
+      "distractor_fact": "ایک الگ درجہ حرارت ناپنے کے آلے نے اسی صبح {D} °C ریکارڈ کیا۔",
+      "gloss_en": "A separate thermometer device recorded {D} °C that same morning.",
+      "entity_note": "a different measuring instrument (thermometer), not a place; °C symbol follows the number, invariant."
+    },
+    {
+      "story_id": 2,
+      "distractor_fact": "ایک دکاندار نے ایک اور موقع پر ایسی ہی شئے $ {D} میں بیچی۔",
+      "gloss_en": "A shopkeeper sold a similar item for $ {D} on another occasion.",
+      "entity_note": "a person (an individual shopkeeper), not a place like the first sentence's neighbouring shop; $ precedes the number, invariant."
+    },
+    {
+      "story_id": 3,
+      "distractor_fact": "ایک مختلف واٹر گیج نے اسی دن {D} میٹر کی سطح ریکارڈ کی۔",
+      "gloss_en": "A different water gauge recorded a level of {D} meters that same day.",
+      "entity_note": "an instrument (a gauge), not a place like the first sentence's other dam; میٹر follows the number, invariant."
+    },
+    {
+      "story_id": 4,
+      "distractor_fact": "ایک مختلف ایئرپورٹ کے ریڈار سسٹم نے اس وقت {D} میٹر کی بلندی ریکارڈ کی۔",
+      "gloss_en": "A different airport's radar system recorded an altitude of {D} meters at that time.",
+      "entity_note": "a place/organisation (an airport's radar), not another aircraft like the first sentence; میٹر follows the number, invariant."
+    },
+    {
+      "story_id": 5,
+      "distractor_fact": "ایک مختلف گودام میں اس وقت ایک شپمنٹ کا وزن {D} کلوگرام ریکارڈ ہوا۔",
+      "gloss_en": "At a different warehouse, at that time, a shipment's weight was recorded at {D} kilograms.",
+      "entity_note": "an organisation/place (a warehouse), not another package like the first sentence; کلوگرام follows the number, invariant."
+    },
+    {
+      "story_id": 6,
+      "distractor_fact": "ایک سفری کمپنی نے اسی مہینے ایک گروپ کے دورے پر $ {D} خرچ کیے۔",
+      "gloss_en": "A travel company spent $ {D} on a group's trip that same month.",
+      "entity_note": "an organisation (a travel company), not another individual person like the first sentence; $ precedes the number, invariant."
+    },
+    {
+      "story_id": 7,
+      "distractor_fact": "ایک گاہک نے اپنی ذاتی بچت میں اسی مہینے {D} ڈالر کا اضافہ کیا۔",
+      "gloss_en": "A customer added {D} dollars to their personal savings that same month.",
+      "entity_note": "a person (an individual customer), not another bank account like the first sentence; ڈالر follows the number, invariant."
+    },
+    {
+      "story_id": 8,
+      "distractor_fact": "ایک کمپنی نے اسی مہینے {D} ڈالر کی آمدنی ریکارڈ کی۔",
+      "gloss_en": "A company recorded {D} dollars of income that same month.",
+      "entity_note": "an organisation (a company), not another family/household like the first sentence; ڈالر follows the number, invariant."
+    },
+    {
+      "story_id": 9,
+      "distractor_fact": "اس ٹیم کے ایک کھلاڑی نے اپنے کیریئر میں مجموعی طور پر {D} گول کیے ہیں۔",
+      "gloss_en": "A player on the team has scored {D} goals in total over his career.",
+      "entity_note": "a person (an individual player, career tally), not another team like the first sentence; گول follows the number, invariant."
+    },
+    {
+      "story_id": 10,
+      "distractor_fact": "ایک سرمایہ کاری فنڈ کو اسی سال $ {D} کا منافع ہوا۔",
+      "gloss_en": "An investment fund earned $ {D} profit that same year.",
+      "entity_note": "an organisation (an investment fund), not another individual investor like the first sentence; $ precedes the number, invariant."
+    },
+    {
+      "story_id": 11,
+      "distractor_fact": "ایک آزاد کاریگر نے اسی مہینے {D} یونٹ تیار کیے، جس کا اپنا کوئی ہدف مقرر نہیں تھا۔",
+      "gloss_en": "An independent craftsman produced {D} units that same month, who had no target of his own set.",
+      "entity_note": "a person (an independent craftsman with no stated target), not another factory/organisation like the first sentence; یونٹ follows the number, invariant."
+    },
+    {
+      "story_id": 12,
+      "distractor_fact": "ایک آزاد فری لانسر نے اسی ماہ $ {D} کی فروخت کی، جس کا اپنا کوئی ہدف مقرر نہیں تھا۔",
+      "gloss_en": "An independent freelancer made $ {D} of sales that same month, who had no target of their own set.",
+      "entity_note": "a person (an independent freelancer with no stated target), not another company like the first sentence; $ precedes the number, invariant."
+    },
+    {
+      "story_id": 13,
+      "distractor_fact": "ایک کسان نے اپنے کھیت میں اسی دن {D} ملی میٹر بارش کا اندازہ لگایا، جس کے لیے کوئی سرکاری پیش گوئی جاری نہیں کی گئی تھی۔",
+      "gloss_en": "A farmer estimated {D} millimeters of rainfall on his own field that same day, for which no official forecast had been issued.",
+      "entity_note": "a person (a farmer, no stated forecast), not another region like the first sentence; ملی میٹر follows the number, invariant."
+    },
+    {
+      "story_id": 14,
+      "distractor_fact": "ایک مختلف ٹورنامنٹ کے ایک راؤنڈ میں کھیلا گیا سکور {D} سٹروک تھا، جس کا پار الگ سے بیان نہیں کیا گیا۔",
+      "gloss_en": "A round played in a different tournament had a score of {D} strokes, for which no par was separately stated.",
+      "entity_note": "a series/event (a different tournament's round, no stated par), not another golfer like the first sentence; سٹروک follows the number, invariant."
+    },
+    {
+      "story_id": 15,
+      "distractor_fact": "ایک مختلف ریلوے کمپنی کی ایک سروس نے روانگی کے {D} منٹ بعد اپنی منزل مکمل کی، جس کا اپنا کوئی شیڈول یہاں بیان نہیں کیا گیا۔",
+      "gloss_en": "A service of a different railway company completed its journey {D} minutes after departure, whose own schedule is not stated here.",
+      "entity_note": "an organisation (a different railway company, no stated schedule), not another train like the first sentence; منٹ follows the number, invariant."
+    },
+    {
+      "story_id": 16,
+      "distractor_fact": "ایک مختلف کمپنی کا دفتر فلور نمبر {D} پر واقع ہے، جس کی اپنی لابی کا نمبر یہاں بیان نہیں کیا گیا۔",
+      "gloss_en": "A different company's office is located on floor number {D}, whose own lobby number is not stated here.",
+      "entity_note": "an organisation (a different company, no stated lobby reference), not another building like the first sentence; the numeral is a bare floor label, invariant."
+    },
+    {
+      "story_id": 17,
+      "distractor_fact": "ایک الگ کھلاڑی نے اس دن ایک دوسرے میچ میں {D} گول کیے۔",
+      "gloss_en": "A separate player scored {D} goals in a different match that same day.",
+      "entity_note": "a person (an individual player), not another team like the first sentence; گول follows the number, invariant."
+    },
+    {
+      "story_id": 18,
+      "distractor_fact": "ایک انجینئرنگ کمپنی کے ریکارڈ میں ایک مختلف عمارت کی بلندی {D} میٹر درج ہے۔",
+      "gloss_en": "An engineering company's records list a different building's height as {D} meters.",
+      "entity_note": "an organisation (an engineering company's record), not another tower like the first sentence; میٹر follows the number, invariant."
+    },
+    {
+      "story_id": 19,
+      "distractor_fact": "ایک مختلف ٹیم نے اسی کھیل میں مجموعی طور پر {D} پوائنٹس حاصل کیے۔",
+      "gloss_en": "A different team scored {D} points in total in that same game.",
+      "entity_note": "an organisation (a team), not another individual player like the first sentence; پوائنٹس follows the number, invariant."
+    },
+    {
+      "story_id": 20,
+      "distractor_fact": "ایک موسمیاتی سیٹلائٹ نے اس وقت زمین کے ایک مختلف حصے پر {D} °C درجہ حرارت ریکارڈ کیا۔",
+      "gloss_en": "A weather satellite recorded a temperature of {D} °C over a different part of the earth at that time.",
+      "entity_note": "an instrument (a satellite), not another city like the first sentence; °C symbol follows the number, invariant."
+    }
+  ]
+}

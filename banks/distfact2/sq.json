@@ -1,0 +1,84 @@
+{
+ "language_code": "sq",
+ "refused": [],
+ "items": [
+  {
+   "story_id": 1,
+   "distractor_fact": "Një banor i qytetit fqinj mati {D}°C me termometrin e tij personal po atë mëngjes.",
+   "gloss_en": "A resident of the neighboring city measured {D} °C with his own personal thermometer that same morning.",
+   "entity_note": "a private person with his own instrument, not the neighboring village's weather station (first distractor) and not the town's official morning/afternoon thermometer"
+  },
+  {
+   "story_id": 2,
+   "distractor_fact": "Një investitor individual mbylli ditën me një aksion tjetër të vlerësuar ${D}.",
+   "gloss_en": "An individual investor closed the day holding another stock valued at ${D}.",
+   "entity_note": "a private individual investor, not the other listed company (first distractor) and not the firm whose open/close price is compared"
+  },
+  {
+   "story_id": 3,
+   "distractor_fact": "Baseni i kompanisë hidroenergjetike regjistroi një nivel uji prej {D}m po atë muaj.",
+   "gloss_en": "The hydro-power company's own basin recorded a water level of {D} m that same month.",
+   "entity_note": "a different organisation's basin, not the neighboring municipality's reservoir (first distractor) and not the reservoir whose level is compared"
+  },
+  {
+   "story_id": 4,
+   "distractor_fact": "Kompania e transportit ajror regjistroi lartësinë e fluturimit të saj komercial në {D}m po atë ditë.",
+   "gloss_en": "The airline recorded the altitude of its own commercial flight at {D} m that same day.",
+   "entity_note": "an organisation's commercial aircraft, not another drone from the same airport (first distractor) and not the drone whose measurements are compared"
+  },
+  {
+   "story_id": 5,
+   "distractor_fact": "Kompania e transportit regjistroi një peshë totale prej {D}kg për dërgesat e saj të tjera atë ditë.",
+   "gloss_en": "The shipping company recorded a total weight of {D} kg for its other deliveries that day.",
+   "entity_note": "the shipping organisation's own aggregate figure, not another package in the same shipment (first distractor) and not the package whose weight is compared"
+  },
+  {
+   "story_id": 6,
+   "distractor_fact": "Shoferi i dytë regjistroi një shpejtësi personale prej {D}km/h në pistën fqinje.",
+   "gloss_en": "The second driver recorded a personal speed of {D} km/h on the neighboring track.",
+   "entity_note": "a person's own recorded speed, not another vehicle's engine in the same test (first distractor) and not the engine whose readings are compared"
+  },
+  {
+   "story_id": 7,
+   "distractor_fact": "Në sezonin e kaluar, rezultati më i lartë i regjistruar në këtë lojë ishte {D}pts.",
+   "gloss_en": "Last season, the highest score ever recorded in this game was {D} pts.",
+   "entity_note": "a figure tied to a past season (a different series), not another player in the same session (first distractor) and not the player whose start/end score is compared"
+  },
+  {
+   "story_id": 8,
+   "distractor_fact": "Një degë tjetër e bankës raportoi depozita totale prej ${D} po atë javë.",
+   "gloss_en": "Another branch of the bank reported total deposits of ${D} that same week.",
+   "entity_note": "the bank's branch as an organisational unit, not another client of the same bank (first distractor) and not the client whose balance is asked about"
+  },
+  {
+   "story_id": 9,
+   "distractor_fact": "Klubi rival ofroi një bonus regjistrimi prej {D}pts atë muaj.",
+   "gloss_en": "The rival club offered a sign-up bonus of {D} pts that month.",
+   "entity_note": "a rival organisation's promotion, not another member of the same club (first distractor) and not the member whose points balance is asked about"
+  },
+  {
+   "story_id": 10,
+   "distractor_fact": "Një blerës i madh porositi njëherazi një sasi prej {D} nga furnitori kryesor.",
+   "gloss_en": "A major buyer separately ordered a stock count of {D} from the main supplier.",
+   "entity_note": "an individual buyer's separate order, not another warehouse in the same chain (first distractor) and not the warehouse whose balance is asked about"
+  },
+  {
+   "story_id": 11,
+   "distractor_fact": "Një tregtar i pavarur në të njëjtin treg pati një qarkullim prej ${D} këtë muaj.",
+   "gloss_en": "An independent trader in the same market had a turnover of ${D} this month.",
+   "entity_note": "a private individual trader, not another shop in the same mall (first distractor) and not the shop whose net result is asked about"
+  },
+  {
+   "story_id": 12,
+   "distractor_fact": "Lojtari më i mirë i kampionatit shënoi vetë {D} gola gjatë sezonit.",
+   "gloss_en": "The championship's best player himself scored {D} goals during the season.",
+   "entity_note": "an individual player's personal tally, not another team (first distractor) and not the team whose goal difference is asked about"
+  },
+  {
+   "story_id": 16,
+   "distractor_fact": "Një udhëtar mbërriti në stacion {D}min pas mesnate me makinën e tij personale.",
+   "gloss_en": "A passenger arrived at the station {D} min after midnight in his own personal car.",
+   "entity_note": "a private passenger with no fixed timetable, a different kind of owner from the other train on the neighboring line (first distractor), and not the train whose actual arrival vs its own schedule is compared"
+  }
+ ]
+}

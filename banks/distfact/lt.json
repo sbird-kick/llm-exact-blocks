@@ -1,0 +1,102 @@
+{
+ "language_code": "lt",
+ "refused": [],
+ "items": [
+  {
+   "story_id": 1,
+   "distractor_fact": "Kaimyniniame mieste tą pačią naktį oras buvo {D}°C.",
+   "gloss_en": "In the neighboring town, the weather that same night was {D}°C. Bare digit followed by the invariant symbol °C, matching the story's own construction.",
+   "entity_note": "A different town's temperature reading, not the story's own thermometer."
+  },
+  {
+   "story_id": 2,
+   "distractor_fact": "Kitos bendrovės akcijų kaina tą pačią dieną buvo {D}€.",
+   "gloss_en": "Another company's stock price that same day was {D}€. Digit+€ construction, invariant for any integer.",
+   "entity_note": "A different company's share price, not the security in the story."
+  },
+  {
+   "story_id": 3,
+   "distractor_fact": "Kitame tvenkinyje vandens lygis tą pačią dieną buvo {D} m.",
+   "gloss_en": "In another pond, the water level that same day was {D} m. Digit+m construction, the symbol never inflects.",
+   "entity_note": "A different pond's water level, not the one in the story."
+  },
+  {
+   "story_id": 7,
+   "distractor_fact": "Kito skyriaus pajamos per tą patį mėnesį buvo {D}€.",
+   "gloss_en": "Another department's income for the same month was {D}€. Digit+€ construction, invariant for any integer.",
+   "entity_note": "A different department's income, not the one whose net result is asked about."
+  },
+  {
+   "story_id": 8,
+   "distractor_fact": "Kitos komandos įmuštų įvarčių skaičius per sezoną buvo {D} įv.",
+   "gloss_en": "Another team's number of goals scored during the season was {D} goals. Fixed abbreviation 'įv.' never inflects after a numeral.",
+   "entity_note": "A different team's goals scored, not the team the question is about."
+  },
+  {
+   "story_id": 9,
+   "distractor_fact": "Kito investuotojo pelnas per tą patį ketvirtį buvo {D}€.",
+   "gloss_en": "Another investor's profit for the same quarter was {D}€. Digit+€ construction, invariant for any integer.",
+   "entity_note": "A different investor's gain, not the investor in the story."
+  },
+  {
+   "story_id": 10,
+   "distractor_fact": "Kitas cechas per tą patį mėnesį pagamino {D} vnt.",
+   "gloss_en": "Another workshop produced {D} units during the same month. Fixed abbreviation 'vnt.' never inflects after a numeral.",
+   "entity_note": "A different workshop's own actual output, whose own plan figure is not stated, so it cannot be confused with this workshop's plan-vs-actual pair."
+  },
+  {
+   "story_id": 11,
+   "distractor_fact": "Kito filialo pardavimų rezultatas per tą patį mėnesį buvo {D}€.",
+   "gloss_en": "Another branch's sales result for the same month was {D}€. Digit+€ construction, invariant for any integer.",
+   "entity_note": "A different branch's sales figure, whose own target is not stated, so it cannot substitute for the branch's actual or target."
+  },
+  {
+   "story_id": 12,
+   "distractor_fact": "Kitoje stotyje tą pačią parą kritulių kiekis buvo {D} mm.",
+   "gloss_en": "At another station, the rainfall amount during the same day was {D} mm. Digit+mm construction, invariant for any integer.",
+   "entity_note": "A different weather station's rainfall reading, whose own forecast is not stated."
+  },
+  {
+   "story_id": 13,
+   "distractor_fact": "Kito žaidėjo smūgių skaičius kitame ruože buvo {D}.",
+   "gloss_en": "Another player's stroke count on a different hole was {D}. Bare-predicate pattern ('skaičius buvo {D}') with no following noun to govern, so any integer is grammatical.",
+   "entity_note": "A different player's stroke count, on a hole whose par is not stated, so it cannot be paired with the story's stated par."
+  },
+  {
+   "story_id": 14,
+   "distractor_fact": "Kito žaidėjo bendras smūgių skaičius per visą turą buvo {D}.",
+   "gloss_en": "Another player's total stroke count for the whole round was {D}. Bare-predicate pattern, invariant for any integer.",
+   "entity_note": "A different player's round total, not tied to this hole's stated par, and distinct from the player in the story."
+  },
+  {
+   "story_id": 15,
+   "distractor_fact": "Kitos linijos traukinio faktinis atvykimo laikas buvo {D} min nuo paros pradžios.",
+   "gloss_en": "Another line's train's actual arrival time was {D} min from the start of the day. Invariant abbreviation 'min' never inflects after a numeral.",
+   "entity_note": "A different train on a different line, whose own schedule is not stated, so it cannot be paired with this train's stated schedule."
+  },
+  {
+   "story_id": 16,
+   "distractor_fact": "Kitame pastate lifto ekrane rodomas aukšto numeris buvo {D}.",
+   "gloss_en": "In another building, the floor number shown on the elevator display was {D}. Bare-predicate pattern ('numeris buvo {D}'), invariant for any integer.",
+   "entity_note": "A different building's elevator floor number, whose own reference floor is not stated."
+  },
+  {
+   "story_id": 17,
+   "distractor_fact": "Trečios komandos įvarčių skaičius kitose rungtynėse buvo {D}.",
+   "gloss_en": "A third team's goal count in a different match was {D}. Bare-predicate pattern, invariant for any integer.",
+   "entity_note": "A third team not involved in the Team A vs Team B comparison."
+  },
+  {
+   "story_id": 19,
+   "distractor_fact": "Trečios įmonės pelno rodiklis buvo {D}%.",
+   "gloss_en": "A third company's profit indicator was {D}%. Digit+% construction, invariant for any integer.",
+   "entity_note": "A third company not involved in the Company X vs Company Y comparison."
+  },
+  {
+   "story_id": 20,
+   "distractor_fact": "Trečio žygeivio aukštis virš jūros lygio buvo {D} m.",
+   "gloss_en": "A third hiker's altitude above sea level was {D} m. Digit+m construction, invariant for any integer.",
+   "entity_note": "A third hiker not involved in the hiker A vs hiker B comparison."
+  }
+ ]
+}

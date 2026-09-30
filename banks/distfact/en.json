@@ -1,0 +1,192 @@
+{
+  "language_code": "en",
+  "refused": [],
+  "items": [
+    {
+      "story_id": 1,
+      "distractor_fact": "The gauge at the next village recorded {D} °C that same morning.",
+      "gloss_en": "The gauge at the next village recorded {D} °C that same morning.",
+      "entity_note": "a different village's own gauge, not the noon/dawn thermometer the question compares"
+    },
+    {
+      "story_id": 2,
+      "distractor_fact": "A different listing on the same exchange closed the day at {D} cents.",
+      "gloss_en": "A different listing on the same exchange closed the day at {D} cents.",
+      "entity_note": "a different listing (stock), not the one whose opening and closing prices are given"
+    },
+    {
+      "story_id": 3,
+      "distractor_fact": "A gauge on the next reach of the river stood at {D} cm that same morning.",
+      "gloss_en": "A gauge on the next reach of the river stood at {D} cm that same morning.",
+      "entity_note": "a different gauge on a different reach of the river, not this morning-vs-last-week reading"
+    },
+    {
+      "story_id": 4,
+      "distractor_fact": "A second balloon launched from the coast that same day had climbed to {D} m.",
+      "gloss_en": "A second balloon launched from the coast that same day had climbed to {D} m.",
+      "entity_note": "a different balloon, not the one whose first and second logged readings are compared"
+    },
+    {
+      "story_id": 5,
+      "distractor_fact": "A second crate on the same lorry weighed {D} kg at despatch.",
+      "gloss_en": "A second crate on the same lorry weighed {D} kg at despatch.",
+      "entity_note": "a different crate, not the one whose arrival and despatch weights are given"
+    },
+    {
+      "story_id": 6,
+      "distractor_fact": "The neighbouring village counted {D} residents at its last census.",
+      "gloss_en": "The neighbouring village counted {D} residents at its last census.",
+      "entity_note": "a different village's own count, not the village whose population change is asked about"
+    },
+    {
+      "story_id": 7,
+      "distractor_fact": "Another customer at the same branch had spent {D} dollars that same morning.",
+      "gloss_en": "Another customer at the same branch had spent {D} dollars that same morning.",
+      "entity_note": "a different customer's spending, not the one whose account balance is asked about"
+    },
+    {
+      "story_id": 8,
+      "distractor_fact": "A neighbouring club deposited {D} pounds into its own account that same week.",
+      "gloss_en": "A neighbouring club deposited {D} pounds into its own account that same week.",
+      "entity_note": "a different club's own deposit, not this club's weekly deposited/withdrawn figures"
+    },
+    {
+      "story_id": 9,
+      "distractor_fact": "Another student's card was topped up with {D} credits that same term.",
+      "gloss_en": "Another student's card was topped up with {D} credits that same term.",
+      "entity_note": "a different student's card, not the one whose balance is being asked about"
+    },
+    {
+      "story_id": 11,
+      "distractor_fact": "A separate fund at the same charity held {D} dollars at the start of the month.",
+      "gloss_en": "A separate fund at the same charity held {D} dollars at the start of the month.",
+      "entity_note": "a different fund, not the one whose balance is being asked about"
+    },
+    {
+      "story_id": 12,
+      "distractor_fact": "The stall next to it took {D} pesos over the same weekend.",
+      "gloss_en": "The stall next to it took {D} pesos over the same weekend.",
+      "entity_note": "a different stall, not the one whose net position is being asked about"
+    },
+    {
+      "story_id": 13,
+      "distractor_fact": "A rival side in the same division scored {D} goals across that season.",
+      "gloss_en": "A rival side in the same division scored {D} goals across that season.",
+      "entity_note": "a different team, not the one whose goal difference is asked about"
+    },
+    {
+      "story_id": 14,
+      "distractor_fact": "A separate portfolio at the same firm posted gains of {D} francs that year.",
+      "gloss_en": "A separate portfolio at the same firm posted gains of {D} francs that year.",
+      "entity_note": "a different portfolio, not the one whose net result is asked about"
+    },
+    {
+      "story_id": 15,
+      "distractor_fact": "A reservoir further downstream let out {D} megalitres over the same period.",
+      "gloss_en": "A reservoir further downstream let out {D} megalitres over the same period.",
+      "entity_note": "a different reservoir, not the one whose net inflow is asked about"
+    },
+    {
+      "story_id": 16,
+      "distractor_fact": "A workshop across town billed {D} rupees for that same month.",
+      "gloss_en": "A workshop across town billed {D} rupees for that same month.",
+      "entity_note": "a different workshop, not the one whose net result is asked about"
+    },
+    {
+      "story_id": 17,
+      "distractor_fact": "A second line at the works produced {D} units that same quarter.",
+      "gloss_en": "A second line at the works produced {D} units that same quarter.",
+      "entity_note": "a different production line with its own unstated target, not this line's production-vs-target"
+    },
+    {
+      "story_id": 18,
+      "distractor_fact": "A stall at a different fair sold {D} tickets over that same weekend.",
+      "gloss_en": "A stall at a different fair sold {D} tickets over that same weekend.",
+      "entity_note": "a different stall at a different fair, with its own unstated target"
+    },
+    {
+      "story_id": 19,
+      "distractor_fact": "A neighbouring valley recorded {D} mm of rain that same week.",
+      "gloss_en": "A neighbouring valley recorded {D} mm of rain that same week.",
+      "entity_note": "a different valley with its own unstated forecast, not this valley's rainfall-vs-forecast"
+    },
+    {
+      "story_id": 20,
+      "distractor_fact": "A similar event across town drew {D} people through its gates that day.",
+      "gloss_en": "A similar event across town drew {D} people through its gates that day.",
+      "entity_note": "a different event with its own unstated plan, not this event's attendance-vs-plan"
+    },
+    {
+      "story_id": 21,
+      "distractor_fact": "A neighbouring co-operative weighed in {D} sacks that same harvest.",
+      "gloss_en": "A neighbouring co-operative weighed in {D} sacks that same harvest.",
+      "entity_note": "a different co-operative with its own unstated figure set in advance"
+    },
+    {
+      "story_id": 22,
+      "distractor_fact": "On an entirely different course that same afternoon, another player went round in {D} strokes.",
+      "gloss_en": "On an entirely different course that same afternoon, another player went round in {D} strokes.",
+      "entity_note": "a different course whose par is not stated, so it cannot pair with this course's par"
+    },
+    {
+      "story_id": 23,
+      "distractor_fact": "The marker at a neighbouring club noted a round of {D} strokes on that club's own course.",
+      "gloss_en": "The marker at a neighbouring club noted a round of {D} strokes on that club's own course.",
+      "entity_note": "a different club and course, whose own par is not stated"
+    },
+    {
+      "story_id": 24,
+      "distractor_fact": "At a course across town, a friend of hers signed for {D} strokes that same day.",
+      "gloss_en": "At a course across town, a friend of hers signed for {D} strokes that same day.",
+      "entity_note": "an unrelated course whose par is not given"
+    },
+    {
+      "story_id": 25,
+      "distractor_fact": "On an unrelated course, another round was returned that day at {D} strokes.",
+      "gloss_en": "On an unrelated course, another round was returned that day at {D} strokes.",
+      "entity_note": "a different, unrelated course whose par is not stated"
+    },
+    {
+      "story_id": 26,
+      "distractor_fact": "A ferry on a different route docked {D} minutes past the hour that same day.",
+      "gloss_en": "A ferry on a different route docked {D} minutes past the hour that same day.",
+      "entity_note": "a different route with its own unstated timetable, not this ferry's schedule"
+    },
+    {
+      "story_id": 27,
+      "distractor_fact": "A coach on a different route was recorded arriving {D} minutes past the hour that day.",
+      "gloss_en": "A coach on a different route was recorded arriving {D} minutes past the hour that day.",
+      "entity_note": "a different route with its own unstated timetable"
+    },
+    {
+      "story_id": 28,
+      "distractor_fact": "A service on a different line reported reaching its own junction at {D} minutes past that day.",
+      "gloss_en": "A service on a different line reported reaching its own junction at {D} minutes past that day.",
+      "entity_note": "a different line and junction, with its own unstated schedule"
+    },
+    {
+      "story_id": 29,
+      "distractor_fact": "A flight on a different route touched down {D} minutes after the hour that same day.",
+      "gloss_en": "A flight on a different route touched down {D} minutes after the hour that same day.",
+      "entity_note": "a different route with its own unstated schedule, not this flight's timetable"
+    },
+    {
+      "story_id": 30,
+      "distractor_fact": "In a neighbouring building, the top floor is numbered {D} in its own lift.",
+      "gloss_en": "In a neighbouring building, the top floor is numbered {D} in its own lift.",
+      "entity_note": "a different building's own floor numbering, not tied to the ground floor named in this lift"
+    },
+    {
+      "story_id": 31,
+      "distractor_fact": "A marker on a different staff nearby was surveyed at {D} cm.",
+      "gloss_en": "A marker on a different staff nearby was surveyed at {D} cm.",
+      "entity_note": "a different survey staff whose own datum is not stated"
+    },
+    {
+      "story_id": 32,
+      "distractor_fact": "A second vessel in the same plant showed a dial reading of {D} kPa.",
+      "gloss_en": "A second vessel in the same plant showed a dial reading of {D} kPa.",
+      "entity_note": "a different vessel whose own reference pressure is not stated"
+    }
+  ]
+}

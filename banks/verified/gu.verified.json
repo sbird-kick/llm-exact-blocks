@@ -1,0 +1,228 @@
+{
+ "language": "Gujarati",
+ "language_code": "gu",
+ "lead_in": "જવાબ:",
+ "decimal_separator": ".",
+ "items": [
+  {
+   "story_id": 1,
+   "bank": "A",
+   "domain": "change",
+   "unit": "°C",
+   "sign_convention": "after minus before",
+   "facts_min_first": "આજે સાંજે એક શહેરનું તાપમાન {M}°C હતું; આજે સવારે તે {S}°C હતું.",
+   "facts_sub_first": "આજે સવારે એક શહેરનું તાપમાન {S}°C હતું; આજે સાંજે તે {M}°C હતું.",
+   "question": "તાપમાનમાં થયેલો ફેરફાર શું હતો?",
+   "distractor_sentence": "આ હવામાન મથકનો નંબર {D} છે.",
+   "agreement_safe": true,
+   "agreement_note": "સંખ્યા પછી આવતું એકમ ચિહ્ન ક્યારેય રૂપ બદલતું નથી, કોઈપણ સંખ્યા માટે (3, 51, 4870) એકસમાન.",
+   "decimals_natural": true,
+   "gloss_en": "This evening a city's temperature was {M} °C; this morning it was {S} °C. What was the change in temperature?",
+   "notes": "",
+   "distractor_ok": true,
+   "verifier": {
+    "tag": "V13",
+    "natural": 3,
+    "comment": ""
+   }
+  },
+  {
+   "story_id": 2,
+   "bank": "A",
+   "domain": "change",
+   "unit": "€",
+   "sign_convention": "after minus before",
+   "facts_min_first": "વેપાર બંધ થયો ત્યારે એક કંપનીનો શેરનો ભાવ €{M} હતો; વેપાર શરૂ થયો ત્યારે તે €{S} હતો.",
+   "facts_sub_first": "વેપાર શરૂ થયો ત્યારે એક કંપનીનો શેરનો ભાવ €{S} હતો; વેપાર બંધ થયો ત્યારે તે €{M} હતો.",
+   "question": "દિવસ દરમિયાન શેરના ભાવમાં થયેલો ફેરફાર શું હતો?",
+   "distractor_sentence": "આ કંપનીની {D} શાખા કચેરીઓ છે.",
+   "agreement_safe": true,
+   "agreement_note": "સંખ્યા પછી આવતું એકમ ચિહ્ન ક્યારેય રૂપ બદલતું નથી, કોઈપણ સંખ્યા માટે (3, 51, 4870) એકસમાન.",
+   "decimals_natural": true,
+   "gloss_en": "At the close of trading a company's share price was €{M}; at the opening of trading it was €{S}. What was the change in the share price during the day?",
+   "notes": "",
+   "distractor_ok": true,
+   "verifier": {
+    "tag": "V13",
+    "natural": 3,
+    "comment": ""
+   }
+  },
+  {
+   "story_id": 3,
+   "bank": "A",
+   "domain": "change",
+   "unit": "m",
+   "sign_convention": "after minus before",
+   "facts_min_first": "વરસાદ પછી એક તળાવનું પાણીનું સ્તર {M} m હતું; વરસાદ પહેલાં તે {S} m હતું.",
+   "facts_sub_first": "વરસાદ પહેલાં એક તળાવનું પાણીનું સ્તર {S} m હતું; વરસાદ પછી તે {M} m હતું.",
+   "question": "તળાવના પાણીના સ્તરમાં થયેલો ફેરફાર શું હતો?",
+   "distractor_sentence": "આ તળાવ પાસેના ઉદ્યાનનો દરવાજો નંબર {D} છે.",
+   "agreement_safe": true,
+   "agreement_note": "સંખ્યા પછી આવતું એકમ ચિહ્ન ક્યારેય રૂપ બદલતું નથી, કોઈપણ સંખ્યા માટે (3, 51, 4870) એકસમાન.",
+   "decimals_natural": true,
+   "gloss_en": "After the rain a lake's water level was {M} m; before the rain it was {S} m. What was the change in the lake's water level?",
+   "notes": "",
+   "distractor_ok": true,
+   "verifier": {
+    "tag": "V13",
+    "natural": 3,
+    "comment": ""
+   }
+  },
+  {
+   "story_id": 4,
+   "bank": "A",
+   "domain": "balance",
+   "unit": "€",
+   "sign_convention": "deposited minus withdrawn",
+   "facts_min_first": "આ મહિને એક બચત ખાતામાં €{M} જમા કરવામાં આવ્યા; તેમાંથી €{S} ઉપાડવામાં આવ્યા.",
+   "facts_sub_first": "આ મહિને એક બચત ખાતામાંથી €{S} ઉપાડવામાં આવ્યા; તેમાં €{M} જમા કરવામાં આવ્યા.",
+   "question": "આ મહિનાનું ખાતાનું બેલેન્સ કેટલું હતું?",
+   "distractor_sentence": "આ બેંક શાખા માળ નંબર {D} પર આવેલી છે.",
+   "agreement_safe": true,
+   "agreement_note": "સંખ્યા પછી આવતું એકમ ચિહ્ન ક્યારેય રૂપ બદલતું નથી, કોઈપણ સંખ્યા માટે (3, 51, 4870) એકસમાન.",
+   "decimals_natural": true,
+   "gloss_en": "During the month €{M} was deposited into a savings account; €{S} was withdrawn from it. What is the account's balance for the month?",
+   "notes": "",
+   "distractor_ok": true,
+   "verifier": {
+    "tag": "V13",
+    "natural": 3,
+    "comment": ""
+   }
+  },
+  {
+   "story_id": 5,
+   "bank": "A",
+   "domain": "balance",
+   "unit": "€",
+   "sign_convention": "had minus spent",
+   "facts_min_first": "એક ગિફ્ટ કાર્ડમાં શરૂઆતમાં €{M} હતા; તેમાંથી €{S} ખર્ચવામાં આવ્યા.",
+   "facts_sub_first": "એક ગિફ્ટ કાર્ડમાંથી €{S} ખર્ચવામાં આવ્યા; શરૂઆતમાં તેમાં €{M} હતા.",
+   "question": "કાર્ડમાં બાકી બેલેન્સ કેટલું છે?",
+   "distractor_sentence": "આ ગિફ્ટ કાર્ડ સ્ટોર નંબર {D} દ્વારા આપવામાં આવ્યું હતું.",
+   "agreement_safe": true,
+   "agreement_note": "સંખ્યા પછી આવતું એકમ ચિહ્ન ક્યારેય રૂપ બદલતું નથી, કોઈપણ સંખ્યા માટે (3, 51, 4870) એકસમાન.",
+   "decimals_natural": true,
+   "gloss_en": "A gift card had €{M} on it at the start; €{S} was spent from the card. What is the remaining balance on the card?",
+   "notes": "",
+   "distractor_ok": true,
+   "verifier": {
+    "tag": "V13",
+    "natural": 3,
+    "comment": ""
+   }
+  },
+  {
+   "story_id": 6,
+   "bank": "A",
+   "domain": "balance",
+   "unit": "GB",
+   "sign_convention": "had minus spent",
+   "facts_min_first": "એક મોબાઇલ ડેટા પ્લાનમાં મહિનાની શરૂઆતમાં {M} GB હતું; આ મહિને {S} GB વપરાયું.",
+   "facts_sub_first": "આ મહિને એક મોબાઇલ ડેટા પ્લાનમાંથી {S} GB વપરાયું; મહિનાની શરૂઆતમાં તેમાં {M} GB હતું.",
+   "question": "બાકી ડેટા બેલેન્સ કેટલું છે?",
+   "distractor_sentence": "આ પ્લાન કરાર નંબર {D} હેઠળ નોંધાયેલ છે.",
+   "agreement_safe": true,
+   "agreement_note": "સંખ્યા પછી આવતું એકમ ચિહ્ન ક્યારેય રૂપ બદલતું નથી, કોઈપણ સંખ્યા માટે (3, 51, 4870) એકસમાન.",
+   "decimals_natural": true,
+   "gloss_en": "A mobile data plan had {M} GB at the start of the month; {S} GB was used during the month. What is the remaining data balance?",
+   "notes": "",
+   "distractor_ok": true,
+   "verifier": {
+    "tag": "V13",
+    "natural": 3,
+    "comment": ""
+   }
+  },
+  {
+   "story_id": 7,
+   "bank": "A",
+   "domain": "net",
+   "unit": "€",
+   "sign_convention": "in minus out",
+   "facts_min_first": "એક પરિવારની આ મહિનાની આવક €{M} હતી; તેનો આ મહિનાનો ખર્ચ €{S} હતો.",
+   "facts_sub_first": "એક પરિવારનો આ મહિનાનો ખર્ચ €{S} હતો; તેની આ મહિનાની આવક €{M} હતી.",
+   "question": "આ મહિને પરિવારનું ચોખ્ખું પરિણામ શું હતું?",
+   "distractor_sentence": "આ પરિવાર આ વર્ષે ફ્લેટ નંબર {D} માં રહેવા ગયો.",
+   "agreement_safe": true,
+   "agreement_note": "સંખ્યા પછી આવતું એકમ ચિહ્ન ક્યારેય રૂપ બદલતું નથી, કોઈપણ સંખ્યા માટે (3, 51, 4870) એકસમાન.",
+   "decimals_natural": true,
+   "gloss_en": "A household's income for the month was €{M}; its expenses for the month were €{S}. What was the household's net result for the month?",
+   "notes": "",
+   "distractor_ok": true,
+   "verifier": {
+    "tag": "V13",
+    "natural": 3,
+    "comment": ""
+   }
+  },
+  {
+   "story_id": 8,
+   "bank": "A",
+   "domain": "net",
+   "unit": "goal",
+   "sign_convention": "in minus out",
+   "facts_min_first": "એક સીઝનમાં એક ફૂટબોલ ટીમે {M} ગોલ કર્યા; એ જ સીઝનમાં તેણે {S} ગોલ ખાધા.",
+   "facts_sub_first": "એક સીઝનમાં એક ફૂટબોલ ટીમે {S} ગોલ ખાધા; એ જ સીઝનમાં તેણે {M} ગોલ કર્યા.",
+   "question": "સીઝનમાં ટીમનો ગોલ તફાવત શું હતો?",
+   "distractor_sentence": "આ ટીમે પોતાની હોમ મેચો ગેટ નંબર {D} વાળા સ્ટેડિયમમાં રમી.",
+   "agreement_safe": true,
+   "agreement_note": "ગુજરાતીમાં સંખ્યા પછી આવતું નામ રૂપ બદલ્યા વિના મૂળ સ્વરૂપમાં જ રહે છે, 3, 51, 4870 માટે પણ એકસમાન.",
+   "decimals_natural": false,
+   "gloss_en": "Over a season a football team scored {M} goals; it conceded {S} goals. What was the team's goal difference for the season?",
+   "notes": "",
+   "distractor_ok": true,
+   "verifier": {
+    "tag": "V13",
+    "natural": 3,
+    "comment": ""
+   }
+  },
+  {
+   "story_id": 9,
+   "bank": "A",
+   "domain": "net",
+   "unit": "€",
+   "sign_convention": "in minus out",
+   "facts_min_first": "આ ત્રિમાસિકમાં એક નાના વેપારે €{M} નફો નોંધાવ્યો; એ જ ત્રિમાસિકમાં તેણે €{S} ખોટ નોંધાવી.",
+   "facts_sub_first": "આ ત્રિમાસિકમાં એક નાના વેપારે €{S} ખોટ નોંધાવી; એ જ ત્રિમાસિકમાં તેણે €{M} નફો નોંધાવ્યો.",
+   "question": "આ ત્રિમાસિકમાં વેપારનું ચોખ્ખું પરિણામ શું હતું?",
+   "distractor_sentence": "આ વેપાર લાયસન્સ નંબર {D} હેઠળ નોંધાયેલ છે.",
+   "agreement_safe": true,
+   "agreement_note": "સંખ્યા પછી આવતું એકમ ચિહ્ન ક્યારેય રૂપ બદલતું નથી, કોઈપણ સંખ્યા માટે (3, 51, 4870) એકસમાન.",
+   "decimals_natural": true,
+   "gloss_en": "During the quarter a small business recorded €{M} in gains; it recorded €{S} in losses. What was the business's net result for the quarter?",
+   "notes": "",
+   "distractor_ok": true,
+   "verifier": {
+    "tag": "V13",
+    "natural": 3,
+    "comment": ""
+   }
+  },
+  {
+   "story_id": 15,
+   "bank": "A",
+   "domain": "arrival vs schedule",
+   "unit": "min",
+   "sign_convention": "actual minus scheduled, late positive",
+   "facts_min_first": "એક ટ્રેનનું ખરેખર આગમન સમય રીડિંગ {M} min હતું; તેનું નિર્ધારિત આગમન સમય રીડિંગ {S} min હતું.",
+   "facts_sub_first": "એક ટ્રેનનું નિર્ધારિત આગમન સમય રીડિંગ {S} min હતું; તેનું ખરેખર આગમન સમય રીડિંગ {M} min હતું.",
+   "question": "ટ્રેન સમયપત્રકની સરખામણીમાં કેટલી મિનિટ હતી, મોડું થવાને ધન તરીકે ગણતાં?",
+   "distractor_sentence": "આ ટ્રેન પ્લેટફોર્મ નંબર {D} પરથી ઉપડી.",
+   "agreement_safe": true,
+   "agreement_note": "સંખ્યા પછી આવતું એકમ ચિહ્ન ક્યારેય રૂપ બદલતું નથી, કોઈપણ સંખ્યા માટે (3, 51, 4870) એકસમાન.",
+   "decimals_natural": false,
+   "gloss_en": "A train's actual arrival time reading was {M} min; its scheduled arrival time reading was {S} min. How many minutes was the train relative to its schedule, with lateness counted as positive?",
+   "notes": "",
+   "distractor_ok": true,
+   "verifier": {
+    "tag": "V13",
+    "natural": 2,
+    "comment": "'આગમન સમય રીડિંગ' is an English calque for an arrival time."
+   }
+  }
+ ]
+}

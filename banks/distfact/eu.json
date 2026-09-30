@@ -1,0 +1,78 @@
+{
+ "language_code": "eu",
+ "refused": [],
+ "items": [
+  {
+   "story_id": 1,
+   "distractor_fact": "Hurbileko herriko termometroak goiz hartan {D}°C erakutsi zituen.",
+   "gloss_en": "The thermometer in the nearby village showed {D}°C that same morning.",
+   "entity_note": "a different village's thermometer, not the one the story's morning/afternoon readings come from"
+  },
+  {
+   "story_id": 2,
+   "distractor_fact": "Beste konpainia bateko akzioak egun berean ${D} balio zuen.",
+   "gloss_en": "Another company's shares were worth ${D} that same day.",
+   "entity_note": "a different company's share price, not the one the story tracks"
+  },
+  {
+   "story_id": 3,
+   "distractor_fact": "Beste urtegi batek {D}m-ko maila zuen aldi berean.",
+   "gloss_en": "Another reservoir had a level of {D}m at the same time.",
+   "entity_note": "a different reservoir, not the one whose level the story compares"
+  },
+  {
+   "story_id": 4,
+   "distractor_fact": "Beste drone batek {D}m-ko altuera izan zuen proba berean.",
+   "gloss_en": "Another drone reached an altitude of {D}m in the same trial.",
+   "entity_note": "a different drone, not the one whose altitude the story measures"
+  },
+  {
+   "story_id": 5,
+   "distractor_fact": "Beste pakete batek {D}kg-ko pisua zuen biltegi berean.",
+   "gloss_en": "Another package weighed {D}kg in the same warehouse.",
+   "entity_note": "a different package, not the one being shipped in the story"
+  },
+  {
+   "story_id": 6,
+   "distractor_fact": "Beste motor batek {D}km/h-ko abiadura izan zuen proba berean.",
+   "gloss_en": "Another engine reached a speed of {D}km/h in the same test.",
+   "entity_note": "a different engine, not the one whose speed the story tracks"
+  },
+  {
+   "story_id": 7,
+   "distractor_fact": "Beste jokalari batek {D}pts lortu zituen saio berean.",
+   "gloss_en": "Another player scored {D}pts in the same session.",
+   "entity_note": "a different player, not the one whose score the story tracks"
+  },
+  {
+   "story_id": 8,
+   "distractor_fact": "Beste bezero batek ${D} zituen kontuan hilabete hasieran.",
+   "gloss_en": "Another client had ${D} in their account at the start of the month.",
+   "entity_note": "a different client's account balance, not the one whose deposit and withdrawal the story reports"
+  },
+  {
+   "story_id": 9,
+   "distractor_fact": "Beste bazkide batek {D}pts zituen hilabete horretan.",
+   "gloss_en": "Another club member had {D}pts that month.",
+   "entity_note": "a different loyalty-club member, not the one whose points the story tracks"
+  },
+  {
+   "story_id": 11,
+   "distractor_fact": "Beste denda batek ${D} irabazi zituen hilabete berean.",
+   "gloss_en": "Another shop earned ${D} in the same month.",
+   "entity_note": "a different shop, not the one whose income and expenses the story reports"
+  },
+  {
+   "story_id": 12,
+   "distractor_fact": "Beste talde batek {D} gol sartu zituen denboraldi berean.",
+   "gloss_en": "Another team scored {D} goals in the same season.",
+   "entity_note": "a different team, not the one whose goal difference the story asks for"
+  },
+  {
+   "story_id": 16,
+   "distractor_fact": "Beste linako tren batek gauerdi ondoren {D}min-etan iritsi zen egun berean.",
+   "gloss_en": "A train on a different line arrived at {D} min after midnight that same day.",
+   "entity_note": "a different train on a different line, whose own schedule is not stated, so it cannot be paired with either quantity in the question"
+  }
+ ]
+}

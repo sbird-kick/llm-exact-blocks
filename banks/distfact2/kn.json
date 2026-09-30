@@ -1,0 +1,60 @@
+{
+  "language_code": "kn",
+  "refused": [],
+  "items": [
+    {
+      "story_id": 1,
+      "distractor_fact": "ಅದೇ ದಿನ ಒಂದು ಮನೆಯ ಥರ್ಮಾಮೀಟರ್ {D}°C ತೋರಿಸಿತು.",
+      "gloss_en": "That same day, a house's thermometer showed {D}°C.",
+      "entity_note": "owner is a measuring instrument (a home thermometer), not a place as in the first distractor (a neighboring city)"
+    },
+    {
+      "story_id": 2,
+      "distractor_fact": "ಅದೇ ದಿನ ಒಂದು ಮ್ಯೂಚುಯಲ್ ಫಂಡ್ ಯುನಿಟ್‌ ಬೆಲೆ €{D} ಆಗಿತ್ತು.",
+      "gloss_en": "That same day, a mutual fund unit's price was €{D}.",
+      "entity_note": "owner is a financial instrument (a mutual fund unit), not another organisation as in the first distractor (a different company)"
+    },
+    {
+      "story_id": 3,
+      "distractor_fact": "ಅದೇ ಸಂಜೆ ಈ ಪ್ರದೇಶದ ಒಂದು ನದಿ ಮಾಪನ ಕೇಂದ್ರ {D} m ಮಟ್ಟ ದಾಖಲಿಸಿತು.",
+      "gloss_en": "That same evening, a river gauge station in this area recorded a level of {D} m.",
+      "entity_note": "owner is a measuring instrument (a river gauge station), not a place as in the first distractor (a neighboring lake)"
+    },
+    {
+      "story_id": 4,
+      "distractor_fact": "ಒಬ್ಬ ಸ್ನೇಹಿತ ಇದೇ ತಿಂಗಳು €{D} ಠೇವಣಿ ಮಾಡಿದರು.",
+      "gloss_en": "A friend deposited €{D} this same month.",
+      "entity_note": "owner is a person (a friend), not another financial account as in the first distractor (another savings account)"
+    },
+    {
+      "story_id": 5,
+      "distractor_fact": "ಒಬ್ಬ ಸ್ನೇಹಿತನ ಬಳಿ ಆರಂಭದಲ್ಲಿ €{D} ನಗದು ಇತ್ತು.",
+      "gloss_en": "A friend had €{D} in cash at the start.",
+      "entity_note": "owner is a person (a friend) holding cash, not another card instrument as in the first distractor (another gift card)"
+    },
+    {
+      "story_id": 6,
+      "distractor_fact": "ಒಬ್ಬ ಸಹೋದ್ಯೋಗಿಯ ಬಳಿ ಇದೇ ತಿಂಗಳ ಆರಂಭದಲ್ಲಿ {D} GB ಡೇಟಾ ಇತ್ತು.",
+      "gloss_en": "A colleague had {D} GB of data at the start of this same month.",
+      "entity_note": "owner is a person (a colleague), not another data-plan instrument as in the first distractor (another data plan)"
+    },
+    {
+      "story_id": 7,
+      "distractor_fact": "ಒಂದು ಸಂಸ್ಥೆಯ ಈ ತಿಂಗಳ ಆದಾಯ €{D} ಆಗಿತ್ತು.",
+      "gloss_en": "An organisation's income this month was €{D}.",
+      "entity_note": "owner is a business organisation, not another household (a family/person group) as in the first distractor"
+    },
+    {
+      "story_id": 8,
+      "distractor_fact": "ಬೇರೊಂದು ಟೂರ್ನಿಯಲ್ಲಿ ಇದೇ ಋತುವಿನಲ್ಲಿ ಒಂದು ತಂಡ {D} ಗೋಲ್ ಗಳಿಸಿತು.",
+      "gloss_en": "In another tournament this same season, a team scored {D} goals.",
+      "entity_note": "owner is tied to a different series/competition (another tournament), not simply another team-organisation as in the first distractor"
+    },
+    {
+      "story_id": 9,
+      "distractor_fact": "ಒಬ್ಬ ಸ್ವತಂತ್ರ ಫ್ರೀಲ್ಯಾನ್ಸರ್ ಇದೇ ತ್ರೈಮಾಸಿಕದಲ್ಲಿ €{D} ಲಾಭ ದಾಖಲಿಸಿದರು.",
+      "gloss_en": "An independent freelancer recorded €{D} in gains this same quarter.",
+      "entity_note": "owner is a person (a freelancer), not another business organisation as in the first distractor (another small business)"
+    }
+  ]
+}

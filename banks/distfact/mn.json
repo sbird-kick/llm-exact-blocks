@@ -1,0 +1,54 @@
+{
+  "language_code": "mn",
+  "refused": [],
+  "items": [
+    {
+      "story_id": 1,
+      "distractor_fact": "Хөрш сумын цаг уурын харуул мөн өглөө {D}°C температур бүртгэсэн.",
+      "gloss_en": "The weather station in the neighboring district also recorded {D}°C that same morning.",
+      "entity_note": "a different weather station in a neighboring district, not the story's own station"
+    },
+    {
+      "story_id": 3,
+      "distractor_fact": "Хөрш аймгийн цөөрмийн усны түвшин {D} метр байдаг.",
+      "gloss_en": "The water level of the reservoir in the neighboring province is {D} meters.",
+      "entity_note": "a different reservoir in a neighboring province, not the story's own reservoir"
+    },
+    {
+      "story_id": 4,
+      "distractor_fact": "Өөр багийн нисгэсэн агаарын бөмбөлгийн өндөр {D} метр байв.",
+      "gloss_en": "Another team's flying balloon reached an altitude of {D} meters.",
+      "entity_note": "a different team's balloon, not the story's own balloon"
+    },
+    {
+      "story_id": 5,
+      "distractor_fact": "Хамт зорчигчийн цүнхний жин {D} кг байв.",
+      "gloss_en": "The fellow traveler's backpack weighed {D} kg.",
+      "entity_note": "a different traveler's backpack, not the story's own traveler's backpack"
+    },
+    {
+      "story_id": 6,
+      "distractor_fact": "Хөрш тосгоны хүн ам {D} хүн байдаг.",
+      "gloss_en": "The neighboring village's population is {D} people.",
+      "entity_note": "a different, neighboring village, not the story's own village"
+    },
+    {
+      "story_id": 7,
+      "distractor_fact": "Өөр гүйгчийн уралдааны эхний хурд {D} км/ц байв.",
+      "gloss_en": "Another runner's speed at the start of the race was {D} km/h.",
+      "entity_note": "a different runner in the same race, not the story's own runner"
+    },
+    {
+      "story_id": 10,
+      "distractor_fact": "Хөрш дэлгүүрийн энэ сарын орлого {D}₮ байв.",
+      "gloss_en": "The neighboring shop's income this month was {D}₮.",
+      "entity_note": "a different, neighboring shop, not the story's own shop"
+    },
+    {
+      "story_id": 11,
+      "distractor_fact": "Өөр багийн улирлын турш оруулсан гол {D} байв.",
+      "gloss_en": "Another team's goals scored over the season were {D}.",
+      "entity_note": "a different team, not the story's own team"
+    }
+  ]
+}

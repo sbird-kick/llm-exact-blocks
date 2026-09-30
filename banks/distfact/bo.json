@@ -1,0 +1,48 @@
+{
+  "language_code": "bo",
+  "refused": [],
+  "items": [
+    {
+      "story_id": 1,
+      "distractor_fact": "ཉེ་འགྲམ་གྲོང་ཚོའི་དྲོད་ཚད་ནི་དུས་ཚོད་དེར་ {D}°C ཡིན།",
+      "gloss_en": "The neighboring town's temperature at that same time was {D}°C.",
+      "entity_note": "A different town's thermometer reading, not the one in the question."
+    },
+    {
+      "story_id": 2,
+      "distractor_fact": "ཚོང་པ་གཞན་ཞིག་གི་ཆ་ཤས་ཀྱི་གོང་ཚད་ནི་དུས་ཚོད་དེར་ ${D} ཡིན།",
+      "gloss_en": "Another company's share price at that time was ${D}.",
+      "entity_note": "A different company's share price, not the one whose open/close is compared."
+    },
+    {
+      "story_id": 3,
+      "distractor_fact": "ཆུ་མཛོད་གཞན་ཞིག་གི་ཆུའི་མཐོ་ཚད་ནི་ཟླ་བ་འདིར་ {D}m ཡིན།",
+      "gloss_en": "A different reservoir's water level this month was {D} m.",
+      "entity_note": "A different reservoir, not the one whose level is being tracked month to month."
+    },
+    {
+      "story_id": 4,
+      "distractor_fact": "འཕུར་ཆས་གཞན་ཞིག་གི་མཐོ་ཚད་ནི་ཐེངས་མཐའ་མའི་འཇལ་རྟགས་ལ་ {D}m ཡིན།",
+      "gloss_en": "A different drone's altitude at the final measurement was {D} m.",
+      "entity_note": "A different drone, not the one whose initial/final altitude is compared."
+    },
+    {
+      "story_id": 5,
+      "distractor_fact": "འགེམས་ཐུམ་གཞན་ཞིག་གི་ལྗིད་ཚད་ནི་འགྲེམ་འཁྱེར་བྱས་རྗེས་ {D}kg ཡིན།",
+      "gloss_en": "A different package's weight after the journey was {D} kg.",
+      "entity_note": "A different package, not the one whose before/after shipping weight is compared."
+    },
+    {
+      "story_id": 6,
+      "distractor_fact": "འཕྲུལ་འཁོར་གཞན་ཞིག་གི་མགྱོགས་ཚད་ནི་ཐེངས་མཐའ་མའི་ཀློག་གཞིར་ {D}km/h ཡིན།",
+      "gloss_en": "A different engine's speed at the final reading was {D} km/h.",
+      "entity_note": "A different engine, not the one whose initial/final speed is compared."
+    },
+    {
+      "story_id": 7,
+      "distractor_fact": "རྩེད་མཁན་གཞན་ཞིག་གི་སྐོར་གྲངས་ནི་རྩེད་མོ་མཇུག་སྒྲིལ་སྐབས་ {D}pts ཡིན།",
+      "gloss_en": "A different player's score at the end of the session was {D} pts.",
+      "entity_note": "A different player, not the one whose start/end score is compared."
+    }
+  ]
+}

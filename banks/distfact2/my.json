@@ -1,0 +1,108 @@
+{
+  "language_code": "my",
+  "refused": [],
+  "items": [
+    {
+      "story_id": 1,
+      "distractor_fact": "ရာသီဥတုပညာရှင်တစ်ဦး၏ ကိုယ်ပိုင်တိုင်းတာကိရိယာသည် ထိုနံနက်ခင်းတွင်ပင် {D} ဒီဂရီစင်တီဂရိတ် ပြသည်။",
+      "gloss_en": "A meteorologist's own measuring instrument showed a reading of {D} degrees Celsius that same morning.",
+      "entity_note": "a meteorologist, a PERSON, not a place like the first sentence's village"
+    },
+    {
+      "story_id": 2,
+      "distractor_fact": "အခြားမြို့တစ်မြို့ရှိ ကုန်စည်ဒိုင်တွင် ကုန်ပစ္စည်းတစ်ခု၏ စျေးနှုန်းသည် ထိုနေ့တွင်ပင် {D} ဒေါ်လာ ရှိသည်။",
+      "gloss_en": "In a commodity market in a different city, a commodity's price that same day was {D} dollars.",
+      "entity_note": "a market in a different city, a PLACE, not a different financial instrument like the first sentence's stock"
+    },
+    {
+      "story_id": 3,
+      "distractor_fact": "အခြားမြစ်တစ်ခုပေါ်ရှိ လှေတစ်စီး၏ ရေအနက်တိုင်းကိရိယာသည် ထိုအချိန်ကာလတွင်ပင် {D} မီတာ ပြသည်။",
+      "gloss_en": "A boat's own depth-measuring instrument on a different river showed a reading of {D} meters during that same period.",
+      "entity_note": "a boat's instrument, an INSTRUMENT, not a place like the first sentence's nearby reservoir"
+    },
+    {
+      "story_id": 4,
+      "distractor_fact": "အားကစားရုံတစ်ခုရှိ အလေးချိန်စက်တစ်ခု၏ ပြချက်သည် ထိုအချိန်ကာလအတွင်းပင် {D} ကီလိုဂရမ် ရှိသည်။",
+      "gloss_en": "A weighing machine's reading at a gym during that same period was {D} kilograms.",
+      "entity_note": "a gym's machine, a PLACE/INSTRUMENT, not a different person like the first sentence"
+    },
+    {
+      "story_id": 5,
+      "distractor_fact": "ထိုဘဏ်၏ အခြားဘဏ်ခွဲတစ်ခုမှ ထိုလအတွင်းပင် ငွေထုတ်ယူမှုစုစုပေါင်းသည် {D} ဒေါ်လာ ရှိသည်။",
+      "gloss_en": "A different branch of that bank recorded total withdrawals of {D} dollars that same month.",
+      "entity_note": "a different branch, a PLACE/organisational unit, not a different bank account like the first sentence"
+    },
+    {
+      "story_id": 6,
+      "distractor_fact": "အခြားဆိုင်ခန်းတစ်ခုရှိ ကုန်ပစ္စည်းတစ်ခု၏ ဈေးနှုန်းစာအိတ်ပေါ်တွင် {D} ဒေါ်လာ ရေးထားသည်။",
+      "gloss_en": "A price tag on an item at a different stall showed {D} dollars.",
+      "entity_note": "a price tag at a stall, a PLACE/object, not a different child like the first sentence"
+    },
+    {
+      "story_id": 7,
+      "distractor_fact": "အနီးရှိ လမ်းဘေးအရောင်းသမားတစ်ဦးလက်ဝယ် ငွေသားပမာဏသည် ထိုနေ့တွင်ပင် {D} ဒေါ်လာ ရှိသည်။",
+      "gloss_en": "A nearby street vendor had {D} dollars in cash on hand that same day.",
+      "entity_note": "a street vendor, a PERSON, not a different shop like the first sentence"
+    },
+    {
+      "story_id": 8,
+      "distractor_fact": "ဒေသန္တရ အလှူအရိပ်အဖွဲ့တစ်ဖွဲ့၏ ထိုလအတွက် လစဉ်ဘတ်ဂျက်ငွေသည် {D} ဒေါ်လာ ရှိသည်။",
+      "gloss_en": "A local charity's monthly budget that month was {D} dollars.",
+      "entity_note": "a charity, an ORGANISATION, not a neighboring family like the first sentence"
+    },
+    {
+      "story_id": 9,
+      "distractor_fact": "အခြားကစားသမားတစ်ဦးသည် လုံးဝကွဲပြားသော ရာသီတစ်ခုအတွင်း {D} ဂိုး သွင်းယူနိုင်ခဲ့သည်။",
+      "gloss_en": "A different player scored a total of {D} goals in an entirely different season.",
+      "entity_note": "an individual player in a different season, a PERSON/SERIES, not a different team like the first sentence"
+    },
+    {
+      "story_id": 10,
+      "distractor_fact": "ရင်းနှီးမြှုပ်နှံမှုရန်ပုံငွေအဖွဲ့တစ်ဖွဲ့၏ ထိုနှစ်အတွက် စုစုပေါင်းအရှုံးငွေသည် {D} ဒေါ်လာ ရှိသည်။",
+      "gloss_en": "An investment fund's total losses that year were {D} dollars.",
+      "entity_note": "a fund, an ORGANISATION, not a different investor like the first sentence"
+    },
+    {
+      "story_id": 14,
+      "distractor_fact": "အခြားဘတ်စ်ကားဂိတ်တစ်ခုရှိ အချိန်ဇယားဘုတ်တွင် ရောက်ရှိချိန်ကို မိနစ်ပြပါက {D} ဖြစ်ပြီး၊ ၎င်းသည် မိမိကိုယ်ပိုင် အချိန်ဇယားနှင့်သာ သက်ဆိုင်သည်။",
+      "gloss_en": "At a different bus terminal, a schedule board showed an arrival of minute {D}, based on that terminal's own separate schedule, which does not apply here.",
+      "entity_note": "a bus terminal, a PLACE with its own unstated schedule, not a train on a different line (instrument/series) like the first sentence"
+    },
+    {
+      "story_id": 15,
+      "distractor_fact": "အခြားလေဆိပ်တာဝါတစ်ခုရှိ ဆိုက်ရောက်ချိန်ဘုတ်တွင် မိနစ်ပြပါက {D} ဖြစ်ပြီး၊ ၎င်းသည် မိမိကိုယ်ပိုင် အချိန်ဇယားနှင့်သာ သက်ဆိုင်သည်။",
+      "gloss_en": "At a different airport terminal, an arrivals board showed minute {D}, based on that terminal's own separate schedule, which does not apply here.",
+      "entity_note": "an airport terminal, a PLACE with its own unstated schedule, not a flight on a different route (instrument) like the first sentence"
+    },
+    {
+      "story_id": 16,
+      "distractor_fact": "အခြားလမ်းတစ်လမ်းရှိ နေထိုင်သူတစ်ဦးက မိမိတည်းခိုသည့် အခန်း၏ အထပ်နံပါတ်ကို {D} ဟု ပြောပြခဲ့ပြီး၊ ၎င်းသည် မိမိကိုယ်ပိုင် မြေညီထပ်ကိုသာ အခြေခံသည်။",
+      "gloss_en": "A resident on a different street described their own apartment's floor number as {D}, based on their own building's separate ground floor, which does not apply here.",
+      "entity_note": "a resident, a PERSON with their own unstated ground floor, not a different building (place) like the first sentence"
+    },
+    {
+      "story_id": 17,
+      "distractor_fact": "အခြားပြိုင်ပွဲတစ်ခုတွင် အစားထိုးဝင်ကစားခဲ့သည့် ကစားသမားတစ်ဦးက {D} ဂိုး သွင်းယူနိုင်ခဲ့သည်။",
+      "gloss_en": "A substitute player who came on in a different match scored {D} goals.",
+      "entity_note": "an individual substitute player, a PERSON, not a whole team in a different match (organisation) like the first sentence"
+    },
+    {
+      "story_id": 18,
+      "distractor_fact": "အခြားကျောင်းတစ်ကျောင်း၏ ထိုနှစ်အတွက် ပျမ်းမျှရမှတ်သည် {D} မှတ် ရှိသည်။",
+      "gloss_en": "A different school's average score that year was {D} points.",
+      "entity_note": "a school, an ORGANISATION, not a different individual student like the first sentence"
+    },
+    {
+      "story_id": 19,
+      "distractor_fact": "လွတ်လပ်သော အတိုင်ပင်ခံပညာရှင်တစ်ဦး၏ ထိုနှစ်အတွက် ကိုယ်ပိုင်ဝင်ငွေသည် {D} ဒေါ်လာ ရှိသည်။",
+      "gloss_en": "A freelance consultant's own personal earnings that year were {D} dollars.",
+      "entity_note": "a freelance consultant, a PERSON, not a different company (organisation) like the first sentence"
+    },
+    {
+      "story_id": 20,
+      "distractor_fact": "အခြားအားကစားကွင်းတစ်ခုတွင် ကျင်းပသည့် ပြိုင်ပွဲတစ်ခုမှ မှတ်တမ်းတင်ထားသည့် ပြီးဆုံးချိန်သည် စက္ကန့်ပြပါက {D} ဖြစ်သည်။",
+      "gloss_en": "A finishing time recorded at a race held at a different stadium was, in seconds, {D}.",
+      "entity_note": "a stadium/event, a PLACE, not a different individual runner in a different race like the first sentence"
+    }
+  ]
+}

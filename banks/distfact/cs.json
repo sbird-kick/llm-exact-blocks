@@ -1,0 +1,84 @@
+{
+  "language_code": "cs",
+  "refused": [],
+  "items": [
+    {
+      "story_id": 1,
+      "distractor_fact": "Meteorologická stanice v sousední obci naměřila ve stejnou dobu teplotu {D} °C.",
+      "gloss_en": "A weather station in a neighboring village measured a temperature of D°C at the same time.",
+      "entity_note": "a different weather station, in a neighboring village"
+    },
+    {
+      "story_id": 2,
+      "distractor_fact": "Akcie jiné společnosti se ve stejný den obchodovala za {D} Kč.",
+      "gloss_en": "A different company's share traded for D Kč on the same day.",
+      "entity_note": "a different company's share"
+    },
+    {
+      "story_id": 3,
+      "distractor_fact": "Hladina vody v jiné přehradě dosahovala téhož rána úrovně {D} m.",
+      "gloss_en": "The water level in a different dam reached a level of D m that same morning.",
+      "entity_note": "a different dam"
+    },
+    {
+      "story_id": 4,
+      "distractor_fact": "Sousední vrchol v tomtéž pohoří dosahuje výšky {D} m.",
+      "gloss_en": "A neighboring peak in the same mountain range reaches a height of D m.",
+      "entity_note": "a different, neighboring peak (not the hiker's own position)"
+    },
+    {
+      "story_id": 6,
+      "distractor_fact": "Na jiný účet u téže banky bylo ve stejný den vloženo {D} €.",
+      "gloss_en": "D euros were deposited into a different account at the same bank on the same day.",
+      "entity_note": "a different bank account"
+    },
+    {
+      "story_id": 8,
+      "distractor_fact": "Jiná firma ve stejném odvětví měla za tentýž měsíc příjmy {D} €.",
+      "gloss_en": "A different company in the same industry had revenue of D euros for that same month.",
+      "entity_note": "a different company"
+    },
+    {
+      "story_id": 9,
+      "distractor_fact": "Jiný tým v téže lize vstřelil za sezónu branky v počtu {D}.",
+      "gloss_en": "A different team in the same league scored a count of D goals over the season.",
+      "entity_note": "a different team"
+    },
+    {
+      "story_id": 10,
+      "distractor_fact": "Jiný investor měl za tentýž rok zisky ve výši {D} €.",
+      "gloss_en": "A different investor had gains of D euros for that same year.",
+      "entity_note": "a different investor"
+    },
+    {
+      "story_id": 11,
+      "distractor_fact": "Jiná továrna ve stejném koncernu vyrobila ve stejném měsíci {D} ks jiného výrobku.",
+      "gloss_en": "A different factory in the same conglomerate produced D units of a different product in that same month.",
+      "entity_note": "a different factory, whose own production plan is not stated"
+    },
+    {
+      "story_id": 12,
+      "distractor_fact": "Jiný obchod téhož řetězce dosáhl ve stejném měsíci tržeb {D} €.",
+      "gloss_en": "A different shop in the same chain achieved revenue of D euros in that same month.",
+      "entity_note": "a different shop, whose own plan is not stated"
+    },
+    {
+      "story_id": 13,
+      "distractor_fact": "V sousedním regionu napršelo ve stejném měsíci celkem {D} mm.",
+      "gloss_en": "In a neighboring region, a total of D mm of rain fell in that same month.",
+      "entity_note": "a different region, whose own forecast is not stated"
+    },
+    {
+      "story_id": 15,
+      "distractor_fact": "Jiný vlak na jiné lince odjel ve skutečnosti v čase odpovídajícím {D} min od půlnoci.",
+      "gloss_en": "A different train on a different line actually departed at a time corresponding to D minutes past midnight.",
+      "entity_note": "a different train on a different line, whose own schedule is not stated"
+    },
+    {
+      "story_id": 16,
+      "distractor_fact": "Výtah v sousední budově zastavil v podlaží s označením {D}.",
+      "gloss_en": "An elevator in a neighboring building stopped at the floor designated D.",
+      "entity_note": "a different elevator, in a different building, whose own ground-floor reference is not stated"
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "language_code": "ko",
+  "refused": [],
+  "items": [
+    {
+      "story_id": 1,
+      "distractor_fact": "이웃에 사는 사람은 자기 집 마당의 기온이 {D}도였다고 말했다.",
+      "gloss_en": "A person living next door said the temperature in their own yard was {D} degrees.",
+      "entity_note": "different kind of owner — a private individual (a neighbor) reporting from their own yard, not an institution/place (the observatory in another village) as the first distractor used"
+    },
+    {
+      "story_id": 2,
+      "distractor_fact": "국내의 한 주식형 펀드는 그날 기준가격이 {D}원으로 마감했다.",
+      "gloss_en": "A domestic equity fund's reference price closed at {D} won that day.",
+      "entity_note": "different kind of owner — an organisation (an investment fund), not another individual stock/security as the first distractor used"
+    },
+    {
+      "story_id": 3,
+      "distractor_fact": "인근 하천에 설치된 자동 수위계는 같은 시각 {D}cm를 기록했다.",
+      "gloss_en": "An automatic water-level gauge installed on a nearby stream recorded {D} cm at the same time.",
+      "entity_note": "different kind of owner — a measuring instrument (an automatic gauge on a stream), not another place (a nearby reservoir) as the first distractor used"
+    },
+    {
+      "story_id": 4,
+      "distractor_fact": "형은 이번 달 자기 통장에서 {D}원을 출금했다.",
+      "gloss_en": "The older brother withdrew {D} won from his own bankbook this month.",
+      "entity_note": "different kind of owner — a named individual person (the older brother), not an unspecified separate account as the first distractor used"
+    },
+    {
+      "story_id": 5,
+      "distractor_fact": "사장은 오늘 개인 지갑에 따로 {D}원을 넣어두었다.",
+      "gloss_en": "The owner personally put {D} won into a separate wallet today.",
+      "entity_note": "different kind of owner — a specific person (the shop owner) and their personal wallet, not another branch's cash box as the first distractor used"
+    },
+    {
+      "story_id": 6,
+      "distractor_fact": "그가 다니는 동아리 회비 통장에는 이번 달 {D}원이 모였다.",
+      "gloss_en": "The club dues account for a club he belongs to collected {D} won this month.",
+      "entity_note": "different kind of owner — an organisation (a club), not another individual person (the roommate) as the first distractor used"
+    },
+    {
+      "story_id": 7,
+      "distractor_fact": "그가 계약한 에이전시는 이번 달 지출이 {D}원이었다.",
+      "gloss_en": "The agency he's contracted with had {D} won in expenses this month.",
+      "entity_note": "different kind of owner — an organisation (an agency), not another individual freelancer as the first distractor used"
+    },
+    {
+      "story_id": 8,
+      "distractor_fact": "그 팀이 지난 시즌 컵대회에서 기록한 실점은 {D}골이었다.",
+      "gloss_en": "The team's goals conceded in last season's cup competition was {D}.",
+      "entity_note": "different kind of owner — a different series/competition (last season's cup tournament, same team), not another team as the first distractor used"
+    },
+    {
+      "story_id": 9,
+      "distractor_fact": "다른 한 펀드는 이번 분기에 손실 {D}원을 기록했다.",
+      "gloss_en": "A different fund recorded a loss of {D} won this quarter.",
+      "entity_note": "different kind of owner — an organisation (an investment fund), not another individual investor as the first distractor used"
+    },
+    {
+      "story_id": 13,
+      "distractor_fact": "지난달 열린 다른 대회에서는 우승자의 타수가 {D}타였다.",
+      "gloss_en": "In a different tournament held last month, the winner's score was {D} strokes.",
+      "entity_note": "different kind of owner — a different series (a separate tournament held last month), not another golfer on another course as the first distractor used; that tournament's own par is unstated so no second par-based subtraction is implied"
+    },
+    {
+      "story_id": 14,
+      "distractor_fact": "이 대회를 주최하는 클럽이 매년 여는 사내 친선전에서는 한 회원이 {D}타를 쳤다.",
+      "gloss_en": "In the annual in-house friendly event held by the club that hosts this tournament, a member shot {D} strokes.",
+      "entity_note": "different kind of owner — an organisation (the hosting club's own separate event), not another individual golfer as the first distractor used; that event's par is unstated so no second par-based subtraction is implied"
+    }
+  ]
+}

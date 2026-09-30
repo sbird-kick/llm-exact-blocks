@@ -1,0 +1,102 @@
+{
+  "language_code": "ja",
+  "refused": [],
+  "items": [
+    {
+      "story_id": 1,
+      "distractor_fact": "同じ朝、別の温度計は{D}°Cを示していました。",
+      "gloss_en": "That same morning, a different thermometer showed {D}°C.",
+      "entity_note": "a different thermometer (instrument), not the first sentence's different observation station (place)"
+    },
+    {
+      "story_id": 2,
+      "distractor_fact": "同じ日、別の証券取引所に上場するある銘柄の終値は{D}円でした。",
+      "gloss_en": "On the same day, the closing price of a stock listed on a different stock exchange was {D} yen.",
+      "entity_note": "a stock listed on a different exchange (place), not the first sentence's different company (organization)"
+    },
+    {
+      "story_id": 3,
+      "distractor_fact": "同じ日、別の会社が運営するダムの水位は{D}mでした。",
+      "gloss_en": "On the same day, the water level of a dam operated by a different company was {D}m.",
+      "entity_note": "a dam operated by a different company (organization), not the first sentence's unspecified different dam (place)"
+    },
+    {
+      "story_id": 4,
+      "distractor_fact": "同じ日、別の操縦者が飛ばした機体は着陸時に{D}mの高度を記録しました。",
+      "gloss_en": "That same day, an aircraft flown by a different operator recorded an altitude of {D}m at landing.",
+      "entity_note": "a drone flown by a different operator (person), not the first sentence's different drone (instrument)"
+    },
+    {
+      "story_id": 5,
+      "distractor_fact": "隣の店のレジには{D}円が入っていました。",
+      "gloss_en": "The cash register at the shop next door contained {D} yen.",
+      "entity_note": "a shop's cash register (organization), not the first sentence's different customer (person)"
+    },
+    {
+      "story_id": 6,
+      "distractor_fact": "別の顧客の口座では、同じ月の入金額が{D}円でした。",
+      "gloss_en": "A different customer's account had a deposit amount of {D} yen that same month.",
+      "entity_note": "a different customer (person), not the first sentence's account at a different branch (organization/place)"
+    },
+    {
+      "story_id": 7,
+      "distractor_fact": "ある個人の口座残高は{D}円でした。",
+      "gloss_en": "An individual person's account balance was {D} yen.",
+      "entity_note": "an individual person's account (person), not the first sentence's different company (organization)"
+    },
+    {
+      "story_id": 8,
+      "distractor_fact": "近くの個人事業主の今月の収入は{D}円でした。",
+      "gloss_en": "A nearby sole proprietor's income this month was {D} yen.",
+      "entity_note": "an individual sole proprietor (person), not the first sentence's different shop (organization)"
+    },
+    {
+      "story_id": 9,
+      "distractor_fact": "あるフォワード選手は今シーズン個人で{D}点を決めました。",
+      "gloss_en": "A certain forward scored {D} points individually this season.",
+      "entity_note": "an individual player (person), not the first sentence's different team (organization)"
+    },
+    {
+      "story_id": 10,
+      "distractor_fact": "ある投資会社は今年{D}円の損失を出しました。",
+      "gloss_en": "An investment firm posted a loss of {D} yen this year.",
+      "entity_note": "an investment firm (organization), not the first sentence's different investor (person)"
+    },
+    {
+      "story_id": 11,
+      "distractor_fact": "取引先の企業の工場では、今月の実際の生産数が{D}個でした。",
+      "gloss_en": "At a factory belonging to a business-partner company, actual production this month was {D} units.",
+      "entity_note": "a business-partner company's factory (organization), not the first sentence's unnamed different factory (place); that company's own target is not stated"
+    },
+    {
+      "story_id": 12,
+      "distractor_fact": "ある個人事業主の実際の売上は{D}円でした。",
+      "gloss_en": "A sole proprietor's actual sales were {D} yen.",
+      "entity_note": "an individual sole proprietor (person), not the first sentence's different shop (organization); their own target is not stated"
+    },
+    {
+      "story_id": 13,
+      "distractor_fact": "別の気象会社が独自に集計した、同じ日の降水量データは{D}mmでした。",
+      "gloss_en": "Rainfall data independently compiled by a different weather company for the same day was {D}mm.",
+      "entity_note": "a private weather company's own data (organization), not the first sentence's different region (place); its own forecast is not stated"
+    },
+    {
+      "story_id": 14,
+      "distractor_fact": "別のゴルフ場では、その日のコースレコードが{D}打でした。",
+      "gloss_en": "At a different golf course, the course record that day was {D} strokes.",
+      "entity_note": "a course record belonging to the course itself (place), not a named golfer, unlike the first sentence's different golfer (person); that course's own par is not stated"
+    },
+    {
+      "story_id": 15,
+      "distractor_fact": "この大会とは別のゴルフ場では、コースレコードは{D}打でした。",
+      "gloss_en": "At a golf course unrelated to this tournament, the course record was {D} strokes.",
+      "entity_note": "a course record belonging to a different course (place), not a named golfer, unlike the first sentence's different golfer (person); that course's own par is not stated"
+    },
+    {
+      "story_id": 16,
+      "distractor_fact": "別の航空会社の便は、独自の基準時刻から{D}分後に到着しました。",
+      "gloss_en": "A flight operated by a different airline arrived {D} minutes after its own separate reference time.",
+      "entity_note": "a different airline (organization) with its own separate reference schedule, not the first sentence's different route (a different line/series); that airline's schedule reference does not apply here"
+    }
+  ]
+}

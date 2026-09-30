@@ -1,0 +1,90 @@
+{
+  "language_code": "th",
+  "refused": [],
+  "items": [
+    {
+      "story_id": 1,
+      "distractor_fact": "เครื่องวัดอุณหภูมิที่หมู่บ้านถัดไปบันทึกอุณหภูมิได้ {D} องศาเซลเซียสในเช้าวันเดียวกัน",
+      "gloss_en": "The thermometer at the next village recorded a temperature of {D}°C that same morning.",
+      "entity_note": "a different village's own thermometer, not the park's noon/morning reading"
+    },
+    {
+      "story_id": 2,
+      "distractor_fact": "หุ้นอีกตัวหนึ่งในตลาดเดียวกันปิดตลาดที่ราคา {D} บาทในวันเดียวกัน",
+      "gloss_en": "Another stock on the same market closed at {D} baht that same day.",
+      "entity_note": "a different stock's closing price, not this stock's opening/closing figures"
+    },
+    {
+      "story_id": 3,
+      "distractor_fact": "อ่างเก็บน้ำอีกแห่งหนึ่งมีระดับน้ำอยู่ที่ {D} เมตรในเช้าวันเดียวกัน",
+      "gloss_en": "Another reservoir had a water level of {D} meters that same morning.",
+      "entity_note": "a different reservoir, not the one whose before/after-rain levels are given"
+    },
+    {
+      "story_id": 4,
+      "distractor_fact": "เครื่องบินอีกลำหนึ่งบินอยู่ที่ความสูง {D} เมตรในช่วงเวลาเดียวกัน",
+      "gloss_en": "Another plane was flying at an altitude of {D} meters during the same period.",
+      "entity_note": "a different plane's altitude, not this plane's before/after-climb readings"
+    },
+    {
+      "story_id": 5,
+      "distractor_fact": "ชายอีกคนหนึ่งซึ่งเข้าร่วมโครงการควบคุมน้ำหนักอีกโครงการหนึ่งมีน้ำหนักอยู่ที่ {D} กิโลกรัมในช่วงเวลาเดียวกัน",
+      "gloss_en": "Another man, who joined a different weight-control program, weighed {D} kg during the same period.",
+      "entity_note": "a different man in a different program, not this man's before/after weight"
+    },
+    {
+      "story_id": 6,
+      "distractor_fact": "เมืองเล็กอีกแห่งหนึ่งมีประชากรอยู่ที่ {D} คนในปีเดียวกัน",
+      "gloss_en": "Another small town had a population of {D} people in the same year.",
+      "entity_note": "a different town, not this town's population figures across years"
+    },
+    {
+      "story_id": 7,
+      "distractor_fact": "เด็กชายอีกคนหนึ่งใช้จ่ายเงินไป {D} บาทในวันเดียวกัน",
+      "gloss_en": "Another boy spent {D} baht that same day.",
+      "entity_note": "a different boy's spending, not this boy's money received/spent"
+    },
+    {
+      "story_id": 8,
+      "distractor_fact": "บัญชีออมทรัพย์อีกบัญชีหนึ่งมีเงินฝากเข้า {D} บาทในเดือนเดียวกัน",
+      "gloss_en": "Another savings account had {D} baht deposited into it in the same month.",
+      "entity_note": "a different account's deposit, not this account's deposited/withdrawn figures"
+    },
+    {
+      "story_id": 9,
+      "distractor_fact": "ร้านค้าเล็ก ๆ อีกแห่งหนึ่งมีรายรับอยู่ที่ {D} บาทในเดือนเดียวกัน",
+      "gloss_en": "Another small shop had {D} baht in revenue in the same month.",
+      "entity_note": "a different shop's revenue, not this shop's income/expenses"
+    },
+    {
+      "story_id": 10,
+      "distractor_fact": "สโมสรฟุตบอลอีกทีมหนึ่งยิงประตูได้ {D} ประตูในฤดูกาลเดียวกัน",
+      "gloss_en": "Another football club scored {D} goals in the same season.",
+      "entity_note": "a different club's goals scored, not this club's scored/conceded tally"
+    },
+    {
+      "story_id": 11,
+      "distractor_fact": "นักลงทุนอีกคนหนึ่งทำกำไรจากการซื้อขายได้ {D} บาทในสัปดาห์เดียวกัน",
+      "gloss_en": "Another trader made {D} baht in trading gains in the same week.",
+      "entity_note": "a different trader's gains, not this trader's gains/losses"
+    },
+    {
+      "story_id": 14,
+      "distractor_fact": "ในบ่ายวันเดียวกัน นักกอล์ฟอีกคนหนึ่งตีจบหลุมบนสนามคนละแห่งด้วยจำนวนสโตรกจริง {D} สโตรก",
+      "gloss_en": "That same afternoon, another golfer finished a hole on an entirely different course with an actual stroke count of {D} strokes.",
+      "entity_note": "a different golfer on a different course whose par is not stated, so it cannot pair with this hole's par"
+    },
+    {
+      "story_id": 15,
+      "distractor_fact": "รถไฟอีกขบวนหนึ่งบนเส้นทางอื่นมาถึงสถานีจริงที่นาทีที่ {D} นับจากเวลาอ้างอิงเดียวกัน",
+      "gloss_en": "Another train on a different route actually arrived at minute {D}, counted from the same reference point.",
+      "entity_note": "a different train on a different route with its own unstated timetable, not this train's schedule"
+    },
+    {
+      "story_id": 18,
+      "distractor_fact": "นักวิ่ง ค เข้าเส้นชัยในการแข่งขันคนละรายการด้วยเวลา {D} วินาที",
+      "gloss_en": "Runner C finished a different race with a time of {D} seconds.",
+      "entity_note": "a third runner in a different race, not Runner A's or Runner B's time"
+    }
+  ]
+}

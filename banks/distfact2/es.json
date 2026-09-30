@@ -1,0 +1,114 @@
+{
+ "language_code": "es",
+ "refused": [],
+ "items": [
+  {
+   "story_id": 1,
+   "distractor_fact": "Un excursionista que pasaba por la zona llevaba un termómetro de bolsillo que marcaba {D} °C esa misma tarde.",
+   "gloss_en": "A hiker passing through the area was carrying a pocket thermometer that read {D} °C that same afternoon.",
+   "entity_note": "A hiker with his own pocket thermometer (a person), not a neighboring village's gauge (a place) as in the first distractor; not the weather station's own morning/afternoon readings the question compares."
+  },
+  {
+   "story_id": 2,
+   "distractor_fact": "Ese mismo día, un fondo de inversión del sector cerró una de sus posiciones a {D} dólares.",
+   "gloss_en": "That same day, an investment fund in the sector closed one of its positions at {D} dollars.",
+   "entity_note": "An investment fund closing its own position (a financial organization of a different kind), not a rival company's stock (an organization) as in the first distractor; not the story's stock whose opening/closing price the question compares."
+  },
+  {
+   "story_id": 3,
+   "distractor_fact": "Esa misma semana, una boya de medición instalada aguas arriba marcaba {D} metros.",
+   "gloss_en": "That same week, a measuring buoy installed upstream read {D} meters.",
+   "entity_note": "A measuring buoy installed upstream (an instrument), not the neighboring reservoir (a place) as in the first distractor; not the story's reservoir whose week-to-week levels the question compares."
+  },
+  {
+   "story_id": 4,
+   "distractor_fact": "Un piloto aficionado que grababa la zona volaba su propio dron a {D} metros de altitud esa misma tarde.",
+   "gloss_en": "A hobbyist pilot filming the area was flying his own drone at an altitude of {D} meters that same afternoon.",
+   "entity_note": "A hobbyist pilot's personal drone (a person), not another drone in the same fleet (an organization) as in the first distractor; not the story's drone whose start/end altitude the question compares."
+  },
+  {
+   "story_id": 5,
+   "distractor_fact": "Ese mismo mes, una clínica distinta de la misma red registró a un paciente con un peso de {D} kilogramos.",
+   "gloss_en": "That same month, a different clinic in the same network recorded a patient with a weight of {D} kilograms.",
+   "entity_note": "A different clinic in the network (an organization), not another patient at the same clinic (a person) as in the first distractor; not the story's patient whose two checkups the question compares."
+  },
+  {
+   "story_id": 6,
+   "distractor_fact": "Ese mismo día, un ciclista profesional alcanzó una velocidad de {D} kilómetros por hora en un entrenamiento aparte.",
+   "gloss_en": "That same day, a professional cyclist reached a speed of {D} kilometers per hour during a separate training session.",
+   "entity_note": "A cyclist's own effort (a person), not a different radar on another road (an instrument) as in the first distractor; not the story's radar whose two checkpoint readings the question compares."
+  },
+  {
+   "story_id": 7,
+   "distractor_fact": "Ese mismo mes, un cliente de otro banco recibió depósitos por {D} euros en su cuenta.",
+   "gloss_en": "That same month, a customer at a different bank received deposits of {D} euros into their account.",
+   "entity_note": "An individual customer at a different bank (a person), not another account at the same banking entity (an organization) as in the first distractor; not the story's account whose deposits and withdrawals the question compares."
+  },
+  {
+   "story_id": 9,
+   "distractor_fact": "Ese mismo mes, un familiar que vive en otra ciudad tuvo un gasto personal de {D} euros.",
+   "gloss_en": "That same month, a relative living in another city had a personal expense of {D} euros.",
+   "entity_note": "An individual relative (a person), not the neighboring household (a place-based unit) as in the first distractor; not the story's household whose income and expenses the question compares."
+  },
+  {
+   "story_id": 10,
+   "distractor_fact": "En la tabla de goleadores individuales de esa misma liga, un jugador anotó {D} goles esa temporada.",
+   "gloss_en": "In that same league's individual scorers' table, a player scored {D} goals that season.",
+   "entity_note": "An individual player's personal tally (a person), not another team in the same league (an organization) as in the first distractor; not the story's team whose goals scored and conceded the question compares."
+  },
+  {
+   "story_id": 11,
+   "distractor_fact": "Ese mismo año, un fondo de inversión distinto reportó unas ganancias de {D} euros.",
+   "gloss_en": "That same year, a different investment fund reported gains of {D} euros.",
+   "entity_note": "A different investment fund (an organization), not another investor in the same fund (a person) as in the first distractor; not the story's investor whose gains and losses the question compares."
+  },
+  {
+   "story_id": 12,
+   "distractor_fact": "Ese mismo trimestre, otra línea de montaje del mismo complejo fabricó {D} unidades.",
+   "gloss_en": "That same quarter, another assembly line in the same complex manufactured {D} units.",
+   "entity_note": "A different assembly line with no target of its own ever stated (a piece of equipment), not another factory in the same group (an organization) as in the first distractor; not the story's factory whose production and target the question compares."
+  },
+  {
+   "story_id": 13,
+   "distractor_fact": "Un pluviómetro doméstico instalado en un jardín cercano midió {D} milímetros esa misma semana.",
+   "gloss_en": "A home rain gauge installed in a nearby garden measured {D} millimeters that same week.",
+   "entity_note": "A privately owned rain gauge with no forecast of its own (an instrument), not the neighboring region (a place) as in the first distractor; not the story's rainfall and forecast that the question compares."
+  },
+  {
+   "story_id": 14,
+   "distractor_fact": "En una ronda de exhibición organizada por otro club, el equipo local sumó {D} golpes en total.",
+   "gloss_en": "In an exhibition round organized by another club, the home team totaled {D} strokes.",
+   "entity_note": "A club's team score with no par ever announced for it (an organization), not another golfer on a different course (a person) as in the first distractor; not the story's golfer whose round and the course's par the question compares."
+  },
+  {
+   "story_id": 15,
+   "distractor_fact": "Ese mismo día, un pasajero comprobó en su propio reloj que había llegado a su destino en el minuto {D} contado desde la medianoche.",
+   "gloss_en": "That same day, a passenger checked on his own watch that he had arrived at his destination at minute {D} counted from midnight.",
+   "entity_note": "An individual passenger going by his own watch, with no schedule of his own (a person), not another train on a different line (an instrument/series) as in the first distractor; not the story's train whose arrival and schedule the question compares."
+  },
+  {
+   "story_id": 16,
+   "distractor_fact": "Un guardia forestal midió manualmente el nivel de un arroyo cercano en {D} centímetros esa misma mañana.",
+   "gloss_en": "A forest ranger manually measured the level of a nearby stream at {D} centimeters that same morning.",
+   "entity_note": "A ranger's own manual measurement, with no reference line of its own (a person), not a sensor on a different river (an instrument) as in the first distractor; not the story's sensor reading and reference line the question compares."
+  },
+  {
+   "story_id": 18,
+   "distractor_fact": "Un turista que llevaba un termómetro portátil midió {D} °C esa misma hora en otra localidad.",
+   "gloss_en": "A tourist carrying a portable thermometer measured {D} °C at that same hour in another locality.",
+   "entity_note": "A tourist with his own portable thermometer (a person), not the third city, Solavalle (a place) as in the first distractor; not Rioverde or Montealto, the two cities the question compares."
+  },
+  {
+   "story_id": 19,
+   "distractor_fact": "Ese mismo mes, un vendedor independiente que trabaja por su cuenta facturó {D} unidades en ventas.",
+   "gloss_en": "That same month, an independent salesperson working on his own invoiced {D} units in sales.",
+   "entity_note": "An individual independent seller (a person), not the third branch, Sur (an organization/place) as in the first distractor; not the Centro and Norte branches the question compares."
+  },
+  {
+   "story_id": 20,
+   "distractor_fact": "En ese mismo campeonato, el máximo goleador de la temporada anotó {D} goles en total.",
+   "gloss_en": "In that same championship, the season's top scorer scored {D} goals in total.",
+   "entity_note": "An individual player's season tally (a person), not a third team in a different match (an organization/series) as in the first distractor; not the home and away teams the question compares."
+  }
+ ]
+}

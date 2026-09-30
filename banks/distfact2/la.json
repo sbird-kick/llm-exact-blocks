@@ -1,0 +1,60 @@
+{
+  "language_code": "la",
+  "refused": [],
+  "items": [
+    {
+      "story_id": 1,
+      "distractor_fact": "Anno autem superiore, eodem die, tabulae publicae temperaturam {D}°C rettulerunt.",
+      "gloss_en": "But last year, on the same day, public records reported a temperature of {D}°C.",
+      "entity_note": "different kind of owner: an archival public record from a previous year (a series), not the first distractor's neighboring-village weather station (a place)"
+    },
+    {
+      "story_id": 2,
+      "distractor_fact": "Pretium autem auri eodem die ${D} fuit.",
+      "gloss_en": "But the price of gold was $D that same day.",
+      "entity_note": "different kind of owner: a commodity (gold), not the first distractor's owner, another company's share (an organisation)"
+    },
+    {
+      "story_id": 3,
+      "distractor_fact": "Altitudo autem aquae in cisterna aquaeductus urbani eodem tempore {D}m fuit.",
+      "gloss_en": "Meanwhile the water level in the municipal aqueduct's cistern was {D}m at that same time.",
+      "entity_note": "different kind of owner: a municipal utility's cistern (an organisation), not the first distractor's nearby river (a place)"
+    },
+    {
+      "story_id": 4,
+      "distractor_fact": "Turris autem moderatrix aeroportus vicini eodem tempore altitudinem {D}m aeronavis commercialis notavit.",
+      "gloss_en": "Meanwhile the control tower of a nearby airport recorded a commercial aircraft's altitude of {D}m at the same time.",
+      "entity_note": "different kind of owner: a place/organisation (an airport tower observing an unrelated aircraft), not the first distractor's owner, another drone flying simultaneously (an entity)"
+    },
+    {
+      "story_id": 5,
+      "distractor_fact": "Vas autem mercium in officina vectigali pondere {D}kg deprehensum est.",
+      "gloss_en": "Meanwhile a container of goods found at the customs office weighed {D}kg.",
+      "entity_note": "different kind of owner: a container held at a customs office (a place), not the first distractor's owner, another package shipped the same day (an entity); avoids reusing the noun 'sarcina'"
+    },
+    {
+      "story_id": 6,
+      "distractor_fact": "Celeritas autem summa cuiusdam certaminis anno superiore acta {D}km/h fuit.",
+      "gloss_en": "But the top speed achieved in a certain race last year was {D}km/h.",
+      "entity_note": "different kind of owner: a record from a past year's race (a series), not the first distractor's owner, an engine fitted in a different vehicle (an instrument)"
+    },
+    {
+      "story_id": 7,
+      "distractor_fact": "Institutum autem summum punctorum, anno praeterito in hoc ludo actum, {D}pts fuit.",
+      "gloss_en": "But the high score set in this game last year was {D}pts.",
+      "entity_note": "different kind of owner: a record from last year's play of the game (a series), not the first distractor's owner, another player competing in the same game (a person)"
+    },
+    {
+      "story_id": 12,
+      "distractor_fact": "Unus autem lusor, apud gregem alium per idem tempus ludens, puncta {D} per totum tempus sibi accepit.",
+      "gloss_en": "Meanwhile one player, playing for a different team over the same period, scored {D} goals for himself over the season.",
+      "entity_note": "different kind of owner: a single player (a person), not the first distractor's owner, a different team in a separate competition (an entity)"
+    },
+    {
+      "story_id": 16,
+      "distractor_fact": "In tabula autem stationis proximae, adventus currus cuiusdam alterius {D}min post mediam noctem monstratus est, cuius tempus secundum tabulam ibidem non indicatur.",
+      "gloss_en": "Meanwhile, on the display board of the nearby station, the arrival of some other train was shown as {D} minutes after midnight, whose own scheduled time is not given there.",
+      "entity_note": "different kind of owner: a station's arrival display (a place) showing an unrelated train whose own schedule is not stated, not the first distractor's owner, another train on a different line (an entity); satisfies the shared-reference rule since no schedule is given for it"
+    }
+  ]
+}

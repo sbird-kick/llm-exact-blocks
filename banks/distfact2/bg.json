@@ -1,0 +1,102 @@
+{
+  "language_code": "bg",
+  "refused": [],
+  "items": [
+    {
+      "story_id": 1,
+      "distractor_fact": "Дигиталният термометър в кухнята показал {D} °C същата сутрин.",
+      "gloss_en": "The digital kitchen thermometer showed {D} °C that same morning.",
+      "entity_note": "Different owner kind: a household instrument (the kitchen thermometer), not a place as in the first distractor (a neighboring village's thermometer); the unit symbol °C never inflects after a numeral."
+    },
+    {
+      "story_id": 2,
+      "distractor_fact": "Един инвеститор притежавал акции на друга компания на стойност {D} $.",
+      "gloss_en": "An investor owned shares of another company worth {D} $.",
+      "entity_note": "Different owner kind: an individual person (the investor), not an organisation as in the first distractor (another company); the unit symbol $ never inflects after a numeral."
+    },
+    {
+      "story_id": 3,
+      "distractor_fact": "По същото време друг турист от съседна група се намирал на височина {D} м.",
+      "gloss_en": "At the same time, another hiker from a nearby group was at an altitude of {D} m.",
+      "entity_note": "Different owner kind: a person (another hiker), not a place as in the first distractor (a neighboring ridge's peak); the unit symbol м never inflects after a numeral."
+    },
+    {
+      "story_id": 4,
+      "distractor_fact": "Друг отбор, тренирал на същия лагер, имал среден състав с тегло от {D} кг.",
+      "gloss_en": "Another team training at the same camp had an average roster weight of {D} kg.",
+      "entity_note": "Different owner kind: an organisation (another team), not a single person as in the first distractor (another athlete); the unit symbol кг never inflects after a numeral."
+    },
+    {
+      "story_id": 5,
+      "distractor_fact": "Друг клон на банката управлявал бизнес сметка с наличност от {D} €.",
+      "gloss_en": "Another branch of the bank managed a business account with a balance of {D} €.",
+      "entity_note": "Different owner kind: an organisation (a bank branch), not a person as in the first distractor (another customer); the unit symbol € never inflects after a numeral."
+    },
+    {
+      "story_id": 6,
+      "distractor_fact": "Друга банка в същия град отчела депозити от {D} $ през годината.",
+      "gloss_en": "Another bank in the same town recorded deposits of {D} $ during the year.",
+      "entity_note": "Different owner kind: a separate financial organisation (another bank), not an individual account as in the first distractor (a different savings account); the unit symbol $ never inflects after a numeral."
+    },
+    {
+      "story_id": 7,
+      "distractor_fact": "Хотелът, в който семейството отседнало, предлагал специална програма на стойност {D} лв за други гости.",
+      "gloss_en": "The hotel where the family stayed offered other guests a special package worth {D} lev.",
+      "entity_note": "Different owner kind: an organisation (the hotel), not a family/person group as in the first distractor (another family); the unit лв never inflects after a numeral."
+    },
+    {
+      "story_id": 8,
+      "distractor_fact": "Собственикът на друг магазин на същата улица отчел лична печалба от {D} $ през месеца.",
+      "gloss_en": "The owner of another shop on the same street reported a personal profit of {D} $ during the month.",
+      "entity_note": "Different owner kind: an individual person (the shop owner), not an organisation as in the first distractor (another company); the unit symbol $ never inflects after a numeral."
+    },
+    {
+      "story_id": 9,
+      "distractor_fact": "Голмайсторът на друг отбор вкарал {D} гола през шампионата.",
+      "gloss_en": "The top scorer of another team scored {D} goals during the championship.",
+      "entity_note": "Different owner kind: an individual person (a player), not an organisation as in the first distractor (another team); 'гола' is the invariant counting form after any numeral."
+    },
+    {
+      "story_id": 10,
+      "distractor_fact": "Друг инвеститор реализирал печалба от {D} $ през същия период.",
+      "gloss_en": "Another investor realized a profit of {D} $ during the same period.",
+      "entity_note": "Different owner kind: an individual person (an investor), not an organisation as in the first distractor (another fund); the unit symbol $ never inflects after a numeral."
+    },
+    {
+      "story_id": 11,
+      "distractor_fact": "Автоматизираната поточна линия в завод в друг град произвела {D} бройки през месеца.",
+      "gloss_en": "The automated production line at a factory in another town produced {D} units during the month.",
+      "entity_note": "Shared-reference domain: different owner kind, a piece of equipment (an automated production line at an unrelated factory), not an organisation as in the first distractor (another factory in the same holding); that line's own target is never stated, so it cannot be paired with the story's plan; 'бройки' is invariant after any numeral."
+    },
+    {
+      "story_id": 12,
+      "distractor_fact": "Личният дъждомер на фермер в съседно село отчел {D} мм валежи през същата седмица.",
+      "gloss_en": "A farmer's personal rain gauge in a neighboring village recorded {D} mm of rainfall during the same week.",
+      "entity_note": "Shared-reference domain: different owner kind, a person (a farmer with his own gauge), not an instrument/station as in the first distractor (another weather station); his own forecast is never stated, so it cannot be paired with the story's forecast; the unit symbol мм never inflects after a numeral."
+    },
+    {
+      "story_id": 13,
+      "distractor_fact": "Голф клубът, организатор на турнира, обявил среден резултат на любителите за деня от {D} удара.",
+      "gloss_en": "The golf club organizing the tournament announced an average amateur score for the day of {D} strokes.",
+      "entity_note": "Shared-reference domain: different owner kind, an organisation (the golf club's aggregate figure), not a person as in the first distractor (another player); that amateur average carries no stated par of its own, so it cannot be paired with the story's par; 'удара' is the invariant counting form after any numeral."
+    },
+    {
+      "story_id": 14,
+      "distractor_fact": "Голф федерацията отчела национален среден резултат от {D} удара за сезона.",
+      "gloss_en": "The golf federation recorded a national average score of {D} strokes for the season.",
+      "entity_note": "Shared-reference domain: different owner kind, an organisation (the golf federation), not a person as in the first distractor (another golfer on another course); the federation's national average carries no stated total par of its own; 'удара' is invariant after any numeral."
+    },
+    {
+      "story_id": 15,
+      "distractor_fact": "Диспечерската служба на друга железопътна компания отчела просрочие от {D} мин за свой влак.",
+      "gloss_en": "The dispatch service of another railway company recorded a delay of {D} min for its own train.",
+      "entity_note": "Shared-reference domain: different owner kind, an organisation (another company's dispatch service), not an instrument as in the first distractor (a different train on a different line); its own schedule is never stated, so it cannot be paired with the story's schedule; 'мин' never inflects after a numeral."
+    },
+    {
+      "story_id": 16,
+      "distractor_fact": "Офисът на архитектурното бюро, проектирало сградата, се намира в друга сграда на етаж с обозначение {D}.",
+      "gloss_en": "The office of the architecture firm that designed the building is located in a different building on a floor designated {D}.",
+      "entity_note": "Shared-reference domain: different owner kind, an organisation (the architecture firm's office), not a place/apartment as in the first distractor (an apartment in a neighboring building); that building's own ground floor is never stated; the bare numeral after 'с обозначение' stays grammatical for any integer."
+    }
+  ]
+}

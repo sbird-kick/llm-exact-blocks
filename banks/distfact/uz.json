@@ -1,0 +1,84 @@
+{
+  "language_code": "uz",
+  "refused": [],
+  "items": [
+    {
+      "story_id": 1,
+      "distractor_fact": "Qo'shni tumandagi stansiya o'sha kuni ertalab {D}°C haroratni qayd etdi.",
+      "gloss_en": "The station in the neighboring district recorded a temperature of {D}°C that morning.",
+      "entity_note": "belongs to a different weather station in a neighboring district, not the thermometer in the story"
+    },
+    {
+      "story_id": 2,
+      "distractor_fact": "Boshqa kompaniyaning aksiyasi o'sha kuni {D} dollar narxda savdo qilindi.",
+      "gloss_en": "Another company's stock traded at {D} dollars that day.",
+      "entity_note": "belongs to a different company's stock, not the one whose price is being compared"
+    },
+    {
+      "story_id": 3,
+      "distractor_fact": "Qo'shni ko'lning suv sathi o'sha kuni {D} santimetrni tashkil etdi.",
+      "gloss_en": "The neighboring lake's water level that day came to {D} centimetres.",
+      "entity_note": "belongs to a different, neighboring lake, not the lake in the question"
+    },
+    {
+      "story_id": 4,
+      "distractor_fact": "Osmonda o'sha paytda uchgan boshqa uchar apparat {D} metr balandlikda edi.",
+      "gloss_en": "Another aircraft flying in the sky at that time was at an altitude of {D} metres.",
+      "entity_note": "belongs to a different aircraft in the sky, not the one whose altitude is compared"
+    },
+    {
+      "story_id": 5,
+      "distractor_fact": "Navbatdagi bemorning vazni {D} kilogrammni tashkil etdi.",
+      "gloss_en": "The next patient's weight came to {D} kilograms.",
+      "entity_note": "belongs to a different patient, not the one whose weight change is asked about"
+    },
+    {
+      "story_id": 6,
+      "distractor_fact": "Qo'shni qishloqning aholisi o'sha yili {D} kishini tashkil etdi.",
+      "gloss_en": "The neighboring village's population that year came to {D} people.",
+      "entity_note": "belongs to a different, neighboring village, not the village in the question"
+    },
+    {
+      "story_id": 7,
+      "distractor_fact": "Yo'ldagi boshqa mashinaning tezligi o'sha paytda {D} km/soat edi.",
+      "gloss_en": "Another car on the road had a speed of {D} km/h at that moment.",
+      "entity_note": "belongs to a different car on the road, not the one whose speed is compared"
+    },
+    {
+      "story_id": 8,
+      "distractor_fact": "Boshqa mijozning hisobidagi joriy qoldiq {D} dollarni tashkil etdi.",
+      "gloss_en": "Another customer's account currently held a balance of {D} dollars.",
+      "entity_note": "belongs to a different customer's account, not the account whose balance is computed"
+    },
+    {
+      "story_id": 9,
+      "distractor_fact": "Boshqa bo'limning shu oydagi xarajati {D} dollarni tashkil etdi.",
+      "gloss_en": "Another department's expense that month came to {D} dollars.",
+      "entity_note": "belongs to a different department, not the one whose income and expenses are compared"
+    },
+    {
+      "story_id": 10,
+      "distractor_fact": "Boshqa jamoa o'sha mavsumda {D} ta gol urdi.",
+      "gloss_en": "Another team scored {D} goals that season.",
+      "entity_note": "belongs to a different team's season tally, not the team in the question"
+    },
+    {
+      "story_id": 13,
+      "distractor_fact": "Boshqa maydonda o'ynagan golfchi bu turda {D} ta zarba bilan yakunladi.",
+      "gloss_en": "A golfer who played on a different course finished this round with {D} strokes.",
+      "entity_note": "belongs to a different golfer on a different course whose par is not stated, so the story's own par cannot be applied to it"
+    },
+    {
+      "story_id": 14,
+      "distractor_fact": "Boshqa yo'nalishdagi poyezd o'sha kuni yarim tundan keyingi {D}-daqiqada bekatga keldi.",
+      "gloss_en": "A train on a different route arrived at the station that day at minute {D} after midnight.",
+      "entity_note": "belongs to a different train on a different route with its own unstated timetable, not the train and schedule in the question"
+    },
+    {
+      "story_id": 17,
+      "distractor_fact": "Uchinchi jamoa o'sha kuni boshqa o'yinda {D} ta gol urdi.",
+      "gloss_en": "A third team scored {D} goals in a different match that day.",
+      "entity_note": "belongs to a third team in a different match, not either of the two teams the question compares"
+    }
+  ]
+}

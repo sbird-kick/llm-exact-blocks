@@ -1,0 +1,126 @@
+{
+  "language_code": "ha",
+  "refused": [],
+  "items": [
+    {
+      "story_id": 1,
+      "distractor_fact": "A wannan safiyar, tashar sa ido kan yanayi ta garin Bauchi kuma ta rubuta zafin iska a matsayin digiri {D}°C.",
+      "gloss_en": "That same morning, the weather station in the town of Bauchi also recorded an air temperature of {D}°C. The °C symbol follows the number directly like a suffix and never changes for any integer.",
+      "entity_note": "A different weather station, in a different town (Bauchi), from the one in the story."
+    },
+    {
+      "story_id": 2,
+      "distractor_fact": "A wannan rana, kasuwar garin Kano ta sayar da hatsi akan farashin $ {D}.",
+      "gloss_en": "That same day, the grain market in the town of Kano sold grain at a price of ${D}. The $ symbol precedes the number and never inflects.",
+      "entity_note": "A different, named market (Kano) than the unnamed market in the story."
+    },
+    {
+      "story_id": 3,
+      "distractor_fact": "A wannan rana, Kogin Hadejia ya kai matakin ruwa na mita {D}.",
+      "gloss_en": "That same day, the Hadejia River reached a water level of {D} metres. 'mita' follows the number as an invariant unit noun.",
+      "entity_note": "A different river (Hadejia) from the river in the story."
+    },
+    {
+      "story_id": 4,
+      "distractor_fact": "A lokaci guda, wani jirgin drone daban ya kai tsayin mita {D} bisa matakin ƙasa.",
+      "gloss_en": "At the same moment, a different drone reached an altitude of {D} metres above ground level. 'mita' is invariant after any number.",
+      "entity_note": "A different drone (a separate instrument) from the drone in the story, not a second reading of the same drone."
+    },
+    {
+      "story_id": 5,
+      "distractor_fact": "A ranar nan, wani kunshin kaya daban ya kai nauyin kilogiram {D} a tashar isarwa.",
+      "gloss_en": "On that day, a different parcel weighed {D} kilograms at the delivery point. 'kilogiram' is an invariant unit noun after any number.",
+      "entity_note": "A different parcel from the one being tracked in the story."
+    },
+    {
+      "story_id": 6,
+      "distractor_fact": "A wannan shekara, yawan mutanen ƙauyen makwabta ya kai mutum {D}.",
+      "gloss_en": "This year, the population of the neighbouring village reached {D} people. 'mutum' stays invariant as the human-count measure word after any number.",
+      "entity_note": "A different, neighbouring village, not the village whose population is being compared."
+    },
+    {
+      "story_id": 7,
+      "distractor_fact": "A lokaci guda, wata mota daban ta yi gudu na kilomita/awa {D} a wata hanya dabam.",
+      "gloss_en": "At the same time, a different car was travelling at {D} km/h on a different road. 'kilomita/awa' is invariant after any number.",
+      "entity_note": "A different car on a different road, not the car whose speed is measured by the radar in the story."
+    },
+    {
+      "story_id": 8,
+      "distractor_fact": "A wannan rana, wani ɗalibi daban yana da $ {D} a hannunsa kafin tafiyarsa.",
+      "gloss_en": "That day, a different student had ${D} on hand before his trip. $ precedes the number and never inflects.",
+      "entity_note": "A different student from the one in the story."
+    },
+    {
+      "story_id": 9,
+      "distractor_fact": "A wannan wata, wani mai asusun banki daban ya ajiye € {D} a asusunsa.",
+      "gloss_en": "This month, a different bank account holder deposited €{D} into their account. € precedes the number and never inflects.",
+      "entity_note": "A different account holder from the one in the story."
+    },
+    {
+      "story_id": 10,
+      "distractor_fact": "A wannan wata, wani ɗan kasuwa daban ya samu kuɗin shiga na $ {D}.",
+      "gloss_en": "This month, a different trader earned income of ${D}. $ precedes the number and never inflects.",
+      "entity_note": "A different trader from the one in the story."
+    },
+    {
+      "story_id": 11,
+      "distractor_fact": "A wannan kakar wasa, wata ƙungiya dabam ta zura ƙwallo {D} a raga abokan hamayyarta.",
+      "gloss_en": "This season, a different team scored {D} goals against its opponents. 'ƙwallo' stays invariant as the goal-count measure word after any number.",
+      "entity_note": "A different team from the one whose goal difference the story computes."
+    },
+    {
+      "story_id": 12,
+      "distractor_fact": "Wata masana'anta dabam kuma ta samar da tan {D} na kayayyaki a wannan wata, ko da yake ba a ambáci wani burin samarwa da aka sa mata gaba ba.",
+      "gloss_en": "A different factory also produced {D} tonnes of goods this month, although no production target set for it was mentioned. 'tan' is invariant after any number.",
+      "entity_note": "A different factory whose own, unstated target does not apply to the target named in the story (shared-reference domain, rule 6)."
+    },
+    {
+      "story_id": 13,
+      "distractor_fact": "Wani shago dabam ya sayar da kaya kan darajar $ {D} a wannan wata, ba tare da an ambáci wani burin sayarwa da aka sa masa gaba ba.",
+      "gloss_en": "A different shop sold goods worth ${D} this month, without any sales target set for it being mentioned. $ precedes the number and never inflects.",
+      "entity_note": "A different shop whose own, unstated sales target does not apply to the target named in the story (shared-reference domain, rule 6)."
+    },
+    {
+      "story_id": 14,
+      "distractor_fact": "Wani gari dabam ya samu ruwan sama na millimita {D} a wannan wata, ba tare da an ambáci wani hasashen yanayi da aka yi masa ba.",
+      "gloss_en": "A different town received {D} millimetres of rainfall this month, without any weather forecast made for it being mentioned. 'millimita' is invariant after any number.",
+      "entity_note": "A different town whose own, unstated forecast does not apply to the forecast named in the story (shared-reference domain, rule 6)."
+    },
+    {
+      "story_id": 15,
+      "distractor_fact": "Wani ɗan wasan golf daban ya kammala wani fili na golf dabam da bugu {D}, ba tare da an ambáci daidaiton filin (par) nasa ba.",
+      "gloss_en": "A different golfer finished a different golf course with {D} strokes, without that course's own par being mentioned. 'bugu' stays invariant after any number.",
+      "entity_note": "A different golfer on a different course whose own, unstated par does not apply to the par named in the story (shared-reference domain, rule 6)."
+    },
+    {
+      "story_id": 16,
+      "distractor_fact": "Wani jirgin ʔan kasuwa daban, mai layin dogo dabam, ya isa tashar a minti {D} bisa lissafin agogo, ba tare da an ambáci jadawalinsa ba.",
+      "gloss_en": "A different freight train, on a different rail line, arrived at the station at minute {D} on the clock, without its own timetable being mentioned. 'minti' is invariant after any number.",
+      "entity_note": "A different train on a different line whose own, unstated timetable does not apply to the schedule named in the story (shared-reference domain, rule 6)."
+    },
+    {
+      "story_id": 17,
+      "distractor_fact": "A wata gasa dabam, Ƙungiyar Fuloti ta zura ƙwallo {D}.",
+      "gloss_en": "In a different competition, Team Fuloti scored {D} goals. 'ƙwallo' stays invariant after any number.",
+      "entity_note": "A different team in a different competition from the two teams compared in the story."
+    },
+    {
+      "story_id": 18,
+      "distractor_fact": "A wata gasar gudu dabam, Dan wasa Kura ya kai nisan mita {D} daga layin farawa.",
+      "gloss_en": "In a different race, Runner Hyena reached {D} metres from the start line. 'mita' is invariant after any number.",
+      "entity_note": "A different runner in a different race from the two runners compared in the story."
+    },
+    {
+      "story_id": 19,
+      "distractor_fact": "A ranar nan, garin Kaduna yana da zafin iska na digiri {D}°C.",
+      "gloss_en": "That day, the town of Kaduna had an air temperature of {D}°C. The °C symbol follows the number and never inflects.",
+      "entity_note": "A third town, different from the two towns being compared in the story."
+    },
+    {
+      "story_id": 20,
+      "distractor_fact": "Hasumiyar Tsakiya tana da tsayin mita {D}.",
+      "gloss_en": "Central Tower is {D} metres tall. 'mita' is invariant after any number.",
+      "entity_note": "A third tower, different from the two towers being compared in the story."
+    }
+  ]
+}

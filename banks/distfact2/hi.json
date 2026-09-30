@@ -1,0 +1,96 @@
+{
+  "language_code": "hi",
+  "refused": [],
+  "items": [
+    {
+      "story_id": 1,
+      "distractor_fact": "किसी निजी मौसम यंत्र ने उसी दिन तापमान {D}°C दर्ज किया।",
+      "gloss_en": "A private weather instrument recorded the temperature as D°C that same day.",
+      "entity_note": "owner is a private weather INSTRUMENT, not the first distractor's different CITY (a place)"
+    },
+    {
+      "story_id": 2,
+      "distractor_fact": "किसी अन्य स्टॉक एक्सचेंज पर उसी दिन एक भिन्न शेयर की कीमत ₹{D} थी।",
+      "gloss_en": "On a different stock exchange, another share's price that day was ₹D.",
+      "entity_note": "owner is a different stock exchange, a PLACE, not the first distractor's different COMPANY (an organisation)"
+    },
+    {
+      "story_id": 3,
+      "distractor_fact": "उसी नदी पर लगे किसी दूसरे जल-मापक यंत्र ने उसी शाम जलस्तर {D} मीटर दर्ज किया।",
+      "gloss_en": "A different water-level gauge installed on the same river recorded the water level as D metres that same evening.",
+      "entity_note": "owner is a different gauge, an INSTRUMENT, not the first distractor's different RESERVOIR (a place)"
+    },
+    {
+      "story_id": 4,
+      "distractor_fact": "किसी अन्य निर्माण स्थल पर उसी समय की गई ड्रोन उड़ान में ऊंचाई {D} मीटर मापी गई।",
+      "gloss_en": "At a different construction site, a drone flight conducted at the same time measured an altitude of D metres.",
+      "entity_note": "owner is a different construction SITE (a place), not the first distractor's different DRONE (an instrument)"
+    },
+    {
+      "story_id": 5,
+      "distractor_fact": "किसी अन्य गोदाम से भेजे गए माल का वज़न उसी दिन {D} किलोग्राम था।",
+      "gloss_en": "Goods dispatched from a different warehouse had a weight of D kilograms that same day.",
+      "entity_note": "owner is a different WAREHOUSE (an organisation), not the first distractor's different PACKAGE (an object/instrument)"
+    },
+    {
+      "story_id": 6,
+      "distractor_fact": "इसी जनगणना में किसी अन्य पंचायत की जनसंख्या {D} थी।",
+      "gloss_en": "In the same census, a different panchayat's population was D.",
+      "entity_note": "owner is a different local ORGANISATION (panchayat), not the first distractor's different VILLAGE (a place)"
+    },
+    {
+      "story_id": 7,
+      "distractor_fact": "नगर निगम के जल विभाग ने शहर के दूसरे हिस्से में जलस्तर {D} सेंटीमीटर मापा, जहां अपनी अलग दत्त रेखा तय है।",
+      "gloss_en": "The municipal water department measured the water level in another part of town as D centimetres, where its own separate reference line is set.",
+      "entity_note": "owner is the municipal water department, an ORGANISATION with its own unstated reference line, not the first distractor's different GAUGE (an instrument)"
+    },
+    {
+      "story_id": 9,
+      "distractor_fact": "किसी अन्य ग्राहक ने इसी महीने अपने खाते में ₹{D} जमा किए।",
+      "gloss_en": "A different customer deposited ₹D into their account this same month.",
+      "entity_note": "owner is a different individual CUSTOMER (a person), not the first distractor's different ACCOUNT (an object/instrument)"
+    },
+    {
+      "story_id": 11,
+      "distractor_fact": "इस सीज़न लीग के किसी अन्य खिलाड़ी ने व्यक्तिगत रूप से {D} गोल किए।",
+      "gloss_en": "A different player in the league individually scored D goals this season.",
+      "entity_note": "owner is an individual PLAYER (a person), not the first distractor's different TEAM (an organisation)"
+    },
+    {
+      "story_id": 12,
+      "distractor_fact": "किसी ब्रोकरेज फर्म को इसी महीने सौदों से ₹{D} का फायदा हुआ।",
+      "gloss_en": "A brokerage firm made a gain of ₹D from deals this same month.",
+      "entity_note": "owner is a brokerage FIRM (an organisation), not the first distractor's different TRADER (a person)"
+    },
+    {
+      "story_id": 13,
+      "distractor_fact": "उसी कंपनी की एक अन्य उत्पादन लाइन ने इस हफ्ते {D} इकाई उत्पादन किया, जिसका अपना अलग लक्ष्य तय है।",
+      "gloss_en": "Another production line of the same company produced D units this week, which has its own separate target set.",
+      "entity_note": "owner is a different production LINE (an instrument/process) with its own unstated target, not the first distractor's different FACTORY (an organisation)"
+    },
+    {
+      "story_id": 14,
+      "distractor_fact": "एक अलग मौसम एजेंसी ने इसी मानसून के लिए अपना अलग पूर्वानुमान {D} मिलीमीटर दिया था।",
+      "gloss_en": "A different weather agency had given its own separate forecast of D millimetres for this same monsoon.",
+      "entity_note": "owner is a different weather AGENCY (an organisation) with its own unstated forecast, not the first distractor's different DISTRICT (a place)"
+    },
+    {
+      "story_id": 15,
+      "distractor_fact": "किसी अन्य गोल्फ क्लब ने अपने सदस्यों के लिए इस हफ्ते पार {D} स्ट्रोक तय किया है।",
+      "gloss_en": "A different golf club has set a par of D strokes for its members this week.",
+      "entity_note": "owner is a different golf CLUB (an organisation) with its own unstated par, not the first distractor's different PLAYER on a different COURSE (a person/place)"
+    },
+    {
+      "story_id": 16,
+      "distractor_fact": "किसी अन्य रेलवे ज़ोन की एक ट्रेन का निर्धारित आगमन समय आधी रात से {D} मिनट बाद है, जिसकी अपनी अलग समय-सारिणी है।",
+      "gloss_en": "A train of a different railway zone has a scheduled arrival time of D minutes after midnight, on its own separate timetable.",
+      "entity_note": "owner is a different railway ZONE (an organisation) with its own separate timetable, not the first distractor's different TRAIN (an instrument)"
+    },
+    {
+      "story_id": 17,
+      "distractor_fact": "इसी टूर्नामेंट में किसी खिलाड़ी ने व्यक्तिगत रूप से {D} गोल किए।",
+      "gloss_en": "In this same tournament, some player individually scored D goals.",
+      "entity_note": "owner is an individual PLAYER (a person), not the first distractor's different MATCH and TEAM (a series/organisation)"
+    }
+  ]
+}

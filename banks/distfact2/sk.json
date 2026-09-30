@@ -1,0 +1,78 @@
+{
+  "language_code": "sk",
+  "refused": [],
+  "items": [
+    {
+      "story_id": 1,
+      "distractor_fact": "Iný teplomer na tej istej budove v ten istý deň ukazoval {D} °C.",
+      "gloss_en": "A different thermometer on the same building showed {D} °C on that same day.",
+      "entity_note": "Owner is a measuring instrument (thermometer), not the city (place) used by the first distractor."
+    },
+    {
+      "story_id": 2,
+      "distractor_fact": "Podielový list iného investičného fondu sa v ten istý deň obchodoval za {D} €.",
+      "gloss_en": "A unit of a different investment fund traded at €{D} on that same day.",
+      "entity_note": "Owner is a financial instrument (a fund's unit), not another company (organisation) used by the first distractor."
+    },
+    {
+      "story_id": 3,
+      "distractor_fact": "Vodomerná stanica pri inej priehrade namerala v ten istý deň hladinu {D} m.",
+      "gloss_en": "A gauge station at a different reservoir recorded a level of {D} m on that same day.",
+      "entity_note": "Owner is a measuring instrument/station at a reservoir, not a neighboring lake (place) used by the first distractor."
+    },
+    {
+      "story_id": 4,
+      "distractor_fact": "Iný klient tejto banky mal tento mesiac na svojom účte vklad vo výške {D} €.",
+      "gloss_en": "A different client of this bank had a deposit of €{D} in their own account this month.",
+      "entity_note": "Owner is a person (a bank client), not another account (instrument) used by the first distractor."
+    },
+    {
+      "story_id": 5,
+      "distractor_fact": "Iná osoba dostala tento mesiac darčekovú poukážku v hodnote {D} €.",
+      "gloss_en": "A different person received a gift voucher worth €{D} this month.",
+      "entity_note": "Owner is a person, not another gift card (instrument) used by the first distractor."
+    },
+    {
+      "story_id": 6,
+      "distractor_fact": "Firemný dátový tarif v tej istej sieti mal mesačný limit {D} GB.",
+      "gloss_en": "A corporate data plan on the same network had a monthly limit of {D} GB.",
+      "entity_note": "Owner is an organisation's plan (corporate tariff), not another SIM card (instrument) used by the first distractor."
+    },
+    {
+      "story_id": 7,
+      "distractor_fact": "V susednej obci zaznamenali tento mesiac celkové výdavky domácností vo výške {D} €.",
+      "gloss_en": "In a neighboring municipality, total household expenses this month came to €{D}.",
+      "entity_note": "Owner is a place (a municipality), not another household (person/family unit) used by the first distractor."
+    },
+    {
+      "story_id": 8,
+      "distractor_fact": "Hodnota gólov, ktoré v tejto sezóne strelil najlepší strelec ligy, bola {D}.",
+      "gloss_en": "The number of goals scored this season by the league's top scorer was {D}.",
+      "entity_note": "Owner is a person (an individual player), not another team (organisation) used by the first distractor; the bare 'hodnota X bola {D}' frame keeps the number invariant since no noun follows it."
+    },
+    {
+      "story_id": 9,
+      "distractor_fact": "Hodnota zisku, ktorý v tomto kvartáli dosiahol iný živnostník v tom istom meste, bola {D} €.",
+      "gloss_en": "The profit that a different sole trader in the same city made this quarter amounted to €{D}.",
+      "entity_note": "Owner is a person (a sole trader), not another small business (organisation) used by the first distractor."
+    },
+    {
+      "story_id": 15,
+      "distractor_fact": "Susedná stanica nahlásila pre iný spoj čas príchodu {D} min v ten istý deň.",
+      "gloss_en": "A neighboring station reported an arrival time of {D} min for a different service on that same day.",
+      "entity_note": "Owner is a place (a station), not a train on a different line (vehicle/instrument) used by the first distractor; that other service's own schedule is not stated, so it cannot substitute for this train's schedule."
+    },
+    {
+      "story_id": 16,
+      "distractor_fact": "Výťahová spoločnosť nahlásila pre iný objekt, ktorého prízemie nie je stanovené, hodnotu podlažia {D}.",
+      "gloss_en": "The elevator service company reported a floor value of {D} for a different site whose ground floor is not specified.",
+      "entity_note": "Owner is an organisation (a service company reporting on another site), not another building (place) used by the first distractor; that site's own ground-floor reference is unstated, so it cannot substitute for this building's ground floor."
+    },
+    {
+      "story_id": 17,
+      "distractor_fact": "Hodnota gólov, ktoré v tomto kole súťaže strelil najlepší strelec, bola {D}.",
+      "gloss_en": "The number of goals scored in this round of the competition by the top scorer was {D}.",
+      "entity_note": "Owner is a person (an individual player), not another team in a different match (organisation) used by the first distractor; the bare 'hodnota X bola {D}' frame keeps the number invariant."
+    }
+  ]
+}

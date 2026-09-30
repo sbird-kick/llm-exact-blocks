@@ -1,0 +1,126 @@
+{
+ "language_code": "ur",
+ "refused": [],
+ "items": [
+  {
+   "story_id": 1,
+   "distractor_fact": "ایک دوسرے شہر میں اسی صبح درجہ حرارت {D} °C ریکارڈ ہوا۔",
+   "gloss_en": "In another city, that same morning, the temperature was recorded at {D} °C.",
+   "entity_note": "a different city's weather-station reading; °C symbol follows the number and does not change form for any integer."
+  },
+  {
+   "story_id": 2,
+   "distractor_fact": "پڑوس کی ایک دکان میں ایسی ہی شئے کی قیمت $ {D} تھی۔",
+   "gloss_en": "In a neighboring shop, the price of a similar item was $ {D}.",
+   "entity_note": "a different shop's price for a similar item; $ precedes the number, matching the story's own convention, invariant for any integer."
+  },
+  {
+   "story_id": 3,
+   "distractor_fact": "ایک دوسرے ڈیم میں پانی کی سطح اسی دن {D} میٹر تھی۔",
+   "gloss_en": "In another dam, the water level that same day was {D} meters.",
+   "entity_note": "a different dam's water level; میٹر follows the number and is invariant for any integer."
+  },
+  {
+   "story_id": 4,
+   "distractor_fact": "ایک دوسرے طیارے کی بلندی اس وقت {D} میٹر تھی۔",
+   "gloss_en": "Another airplane's altitude at that time was {D} meters.",
+   "entity_note": "a different airplane's altitude; میٹر follows the number, invariant."
+  },
+  {
+   "story_id": 5,
+   "distractor_fact": "ایک دوسرے پیکٹ کا وزن اس وقت {D} کلوگرام تھا۔",
+   "gloss_en": "Another package's weight at that time was {D} kilograms.",
+   "entity_note": "a different package's weight; کلوگرام follows the number, invariant."
+  },
+  {
+   "story_id": 6,
+   "distractor_fact": "ایک دوسرے شخص نے اپنے سفر پر $ {D} خرچ کیے۔",
+   "gloss_en": "A different person spent $ {D} on their trip.",
+   "entity_note": "a different person's trip spending; $ precedes the number, invariant."
+  },
+  {
+   "story_id": 7,
+   "distractor_fact": "ایک دوسرے بینک اکاؤنٹ میں {D} ڈالر جمع کروائے گئے۔",
+   "gloss_en": "{D} dollars were deposited into a different bank account.",
+   "entity_note": "a different bank account's deposit; ڈالر follows the number, invariant."
+  },
+  {
+   "story_id": 8,
+   "distractor_fact": "ایک دوسرے خاندان کی ماہانہ آمدنی {D} ڈالر تھی۔",
+   "gloss_en": "A different family's monthly income was {D} dollars.",
+   "entity_note": "a different family's income; ڈالر follows the number, invariant."
+  },
+  {
+   "story_id": 9,
+   "distractor_fact": "ایک دوسری ٹیم نے اسی سیزن میں {D} گول کیے۔",
+   "gloss_en": "A different team scored {D} goals in the same season.",
+   "entity_note": "a different team's goal count; گول follows the number, invariant."
+  },
+  {
+   "story_id": 10,
+   "distractor_fact": "ایک دوسرے سرمایہ کار کو اس سال $ {D} کا منافع ہوا۔",
+   "gloss_en": "A different investor made a profit of $ {D} this year.",
+   "entity_note": "a different investor's profit; $ precedes the number, invariant."
+  },
+  {
+   "story_id": 11,
+   "distractor_fact": "ایک دوسری فیکٹری نے اسی مہینے دراصل {D} یونٹ تیار کیے۔",
+   "gloss_en": "A different factory actually produced {D} units that same month.",
+   "entity_note": "a different factory's own production, whose own target is never stated; یونٹ follows the number, invariant."
+  },
+  {
+   "story_id": 12,
+   "distractor_fact": "ایک دوسری کمپنی کی اسی ماہ کی اصل فروخت $ {D} رہی۔",
+   "gloss_en": "A different company's actual sales that same month were $ {D}.",
+   "entity_note": "a different company's own sales, whose own target is never stated; $ precedes the number, invariant."
+  },
+  {
+   "story_id": 13,
+   "distractor_fact": "ایک دوسرے علاقے میں اسی دن اصل بارش {D} ملی میٹر ریکارڈ ہوئی۔",
+   "gloss_en": "In a different region, actual rainfall that same day was recorded at {D} millimeters.",
+   "entity_note": "a different region's own rainfall, whose own forecast is never stated; ملی میٹر follows the number, invariant."
+  },
+  {
+   "story_id": 14,
+   "distractor_fact": "ایک دوسرے گالفر نے ایک مختلف کورس پر {D} سٹروک کھیلے۔",
+   "gloss_en": "A different golfer played {D} strokes on a different course.",
+   "entity_note": "a different golfer on a different course, whose par is never stated; سٹروک follows the number, invariant."
+  },
+  {
+   "story_id": 15,
+   "distractor_fact": "ایک دوسری ٹرین نے ایک مختلف لائن پر روانگی کے {D} منٹ بعد اپنی منزل پر پہنچی۔",
+   "gloss_en": "A different train, on a different line, arrived at its destination {D} minutes after departure.",
+   "entity_note": "a different train on a different line, whose own schedule is never stated; منٹ follows the number, invariant."
+  },
+  {
+   "story_id": 16,
+   "distractor_fact": "ایک دوسری عمارت میں ایک دفتر فلور نمبر {D} پر واقع ہے۔",
+   "gloss_en": "In a different building, an office is located on floor number {D}.",
+   "entity_note": "a different building's office floor, whose own lobby/reference floor is never stated; the numeral is a bare floor label, invariant."
+  },
+  {
+   "story_id": 17,
+   "distractor_fact": "ایک دوسرے میچ میں ٹیم ج نے {D} گول کیے۔",
+   "gloss_en": "In a different match, team Jim scored {D} goals.",
+   "entity_note": "a third team, named separately from Alif/Bay, in a different match; گول follows the number, invariant."
+  },
+  {
+   "story_id": 18,
+   "distractor_fact": "شہر سے باہر واقع مینار ج کی اونچائی {D} میٹر ہے۔",
+   "gloss_en": "Tower Jim, located outside the city, is {D} meters tall.",
+   "entity_note": "a third tower, named separately from Alif/Bay, in a different location; میٹر follows the number, invariant."
+  },
+  {
+   "story_id": 19,
+   "distractor_fact": "ایک دوسرے کھیل میں کھلاڑی ج نے {D} پوائنٹس حاصل کیے۔",
+   "gloss_en": "In a different game, player Jim scored {D} points.",
+   "entity_note": "a third player, named separately from Alif/Bay, in a different game; پوائنٹس follows the number, invariant."
+  },
+  {
+   "story_id": 20,
+   "distractor_fact": "شہر ج کا درجہ حرارت اس وقت {D} °C ہے۔",
+   "gloss_en": "City Jim's temperature at that time is {D} °C.",
+   "entity_note": "a third city, named separately from Alif/Bay; °C follows the number, invariant."
+  }
+ ]
+}

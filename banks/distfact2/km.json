@@ -1,0 +1,78 @@
+{
+  "language_code": "km",
+  "refused": [],
+  "items": [
+    {
+      "story_id": 1,
+      "distractor_fact": "នៅផ្ទះមួយជិតច្បារ អ្នកជិតខាងម្នាក់បានកត់ត្រាសីតុណ្ហភាពក្នុងផ្ទះខ្លួនបានកម្រិត {D} អង្សាសេ ក្នុងព្រឹកដដែល។",
+      "gloss_en": "At a house near the garden, a neighbor recorded the temperature inside their own home as {D}°C that same morning.",
+      "entity_note": "a different person (a neighbor recording their own home's temperature), not an instrument at a different place as the first distractor was."
+    },
+    {
+      "story_id": 2,
+      "distractor_fact": "វិនិយោគិនម្នាក់ទៀតបានទិញភាគហ៊ុនរបស់ក្រុមហ៊ុនមួយផ្សេងទៀតក្នុងតម្លៃ {D} ដុល្លារ ក្នុងថ្ងៃដដែល។",
+      "gloss_en": "A different investor bought shares of another company for {D} dollars that same day.",
+      "entity_note": "a different person (an individual investor), not another company, as the owner of the third quantity."
+    },
+    {
+      "story_id": 3,
+      "distractor_fact": "កសិករម្នាក់ដែលរស់នៅជិតទំនប់មួយផ្សេង បានវាស់ឃើញកម្រិតទឹកក្នុងស្តុកទឹករបស់ខ្លួនផ្ទាល់បាន {D} ម៉ែត្រ ក្នុងថ្ងៃដដែល។",
+      "gloss_en": "A farmer living near a different dam measured the water level in his own private storage pond as {D} meters that same day.",
+      "entity_note": "a different person (a farmer's own private pond), not another reservoir as a place."
+    },
+    {
+      "story_id": 4,
+      "distractor_fact": "អ្នកឡើងភ្នំម្នាក់ពាក់នាឡិកាវាស់កម្ពស់ផ្ទាល់ខ្លួន ហើយបានឃើញលេខបង្ហាញកម្ពស់ {D} ម៉ែត្រពីដី ក្នុងពេលដដែល។",
+      "gloss_en": "A hiker wearing his own personal altimeter watch saw a reading of {D} meters above the ground at the same time.",
+      "entity_note": "a different person (a hiker with a personal altimeter), not another drone as an object."
+    },
+    {
+      "story_id": 5,
+      "distractor_fact": "អ្នកដឹកជញ្ជូនម្នាក់កំពុងកាន់កញ្ចប់មួយផ្សេងទៀតដោយផ្ទាល់ដៃ ហើយបានថ្លឹងឃើញទម្ងន់ {D} គីឡូក្រាម ក្នុងពេលដដែល។",
+      "gloss_en": "A courier personally carrying a different package weighed it at {D} kilograms at the same time.",
+      "entity_note": "a different person (a courier), not another package sitting in the warehouse."
+    },
+    {
+      "story_id": 6,
+      "distractor_fact": "ក្រុមហ៊ុនមួយនៅតំបន់ជិតខាងមានចំនួនកម្មករចំនួន {D} នាក់ ក្នុងឆ្នាំដដែល។",
+      "gloss_en": "A company in a nearby area had a workforce of {D} people that same year.",
+      "entity_note": "a different kind of owner (a company/organisation), not another village as a place."
+    },
+    {
+      "story_id": 7,
+      "distractor_fact": "អ្នកជិះកង់ម្នាក់បានជិះកង់ដោយល្បឿន {D} គីឡូម៉ែត្រក្នុងមួយម៉ោង នៅផ្លូវកោងតែមួយ។",
+      "gloss_en": "A cyclist was riding at {D} km/h on the same curve.",
+      "entity_note": "a different person (a cyclist), not another car as a vehicle."
+    },
+    {
+      "story_id": 9,
+      "distractor_fact": "គណនីធនាគាររបស់អាជីវកម្មតូចមួយបានទទួលការដាក់ប្រាក់សរុបចំនួន {D} ដុល្លារ ក្នុងខែដដែល។",
+      "gloss_en": "A small business's bank account received total deposits of {D} dollars that same month.",
+      "entity_note": "a different kind of owner (a business/organisation), not another individual person's account."
+    },
+    {
+      "story_id": 10,
+      "distractor_fact": "អ្នកលក់ដូរតាមផ្លូវម្នាក់មានចំណូលសរុបចំនួន {D} ដុល្លារ ក្នុងខែដដែល។",
+      "gloss_en": "A street vendor had total income of {D} dollars that same month.",
+      "entity_note": "a different person (an individual street vendor), not another shop as an organisation."
+    },
+    {
+      "story_id": 12,
+      "distractor_fact": "មូលនិធិវិនិយោគមួយបានទទួលប្រាក់ចំណេញសរុបចំនួន {D} ដុល្លារ ក្នុងឆ្នាំដដែល។",
+      "gloss_en": "An investment fund earned total gains of {D} dollars that same year.",
+      "entity_note": "a different kind of owner (an institutional investment fund), not another individual investor's portfolio."
+    },
+    {
+      "story_id": 17,
+      "distractor_fact": "អ្នកបញ្ជូនកញ្ចប់ម្នាក់បានបញ្ជូនកញ្ចប់មួយឲ្យទៅដល់ទីតាំងជាក់ស្តែងនៅពេលស្មើនឹង {D} គិតជានាទី ដោយផ្អែកលើកាលវិភាគផ្ទាល់ខ្លួនរបស់គាត់។",
+      "gloss_en": "A courier delivered a package, actually arriving at a time equal to {D} minutes, going by his own separate delivery schedule.",
+      "entity_note": "a different person (a courier with his own schedule), not another train on a different line."
+    },
+    {
+      "story_id": 18,
+      "distractor_fact": "ក្រុមហ៊ុនមួយផ្សេងទៀតមានការិយាល័យសាខានៅជាន់ដែលមានលេខរៀងស្មើនឹង {D} រាប់ពីជាន់សំរេចផ្ទាល់ខ្លួនរបស់ខ្លួន។",
+      "gloss_en": "A different company has a branch office on a floor whose number equals {D}, counting from that company's own reference floor.",
+      "entity_note": "a different kind of owner (a company's own numbering system), not another building as a place."
+    }
+  ]
+}

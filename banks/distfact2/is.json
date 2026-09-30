@@ -1,0 +1,84 @@
+{
+  "language_code": "is",
+  "refused": [],
+  "items": [
+    {
+      "story_id": 1,
+      "distractor_fact": "Samkvæmt spá Veðurstofunnar frá sama degi í fyrra átti hitinn að mælast {D}°C.",
+      "gloss_en": "According to the national Weather Office's forecast for the same day a year earlier, the temperature was predicted to measure {D}°C.",
+      "entity_note": "The national weather office's year-old forecast archive is a SERIES-type owner (a predicted record, not a measurement), unlike the first sentence's neighboring weather station, a PLACE-type owner."
+    },
+    {
+      "story_id": 2,
+      "distractor_fact": "Einkafjárfestir átti á sama tíma hlutabréf í öðru fyrirtæki að verðmæti ${D}.",
+      "gloss_en": "A private investor simultaneously held shares in another company worth ${D}.",
+      "entity_note": "A private investor's personal holding is a PERSON-type owner, unlike the first sentence's other listed company on the same market, an organisation/INSTRUMENT-type owner."
+    },
+    {
+      "story_id": 3,
+      "distractor_fact": "Annar vatnshæðarmælir, sem fylgist með affallsskurði svæðisins, mældi vatnsborð upp á {D}m sama mánuð.",
+      "gloss_en": "Another water-level gauge, monitoring the area's drainage canal, measured a water level of {D} m that same month.",
+      "entity_note": "A separate measuring instrument on an unrelated drainage canal is an INSTRUMENT-type owner, unlike the first sentence's neighboring reservoir, a PLACE-type owner."
+    },
+    {
+      "story_id": 4,
+      "distractor_fact": "Fjallgöngumaður í sama leiðangri var staddur í {D}m hæð á sama tíma samkvæmt eigin GPS-tæki.",
+      "gloss_en": "A mountaineer in the same expedition was at an altitude of {D} m at the same time, according to his own GPS device.",
+      "entity_note": "A climber's personal GPS reading is a PERSON-type owner, unlike the first sentence's other drone, an INSTRUMENT-type owner."
+    },
+    {
+      "story_id": 5,
+      "distractor_fact": "Annar viðskiptavinur sendi þennan sama dag pakka sem vó {D}kg.",
+      "gloss_en": "Another customer sent, on this same day, a package that weighed {D} kg.",
+      "entity_note": "A different customer's unrelated parcel is a PERSON-type owner, unlike the first sentence's other package in the same shipment, a same-kind ENTITY owner."
+    },
+    {
+      "story_id": 6,
+      "distractor_fact": "Í vörulistanum frá því í fyrra var uppgefinn hámarkshraði annarrar vélargerðar {D}km/klst.",
+      "gloss_en": "In last year's catalog, the top speed listed for a different engine model was {D} km/h.",
+      "entity_note": "A catalog entry from a different year's product line is a SERIES-type owner, unlike the first sentence's other engine in the same factory, an INSTRUMENT-type owner."
+    },
+    {
+      "story_id": 7,
+      "distractor_fact": "Í annarri lotu sama móts náði keppinautaliðið samtals {D}pts.",
+      "gloss_en": "In another round of the same tournament, the opposing team reached a total of {D} pts.",
+      "entity_note": "A rival team's total from a different round of the tournament is a SERIES-type owner, unlike the first sentence's teammate, a PERSON-type owner."
+    },
+    {
+      "story_id": 8,
+      "distractor_fact": "Í útibúi bankans í annarri borg var meðalinnstæða viðskiptavina ${D} þennan mánuð.",
+      "gloss_en": "At the bank's branch in another city, the average customer balance was ${D} that month.",
+      "entity_note": "A bank branch in another city is a PLACE-type owner, unlike the first sentence's other client at the same bank, a PERSON-type owner."
+    },
+    {
+      "story_id": 9,
+      "distractor_fact": "Í deild klúbbsins í annarri borg náði stigasafn félaga samtals {D}pts þennan mánuð.",
+      "gloss_en": "In the club's chapter in another city, members' combined points reached {D} pts that month.",
+      "entity_note": "The club's chapter in another city is a PLACE-type owner, unlike the first sentence's other member of the same club, a PERSON-type owner."
+    },
+    {
+      "story_id": 10,
+      "distractor_fact": "Birgðavörður í aðalstöðvum keðjunnar hélt utan um sérstakan lager sem nam {D}.",
+      "gloss_en": "A stock manager at the chain's headquarters kept a separate inventory amounting to {D}.",
+      "entity_note": "A named employee's personal, separate inventory is a PERSON-type owner, unlike the first sentence's other warehouse in the same chain, a PLACE-type owner."
+    },
+    {
+      "story_id": 11,
+      "distractor_fact": "Sjálfstæður söluaðili, sem starfar undir sama vörumerki, var með tekjur upp á ${D} þennan mánuð.",
+      "gloss_en": "An independent retailer operating under the same brand had income of ${D} that month.",
+      "entity_note": "An independently-run franchisee is a PERSON-type owner, unlike the first sentence's other shop in the same chain, a PLACE-type owner."
+    },
+    {
+      "story_id": 12,
+      "distractor_fact": "Besti markaskorari deildarinnar skoraði sjálfur mörk sem námu {D} á tímabilinu.",
+      "gloss_en": "The league's top individual scorer personally scored goals amounting to {D} during the season.",
+      "entity_note": "An individual player's personal tally is a PERSON-type owner, unlike the first sentence's other team in the same league, an organisation-type ENTITY owner."
+    },
+    {
+      "story_id": 16,
+      "distractor_fact": "Stöðvarvörður skráði í eigin dagbók komu annarrar, ótengdrar lestar {D}mín eftir miðnætti, en áætlun hennar var ekki gefin upp.",
+      "gloss_en": "A station attendant recorded in his own logbook the arrival of another, unrelated train at {D} min after midnight, though its schedule was not stated.",
+      "entity_note": "A station employee's personal logbook entry is a PERSON-type owner, unlike the first sentence's other train on a different route, an INSTRUMENT/ENTITY-type owner; per the shared-reference rule, its own schedule is explicitly not given."
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+{
+ "language_code": "bg",
+ "refused": [],
+ "items": [
+  {
+   "story_id": 1,
+   "distractor_fact": "Термометърът в съседното село отчел {D} °C същата сутрин.",
+   "gloss_en": "The thermometer in the neighboring village recorded {D} °C that same morning.",
+   "entity_note": "Different owner: another village's thermometer, not the balcony thermometer in the story; the unit symbol °C never inflects after a numeral."
+  },
+  {
+   "story_id": 2,
+   "distractor_fact": "Акциите на друга компания се търгували за {D} $ по същото време.",
+   "gloss_en": "Another company's shares were trading at {D} $ at the same time.",
+   "entity_note": "Different owner: a different company's stock, not the one in the story; the unit symbol $ never inflects after a numeral."
+  },
+  {
+   "story_id": 3,
+   "distractor_fact": "Връхната точка на съседния хребет се издига на {D} м.",
+   "gloss_en": "The peak of the neighboring ridge rises to {D} m.",
+   "entity_note": "Different place: a neighboring ridge's summit elevation, not a point on the hiker's own route; the unit symbol м never inflects after a numeral."
+  },
+  {
+   "story_id": 4,
+   "distractor_fact": "Друг спортист от лагера тежал {D} кг.",
+   "gloss_en": "Another athlete from the camp weighed {D} kg.",
+   "entity_note": "Different owner: a different athlete's weight, not the athlete in the story; the unit symbol кг never inflects after a numeral."
+  },
+  {
+   "story_id": 5,
+   "distractor_fact": "Друг клиент на банката имал {D} € в своята сметка.",
+   "gloss_en": "Another customer of the bank had {D} € in his own account.",
+   "entity_note": "Different owner: a different customer's account balance, not the client's account in the story; the unit symbol € never inflects after a numeral."
+  },
+  {
+   "story_id": 6,
+   "distractor_fact": "В друга спестовна сметка в банката били внесени {D} $ през годината.",
+   "gloss_en": "Into another savings account at the bank, {D} $ were deposited during the year.",
+   "entity_note": "Different owner: deposits into a different savings account, not the one in the story; the unit symbol $ never inflects after a numeral."
+  },
+  {
+   "story_id": 7,
+   "distractor_fact": "Друго семейство разполагало с {D} лв за своята почивка.",
+   "gloss_en": "Another family had {D} lev available for their own holiday.",
+   "entity_note": "Different owner: a different family's holiday budget, not the family in the story; the unit symbol лв never inflects after a numeral."
+  },
+  {
+   "story_id": 8,
+   "distractor_fact": "Друга фирма в същия квартал отчела приходи от {D} $ през месеца.",
+   "gloss_en": "Another company in the same neighborhood recorded revenue of {D} $ during the month.",
+   "entity_note": "Different owner: a different business's revenue, not the business in the story; the unit symbol $ never inflects after a numeral."
+  },
+  {
+   "story_id": 9,
+   "distractor_fact": "Друг отбор от лигата вкарал {D} гола през сезона.",
+   "gloss_en": "Another team in the league scored {D} goals during the season.",
+   "entity_note": "Different owner: a different team's goals scored, not the team in the story; 'гола' is the invariant Bulgarian counting form after any numeral."
+  },
+  {
+   "story_id": 10,
+   "distractor_fact": "Друг фонд управлявал портфейл, който отчел печалби от {D} $ през годината.",
+   "gloss_en": "Another fund managed a portfolio that recorded gains of {D} $ during the year.",
+   "entity_note": "Different owner: a different portfolio's gains, not the portfolio in the story; the unit symbol $ never inflects after a numeral."
+  },
+  {
+   "story_id": 11,
+   "distractor_fact": "Друг завод от същия холдинг произвел {D} бройки през месеца.",
+   "gloss_en": "Another factory in the same holding produced {D} units during the month.",
+   "entity_note": "Shared-reference domain: a different factory's own monthly output, whose own target is never stated, so it cannot be paired with the story's plan; 'бройки' is a feminine plural noun that keeps the same form after any numeral."
+  },
+  {
+   "story_id": 12,
+   "distractor_fact": "На друг метеорологичен пост паднали {D} мм валежи през същата седмица.",
+   "gloss_en": "At another weather station, {D} mm of rain fell during the same week.",
+   "entity_note": "Shared-reference domain: a different station's own rainfall reading, whose own forecast is never stated, so it cannot be paired with the story's forecast; the unit symbol мм never inflects after a numeral."
+  },
+  {
+   "story_id": 13,
+   "distractor_fact": "На съседната дупка друг играч направил {D} удара.",
+   "gloss_en": "On the neighboring hole, another player took {D} strokes.",
+   "entity_note": "Shared-reference domain: a different player on a different hole, whose own par is never stated, so it cannot be paired with the story's par; 'удара' is the invariant Bulgarian counting form after any numeral."
+  },
+  {
+   "story_id": 14,
+   "distractor_fact": "На друго игрище друг голфър направил {D} удара за цялата обиколка.",
+   "gloss_en": "On another course, another golfer took {D} strokes for the whole round.",
+   "entity_note": "Shared-reference domain: a different golfer on a different course, whose own total par is never stated, so it cannot be paired with the story's par; 'удара' is the invariant Bulgarian counting form after any numeral."
+  },
+  {
+   "story_id": 15,
+   "distractor_fact": "Друг влак по различна линия пристигнал {D} мин след тръгването си.",
+   "gloss_en": "Another train, on a different line, arrived {D} min after its own departure.",
+   "entity_note": "Shared-reference domain: a different train on a different line, whose own schedule is never stated, so it cannot be paired with the story's schedule; 'мин' never inflects after a numeral."
+  },
+  {
+   "story_id": 16,
+   "distractor_fact": "В съседната сграда апартамент се намира на етаж с обозначение {D}.",
+   "gloss_en": "In the neighboring building, an apartment is on the floor designated {D}.",
+   "entity_note": "Shared-reference domain: a different building's own floor designation, whose own ground floor is never stated, so it cannot be paired with the story's ground floor; the bare numeral before 'с обозначение' stays grammatical for any integer."
+  }
+ ]
+}

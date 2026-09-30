@@ -1,0 +1,84 @@
+{
+  "language_code": "is",
+  "refused": [],
+  "items": [
+    {
+      "story_id": 1,
+      "distractor_fact": "Á veðurstöðinni í næsta bæjarfélagi mældist hitinn {D}°C sama morgun.",
+      "gloss_en": "At the weather station in the neighboring municipality, the temperature measured {D}°C that same morning.",
+      "entity_note": "A different weather station in a neighboring municipality, not the thermometer the story's temperatures come from."
+    },
+    {
+      "story_id": 2,
+      "distractor_fact": "Á sama markaði kostaði hlutabréf í öðru fyrirtæki ${D} þennan dag.",
+      "gloss_en": "On the same market, a share in another company cost ${D} that day.",
+      "entity_note": "A different company's share price on the same market, not the company whose open/close price is compared."
+    },
+    {
+      "story_id": 3,
+      "distractor_fact": "Í nágrannalóninu mældist vatnsborðið {D}m sama mánuð.",
+      "gloss_en": "In the neighboring reservoir, the water level measured {D} m that same month.",
+      "entity_note": "A different, neighboring reservoir, not the reservoir whose water level is compared month to month."
+    },
+    {
+      "story_id": 4,
+      "distractor_fact": "Annar dróni í sama leiðangri flaug í {D}m hæð á sama tíma.",
+      "gloss_en": "Another drone in the same expedition flew at an altitude of {D} m at the same time.",
+      "entity_note": "A different drone in the same expedition, not the drone whose altitude is measured at the two moments."
+    },
+    {
+      "story_id": 5,
+      "distractor_fact": "Annar pakki í sömu sendingu vó {D}kg.",
+      "gloss_en": "Another package in the same shipment weighed {D} kg.",
+      "entity_note": "A different package within the same shipment, not the package weighed before and after the journey."
+    },
+    {
+      "story_id": 6,
+      "distractor_fact": "Önnur vél í sömu verksmiðju mældist á {D}km/klst í sama prófi.",
+      "gloss_en": "Another engine in the same factory measured {D} km/h in the same test.",
+      "entity_note": "A different engine in the same factory, not the engine whose speed is compared across readings."
+    },
+    {
+      "story_id": 7,
+      "distractor_fact": "Annar leikmaður í sama liði var kominn með {D}pts í lok setunnar.",
+      "gloss_en": "Another player on the same team had reached {D} pts by the end of the session.",
+      "entity_note": "A different player on the same team, not the player whose score is compared start to end."
+    },
+    {
+      "story_id": 8,
+      "distractor_fact": "Annar viðskiptavinur í sama banka lagði inn ${D} þennan mánuð.",
+      "gloss_en": "Another client at the same bank deposited ${D} that month.",
+      "entity_note": "A different bank client, not the client whose account balance the question asks about."
+    },
+    {
+      "story_id": 9,
+      "distractor_fact": "Annar félagi í sama klúbbi vann sér inn {D}pts þennan mánuð.",
+      "gloss_en": "Another member of the same club earned {D} pts that month.",
+      "entity_note": "A different club member, not the member whose points balance the question asks about."
+    },
+    {
+      "story_id": 10,
+      "distractor_fact": "Önnur vörugeymsla í sömu keðju tók á móti birgðum sem námu {D}.",
+      "gloss_en": "Another warehouse in the same chain received a stock count amounting to {D}.",
+      "entity_note": "A different warehouse in the same chain, not the warehouse whose stock balance the question asks about."
+    },
+    {
+      "story_id": 11,
+      "distractor_fact": "Önnur verslun í sömu verslunarkeðju hafði tekjur sem námu ${D} þennan mánuð.",
+      "gloss_en": "Another shop in the same retail chain had income amounting to ${D} that month.",
+      "entity_note": "A different shop in the same chain, not the shop whose net result the question asks about."
+    },
+    {
+      "story_id": 12,
+      "distractor_fact": "Annað lið í sömu deild skoraði mörk sem námu {D} yfir tímabilið.",
+      "gloss_en": "Another team in the same league scored goals amounting to {D} over the season.",
+      "entity_note": "A different team in the same league, not the team whose goal difference the question asks about."
+    },
+    {
+      "story_id": 16,
+      "distractor_fact": "Önnur lest á annarri leið kom {D}mín eftir miðnætti sama dag.",
+      "gloss_en": "Another train on a different route arrived {D} min after midnight that same day.",
+      "entity_note": "A different train on a different route with its own, unstated timetable, so the story's schedule does not apply to it."
+    }
+  ]
+}

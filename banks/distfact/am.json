@@ -1,0 +1,96 @@
+{
+  "language_code": "am",
+  "refused": [],
+  "items": [
+    {
+      "story_id": 1,
+      "distractor_fact": "ከዚህ ጣቢያ በአጠገብ በሚገኘው ቀጣዩ መንደር ውስጥ ያለው መለኪያ በዚያው ጠዋት {D}°ሴ አስመዘገበ።",
+      "gloss_en": "The gauge in the next village near this station recorded {D}°C that same morning. (Invariant: the unit symbol °C is written right after the numeral like an abbreviation and never inflects, for any integer.)",
+      "entity_note": "a different weather gauge, in a neighboring village, not this story's station"
+    },
+    {
+      "story_id": 2,
+      "distractor_fact": "በዚያው ቀን ሌላ ኩባንያ አክሲዮን ዋጋ {D} ብር ደርሶ ተዘጋ።",
+      "gloss_en": "That same day, a different company's share price closed at {D} birr. (Invariant: the count noun 'ብር' follows the bare numeral and never inflects, for any integer.)",
+      "entity_note": "a different company's stock, not the story's company"
+    },
+    {
+      "story_id": 3,
+      "distractor_fact": "በአካባቢው የሚገኝ ሌላ ግድብ የውሃ መጠን በዚያው ቀን {D} ሜትር ደርሶ ነበር።",
+      "gloss_en": "A different dam nearby had its water level reach {D} meters that same day. (Invariant: 'ሜትር' follows the bare numeral and never inflects, for any integer.)",
+      "entity_note": "a different dam in the area, not the story's dam"
+    },
+    {
+      "story_id": 4,
+      "distractor_fact": "በአጠገብ የሚገኘው ሌላ ተራራ ጫፍ ከፍታ {D} ሜትር ነው።",
+      "gloss_en": "The peak of a different, nearby mountain has an altitude of {D} meters. (Invariant: 'ሜትር' follows the bare numeral and never inflects, for any integer.)",
+      "entity_note": "a different mountain's fixed peak elevation, not the climber's own trek"
+    },
+    {
+      "story_id": 5,
+      "distractor_fact": "በአካባቢው የምትገኝ ሌላ ከተማ ነዋሪ ቁጥር በዚያው ዓመት {D} ደረሰ።",
+      "gloss_en": "A different nearby town's population reached {D} that same year. (Invariant: the bare number stands alone with no counted noun directly after it, so nothing inflects for any integer.)",
+      "entity_note": "a different town's population, not the story's town"
+    },
+    {
+      "story_id": 7,
+      "distractor_fact": "ሌላ ደንበኛ በዚያው ቅርንጫፍ በዚያ ወቅት ወደ ሂሳቡ {D} ብር አስገባ።",
+      "gloss_en": "A different customer at that same branch deposited {D} birr into their account around that time. (Invariant: 'ብር' follows the bare numeral and never inflects, for any integer.)",
+      "entity_note": "a different customer's account, not this customer's"
+    },
+    {
+      "story_id": 8,
+      "distractor_fact": "ሌላ ድርጅት በዚያ ወር ያገኘው ገቢ {D} ብር ነበር።",
+      "gloss_en": "A different company earned {D} birr in income that same month. (Invariant: 'ብር' follows the bare numeral and never inflects, for any integer.)",
+      "entity_note": "a different company's income, not this company's"
+    },
+    {
+      "story_id": 9,
+      "distractor_fact": "ሌላ ቡድን በዚያ ወቅት ያስቆጠረው ግብ ብዛት {D} ነበር።",
+      "gloss_en": "A different team scored {D} goals during that same season. (Invariant: the bare number stands alone with no counted noun directly after it, so nothing inflects for any integer.)",
+      "entity_note": "a different team's goal count, not this team's"
+    },
+    {
+      "story_id": 10,
+      "distractor_fact": "ሌላ ባለሀብት በዚያ ወቅት ያገኘው ትርፍ {D} ብር ነበር።",
+      "gloss_en": "A different investor made {D} birr in gains during that same period. (Invariant: 'ብር' follows the bare numeral and never inflects, for any integer.)",
+      "entity_note": "a different investor's gains, not this investor's"
+    },
+    {
+      "story_id": 14,
+      "distractor_fact": "ሌላ ተጫዋች በሌላ ሜዳ ላይ ያስመዘገበው ጠቅላላ ምት ብዛት {D} ነበር።",
+      "gloss_en": "A different player recorded a total of {D} strokes on a different course. (Invariant: 'ምት' follows the bare numeral and never inflects, for any integer.)",
+      "entity_note": "a different player on a different course, whose par is not stated, so the story's par does not apply"
+    },
+    {
+      "story_id": 15,
+      "distractor_fact": "በሌላ መስመር ላይ የሚሄድ በረራ ትክክለኛ መነሻ ሰዓት፣ በደቂቃ ተቆጥሮ፣ {D} ነበር።",
+      "gloss_en": "A flight on a different route had an actual departure time, counted in minutes, of {D}. (Invariant: the bare number stands alone with no counted noun directly after it, so nothing inflects for any integer.)",
+      "entity_note": "a different flight on a different route, with its own unstated schedule, so the story's schedule does not apply"
+    },
+    {
+      "story_id": 16,
+      "distractor_fact": "ሌላ መሣሪያ ያሳየው ንባብ {D} ክፍል ነበር።",
+      "gloss_en": "A different instrument showed a reading of {D} units. (Invariant: 'ክፍል' follows the bare numeral and never inflects, for any integer.)",
+      "entity_note": "a different instrument with its own unstated reference datum, so the story's datum does not apply"
+    },
+    {
+      "story_id": 17,
+      "distractor_fact": "ቡድን ሐ ያስቆጠረው ግብ ብዛት {D} ነበር።",
+      "gloss_en": "Team C scored {D} goals. (Invariant: the bare number stands alone with no counted noun directly after it, so nothing inflects for any integer.)",
+      "entity_note": "a third team, distinct from both Team X and Team Y in the question"
+    },
+    {
+      "story_id": 18,
+      "distractor_fact": "ተወዳዳሪ ሐ ያገኘው ነጥብ {D} ነበር።",
+      "gloss_en": "Competitor C scored {D} points. (Invariant: the bare number stands alone with no counted noun directly after it, so nothing inflects for any integer.)",
+      "entity_note": "a third competitor, distinct from both Competitor X and Competitor Y in the question"
+    },
+    {
+      "story_id": 20,
+      "distractor_fact": "ድርጅት ሐ ያገኘው ገቢ {D} ብር ነበር።",
+      "gloss_en": "Company C earned {D} birr in revenue. (Invariant: 'ብር' follows the bare numeral and never inflects, for any integer.)",
+      "entity_note": "a third company, distinct from both Company X and Company Y in the question"
+    }
+  ]
+}

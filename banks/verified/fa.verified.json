@@ -1,0 +1,272 @@
+{
+ "language": "Persian (Farsi)",
+ "language_code": "fa",
+ "lead_in": "پاسخ",
+ "decimal_separator": ".",
+ "items": [
+  {
+   "story_id": 1,
+   "bank": "A",
+   "domain": "change",
+   "unit": "°C",
+   "sign_convention": "after minus before",
+   "facts_min_first": "دمای هوا در پایان روز {M} درجه سانتی‌گراد بود، در حالی که در ابتدای روز {S} درجه سانتی‌گراد بود.",
+   "facts_sub_first": "دمای هوا در ابتدای روز {S} درجه سانتی‌گراد بود، در حالی که در پایان روز {M} درجه سانتی‌گراد بود.",
+   "question": "دمای هوا چقدر تغییر کرد؟",
+   "distractor_sentence": "این ایستگاه هواشناسی با شماره {D} ثبت شده است.",
+   "agreement_safe": true,
+   "agreement_note": "در فارسی اسم بعد از هر عدد (مثبت یا منفی، کوچک یا بزرگ) همیشه به صورت مفرد و بدون تغییر صرفی می‌آید، پس جای {M} و {S} برای هر عدد صحیحی از ۱ تا ۹۹۹۹۹۹ (و هر عدد منفی) دستوری باقی می‌ماند.",
+   "decimals_natural": true,
+   "gloss_en": "Air temperature at end of day was M degrees C, while at start of day it was S degrees C. How much did the temperature change?",
+   "notes": "Weather-station temperature change.",
+   "distractor_ok": true,
+   "verifier": {
+    "tag": "V4",
+    "natural": 3,
+    "comment": ""
+   }
+  },
+  {
+   "story_id": 2,
+   "bank": "A",
+   "domain": "change",
+   "unit": "$",
+   "sign_convention": "after minus before",
+   "facts_min_first": "قیمت سهام در پایان معاملات {M} دلار بود، در حالی که در ابتدای معاملات {S} دلار بود.",
+   "facts_sub_first": "قیمت سهام در ابتدای معاملات {S} دلار بود، در حالی که در پایان معاملات {M} دلار بود.",
+   "question": "قیمت سهام چقدر تغییر کرد؟",
+   "distractor_sentence": "این شرکت با کد بورسی {D} شناخته می‌شود.",
+   "agreement_safe": true,
+   "agreement_note": "در فارسی اسم بعد از هر عدد (مثبت یا منفی، کوچک یا بزرگ) همیشه به صورت مفرد و بدون تغییر صرفی می‌آید، پس جای {M} و {S} برای هر عدد صحیحی از ۱ تا ۹۹۹۹۹۹ (و هر عدد منفی) دستوری باقی می‌ماند.",
+   "decimals_natural": true,
+   "gloss_en": "Stock price at close was M dollars, while at open it was S dollars. How much did the stock price change?",
+   "notes": "Stock open/close change.",
+   "distractor_ok": true,
+   "verifier": {
+    "tag": "V4",
+    "natural": 3,
+    "comment": ""
+   }
+  },
+  {
+   "story_id": 3,
+   "bank": "A",
+   "domain": "change",
+   "unit": "m",
+   "sign_convention": "after minus before",
+   "facts_min_first": "سطح آب مخزن در پایان هفته {M} متر بود، در حالی که در ابتدای هفته {S} متر بود.",
+   "facts_sub_first": "سطح آب مخزن در ابتدای هفته {S} متر بود، در حالی که در پایان هفته {M} متر بود.",
+   "question": "سطح آب مخزن چقدر تغییر کرد؟",
+   "distractor_sentence": "این سد با شماره پروژه {D} ثبت شده است.",
+   "agreement_safe": true,
+   "agreement_note": "در فارسی اسم بعد از هر عدد (مثبت یا منفی، کوچک یا بزرگ) همیشه به صورت مفرد و بدون تغییر صرفی می‌آید، پس جای {M} و {S} برای هر عدد صحیحی از ۱ تا ۹۹۹۹۹۹ (و هر عدد منفی) دستوری باقی می‌ماند.",
+   "decimals_natural": true,
+   "gloss_en": "Reservoir water level at end of week was M meters, while at start of week it was S meters. How much did the water level change?",
+   "notes": "Reservoir level change.",
+   "distractor_ok": true,
+   "verifier": {
+    "tag": "V4",
+    "natural": 3,
+    "comment": ""
+   }
+  },
+  {
+   "story_id": 4,
+   "bank": "A",
+   "domain": "change",
+   "unit": "m",
+   "sign_convention": "after minus before",
+   "facts_min_first": "ارتفاع پهپاد در پایان پرواز {M} متر بود، در حالی که در ابتدای پرواز {S} متر بود.",
+   "facts_sub_first": "ارتفاع پهپاد در ابتدای پرواز {S} متر بود، در حالی که در پایان پرواز {M} متر بود.",
+   "question": "ارتفاع پهپاد چقدر تغییر کرد؟",
+   "distractor_sentence": "این پهپاد با شماره سریال {D} ثبت شده است.",
+   "agreement_safe": true,
+   "agreement_note": "در فارسی اسم بعد از هر عدد (مثبت یا منفی، کوچک یا بزرگ) همیشه به صورت مفرد و بدون تغییر صرفی می‌آید، پس جای {M} و {S} برای هر عدد صحیحی از ۱ تا ۹۹۹۹۹۹ (و هر عدد منفی) دستوری باقی می‌ماند.",
+   "decimals_natural": true,
+   "gloss_en": "Drone altitude at end of flight was M meters, while at start of flight it was S meters. How much did the altitude change?",
+   "notes": "Drone altitude change.",
+   "distractor_ok": true,
+   "verifier": {
+    "tag": "V4",
+    "natural": 3,
+    "comment": ""
+   }
+  },
+  {
+   "story_id": 5,
+   "bank": "A",
+   "domain": "change",
+   "unit": "kg",
+   "sign_convention": "after minus before",
+   "facts_min_first": "وزن بیمار در ویزیت اخیر {M} کیلوگرم بود، در حالی که در ویزیت قبلی {S} کیلوگرم بود.",
+   "facts_sub_first": "وزن بیمار در ویزیت قبلی {S} کیلوگرم بود، در حالی که در ویزیت اخیر {M} کیلوگرم بود.",
+   "question": "وزن بیمار چقدر تغییر کرد؟",
+   "distractor_sentence": "پرونده این بیمار با شماره {D} بایگانی شده است.",
+   "agreement_safe": true,
+   "agreement_note": "در فارسی اسم بعد از هر عدد (مثبت یا منفی، کوچک یا بزرگ) همیشه به صورت مفرد و بدون تغییر صرفی می‌آید، پس جای {M} و {S} برای هر عدد صحیحی از ۱ تا ۹۹۹۹۹۹ (و هر عدد منفی) دستوری باقی می‌ماند.",
+   "decimals_natural": true,
+   "gloss_en": "Patient's weight at recent visit was M kg, while at previous visit it was S kg. How much did the weight change?",
+   "notes": "Patient weight change.",
+   "distractor_ok": true,
+   "verifier": {
+    "tag": "V4",
+    "natural": 3,
+    "comment": ""
+   }
+  },
+  {
+   "story_id": 6,
+   "bank": "A",
+   "domain": "change",
+   "unit": "نفر",
+   "sign_convention": "after minus before",
+   "facts_min_first": "جمعیت روستا در پایان سال {M} نفر بود، در حالی که در ابتدای سال {S} نفر بود.",
+   "facts_sub_first": "جمعیت روستا در ابتدای سال {S} نفر بود، در حالی که در پایان سال {M} نفر بود.",
+   "question": "جمعیت روستا چقدر تغییر کرد؟",
+   "distractor_sentence": "این روستا در بخش شماره {D} واقع شده است.",
+   "agreement_safe": true,
+   "agreement_note": "در فارسی اسم بعد از هر عدد (مثبت یا منفی، کوچک یا بزرگ) همیشه به صورت مفرد و بدون تغییر صرفی می‌آید، پس جای {M} و {S} برای هر عدد صحیحی از ۱ تا ۹۹۹۹۹۹ (و هر عدد منفی) دستوری باقی می‌ماند.",
+   "decimals_natural": false,
+   "gloss_en": "Village population at end of year was M people, while at start of year it was S people. How much did the population change?",
+   "notes": "Village population change; 'نفر' (person) as invariant counter noun after any integer.",
+   "distractor_ok": true,
+   "verifier": {
+    "tag": "V4",
+    "natural": 3,
+    "comment": ""
+   }
+  },
+  {
+   "story_id": 7,
+   "bank": "A",
+   "domain": "change",
+   "unit": "km/h",
+   "sign_convention": "after minus before",
+   "facts_min_first": "سرعت خودرو در دومین ثبت رادار {M} کیلومتر بر ساعت بود، در حالی که در اولین ثبت رادار {S} کیلومتر بر ساعت بود.",
+   "facts_sub_first": "سرعت خودرو در اولین ثبت رادار {S} کیلومتر بر ساعت بود، در حالی که در دومین ثبت رادار {M} کیلومتر بر ساعت بود.",
+   "question": "سرعت خودرو چقدر تغییر کرد؟",
+   "distractor_sentence": "این خودرو در لاین شماره {D} حرکت می‌کرد.",
+   "agreement_safe": true,
+   "agreement_note": "در فارسی اسم بعد از هر عدد (مثبت یا منفی، کوچک یا بزرگ) همیشه به صورت مفرد و بدون تغییر صرفی می‌آید، پس جای {M} و {S} برای هر عدد صحیحی از ۱ تا ۹۹۹۹۹۹ (و هر عدد منفی) دستوری باقی می‌ماند.",
+   "decimals_natural": true,
+   "gloss_en": "Car speed at second radar reading was M km/h, while at first radar reading it was S km/h. How much did the speed change?",
+   "notes": "Radar speed change.",
+   "distractor_ok": true,
+   "verifier": {
+    "tag": "V4",
+    "natural": 3,
+    "comment": ""
+   }
+  },
+  {
+   "story_id": 8,
+   "bank": "A",
+   "domain": "balance",
+   "unit": "$",
+   "sign_convention": "deposited minus withdrawn",
+   "facts_min_first": "در یک حساب بانکی طی این ماه {M} دلار واریز شد، و همچنین {S} دلار برداشت شد.",
+   "facts_sub_first": "در یک حساب بانکی طی این ماه {S} دلار برداشت شد، و همچنین {M} دلار واریز شد.",
+   "question": "موجودی خالص این حساب طی این ماه چقدر بود؟",
+   "distractor_sentence": "این حساب در شعبه شماره {D} افتتاح شده است.",
+   "agreement_safe": true,
+   "agreement_note": "در فارسی اسم بعد از هر عدد (مثبت یا منفی، کوچک یا بزرگ) همیشه به صورت مفرد و بدون تغییر صرفی می‌آید، پس جای {M} و {S} برای هر عدد صحیحی از ۱ تا ۹۹۹۹۹۹ (و هر عدد منفی) دستوری باقی می‌ماند.",
+   "decimals_natural": true,
+   "gloss_en": "This month, M dollars were deposited into a bank account, and S dollars were withdrawn. What was the net balance change of this account this month?",
+   "notes": "Bank account deposit minus withdrawal; negative balance means overdrawn.",
+   "distractor_ok": true,
+   "verifier": {
+    "tag": "V4",
+    "natural": 3,
+    "comment": ""
+   }
+  },
+  {
+   "story_id": 10,
+   "bank": "A",
+   "domain": "net",
+   "unit": "$",
+   "sign_convention": "income minus expenses",
+   "facts_min_first": "یک خانواده در یک ماه {M} دلار درآمد داشت و {S} دلار هزینه کرد.",
+   "facts_sub_first": "یک خانواده در یک ماه {S} دلار هزینه کرد و {M} دلار درآمد داشت.",
+   "question": "نتیجه خالص مالی این خانواده در این ماه چه بود؟",
+   "distractor_sentence": "این خانواده در واحد شماره {D} یک ساختمان زندگی می‌کند.",
+   "agreement_safe": true,
+   "agreement_note": "در فارسی اسم بعد از هر عدد (مثبت یا منفی، کوچک یا بزرگ) همیشه به صورت مفرد و بدون تغییر صرفی می‌آید، پس جای {M} و {S} برای هر عدد صحیحی از ۱ تا ۹۹۹۹۹۹ (و هر عدد منفی) دستوری باقی می‌ماند.",
+   "decimals_natural": true,
+   "gloss_en": "A household earned M dollars of income in a month and spent S dollars of expenses. What was this household's net financial result this month?",
+   "notes": "Household income minus expenses.",
+   "distractor_ok": true,
+   "verifier": {
+    "tag": "V4",
+    "natural": 3,
+    "comment": ""
+   }
+  },
+  {
+   "story_id": 11,
+   "bank": "A",
+   "domain": "net",
+   "unit": "گل",
+   "sign_convention": "goals scored minus conceded",
+   "facts_min_first": "یک تیم فوتبال در طول یک فصل {M} گل زد و {S} گل خورد.",
+   "facts_sub_first": "یک تیم فوتبال در طول یک فصل {S} گل خورد و {M} گل زد.",
+   "question": "تفاضل گل این تیم در این فصل چقدر بود؟",
+   "distractor_sentence": "این تیم در گروه شماره {D} بازی می‌کرد.",
+   "agreement_safe": true,
+   "agreement_note": "در فارسی اسم بعد از هر عدد (مثبت یا منفی، کوچک یا بزرگ) همیشه به صورت مفرد و بدون تغییر صرفی می‌آید، پس جای {M} و {S} برای هر عدد صحیحی از ۱ تا ۹۹۹۹۹۹ (و هر عدد منفی) دستوری باقی می‌ماند.",
+   "decimals_natural": false,
+   "gloss_en": "A soccer team scored M goals and conceded S goals over a season. What was this team's goal difference this season?",
+   "notes": "Single-team goal difference over one season; 'گل' (goal) invariant counter noun.",
+   "distractor_ok": true,
+   "verifier": {
+    "tag": "V4",
+    "natural": 3,
+    "comment": ""
+   }
+  },
+  {
+   "story_id": 12,
+   "bank": "A",
+   "domain": "net",
+   "unit": "$",
+   "sign_convention": "gains minus losses",
+   "facts_min_first": "یک معامله‌گر در یک هفته {M} دلار سود کرد و {S} دلار ضرر کرد.",
+   "facts_sub_first": "یک معامله‌گر در یک هفته {S} دلار ضرر کرد و {M} دلار سود کرد.",
+   "question": "نتیجه خالص معاملات این معامله‌گر در این هفته چه بود؟",
+   "distractor_sentence": "این معامله‌گر با کد کاربری {D} در سامانه ثبت شده است.",
+   "agreement_safe": true,
+   "agreement_note": "در فارسی اسم بعد از هر عدد (مثبت یا منفی، کوچک یا بزرگ) همیشه به صورت مفرد و بدون تغییر صرفی می‌آید، پس جای {M} و {S} برای هر عدد صحیحی از ۱ تا ۹۹۹۹۹۹ (و هر عدد منفی) دستوری باقی می‌ماند.",
+   "decimals_natural": true,
+   "gloss_en": "A trader gained M dollars and lost S dollars in a week. What was this trader's net trading result this week?",
+   "notes": "Trader gains minus losses.",
+   "distractor_ok": true,
+   "verifier": {
+    "tag": "V4",
+    "natural": 3,
+    "comment": ""
+   }
+  },
+  {
+   "story_id": 15,
+   "bank": "A",
+   "domain": "score vs par",
+   "unit": "ضربه",
+   "sign_convention": "strokes minus par",
+   "facts_min_first": "یک گلف‌باز در یک دور بازی {M} ضربه زد، در حالی که پار آن زمین {S} ضربه بود.",
+   "facts_sub_first": "پار زمین گلف {S} ضربه بود، در حالی که یک گلف‌باز در یک دور بازی {M} ضربه زد.",
+   "question": "نتیجه این گلف‌باز نسبت به پار زمین چقدر بود؟",
+   "distractor_sentence": "این گلف‌باز در باجه شماره {D} ثبت‌نام کرد.",
+   "agreement_safe": true,
+   "agreement_note": "در فارسی اسم بعد از هر عدد (مثبت یا منفی، کوچک یا بزرگ) همیشه به صورت مفرد و بدون تغییر صرفی می‌آید، پس جای {M} و {S} برای هر عدد صحیحی از ۱ تا ۹۹۹۹۹۹ (و هر عدد منفی) دستوری باقی می‌ماند.",
+   "decimals_natural": false,
+   "gloss_en": "A golfer took M strokes in a round, while the course's par was S strokes. What was this golfer's result relative to par?",
+   "notes": "Golf strokes minus par; 'ضربه' (stroke) invariant.",
+   "distractor_ok": true,
+   "verifier": {
+    "tag": "V4",
+    "natural": 3,
+    "comment": ""
+   }
+  }
+ ]
+}

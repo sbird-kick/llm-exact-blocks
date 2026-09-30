@@ -1,0 +1,72 @@
+{
+ "language_code": "pa",
+ "refused": [],
+ "items": [
+  {
+   "story_id": 1,
+   "distractor_fact": "ਇੱਕ ਵਸਨੀਕ ਦੇ ਘਰ ਦੇ ਥਰਮਾਮੀਟਰ ਨੇ ਉਸੇ ਦਿਨ {D}°C ਰੀਡਿੰਗ ਦਿਖਾਈ.",
+   "gloss_en": "A resident's home thermometer showed a reading of {D} °C that same day.",
+   "entity_note": "belongs to a private resident's home thermometer (a person's instrument), a different kind of owner than the first distractor's other city (a place)"
+  },
+  {
+   "story_id": 2,
+   "distractor_fact": "ਇੱਕ ਨਿਵੇਸ਼ਕ ਦੇ ਨਿੱਜੀ ਖਾਤੇ ਦੀ ਕੀਮਤ ਉਸੇ ਦਿਨ €{D} ਸੀ.",
+   "gloss_en": "An investor's personal account was valued at €{D} that same day.",
+   "entity_note": "belongs to an individual investor (a person), a different kind of owner than the first distractor's other company (an organisation)"
+  },
+  {
+   "story_id": 3,
+   "distractor_fact": "ਜਲ ਵਿਭਾਗ ਦੇ ਇੱਕ ਮਾਪਕ ਯੰਤਰ ਨੇ ਉਸੇ ਦਿਨ {D} m ਰੀਡਿੰਗ ਦਰਜ ਕੀਤੀ.",
+   "gloss_en": "The water department's measuring instrument recorded a reading of {D} m that same day.",
+   "entity_note": "belongs to the water department's own gauge (an organisation's instrument), a different kind of owner than the first distractor's other lake (a place)"
+  },
+  {
+   "story_id": 4,
+   "distractor_fact": "ਇੱਕ ਸਥਿਰ ਜਮ੍ਹਾਂ ਸਰਟੀਫਿਕੇਟ ਦੀ ਕੀਮਤ ਇਸੇ ਮਹੀਨੇ €{D} ਸੀ.",
+   "gloss_en": "A fixed deposit certificate was worth €{D} that same month.",
+   "entity_note": "belongs to a different financial instrument (a certificate), a different kind of owner than the first distractor's other savings account"
+  },
+  {
+   "story_id": 5,
+   "distractor_fact": "ਇੱਕ ਹੋਰ ਗਾਹਕ ਦੇ ਲੌਇਲਟੀ ਖਾਤੇ ਵਿੱਚ €{D} ਸਨ.",
+   "gloss_en": "Another customer's loyalty account had €{D} in it.",
+   "entity_note": "belongs to a different customer (a person), a different kind of owner than the first distractor's other gift card (an instrument)"
+  },
+  {
+   "story_id": 6,
+   "distractor_fact": "ਇੱਕ ਹੋਰ ਪਰਿਵਾਰਕ ਮੈਂਬਰ ਨੇ ਉਸੇ ਮਹੀਨੇ {D} GB ਡਾਟਾ ਵਰਤਿਆ.",
+   "gloss_en": "Another family member used {D} GB of data that same month.",
+   "entity_note": "belongs to a different family member (a person), a different kind of owner than the first distractor's other data plan (an instrument)"
+  },
+  {
+   "story_id": 7,
+   "distractor_fact": "ਇੱਕ ਸਥਾਨਕ ਦੁਕਾਨ ਦੀ ਇਸੇ ਮਹੀਨੇ ਦੀ ਆਮਦਨ €{D} ਸੀ.",
+   "gloss_en": "A local shop's income for that same month was €{D}.",
+   "entity_note": "belongs to a business (an organisation), a different kind of owner than the first distractor's other household"
+  },
+  {
+   "story_id": 8,
+   "distractor_fact": "ਇਸ ਟੀਮ ਦੇ ਚੋਟੀ ਦੇ ਖਿਡਾਰੀ ਨੇ ਸੀਜ਼ਨ ਵਿੱਚ {D} ਗੋਲ ਕੀਤੇ.",
+   "gloss_en": "The team's top player scored {D} goals during the season.",
+   "entity_note": "belongs to an individual player (a person), a different kind of owner than the first distractor's other team (an organisation); same season, so it adds no ambiguity to the team's own goal difference"
+  },
+  {
+   "story_id": 9,
+   "distractor_fact": "ਇਸ ਕਾਰੋਬਾਰ ਦੇ ਮਾਲਕ ਦੀ ਨਿੱਜੀ ਆਮਦਨ ਇਸੇ ਤਿਮਾਹੀ ਵਿੱਚ €{D} ਸੀ.",
+   "gloss_en": "The business owner's personal income for that same quarter was €{D}.",
+   "entity_note": "belongs to the owner as a private individual (a person), a different kind of owner than the first distractor's other small business (an organisation)"
+  },
+  {
+   "story_id": 15,
+   "distractor_fact": "ਇੱਕ ਹੋਰ ਰੇਲ ਕੰਪਨੀ ਦੀ ਆਪਣੀ ਔਸਤ ਪਹੁੰਚਣ ਰੀਡਿੰਗ {D} min ਸੀ.",
+   "gloss_en": "Another railway company's own average arrival reading was {D} min.",
+   "entity_note": "belongs to a different railway company (an organisation) with its own unstated scheduled-time reference, a different kind of owner than the first distractor's train on another line (an instrument)"
+  },
+  {
+   "story_id": 16,
+   "distractor_fact": "ਇੱਕ ਲਿਫਟ ਸਾਂਭ-ਸੰਭਾਲ ਕੰਪਨੀ ਦੀ ਟੈਸਟ ਲਿਫਟ ਦੀ ਰੀਡਿੰਗ {D} ਸੀ.",
+   "gloss_en": "A lift-maintenance company's test lift showed a reading of {D}.",
+   "entity_note": "belongs to a maintenance company's own test lift (an organisation), with its own unstated ground-floor reference, a different kind of owner than the first distractor's other building (a place)"
+  }
+ ]
+}

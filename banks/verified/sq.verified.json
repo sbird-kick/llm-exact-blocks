@@ -1,0 +1,281 @@
+{
+ "language": "Albanian",
+ "language_code": "sq",
+ "lead_in": "Përgjigja është",
+ "decimal_separator": ",",
+ "items": [
+  {
+   "story_id": 1,
+   "bank": "A",
+   "domain": "change",
+   "unit": "°C",
+   "sign_convention": "after minus before",
+   "gloss_en": "In the afternoon the temperature is {M}°C, while in the morning it was {S}°C. What was the change in temperature from morning to afternoon?",
+   "decimals_natural": true,
+   "facts_min_first": "Në mbasdite temperatura është {M}°C, ndërsa në mëngjes temperatura ishte {S}°C.",
+   "facts_sub_first": "Në mëngjes temperatura ishte {S}°C, ndërsa në mbasdite temperatura është {M}°C.",
+   "question": "Cili ishte ndryshimi i temperaturës nga mëngjesi në mbasdite?",
+   "distractor_sentence": "Të dhënat u regjistruan nga stacioni me numër {D}.",
+   "agreement_note": "Simboli i njësisë °C vendoset menjëherë pas numrit; fjalët shqipe nuk ndryshojnë varësisht nga madhësia e numrit (3, 51 apo 4870 vlejnë njësoj).",
+   "agreement_safe": true,
+   "distractor_ok": true,
+   "verifier": {
+    "tag": "V13",
+    "natural": 3,
+    "comment": ""
+   }
+  },
+  {
+   "story_id": 2,
+   "bank": "A",
+   "domain": "change",
+   "unit": "$",
+   "sign_convention": "after minus before",
+   "gloss_en": "At market close the share price is ${M}, while at market open it was ${S}. What was the change in price from open to close?",
+   "decimals_natural": true,
+   "facts_min_first": "Kur mbyllet tregu, çmimi i aksionit është ${M}, ndërsa kur hapet tregu çmimi ishte ${S}.",
+   "facts_sub_first": "Kur hapet tregu, çmimi i aksionit ishte ${S}, ndërsa kur mbyllet tregu çmimi është ${M}.",
+   "question": "Cili ishte ndryshimi i çmimit nga hapja në mbyllje?",
+   "distractor_sentence": "Kompania është e regjistruar me numrin e listimit {D}.",
+   "agreement_note": "Simboli i njësisë $ vendoset menjëherë pas numrit; fjalët shqipe nuk ndryshojnë varësisht nga madhësia e numrit (3, 51 apo 4870 vlejnë njësoj).",
+   "agreement_safe": true,
+   "distractor_ok": true,
+   "verifier": {
+    "tag": "V13",
+    "natural": 3,
+    "comment": ""
+   }
+  },
+  {
+   "story_id": 3,
+   "bank": "A",
+   "domain": "change",
+   "unit": "m",
+   "sign_convention": "after minus before",
+   "gloss_en": "This month the reservoir's water level reached {M} m, while last month it was {S} m. What was the change in the water level from last month to now?",
+   "decimals_natural": true,
+   "facts_min_first": "Këtë muaj niveli i ujit në rezervuar arriti {M}m, ndërsa muajin e kaluar niveli ishte {S}m.",
+   "facts_sub_first": "Muajin e kaluar niveli i ujit në rezervuar ishte {S}m, ndërsa këtë muaj niveli arriti {M}m.",
+   "question": "Cili ishte ndryshimi i nivelit të ujit nga muaji i kaluar deri tani?",
+   "distractor_sentence": "Ky rezervuar u ndërtua pranë autostradës me numër {D}.",
+   "agreement_note": "Simboli i njësisë m vendoset menjëherë pas numrit; fjalët shqipe nuk ndryshojnë varësisht nga madhësia e numrit (3, 51 apo 4870 vlejnë njësoj).",
+   "agreement_safe": true,
+   "distractor_ok": true,
+   "verifier": {
+    "tag": "V13",
+    "natural": 3,
+    "comment": "Question says 'deri tani' where the facts contrast two months."
+   }
+  },
+  {
+   "story_id": 4,
+   "bank": "A",
+   "domain": "change",
+   "unit": "m",
+   "sign_convention": "after minus before",
+   "gloss_en": "In the final measurement the drone's altitude is {M} m, but in the initial measurement it was {S} m. What was the change in the drone's altitude from the initial to the final measurement?",
+   "decimals_natural": true,
+   "facts_min_first": "Në matjen e fundit, lartësia e dronit është {M}m, por në matjen fillestare lartësia ishte {S}m.",
+   "facts_sub_first": "Në matjen fillestare, lartësia e dronit ishte {S}m, por në matjen e fundit lartësia është {M}m.",
+   "question": "Cili ishte ndryshimi i lartësisë së dronit nga matja fillestare në atë përfundimtare?",
+   "distractor_sentence": "Ky dron ka numrin e modelit {D}.",
+   "agreement_note": "Simboli i njësisë m vendoset menjëherë pas numrit; fjalët shqipe nuk ndryshojnë varësisht nga madhësia e numrit (3, 51 apo 4870 vlejnë njësoj).",
+   "agreement_safe": true,
+   "distractor_ok": true,
+   "verifier": {
+    "tag": "V13",
+    "natural": 3,
+    "comment": ""
+   }
+  },
+  {
+   "story_id": 5,
+   "bank": "A",
+   "domain": "change",
+   "unit": "kg",
+   "sign_convention": "after minus before",
+   "gloss_en": "After the journey the package weighs {M} kg, but before shipping it weighed {S} kg. What was the change in the package's weight from before to after shipping?",
+   "decimals_natural": true,
+   "facts_min_first": "Pas udhëtimit, pesha e paketës është {M}kg, por para dërgimit pesha ishte {S}kg.",
+   "facts_sub_first": "Para dërgimit, pesha e paketës ishte {S}kg, por pas udhëtimit pesha është {M}kg.",
+   "question": "Cili ishte ndryshimi i peshës së paketës para dhe pas dërgimit?",
+   "distractor_sentence": "Kjo paketë mban një etiketë me numrin {D}.",
+   "agreement_note": "Simboli i njësisë kg vendoset menjëherë pas numrit; fjalët shqipe nuk ndryshojnë varësisht nga madhësia e numrit (3, 51 apo 4870 vlejnë njësoj).",
+   "agreement_safe": true,
+   "distractor_ok": true,
+   "verifier": {
+    "tag": "V13",
+    "natural": 3,
+    "comment": ""
+   }
+  },
+  {
+   "story_id": 6,
+   "bank": "A",
+   "domain": "change",
+   "unit": "km/h",
+   "sign_convention": "after minus before",
+   "gloss_en": "In the final reading the engine's speed is {M} km/h, while in the initial reading it was {S} km/h. What was the change in the engine's speed from the initial to the final reading?",
+   "decimals_natural": true,
+   "facts_min_first": "Në leximin e fundit, shpejtësia e motorit është {M}km/h, ndërsa në leximin fillestar shpejtësia ishte {S}km/h.",
+   "facts_sub_first": "Në leximin fillestar, shpejtësia e motorit ishte {S}km/h, ndërsa në leximin e fundit shpejtësia është {M}km/h.",
+   "question": "Cili ishte ndryshimi i shpejtësisë së motorit nga leximi fillestar në atë të fundit?",
+   "distractor_sentence": "Ky motor ka numrin serik {D}.",
+   "agreement_note": "Simboli i njësisë km/h vendoset menjëherë pas numrit; fjalët shqipe nuk ndryshojnë varësisht nga madhësia e numrit (3, 51 apo 4870 vlejnë njësoj).",
+   "agreement_safe": true,
+   "distractor_ok": true,
+   "verifier": {
+    "tag": "V13",
+    "natural": 3,
+    "comment": ""
+   }
+  },
+  {
+   "story_id": 7,
+   "bank": "A",
+   "domain": "change",
+   "unit": "pts",
+   "sign_convention": "after minus before",
+   "gloss_en": "At the end of the session the player's score is {M} pts, while at the start it was {S} pts. What was the change in the player's score from the start to the end of the session?",
+   "decimals_natural": false,
+   "facts_min_first": "Në fund të seancës, rezultati i lojtarit është {M}pts, ndërsa në fillim rezultati ishte {S}pts.",
+   "facts_sub_first": "Në fillim të seancës, rezultati i lojtarit ishte {S}pts, ndërsa në fund rezultati është {M}pts.",
+   "question": "Cili ishte ndryshimi i rezultatit të lojtarit nga fillimi në fund të seancës?",
+   "distractor_sentence": "Ky lojtar përdor kontrolluesin me numër {D}.",
+   "agreement_note": "Simboli i njësisë pts vendoset menjëherë pas numrit; fjalët shqipe nuk ndryshojnë varësisht nga madhësia e numrit (3, 51 apo 4870 vlejnë njësoj).",
+   "agreement_safe": true,
+   "distractor_ok": true,
+   "verifier": {
+    "tag": "V13",
+    "natural": 3,
+    "comment": ""
+   }
+  },
+  {
+   "story_id": 8,
+   "bank": "A",
+   "domain": "balance",
+   "unit": "$",
+   "sign_convention": "deposited minus withdrawn",
+   "gloss_en": "A client deposited ${M} into the account, and withdrew ${S}. What is the client's balance now?",
+   "decimals_natural": true,
+   "facts_min_first": "Një klient depozitoi ${M} në llogari, dhe tërhoqi ${S}.",
+   "facts_sub_first": "Një klient tërhoqi ${S} nga llogaria, dhe më parë kishte depozituar ${M}.",
+   "question": "Sa është bilanci i llogarisë së klientit tani?",
+   "distractor_sentence": "Kjo llogari është regjistruar me numrin {D}.",
+   "agreement_note": "Simboli i njësisë $ vendoset menjëherë pas numrit; fjalët shqipe nuk ndryshojnë varësisht nga madhësia e numrit (3, 51 apo 4870 vlejnë njësoj).",
+   "agreement_safe": true,
+   "distractor_ok": true,
+   "verifier": {
+    "tag": "V13",
+    "natural": 3,
+    "comment": ""
+   }
+  },
+  {
+   "story_id": 9,
+   "bank": "A",
+   "domain": "balance",
+   "unit": "pts",
+   "sign_convention": "earned minus redeemed",
+   "gloss_en": "A loyalty-club member earned {M} pts, and redeemed {S} pts. What is the member's points balance now?",
+   "decimals_natural": false,
+   "facts_min_first": "Një anëtar fitoi {M}pts, dhe përdori {S}pts.",
+   "facts_sub_first": "Një anëtar përdori {S}pts, dhe më parë kishte fituar {M}pts.",
+   "question": "Sa është bilanci i pikëve të anëtarit tani?",
+   "distractor_sentence": "Karta e anëtarit mban numrin {D}.",
+   "agreement_note": "Simboli i njësisë pts vendoset menjëherë pas numrit; fjalët shqipe nuk ndryshojnë varësisht nga madhësia e numrit (3, 51 apo 4870 vlejnë njësoj).",
+   "agreement_safe": true,
+   "distractor_ok": true,
+   "verifier": {
+    "tag": "V13",
+    "natural": 3,
+    "comment": ""
+   }
+  },
+  {
+   "story_id": 10,
+   "bank": "A",
+   "domain": "balance",
+   "unit": "",
+   "sign_convention": "received minus shipped",
+   "gloss_en": "A warehouse received a stock count of {M}, and shipped out a stock count of {S}. What is the warehouse's stock balance now?",
+   "decimals_natural": false,
+   "facts_min_first": "Një depo mori një sasi prej {M}, dhe dërgoi një sasi prej {S}.",
+   "facts_sub_first": "Një depo dërgoi një sasi prej {S}, dhe më parë kishte marrë një sasi prej {M}.",
+   "question": "Sa është bilanci i stokut në depo tani?",
+   "distractor_sentence": "Kjo depo ka portën me numër {D}.",
+   "agreement_note": "Numri shkruhet me shifra dhe shërben si plotësues i parafjalës 'në numrin'; fjala pasuese (sasi, numër) mbetet gjithmonë në të njëjtën formë, pavarësisht madhësisë së numrit.",
+   "agreement_safe": true,
+   "distractor_ok": true,
+   "verifier": {
+    "tag": "V13",
+    "natural": 2,
+    "comment": "'mori nje sasi prej' is stiff for a warehouse intake."
+   }
+  },
+  {
+   "story_id": 11,
+   "bank": "A",
+   "domain": "net",
+   "unit": "$",
+   "sign_convention": "in minus out",
+   "gloss_en": "This month the shop's income is ${M}, while its expenses are ${S}. What was the shop's net result this month?",
+   "decimals_natural": true,
+   "facts_min_first": "Këtë muaj të ardhurat e dyqanit janë ${M}, ndërsa shpenzimet janë ${S}.",
+   "facts_sub_first": "Këtë muaj shpenzimet e dyqanit janë ${S}, ndërsa të ardhurat janë ${M}.",
+   "question": "Cili ishte rezultati neto i dyqanit këtë muaj?",
+   "distractor_sentence": "Ky dyqan ndodhet në njësinë me numër {D}.",
+   "agreement_note": "Simboli i njësisë $ vendoset menjëherë pas numrit; fjalët shqipe nuk ndryshojnë varësisht nga madhësia e numrit (3, 51 apo 4870 vlejnë njësoj).",
+   "agreement_safe": true,
+   "distractor_ok": true,
+   "verifier": {
+    "tag": "V13",
+    "natural": 3,
+    "comment": ""
+   }
+  },
+  {
+   "story_id": 12,
+   "bank": "A",
+   "domain": "net",
+   "unit": "",
+   "sign_convention": "in minus out",
+   "gloss_en": "Over the season, goals scored by the team amounted to {M}, and goals conceded amounted to {S}. What was the team's goal difference for the season?",
+   "decimals_natural": false,
+   "facts_min_first": "Gjatë gjithë sezonit, numri i golave të shënuar nga ekipi arriti {M}, ndërsa numri i golave të pësuar arriti {S}.",
+   "facts_sub_first": "Gjatë gjithë sezonit, numri i golave të pësuar nga ekipi arriti {S}, ndërsa numri i golave të shënuar arriti {M}.",
+   "question": "Cila ishte diferenca e golave e ekipit gjatë sezonit?",
+   "distractor_sentence": "Ky ekip luan në divizionin me numër {D}.",
+   "agreement_note": "Numri shkruhet me shifra dhe shërben si plotësues i parafjalës 'në numrin'; fjala pasuese (sasi, numër) mbetet gjithmonë në të njëjtën formë, pavarësisht madhësisë së numrit.",
+   "agreement_safe": true,
+   "distractor_ok": true,
+   "verifier": {
+    "tag": "V13",
+    "natural": 2,
+    "comment": "'diferenca e golave e ekipit' should be 'te ekipit'."
+   }
+  },
+  {
+   "story_id": 16,
+   "bank": "A",
+   "domain": "arrival vs schedule",
+   "unit": "min",
+   "sign_convention": "actual minus scheduled, late counted positive",
+   "gloss_en": "The train's actual arrival is {M} min after midnight, while its scheduled time is {S} min after midnight. How many minutes is the actual arrival relative to schedule, with lateness counted as positive?",
+   "decimals_natural": false,
+   "facts_min_first": "Mbërritja aktuale e trenit është {M}min pas mesnate, ndërsa ora e planifikuar është {S}min.",
+   "facts_sub_first": "Ora e planifikuar e trenit është {S}min pas mesnate, ndërsa mbërritja aktuale është {M}min.",
+   "question": "Sa minuta larg orarit është mbërritja aktuale e trenit, duke e llogaritur vonesën si numër pozitiv?",
+   "distractor_sentence": "Ky tren mban numrin {D}.",
+   "agreement_note": "Simboli i njësisë min vendoset menjëherë pas numrit; fjalët shqipe nuk ndryshojnë varësisht nga madhësia e numrit (3, 51 apo 4870 vlejnë njësoj).",
+   "agreement_safe": true,
+   "distractor_ok": true,
+   "verifier": {
+    "tag": "V13",
+    "natural": 3,
+    "comment": ""
+   }
+  }
+ ]
+}

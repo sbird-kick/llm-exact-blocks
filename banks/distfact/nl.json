@@ -1,0 +1,96 @@
+{
+  "language_code": "nl",
+  "refused": [],
+  "items": [
+    {
+      "story_id": 1,
+      "distractor_fact": "In het naburige dorp Bijlerveen werd op diezelfde ochtend een temperatuur van {D} °C gemeten.",
+      "gloss_en": "In the neighboring village of Bijlerveen, a temperature of {D} °C was measured that same morning.",
+      "entity_note": "a different village (Bijlerveen), not Wijkhoven"
+    },
+    {
+      "story_id": 2,
+      "distractor_fact": "Bij een concurrerende fietsenwinkel verderop in de straat stond een vergelijkbare fiets die maand op {D} €.",
+      "gloss_en": "At a competing bike shop further down the street, a similar bike was priced at {D} € that month.",
+      "entity_note": "a different, competing bike shop"
+    },
+    {
+      "story_id": 3,
+      "distractor_fact": "In een naburig kanaal bereikte het waterpeil na dezelfde storm {D} m.",
+      "gloss_en": "In a neighboring canal, the water level reached {D} m after the same storm.",
+      "entity_note": "a different, neighboring canal"
+    },
+    {
+      "story_id": 4,
+      "distractor_fact": "Een naburige piek in hetzelfde gebergte reikte tot een hoogte van {D} m.",
+      "gloss_en": "A neighboring peak in the same mountain range rose to an altitude of {D} m.",
+      "entity_note": "a different peak/mountain, not the hiker's route"
+    },
+    {
+      "story_id": 5,
+      "distractor_fact": "Een medereiziger had voor diezelfde reis {D} € op zak.",
+      "gloss_en": "A fellow traveler had {D} € on hand for that same trip.",
+      "entity_note": "a different traveler (a fellow traveler)"
+    },
+    {
+      "story_id": 6,
+      "distractor_fact": "In de spaarpot van zijn broertje zat op dat moment een bedrag van {D} €.",
+      "gloss_en": "In his little brother's piggy bank there was, at that moment, an amount of {D} €.",
+      "entity_note": "a different piggy bank (the brother's)"
+    },
+    {
+      "story_id": 7,
+      "distractor_fact": "Een andere afdeling ontving voor haar eigen bedrijfskas een bedrag van {D} €.",
+      "gloss_en": "A different department received an amount of {D} € for its own petty cash box.",
+      "entity_note": "a different department with its own petty cash box"
+    },
+    {
+      "story_id": 8,
+      "distractor_fact": "Een andere onderneming in dezelfde straat behaalde die maand een omzet van {D} €.",
+      "gloss_en": "A different business on the same street achieved revenue of {D} € that month.",
+      "entity_note": "a different business"
+    },
+    {
+      "story_id": 9,
+      "distractor_fact": "Een rivaliserende ploeg in dezelfde competitie behaalde dat seizoen een totaal van {D} doelpunten.",
+      "gloss_en": "A rival team in the same league achieved a total of {D} goals that season.",
+      "entity_note": "a different, rival team"
+    },
+    {
+      "story_id": 10,
+      "distractor_fact": "Een andere belegger boekte datzelfde jaar winsten met een totaal van {D} €.",
+      "gloss_en": "A different investor booked total gains of {D} € that same year.",
+      "entity_note": "a different investor"
+    },
+    {
+      "story_id": 14,
+      "distractor_fact": "Een andere golfer noteerde die dag op een andere baan een score van {D} slagen.",
+      "gloss_en": "A different golfer recorded a score of {D} strokes that day on a different course.",
+      "entity_note": "a different golfer on a different course, whose par is not stated"
+    },
+    {
+      "story_id": 15,
+      "distractor_fact": "Een andere trein op een andere lijn kwam die dag aan op een tijdstip dat overeenkwam met {D} min na middernacht.",
+      "gloss_en": "A different train on a different line arrived that day at a time equivalent to {D} min after midnight.",
+      "entity_note": "a different train on a different line/timetable"
+    },
+    {
+      "story_id": 17,
+      "distractor_fact": "Team Condors behaalde in hetzelfde toernooi een totaal van {D} doelpunten.",
+      "gloss_en": "Team Condors scored a total of {D} goals in the same tournament.",
+      "entity_note": "a third team (Condors), distinct from Adelaars and Beren"
+    },
+    {
+      "story_id": 19,
+      "distractor_fact": "Winkel Oost behaalde in dezelfde maand een omzet van {D} €.",
+      "gloss_en": "Shop Oost achieved revenue of {D} € in the same month.",
+      "entity_note": "a third shop (Oost), distinct from Noord and Zuid"
+    },
+    {
+      "story_id": 20,
+      "distractor_fact": "Stad Tilburg had op dezelfde dag een temperatuur van {D} °C.",
+      "gloss_en": "City Tilburg had a temperature of {D} °C on the same day.",
+      "entity_note": "a third city (Tilburg), distinct from Almere and Emmen"
+    }
+  ]
+}

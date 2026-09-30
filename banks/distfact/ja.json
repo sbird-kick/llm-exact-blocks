@@ -1,0 +1,102 @@
+{
+  "language_code": "ja",
+  "refused": [],
+  "items": [
+    {
+      "story_id": 1,
+      "distractor_fact": "隣町の観測所では、同じ朝に{D}°Cを記録しました。",
+      "gloss_en": "The observation station in the neighboring town recorded {D}°C the same morning.",
+      "entity_note": "different weather station in a neighboring town"
+    },
+    {
+      "story_id": 2,
+      "distractor_fact": "別の銘柄の終値は、同じ日に{D}円でした。",
+      "gloss_en": "Another stock's closing price was {D} yen on the same day.",
+      "entity_note": "different stock (different company)"
+    },
+    {
+      "story_id": 3,
+      "distractor_fact": "別のダムでは、同じ日の水位が{D}mでした。",
+      "gloss_en": "At a different dam, the water level on the same day was {D}m.",
+      "entity_note": "different dam"
+    },
+    {
+      "story_id": 4,
+      "distractor_fact": "別のドローンは、同じ日に{D}mの高度を記録しました。",
+      "gloss_en": "A different drone recorded an altitude of {D}m on the same day.",
+      "entity_note": "different drone"
+    },
+    {
+      "story_id": 5,
+      "distractor_fact": "隣の窓口の客は{D}円を所持していました。",
+      "gloss_en": "The customer at the next window had {D} yen.",
+      "entity_note": "different customer at another service window"
+    },
+    {
+      "story_id": 6,
+      "distractor_fact": "別の支店のある口座では、同じ月の入金額が{D}円でした。",
+      "gloss_en": "At a different branch, a different account's deposit amount that month was {D} yen.",
+      "entity_note": "different bank account at a different branch"
+    },
+    {
+      "story_id": 7,
+      "distractor_fact": "別の会社の口座残高は{D}円でした。",
+      "gloss_en": "Another company's account balance was {D} yen.",
+      "entity_note": "different company's account"
+    },
+    {
+      "story_id": 8,
+      "distractor_fact": "別の店の今月の収入は{D}円でした。",
+      "gloss_en": "Another shop's income this month was {D} yen.",
+      "entity_note": "different shop"
+    },
+    {
+      "story_id": 9,
+      "distractor_fact": "別のチームは今シーズン{D}点を決められました。",
+      "gloss_en": "A different team had {D} points scored against them this season.",
+      "entity_note": "different team"
+    },
+    {
+      "story_id": 10,
+      "distractor_fact": "別の投資家は今年{D}円の損失を出しました。",
+      "gloss_en": "A different investor made a loss of {D} yen this year.",
+      "entity_note": "different investor"
+    },
+    {
+      "story_id": 11,
+      "distractor_fact": "別の工場では、今月の実際の生産数が{D}個でした。",
+      "gloss_en": "At a different factory, actual production this month was {D} units.",
+      "entity_note": "different factory (own unstated target)"
+    },
+    {
+      "story_id": 12,
+      "distractor_fact": "別の店の実際の売上は{D}円でした。",
+      "gloss_en": "A different shop's actual sales were {D} yen.",
+      "entity_note": "different shop (own unstated target)"
+    },
+    {
+      "story_id": 13,
+      "distractor_fact": "別の地域の実際の降水量は{D}mmでした。",
+      "gloss_en": "Actual rainfall in a different region was {D}mm.",
+      "entity_note": "different region (own unstated forecast)"
+    },
+    {
+      "story_id": 14,
+      "distractor_fact": "別のコースでは、別のゴルファーの打数が{D}打でした。",
+      "gloss_en": "On a different course, another golfer's stroke count was {D} strokes.",
+      "entity_note": "different golfer on a different course (par not stated)"
+    },
+    {
+      "story_id": 15,
+      "distractor_fact": "別のコースでは、別のゴルファーが{D}打でラウンドを終えました。",
+      "gloss_en": "On a different course, another golfer finished the round with {D} strokes.",
+      "entity_note": "different golfer on a different course (par not stated)"
+    },
+    {
+      "story_id": 16,
+      "distractor_fact": "別の路線の便は、基準時刻から{D}分後に到着しました。",
+      "gloss_en": "A flight on a different route arrived {D} minutes after the reference time.",
+      "entity_note": "different flight on a different route (schedule not stated)"
+    }
+  ]
+}

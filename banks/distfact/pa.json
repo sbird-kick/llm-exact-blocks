@@ -1,0 +1,72 @@
+{
+ "language_code": "pa",
+ "refused": [],
+ "items": [
+  {
+   "story_id": 1,
+   "distractor_fact": "ਦੂਜੇ ਸ਼ਹਿਰ ਵਿੱਚ ਉਸੇ ਸਵੇਰੇ ਤਾਪਮਾਨ {D}°C ਦਰਜ ਕੀਤਾ ਗਿਆ.",
+   "gloss_en": "In another city that same morning, a temperature of {D} °C was recorded.",
+   "entity_note": "belongs to a different city than the one whose evening/morning temperatures the question compares"
+  },
+  {
+   "story_id": 2,
+   "distractor_fact": "ਉਸੇ ਦਿਨ ਇੱਕ ਹੋਰ ਕੰਪਨੀ ਦੇ ਸ਼ੇਅਰ ਦੀ ਕੀਮਤ €{D} ਸੀ.",
+   "gloss_en": "That same day another company's share price was €{D}.",
+   "entity_note": "belongs to a different company than the one whose opening/closing price the question compares"
+  },
+  {
+   "story_id": 3,
+   "distractor_fact": "ਨੇੜਲੀ ਇੱਕ ਹੋਰ ਝੀਲ ਦਾ ਪਾਣੀ ਦਾ ਪੱਧਰ {D} m ਸੀ.",
+   "gloss_en": "A nearby other lake's water level was {D} m.",
+   "entity_note": "belongs to a different lake than the one whose before/after rain levels the question compares"
+  },
+  {
+   "story_id": 4,
+   "distractor_fact": "ਇੱਕ ਹੋਰ ਬੱਚਤ ਖਾਤੇ ਵਿੱਚ ਇਸੇ ਮਹੀਨੇ €{D} ਜਮ੍ਹਾਂ ਕੀਤੇ ਗਏ.",
+   "gloss_en": "Into another savings account, that same month, €{D} was deposited.",
+   "entity_note": "belongs to a different savings account than the one whose deposit/withdrawal the question compares"
+  },
+  {
+   "story_id": 5,
+   "distractor_fact": "ਇੱਕ ਹੋਰ ਗਿਫਟ ਕਾਰਡ ਤੇ ਸ਼ੁਰੂ ਵਿੱਚ €{D} ਸਨ.",
+   "gloss_en": "Another gift card had €{D} on it at the start.",
+   "entity_note": "belongs to a different gift card than the one whose starting balance/spend the question compares"
+  },
+  {
+   "story_id": 6,
+   "distractor_fact": "ਇੱਕ ਹੋਰ ਮੋਬਾਈਲ ਡਾਟਾ ਯੋਜਨਾ ਵਿੱਚ ਉਸੇ ਮਹੀਨੇ {D} GB ਵਰਤਿਆ ਗਿਆ.",
+   "gloss_en": "Another mobile data plan used {D} GB that same month.",
+   "entity_note": "belongs to a different data plan than the one whose starting/used data the question compares"
+  },
+  {
+   "story_id": 7,
+   "distractor_fact": "ਇੱਕ ਹੋਰ ਪਰਿਵਾਰ ਦੀ ਇਸੇ ਮਹੀਨੇ ਦੀ ਆਮਦਨ €{D} ਸੀ.",
+   "gloss_en": "Another household's income for that same month was €{D}.",
+   "entity_note": "belongs to a different household than the one whose income/expenses the question compares"
+  },
+  {
+   "story_id": 8,
+   "distractor_fact": "ਉਸੇ ਸੀਜ਼ਨ ਵਿੱਚ ਇੱਕ ਹੋਰ ਟੀਮ ਨੇ {D} ਗੋਲ ਕੀਤੇ.",
+   "gloss_en": "In that same season, another team scored {D} goals.",
+   "entity_note": "belongs to a different football team than the one whose scored/conceded goals the question compares"
+  },
+  {
+   "story_id": 9,
+   "distractor_fact": "ਉਸੇ ਤਿਮਾਹੀ ਵਿੱਚ ਇੱਕ ਹੋਰ ਛੋਟੇ ਕਾਰੋਬਾਰ ਨੇ €{D} ਮੁਨਾਫ਼ਾ ਦਰਜ ਕੀਤਾ.",
+   "gloss_en": "In that same quarter, another small business recorded €{D} in gains.",
+   "entity_note": "belongs to a different small business than the one whose gains/losses the question compares"
+  },
+  {
+   "story_id": 15,
+   "distractor_fact": "ਇੱਕ ਹੋਰ ਲਾਈਨ ਦੀ ਰੇਲਗੱਡੀ ਦੀ ਅਸਲ ਪਹੁੰਚਣ ਦੇ ਸਮੇਂ ਦੀ ਰੀਡਿੰਗ {D} min ਸੀ.",
+   "gloss_en": "A train on another line had an actual-arrival-time reading of {D} min.",
+   "entity_note": "belongs to a train on a different line, whose own scheduled-time reading is not stated, so it carries no timetable reference to compare against"
+  },
+  {
+   "story_id": 16,
+   "distractor_fact": "ਇੱਕ ਹੋਰ ਇਮਾਰਤ ਦੇ ਲਿਫਟ ਪੈਨਲ ਤੇ ਦਿਖਾਈ ਮੰਜ਼ਿਲ ਰੀਡਿੰਗ {D} ਸੀ.",
+   "gloss_en": "Another building's lift panel showed a floor reading of {D}.",
+   "entity_note": "belongs to a different building with its own unstated ground-floor reference, so it cannot be compared to the ground floor named in the question"
+  }
+ ]
+}

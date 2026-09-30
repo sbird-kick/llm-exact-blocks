@@ -1,0 +1,102 @@
+{
+  "language_code": "el",
+  "refused": [],
+  "items": [
+    {
+      "story_id": 1,
+      "distractor_fact": "Σε γειτονικό χωριό ο σταθμός καταγραφής σημείωσε {D}°C το ίδιο βράδυ.",
+      "gloss_en": "In a neighboring village the recording station registered {D}°C the same evening.",
+      "entity_note": "belongs to a different village's weather station, not the story's own thermometer"
+    },
+    {
+      "story_id": 2,
+      "distractor_fact": "Η μετοχή μιας άλλης εταιρείας είχε τιμή κλεισίματος {D} ευρώ την ίδια συνεδρίαση.",
+      "gloss_en": "The stock of another company had a closing price of {D} euros in the same trading session.",
+      "entity_note": "belongs to a different company's stock, not the one in the story"
+    },
+    {
+      "story_id": 3,
+      "distractor_fact": "Άλλος ταμιευτήρας της περιοχής είχε σήμερα στάθμη {D} μέτρα.",
+      "gloss_en": "Another reservoir in the region had a level of {D} meters today.",
+      "entity_note": "belongs to a different reservoir, not the one whose level the question asks about"
+    },
+    {
+      "story_id": 4,
+      "distractor_fact": "Ένα άλλο τηλεκατευθυνόμενο αεροσκάφος πετούσε την ίδια στιγμή σε ύψος {D} μέτρων.",
+      "gloss_en": "Another drone was flying at the same moment at a height of {D} meters.",
+      "entity_note": "belongs to a different drone, not the one the question tracks"
+    },
+    {
+      "story_id": 6,
+      "distractor_fact": "Σε άλλο τραπεζικό λογαριασμό κατατέθηκαν {D} ευρώ την ίδια περίοδο.",
+      "gloss_en": "Into another bank account {D} euros were deposited during the same period.",
+      "entity_note": "belongs to a different account, not the one whose balance the question asks about"
+    },
+    {
+      "story_id": 9,
+      "distractor_fact": "Μια άλλη επιχείρηση του ίδιου κλάδου είχε δαπάνες {D} ευρώ τον ίδιο μήνα.",
+      "gloss_en": "Another business in the same industry had expenses of {D} euros in the same month.",
+      "entity_note": "belongs to a different business, not the one whose net result the question asks about"
+    },
+    {
+      "story_id": 10,
+      "distractor_fact": "Μια άλλη ομάδα του πρωταθλήματος σκόραρε {D} γκολ στην ίδια σεζόν.",
+      "gloss_en": "Another team in the championship scored {D} goals in the same season.",
+      "entity_note": "belongs to a different team, not the one whose goal difference the question asks about"
+    },
+    {
+      "story_id": 11,
+      "distractor_fact": "Ένας άλλος επενδυτής είχε ζημίες {D} ευρώ την ίδια χρονιά.",
+      "gloss_en": "Another investor had losses of {D} euros in the same year.",
+      "entity_note": "belongs to a different investor, not the one whose net result the question asks about"
+    },
+    {
+      "story_id": 12,
+      "distractor_fact": "Ένα άλλο εργοστάσιο του ομίλου παρήγαγε {D} μονάδες τον ίδιο μήνα.",
+      "gloss_en": "Another factory in the group produced {D} units in the same month.",
+      "entity_note": "belongs to a different factory, whose own production target is not stated, so no second target-deviation is completable"
+    },
+    {
+      "story_id": 13,
+      "distractor_fact": "Ένας άλλος πωλητής της ίδιας ομάδας πραγματοποίησε πωλήσεις {D} ευρώ τον ίδιο μήνα.",
+      "gloss_en": "Another salesperson on the same team made sales of {D} euros in the same month.",
+      "entity_note": "belongs to a different salesperson, whose own sales target is not stated, so no second target-deviation is completable"
+    },
+    {
+      "story_id": 14,
+      "distractor_fact": "Σε μια κοντινή περιοχή η βροχόπτωση τον ίδιο μήνα ήταν {D} χιλιοστά.",
+      "gloss_en": "In a nearby area, rainfall in the same month was {D} millimeters.",
+      "entity_note": "belongs to a different area's rainfall, whose own forecast is not stated, so no second deviation is completable"
+    },
+    {
+      "story_id": 15,
+      "distractor_fact": "Ένα τρένο διαφορετικής γραμμής έφτασε στον σταθμό τη χρονική στιγμή {D} λεπτών, μετρημένη από τη δική του αφετηρία.",
+      "gloss_en": "A train on a different line arrived at the station at the moment {D} minutes, measured from its own reference point.",
+      "entity_note": "belongs to a different line's train, measured against its own timetable reference, not the shared one in the story"
+    },
+    {
+      "story_id": 16,
+      "distractor_fact": "Σε άλλο γκαράζ ένα άλλο αυτοκίνητο είναι σταθμευμένο στη θέση με κωδικό ορόφου {D}.",
+      "gloss_en": "In another garage, another car is parked at the spot with floor code {D}.",
+      "entity_note": "belongs to a different garage, so its own entrance-level reference is not the one stated in the story"
+    },
+    {
+      "story_id": 18,
+      "distractor_fact": "Η ομάδα Ω σκόραρε {D} γκολ στο ίδιο πρωτάθλημα.",
+      "gloss_en": "Team Omega scored {D} goals in the same championship.",
+      "entity_note": "belongs to a third team, not team X or team Y named in the question"
+    },
+    {
+      "story_id": 19,
+      "distractor_fact": "Η εταιρεία Γ είχε έσοδα {D} χιλιάδες ευρώ φέτος.",
+      "gloss_en": "Company Gamma had revenue of {D} thousand euros this year.",
+      "entity_note": "belongs to a third company, not company A or company B named in the question"
+    },
+    {
+      "story_id": 20,
+      "distractor_fact": "Η κορυφή Γ έχει υψόμετρο {D} μέτρα.",
+      "gloss_en": "Peak Gamma has an altitude of {D} meters.",
+      "entity_note": "belongs to a third peak, not peak A or peak B named in the question"
+    }
+  ]
+}

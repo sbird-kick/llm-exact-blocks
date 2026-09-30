@@ -1,0 +1,90 @@
+{
+  "language_code": "sv",
+  "refused": [],
+  "items": [
+    {
+      "story_id": 1,
+      "distractor_fact": "Termometern i grannbyn visade {D} grader Celsius samma morgon.",
+      "gloss_en": "The thermometer in the neighboring village showed {D} degrees Celsius the same morning.",
+      "entity_note": "A different village's thermometer, not the one at the story's location."
+    },
+    {
+      "story_id": 2,
+      "distractor_fact": "Ett annat bolags aktie kostade {D} kronor samma dag.",
+      "gloss_en": "Another company's stock cost {D} kronor the same day.",
+      "entity_note": "A different company's stock, not the one being tracked."
+    },
+    {
+      "story_id": 3,
+      "distractor_fact": "Vattenytan i den närliggande sjön låg på {D} meter över sitt eget bottenmärke.",
+      "gloss_en": "The water surface in the nearby lake stood at {D} meters above its own base mark.",
+      "entity_note": "A different body of water, measured against its own separate base mark."
+    },
+    {
+      "story_id": 4,
+      "distractor_fact": "En annan klättares höjdmätare visade {D} meter över havet vid samma tillfälle.",
+      "gloss_en": "Another climber's altimeter showed {D} meters above sea level at the same moment.",
+      "entity_note": "A different climber's instrument, not the one in the story."
+    },
+    {
+      "story_id": 5,
+      "distractor_fact": "En annan patient på avdelningen vägde {D} kilogram.",
+      "gloss_en": "Another patient on the ward weighed {D} kilograms.",
+      "entity_note": "A different patient, not the one being treated."
+    },
+    {
+      "story_id": 6,
+      "distractor_fact": "Grannbyn hade {D} invånare vid samma folkräkning.",
+      "gloss_en": "The neighboring village had {D} inhabitants at the same census.",
+      "entity_note": "A different village's population count."
+    },
+    {
+      "story_id": 7,
+      "distractor_fact": "En annan bils hastighetsmätare visade {D} kilometer i timmen vid samma kurva.",
+      "gloss_en": "Another car's speedometer showed {D} kilometers per hour at the same curve.",
+      "entity_note": "A different car's instrument reading."
+    },
+    {
+      "story_id": 9,
+      "distractor_fact": "På ett annat konto sattes {D} kronor in under samma månad.",
+      "gloss_en": "Into another account, {D} kronor were deposited during the same month.",
+      "entity_note": "A different bank account, not the account holder's own."
+    },
+    {
+      "story_id": 11,
+      "distractor_fact": "Ett annat företag i branschen hade en kostnad på {D} kronor under kvartalet.",
+      "gloss_en": "Another company in the industry had a cost of {D} kronor during the quarter.",
+      "entity_note": "A different company's expense figure."
+    },
+    {
+      "story_id": 12,
+      "distractor_fact": "Ett annat lag i ligan gjorde {D} mål under säsongen.",
+      "gloss_en": "Another team in the league scored {D} goals during the season.",
+      "entity_note": "A different team's goal count."
+    },
+    {
+      "story_id": 13,
+      "distractor_fact": "En annan investerare hade en vinst på {D} kronor under året.",
+      "gloss_en": "Another investor had a gain of {D} kronor during the year.",
+      "entity_note": "A different investor's gain figure."
+    },
+    {
+      "story_id": 14,
+      "distractor_fact": "Ett annat fabriksverk i koncernen tillverkade {D} enheter under samma vecka, mätt mot sitt eget separata mål.",
+      "gloss_en": "Another factory plant in the group manufactured {D} units during the same week, measured against its own separate target.",
+      "entity_note": "A different factory with its own unstated target, so the story's stated target does not apply to it."
+    },
+    {
+      "story_id": 16,
+      "distractor_fact": "En annan golfspelare på en annan bana slog {D} slag på sitt hål.",
+      "gloss_en": "Another golfer on a different course played {D} strokes on their hole.",
+      "entity_note": "A different golfer on a different course, whose hole's par is never stated."
+    },
+    {
+      "story_id": 17,
+      "distractor_fact": "En annan tåglinje hade ett tåg som anlände klockan som motsvarar {D} minuter efter midnatt, enligt sin egen tidtabell.",
+      "gloss_en": "Another train line had a train that arrived at the minute mark corresponding to {D} minutes after midnight, according to its own timetable.",
+      "entity_note": "A different train line with its own separate timetable, not the schedule stated in the story."
+    }
+  ]
+}

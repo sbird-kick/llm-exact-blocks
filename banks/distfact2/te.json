@@ -1,0 +1,120 @@
+{
+  "language_code": "te",
+  "refused": [],
+  "items": [
+    {
+      "story_id": 1,
+      "distractor_fact": "ఒక స్థానిక నివాసి తన ఇంటి థర్మామీటర్‌లో ఉదయం ఉష్ణోగ్రత {D}°C అని చెప్పాడు.",
+      "gloss_en": "A local resident said the morning temperature on his own home thermometer was {D}°C.",
+      "entity_note": "owner is a person's own home thermometer (person), not the first sentence's place (a neighbouring town)"
+    },
+    {
+      "story_id": 2,
+      "distractor_fact": "మరో వ్యాపారి తన ఖాతాలో ఆ రోజు ₹{D} నిల్వ ఉన్నట్లు తెలిపాడు.",
+      "gloss_en": "Another trader reported that his own account held a balance of ₹{D} that day.",
+      "entity_note": "owner is an individual trader's personal account (person), not the first sentence's organisation (another company)"
+    },
+    {
+      "story_id": 3,
+      "distractor_fact": "ఒక స్థానిక రైతు తన బావిలో ఉదయం నీటి మట్టం {D} మీటర్లు ఉందని చెప్పాడు.",
+      "gloss_en": "A local farmer said the water level in his own well was {D} metres in the morning.",
+      "entity_note": "owner is a farmer's own well (person), not the first sentence's place (a neighbouring reservoir)"
+    },
+    {
+      "story_id": 4,
+      "distractor_fact": "ఒక పైలట్ తన గ్లైడర్‌లో మొదటి పరిశీలనలో {D} మీటర్ల ఎత్తుకు చేరుకున్నాడు.",
+      "gloss_en": "A pilot reached an altitude of {D} metres in his own glider at the first check.",
+      "entity_note": "owner is a pilot's own glider (person), not the first sentence's instrument (another drone)"
+    },
+    {
+      "story_id": 5,
+      "distractor_fact": "ఒక క్లర్క్ తన సొంత సూట్‌కేసు బరువు డెలివరీకి ముందు {D} కిలోగ్రాములు ఉందని చెప్పాడు.",
+      "gloss_en": "A clerk said his own suitcase weighed {D} kilograms before delivery.",
+      "entity_note": "owner is a clerk's own suitcase (person), not the first sentence's object (another package)"
+    },
+    {
+      "story_id": 6,
+      "distractor_fact": "ఇదే మండలంలో ఒక పాఠశాలలో పిల్లల నమోదు సంఖ్య గత సంవత్సరం {D} ఉంది.",
+      "gloss_en": "In this same mandal, a school's student enrollment count last year was {D}.",
+      "entity_note": "owner is a school's enrollment (organisation), not the first sentence's place (a neighbouring village's population)"
+    },
+    {
+      "story_id": 7,
+      "distractor_fact": "ఒక స్థానిక మత్స్యకారుడు తన సొంత గుర్తు వద్ద నీటి మట్టం {D} సెంటీమీటర్లు ఉందని అంచనా వేశాడు.",
+      "gloss_en": "A local fisherman estimated the water level at his own marker to be {D} centimetres.",
+      "entity_note": "owner is a fisherman with his own unstated marker (person), not the first sentence's instrument (another gauge with its own datum)"
+    },
+    {
+      "story_id": 8,
+      "distractor_fact": "స్థానిక దుకాణం ఖజానాలో ఆ రోజు ₹{D} నగదు ఉంది.",
+      "gloss_en": "The local shop's till had ₹{D} cash that day.",
+      "entity_note": "owner is a shop's cash till (organisation), not the first sentence's person (Sita's money)"
+    },
+    {
+      "story_id": 9,
+      "distractor_fact": "పక్క పోస్టాఫీసు పొదుపు పథకంలో ఈ నెల ₹{D} జమ అయ్యాయి.",
+      "gloss_en": "In the neighbouring post office savings scheme, ₹{D} was deposited this month.",
+      "entity_note": "owner is a post office savings scheme (organisation), not the first sentence's instrument (another account)"
+    },
+    {
+      "story_id": 10,
+      "distractor_fact": "దుకాణదారు వ్యక్తిగత పొదుపు ఖాతాలో ఈ నెల ₹{D} జమ అయ్యాయి.",
+      "gloss_en": "In the shopkeeper's own personal savings account, ₹{D} was deposited this month.",
+      "entity_note": "owner is the shopkeeper's personal account (person), not the first sentence's organisation (the neighbouring shop)"
+    },
+    {
+      "story_id": 11,
+      "distractor_fact": "ఈ సీజన్‌లో ఒక ఆటగాడు వ్యక్తిగతంగా {D} గోల్స్ చేశాడు.",
+      "gloss_en": "This season, one player personally scored {D} goals.",
+      "entity_note": "owner is an individual player's personal tally (person), not the first sentence's organisation (another team)"
+    },
+    {
+      "story_id": 12,
+      "distractor_fact": "స్థానిక వ్యాపార సంఘం ఖాతాలో ఈ నెల నికరంగా ₹{D} లాభం నమోదైంది.",
+      "gloss_en": "In the local trade association's account, a net profit of ₹{D} was recorded this month.",
+      "entity_note": "owner is a trade association (organisation), not the first sentence's person (another trader)"
+    },
+    {
+      "story_id": 13,
+      "distractor_fact": "ఒక చిన్న వర్క్‌షాప్ యజమాని ఈ వారం తన వాస్తవ ఉత్పత్తి {D} యూనిట్లు అని చెప్పాడు.",
+      "gloss_en": "A small workshop owner said his own actual production this week was {D} units.",
+      "entity_note": "owner is a workshop owner with his own unstated target (person), not the first sentence's organisation (the neighbouring factory)"
+    },
+    {
+      "story_id": 14,
+      "distractor_fact": "ఒక రైతు తన పొలంలో ఈ వర్షాకాలంలో వర్షపాతం {D} మిల్లీమీటర్లు అని కొలిచాడు.",
+      "gloss_en": "A farmer measured rainfall of {D} millimetres on his own field this monsoon.",
+      "entity_note": "owner is a farmer with his own unstated forecast (person), not the first sentence's place (the neighbouring district)"
+    },
+    {
+      "story_id": 15,
+      "distractor_fact": "గోల్ఫ్ క్లబ్ రికార్డుల ప్రకారం మరో టోర్నమెంట్‌లో పార్ {D} స్ట్రోక్‌లుగా నిర్ణయించారు.",
+      "gloss_en": "According to golf club records, in another tournament, par was set at {D} strokes.",
+      "entity_note": "owner is a different tournament's own par (organisation/event), not the first sentence's person (another player)"
+    },
+    {
+      "story_id": 16,
+      "distractor_fact": "మరో విమానయాన సంస్థ విమానం వాస్తవ రాక సమయం అర్ధరాత్రి నుండి {D} నిమిషాల తర్వాత ఉంది.",
+      "gloss_en": "Another airline's flight had an actual arrival time of {D} minutes after midnight.",
+      "entity_note": "owner is a different airline's flight with its own unstated schedule (organisation), not the first sentence's instrument (another train)"
+    },
+    {
+      "story_id": 17,
+      "distractor_fact": "పక్క స్టేడియంలో జరిగిన ఒక ఫ్రెండ్లీ మ్యాచ్‌లో ఒక జట్టు {D} గోల్స్ చేసింది.",
+      "gloss_en": "In a friendly match held at the neighbouring stadium, a team scored {D} goals.",
+      "entity_note": "owner is a match at a different stadium (place), not the first sentence's series (another match in this tournament, team Gamma)"
+    },
+    {
+      "story_id": 19,
+      "distractor_fact": "ఒక వ్యక్తి తన ఇంటి థర్మామీటర్‌లో ఆ రోజు ఉష్ణోగ్రత {D}°C ఉందని చెప్పాడు.",
+      "gloss_en": "A person said the temperature on his own home thermometer that day was {D}°C.",
+      "entity_note": "owner is a private individual's home thermometer (person), not the first sentence's place (a third city)"
+    },
+    {
+      "story_id": 20,
+      "distractor_fact": "ఇదే పర్వతంపై ఉన్న వాతావరణ కేంద్రం ఆ రోజు {D} మీటర్ల ఎత్తులో ఉంది.",
+      "gloss_en": "A weather station on the same mountain was situated at an altitude of {D} metres that day.",
+      "entity_note": "owner is a fixed weather station's own elevation (instrument/installation), not the first sentence's person (another mountaineer, Ravi)"
+    }
+  ]
+}

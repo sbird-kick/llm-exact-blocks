@@ -1,0 +1,162 @@
+{
+ "language": "Tibetan",
+ "language_code": "bo",
+ "lead_in": "ལན་ནི",
+ "decimal_separator": ".",
+ "items": [
+  {
+   "story_id": 1,
+   "bank": "A",
+   "domain": "change",
+   "unit": "°C",
+   "sign_convention": "after minus before",
+   "facts_min_first": "ཕྱི་དྲོའི་དུས་ཚོད་ལ་དྲོད་ཚད་ནི་ {M}°C ཡིན་ལ། སྔ་དྲོའི་དུས་ཚོད་ལ་དྲོད་ཚད་ནི་ {S}°C ཡིན།",
+   "facts_sub_first": "སྔ་དྲོའི་དུས་ཚོད་ལ་དྲོད་ཚད་ནི་ {S}°C ཡིན་ལ། ཕྱི་དྲོའི་དུས་ཚོད་ལ་དྲོད་ཚད་ནི་ {M}°C ཡིན།",
+   "question": "སྔ་དྲོ་ནས་ཕྱི་དྲོ་བར་དྲོད་ཚད་ལ་འགྱུར་བ་ག་འདྲ་བྱུང་ངམ།",
+   "distractor_sentence": "ཉམས་ཞིབ་ཚན་པ་ཨང་ {D} ནས་ཐོན་པའི་གྲངས་ཐོ་ཡིན།",
+   "agreement_safe": true,
+   "agreement_note": "ཡིག་རྟགས་ °C ནི་ཨང་གྲངས་ཀྱི་རྗེས་སུ་མཚུངས་པར་སྦྱར་བའི་བརྡ་མཚོན་ཞིག་ཡིན་པས། ཨང་གྲངས་ཆུང་ཆེ་ཇི་ཡིན་ཡང་ (3, 51, 4870 སོགས) མིང་ཚིག་གམ་འགྲེལ་བཤད་ལ་འགྱུར་བ་གང་ཡང་མེད། བོད་ཡིག་གི་མིང་ཚིག་རང་ཉིད་ཨང་གྲངས་ཀྱི་རྗེས་སུ་ཡང་ན་ཚིག་ཕྲད་ 'ནི'/'ལ' གྱི་མདུན་དུ་སྦྱོར་བས་ཨང་ཞིག་ལ་ཁ་ཡོངས་སུ་བརྟེན་པའི་ཚིག་སྒྲུབ་མེད།",
+   "decimals_natural": true,
+   "gloss_en": "In the afternoon the temperature is {M}°C, while in the morning it was {S}°C. What was the change in temperature from morning to afternoon?",
+   "notes": "",
+   "distractor_ok": true,
+   "verifier": {
+    "tag": "V13",
+    "natural": 2,
+    "comment": ""
+   }
+  },
+  {
+   "story_id": 2,
+   "bank": "A",
+   "domain": "change",
+   "unit": "$",
+   "sign_convention": "after minus before",
+   "facts_min_first": "ཚོང་ར་ཁག་པའི་དུས་ཚོད་ལ་ཆ་ཤས་ཀྱི་གོང་ཚད་ནི་ ${M} ཡིན་ལ། ཚོང་ར་འགོ་འཛུགས་པའི་དུས་ཚོད་ལ་གོང་ཚད་ནི་ ${S} ཡིན།",
+   "facts_sub_first": "ཚོང་ར་འགོ་འཛུགས་པའི་དུས་ཚོད་ལ་ཆ་ཤས་ཀྱི་གོང་ཚད་ནི་ ${S} ཡིན་ལ། ཚོང་ར་ཁག་པའི་དུས་ཚོད་ལ་གོང་ཚད་ནི་ ${M} ཡིན།",
+   "question": "ཚོང་ར་འགོ་འཛུགས་ནས་ཁག་པའི་བར་གོང་ཚད་ལ་འགྱུར་བ་ག་འདྲ་བྱུང་ངམ།",
+   "distractor_sentence": "ཚོང་པ་འདི་ཉར་ཚགས་ཨང་ {D} འོག་ཏུ་ཐོ་འགོད་བྱས་ཡོད།",
+   "agreement_safe": true,
+   "agreement_note": "ཡིག་རྟགས་ $ ནི་ཨང་གྲངས་ཀྱི་རྗེས་སུ་མཚུངས་པར་སྦྱར་བའི་བརྡ་མཚོན་ཞིག་ཡིན་པས། ཨང་གྲངས་ཆུང་ཆེ་ཇི་ཡིན་ཡང་ (3, 51, 4870 སོགས) མིང་ཚིག་གམ་འགྲེལ་བཤད་ལ་འགྱུར་བ་གང་ཡང་མེད། བོད་ཡིག་གི་མིང་ཚིག་རང་ཉིད་ཨང་གྲངས་ཀྱི་རྗེས་སུ་ཡང་ན་ཚིག་ཕྲད་ 'ནི'/'ལ' གྱི་མདུན་དུ་སྦྱོར་བས་ཨང་ཞིག་ལ་ཁ་ཡོངས་སུ་བརྟེན་པའི་ཚིག་སྒྲུབ་མེད།",
+   "decimals_natural": true,
+   "gloss_en": "At market close the share price is ${M}, while at market open it was ${S}. What was the change in price from open to close?",
+   "notes": "",
+   "distractor_ok": true,
+   "verifier": {
+    "tag": "V13",
+    "natural": 2,
+    "comment": ""
+   }
+  },
+  {
+   "story_id": 3,
+   "bank": "A",
+   "domain": "change",
+   "unit": "m",
+   "sign_convention": "after minus before",
+   "facts_min_first": "ཟླ་བ་འདིར་ཆུ་མཛོད་ཀྱི་ཆུའི་མཐོ་ཚད་ནི་ {M}m སླེབས་ཡོད་ལ། ཟླ་བ་སྔ་མར་མཐོ་ཚད་ནི་ {S}m ཡིན།",
+   "facts_sub_first": "ཟླ་བ་སྔ་མར་ཆུ་མཛོད་ཀྱི་ཆུའི་མཐོ་ཚད་ནི་ {S}m ཡིན་ལ། ཟླ་བ་འདིར་མཐོ་ཚད་ནི་ {M}m སླེབས་ཡོད།",
+   "question": "ཟླ་བ་སྔ་མ་ནས་ད་ལྟའི་བར་ཆུའི་མཐོ་ཚད་ལ་འགྱུར་བ་ག་འདྲ་བྱུང་ངམ།",
+   "distractor_sentence": "ཆུ་མཛོད་འདི་ལམ་ཆེན་ཨང་ {D} ཉེ་འགྲམ་དུ་བརྐོས་ཡོད།",
+   "agreement_safe": true,
+   "agreement_note": "ཡིག་རྟགས་ m ནི་ཨང་གྲངས་ཀྱི་རྗེས་སུ་མཚུངས་པར་སྦྱར་བའི་བརྡ་མཚོན་ཞིག་ཡིན་པས། ཨང་གྲངས་ཆུང་ཆེ་ཇི་ཡིན་ཡང་ (3, 51, 4870 སོགས) མིང་ཚིག་གམ་འགྲེལ་བཤད་ལ་འགྱུར་བ་གང་ཡང་མེད། བོད་ཡིག་གི་མིང་ཚིག་རང་ཉིད་ཨང་གྲངས་ཀྱི་རྗེས་སུ་ཡང་ན་ཚིག་ཕྲད་ 'ནི'/'ལ' གྱི་མདུན་དུ་སྦྱོར་བས་ཨང་ཞིག་ལ་ཁ་ཡོངས་སུ་བརྟེན་པའི་ཚིག་སྒྲུབ་མེད།",
+   "decimals_natural": true,
+   "gloss_en": "This month the reservoir's water level reached {M} m, while last month it was {S} m. What was the change in the water level from last month to now?",
+   "notes": "",
+   "distractor_ok": true,
+   "verifier": {
+    "tag": "V13",
+    "natural": 2,
+    "comment": "Question says 'ད་ལྟའི་བར' where the facts contrast two months."
+   }
+  },
+  {
+   "story_id": 4,
+   "bank": "A",
+   "domain": "change",
+   "unit": "m",
+   "sign_convention": "after minus before",
+   "facts_min_first": "ཐེངས་མཐའ་མའི་འཇལ་རྟགས་ལ་འཕུར་ཆས་ཀྱི་མཐོ་ཚད་ནི་ {M}m ཡིན་ལ། ཐོག་མའི་འཇལ་རྟགས་ལ་མཐོ་ཚད་ནི་ {S}m ཡིན།",
+   "facts_sub_first": "ཐོག་མའི་འཇལ་རྟགས་ལ་འཕུར་ཆས་ཀྱི་མཐོ་ཚད་ནི་ {S}m ཡིན་ལ། ཐེངས་མཐའ་མའི་འཇལ་རྟགས་ལ་མཐོ་ཚད་ནི་ {M}m ཡིན།",
+   "question": "ཐོག་མའི་འཇལ་རྟགས་ནས་མཐའ་མའི་འཇལ་རྟགས་བར་འཕུར་ཆས་ཀྱི་མཐོ་ཚད་ལ་འགྱུར་བ་ག་འདྲ་བྱུང་ངམ།",
+   "distractor_sentence": "འཕུར་ཆས་འདི་བཟོ་དབྱིབས་ཨང་ {D} ཡིན།",
+   "agreement_safe": true,
+   "agreement_note": "ཡིག་རྟགས་ m ནི་ཨང་གྲངས་ཀྱི་རྗེས་སུ་མཚུངས་པར་སྦྱར་བའི་བརྡ་མཚོན་ཞིག་ཡིན་པས། ཨང་གྲངས་ཆུང་ཆེ་ཇི་ཡིན་ཡང་ (3, 51, 4870 སོགས) མིང་ཚིག་གམ་འགྲེལ་བཤད་ལ་འགྱུར་བ་གང་ཡང་མེད། བོད་ཡིག་གི་མིང་ཚིག་རང་ཉིད་ཨང་གྲངས་ཀྱི་རྗེས་སུ་ཡང་ན་ཚིག་ཕྲད་ 'ནི'/'ལ' གྱི་མདུན་དུ་སྦྱོར་བས་ཨང་ཞིག་ལ་ཁ་ཡོངས་སུ་བརྟེན་པའི་ཚིག་སྒྲུབ་མེད།",
+   "decimals_natural": true,
+   "gloss_en": "In the final measurement the drone's altitude is {M} m, but in the initial measurement it was {S} m. What was the change in the drone's altitude from the initial to the final measurement?",
+   "notes": "",
+   "distractor_ok": true,
+   "verifier": {
+    "tag": "V13",
+    "natural": 2,
+    "comment": ""
+   }
+  },
+  {
+   "story_id": 5,
+   "bank": "A",
+   "domain": "change",
+   "unit": "kg",
+   "sign_convention": "after minus before",
+   "facts_min_first": "འགྲེམ་འཁྱེར་བྱས་རྗེས་འགེམས་ཐུམ་གྱི་ལྗིད་ཚད་ནི་ {M}kg ཡིན་ལ། སྐུར་མ་མ་བཏང་གོང་ལྗིད་ཚད་ནི་ {S}kg ཡིན།",
+   "facts_sub_first": "སྐུར་མ་མ་བཏང་གོང་འགེམས་ཐུམ་གྱི་ལྗིད་ཚད་ནི་ {S}kg ཡིན་ལ། འགྲེམ་འཁྱེར་བྱས་རྗེས་ལྗིད་ཚད་ནི་ {M}kg ཡིན།",
+   "question": "སྐུར་མ་མ་བཏང་གོང་ནས་བཏང་རྗེས་བར་འགེམས་ཐུམ་གྱི་ལྗིད་ཚད་ལ་འགྱུར་བ་ག་འདྲ་བྱུང་ངམ།",
+   "distractor_sentence": "འགེམས་ཐུམ་འདིའི་ཐོག་ཏུ་ཡིག་ཨང་ {D} ཅན་གྱི་སོག་ཆགས་སྦྱར་ཡོད།",
+   "agreement_safe": true,
+   "agreement_note": "ཡིག་རྟགས་ kg ནི་ཨང་གྲངས་ཀྱི་རྗེས་སུ་མཚུངས་པར་སྦྱར་བའི་བརྡ་མཚོན་ཞིག་ཡིན་པས། ཨང་གྲངས་ཆུང་ཆེ་ཇི་ཡིན་ཡང་ (3, 51, 4870 སོགས) མིང་ཚིག་གམ་འགྲེལ་བཤད་ལ་འགྱུར་བ་གང་ཡང་མེད། བོད་ཡིག་གི་མིང་ཚིག་རང་ཉིད་ཨང་གྲངས་ཀྱི་རྗེས་སུ་ཡང་ན་ཚིག་ཕྲད་ 'ནི'/'ལ' གྱི་མདུན་དུ་སྦྱོར་བས་ཨང་ཞིག་ལ་ཁ་ཡོངས་སུ་བརྟེན་པའི་ཚིག་སྒྲུབ་མེད།",
+   "decimals_natural": true,
+   "gloss_en": "After the journey the package weighs {M} kg, but before shipping it weighed {S} kg. What was the change in the package's weight from before to after shipping?",
+   "notes": "",
+   "distractor_ok": true,
+   "verifier": {
+    "tag": "V13",
+    "natural": 2,
+    "comment": ""
+   }
+  },
+  {
+   "story_id": 6,
+   "bank": "A",
+   "domain": "change",
+   "unit": "km/h",
+   "sign_convention": "after minus before",
+   "facts_min_first": "ཐེངས་མཐའ་མའི་ཀློག་གཞིར་འཕྲུལ་འཁོར་གྱི་མགྱོགས་ཚད་ནི་ {M}km/h ཡིན་ལ། ཐོག་མའི་ཀློག་གཞིར་མགྱོགས་ཚད་ནི་ {S}km/h ཡིན།",
+   "facts_sub_first": "ཐོག་མའི་ཀློག་གཞིར་འཕྲུལ་འཁོར་གྱི་མགྱོགས་ཚད་ནི་ {S}km/h ཡིན་ལ། ཐེངས་མཐའ་མའི་ཀློག་གཞིར་མགྱོགས་ཚད་ནི་ {M}km/h ཡིན།",
+   "question": "ཐོག་མའི་ཀློག་གཞི་ནས་མཐའ་མའི་ཀློག་གཞི་བར་འཕྲུལ་འཁོར་གྱི་མགྱོགས་ཚད་ལ་འགྱུར་བ་ག་འདྲ་བྱུང་ངམ།",
+   "distractor_sentence": "འཕྲུལ་འཁོར་འདིར་གོ་རིམ་ཨང་ {D} ཡོད།",
+   "agreement_safe": true,
+   "agreement_note": "ཡིག་རྟགས་ km/h ནི་ཨང་གྲངས་ཀྱི་རྗེས་སུ་མཚུངས་པར་སྦྱར་བའི་བརྡ་མཚོན་ཞིག་ཡིན་པས། ཨང་གྲངས་ཆུང་ཆེ་ཇི་ཡིན་ཡང་ (3, 51, 4870 སོགས) མིང་ཚིག་གམ་འགྲེལ་བཤད་ལ་འགྱུར་བ་གང་ཡང་མེད། བོད་ཡིག་གི་མིང་ཚིག་རང་ཉིད་ཨང་གྲངས་ཀྱི་རྗེས་སུ་ཡང་ན་ཚིག་ཕྲད་ 'ནི'/'ལ' གྱི་མདུན་དུ་སྦྱོར་བས་ཨང་ཞིག་ལ་ཁ་ཡོངས་སུ་བརྟེན་པའི་ཚིག་སྒྲུབ་མེད།",
+   "decimals_natural": true,
+   "gloss_en": "In the final reading the engine's speed is {M} km/h, while in the initial reading it was {S} km/h. What was the change in the engine's speed from the initial to the final reading?",
+   "notes": "",
+   "distractor_ok": true,
+   "verifier": {
+    "tag": "V13",
+    "natural": 2,
+    "comment": ""
+   }
+  },
+  {
+   "story_id": 7,
+   "bank": "A",
+   "domain": "change",
+   "unit": "pts",
+   "sign_convention": "after minus before",
+   "facts_min_first": "རྩེད་མོ་མཇུག་སྒྲིལ་སྐབས་རྩེད་མཁན་གྱི་སྐོར་གྲངས་ནི་ {M}pts ཡིན་ལ། རྩེད་མོ་འགོ་འཛུགས་སྐབས་སྐོར་གྲངས་ནི་ {S}pts ཡིན།",
+   "facts_sub_first": "རྩེད་མོ་འགོ་འཛུགས་སྐབས་རྩེད་མཁན་གྱི་སྐོར་གྲངས་ནི་ {S}pts ཡིན་ལ། རྩེད་མོ་མཇུག་སྒྲིལ་སྐབས་སྐོར་གྲངས་ནི་ {M}pts ཡིན།",
+   "question": "རྩེད་མོ་འགོ་འཛུགས་ནས་མཇུག་སྒྲིལ་བར་རྩེད་མཁན་གྱི་སྐོར་གྲངས་ལ་འགྱུར་བ་ག་འདྲ་བྱུང་ངམ།",
+   "distractor_sentence": "རྩེད་མཁན་འདིས་ཚད་འཛིན་ཆས་ཨང་ {D} པ་བེད་སྤྱོད་བྱེད་ཀྱི་ཡོད།",
+   "agreement_safe": true,
+   "agreement_note": "ཡིག་རྟགས་ pts ནི་ཨང་གྲངས་ཀྱི་རྗེས་སུ་མཚུངས་པར་སྦྱར་བའི་བརྡ་མཚོན་ཞིག་ཡིན་པས། ཨང་གྲངས་ཆུང་ཆེ་ཇི་ཡིན་ཡང་ (3, 51, 4870 སོགས) མིང་ཚིག་གམ་འགྲེལ་བཤད་ལ་འགྱུར་བ་གང་ཡང་མེད། བོད་ཡིག་གི་མིང་ཚིག་རང་ཉིད་ཨང་གྲངས་ཀྱི་རྗེས་སུ་ཡང་ན་ཚིག་ཕྲད་ 'ནི'/'ལ' གྱི་མདུན་དུ་སྦྱོར་བས་ཨང་ཞིག་ལ་ཁ་ཡོངས་སུ་བརྟེན་པའི་ཚིག་སྒྲུབ་མེད།",
+   "decimals_natural": false,
+   "gloss_en": "At the end of the session the player's score is {M} pts, while at the start it was {S} pts. What was the change in the player's score from the start to the end of the session?",
+   "notes": "",
+   "distractor_ok": true,
+   "verifier": {
+    "tag": "V13",
+    "natural": 2,
+    "comment": ""
+   }
+  }
+ ]
+}

@@ -1,0 +1,84 @@
+{
+  "language_code": "cs",
+  "refused": [],
+  "items": [
+    {
+      "story_id": 1,
+      "distractor_fact": "Doma měřený teploměr ve stejnou dobu ukazoval hodnotu {D} °C.",
+      "gloss_en": "A thermometer measured at home showed a reading of D°C at the same time (unit symbol directly after the number keeps this invariant for any integer).",
+      "entity_note": "owner is a personal instrument (a home thermometer), not a place, unlike the first distractor's neighboring weather station"
+    },
+    {
+      "story_id": 2,
+      "distractor_fact": "Jiný investor ten den nakoupil akcie za {D} Kč.",
+      "gloss_en": "Another investor bought shares for D Kč that same day (\"za D Kč\", unit symbol after the number, invariant for any integer).",
+      "entity_note": "owner is an individual person (another investor), not an organisation, unlike the first distractor's other company"
+    },
+    {
+      "story_id": 3,
+      "distractor_fact": "Vodohospodářský podnik, který provozuje jinou nádrž, ohlásil ve stejnou dobu úroveň {D} m.",
+      "gloss_en": "The water-management company that operates a different reservoir reported a level of D m at the same time (\"úroveň D m\", unit symbol after the number, invariant).",
+      "entity_note": "owner is an organisation (the utility company), not a place, unlike the first distractor which named the other reservoir itself"
+    },
+    {
+      "story_id": 4,
+      "distractor_fact": "Jiný turista ve stejný den vystoupal do výšky {D} m.",
+      "gloss_en": "Another hiker climbed to an altitude of D m on the same day (\"do výšky D m\", unit symbol after the number, invariant).",
+      "entity_note": "owner is a person (another hiker), not a place, unlike the first distractor's neighboring peak"
+    },
+    {
+      "story_id": 6,
+      "distractor_fact": "Jiný klient téže banky ten den vložil na svůj účet {D} €.",
+      "gloss_en": "Another client of the same bank deposited D euros into his account that day (unit symbol after the number, invariant).",
+      "entity_note": "owner is a person (another client), not the account/instrument itself, unlike the first distractor's other account"
+    },
+    {
+      "story_id": 8,
+      "distractor_fact": "Jednotlivý podnikatel v tomtéž odvětví měl za tentýž měsíc příjmy {D} €.",
+      "gloss_en": "A sole trader in the same industry had revenue of D euros for the same month (unit symbol after the number, invariant).",
+      "entity_note": "owner is an individual person (a sole trader), not a company, unlike the first distractor's other firm"
+    },
+    {
+      "story_id": 9,
+      "distractor_fact": "Nejlepší střelec soutěže vstřelil za sezónu branky v počtu {D}.",
+      "gloss_en": "The competition's top scorer scored a number of D goals for the season (\"branky v počtu D\", the story's own fixed count-phrase, invariant for any integer, avoiding numeral-noun agreement).",
+      "entity_note": "owner is a person (an individual player), not a team, unlike the first distractor's other team in the league"
+    },
+    {
+      "story_id": 10,
+      "distractor_fact": "Investiční fond ve stejném roce vykázal zisky ve výši {D} €.",
+      "gloss_en": "An investment fund reported profits of D euros for the same year (\"ve výši D €\", the story's own fixed amount-phrase, invariant).",
+      "entity_note": "owner is an organisation (a fund), not a person, unlike the first distractor's other individual investor"
+    },
+    {
+      "story_id": 11,
+      "distractor_fact": "Automatizovaná výrobní linka mimo tento koncern vyrobila ve stejném měsíci {D} ks jiného výrobku.",
+      "gloss_en": "An automated production line outside this concern produced D units of a different product that same month (unit symbol \"ks\" after the number, invariant), and its own output is not measured against this story's plan.",
+      "entity_note": "owner is a piece of equipment (a production line), not a factory/organisation, unlike the first distractor's other factory in the same concern"
+    },
+    {
+      "story_id": 12,
+      "distractor_fact": "Franšízant provozující nezávislou prodejnu téže značky dosáhl ve stejném měsíci tržeb {D} €.",
+      "gloss_en": "A franchisee running an independently owned store of the same brand achieved revenue of D euros that same month (unit symbol after the number, invariant); this franchisee's own store has no stated sales target here.",
+      "entity_note": "owner is a person (a franchisee-operator), not a store/organisation, unlike the first distractor's other store in the same chain"
+    },
+    {
+      "story_id": 13,
+      "distractor_fact": "Meteorologický ústav v sousední zemi zaznamenal za týž měsíc úhrn srážek {D} mm.",
+      "gloss_en": "The meteorological institute in a neighboring country recorded total rainfall of D mm for the same month (unit symbol after the number, invariant), with no forecast of its own stated here.",
+      "entity_note": "owner is an organisation (a meteorological institute), not a place/region, unlike the first distractor's neighboring region"
+    },
+    {
+      "story_id": 15,
+      "distractor_fact": "Jiný dopravce provozující autobusovou linku na téže trase vypravil skutečný odjezd v čase odpovídajícím {D} min od půlnoci.",
+      "gloss_en": "A different operator running a bus line on the same route dispatched an actual departure at a time corresponding to D minutes past midnight (\"v čase odpovídajícím D min od půlnoci\", the story's own fixed clock-phrase, invariant); this operator's own timetable is not the one given in the story.",
+      "entity_note": "owner is an organisation (a different transport operator), not another train/instrument, unlike the first distractor's other train on another line"
+    },
+    {
+      "story_id": 16,
+      "distractor_fact": "Technik při kontrole jiného výtahu zaznamenal zastavení v podlaží s označením {D}.",
+      "gloss_en": "A technician inspecting a different elevator recorded it stopping at a floor labeled D (\"s označením D\", the story's own fixed label-phrase, invariant); that elevator's floor labeling has its own, unstated ground-floor reference.",
+      "entity_note": "owner is a person (a technician reporting on another elevator), not a building/place, unlike the first distractor's elevator in a neighboring building"
+    }
+  ]
+}

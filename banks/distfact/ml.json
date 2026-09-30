@@ -1,0 +1,72 @@
+{
+  "language_code": "ml",
+  "refused": [],
+  "items": [
+    {
+      "story_id": 1,
+      "distractor_fact": "ഇതേ ദിവസം മറ്റൊരു നഗരത്തിലെ താപനില {D}°C ആയിരുന്നു.",
+      "gloss_en": "On the same day, another city's temperature was {D} °C.",
+      "entity_note": "A different city than the one in the question; the numeral+°C unit does not inflect for any integer."
+    },
+    {
+      "story_id": 2,
+      "distractor_fact": "അതേ ദിവസം മറ്റൊരു കമ്പനിയുടെ ഓഹരി വില €{D} ആയിരുന്നു.",
+      "gloss_en": "On the same day, another company's share price was €{D}.",
+      "entity_note": "A different company; the €{D} construction (currency symbol before the numeral) is invariant for any integer."
+    },
+    {
+      "story_id": 3,
+      "distractor_fact": "അതേ ദിവസം അടുത്തുള്ള മറ്റൊരു തടാകത്തിലെ ജലനിരപ്പ് {D} m ആയിരുന്നു.",
+      "gloss_en": "On the same day, a different nearby lake's water level was {D} m.",
+      "entity_note": "A different lake, not another time reading on the same lake; numeral+m unit stays fixed for any integer."
+    },
+    {
+      "story_id": 4,
+      "distractor_fact": "അതേ മാസം മറ്റൊരു അക്കൗണ്ടിലേക്ക് €{D} നിക്ഷേപിച്ചു.",
+      "gloss_en": "During the same month, €{D} was deposited into a different account.",
+      "entity_note": "A different savings account than the one the question asks about; €{D} is invariant across integers."
+    },
+    {
+      "story_id": 5,
+      "distractor_fact": "മറ്റൊരു ഗിഫ്റ്റ് കാർഡിൽ €{D} ബാക്കിയുണ്ട്.",
+      "gloss_en": "A different gift card has €{D} remaining on it.",
+      "entity_note": "A different card, so its balance cannot be mixed into the question's card; €{D} does not inflect."
+    },
+    {
+      "story_id": 6,
+      "distractor_fact": "മറ്റൊരു മൊബൈൽ ഡാറ്റ പ്ലാനിൽ ഈ മാസം {D} GB ബാക്കിയുണ്ട്.",
+      "gloss_en": "A different mobile data plan has {D} GB remaining this month.",
+      "entity_note": "A different plan/owner; numeral followed by the GB symbol is invariant for any integer."
+    },
+    {
+      "story_id": 7,
+      "distractor_fact": "അയൽപക്കത്തെ മറ്റൊരു കുടുംബത്തിന്റെ ഈ മാസത്തെ വരുമാനം €{D} ആയിരുന്നു.",
+      "gloss_en": "A different neighboring household's income this month was €{D}.",
+      "entity_note": "A different household than the one whose net result is asked about; €{D} is invariant."
+    },
+    {
+      "story_id": 8,
+      "distractor_fact": "അതേ സീസണിൽ മറ്റൊരു ടീം {D} ഗോൾ നേടി.",
+      "gloss_en": "In the same season, a different team scored {D} goals.",
+      "entity_note": "A different football team; numeral+ഗോൾ (goal, uninflected classifier-free count noun) works for any integer."
+    },
+    {
+      "story_id": 9,
+      "distractor_fact": "അതേ പാദത്തിൽ മറ്റൊരു ചെറുകിട ബിസിനസ് €{D} ലാഭം രേഖപ്പെടുത്തി.",
+      "gloss_en": "In the same quarter, a different small business recorded €{D} in gains.",
+      "entity_note": "A different business than the one whose net result the question asks about; €{D} is invariant."
+    },
+    {
+      "story_id": 15,
+      "distractor_fact": "മറ്റൊരു ലൈനിലെ ഒരു ട്രെയിനിന്റെ യഥാർത്ഥ വരവ് സമയ റീഡിംഗ് {D} min ആയിരുന്നു.",
+      "gloss_en": "A train on a different line had an actual arrival time reading of {D} min, with its own schedule left unstated.",
+      "entity_note": "Shared-reference domain (rule 6): a different train on a different line whose own scheduled reading is never given, so it cannot be paired into the comparison."
+    },
+    {
+      "story_id": 16,
+      "distractor_fact": "അടുത്തുള്ള മറ്റൊരു കെട്ടിടത്തിലെ ലിഫ്റ്റ് പാനൽ നില റീഡിംഗ് {D} ആയിരുന്നു.",
+      "gloss_en": "A lift panel in a different nearby building showed a floor reading of {D}.",
+      "entity_note": "Shared-reference domain (rule 6): a different building whose own ground-floor reference is never stated, so {D} cannot be matched against the question's ground floor."
+    }
+  ]
+}

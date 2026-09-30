@@ -1,0 +1,96 @@
+{
+  "language_code": "ar",
+  "refused": [],
+  "items": [
+    {
+      "story_id": 1,
+      "distractor_fact": "أصدرت الهيئة الوطنية للأرصاد الجوية متوسط درجة حرارة على مستوى البلاد بلغ {D}°م في ذلك الصباح نفسه.",
+      "gloss_en": "The national meteorological authority issued a nationwide average temperature of {D}°C that same morning.",
+      "entity_note": "A national meteorological authority's nationwide average (organization), not a specific station in a neighboring city (place) as in the first sentence; only one reading, no evening counterpart, so no second subtraction can be formed."
+    },
+    {
+      "story_id": 2,
+      "distractor_fact": "أغلق سند آخر يُتداول في السوق نفسه في نهاية ذلك اليوم عند {D}$.",
+      "gloss_en": "Another bond traded in the same market closed at the end of that day at {D}$.",
+      "entity_note": "A different financial instrument, a bond, not a company's stock (organization) as in the first sentence; only a closing value is stated, with no opening value for it, so no second subtraction can be formed."
+    },
+    {
+      "story_id": 3,
+      "distractor_fact": "بلغ ارتفاع أحد مظليّي القفز الحر عند بداية قفزته {D} م خلال الفترة نفسها.",
+      "gloss_en": "A free-fall skydiver's altitude at the start of his jump was {D} m during that same period.",
+      "entity_note": "A different owner kind, a skydiver (person), not another aircraft (instrument) as in the first sentence; only one point is stated, so no second subtraction can be formed."
+    },
+    {
+      "story_id": 4,
+      "distractor_fact": "بلغ إجمالي رصيد فرع بنكي آخر في ذلك الوقت {D}$.",
+      "gloss_en": "Another bank branch's total balance at that time was {D}$.",
+      "entity_note": "A different owner kind, a bank branch (organization), not an individual customer (person) as in the first sentence."
+    },
+    {
+      "story_id": 6,
+      "distractor_fact": "أودعت شركة استثمار أخرى مبلغ {D}$ في أحد حساباتها خلال الشهر نفسه.",
+      "gloss_en": "Another investment company deposited {D}$ into one of its accounts during that same month.",
+      "entity_note": "A different owner kind, an investment company (organization), not an individual saver (person) as in the first sentence; only a deposit is stated, with no matching withdrawal, so no second subtraction can be formed."
+    },
+    {
+      "story_id": 7,
+      "distractor_fact": "بلغت إيرادات شركة أخرى خلال الشهر نفسه {D}$.",
+      "gloss_en": "Another company's revenue during that same month was {D}$.",
+      "entity_note": "A different owner kind, a company (organization), not a household (person/family) as in the first sentence; only revenue is stated, with no matching expenses given."
+    },
+    {
+      "story_id": 8,
+      "distractor_fact": "سجّل أحد اللاعبين في دوري مختلف تمامًا خلال الموسم نفسه عددًا من الأهداف الفردية بلغ {D}.",
+      "gloss_en": "A player in an entirely different league recorded an individual goal tally of {D} during that same season.",
+      "entity_note": "A different owner kind, an individual player (person), not a whole team (organization) as in the first sentence; only goals scored is stated, with no conceded count given."
+    },
+    {
+      "story_id": 9,
+      "distractor_fact": "حقق صندوق استثماري آخر من صفقاته الرابحة خلال العام نفسه مبلغ {D}$.",
+      "gloss_en": "Another investment fund made {D}$ from its winning trades during that same year.",
+      "entity_note": "A different owner kind, an investment fund (organization), not an individual investor (person) as in the first sentence; only gains are stated, with no matching losses given."
+    },
+    {
+      "story_id": 10,
+      "distractor_fact": "سجّلت آلة تصنيع في مصنع آخر تمامًا عددًا من الوحدات بلغ {D} خلال الشهر نفسه، ولها معدل إنتاج مستهدف خاص بها لم يُذكر.",
+      "gloss_en": "A production machine in an entirely different factory recorded a unit count of {D} during that same month, and has its own targeted output rate, which was not stated.",
+      "entity_note": "A different owner kind, a single production machine (instrument), not a whole separate factory (organization) as in the first sentence; its own target is unstated, so it cannot be paired with the story's target."
+    },
+    {
+      "story_id": 12,
+      "distractor_fact": "سجّلت شركة زراعية عبر محطتها الخاصة كمية أمطار فعلية بلغت {D} ملم خلال الشهر نفسه، دون توقع معلن لديها.",
+      "gloss_en": "An agricultural company recorded, via its own station, actual rainfall of {D} mm during that same month, with no forecast declared for it.",
+      "entity_note": "A different owner kind, an agricultural company (organization) with its own station, not a different region (place) as in the first sentence; no forecast is stated for it, so it cannot be paired against the story's expected value."
+    },
+    {
+      "story_id": 13,
+      "distractor_fact": "أنهى لاعب آخر جولته في بطولة مختلفة تمامًا بعدد ضربات بلغ {D}.",
+      "gloss_en": "A different player finished his round in an entirely different tournament with a stroke count of {D}.",
+      "entity_note": "A different owner kind, an entirely different tournament (series), not merely a different course (place) as in the first sentence; that tournament's par is not stated, so it cannot be paired against the story's par."
+    },
+    {
+      "story_id": 14,
+      "distractor_fact": "أنهت لاعبة أخرى جولتها في بطولة مختلفة تمامًا بعدد ضربات بلغ {D}.",
+      "gloss_en": "A different player finished her round in an entirely different tournament with a stroke count of {D}.",
+      "entity_note": "A different owner kind, an entirely different tournament (series), not merely a different course (place) as in the first sentence; that tournament's par is not stated, so it cannot be paired against the story's par."
+    },
+    {
+      "story_id": 15,
+      "distractor_fact": "أعلنت شركة سكك حديد أخرى عن وصول فعلي لأحد قطاراتها عند الدقيقة {D} محسوبة من منتصف الليل، دون أن تُعلن عن موعده المقرر.",
+      "gloss_en": "A different railway company announced an actual arrival for one of its trains at minute-mark {D} counted from midnight, without announcing its scheduled time.",
+      "entity_note": "A different owner kind, a railway company (organization), not merely a different train (instrument) as in the first sentence; no scheduled time is stated for it, so it cannot be paired against the story's schedule."
+    },
+    {
+      "story_id": 16,
+      "distractor_fact": "أعلنت إدارة مبنى آخر تمامًا أن أحد مصاعدها توقف عند الطابق الذي يحمل الرقم {D}، دون أن تُحدد طابقًا مرجعيًا لهذا المبنى.",
+      "gloss_en": "The management of an entirely different building announced that one of its elevators stopped at the floor numbered {D}, without specifying a reference floor for that building.",
+      "entity_note": "A different owner kind, the management authority of a different building (organization), not merely a different elevator (instrument) as in the first sentence; no reference floor is stated for it, so it cannot be paired against the story's reference floor."
+    },
+    {
+      "story_id": 19,
+      "distractor_fact": "سجّل أحد اللاعبين خلال مباراة ودية منفصلة عددًا من الأهداف بلغ {D}.",
+      "gloss_en": "A player scored, during a separate friendly match, a goal tally of {D}.",
+      "entity_note": "A different owner kind, an individual player (person), not a whole team playing in a different match (organization) as in the first sentence; only one aggregate figure is stated, with no opposing score given."
+    }
+  ]
+}

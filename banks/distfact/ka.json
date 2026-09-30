@@ -1,0 +1,78 @@
+{
+ "language_code": "ka",
+ "refused": [],
+ "items": [
+  {
+   "story_id": 1,
+   "distractor_fact": "მეზობელ სოფელში იმავე დილით ტემპერატურა იყო {D}°C.",
+   "gloss_en": "In the neighboring village, the temperature that same morning was {D}°C.",
+   "entity_note": "a different village's own thermometer, not the one village whose dawn and noon readings are compared"
+  },
+  {
+   "story_id": 2,
+   "distractor_fact": "მეორე კომპანიის აქცია იმავე დღეს დაიხურა {D}$-ად.",
+   "gloss_en": "A second company's stock closed that same day at {D}$.",
+   "entity_note": "a different company's stock, not the one whose opening and closing prices are given"
+  },
+  {
+   "story_id": 3,
+   "distractor_fact": "მეზობელ მდინარეზე იმავე დილით დონე იყო {D} მეტრი.",
+   "gloss_en": "On the neighboring river, the level that same morning was {D} meters.",
+   "entity_note": "a different river's own gauge, not the river whose morning and evening levels are given"
+  },
+  {
+   "story_id": 4,
+   "distractor_fact": "მეზობელი მწვერვალის სიმაღლე შეადგენს {D} მეტრს.",
+   "gloss_en": "The neighboring peak's altitude comes to {D} meters.",
+   "entity_note": "a different, fixed peak, not the start or end altitude of this hike"
+  },
+  {
+   "story_id": 6,
+   "distractor_fact": "სხვა ანგარიშზე იმავე თვეს შევიდა {D} ლარი.",
+   "gloss_en": "Into a different account, that same month, {D} lari was deposited.",
+   "entity_note": "a different account's own deposit, not the account whose deposit and withdrawal are given"
+  },
+  {
+   "story_id": 9,
+   "distractor_fact": "სხვა გუნდმა ამ სეზონში გაიტანა {D} გოლი.",
+   "gloss_en": "A different team scored {D} goals this season.",
+   "entity_note": "a different team's own season tally, not the one team whose scored and conceded goals are given"
+  },
+  {
+   "story_id": 10,
+   "distractor_fact": "სხვა ინვესტორმა ამ წელს მოიგო {D} ლარი.",
+   "gloss_en": "A different investor gained {D} lari this year.",
+   "entity_note": "a different investor's own gain, not the investor whose gains and losses are given"
+  },
+  {
+   "story_id": 11,
+   "distractor_fact": "მეორე ქარხანამ ამავე თვეს დაამზადა {D} ერთეული პროდუქცია.",
+   "gloss_en": "A second factory produced {D} units that same month.",
+   "entity_note": "a different factory's own (unstated) actual output, not the factory whose actual and planned output are compared"
+  },
+  {
+   "story_id": 12,
+   "distractor_fact": "მეზობელმა მაღაზიამ ამავე თვეს გაყიდა {D} ლარის ღირებულების საქონელი.",
+   "gloss_en": "A neighboring shop sold {D} lari worth of goods that same month.",
+   "entity_note": "a different shop's own (unstated) sales, not the shop whose actual sales and target are compared"
+  },
+  {
+   "story_id": 14,
+   "distractor_fact": "სხვა მოთამაშემ სხვა ტურზე დააფიქსირა {D} დარტყმა.",
+   "gloss_en": "A different player, in a different tournament round, recorded {D} strokes.",
+   "entity_note": "a different golfer on a different course whose par is not stated, not the player being compared to this course's par"
+  },
+  {
+   "story_id": 15,
+   "distractor_fact": "სხვა ხაზის მატარებელი იმ დილით ჩამოვიდა {D} წუთზე.",
+   "gloss_en": "A train on a different line arrived that same morning at minute {D}.",
+   "entity_note": "a train on a different line with its own unstated timetable, not the train being compared to its schedule"
+  },
+  {
+   "story_id": 17,
+   "distractor_fact": "მესამე გუნდმა იმავე კვირას გაიტანა {D} გოლი.",
+   "gloss_en": "A third team scored {D} goals that same week.",
+   "entity_note": "a third team, distinct from team A and team B, whose own goal count is not part of the A-vs-B comparison"
+  }
+ ]
+}

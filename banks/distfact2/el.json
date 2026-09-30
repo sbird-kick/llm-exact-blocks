@@ -1,0 +1,102 @@
+{
+  "language_code": "el",
+  "refused": [],
+  "items": [
+    {
+      "story_id": 1,
+      "distractor_fact": "Ένας γείτονας σημείωσε στο δικό του θερμόμετρο {D}°C το ίδιο βράδυ.",
+      "gloss_en": "A neighbor recorded {D}°C on his own thermometer the same evening.",
+      "entity_note": "belongs to a neighbor's private thermometer, a person, not the village recording station (a place) of the first sentence"
+    },
+    {
+      "story_id": 2,
+      "distractor_fact": "Ο χρηματομεσίτης του πελάτη ανέφερε τιμή {D} ευρώ για μια άλλη μετοχή του χαρτοφυλακίου του την ίδια συνεδρίαση.",
+      "gloss_en": "The client's broker reported a price of {D} euros for another stock in his portfolio during the same session.",
+      "entity_note": "belongs to a client's individual portfolio holding, a person, not another company's stock (an organization) as in the first sentence"
+    },
+    {
+      "story_id": 3,
+      "distractor_fact": "Σε ιδιωτικό πηγάδι κοντινού αγρότη η στάθμη του νερού σήμερα ήταν {D} μέτρα.",
+      "gloss_en": "In a nearby farmer's private well, the water level today was {D} meters.",
+      "entity_note": "belongs to a farmer's private well, a person's property, not another reservoir (a place) as in the first sentence"
+    },
+    {
+      "story_id": 4,
+      "distractor_fact": "Ένας ερασιτέχνης παρατηρητής κατέγραψε με το δικό του υψόμετρο {D} μέτρα την ίδια στιγμή.",
+      "gloss_en": "An amateur observer recorded {D} meters on his own altimeter at the same moment.",
+      "entity_note": "belongs to a bystander's personal altimeter, a person, not another drone (an instrument) as in the first sentence"
+    },
+    {
+      "story_id": 6,
+      "distractor_fact": "Ένας τοπικός συνεταιρισμός είχε στο ταμείο του {D} ευρώ την ίδια περίοδο.",
+      "gloss_en": "A local cooperative had {D} euros in its treasury during the same period.",
+      "entity_note": "belongs to a cooperative's treasury, an organization, not another individual bank account as in the first sentence"
+    },
+    {
+      "story_id": 9,
+      "distractor_fact": "Ένας ελεύθερος επαγγελματίας του ίδιου κλάδου είχε δαπάνες {D} ευρώ τον ίδιο μήνα.",
+      "gloss_en": "A freelancer in the same field had expenses of {D} euros in the same month.",
+      "entity_note": "belongs to a self-employed individual, a person, not another business (an organization) as in the first sentence"
+    },
+    {
+      "story_id": 10,
+      "distractor_fact": "Ένας παίκτης άλλης ομάδας σκόραρε {D} γκολ στην ίδια σεζόν.",
+      "gloss_en": "A player from another team scored {D} goals in the same season.",
+      "entity_note": "belongs to an individual player, a person, not another team (an organization) as in the first sentence"
+    },
+    {
+      "story_id": 11,
+      "distractor_fact": "Ένα αμοιβαίο κεφάλαιο της ίδιας αγοράς είχε ζημίες {D} ευρώ την ίδια χρονιά.",
+      "gloss_en": "A mutual fund in the same market had losses of {D} euros in the same year.",
+      "entity_note": "belongs to a mutual fund, an organization, not another individual investor (a person) as in the first sentence"
+    },
+    {
+      "story_id": 12,
+      "distractor_fact": "Ένας ανεξάρτητος εργολάβος παρήγαγε {D} μονάδες τον ίδιο μήνα, χωρίς δικό του καθορισμένο στόχο.",
+      "gloss_en": "An independent contractor produced {D} units in the same month, with no target of his own set.",
+      "entity_note": "belongs to an independent contractor, a person, not another factory (an organization); his own target is explicitly unstated, so no second deviation is completable"
+    },
+    {
+      "story_id": 13,
+      "distractor_fact": "Ένα συνεργαζόμενο κατάστημα της αλυσίδας πραγματοποίησε πωλήσεις {D} ευρώ τον ίδιο μήνα, για το οποίο δεν αναφέρεται στόχος.",
+      "gloss_en": "A partner store of the chain made sales of {D} euros in the same month, for which no target is stated.",
+      "entity_note": "belongs to a partner store, an organization, not another salesperson (a person) as in the first sentence; its own target is explicitly unstated"
+    },
+    {
+      "story_id": 14,
+      "distractor_fact": "Ένας αγρότης κατέγραψε στο δικό του μετρητή βροχής {D} χιλιοστά τον ίδιο μήνα, χωρίς επίσημη πρόβλεψη γι' αυτόν.",
+      "gloss_en": "A farmer recorded {D} millimeters on his own rain gauge in the same month, with no official forecast for it.",
+      "entity_note": "belongs to a farmer's private rain gauge, a person, not another nearby area (a place) as in the first sentence; no forecast is stated for it"
+    },
+    {
+      "story_id": 15,
+      "distractor_fact": "Ένα λεωφορείο διαφορετικής εταιρείας έφτασε στον ίδιο σταθμό τη χρονική στιγμή {D} λεπτών, μετρημένη από δική του αφετηρία.",
+      "gloss_en": "A bus from a different company arrived at the same station at the moment {D} minutes, measured from its own reference point.",
+      "entity_note": "belongs to a different transport company's bus, an organization, not another line's train (a vehicle) as in the first sentence; measured against its own reference"
+    },
+    {
+      "story_id": 16,
+      "distractor_fact": "Ένας γείτονας σταθμεύει το μηχανάκι του σε άλλο κτίριο, σε θέση με κωδικό ορόφου {D}, όπου δεν δηλώνεται κωδικός εισόδου.",
+      "gloss_en": "A neighbor parks his moped in a different building, in a spot with floor code {D}, where no entrance code is stated.",
+      "entity_note": "belongs to a neighbor, a person, not another garage (a place) as in the first sentence; no entrance-code reference is stated there"
+    },
+    {
+      "story_id": 18,
+      "distractor_fact": "Ο κορυφαίος σκόρερ ενός τρίτου συλλόγου σκόραρε {D} γκολ στο ίδιο πρωτάθλημα.",
+      "gloss_en": "The top scorer of a third club scored {D} goals in the same championship.",
+      "entity_note": "belongs to an individual player, a person, not a third team Ω (an organization) as in the first sentence"
+    },
+    {
+      "story_id": 19,
+      "distractor_fact": "Ένας επιχειρηματίας εκτός των δύο εταιρειών είχε έσοδα {D} χιλιάδες ευρώ φέτος.",
+      "gloss_en": "A businessperson outside the two companies had revenue of {D} thousand euros this year.",
+      "entity_note": "belongs to an individual businessperson, a person, not company Γ (an organization) as in the first sentence"
+    },
+    {
+      "story_id": 20,
+      "distractor_fact": "Ένας ορειβάτης κατέγραψε με το δικό του υψόμετρο {D} μέτρα σε άλλη οροσειρά την ίδια εποχή.",
+      "gloss_en": "A mountaineer recorded {D} meters with his own altimeter in a different mountain range that same season.",
+      "entity_note": "belongs to a mountaineer, a person, not peak Γ (a place) as in the first sentence"
+    }
+  ]
+}

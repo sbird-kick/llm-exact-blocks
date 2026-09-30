@@ -1,0 +1,90 @@
+{
+  "language_code": "sv",
+  "refused": [],
+  "items": [
+    {
+      "story_id": 1,
+      "distractor_fact": "Väderleksinstitutets mätstation visade {D} grader Celsius samma morgon.",
+      "gloss_en": "The weather institute's measuring station showed {D} degrees Celsius the same morning.",
+      "entity_note": "The weather institute's measuring station is an organisation-owned instrument, differing in kind from the first distractor's neighboring village (a place)."
+    },
+    {
+      "story_id": 2,
+      "distractor_fact": "En börsmäklare värderade en jämförbar aktie till {D} kronor samma dag.",
+      "gloss_en": "A stockbroker valued a comparable stock at {D} kronor the same day.",
+      "entity_note": "The stockbroker is a person, differing in kind from the first distractor's other company (an organisation)."
+    },
+    {
+      "story_id": 3,
+      "distractor_fact": "Kommunens miljökontor mätte grundvattnet till {D} meter över sitt eget referensmärke samma kväll.",
+      "gloss_en": "The municipal environmental office measured the groundwater at {D} meters above its own reference mark the same evening.",
+      "entity_note": "The municipal office is an organisation, differing in kind from the first distractor's neighboring lake (a place); the groundwater has its own separate reference mark."
+    },
+    {
+      "story_id": 4,
+      "distractor_fact": "Flygledningen registrerade en höjd på {D} meter över havet för ett annat flygplan vid samma tillfälle.",
+      "gloss_en": "Air traffic control registered an altitude of {D} meters above sea level for another aircraft at the same time.",
+      "entity_note": "Air traffic control is an organisation, differing in kind from the first distractor's other climber (a person)."
+    },
+    {
+      "story_id": 5,
+      "distractor_fact": "Vårdcentralens andra våg visade {D} kilogram vid en kalibreringskontroll.",
+      "gloss_en": "The health center's other scale showed {D} kilograms during a calibration check.",
+      "entity_note": "The clinic's scale is an instrument, differing in kind from the first distractor's other patient (a person)."
+    },
+    {
+      "story_id": 6,
+      "distractor_fact": "Statistikmyndigheten registrerade {D} invånare för en annan tätort vid samma folkräkning.",
+      "gloss_en": "The statistics authority registered {D} inhabitants for another town at the same census.",
+      "entity_note": "The statistics authority is an organisation, differing in kind from the first distractor's neighboring village (a place)."
+    },
+    {
+      "story_id": 7,
+      "distractor_fact": "En annan förare uppgav en hastighet på {D} kilometer i timmen vid samma kurva enligt sin egen mätning.",
+      "gloss_en": "Another driver reported a speed of {D} kilometers per hour at the same curve according to their own measurement.",
+      "entity_note": "The driver is a person self-reporting, differing in kind from the first distractor's other car (an instrument)."
+    },
+    {
+      "story_id": 9,
+      "distractor_fact": "En annan kontoinnehavare satte in {D} kronor på sitt konto under samma månad.",
+      "gloss_en": "Another account holder deposited {D} kronor into their own account during the same month.",
+      "entity_note": "The account holder is a person, differing in kind from the first distractor's other account (an object/instrument)."
+    },
+    {
+      "story_id": 11,
+      "distractor_fact": "En oberoende konsult beräknade en kostnad på {D} kronor för ett eget uppdrag under kvartalet.",
+      "gloss_en": "An independent consultant calculated a cost of {D} kronor for their own assignment during the quarter.",
+      "entity_note": "The consultant is a person, differing in kind from the first distractor's other company (an organisation)."
+    },
+    {
+      "story_id": 12,
+      "distractor_fact": "En enskild spelare gjorde {D} mål i en annan match under säsongen.",
+      "gloss_en": "An individual player scored {D} goals in another match during the season.",
+      "entity_note": "The individual player is a person, differing in kind from the first distractor's other team (an organisation)."
+    },
+    {
+      "story_id": 13,
+      "distractor_fact": "En fond i samma bransch redovisade en vinst på {D} kronor under året.",
+      "gloss_en": "A fund in the same industry reported a profit of {D} kronor during the year.",
+      "entity_note": "The fund is an organisation, differing in kind from the first distractor's other investor (a person)."
+    },
+    {
+      "story_id": 14,
+      "distractor_fact": "En annan produktionslinje utanför koncernen tillverkade {D} enheter under samma vecka, mätt mot sitt eget separata mål.",
+      "gloss_en": "Another production line outside the group manufactured {D} units during the same week, measured against its own separate target.",
+      "entity_note": "The production line is an object/instrument, differing in kind from the first distractor's other factory in the group (an organisation); its own target is unstated here, so the story's target does not apply to it."
+    },
+    {
+      "story_id": 16,
+      "distractor_fact": "I en tidigare säsongs tävling gjordes ett resultat på {D} slag på ett hål vars par inte anges här.",
+      "gloss_en": "In a previous season's tournament, a score of {D} strokes was made on a hole whose par is not stated here.",
+      "entity_note": "The previous tournament is a different series/occasion, differing in kind from the first distractor's other golfer (a person); its hole's par is never given, so the story's stated par does not apply."
+    },
+    {
+      "story_id": 17,
+      "distractor_fact": "En resenär noterade att ett fristående tåg anlände klockan som motsvarar {D} minuter efter midnatt, enligt sin egen tidtabell.",
+      "gloss_en": "A traveler noted that an independent train arrived at the equivalent of {D} minutes after midnight, according to its own timetable.",
+      "entity_note": "The traveler is a person, differing in kind from the first distractor's other train line (an organisation); the independent train follows its own timetable, not the one stated in the story."
+    }
+  ]
+}

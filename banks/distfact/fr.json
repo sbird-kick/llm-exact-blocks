@@ -1,0 +1,96 @@
+{
+  "language_code": "fr",
+  "refused": [],
+  "items": [
+    {
+      "story_id": 1,
+      "distractor_fact": "Le thermomètre du village voisin indiquait {D} °C ce même matin.",
+      "gloss_en": "The thermometer in the neighboring village showed {D} °C that same morning.",
+      "entity_note": "A different thermometer, in a different village, not the one whose noon and morning readings are compared."
+    },
+    {
+      "story_id": 2,
+      "distractor_fact": "L'action d'une autre entreprise cotée en bourse valait {D} € ce jour-là.",
+      "gloss_en": "The stock of another listed company was worth {D} € that day.",
+      "entity_note": "A different company's share price, not the one whose close and open are compared."
+    },
+    {
+      "story_id": 3,
+      "distractor_fact": "En amont, le niveau d'une autre rivière atteignait {D} cm ce même soir.",
+      "gloss_en": "Upstream, the level of another river reached {D} cm that same evening.",
+      "entity_note": "A different river, not the one whose morning and evening levels are compared."
+    },
+    {
+      "story_id": 4,
+      "distractor_fact": "Un autre randonneur, sur un sentier voisin, a relevé une altitude de {D} m à son point de départ.",
+      "gloss_en": "Another hiker, on a nearby trail, recorded an altitude of {D} m at their starting point.",
+      "entity_note": "A different hiker on a different trail, not the one whose two landmarks are compared."
+    },
+    {
+      "story_id": 5,
+      "distractor_fact": "Sur un autre compte, le montant déposé s'élève à {D} €.",
+      "gloss_en": "On another account, the amount deposited comes to {D} €.",
+      "entity_note": "A different bank account, not the one whose deposit and withdrawal are compared."
+    },
+    {
+      "story_id": 8,
+      "distractor_fact": "Dans un autre foyer, les dépenses mensuelles s'élèvent à {D} €.",
+      "gloss_en": "In another household, monthly expenses come to {D} €.",
+      "entity_note": "A different household, not the one whose income and expenses are compared."
+    },
+    {
+      "story_id": 9,
+      "distractor_fact": "Le nombre de buts marqués par une autre équipe de la ligue s'élève à {D}.",
+      "gloss_en": "The number of goals scored by another team in the league comes to {D}.",
+      "entity_note": "A different team, not the one whose scored and conceded goals are compared."
+    },
+    {
+      "story_id": 10,
+      "distractor_fact": "Une autre usine du groupe a produit {D} t ce même mois.",
+      "gloss_en": "Another factory in the group produced {D} t that same month.",
+      "entity_note": "A different factory with its own unstated target, not the one compared to the stated objective."
+    },
+    {
+      "story_id": 11,
+      "distractor_fact": "Une autre boutique du centre commercial a réalisé un chiffre d'affaires de {D} € ce mois-ci.",
+      "gloss_en": "Another shop in the mall achieved revenue of {D} € this month.",
+      "entity_note": "A different shop with its own unstated target, not the one compared to the stated objective."
+    },
+    {
+      "story_id": 12,
+      "distractor_fact": "Dans une région voisine, les précipitations relevées ce mois-ci s'élèvent à {D} mm.",
+      "gloss_en": "In a neighboring region, rainfall recorded this month comes to {D} mm.",
+      "entity_note": "A different region with its own unstated forecast, not the one compared to the stated forecast."
+    },
+    {
+      "story_id": 13,
+      "distractor_fact": "Sur un autre parcours de golf, le nombre de coups joués par une golfeuse s'élève à {D}.",
+      "gloss_en": "On another golf course, the number of strokes played by a golfer comes to {D}.",
+      "entity_note": "A different course whose par is not stated, not the one compared to the stated par."
+    },
+    {
+      "story_id": 14,
+      "distractor_fact": "Sur une autre ligne, un autre train est arrivé à {D} min après le repère de référence de cette ligne.",
+      "gloss_en": "On another line, another train arrived at {D} min after that line's reference mark.",
+      "entity_note": "A different train on a different line with its own timetable, not the one compared to the stated schedule."
+    },
+    {
+      "story_id": 15,
+      "distractor_fact": "Dans un autre immeuble, un ascenseur s'est arrêté à un étage numéroté {D} par rapport à son propre rez-de-chaussée.",
+      "gloss_en": "In another building, an elevator stopped at a floor numbered {D} relative to its own ground floor.",
+      "entity_note": "A different elevator in a different building, referenced to its own ground floor."
+    },
+    {
+      "story_id": 16,
+      "distractor_fact": "Un autre capteur, installé dans une commune voisine, indiquait un niveau de {D} m par rapport à son propre repère de référence.",
+      "gloss_en": "Another sensor, installed in a neighboring town, showed a level of {D} m relative to its own reference mark.",
+      "entity_note": "A different sensor with its own reference mark, not the one compared here."
+    },
+    {
+      "story_id": 19,
+      "distractor_fact": "Une troisième tour, dans un autre quartier, culmine à une hauteur de {D} m.",
+      "gloss_en": "A third tower, in another neighborhood, stands at a height of {D} m.",
+      "entity_note": "A different tower in a different neighborhood, not the East or West tower being compared."
+    }
+  ]
+}

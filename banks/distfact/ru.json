@@ -1,0 +1,84 @@
+{
+  "language_code": "ru",
+  "refused": [],
+  "items": [
+    {
+      "story_id": 1,
+      "distractor_fact": "Термометр в соседнем посёлке тем же утром показывал {D} °C.",
+      "gloss_en": "The thermometer in the neighboring village showed {D} °C that same morning.",
+      "entity_note": "a different village's own thermometer, not the balcony thermometer whose evening/morning readings the question compares"
+    },
+    {
+      "story_id": 2,
+      "distractor_fact": "Акции другой компании на той же бирже в тот день стоили {D} $.",
+      "gloss_en": "Shares of a different company on the same exchange were worth {D} $ that day.",
+      "entity_note": "a different company's shares, not the one whose opening/closing price is compared"
+    },
+    {
+      "story_id": 4,
+      "distractor_fact": "На соседнем маршруте другой альпинист поднялся на высоту {D} м.",
+      "gloss_en": "On a neighboring route, a different climber ascended to an altitude of {D} m.",
+      "entity_note": "a different climber on a different route, not the one whose start/end altitudes are compared"
+    },
+    {
+      "story_id": 5,
+      "distractor_fact": "Вес другого спортсмена в той же группе составлял {D} кг.",
+      "gloss_en": "The weight of a different athlete in the same group was {D} kg.",
+      "entity_note": "a different athlete's weight, not the one whose before/after weights are compared"
+    },
+    {
+      "story_id": 7,
+      "distractor_fact": "У другого участника той же гонки радар зафиксировал скорость {D} км/ч.",
+      "gloss_en": "For a different competitor in the same race, the radar recorded a speed of {D} km/h.",
+      "entity_note": "a different competitor's recorded speed, not the finish/previous-section readings for this racer"
+    },
+    {
+      "story_id": 9,
+      "distractor_fact": "На отдельном счёте того же банка за тот же месяц было внесено {D} $.",
+      "gloss_en": "On a separate account at the same bank, {D} $ was deposited that same month.",
+      "entity_note": "a different account's deposit, not this account's deposited/withdrawn figures"
+    },
+    {
+      "story_id": 10,
+      "distractor_fact": "Расходы соседней семьи за тот же месяц составили {D} $.",
+      "gloss_en": "A neighboring family's expenses for that same month amounted to {D} $.",
+      "entity_note": "a different family's expenses, not this family's income/expenses"
+    },
+    {
+      "story_id": 11,
+      "distractor_fact": "Другой клуб того же дивизиона забил за сезон {D}.",
+      "gloss_en": "A different club in the same division scored {D} over the season.",
+      "entity_note": "a different club's goals scored, not this club's scored/conceded difference"
+    },
+    {
+      "story_id": 14,
+      "distractor_fact": "На другом поле в тот же день число ударов другого игрока равнялось {D}.",
+      "gloss_en": "On a different course that same day, another player's stroke count equaled {D}.",
+      "entity_note": "a different course and player whose own par is not stated, so it cannot pair with this course's par"
+    },
+    {
+      "story_id": 15,
+      "distractor_fact": "На соседнем маршруте фактическое время прибытия другого поезда соответствовало отметке {D} мин от полуночи.",
+      "gloss_en": "On a neighboring route, another train's actual arrival time corresponded to a mark of {D} minutes from midnight.",
+      "entity_note": "a different train on a different route, with its own unstated schedule, not this train's actual-vs-scheduled comparison"
+    },
+    {
+      "story_id": 17,
+      "distractor_fact": "В другом матче того же тура одна из команд забила {D}.",
+      "gloss_en": "In a different match of the same round, one of the teams scored {D}.",
+      "entity_note": "goals from an unrelated match, not the home/away teams the question compares"
+    },
+    {
+      "story_id": 19,
+      "distractor_fact": "В этом же забеге результат бегуна Сидорова составил {D}.",
+      "gloss_en": "In this same race, runner Sidorov's result was {D}.",
+      "entity_note": "a third runner's result, not Ivanov's or Petrov's, whose gap the question asks about"
+    },
+    {
+      "story_id": 20,
+      "distractor_fact": "В этой же группе результат студентки Соколовой на экзамене составил {D}.",
+      "gloss_en": "In this same group, student Sokolova's result on the exam was {D}.",
+      "entity_note": "a third student's result, not Kovalyova's or Morozova's, whose difference the question asks about"
+    }
+  ]
+}

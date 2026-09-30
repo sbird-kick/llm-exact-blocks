@@ -1,0 +1,78 @@
+{
+  "language_code": "eu",
+  "refused": [],
+  "items": [
+    {
+      "story_id": 1,
+      "distractor_fact": "Tokiko irrati batek {D}°C jakinarazi zituen goiz hartan.",
+      "gloss_en": "A local radio station reported {D}°C that same morning. (°C sits directly after the number, no suffix changes with size.)",
+      "entity_note": "a local radio station's weather report, an organisation, not the nearby village's thermometer (a place) that the first distractor used"
+    },
+    {
+      "story_id": 2,
+      "distractor_fact": "Merkatuko beste indize batek ${D}-ko balioa zuen egun berean.",
+      "gloss_en": "Another market index had a value of ${D} that same day. (\"-ko\" genitive attaches invariantly after the digit string.)",
+      "entity_note": "a market index, a benchmark instrument, not another company (an organisation) as the first distractor used"
+    },
+    {
+      "story_id": 3,
+      "distractor_fact": "Beste ur-konpainia batek {D}m-ko biltegi-maila zuen hilabete berean.",
+      "gloss_en": "Another water company had a storage level of {D}m that same month.",
+      "entity_note": "a different water company's own storage tank, an organisation, not another reservoir (a place) as the first distractor used"
+    },
+    {
+      "story_id": 4,
+      "distractor_fact": "Babes Zibileko unitate batek erabilitako aparailuak {D}m-ko altuera izan zuen proba berean.",
+      "gloss_en": "Equipment used by a Civil Protection unit reached an altitude of {D}m in the same trial.",
+      "entity_note": "equipment belonging to a Civil Protection unit, an organisation, not another drone (an instrument) as the first distractor used; avoids reusing the noun \"drone\""
+    },
+    {
+      "story_id": 5,
+      "distractor_fact": "Beste banaketa-enpresa batek {D}kg-ko zama garraiatu zuen egun berean.",
+      "gloss_en": "Another delivery company transported a load of {D}kg that same day.",
+      "entity_note": "a different delivery company's shipment, an organisation, not another package (an object) as the first distractor used"
+    },
+    {
+      "story_id": 6,
+      "distractor_fact": "Antolatzaileek erabilitako erreferentzia-ibilgailu batek {D}km/h-ko abiadura izan zuen proba berean.",
+      "gloss_en": "A reference vehicle used by the organizers reached a speed of {D}km/h in the same trial.",
+      "entity_note": "the organizers' own reference vehicle, an organisation's equipment, not another engine (an instrument) as the first distractor used; avoids reusing the noun \"motor\""
+    },
+    {
+      "story_id": 7,
+      "distractor_fact": "Iazko txapelketan, sailkapenburuak {D}pts lortu zituen.",
+      "gloss_en": "In last year's tournament, the ranking leader scored {D}pts.",
+      "entity_note": "a different tournament's ranking leader, a different series/edition, not another player in the same session (a person) as the first distractor used"
+    },
+    {
+      "story_id": 8,
+      "distractor_fact": "Bankuak beste sukurtsal batean ${D}-ko funts orokorra zuen hilabete berean.",
+      "gloss_en": "The bank had a general fund of ${D} at a different branch that same month.",
+      "entity_note": "a different bank branch, a place, not another client's account (a person) as the first distractor used"
+    },
+    {
+      "story_id": 9,
+      "distractor_fact": "Beste kide-elkarte batek {D}pts zituen erreserban urte berean.",
+      "gloss_en": "Another members' association had {D}pts in reserve that same year.",
+      "entity_note": "a different members' association, an organisation, not another club member (a person) as the first distractor used"
+    },
+    {
+      "story_id": 11,
+      "distractor_fact": "Kontsultari batek bere kontuan ${D} irabazi zituen hilabete berean.",
+      "gloss_en": "A consultant earned ${D} in their own account that same month.",
+      "entity_note": "an unrelated individual consultant, a person, not another shop (an organisation) as the first distractor used"
+    },
+    {
+      "story_id": 12,
+      "distractor_fact": "Denboraldi horretako golegile nagusiak {D} gol sartu zituen bere kabuz.",
+      "gloss_en": "That season's top scorer scored {D} goals on their own.",
+      "entity_note": "an individual top scorer, a person, not another team (an organisation) as the first distractor used"
+    },
+    {
+      "story_id": 16,
+      "distractor_fact": "Konpainia bereko autobus-zerbitzu batek {D}min-eko atzerapena izan zuen egun berean, bere ordutegi propioaren arabera.",
+      "gloss_en": "A bus service run by the same company had a delay of {D}min that same day, according to its own separate schedule.",
+      "entity_note": "a bus service with its own unstated schedule, a different transport mode/instrument, not another train on a different line (a series) as the first distractor used"
+    }
+  ]
+}

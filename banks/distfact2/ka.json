@@ -1,0 +1,78 @@
+{
+  "language_code": "ka",
+  "refused": [],
+  "items": [
+    {
+      "story_id": 1,
+      "distractor_fact": "მეტეოროლოგიური სამსახურის ცნობით, ამ დღეს რეგიონში საშუალო ტემპერატურა იყო {D}°C.",
+      "gloss_en": "According to the meteorological service, the average temperature in the region that day was {D}°C.",
+      "entity_note": "the regional meteorological service (an organization reporting a regional average), not the neighboring village (a place) used by the first distractor"
+    },
+    {
+      "story_id": 2,
+      "distractor_fact": "ბროკერის მიერ დადგენილი სამიზნე ფასი ამ აქციისთვის იყო {D}$.",
+      "gloss_en": "The target price set by a broker for this stock was {D}$.",
+      "entity_note": "a broker (a person setting a target price), not the second company (an organization) used by the first distractor"
+    },
+    {
+      "story_id": 3,
+      "distractor_fact": "წყალმომარაგების კომპანიის საკუთარ რეზერვუარში იმავე დღეს დონე იყო {D} მეტრი.",
+      "gloss_en": "At the water-supply company's own reservoir, the level that same day was {D} meters.",
+      "entity_note": "a water-supply company's reservoir (an organization), not the neighboring river (a place) used by the first distractor"
+    },
+    {
+      "story_id": 4,
+      "distractor_fact": "მეორე ლაშქრობის ჯგუფის GPS მოწყობილობამ დააფიქსირა მისი საწყისი წერტილის სიმაღლე {D} მეტრი.",
+      "gloss_en": "A different hiking group's GPS device recorded their own starting point's altitude as {D} meters.",
+      "entity_note": "a different hiking group's GPS device (an instrument belonging to another party), not the neighboring peak (a place) used by the first distractor"
+    },
+    {
+      "story_id": 6,
+      "distractor_fact": "სხვა კლიენტმა ამავე ბანკში, ამავე თვეს, გადარიცხა {D} ლარი.",
+      "gloss_en": "A different client transferred {D} lari at the same bank that same month.",
+      "entity_note": "a different bank client (a person), not the different account (an object) used by the first distractor"
+    },
+    {
+      "story_id": 9,
+      "distractor_fact": "ამ გუნდის ბომბარდირმა ცალკე, ეროვნულ ნაკრებში, სეზონის განმავლობაში გაიტანა {D} გოლი.",
+      "gloss_en": "This team's top scorer, playing separately for the national team, scored {D} goals during the season.",
+      "entity_note": "an individual player's separate national-team tally (a person, in another series), not the different team (an organization) used by the first distractor"
+    },
+    {
+      "story_id": 10,
+      "distractor_fact": "ერთ-ერთმა საინვესტიციო ფონდმა ამავე წელს მოიგო {D} ლარი.",
+      "gloss_en": "An investment fund earned {D} lari that same year.",
+      "entity_note": "an investment fund (an organization), not the different investor (a person) used by the first distractor"
+    },
+    {
+      "story_id": 11,
+      "distractor_fact": "ერთ-ერთმა დამოუკიდებელმა ხელოსანმა ამავე თვეს დაამზადა {D} ერთეული ნაკეთობა.",
+      "gloss_en": "One independent craftsman made {D} units of product that same month.",
+      "entity_note": "an independent craftsman (a person with no stated target), not the second factory (an organization) used by the first distractor"
+    },
+    {
+      "story_id": 12,
+      "distractor_fact": "ერთ-ერთმა დამოუკიდებელმა ვაჭარმა ბაზარზე ამავე დღეს გაყიდა {D} ლარის ღირებულების საქონელი.",
+      "gloss_en": "An independent market vendor sold {D} lari worth of goods that same day.",
+      "entity_note": "an independent vendor (a person with no stated target), not the neighboring shop (an organization) used by the first distractor"
+    },
+    {
+      "story_id": 14,
+      "distractor_fact": "გოლფის ფედერაციის მონაცემებით, ამ სეზონის საშუალო ტურნირული შედეგი იყო {D} დარტყმა.",
+      "gloss_en": "According to the golf federation, the average tournament score this season was {D} strokes.",
+      "entity_note": "the golf federation's aggregate statistic (an organization), not the other golfer on another course (a person/place) used by the first distractor"
+    },
+    {
+      "story_id": 15,
+      "distractor_fact": "ავტობუსების კომპანიის ცნობით, სხვა მარშრუტის ავტობუსი იმ დილით ჩამოვიდა {D} წუთზე.",
+      "gloss_en": "According to the bus company, a bus on a different route arrived at the {D}-minute mark that morning.",
+      "entity_note": "a bus company's own route (an organization, a different transport mode), not the train on a different line (an instrument/series) used by the first distractor"
+    },
+    {
+      "story_id": 17,
+      "distractor_fact": "ლიგის საუკეთესო ბომბარდირმა სეზონში ინდივიდუალურად გაიტანა {D} გოლი.",
+      "gloss_en": "The league's top individual scorer scored {D} goals during the season, individually.",
+      "entity_note": "an individual player (a person), not the third team (an organization) used by the first distractor"
+    }
+  ]
+}

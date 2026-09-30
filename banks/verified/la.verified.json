@@ -1,0 +1,197 @@
+{
+ "language": "Latin",
+ "language_code": "la",
+ "lead_in": "Responsum est",
+ "decimal_separator": ",",
+ "items": [
+  {
+   "story_id": 1,
+   "bank": "A",
+   "domain": "change",
+   "unit": "°C",
+   "sign_convention": "after minus before",
+   "gloss_en": "In the afternoon the temperature is {M}°C, while in the morning it was {S}°C. What was the change in temperature from morning to afternoon?",
+   "decimals_natural": true,
+   "facts_min_first": "Tempore pomeridiano, temperatura est {M}°C, dum tempore matutino temperatura fuit {S}°C.",
+   "facts_sub_first": "Tempore matutino, temperatura fuit {S}°C, dum tempore pomeridiano temperatura est {M}°C.",
+   "question": "Quae fuit mutatio temperaturae a mane ad vesperam?",
+   "distractor_sentence": "Notitiae ex statione numero {D} collectae sunt.",
+   "agreement_note": "Symbolum unitatis °C statim post numerum digitis Arabicis scriptum ponitur; nulla verbi Latini declinatio ex numeri magnitudine pendet (3, 51, 4870 aeque valent).",
+   "agreement_safe": true,
+   "distractor_ok": true,
+   "verifier": {
+    "tag": "V13",
+    "natural": 2,
+    "comment": "Question says 'ad vesperam' though the facts say 'tempore pomeridiano'."
+   }
+  },
+  {
+   "story_id": 2,
+   "bank": "A",
+   "domain": "change",
+   "unit": "$",
+   "sign_convention": "after minus before",
+   "gloss_en": "At market close the share price is ${M}, while at market open it was ${S}. What was the change in price from open to close?",
+   "decimals_natural": true,
+   "facts_min_first": "Cum mercatus clauditur, pretium partis est ${M}, dum cum mercatus aperitur pretium fuit ${S}.",
+   "facts_sub_first": "Cum mercatus aperitur, pretium partis fuit ${S}, dum cum mercatus clauditur pretium est ${M}.",
+   "question": "Quae fuit mutatio pretii ab apertura ad clausuram?",
+   "distractor_sentence": "Societas haec sub numero indicis {D} inscripta est.",
+   "agreement_note": "Symbolum unitatis $ statim post numerum digitis Arabicis scriptum ponitur; nulla verbi Latini declinatio ex numeri magnitudine pendet (3, 51, 4870 aeque valent).",
+   "agreement_safe": true,
+   "distractor_ok": true,
+   "verifier": {
+    "tag": "V13",
+    "natural": 2,
+    "comment": ""
+   }
+  },
+  {
+   "story_id": 3,
+   "bank": "A",
+   "domain": "change",
+   "unit": "m",
+   "sign_convention": "after minus before",
+   "gloss_en": "This month the reservoir's water level reached {M} m, while last month it was {S} m. What was the change in the water level from last month to now?",
+   "decimals_natural": true,
+   "facts_min_first": "Hoc mense, altitudo aquae in receptaculo ad {M}m pervenit, dum mense praeterito altitudo fuit {S}m.",
+   "facts_sub_first": "Mense praeterito, altitudo aquae in receptaculo fuit {S}m, dum hoc mense altitudo ad {M}m pervenit.",
+   "question": "Quae fuit mutatio altitudinis aquae a mense praeterito ad hunc diem?",
+   "distractor_sentence": "Receptaculum hoc prope viam numero {D} exstructum est.",
+   "agreement_note": "Symbolum unitatis m statim post numerum digitis Arabicis scriptum ponitur; nulla verbi Latini declinatio ex numeri magnitudine pendet (3, 51, 4870 aeque valent).",
+   "agreement_safe": true,
+   "distractor_ok": true,
+   "verifier": {
+    "tag": "V13",
+    "natural": 2,
+    "comment": "Question ends 'ad hunc diem' although the facts contrast months."
+   }
+  },
+  {
+   "story_id": 4,
+   "bank": "A",
+   "domain": "change",
+   "unit": "m",
+   "sign_convention": "after minus before",
+   "gloss_en": "In the final measurement the drone's altitude is {M} m, but in the initial measurement it was {S} m. What was the change in the drone's altitude from the initial to the final measurement?",
+   "decimals_natural": true,
+   "facts_min_first": "In mensura ultima, altitudo aeronavis automatae est {M}m, sed in mensura prima altitudo fuit {S}m.",
+   "facts_sub_first": "In mensura prima, altitudo aeronavis automatae fuit {S}m, sed in mensura ultima altitudo est {M}m.",
+   "question": "Quae fuit mutatio altitudinis aeronavis automatae a mensura prima ad ultimam?",
+   "distractor_sentence": "Aeronavis haec exemplar numero {D} est.",
+   "agreement_note": "Symbolum unitatis m statim post numerum digitis Arabicis scriptum ponitur; nulla verbi Latini declinatio ex numeri magnitudine pendet (3, 51, 4870 aeque valent).",
+   "agreement_safe": true,
+   "distractor_ok": true,
+   "verifier": {
+    "tag": "V13",
+    "natural": 2,
+    "comment": ""
+   }
+  },
+  {
+   "story_id": 5,
+   "bank": "A",
+   "domain": "change",
+   "unit": "kg",
+   "sign_convention": "after minus before",
+   "gloss_en": "After the journey the package weighs {M} kg, but before shipping it weighed {S} kg. What was the change in the package's weight from before to after shipping?",
+   "decimals_natural": true,
+   "facts_min_first": "Post iter, pondus sarcinae est {M}kg, sed ante missionem pondus fuit {S}kg.",
+   "facts_sub_first": "Ante missionem, pondus sarcinae fuit {S}kg, sed post iter pondus est {M}kg.",
+   "question": "Quae fuit mutatio ponderis sarcinae ab initio ad finem missionis?",
+   "distractor_sentence": "Sarcina haec titulum numero {D} affixum habet.",
+   "agreement_note": "Symbolum unitatis kg statim post numerum digitis Arabicis scriptum ponitur; nulla verbi Latini declinatio ex numeri magnitudine pendet (3, 51, 4870 aeque valent).",
+   "agreement_safe": true,
+   "distractor_ok": true,
+   "verifier": {
+    "tag": "V13",
+    "natural": 2,
+    "comment": "Facts say 'post iter' but the question says 'ad finem missionis'."
+   }
+  },
+  {
+   "story_id": 6,
+   "bank": "A",
+   "domain": "change",
+   "unit": "km/h",
+   "sign_convention": "after minus before",
+   "gloss_en": "In the final reading the engine's speed is {M} km/h, while in the initial reading it was {S} km/h. What was the change in the engine's speed from the initial to the final reading?",
+   "decimals_natural": true,
+   "facts_min_first": "In mensura ultima, celeritas machinae est {M}km/h, dum in mensura prima celeritas fuit {S}km/h.",
+   "facts_sub_first": "In mensura prima, celeritas machinae fuit {S}km/h, dum in mensura ultima celeritas est {M}km/h.",
+   "question": "Quae fuit mutatio celeritatis machinae a mensura prima ad ultimam?",
+   "distractor_sentence": "Machina haec numerum seriei {D} habet.",
+   "agreement_note": "Symbolum unitatis km/h statim post numerum digitis Arabicis scriptum ponitur; nulla verbi Latini declinatio ex numeri magnitudine pendet (3, 51, 4870 aeque valent).",
+   "agreement_safe": true,
+   "distractor_ok": true,
+   "verifier": {
+    "tag": "V13",
+    "natural": 2,
+    "comment": ""
+   }
+  },
+  {
+   "story_id": 7,
+   "bank": "A",
+   "domain": "change",
+   "unit": "pts",
+   "sign_convention": "after minus before",
+   "gloss_en": "At the end of the session the player's score is {M} pts, while at the start it was {S} pts. What was the change in the player's score from the start to the end of the session?",
+   "decimals_natural": false,
+   "facts_min_first": "In fine lusus, numerus punctorum lusoris est {M}pts, dum in initio lusus numerus fuit {S}pts.",
+   "facts_sub_first": "In initio lusus, numerus punctorum lusoris fuit {S}pts, dum in fine lusus numerus est {M}pts.",
+   "question": "Quae fuit mutatio numeri punctorum lusoris ab initio ad finem lusus?",
+   "distractor_sentence": "Lusor hic instrumento numero {D} utitur.",
+   "agreement_note": "Symbolum unitatis pts statim post numerum digitis Arabicis scriptum ponitur; nulla verbi Latini declinatio ex numeri magnitudine pendet (3, 51, 4870 aeque valent).",
+   "agreement_safe": true,
+   "distractor_ok": true,
+   "verifier": {
+    "tag": "V13",
+    "natural": 2,
+    "comment": ""
+   }
+  },
+  {
+   "story_id": 12,
+   "bank": "A",
+   "domain": "net",
+   "unit": "",
+   "sign_convention": "in minus out",
+   "gloss_en": "Over the season, goals scored by the team amounted to {M}, and goals conceded amounted to {S}. What was the team's goal difference for the season?",
+   "decimals_natural": false,
+   "facts_min_first": "Per totum tempus, grex puncta accepta ad numerum {M} attigit, dum puncta concessa ad numerum {S} attigerunt.",
+   "facts_sub_first": "Per totum tempus, grex puncta concessa ad numerum {S} attigit, dum puncta accepta ad numerum {M} attigerunt.",
+   "question": "Quae fuit differentia punctorum gregis per totum tempus?",
+   "distractor_sentence": "Grex hic in ordine numero {D} certat.",
+   "agreement_note": "Numerus digitis Arabicis scriptus est obiectum praepositionis vel praedicatum, non nomen numeratum; vox Latina proxima (numerum, copiam) semper eadem forma manet, quaecumque sit magnitudo numeri.",
+   "agreement_safe": true,
+   "distractor_ok": true,
+   "verifier": {
+    "tag": "V13",
+    "natural": 2,
+    "comment": "'puncta accepta' is a strained way to say points scored next to 'puncta concessa'."
+   }
+  },
+  {
+   "story_id": 16,
+   "bank": "A",
+   "domain": "arrival vs schedule",
+   "unit": "min",
+   "sign_convention": "actual minus scheduled, late counted positive",
+   "gloss_en": "The train's actual arrival is {M} min after midnight, while its scheduled time is {S} min after midnight. How many minutes is the actual arrival relative to schedule, with lateness counted as positive?",
+   "decimals_natural": false,
+   "facts_min_first": "Tempus adventus revera est {M}min post mediam noctem, dum tempus secundum tabulam est {S}min.",
+   "facts_sub_first": "Tempus secundum tabulam est {S}min post mediam noctem, dum tempus adventus revera est {M}min.",
+   "question": "Quot minutis adventus revera a tabula distat, mora tamquam numerus positivus computata?",
+   "distractor_sentence": "Hic currus numero {D} signatus est.",
+   "agreement_note": "Symbolum unitatis min statim post numerum digitis Arabicis scriptum ponitur; nulla verbi Latini declinatio ex numeri magnitudine pendet (3, 51, 4870 aeque valent).",
+   "agreement_safe": true,
+   "distractor_ok": true,
+   "verifier": {
+    "tag": "V13",
+    "natural": 2,
+    "comment": ""
+   }
+  }
+ ]
+}

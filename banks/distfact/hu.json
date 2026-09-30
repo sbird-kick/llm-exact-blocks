@@ -1,0 +1,90 @@
+{
+  "language_code": "hu",
+  "refused": [],
+  "items": [
+    {
+      "story_id": 1,
+      "distractor_fact": "A szomszédos városban ugyanezen a reggelen {D} fokot mértek.",
+      "gloss_en": "In the neighbouring town, {D} degrees was measured that same morning.",
+      "entity_note": "a different town's own thermometer, not the noon/morning readings of this story's thermometer"
+    },
+    {
+      "story_id": 2,
+      "distractor_fact": "A tőzsdén egy másik termék napi záróára {D} dollár volt.",
+      "gloss_en": "On the exchange, a different product's daily closing price was {D} dollars.",
+      "entity_note": "a different traded product, not the one whose opening and closing price are compared"
+    },
+    {
+      "story_id": 3,
+      "distractor_fact": "A szomszédos tó vízszintje ugyanazon a hétvégén {D} méteren állt.",
+      "gloss_en": "The neighbouring lake's water level stood at {D} meters that same weekend.",
+      "entity_note": "a different lake, not the one whose level change since the start of the week is asked about"
+    },
+    {
+      "story_id": 4,
+      "distractor_fact": "Egy másik drón ugyanezen a napon {D} méter magasságban repült.",
+      "gloss_en": "A different drone flew at an altitude of {D} meters that same day.",
+      "entity_note": "a different drone, not the one whose landing and takeoff altitudes are given"
+    },
+    {
+      "story_id": 5,
+      "distractor_fact": "Egy másik csomag tömege feladáskor {D} kilogramm volt.",
+      "gloss_en": "A different package's weight at shipping was {D} kilograms.",
+      "entity_note": "a different package, not the one whose delivery and shipping weight are compared"
+    },
+    {
+      "story_id": 6,
+      "distractor_fact": "A szomszédos település lakossága ugyanabban az évben {D} fő volt.",
+      "gloss_en": "The neighbouring settlement's population was {D} people in that same year.",
+      "entity_note": "a different settlement's own population, not the village whose year-over-year change is asked about"
+    },
+    {
+      "story_id": 7,
+      "distractor_fact": "Egy másik autó sebessége ugyanazon az úton {D} kilométer per óra volt.",
+      "gloss_en": "A different car's speed on that same road was {D} kilometers per hour.",
+      "entity_note": "a different car, not the one whose speed at the two checkpoints is compared"
+    },
+    {
+      "story_id": 9,
+      "distractor_fact": "Egy másik takarékszámlára ugyanabban a hónapban {D} eurót fizettek be.",
+      "gloss_en": "Into a different savings account, {D} euros were deposited in that same month.",
+      "entity_note": "a different savings account, not the one whose deposits and withdrawals set the balance"
+    },
+    {
+      "story_id": 10,
+      "distractor_fact": "Egy másik háztartás bevétele ugyanabban a hónapban {D} forint volt.",
+      "gloss_en": "A different household's income in that same month was {D} forints.",
+      "entity_note": "a different household, not the one whose income and expenses give the net result"
+    },
+    {
+      "story_id": 11,
+      "distractor_fact": "Egy másik csapat a szezonban {D} gólt szerzett.",
+      "gloss_en": "A different team scored {D} goals in the season.",
+      "entity_note": "a rival team's own tally, not the team whose scored/conceded goals give its goal difference"
+    },
+    {
+      "story_id": 12,
+      "distractor_fact": "Egy másik gyár a hónapban {D} darabot gyártott.",
+      "gloss_en": "A different factory produced {D} units in the month.",
+      "entity_note": "a different factory with its own unstated plan, not the factory whose production is compared to its stated target"
+    },
+    {
+      "story_id": 13,
+      "distractor_fact": "A szomszédos településen ugyanazon a napon {D} milliméter csapadék hullott.",
+      "gloss_en": "In the neighbouring settlement, {D} millimeters of rain fell that same day.",
+      "entity_note": "a different settlement's own rainfall, not the town whose rainfall is compared to its stated forecast"
+    },
+    {
+      "story_id": 14,
+      "distractor_fact": "Egy másik játékos egy másik lyukon {D} ütést használt.",
+      "gloss_en": "A different player used {D} strokes on a different hole.",
+      "entity_note": "a different player on a different hole whose par is not stated, not this hole's par comparison"
+    },
+    {
+      "story_id": 15,
+      "distractor_fact": "Egy másik vonat egy másik vonalon a(z) {D}. percben futott be.",
+      "gloss_en": "A different train on a different line arrived at minute {D}.",
+      "entity_note": "a different train on a different line and timetable, not the train whose arrival is compared to its own schedule"
+    }
+  ]
+}

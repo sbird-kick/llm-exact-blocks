@@ -1,0 +1,78 @@
+{
+  "language_code": "fa",
+  "refused": [],
+  "items": [
+    {
+      "story_id": 1,
+      "distractor_fact": "یک همسایه با دماسنج خانگی خود، در همان روز دمای هوا را {D} درجه سانتی‌گراد ثبت کرد.",
+      "gloss_en": "A neighbor recorded the air temperature as {D} degrees Celsius with their own home thermometer on the same day.",
+      "entity_note": "different kind of owner: a person (a neighbor's home thermometer reading), not a place (another city's weather station) like the first distractor."
+    },
+    {
+      "story_id": 2,
+      "distractor_fact": "قیمت واحد یک صندوق قابل معامله در بورس یک کشور دیگر، در همان روز {D} دلار بود.",
+      "gloss_en": "The price of a unit of an exchange-traded fund on a different country's stock exchange was {D} dollars on the same day.",
+      "entity_note": "different kind of owner: a place (a foreign stock exchange), not another company (an organisation) like the first distractor."
+    },
+    {
+      "story_id": 3,
+      "distractor_fact": "یک کشاورز محلی، سطح آب کانال آبیاری زمین خود را در همان هفته {D} متر گزارش کرد.",
+      "gloss_en": "A local farmer reported the water level of his own irrigation canal as {D} meters in the same week.",
+      "entity_note": "different kind of owner: a person (a farmer and his own canal), not another reservoir (a place) like the first distractor."
+    },
+    {
+      "story_id": 4,
+      "distractor_fact": "یک شرکت پهپادبرداری دیگر، ارتفاع پرواز پهپاد متعلق به خود را در همان بازه زمانی {D} متر گزارش کرد.",
+      "gloss_en": "A different drone-operation company reported the flight altitude of its own drone as {D} meters during the same period.",
+      "entity_note": "different kind of owner: an organisation (a company operating its own drone), not simply another drone (an object/instrument) like the first distractor."
+    },
+    {
+      "story_id": 5,
+      "distractor_fact": "ترازوی دیگری در همان کلینیک، برای کالیبراسیون روی {D} کیلوگرم تنظیم شده بود.",
+      "gloss_en": "A different scale at the same clinic was calibrated to show {D} kilograms.",
+      "entity_note": "different kind of owner: an instrument (a calibration scale), not another patient (a person) like the first distractor."
+    },
+    {
+      "story_id": 6,
+      "distractor_fact": "اداره آمار یک منطقه دیگر، جمعیت تحت پوشش خود را در همان سال {D} نفر ثبت کرد.",
+      "gloss_en": "A statistics office of a different region recorded the population under its jurisdiction as {D} people in the same year.",
+      "entity_note": "different kind of owner: an organisation (a statistics office and the area it covers), not simply another village (a place) like the first distractor."
+    },
+    {
+      "story_id": 7,
+      "distractor_fact": "ایستگاه رادار دیگری در جاده‌ای دیگر، سرعت یک خودرو را در همان روز {D} کیلومتر بر ساعت ثبت کرد.",
+      "gloss_en": "A different radar station on a different road recorded a car's speed as {D} kilometers per hour on the same day.",
+      "entity_note": "different kind of owner: a place (a radar station on a different road), not another car (an object) like the first distractor."
+    },
+    {
+      "story_id": 8,
+      "distractor_fact": "یک نفر دیگر طی همین ماه {D} دلار به صندوق نقدی شخصی خود واریز کرد.",
+      "gloss_en": "Another person deposited {D} dollars into their own personal cash box during the same month.",
+      "entity_note": "different kind of owner: a person's personal cash holdings, not another bank account (an institutional entity) like the first distractor."
+    },
+    {
+      "story_id": 10,
+      "distractor_fact": "یک سازمان خیریه، طی همان ماه {D} دلار هزینه کرد.",
+      "gloss_en": "A charity organization spent {D} dollars during the same month.",
+      "entity_note": "different kind of owner: an organisation (a charity), not another household (a family/person unit) like the first distractor."
+    },
+    {
+      "story_id": 11,
+      "distractor_fact": "یک بازیکن دیگر، به‌تنهایی در طول همان فصل {D} گل زد.",
+      "gloss_en": "A different individual player alone scored {D} goals during the same season.",
+      "entity_note": "different kind of owner: a person (an individual player), not another team (an organisation) like the first distractor."
+    },
+    {
+      "story_id": 12,
+      "distractor_fact": "یک صندوق سرمایه‌گذاری دیگر، در همان هفته {D} دلار سود کرد.",
+      "gloss_en": "A different investment fund made {D} dollars in profit during the same week.",
+      "entity_note": "different kind of owner: an organisation (an investment fund), not another individual trader (a person) like the first distractor."
+    },
+    {
+      "story_id": 15,
+      "distractor_fact": "یک باشگاه گلف دیگر، امتیاز یکی از اعضای خود را در زمین متعلق به خودشان {D} ضربه اعلام کرد.",
+      "gloss_en": "A different golf club announced one of its own members' score as {D} strokes on its own course.",
+      "entity_note": "shared-reference domain, different kind of owner: an organisation (a golf club with its own course), not simply another golfer at another course (a person) like the first distractor; the club's own course has its own unstated par, not the {S} given in this story."
+    }
+  ]
+}

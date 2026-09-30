@@ -1,0 +1,96 @@
+{
+ "language_code": "fr",
+ "refused": [],
+ "items": [
+  {
+   "story_id": 1,
+   "distractor_fact": "Le thermomètre d'un voisin, relevé à la même heure, indiquait {D} °C.",
+   "gloss_en": "A neighbor's thermometer, read at the same hour, showed {D} °C.",
+   "entity_note": "a neighbor's own instrument (a person), not a different village's thermometer (a place) as in the first distractor, and not the thermometer whose morning and evening readings are compared"
+  },
+  {
+   "story_id": 2,
+   "distractor_fact": "Une obligation d'État se négociait à {D} € ce jour-là.",
+   "gloss_en": "A government bond was trading at {D} € that day.",
+   "entity_note": "a different financial instrument (a government bond), not a different listed company (an organisation) as in the first distractor, and not the stock whose close and open are compared"
+  },
+  {
+   "story_id": 3,
+   "distractor_fact": "Une échelle de crue installée sur un pont plus en aval indiquait un niveau de {D} cm ce même soir.",
+   "gloss_en": "A flood gauge installed on a bridge further downstream showed a level of {D} cm that same evening.",
+   "entity_note": "a fixed measuring instrument at another site, not a different river (a place) as in the first distractor, and not the river whose morning and evening levels are compared"
+  },
+  {
+   "story_id": 4,
+   "distractor_fact": "Une borne géodésique installée à l'entrée du parc indique une altitude de {D} m.",
+   "gloss_en": "A geodesic marker installed at the park entrance shows an altitude of {D} m.",
+   "entity_note": "a fixed instrument, not a different hiker (a person) as in the first distractor, and not either of the two landmarks whose altitudes are compared"
+  },
+  {
+   "story_id": 5,
+   "distractor_fact": "Un autre client de la banque a déposé un montant de {D} € ce même mois.",
+   "gloss_en": "Another bank customer deposited an amount of {D} € that same month.",
+   "entity_note": "a person (a different customer), not a different account as in the first distractor, and not the account whose deposit and withdrawal are compared"
+  },
+  {
+   "story_id": 8,
+   "distractor_fact": "Une personne vivant seule déclare avoir dépensé {D} € ce même mois.",
+   "gloss_en": "A person living alone reports having spent {D} € that same month.",
+   "entity_note": "a person (an individual), not a different household group as in the first distractor, and not the household whose income and expenses are compared"
+  },
+  {
+   "story_id": 9,
+   "distractor_fact": "Un attaquant vedette de la ligue a inscrit {D} buts à titre individuel cette saison.",
+   "gloss_en": "A star forward in the league scored {D} goals individually this season.",
+   "entity_note": "a person (an individual player), not a different team (an organisation) as in the first distractor, and not the team whose goals scored and conceded are compared"
+  },
+  {
+   "story_id": 10,
+   "distractor_fact": "L'année précédente, l'ensemble du secteur avait produit {D} t, un chiffre sans rapport avec l'objectif fixé cette année à l'usine étudiée ici.",
+   "gloss_en": "The previous year, the sector as a whole had produced {D} t, a figure unrelated to the target set this year for the factory in question here.",
+   "entity_note": "a different time series for a different aggregate entity (the whole sector, a year earlier), not a different factory (an organisation) as in the first distractor; explicitly unrelated to the stated target"
+  },
+  {
+   "story_id": 11,
+   "distractor_fact": "Sur le marché voisin, un vendeur indépendant, pour lequel aucun objectif n'a été fixé, a réalisé un chiffre d'affaires de {D} € ce mois-ci.",
+   "gloss_en": "At the neighboring market, an independent vendor, for whom no target has been set, made revenue of {D} € this month.",
+   "entity_note": "a person (an independent vendor), not a different shop (an organisation) as in the first distractor; explicitly has no target set, unlike the objective given for the shop being compared"
+  },
+  {
+   "story_id": 12,
+   "distractor_fact": "Un agriculteur d'une exploitation voisine a mesuré, avec son propre pluviomètre, {D} mm ce mois-ci, un relevé sans lien avec les prévisions officielles étudiées ici.",
+   "gloss_en": "A farmer at a neighboring farm measured, with his own rain gauge, {D} mm this month, a reading unrelated to the official forecast under study here.",
+   "entity_note": "a person (a farmer with a private rain gauge), not a different region (a place) as in the first distractor; explicitly unrelated to the stated forecast"
+  },
+  {
+   "story_id": 13,
+   "distractor_fact": "Lors d'un tournoi disputé l'année précédente, {D} coups ont suffi pour boucler un parcours dont le par n'est pas précisé ici.",
+   "gloss_en": "In a tournament played the previous year, {D} strokes were enough to complete a round on a course whose par is not given here.",
+   "entity_note": "a different occasion (an earlier tournament, a series), not a different golf course (a place) as in the first distractor; its par is explicitly not stated, unlike the par compared in the story"
+  },
+  {
+   "story_id": 14,
+   "distractor_fact": "Le service de fret, exploité par une compagnie différente, a enregistré une arrivée à {D} min après son propre repère de référence, sans lien avec l'horaire voyageurs étudié ici.",
+   "gloss_en": "The freight service, operated by a different company, recorded an arrival at {D} min after its own reference point, unrelated to the passenger schedule under study here.",
+   "entity_note": "an organisation (a different operating company), not a different train (an instrument) as in the first distractor; explicitly unrelated to the stated passenger schedule"
+  },
+  {
+   "story_id": 15,
+   "distractor_fact": "Dans un centre commercial dont la maintenance est assurée par une société différente, un monte-charge s'est arrêté à un niveau numéroté {D} par rapport à son propre rez-de-chaussée.",
+   "gloss_en": "In a shopping center maintained by a different company, a freight lift stopped at a level numbered {D} relative to its own ground floor.",
+   "entity_note": "an organisation (a different maintenance company), not a different building (a place) as in the first distractor; referenced to its own ground floor, distinct from the elevator being compared"
+  },
+  {
+   "story_id": 16,
+   "distractor_fact": "Un hydrogéologue indépendant, chargé d'une étude distincte, a mesuré un niveau de {D} m par rapport à son propre repère de référence.",
+   "gloss_en": "An independent hydrogeologist, in charge of a separate study, measured a level of {D} m relative to his own reference mark.",
+   "entity_note": "a person (an independent hydrogeologist), not a different sensor (an instrument) as in the first distractor; referenced to his own mark, distinct from the sensor being compared"
+  },
+  {
+   "story_id": 19,
+   "distractor_fact": "Un autre projet immobilier, porté par un promoteur différent, prévoit une tour culminant à {D} m.",
+   "gloss_en": "A different real-estate project, backed by a different developer, plans a tower reaching {D} m.",
+   "entity_note": "an organisation (a different developer), not a different neighborhood (a place) as in the first distractor, and not the East or West tower being compared"
+  }
+ ]
+}

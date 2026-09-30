@@ -1,0 +1,102 @@
+{
+  "language_code": "sr",
+  "refused": [],
+  "items": [
+    {
+      "story_id": 1,
+      "distractor_fact": "Комшија је истог јутра на свом термометру очитао {D} °C.",
+      "gloss_en": "The neighbor read {D} °C on his own thermometer that same morning.",
+      "entity_note": "a different person (the neighbor) reading his own thermometer, unlike the first distractor's different village (a place)"
+    },
+    {
+      "story_id": 2,
+      "distractor_fact": "Обвезница истог предузећа тог дана продавана је по {D} €.",
+      "gloss_en": "Bonds of the same company were selling at {D} € that day.",
+      "entity_note": "a different financial instrument (the company's bond), unlike the first distractor's different company (an organisation)"
+    },
+    {
+      "story_id": 3,
+      "distractor_fact": "Републички хидрометеоролошки завод је за своју контролну тачку на суседном водотоку тог дана објавио ниво од {D} cm.",
+      "gloss_en": "The National Hydrometeorological Institute published a level of {D} cm for its own monitoring point on a nearby watercourse that day.",
+      "entity_note": "a different organisation (the Institute, owner of its own monitoring point), unlike the first distractor's different river treated simply as a place"
+    },
+    {
+      "story_id": 4,
+      "distractor_fact": "Други планинар се истог дана зауставио на висини од {D} m.",
+      "gloss_en": "A different hiker stopped at an altitude of {D} m that same day.",
+      "entity_note": "a different person (another hiker), unlike the first distractor's different mountain peak (a place)"
+    },
+    {
+      "story_id": 5,
+      "distractor_fact": "Његов саиграч је на крају те сезоне имао {D} kg.",
+      "gloss_en": "His teammate weighed {D} kg at the end of that season.",
+      "entity_note": "a different person (a teammate), unlike the first distractor's different gym (a place/instrument)"
+    },
+    {
+      "story_id": 6,
+      "distractor_fact": "Његов брат је истог дана уплатио {D} $ на сопствени рачун.",
+      "gloss_en": "His brother deposited {D} $ into his own account that same day.",
+      "entity_note": "a different person (his brother), unlike the first distractor's separate account at the same bank (an instrument)"
+    },
+    {
+      "story_id": 7,
+      "distractor_fact": "Осигуравајуће друштво је за то путовање наплатило премију од {D} $.",
+      "gloss_en": "An insurance company charged a premium of {D} $ for that trip.",
+      "entity_note": "a different organisation (an insurance company), unlike the first distractor's travel companion (a person)"
+    },
+    {
+      "story_id": 8,
+      "distractor_fact": "Независни књиговођа је за другог клијента тог месеца обрачунао трошак од {D} $.",
+      "gloss_en": "An independent bookkeeper calculated a cost of {D} $ for a different client that month.",
+      "entity_note": "a different person (an independent bookkeeper), unlike the first distractor's different store in the chain (an organisation)"
+    },
+    {
+      "story_id": 10,
+      "distractor_fact": "Инвестициони фонд је на сличној позицији истог дана забележио губитак од {D} $.",
+      "gloss_en": "An investment fund recorded a loss of {D} $ on a similar position that same day.",
+      "entity_note": "a different organisation (an investment fund), unlike the first distractor's different investor (a person)"
+    },
+    {
+      "story_id": 11,
+      "distractor_fact": "Друга производна линија у истом погону произвела је {D} комада тог месеца.",
+      "gloss_en": "A different production line within the same plant produced {D} units that month.",
+      "entity_note": "a different instrument/unit of production (a separate line), unlike the first distractor's different factory in the concern (an organisation)"
+    },
+    {
+      "story_id": 12,
+      "distractor_fact": "Регионални менаџер је за свој округ у истом периоду забележио продају од {D} $.",
+      "gloss_en": "A regional manager recorded sales of {D} $ for his own district in that same period.",
+      "entity_note": "a different person (a regional manager) with his own unstated sales target, unlike the first distractor's different store in the chain (an organisation)"
+    },
+    {
+      "story_id": 13,
+      "distractor_fact": "Метеоролошки институт је за сопствену мерну мрежу тог месеца објавио {D} mm падавина.",
+      "gloss_en": "The Meteorological Institute published {D} mm of rainfall for its own measurement network that month.",
+      "entity_note": "a different organisation (the Institute) with its own unstated forecast, unlike the first distractor's neighboring town (a place)"
+    },
+    {
+      "story_id": 15,
+      "distractor_fact": "Аутобуска линија на истој релацији тог дана забележила је долазак у тренутку који је, рачунајући од поноћи, износио {D} минута, према сопственом реду вожње.",
+      "gloss_en": "A bus line on the same route recorded an arrival that, counted from midnight, came to {D} minutes that day, according to its own timetable.",
+      "entity_note": "a different organisation (a bus company) with its own unstated timetable, unlike the first distractor's different train and line (an instrument)"
+    },
+    {
+      "story_id": 16,
+      "distractor_fact": "Управа суседне зграде утврдила је да се други лифт зауставио на спрату означеном бројем {D}, према сопственој нумерацији.",
+      "gloss_en": "The management of a neighboring building determined that a different elevator stopped at a floor numbered {D}, according to its own numbering.",
+      "entity_note": "a different organisation (the building's management), unlike the first distractor's different building's elevator (a place/instrument)"
+    },
+    {
+      "story_id": 19,
+      "distractor_fact": "Приватни улагач је у истом кварталу остварио добит од {D} $ на сопственом портфолију.",
+      "gloss_en": "A private investor earned a profit of {D} $ on his own portfolio in the same quarter.",
+      "entity_note": "a different person (a private investor), unlike the first distractor's third company Gama (an organisation)"
+    },
+    {
+      "story_id": 20,
+      "distractor_fact": "На стази другог такмичења, одржаног истог викенда, постигнуто је време од {D} s.",
+      "gloss_en": "On the track of a different competition, held the same weekend, a time of {D} s was recorded.",
+      "entity_note": "a different place (another competition's track), unlike the first distractor's third runner Jovanović (a person)"
+    }
+  ]
+}

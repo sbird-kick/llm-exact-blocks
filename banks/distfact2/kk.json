@@ -1,0 +1,54 @@
+{
+  "language_code": "kk",
+  "refused": [],
+  "items": [
+    {
+      "story_id": 7,
+      "distractor_fact": "Оның электрондық әмиянында {D} теңге бар болды.",
+      "gloss_en": "Her electronic wallet had a balance of D tenge. No case suffix attaches to the numeral; теңге stays unqualified after any numeral.",
+      "entity_note": "a different instrument (her e-wallet), not a different person's bank account as in the first distractor"
+    },
+    {
+      "story_id": 8,
+      "distractor_fact": "Бухгалтердің жеке шотында {D} теңге бар еді.",
+      "gloss_en": "The accountant's personal account had a balance of D tenge. The possessive/locative suffixes attach to шот(ы), not the numeral.",
+      "entity_note": "a different person (the accountant), not another organisation as in the first distractor"
+    },
+    {
+      "story_id": 9,
+      "distractor_fact": "Көрші кәсіпорынның сол айдағы кірісі {D} теңге болды.",
+      "gloss_en": "The neighboring enterprise's income for that same month was D tenge. Suffixes attach to кірісі, not the numeral; теңге is unqualified after any numeral.",
+      "entity_note": "a different organisation (a business enterprise), not another family as in the first distractor"
+    },
+    {
+      "story_id": 10,
+      "distractor_fact": "Клубтың топ бомбардирі сол маусымда {D} гол соқты.",
+      "gloss_en": "The club's top scorer scored D goals that same season. Гол stays unqualified after any numeral.",
+      "entity_note": "a different person (an individual player), not another team as in the first distractor"
+    },
+    {
+      "story_id": 11,
+      "distractor_fact": "Қордың сол айдағы залалы {D} доллар болды.",
+      "gloss_en": "The fund's loss for that same month was D dollars. Доллар stays unqualified after any numeral.",
+      "entity_note": "a different organisation (an investment fund), not another individual trader as in the first distractor"
+    },
+    {
+      "story_id": 14,
+      "distractor_fact": "Клубтың көрші алаңында {D} соққымен ойын аяқталды.",
+      "gloss_en": "On the club's neighboring course, the round finished with D strokes. The instrumental suffix -мен attaches to соққы, not the numeral, and that course's own par is never stated.",
+      "entity_note": "a different place (the club's other course, whose par is never given), not another golfer as in the first distractor"
+    },
+    {
+      "story_id": 16,
+      "distractor_fact": "Көршінің пәтеріндегі көрсеткіш тақта {D} деп тұр.",
+      "gloss_en": "The indicator panel at the neighbor's apartment reads D, a reading not tied to any ground-floor reference.",
+      "entity_note": "a different person (the neighbor), not another building's elevator as in the first distractor"
+    },
+    {
+      "story_id": 17,
+      "distractor_fact": "Топтың жеке ойыншысы сол айда {D} гол соқты.",
+      "gloss_en": "An individual player of the team scored D goals that month. Гол stays unqualified after any numeral.",
+      "entity_note": "a different person (an individual player), not a third team as in the first distractor"
+    }
+  ]
+}

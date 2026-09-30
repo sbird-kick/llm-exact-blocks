@@ -1,0 +1,108 @@
+{
+  "language_code": "hy",
+  "refused": [],
+  "items": [
+    {
+      "story_id": 1,
+      "distractor_fact": "Բնակիչը իր բակում չափած ջերմաստիճանը կազմել է {D} °C:",
+      "gloss_en": "The temperature a resident measured in their own yard was D °C.",
+      "entity_note": "owner is a private person (a resident taking their own reading), not the neighboring-town weather station (a place) of the first distractor"
+    },
+    {
+      "story_id": 2,
+      "distractor_fact": "Ինվեստորի պորտֆելի արժեքը կազմել է {D} դոլար:",
+      "gloss_en": "An investor's portfolio value was D dollars.",
+      "entity_note": "owner is a person (an investor's portfolio), not another company (an organisation) as in the first distractor"
+    },
+    {
+      "story_id": 3,
+      "distractor_fact": "Ջրագիտական ծառայության մեկ այլ դիտակետում մակարդակը կազմել է {D} մետր:",
+      "gloss_en": "At another observation post of the hydrological service, the level was D meters.",
+      "entity_note": "owner is an organisation's monitoring post, not simply the neighboring river (a place) of the first distractor"
+    },
+    {
+      "story_id": 4,
+      "distractor_fact": "Հարևան լեռնագագաթի բարձրությունը կազմել է {D} մետր:",
+      "gloss_en": "The height of the neighboring mountain peak was D meters.",
+      "entity_note": "owner is a place (a neighboring peak), not another balloon (an instrument) as in the first distractor"
+    },
+    {
+      "story_id": 5,
+      "distractor_fact": "Անասնաբուժական կլինիկայում գրանցված մեկ այլ կենդանու քաշը կազմել է {D} կիլոգրամ:",
+      "gloss_en": "The weight of another animal recorded at a veterinary clinic was D kilograms.",
+      "entity_note": "owner is an organisation (a veterinary clinic), not another farm (a place) as in the first distractor"
+    },
+    {
+      "story_id": 6,
+      "distractor_fact": "Մարդահամարի գրասենյակի տվյալներով՝ մեկ այլ շրջանի բնակչությունը կազմել է {D} բնակիչ:",
+      "gloss_en": "According to the census bureau's data, the population of a different district was D inhabitants.",
+      "entity_note": "owner is an organisation's reported figure, not the neighboring village (a place) of the first distractor"
+    },
+    {
+      "story_id": 7,
+      "distractor_fact": "Անցյալ տարվա մրցարշավում գրանցված արագության ցուցմունքը կազմել է {D} կմ/ժ:",
+      "gloss_en": "The speed reading recorded in last year's race was D km/h.",
+      "entity_note": "owner is a different racing event (a series, last year's race), not another car (an instrument) as in the first distractor"
+    },
+    {
+      "story_id": 8,
+      "distractor_fact": "Խանութի դրամարկղում կար {D} դոլար:",
+      "gloss_en": "The shop's cash register held D dollars.",
+      "entity_note": "owner is an organisation (a shop's till), not another student (a person) as in the first distractor"
+    },
+    {
+      "story_id": 9,
+      "distractor_fact": "Մեկ այլ հաճախորդի քսակում կար {D} եվրո:",
+      "gloss_en": "Another customer's wallet held D euros.",
+      "entity_note": "owner is a person (a customer's wallet), not another bank account (an instrument) as in the first distractor"
+    },
+    {
+      "story_id": 10,
+      "distractor_fact": "Ընկերության մի բաժնետեր ստացել է {D} դոլար շահաբաժին:",
+      "gloss_en": "A shareholder of the company received D dollars in dividends.",
+      "entity_note": "owner is a person (a shareholder), not another company (an organisation) as in the first distractor"
+    },
+    {
+      "story_id": 11,
+      "distractor_fact": "Մրցաշրջանի լավագույն խաղացողը անհատապես խփել է {D} գոլ:",
+      "gloss_en": "The tournament's top scorer personally scored D goals.",
+      "entity_note": "owner is a person (an individual player), not another team (an organisation) as in the first distractor"
+    },
+    {
+      "story_id": 12,
+      "distractor_fact": "Ընկերության հիմնադրամը գրանցել է {D} դոլար զուտ շահույթ:",
+      "gloss_en": "The company's fund recorded D dollars of net profit.",
+      "entity_note": "owner is an organisation (a fund), not another investor (a person) as in the first distractor"
+    },
+    {
+      "story_id": 13,
+      "distractor_fact": "Մեկ այլ արտադրական գծի արտադրանքը կազմել է {D} միավոր:",
+      "gloss_en": "The output of a different production line was D units.",
+      "entity_note": "owner is a piece of equipment (a production line), not another factory (an organisation) as in the first distractor"
+    },
+    {
+      "story_id": 14,
+      "distractor_fact": "Մեկ վաճառողի անհատական վաճառքը կազմել է {D} դոլար:",
+      "gloss_en": "One salesperson's individual sales amounted to D dollars.",
+      "entity_note": "owner is a person (an individual salesperson), not another shop (an organisation) as in the first distractor"
+    },
+    {
+      "story_id": 15,
+      "distractor_fact": "Հարևան մարզում տեղումների քանակը կազմել է {D} միլիմետր, որի կանխատեսումը հրապարակված չէ:",
+      "gloss_en": "In the neighboring region, the amount of precipitation was D millimeters, whose forecast has not been published.",
+      "entity_note": "owner is a place (a neighboring region) with its own unstated forecast, not another weather station (an organisation) as in the first distractor"
+    },
+    {
+      "story_id": 16,
+      "distractor_fact": "Անցյալ տարվա մրցաշարում մեկ խաղացող խաղն ավարտել է {D} հարվածով, ընդ որում այդ դաշտի պարը հրապարակված չէ:",
+      "gloss_en": "In last year's tournament, a player finished the round with D strokes, and that course's par has not been published.",
+      "entity_note": "owner is a different competition instance (a series, last year's tournament) with its own unstated par, not the different-player-on-a-different-course (person+place) owner of the first distractor"
+    },
+    {
+      "story_id": 17,
+      "distractor_fact": "Խաղի լավագույն խաղացողը անհատապես խփել է {D} գոլ:",
+      "gloss_en": "The match's top scorer personally scored D goals.",
+      "entity_note": "owner is a person (an individual player), not a third team, Team C (an organisation) as in the first distractor"
+    }
+  ]
+}

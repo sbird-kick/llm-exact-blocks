@@ -1,0 +1,126 @@
+{
+  "language_code": "fi",
+  "refused": [],
+  "items": [
+    {
+      "story_id": 1,
+      "distractor_fact": "Naapurin pihalla olevan lämpömittarin lukema oli samaan aikaan {D} °C.",
+      "gloss_en": "The reading of the thermometer in the neighbor's yard was {D} °C at the same time.",
+      "entity_note": "a neighbor's own yard thermometer (a PERSON's instrument), differing in kind from the first distractor's different PLACE (the neighboring village's weather station)"
+    },
+    {
+      "story_id": 2,
+      "distractor_fact": "Osakkeen kurssi ulkomaisessa pörssissä samana aamuna oli {D} €.",
+      "gloss_en": "The same stock's price on a foreign exchange that same morning was {D} €.",
+      "entity_note": "the same stock quoted on a different exchange (a PLACE/venue), differing in kind from the first distractor's different competing COMPANY (organisation)"
+    },
+    {
+      "story_id": 3,
+      "distractor_fact": "Vesilaitoksen tarkkailupisteen lukema oli samaan aikaan {D} cm.",
+      "gloss_en": "The water utility's monitoring point's reading was {D} cm at the same time.",
+      "entity_note": "a water utility's monitoring point (an ORGANISATION's instrument), differing in kind from the first distractor's different RIVER (a bare place)"
+    },
+    {
+      "story_id": 4,
+      "distractor_fact": "Liitäjän korkeusmittari näytti samalla hetkellä lukemaa {D} m.",
+      "gloss_en": "A paraglider pilot's altimeter showed a reading of {D} m at the same moment.",
+      "entity_note": "a paraglider pilot with their own instrument (a PERSON), differing in kind from the first distractor's different AIRPLANE (instrument)"
+    },
+    {
+      "story_id": 5,
+      "distractor_fact": "Seurakunnan kirjoissa toisen alueen asukasluku samana vuonna oli {D}.",
+      "gloss_en": "In the parish register, another area's population that same year was {D}.",
+      "entity_note": "a parish register's count for a different area (an ORGANISATION's record), differing in kind from the first distractor's different VILLAGE (a bare place)"
+    },
+    {
+      "story_id": 6,
+      "distractor_fact": "Tienpitäjän toisen mittauspisteen tutka näytti samaan aikaan lukemaa {D} km/h.",
+      "gloss_en": "The road authority's radar at another measurement point showed a reading of {D} km/h at the same time.",
+      "entity_note": "the road authority running a different measurement point (an ORGANISATION), differing in kind from the first distractor's different CAR (instrument)"
+    },
+    {
+      "story_id": 7,
+      "distractor_fact": "Ystävän käteiskassan saldo oli samana päivänä {D} €.",
+      "gloss_en": "A friend's cash box balance on the same day was {D} €.",
+      "entity_note": "a friend's own cash box (a PERSON), differing in kind from the first distractor's different BANK ACCOUNT (instrument)"
+    },
+    {
+      "story_id": 8,
+      "distractor_fact": "Yksityisen elinkeinonharjoittajan kuukausitulos oli {D} €.",
+      "gloss_en": "A sole trader's monthly result was {D} €.",
+      "entity_note": "an individual sole trader (a PERSON), differing in kind from the first distractor's different COMPANY (organisation)"
+    },
+    {
+      "story_id": 9,
+      "distractor_fact": "Toisen sarjan mestarijoukkueen maaliero samalta kaudelta oli {D}.",
+      "gloss_en": "The champion team's goal difference from a different league, for the same season, was {D}.",
+      "entity_note": "a team from a different league/competition (a SERIES), differing in kind from the first distractor's different TEAM in the same league (organisation)"
+    },
+    {
+      "story_id": 10,
+      "distractor_fact": "Sijoitusrahaston vuosituotto oli {D} €.",
+      "gloss_en": "An investment fund's annual return was {D} €.",
+      "entity_note": "an investment fund (an ORGANISATION), differing in kind from the first distractor's different INVESTOR (person)"
+    },
+    {
+      "story_id": 11,
+      "distractor_fact": "Alihankkijan kuukausituotanto oli {D}.",
+      "gloss_en": "A subcontractor's monthly output was {D}.",
+      "entity_note": "an individual subcontractor (a PERSON) whose own target is not stated, differing in kind from the first distractor's different FACTORY (organisation)"
+    },
+    {
+      "story_id": 12,
+      "distractor_fact": "Torikauppiaan myynti kuukaudessa oli {D} €.",
+      "gloss_en": "A market-stall vendor's monthly sales were {D} €.",
+      "entity_note": "an individual market vendor (a PERSON) whose own target is not stated, differing in kind from the first distractor's different STORE (organisation)"
+    },
+    {
+      "story_id": 13,
+      "distractor_fact": "Ilmatieteen laitoksen alueellinen keskiarvo samalta kuukaudelta oli {D} mm.",
+      "gloss_en": "The meteorological institute's regional average for the same month was {D} mm.",
+      "entity_note": "the meteorological institute's own regional figure (an ORGANISATION) whose own forecast is not stated, differing in kind from the first distractor's different WEATHER STATION (instrument/place)"
+    },
+    {
+      "story_id": 14,
+      "distractor_fact": "Toisen kilpailun pistetaulun mukaan lyöntimäärä väylällä oli {D}.",
+      "gloss_en": "According to a different competition's scoreboard, the stroke count on a hole was {D}.",
+      "entity_note": "a different competition/tournament (a SERIES) whose own par is not stated, differing in kind from the first distractor's different PLAYER (person)"
+    },
+    {
+      "story_id": 15,
+      "distractor_fact": "Asemavalvomon lokin mukaan toisen laiturin junan saapumislukema oli {D}.",
+      "gloss_en": "According to the station control room's log, another platform's train's arrival reading was {D}.",
+      "entity_note": "the station control room's record for a different platform (an ORGANISATION) whose own schedule is not stated, differing in kind from the first distractor's different TRAIN (instrument)"
+    },
+    {
+      "story_id": 16,
+      "distractor_fact": "Kiinteistöyhtiön toisen toimipisteen kerroslukema oli {D}.",
+      "gloss_en": "The property company's other office location's floor reading was {D}.",
+      "entity_note": "the property company running a different office (an ORGANISATION) whose own street level is not stated, differing in kind from the first distractor's different BUILDING (place)"
+    },
+    {
+      "story_id": 17,
+      "distractor_fact": "Toisen sarjan joukkueen maalimäärä kaudelta oli {D}.",
+      "gloss_en": "A team from a different league's season goal count was {D}.",
+      "entity_note": "a team from a different league (an ORGANISATION), differing in kind from the first distractor's different MATCH (series)"
+    },
+    {
+      "story_id": 18,
+      "distractor_fact": "Toisen sarjan joukkueen pistemäärä kaudelta oli {D}.",
+      "gloss_en": "A team from a different league's season point total was {D}.",
+      "entity_note": "a team from a different league (an ORGANISATION), differing in kind from the first distractor's different MATCH (series)"
+    },
+    {
+      "story_id": 19,
+      "distractor_fact": "Toisen valmennusryhmän ennätysaika oli {D} s.",
+      "gloss_en": "Another training group's record time was {D} s.",
+      "entity_note": "a different training group (an ORGANISATION), differing in kind from the first distractor's different RACE (series)"
+    },
+    {
+      "story_id": 20,
+      "distractor_fact": "Edellisen vuoden kokeen parhaan oppilaan pistemäärä oli {D}.",
+      "gloss_en": "The best student's score on last year's exam was {D}.",
+      "entity_note": "a different exam edition from a previous year (a SERIES), differing in kind from the first distractor's different CLASS's student (organisation/person)"
+    }
+  ]
+}

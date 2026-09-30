@@ -1,0 +1,114 @@
+{
+ "language_code": "ms",
+ "refused": [],
+ "items": [
+  {
+   "story_id": 1,
+   "distractor_fact": "Termometer di bandar bersebelahan mencatatkan bacaan {D}°C pada waktu yang sama.",
+   "gloss_en": "The thermometer in the neighboring city recorded a reading of D°C at the same time.",
+   "entity_note": "a different city's thermometer, not the city in the question"
+  },
+  {
+   "story_id": 2,
+   "distractor_fact": "Harga saham sebuah syarikat lain di bursa yang sama ditutup pada paras {D} pada hari itu.",
+   "gloss_en": "The stock price of another company on the same exchange closed at a level of D that day.",
+   "entity_note": "a different company's stock, not the company in the question"
+  },
+  {
+   "story_id": 3,
+   "distractor_fact": "Sebuah empangan lain di hilir sungai itu mencatatkan paras air pada bacaan {D} meter pada masa yang sama.",
+   "gloss_en": "Another dam downstream on that river recorded its water level at a reading of D meters at the same time.",
+   "entity_note": "a different dam, not the dam in the question"
+  },
+  {
+   "story_id": 4,
+   "distractor_fact": "Sebuah dron lain di kawasan berdekatan berada pada ketinggian {D} meter pada masa yang sama.",
+   "gloss_en": "Another drone in a nearby area was at an altitude of D meters at the same time.",
+   "entity_note": "a different drone, not the drone in the question"
+  },
+  {
+   "story_id": 5,
+   "distractor_fact": "Seorang peniaga lain di pasar yang sama mempunyai wang sebanyak {D} pada awal minggu itu.",
+   "gloss_en": "Another trader in the same market had an amount of money D at the start of that week.",
+   "entity_note": "a different trader, not the trader in the question"
+  },
+  {
+   "story_id": 6,
+   "distractor_fact": "Sebuah koperasi sekolah lain menerima deposit sebanyak {D} ke dalam tabungnya pada bulan yang sama.",
+   "gloss_en": "Another school cooperative received a deposit of D into its fund in the same month.",
+   "entity_note": "a different school's cooperative fund, not the one in the question"
+  },
+  {
+   "story_id": 7,
+   "distractor_fact": "Sebuah kantin sekolah lain mengumpul wang jualan sebanyak {D} sepanjang hari yang sama.",
+   "gloss_en": "Another school canteen collected sales money of D during that same day.",
+   "entity_note": "a different school canteen, not the one in the question"
+  },
+  {
+   "story_id": 8,
+   "distractor_fact": "Sebuah kad minyak lain ditambah nilai sebanyak {D} pada bulan yang sama.",
+   "gloss_en": "Another fuel card was topped up with an amount D in the same month.",
+   "entity_note": "a different fuel card, not the card in the question"
+  },
+  {
+   "story_id": 9,
+   "distractor_fact": "Sebuah pasukan bola sepak lain dalam liga yang sama menjaringkan sebanyak {D} gol sepanjang musim itu.",
+   "gloss_en": "Another football team in the same league scored a count of D goals over that season.",
+   "entity_note": "a different football team, not the team in the question"
+  },
+  {
+   "story_id": 10,
+   "distractor_fact": "Sebuah syarikat lain dalam industri yang sama memperoleh pendapatan sebanyak {D} pada bulan tersebut.",
+   "gloss_en": "Another company in the same industry earned income of D that month.",
+   "entity_note": "a different company, not the company in the question"
+  },
+  {
+   "story_id": 11,
+   "distractor_fact": "Seorang petani lain di kawasan berdekatan mengumpul hasil tuaian sebanyak {D} kilogram pada musim yang sama.",
+   "gloss_en": "Another farmer in a nearby area harvested a yield of D kilograms in the same season.",
+   "entity_note": "a different farmer, not the farmer in the question"
+  },
+  {
+   "story_id": 12,
+   "distractor_fact": "Sebuah kilang lain di zon perindustrian berlainan menghasilkan sebanyak {D} unit barangan sebenar pada bulan yang sama, mengikut sasarannya sendiri yang tidak dinyatakan di sini.",
+   "gloss_en": "Another factory in a different industrial zone produced an actual count of D units of goods in the same month, against its own target, not stated here.",
+   "entity_note": "a different factory with its own unstated target, not the factory or target in the question"
+  },
+  {
+   "story_id": 14,
+   "distractor_fact": "Seorang pemain golf lain mencatatkan sebanyak {D} pukulan pada padang golf yang berlainan pada hari yang sama, dengan par padang itu tidak dinyatakan di sini.",
+   "gloss_en": "Another golfer recorded a count of D strokes on a different golf course on the same day, with that course's par not stated here.",
+   "entity_note": "a different golfer on a different course whose par is not stated, not the golfer or course in the question"
+  },
+  {
+   "story_id": 15,
+   "distractor_fact": "Sebuah kereta api lain pada laluan yang berlainan tiba pada minit ke-{D} selepas jam rujukan stesennya sendiri.",
+   "gloss_en": "Another train on a different line arrived at minute D after its own station's reference hour mark.",
+   "entity_note": "a different train on a different line with its own timetable, not the train in the question"
+  },
+  {
+   "story_id": 16,
+   "distractor_fact": "Seorang juruukur lain di tapak yang berlainan mencatatkan ketinggian sebuah titik tanah pada bacaan {D} meter, menggunakan datum rujukannya sendiri.",
+   "gloss_en": "Another surveyor at a different site recorded a ground point's elevation at a reading of D meters, using their own reference datum.",
+   "entity_note": "a different surveyor with their own unstated benchmark datum, not the surveyor in the question"
+  },
+  {
+   "story_id": 18,
+   "distractor_fact": "Seorang murid lain bernama Murid C memperoleh sebanyak {D} markah dalam peperiksaan yang berlainan.",
+   "gloss_en": "Another student named Student C scored a count of D marks in a different exam.",
+   "entity_note": "a third student in a different exam, not Student A or Student B in the question's exam"
+  },
+  {
+   "story_id": 19,
+   "distractor_fact": "Sebuah menara lain bernama Menara Timur yang terletak di bandar berlainan mempunyai ketinggian sebanyak {D} meter.",
+   "gloss_en": "Another tower named Menara Timur (East Tower), located in a different city, has a height of D meters.",
+   "entity_note": "a third tower in a different city, not Menara Utara or Menara Selatan in the question"
+  },
+  {
+   "story_id": 20,
+   "distractor_fact": "Seorang pelari lain bernama Pelari Hijau mencatatkan masa tamat sebanyak {D} saat dalam perlumbaan yang berlainan.",
+   "gloss_en": "Another runner named Pelari Hijau (Green Runner) recorded a finish time of D seconds in a different race.",
+   "entity_note": "a third runner in a different race, not Pelari Merah or Pelari Biru in the question's race"
+  }
+ ]
+}

@@ -1,0 +1,108 @@
+{
+  "language_code": "it",
+  "refused": [],
+  "items": [
+    {
+      "story_id": 1,
+      "distractor_fact": "Il termometro da giardino di un abitante del paese segnava {D}°C in quello stesso momento.",
+      "gloss_en": "A local resident's garden thermometer read {D}°C at that very same moment.",
+      "entity_note": "Owner is now a private resident's personal thermometer (a person), not another weather station (a place) as in the first sentence."
+    },
+    {
+      "story_id": 2,
+      "distractor_fact": "Il fondo comune gestito dalla banca locale registrava, in quello stesso istante, un valore di {D} euro.",
+      "gloss_en": "The mutual fund managed by the local bank recorded a value of {D} euros at that same moment.",
+      "entity_note": "Owner is now a mutual fund run by a bank (an organization), not another traded stock (an instrument) as in the first sentence."
+    },
+    {
+      "story_id": 3,
+      "distractor_fact": "Il pilota di un deltaplano in volo nelle vicinanze si trovava a una quota di {D} m nello stesso istante.",
+      "gloss_en": "The pilot of a hang-glider flying nearby was at an altitude of {D} m at the same moment.",
+      "entity_note": "Owner is now a hang-glider pilot (a person), not a second hot air balloon (an object) as in the first sentence."
+    },
+    {
+      "story_id": 4,
+      "distractor_fact": "Un cliente in fila portava a mano un collo che pesava {D} kg.",
+      "gloss_en": "A customer standing in line was carrying by hand a parcel that weighed {D} kg.",
+      "entity_note": "Owner is now a customer holding a parcel (a person), not a second shipped package (an object) as in the first sentence."
+    },
+    {
+      "story_id": 5,
+      "distractor_fact": "Il registro anagrafico della parrocchia locale contava {D} iscritti nello stesso periodo.",
+      "gloss_en": "The local parish's population register counted {D} members during the same period.",
+      "entity_note": "Owner is now a parish registry (an organization), not a neighboring village (a place) as in the first sentence."
+    },
+    {
+      "story_id": 6,
+      "distractor_fact": "La cassa comune del condominio disponeva di {D} euro nello stesso periodo.",
+      "gloss_en": "The building's shared fund had {D} euros available during the same period.",
+      "entity_note": "Owner is now the condominium's shared fund (an organization), not Marco, Giulia's roommate (a person), as in the first sentence."
+    },
+    {
+      "story_id": 7,
+      "distractor_fact": "Un cliente diverso della stessa banca deteneva {D} euro sul proprio conto in quello stesso mese.",
+      "gloss_en": "A different customer of the same bank held {D} euros in their own account that same month.",
+      "entity_note": "Owner is now another bank customer (a person), not a separate savings account (an account/instrument) as in the first sentence."
+    },
+    {
+      "story_id": 8,
+      "distractor_fact": "Un consulente esterno ha fatturato {D} euro nello stesso trimestre.",
+      "gloss_en": "An outside consultant billed {D} euros during the same quarter.",
+      "entity_note": "Owner is now an individual outside consultant (a person), not a competing business (an organization) as in the first sentence."
+    },
+    {
+      "story_id": 9,
+      "distractor_fact": "Un giocatore, convocato in una rappresentativa regionale, ha segnato personalmente un numero di reti pari a {D} nella stessa stagione.",
+      "gloss_en": "A player, called up to a regional representative squad, personally scored a number of goals equal to {D} in the same season.",
+      "entity_note": "Owner is now a single player on a regional squad (a person), not a rival team (an organization) as in the first sentence."
+    },
+    {
+      "story_id": 10,
+      "distractor_fact": "Il fondo pensione collettivo ha registrato un rendimento netto di {D} euro nello stesso anno.",
+      "gloss_en": "The collective pension fund recorded a net return of {D} euros in the same year.",
+      "entity_note": "Owner is now a collective pension fund (an organization), not another individual investor (a person) as in the first sentence."
+    },
+    {
+      "story_id": 11,
+      "distractor_fact": "Un fornitore esterno ha consegnato nello stesso mese un quantitativo di componenti pari a {D} unità, secondo un proprio piano di consegna qui non specificato.",
+      "gloss_en": "An external supplier delivered a quantity of components equal to {D} units that same month, according to its own delivery plan not stated here.",
+      "entity_note": "Owner is now an external supplier with its own unstated delivery plan (an organization), not another plant in the group (a place) as in the first sentence."
+    },
+    {
+      "story_id": 12,
+      "distractor_fact": "Un ente di ricerca agricola ha misurato nello stesso mese una quantità di pioggia pari a {D} mm, secondo una propria soglia di allerta qui non indicata.",
+      "gloss_en": "An agricultural research institute measured a rainfall amount equal to {D} mm that same month, according to its own alert threshold not stated here.",
+      "entity_note": "Owner is now an agricultural research institute with its own unstated alert threshold (an organization), not a nearby city (a place) as in the first sentence."
+    },
+    {
+      "story_id": 13,
+      "distractor_fact": "Nel torneo amatoriale disputato la settimana precedente su un percorso diverso, il punteggio di squadra registrato fu pari a {D}, il cui par non è qui indicato.",
+      "gloss_en": "In the amateur tournament held the previous week on a different course, the recorded team score was equal to {D}, whose par is not stated here.",
+      "entity_note": "Owner is now a different tournament's recorded team score (an event/series), not another individual player (a person) as in the first sentence."
+    },
+    {
+      "story_id": 14,
+      "distractor_fact": "Una compagnia aerea diversa, che non pubblica qui il proprio orario previsto, ha fatto atterrare un proprio volo a {D} min dopo mezzogiorno.",
+      "gloss_en": "A different airline, which does not publish its own scheduled time here, landed one of its flights at {D} min after noon.",
+      "entity_note": "Owner is now a different airline with its own unstated schedule (an organization), not another flight on another route (an object/instrument) as in the first sentence."
+    },
+    {
+      "story_id": 15,
+      "distractor_fact": "In un condominio amministrato da una società di gestione diversa, l'ufficio dell'amministratore si trova al piano {D}, e il portone d'ingresso di quello stabile non è qui indicato.",
+      "gloss_en": "In a building run by a different management company, the administrator's office is on floor {D}, and that building's entrance floor is not stated here.",
+      "entity_note": "Owner is now a property management company's office (an organization), not a neighbor (a person) as in the first sentence."
+    },
+    {
+      "story_id": 16,
+      "distractor_fact": "L'ente idrico regionale ha misurato, nello stesso giorno, un livello pari a {D} cm su una propria asta di controllo, la cui quota di riferimento non è qui indicata.",
+      "gloss_en": "The regional water authority measured, on the same day, a level equal to {D} cm on its own control gauge, whose reference level is not stated here.",
+      "entity_note": "Owner is now a regional water authority with its own unstated reference level (an organization), not a downstream gauge site (a place) as in the first sentence."
+    },
+    {
+      "story_id": 17,
+      "distractor_fact": "Un giocatore invitato a un torneo amichevole separato ha segnato un numero di reti pari a {D} durante l'intero torneo.",
+      "gloss_en": "A player invited to a separate friendly tournament scored a number of goals equal to {D} during the whole tournament.",
+      "entity_note": "Owner is now a single invited player in an unrelated tournament (a person), not a third team in another league match (an organization) as in the first sentence."
+    }
+  ]
+}

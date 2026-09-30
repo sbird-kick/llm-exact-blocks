@@ -1,0 +1,90 @@
+{
+  "language_code": "de",
+  "refused": [],
+  "items": [
+    {
+      "story_id": 1,
+      "distractor_fact": "Ein Kollege maß zur gleichen Zeit mit seinem eigenen Thermometer {D} Grad Celsius.",
+      "gloss_en": "A colleague measured {D} degrees Celsius at the same time with his own thermometer.",
+      "entity_note": "A colleague (a person, with his own instrument), not a neighboring village (a place) as in the first distractor; not the thermometer whose afternoon/morning readings the question compares."
+    },
+    {
+      "story_id": 2,
+      "distractor_fact": "Eine Anleihe schloss am selben Tag bei {D} Euro.",
+      "gloss_en": "A bond closed that same day at {D} euros.",
+      "entity_note": "A bond (a financial instrument), not a different company (an organization) as in the first distractor; not the stock whose opening/closing price the question compares."
+    },
+    {
+      "story_id": 3,
+      "distractor_fact": "Eine private Messstation registrierte am selben Abend einen Pegel von {D} Zentimetern.",
+      "gloss_en": "A private monitoring station recorded a level of {D} centimeters that same evening.",
+      "entity_note": "A private monitoring station (an instrument), not a different river (a place) as in the first distractor; not the river whose evening/morning readings the question compares."
+    },
+    {
+      "story_id": 5,
+      "distractor_fact": "Ein Freund zahlte am selben Tag {D} Euro auf sein Sparbuch ein.",
+      "gloss_en": "A friend deposited {D} euros into his own passbook that same day.",
+      "entity_note": "A friend (a named person), not an unspecified different account as in the first distractor; not the account whose deposit/withdrawal the question compares."
+    },
+    {
+      "story_id": 7,
+      "distractor_fact": "Ein einzelner Angestellter hatte im selben Monat Ausgaben von {D} Euro.",
+      "gloss_en": "A single employee had expenses of {D} euros that same month.",
+      "entity_note": "An individual employee (a person), not a different household (a family entity) as in the first distractor; not the household whose income/expenses the question compares."
+    },
+    {
+      "story_id": 8,
+      "distractor_fact": "Ein einzelner Spieler erzielte in einer anderen Liga {D} Tore.",
+      "gloss_en": "An individual player scored {D} goals in a different league.",
+      "entity_note": "An individual player (a person), not a different team (an organization) as in the first distractor; not the team whose scored/conceded goals the question compares."
+    },
+    {
+      "story_id": 9,
+      "distractor_fact": "Ein Investmentfonds verzeichnete im selben Jahr Gewinne von {D} Euro.",
+      "gloss_en": "An investment fund recorded gains of {D} euros that same year.",
+      "entity_note": "An investment fund (an organization), not a different investor (a person) as in the first distractor; not the investor whose gains/losses the question compares."
+    },
+    {
+      "story_id": 10,
+      "distractor_fact": "Ein selbstständiger Handwerker stellte im selben Monat {D} Stück her.",
+      "gloss_en": "A self-employed craftsman produced {D} units that same month.",
+      "entity_note": "A self-employed craftsman (a person, with no stated quota), not a different factory (an organization) as in the first distractor; not the factory whose actual/planned output the question compares."
+    },
+    {
+      "story_id": 11,
+      "distractor_fact": "Eine private Wetterstation maß im selben Monat {D} Millimeter Niederschlag.",
+      "gloss_en": "A private weather station measured {D} millimeters of rainfall that same month.",
+      "entity_note": "A private weather station (an instrument, with no stated forecast), not a different region (a place) as in the first distractor; not the region whose actual/forecast rainfall the question compares."
+    },
+    {
+      "story_id": 12,
+      "distractor_fact": "Auf einem anderen Golfplatz waren für ein Loch {D} Schläge nötig.",
+      "gloss_en": "On a different golf course, {D} strokes were needed for a hole.",
+      "entity_note": "A different golf course (a place, whose own par is not stated), not a different golfer (a person) as in the first distractor; not the golfer/hole the question compares."
+    },
+    {
+      "story_id": 13,
+      "distractor_fact": "Auf einem anderen Golfplatz waren für eine Runde {D} Schläge nötig.",
+      "gloss_en": "On a different golf course, {D} strokes were needed for a round.",
+      "entity_note": "A different golf course (a place, whose own par is not stated), not a different golfer (a person) as in the first distractor; not the golfer/round the question compares."
+    },
+    {
+      "story_id": 14,
+      "distractor_fact": "Bei einer anderen Bahngesellschaft erreichte ein Zug den Bahnhof {D} Minuten nach Mitternacht.",
+      "gloss_en": "At a different train company, a train reached the station {D} minutes after midnight.",
+      "entity_note": "A different train company (an organization, whose own schedule is not stated), not a different train on a different line (an instrument/series) as in the first distractor; not the train whose actual/scheduled arrival the question compares."
+    },
+    {
+      "story_id": 15,
+      "distractor_fact": "Bei einer anderen Fluggesellschaft landete ein Flugzeug {D} Minuten nach Mitternacht.",
+      "gloss_en": "At a different airline, a plane landed {D} minutes after midnight.",
+      "entity_note": "A different airline (an organization, whose own schedule is not stated), not a different flight on a different route (an instrument/series) as in the first distractor; not the flight whose actual/scheduled landing the question compares."
+    },
+    {
+      "story_id": 16,
+      "distractor_fact": "Eine andere Behörde meldete am selben Tag einen Wasserstand von {D} Zentimetern.",
+      "gloss_en": "A different authority reported a water level of {D} centimeters that same day.",
+      "entity_note": "A different authority (an organization, with its own unstated reference line), not a different sensor at a different site (an instrument) as in the first distractor; not the sensor whose level/reference the question compares."
+    }
+  ]
+}

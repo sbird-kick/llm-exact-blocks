@@ -1,0 +1,272 @@
+{
+ "language": "Georgian",
+ "language_code": "ka",
+ "lead_in": "პასუხია",
+ "decimal_separator": ",",
+ "items": [
+  {
+   "story_id": 1,
+   "bank": "A",
+   "domain": "change",
+   "unit": "°C",
+   "sign_convention": "after minus before",
+   "facts_min_first": "ერთ სოფელში საღამოს ტემპერატურა იყო {M}°C, დილით კი — {S}°C.",
+   "facts_sub_first": "ერთ სოფელში დილით ტემპერატურა იყო {S}°C, საღამოს კი — {M}°C.",
+   "question": "რა იყო ტემპერატურის ცვლილება დილიდან საღამომდე?",
+   "distractor_sentence": "ამ სოფელში {D} ოჯახი ცხოვრობს.",
+   "agreement_safe": true,
+   "agreement_note": "Georgian cardinal numerals govern the following noun in the nominative SINGULAR for every integer (e.g. 5 lari, 51 lari, 4870 lari all use 'lari' unchanged); unit words/symbols placed right after {M}/{S} never inflect.",
+   "decimals_natural": true,
+   "gloss_en": "In a village, the evening temperature was M°C, and the morning temperature was S°C. What was the change in temperature from morning to evening?",
+   "notes": "Signed answer: evening minus morning; can be negative if it cooled.",
+   "distractor_ok": true,
+   "verifier": {
+    "tag": "V6",
+    "natural": 3,
+    "comment": ""
+   }
+  },
+  {
+   "story_id": 2,
+   "bank": "A",
+   "domain": "change",
+   "unit": "$",
+   "sign_convention": "after(close) minus before(open)",
+   "facts_min_first": "აქციის დახურვის ფასი იყო {M}$, გახსნის ფასი კი — {S}$.",
+   "facts_sub_first": "აქციის გახსნის ფასი იყო {S}$, დახურვის ფასი კი — {M}$.",
+   "question": "რა იყო აქციის ფასის ცვლილება დღის განმავლობაში?",
+   "distractor_sentence": "ამ კომპანიაში {D} თანამშრომელი მუშაობს.",
+   "agreement_safe": true,
+   "agreement_note": "Georgian cardinal numerals govern the following noun in the nominative SINGULAR for every integer (e.g. 5 lari, 51 lari, 4870 lari all use 'lari' unchanged); unit words/symbols placed right after {M}/{S} never inflect.",
+   "decimals_natural": true,
+   "gloss_en": "The stock's closing price was M$, and the opening price was S$. What was the change in the stock's price over the day?",
+   "notes": "Signed answer: close minus open.",
+   "distractor_ok": true,
+   "verifier": {
+    "tag": "V6",
+    "natural": 3,
+    "comment": ""
+   }
+  },
+  {
+   "story_id": 3,
+   "bank": "A",
+   "domain": "change",
+   "unit": "მეტრი",
+   "sign_convention": "after(evening) minus before(morning)",
+   "facts_min_first": "მდინარის დონე საღამოს იყო {M} მეტრი, დილით კი — {S} მეტრი.",
+   "facts_sub_first": "მდინარის დონე დილით იყო {S} მეტრი, საღამოს კი — {M} მეტრი.",
+   "question": "რა იყო მდინარის დონის ცვლილება დღის განმავლობაში?",
+   "distractor_sentence": "ეს ხიდი {D} წელს ააშენეს.",
+   "agreement_safe": true,
+   "agreement_note": "Georgian cardinal numerals govern the following noun in the nominative SINGULAR for every integer (e.g. 5 lari, 51 lari, 4870 lari all use 'lari' unchanged); unit words/symbols placed right after {M}/{S} never inflect.",
+   "decimals_natural": true,
+   "gloss_en": "The river level in the evening was M meters, and in the morning it was S meters. What was the change in the river's level over the day?",
+   "notes": "Signed answer: evening minus morning.",
+   "distractor_ok": true,
+   "verifier": {
+    "tag": "V6",
+    "natural": 3,
+    "comment": ""
+   }
+  },
+  {
+   "story_id": 4,
+   "bank": "A",
+   "domain": "change",
+   "unit": "მეტრი",
+   "sign_convention": "after(end) minus before(start)",
+   "facts_min_first": "მთის ლაშქრობის ბოლოს სიმაღლე იყო {M} მეტრი, დასაწყისში კი — {S} მეტრი.",
+   "facts_sub_first": "მთის ლაშქრობის დასაწყისში სიმაღლე იყო {S} მეტრი, ბოლოს კი — {M} მეტრი.",
+   "question": "რა იყო სიმაღლის ცვლილება ლაშქრობის განმავლობაში?",
+   "distractor_sentence": "ამ მარშრუტს ზაფხულში {D} ადამიანი გაივლის.",
+   "agreement_safe": true,
+   "agreement_note": "Georgian cardinal numerals govern the following noun in the nominative SINGULAR for every integer (e.g. 5 lari, 51 lari, 4870 lari all use 'lari' unchanged); unit words/symbols placed right after {M}/{S} never inflect.",
+   "decimals_natural": true,
+   "gloss_en": "At the end of a mountain hike the altitude was M meters, and at the start it was S meters. What was the change in altitude over the hike?",
+   "notes": "Signed answer: end minus start; negative if the hike descended overall.",
+   "distractor_ok": true,
+   "verifier": {
+    "tag": "V6",
+    "natural": 3,
+    "comment": ""
+   }
+  },
+  {
+   "story_id": 6,
+   "bank": "A",
+   "domain": "balance",
+   "unit": "ლარი",
+   "sign_convention": "deposited minus withdrawn",
+   "facts_min_first": "ანგარიშზე შევიდა {M} ლარი, გაიტანეს კი {S} ლარი.",
+   "facts_sub_first": "ანგარიშიდან გაიტანეს {S} ლარი, მანამდე კი შევიდა {M} ლარი.",
+   "question": "რა იყო ანგარიშის ბალანსი ამ თვის ბოლოს?",
+   "distractor_sentence": "ეს ბანკი {D} წლის წინ დაარსდა.",
+   "agreement_safe": true,
+   "agreement_note": "Georgian cardinal numerals govern the following noun in the nominative SINGULAR for every integer (e.g. 5 lari, 51 lari, 4870 lari all use 'lari' unchanged); unit words/symbols placed right after {M}/{S} never inflect.",
+   "decimals_natural": true,
+   "gloss_en": "M lari was deposited into the account, and S lari was withdrawn. What was the account's balance at the end of the month?",
+   "notes": "Signed answer: negative means overdrawn.",
+   "distractor_ok": true,
+   "verifier": {
+    "tag": "V6",
+    "natural": 3,
+    "comment": ""
+   }
+  },
+  {
+   "story_id": 9,
+   "bank": "A",
+   "domain": "net",
+   "unit": "გოლი",
+   "sign_convention": "scored minus conceded, one team, season",
+   "facts_min_first": "გუნდმა სეზონის განმავლობაში გაიტანა {M} გოლი, გამოიტანა კი {S} გოლი.",
+   "facts_sub_first": "გუნდმა სეზონის განმავლობაში გამოიტანა {S} გოლი, გაიტანა კი {M} გოლი.",
+   "question": "რა იყო გუნდის გოლთა სხვაობა სეზონის ბოლოს?",
+   "distractor_sentence": "ამ სეზონში გუნდმა ითამაშა {D} მატჩი.",
+   "agreement_safe": true,
+   "agreement_note": "Georgian cardinal numerals govern the following noun in the nominative SINGULAR for every integer (e.g. 5 lari, 51 lari, 4870 lari all use 'lari' unchanged); unit words/symbols placed right after {M}/{S} never inflect.",
+   "decimals_natural": false,
+   "gloss_en": "Over the season, a team scored M goals and conceded S goals. What was the team's goal difference at the end of the season?",
+   "notes": "Single team's own season, not a head-to-head comparison; that is domain 'relative' in bank B.",
+   "distractor_ok": true,
+   "verifier": {
+    "tag": "V6",
+    "natural": 2,
+    "comment": "'gamoitana' is not the idiomatic verb for conceding a goal; a native would write 'gautanes' or 'miigho'."
+   }
+  },
+  {
+   "story_id": 10,
+   "bank": "A",
+   "domain": "net",
+   "unit": "ლარი",
+   "sign_convention": "gains minus losses",
+   "facts_min_first": "ინვესტორმა მოიგო {M} ლარი, ზარალმა კი შეადგინა {S} ლარი.",
+   "facts_sub_first": "ინვესტორის ზარალმა შეადგინა {S} ლარი, მოგებამ კი — {M} ლარი.",
+   "question": "რა იყო ინვესტორის ნეტო შედეგი?",
+   "distractor_sentence": "ეს ინვესტორი ბაზარზე {D} წელია მუშაობს.",
+   "agreement_safe": true,
+   "agreement_note": "Georgian cardinal numerals govern the following noun in the nominative SINGULAR for every integer (e.g. 5 lari, 51 lari, 4870 lari all use 'lari' unchanged); unit words/symbols placed right after {M}/{S} never inflect.",
+   "decimals_natural": true,
+   "gloss_en": "An investor gained M lari, and losses came to S lari. What was the investor's net result?",
+   "notes": "Signed answer: negative means an overall loss.",
+   "distractor_ok": true,
+   "verifier": {
+    "tag": "V6",
+    "natural": 3,
+    "comment": ""
+   }
+  },
+  {
+   "story_id": 11,
+   "bank": "A",
+   "domain": "actual vs target",
+   "unit": "ერთეული",
+   "sign_convention": "actual minus target, production",
+   "facts_min_first": "ქარხანამ რეალურად დაამზადა {M} ერთეული პროდუქცია, გეგმით კი გათვალისწინებული იყო {S} ერთეული.",
+   "facts_sub_first": "გეგმით გათვალისწინებული იყო {S} ერთეული პროდუქცია, ქარხანამ კი რეალურად დაამზადა {M} ერთეული.",
+   "question": "რა იყო გეგმის გადახრა, ერთეულებში გამოსახული?",
+   "distractor_sentence": "ამ ქარხანაში {D} ადამიანი მუშაობს.",
+   "agreement_safe": true,
+   "agreement_note": "Georgian cardinal numerals govern the following noun in the nominative SINGULAR for every integer (e.g. 5 lari, 51 lari, 4870 lari all use 'lari' unchanged); unit words/symbols placed right after {M}/{S} never inflect.",
+   "decimals_natural": false,
+   "gloss_en": "A factory actually produced M units, while the plan called for S units. What was the deviation from the plan, expressed in units?",
+   "notes": "Signed answer: negative means the factory fell short of the plan.",
+   "distractor_ok": true,
+   "verifier": {
+    "tag": "V6",
+    "natural": 3,
+    "comment": ""
+   }
+  },
+  {
+   "story_id": 12,
+   "bank": "A",
+   "domain": "actual vs target",
+   "unit": "ლარი",
+   "sign_convention": "actual minus target, sales",
+   "facts_min_first": "მაღაზიამ რეალურად გაყიდა {M} ლარის ღირებულების საქონელი, გეგმით კი დასახული იყო {S} ლარი.",
+   "facts_sub_first": "მაღაზიას გეგმით დასახული ჰქონდა {S} ლარი, რეალურად კი გაყიდა {M} ლარის ღირებულების საქონელი.",
+   "question": "რა იყო გეგმის გადახრა მაღაზიაში?",
+   "distractor_sentence": "ამ მაღაზიაში {D} თანამშრომელი მუშაობს.",
+   "agreement_safe": true,
+   "agreement_note": "Georgian cardinal numerals govern the following noun in the nominative SINGULAR for every integer (e.g. 5 lari, 51 lari, 4870 lari all use 'lari' unchanged); unit words/symbols placed right after {M}/{S} never inflect.",
+   "decimals_natural": true,
+   "gloss_en": "A shop actually sold M lari worth of goods, while the target was S lari. What was the deviation from the target in the shop?",
+   "notes": "Signed answer: negative means sales fell short of target.",
+   "distractor_ok": true,
+   "verifier": {
+    "tag": "V6",
+    "natural": 3,
+    "comment": ""
+   }
+  },
+  {
+   "story_id": 14,
+   "bank": "A",
+   "domain": "score vs par",
+   "unit": "დარტყმა",
+   "sign_convention": "strokes minus par",
+   "facts_min_first": "გოლფის მოთამაშემ დაწერა {M} დარტყმა, პარი კი იყო {S} დარტყმა.",
+   "facts_sub_first": "ამ ტურის პარი იყო {S} დარტყმა, გოლფის მოთამაშემ კი დაწერა {M} დარტყმა.",
+   "question": "რა იყო მოთამაშის შედეგი პართან მიმართებაში?",
+   "distractor_sentence": "ამ ტურნირზე მონაწილეობდა {D} მოთამაშე.",
+   "agreement_safe": true,
+   "agreement_note": "Georgian cardinal numerals govern the following noun in the nominative SINGULAR for every integer (e.g. 5 lari, 51 lari, 4870 lari all use 'lari' unchanged); unit words/symbols placed right after {M}/{S} never inflect.",
+   "decimals_natural": false,
+   "gloss_en": "A golfer took M strokes, while par was S strokes. What was the player's result relative to par?",
+   "notes": "Signed answer: negative (under par) is a good golf score; positive is over par.",
+   "distractor_ok": true,
+   "verifier": {
+    "tag": "V6",
+    "natural": 3,
+    "comment": ""
+   }
+  },
+  {
+   "story_id": 15,
+   "bank": "A",
+   "domain": "arrival vs schedule",
+   "unit": "წუთი",
+   "sign_convention": "actual minus scheduled, late positive",
+   "facts_min_first": "მატარებელი რეალურად ჩამოვიდა {M} წუთზე, განრიგით კი დასახული იყო {S} წუთი.",
+   "facts_sub_first": "განრიგით დასახული იყო {S} წუთი, მატარებელი კი რეალურად ჩამოვიდა {M} წუთზე.",
+   "question": "რამდენი წუთით დაიგვიანა მატარებელმა განრიგთან შედარებით, სადაც დაგვიანება დადებითად ითვლება?",
+   "distractor_sentence": "ამ სადგურზე დღეში {D} მატარებელი ჩერდება.",
+   "agreement_safe": true,
+   "agreement_note": "Georgian cardinal numerals govern the following noun in the nominative SINGULAR for every integer (e.g. 5 lari, 51 lari, 4870 lari all use 'lari' unchanged); unit words/symbols placed right after {M}/{S} never inflect.",
+   "decimals_natural": false,
+   "gloss_en": "The train actually arrived at minute M, while the schedule called for minute S. By how many minutes was the train late relative to the schedule, counting lateness as positive?",
+   "notes": "Signed answer: negative means the train was early.",
+   "distractor_ok": true,
+   "verifier": {
+    "tag": "V6",
+    "natural": 2,
+    "comment": "The facts mix 'arrived at minute P' with 'Q minutes scheduled', which reads inconsistently."
+   }
+  },
+  {
+   "story_id": 17,
+   "bank": "B",
+   "domain": "relative",
+   "unit": "გოლი",
+   "sign_convention": "team X's goals minus team Y's goals",
+   "facts_min_first": "გუნდმა A გაიტანა {M} გოლი, გუნდმა B კი — {S} გოლი.",
+   "facts_sub_first": "გუნდმა B გაიტანა {S} გოლი, გუნდმა A კი — {M} გოლი.",
+   "question": "რა იყო გუნდის A გოლთა სხვაობა გუნდთან B მიმართებაში?",
+   "distractor_sentence": "ამ მატჩს დაესწრო {D} მაყურებელი.",
+   "agreement_safe": true,
+   "agreement_note": "Georgian cardinal numerals govern the following noun in the nominative SINGULAR for every integer (e.g. 5 lari, 51 lari, 4870 lari all use 'lari' unchanged); unit words/symbols placed right after {M}/{S} never inflect.",
+   "decimals_natural": false,
+   "gloss_en": "Team A scored M goals, and team B scored S goals. What was team A's goal difference relative to team B?",
+   "notes": "Bank B relative: question names party A, whose number is M.",
+   "distractor_ok": true,
+   "verifier": {
+    "tag": "V6",
+    "natural": 2,
+    "comment": "'gundtan B mimartebashi' has the case marker on the wrong word; 'gund B-stan' is the natural order."
+   }
+  }
+ ]
+}

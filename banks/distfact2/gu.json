@@ -1,0 +1,66 @@
+{
+  "language_code": "gu",
+  "refused": [],
+  "items": [
+    {
+      "story_id": 1,
+      "distractor_fact": "એ જ સાંજે એક હવામાન એપ પર દેખાતું તાપમાન {D}°C હતું.",
+      "gloss_en": "That same evening, the temperature shown on a weather app was {D} °C.",
+      "entity_note": "a weather app reading (an instrument), a different kind of owner than the first sentence's neighboring city (a place)."
+    },
+    {
+      "story_id": 2,
+      "distractor_fact": "એ જ દિવસે એક ખાનગી રોકાણકારે ધરાવેલ એક અલગ કંપનીના શેરનો ભાવ €{D} હતો.",
+      "gloss_en": "That same day, the share price of a different company held by a private investor was €{D}.",
+      "entity_note": "a private investor's holding in a different company (a person), a different kind of owner than the first sentence's rival company (an organisation)."
+    },
+    {
+      "story_id": 3,
+      "distractor_fact": "એ જ સમયે એક કંપની દ્વારા સંચાલિત જળાશયનું પાણીનું સ્તર {D} m હતું.",
+      "gloss_en": "At the same time, the water level of a reservoir operated by a company was {D} m.",
+      "entity_note": "a reservoir run by a company (an organisation), a different kind of owner than the first sentence's neighboring lake (a place)."
+    },
+    {
+      "story_id": 4,
+      "distractor_fact": "એક પડોશીના બચત ખાતામાં આ મહિને €{D} જમા થયા.",
+      "gloss_en": "A neighbor's savings account had €{D} deposited into it this month.",
+      "entity_note": "a neighbor's account (a person), a different kind of owner than the first sentence's another unspecified savings account (an instrument)."
+    },
+    {
+      "story_id": 5,
+      "distractor_fact": "એક મિત્રના ગિફ્ટ કાર્ડમાં શરૂઆતમાં €{D} હતા.",
+      "gloss_en": "A friend's gift card had €{D} on it at the start.",
+      "entity_note": "a friend's gift card (a person), a different kind of owner than the first sentence's another unspecified gift card (an instrument)."
+    },
+    {
+      "story_id": 6,
+      "distractor_fact": "એક કુટુંબના સભ્યના મોબાઇલ ડેટા પ્લાનમાં મહિનાની શરૂઆતમાં {D} GB હતું.",
+      "gloss_en": "A family member's mobile data plan had {D} GB at the start of the month.",
+      "entity_note": "a family member's plan (a person), a different kind of owner than the first sentence's another unspecified data plan (an instrument)."
+    },
+    {
+      "story_id": 7,
+      "distractor_fact": "એક સ્થાનિક સખાવતી સંસ્થાની આ મહિનાની આવક €{D} હતી.",
+      "gloss_en": "A local charity's income for the month was €{D}.",
+      "entity_note": "a charity organisation (an organisation), a different kind of owner than the first sentence's neighboring household (a family/person group)."
+    },
+    {
+      "story_id": 8,
+      "distractor_fact": "આ ટીમના એક ખેલાડીએ પોતાની કારકિર્દીમાં કુલ {D} ગોલ કર્યા.",
+      "gloss_en": "A player on this team scored a total of {D} goals over his career.",
+      "entity_note": "an individual player (a person), a different kind of owner than the first sentence's another team in the same league (an organisation)."
+    },
+    {
+      "story_id": 9,
+      "distractor_fact": "એક ફ્રીલાન્સ સલાહકારે એ જ ત્રિમાસિકમાં €{D} નફો નોંધાવ્યો.",
+      "gloss_en": "A freelance consultant recorded €{D} in profit that same quarter.",
+      "entity_note": "an individual freelance consultant (a person), a different kind of owner than the first sentence's another small business (an organisation)."
+    },
+    {
+      "story_id": 15,
+      "distractor_fact": "એ જ સમયે એક ફ્લાઈટનું આગમન સમય રીડિંગ {D} min નોંધાયું, જેનું પોતાનું નિર્ધારિત સમયપત્રક અહીં આપેલું નથી.",
+      "gloss_en": "At the same time, a flight's arrival time reading of {D} min was recorded, its own scheduled time not given here.",
+      "entity_note": "shared-reference domain: a flight (a different transport instrument, aviation) whose own schedule is not stated here, a different kind of owner than the first sentence's another train on a different line (also an instrument, rail)."
+    }
+  ]
+}

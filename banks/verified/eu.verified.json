@@ -1,0 +1,260 @@
+{
+ "language": "Basque",
+ "language_code": "eu",
+ "lead_in": "Erantzuna da",
+ "decimal_separator": ",",
+ "items": [
+  {
+   "story_id": 1,
+   "bank": "A",
+   "domain": "change",
+   "unit": "°C",
+   "sign_convention": "after minus before",
+   "gloss_en": "In the afternoon the temperature is {M}°C, while in the morning it was {S}°C. What was the change in temperature from morning to afternoon?",
+   "decimals_natural": true,
+   "facts_min_first": "Arratsaldeko tenperatura {M}°C da, goizeko tenperatura berriz {S}°C zen.",
+   "facts_sub_first": "Goizeko tenperatura {S}°C zen, arratsaldeko tenperatura berriz {M}°C da.",
+   "question": "Zein izan da tenperaturaren aldaketa goizetik arratsaldera?",
+   "distractor_sentence": "Datuak {D} zenbakiko estaziotik jaso dira.",
+   "agreement_note": "°C unitate-ikurra zenbakiaren ondoren zuzenean jartzen da eta euskarazko hitzek ez dute inolako aldaketarik jasaten zenbakiaren tamainaren arabera (3, 51 edo 4870 berdin balio dute).",
+   "agreement_safe": true,
+   "distractor_ok": true,
+   "verifier": {
+    "tag": "V13",
+    "natural": 3,
+    "comment": ""
+   }
+  },
+  {
+   "story_id": 2,
+   "bank": "A",
+   "domain": "change",
+   "unit": "$",
+   "sign_convention": "after minus before",
+   "gloss_en": "At market close the share price is ${M}, while at market open it was ${S}. What was the change in price from open to close?",
+   "decimals_natural": true,
+   "facts_min_first": "Burtsa itxi denean, akzioaren prezioa ${M} da, burtsa ireki denean berriz ${S} zen.",
+   "facts_sub_first": "Burtsa ireki denean, akzioaren prezioa ${S} zen, burtsa itxi denean berriz ${M} da.",
+   "question": "Zein izan da prezioaren aldaketa irekieratik itxierara?",
+   "distractor_sentence": "Enpresa hau {D} zenbakiko kotizazio-zerrendan dago.",
+   "agreement_note": "$ unitate-ikurra zenbakiaren ondoren zuzenean jartzen da eta euskarazko hitzek ez dute inolako aldaketarik jasaten zenbakiaren tamainaren arabera (3, 51 edo 4870 berdin balio dute).",
+   "agreement_safe": true,
+   "distractor_ok": true,
+   "verifier": {
+    "tag": "V13",
+    "natural": 3,
+    "comment": ""
+   }
+  },
+  {
+   "story_id": 3,
+   "bank": "A",
+   "domain": "change",
+   "unit": "m",
+   "sign_convention": "after minus before",
+   "gloss_en": "This month the reservoir's water level reached {M} m, while last month it was {S} m. What was the change in the water level from last month to now?",
+   "decimals_natural": true,
+   "facts_min_first": "Hilabete honetan urtegiko uraren maila {M}m-koa da, joan den hilabetean berriz {S}m-koa zen.",
+   "facts_sub_first": "Joan den hilabetean urtegiko uraren maila {S}m-koa zen, hilabete honetan berriz {M}m-koa da.",
+   "question": "Zein izan da uraren mailaren aldaketa joan den hilabetetik gaur egunera?",
+   "distractor_sentence": "Urtegi hau {D} zenbakiko errepidetik gertu eraiki zen.",
+   "agreement_note": "m unitate-ikurra zenbakiaren ondoren zuzenean jartzen da eta euskarazko hitzek ez dute inolako aldaketarik jasaten zenbakiaren tamainaren arabera (3, 51 edo 4870 berdin balio dute).",
+   "agreement_safe": true,
+   "distractor_ok": true,
+   "verifier": {
+    "tag": "V13",
+    "natural": 3,
+    "comment": "Question says 'gaur egunera' where the facts contrast two months."
+   }
+  },
+  {
+   "story_id": 4,
+   "bank": "A",
+   "domain": "change",
+   "unit": "m",
+   "sign_convention": "after minus before",
+   "gloss_en": "In the final measurement the drone's altitude is {M} m, but in the initial measurement it was {S} m. What was the change in the drone's altitude from the initial to the final measurement?",
+   "decimals_natural": true,
+   "facts_min_first": "Azken neurketan drone-aren altuera {M}m-koa da, lehen neurketan berriz {S}m-koa zen.",
+   "facts_sub_first": "Lehen neurketan drone-aren altuera {S}m-koa zen, azken neurketan berriz {M}m-koa da.",
+   "question": "Zein izan da drone-aren altueraren aldaketa lehen neurketatik azkenera?",
+   "distractor_sentence": "Drone honek {D} zenbakiko modeloa du.",
+   "agreement_note": "m unitate-ikurra zenbakiaren ondoren zuzenean jartzen da eta euskarazko hitzek ez dute inolako aldaketarik jasaten zenbakiaren tamainaren arabera (3, 51 edo 4870 berdin balio dute).",
+   "agreement_safe": true,
+   "distractor_ok": true,
+   "verifier": {
+    "tag": "V13",
+    "natural": 3,
+    "comment": ""
+   }
+  },
+  {
+   "story_id": 5,
+   "bank": "A",
+   "domain": "change",
+   "unit": "kg",
+   "sign_convention": "after minus before",
+   "gloss_en": "After the journey the package weighs {M} kg, but before shipping it weighed {S} kg. What was the change in the package's weight from before to after shipping?",
+   "decimals_natural": true,
+   "facts_min_first": "Bidaiaren ondoren paketearen pisua {M}kg-koa da, bidali aurretik berriz {S}kg-koa zen.",
+   "facts_sub_first": "Bidali aurretik paketearen pisua {S}kg-koa zen, bidaiaren ondoren berriz {M}kg-koa da.",
+   "question": "Zein izan da paketearen pisuaren aldaketa bidali aurretik eta ondoren?",
+   "distractor_sentence": "Paketeak {D} zenbakiko etiketa darama.",
+   "agreement_note": "kg unitate-ikurra zenbakiaren ondoren zuzenean jartzen da eta euskarazko hitzek ez dute inolako aldaketarik jasaten zenbakiaren tamainaren arabera (3, 51 edo 4870 berdin balio dute).",
+   "agreement_safe": true,
+   "distractor_ok": true,
+   "verifier": {
+    "tag": "V13",
+    "natural": 2,
+    "comment": "'aldaketa bidali aurretik eta ondoren' is a stiff way to phrase the interval."
+   }
+  },
+  {
+   "story_id": 6,
+   "bank": "A",
+   "domain": "change",
+   "unit": "km/h",
+   "sign_convention": "after minus before",
+   "gloss_en": "In the final reading the engine's speed is {M} km/h, while in the initial reading it was {S} km/h. What was the change in the engine's speed from the initial to the final reading?",
+   "decimals_natural": true,
+   "facts_min_first": "Azken irakurketan motorraren abiadura {M}km/h-koa da, lehen irakurketan berriz {S}km/h-koa zen.",
+   "facts_sub_first": "Lehen irakurketan motorraren abiadura {S}km/h-koa zen, azken irakurketan berriz {M}km/h-koa da.",
+   "question": "Zein izan da motorraren abiaduraren aldaketa lehen irakurketatik azkenera?",
+   "distractor_sentence": "Motor honek {D} zenbakiko seriea du.",
+   "agreement_note": "km/h unitate-ikurra zenbakiaren ondoren zuzenean jartzen da eta euskarazko hitzek ez dute inolako aldaketarik jasaten zenbakiaren tamainaren arabera (3, 51 edo 4870 berdin balio dute).",
+   "agreement_safe": true,
+   "distractor_ok": true,
+   "verifier": {
+    "tag": "V13",
+    "natural": 3,
+    "comment": ""
+   }
+  },
+  {
+   "story_id": 7,
+   "bank": "A",
+   "domain": "change",
+   "unit": "pts",
+   "sign_convention": "after minus before",
+   "gloss_en": "At the end of the session the player's score is {M} pts, while at the start it was {S} pts. What was the change in the player's score from the start to the end of the session?",
+   "decimals_natural": false,
+   "facts_min_first": "Saioaren amaieran jokalariaren puntuazioa {M}pts-koa da, hasieran berriz {S}pts-koa zen.",
+   "facts_sub_first": "Saioaren hasieran jokalariaren puntuazioa {S}pts-koa zen, amaieran berriz {M}pts-koa da.",
+   "question": "Zein izan da jokalariaren puntuazioaren aldaketa saioaren hasieratik amaierara?",
+   "distractor_sentence": "Jokalari honek {D} zenbakiko kontrolagailua erabiltzen du.",
+   "agreement_note": "pts unitate-ikurra zenbakiaren ondoren zuzenean jartzen da eta euskarazko hitzek ez dute inolako aldaketarik jasaten zenbakiaren tamainaren arabera (3, 51 edo 4870 berdin balio dute).",
+   "agreement_safe": true,
+   "distractor_ok": true,
+   "verifier": {
+    "tag": "V13",
+    "natural": 3,
+    "comment": ""
+   }
+  },
+  {
+   "story_id": 8,
+   "bank": "A",
+   "domain": "balance",
+   "unit": "$",
+   "sign_convention": "deposited minus withdrawn",
+   "gloss_en": "A client deposited ${M} into the account, and withdrew ${S}. What is the client's balance now?",
+   "decimals_natural": true,
+   "facts_min_first": "Bezero batek ${M} sartu ditu kontuan, eta ${S} atera ditu.",
+   "facts_sub_first": "Bezero batek ${S} atera ditu kontutik, eta aurretik ${M} sartu zituen.",
+   "question": "Zenbat da bezeroaren kontuaren saldoa orain?",
+   "distractor_sentence": "Kontu hau {D} zenbakiarekin erregistratuta dago.",
+   "agreement_note": "$ unitate-ikurra zenbakiaren ondoren zuzenean jartzen da eta euskarazko hitzek ez dute inolako aldaketarik jasaten zenbakiaren tamainaren arabera (3, 51 edo 4870 berdin balio dute).",
+   "agreement_safe": true,
+   "distractor_ok": true,
+   "verifier": {
+    "tag": "V13",
+    "natural": 3,
+    "comment": ""
+   }
+  },
+  {
+   "story_id": 9,
+   "bank": "A",
+   "domain": "balance",
+   "unit": "pts",
+   "sign_convention": "earned minus redeemed",
+   "gloss_en": "A loyalty-club member earned {M} pts, and redeemed {S} pts. What is the member's points balance now?",
+   "decimals_natural": false,
+   "facts_min_first": "Bazkide batek {M}pts irabazi ditu, eta {S}pts erabili ditu.",
+   "facts_sub_first": "Bazkide batek {S}pts erabili ditu, eta aurretik {M}pts irabazi zituen.",
+   "question": "Zenbat da bazkidearen puntu-saldoa orain?",
+   "distractor_sentence": "Bazkidearen txartelak {D} zenbakia du.",
+   "agreement_note": "pts unitate-ikurra zenbakiaren ondoren zuzenean jartzen da eta euskarazko hitzek ez dute inolako aldaketarik jasaten zenbakiaren tamainaren arabera (3, 51 edo 4870 berdin balio dute).",
+   "agreement_safe": true,
+   "distractor_ok": true,
+   "verifier": {
+    "tag": "V13",
+    "natural": 3,
+    "comment": ""
+   }
+  },
+  {
+   "story_id": 11,
+   "bank": "A",
+   "domain": "net",
+   "unit": "$",
+   "sign_convention": "in minus out",
+   "gloss_en": "This month the shop's income is ${M}, while its expenses are ${S}. What was the shop's net result this month?",
+   "decimals_natural": true,
+   "facts_min_first": "Hilabete honetan dendaren sarrerak ${M} dira, gastuak berriz ${S} dira.",
+   "facts_sub_first": "Hilabete honetan dendaren gastuak ${S} dira, sarrerak berriz ${M} dira.",
+   "question": "Zein izan da dendaren emaitza garbia hilabete honetan?",
+   "distractor_sentence": "Denda hau {D} zenbakiko lokalean dago.",
+   "agreement_note": "$ unitate-ikurra zenbakiaren ondoren zuzenean jartzen da eta euskarazko hitzek ez dute inolako aldaketarik jasaten zenbakiaren tamainaren arabera (3, 51 edo 4870 berdin balio dute).",
+   "agreement_safe": true,
+   "distractor_ok": true,
+   "verifier": {
+    "tag": "V13",
+    "natural": 3,
+    "comment": ""
+   }
+  },
+  {
+   "story_id": 12,
+   "bank": "A",
+   "domain": "net",
+   "unit": "",
+   "sign_convention": "in minus out",
+   "gloss_en": "Over the season, goals scored by the team amounted to {M}, and goals conceded amounted to {S}. What was the team's goal difference for the season?",
+   "decimals_natural": false,
+   "facts_min_first": "Denboraldi osoan taldeak sartutako golen kopurua {M} da, jasotakoena berriz {S} da.",
+   "facts_sub_first": "Denboraldi osoan taldeak jasotako golen kopurua {S} da, sartutakoena berriz {M} da.",
+   "question": "Zein izan da taldearen gol-aldea denboraldi osoan?",
+   "distractor_sentence": "Talde hau {D} zenbakiko dibisioan jokatzen du.",
+   "agreement_note": "Zenbakia zifra arabiarrez idatzita dago eta 'kopururaino'/'zenbakiraino' bezalako hitzen osagarri gisa ageri da; ondoren doan hitza (kopuru, zenbaki) beti forma berean geratzen da, zenbakiaren tamaina edozein dela ere.",
+   "agreement_safe": true,
+   "distractor_ok": false,
+   "verifier": {
+    "tag": "V13",
+    "natural": 2,
+    "comment": "Distractor 'Talde hau ... jokatzen du' needs the ergative 'Talde honek'."
+   }
+  },
+  {
+   "story_id": 16,
+   "bank": "A",
+   "domain": "arrival vs schedule",
+   "unit": "min",
+   "sign_convention": "actual minus scheduled, late counted positive",
+   "gloss_en": "The train's actual arrival is {M} min after midnight, while its scheduled time is {S} min after midnight. How many minutes is the actual arrival relative to schedule, with lateness counted as positive?",
+   "decimals_natural": false,
+   "facts_min_first": "Trenaren benetako iristea gauerdi ondoren {M}min-koa da, ordutegiko iristea berriz {S}min-koa da.",
+   "facts_sub_first": "Trenaren ordutegiko iristea gauerdi ondoren {S}min-koa da, benetako iristea berriz {M}min-koa da.",
+   "question": "Zenbat minutuko aldea dago trenaren benetako iristearen eta ordutegiaren artean, berandutasuna positibotzat hartuta?",
+   "distractor_sentence": "Tren honek {D} zenbakia du.",
+   "agreement_note": "min unitate-ikurra zenbakiaren ondoren zuzenean jartzen da eta euskarazko hitzek ez dute inolako aldaketarik jasaten zenbakiaren tamainaren arabera (3, 51 edo 4870 berdin balio dute).",
+   "agreement_safe": true,
+   "distractor_ok": true,
+   "verifier": {
+    "tag": "V13",
+    "natural": 2,
+    "comment": "'iristea' is stiff for the noun 'iritsiera'."
+   }
+  }
+ ]
+}

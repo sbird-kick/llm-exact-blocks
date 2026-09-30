@@ -1,0 +1,96 @@
+{
+  "language_code": "ne",
+  "refused": [],
+  "items": [
+    {
+      "story_id": 5,
+      "distractor_fact": "यात्रा बीमा कम्पनीसँग सोही दिन {D} रुपैयाँको दाबी रकम थियो।",
+      "gloss_en": "The travel insurance company had a claim amount of {D} rupees that same day.",
+      "entity_note": "owner is the travel insurance company (an organisation), unlike the first distractor's neighbor (a person)."
+    },
+    {
+      "story_id": 6,
+      "distractor_fact": "बैंकको केन्द्रीय जगेडा कोषमा सोही महिना {D} रुपैयाँ थियो।",
+      "gloss_en": "The bank's central reserve fund held {D} rupees that same month.",
+      "entity_note": "owner is the bank's own reserve fund (an organisation-level fund), unlike the first distractor's neighbor's personal bank account (a person)."
+    },
+    {
+      "story_id": 7,
+      "distractor_fact": "स्थानीय सहकारी संस्थाको सोही महिना बचत रकम {D} रुपैयाँ रह्यो।",
+      "gloss_en": "The local cooperative's savings amount that same month came to {D} rupees.",
+      "entity_note": "owner is the local cooperative (an organisation), unlike the first distractor's neighboring family (a person/household)."
+    },
+    {
+      "story_id": 8,
+      "distractor_fact": "सोही टोलीले सोही सिजनको कप प्रतियोगितामा {D} गोल गर्यो।",
+      "gloss_en": "The same team scored {D} goals in the cup competition that same season.",
+      "entity_note": "the quantity is owned by a different SERIES -- the cup competition's separate tally -- unlike the first distractor's a different TEAM in the league (a person/organisation)."
+    },
+    {
+      "story_id": 9,
+      "distractor_fact": "व्यापार संघको सोही वर्ष कुल नाफा {D} रुपैयाँ रह्यो।",
+      "gloss_en": "The trade association's total profit that same year came to {D} rupees.",
+      "entity_note": "owner is the trade association (an organisation), unlike the first distractor's another individual trader (a person)."
+    },
+    {
+      "story_id": 10,
+      "distractor_fact": "कारखानाको एउटा छुट्टै उत्पादन लाइनले सोही महिना आफ्नै हिसाबले {D} टन उत्पादन गर्यो, जसको लागि छुट्टै लक्ष्य तोकिएको थिएन।",
+      "gloss_en": "A separate production line at the factory produced {D} tons on its own account that same month, for which no separate target had been set.",
+      "entity_note": "owner is a specific production line (an instrument/sub-unit with its own unstated target), unlike the first distractor's a neighboring factory (a place/institution)."
+    },
+    {
+      "story_id": 11,
+      "distractor_fact": "पसलको अनलाइन बिक्री च्यानलले सोही महिना छुट्टै रूपमा {D} रुपैयाँ बिक्री रेकर्ड गर्यो, जसको आफ्नै लक्ष्य तोकिएको थिएन।",
+      "gloss_en": "The shop's online sales channel separately recorded {D} rupees in sales that same month, for which no target of its own had been set.",
+      "entity_note": "owner is the shop's online sales channel (an instrument/channel), unlike the first distractor's another shop in the city (a place/organisation)."
+    },
+    {
+      "story_id": 12,
+      "distractor_fact": "मौसम विज्ञान केन्द्रको एउटा फरक नाप्ने यन्त्रले सोही वर्ष स्वतन्त्र रूपमा {D} मिलिमिटर वर्षा रेकर्ड गर्यो, जसको लागि पूर्वानुमान तोकिएको थिएन।",
+      "gloss_en": "A different measuring instrument at the meteorological center independently recorded {D} millimeters of rain that same year, for which no forecast had been issued.",
+      "entity_note": "owner is a specific rain-gauge instrument at the met center, unlike the first distractor's a neighboring district (a place)."
+    },
+    {
+      "story_id": 13,
+      "distractor_fact": "सोही दिन खेलिएको स्टाफहरूको मैत्रीपूर्ण खेलमा एक खेलाडीले {D} स्ट्रोक खेल्यो, जसको लागि कुनै पार तोकिएको थिएन।",
+      "gloss_en": "In a friendly staff game played the same day, a player took {D} strokes, for which no par had been set.",
+      "entity_note": "owner is a different SERIES/event -- an informal staff game with no assigned par -- unlike the first distractor's a golfer on a different course (a place)."
+    },
+    {
+      "story_id": 14,
+      "distractor_fact": "स्टेशन मास्टरले सोही मध्यरातदेखि {D} मिनेटपछि आफ्नो ड्युटी सुरु गरे, जसको लागि कुनै तालिका तोकिएको थिएन।",
+      "gloss_en": "The station master started his duty {D} minutes after midnight that same night, for which no schedule had been set.",
+      "entity_note": "owner is the station master (a person), unlike the first distractor's another train on a different line (an instrument/series)."
+    },
+    {
+      "story_id": 15,
+      "distractor_fact": "अर्को भवनको सुरक्षा गार्डले सोही समयमा आफ्नो राउन्डमा तल्ला {D} सम्म पुगे, जो प्रवेश तल्लाको सन्दर्भमा नापिएको थिएन।",
+      "gloss_en": "A security guard at another building reached up to floor {D} during his round at that same time, which was not measured relative to any entrance-floor reference.",
+      "entity_note": "owner is a security guard (a person) at another building, unlike the first distractor's another building's elevator (a place/instrument)."
+    },
+    {
+      "story_id": 16,
+      "distractor_fact": "जल तथा मौसम विज्ञान विभागको सोही दिनको राष्ट्रिय औसत प्रतिवेदनमा सतह {D} सेन्टिमिटर देखिएको थियो, जो कुनै एउटा तोकिएको सन्दर्भ चिन्हसँग जोडिएको थिएन।",
+      "gloss_en": "The department of hydrology and meteorology's national average report that same day showed a level of {D} centimeters, which was not tied to any single designated reference mark.",
+      "entity_note": "owner is the hydrology and meteorology department's national average figure (an organisation), unlike the first distractor's a neighboring lake (a place)."
+    },
+    {
+      "story_id": 17,
+      "distractor_fact": "लिगको सोही सिजनको तथ्याङ्क अनुसार औसत गोल संख्या {D} रह्यो।",
+      "gloss_en": "According to the league's statistics for that same season, the average goal count was {D}.",
+      "entity_note": "owner is the league's own statistical record (an organisation), unlike the first distractor's a third team in a different match (a series/event)."
+    },
+    {
+      "story_id": 19,
+      "distractor_fact": "विद्यालयको सोही परीक्षाको औसत अंक {D} रह्यो।",
+      "gloss_en": "The school's average mark for that same exam was {D}.",
+      "entity_note": "owner is the school's average-mark record (an organisation), unlike the first distractor's a third student (a person)."
+    },
+    {
+      "story_id": 20,
+      "distractor_fact": "मौसम केन्द्रको अर्को नाप्ने यन्त्रले सोही समयमा {D}°C देखायो।",
+      "gloss_en": "Another measuring instrument at the weather station showed {D}°C at that same time.",
+      "entity_note": "owner is a specific measuring instrument at the weather station, unlike the first distractor's a third city (a place)."
+    }
+  ]
+}

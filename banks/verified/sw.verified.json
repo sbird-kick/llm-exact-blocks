@@ -1,0 +1,140 @@
+{
+ "language": "Swahili",
+ "language_code": "sw",
+ "lead_in": "Jibu ni",
+ "decimal_separator": ",",
+ "items": [
+  {
+   "story_id": 6,
+   "bank": "A",
+   "domain": "balance",
+   "unit": "€",
+   "sign_convention": "deposited minus withdrawn",
+   "facts_min_first": "Mfanyabiashara aliweka euro {M} benki, kisha akatoa euro {S}.",
+   "facts_sub_first": "Mfanyabiashara alitoa euro {S} benki, baada ya kuweka euro {M}.",
+   "question": "Salio la akaunti likawa kiasi gani baada ya shughuli hizo?",
+   "distractor_sentence": "Benki hiyo ina tawi namba {D} mjini.",
+   "agreement_safe": true,
+   "agreement_note": "euro invariant loanword for any numeral.",
+   "decimals_natural": true,
+   "gloss_en": "The trader deposited M euros at the bank, then withdrew S euros. What was the account balance after these transactions?",
+   "notes": "",
+   "distractor_ok": true,
+   "verifier": {
+    "tag": "V4",
+    "natural": 3,
+    "comment": ""
+   }
+  },
+  {
+   "story_id": 9,
+   "bank": "A",
+   "domain": "net",
+   "unit": "mabao",
+   "sign_convention": "scored minus conceded",
+   "facts_min_first": "Msimu huu, timu ilifunga mabao {M} na kufungwa mabao {S}.",
+   "facts_sub_first": "Msimu huu, timu ilifungwa mabao {S} na kufunga mabao {M}.",
+   "question": "Tofauti ya mabao ya timu hiyo kwa msimu huu ilikuwa ngapi?",
+   "distractor_sentence": "Timu hiyo inacheza kwenye uwanja namba {D}.",
+   "agreement_safe": true,
+   "agreement_note": "mabao (class 6 plural of 'goal') is followed directly by the placeholder numeral, which never triggers a different agreement form.",
+   "decimals_natural": false,
+   "gloss_en": "This season the team scored M goals and conceded S goals. What was the team's goal difference for the season?",
+   "notes": "Single team over a season, not a head-to-head match.",
+   "distractor_ok": true,
+   "verifier": {
+    "tag": "V4",
+    "natural": 3,
+    "comment": ""
+   }
+  },
+  {
+   "story_id": 10,
+   "bank": "A",
+   "domain": "net",
+   "unit": "$",
+   "sign_convention": "gains minus losses",
+   "facts_min_first": "Mwekezaji alipata faida ya dola {M} na hasara ya dola {S} mwaka huu.",
+   "facts_sub_first": "Mwekezaji alipata hasara ya dola {S} na faida ya dola {M} mwaka huu.",
+   "question": "Matokeo halisi ya uwekezaji wa mwekezaji huyo mwaka huu yalikuwa kiasi gani?",
+   "distractor_sentence": "Mwekezaji huyo anamiliki hisa za kampuni namba {D}.",
+   "agreement_safe": true,
+   "agreement_note": "dola invariant loanword.",
+   "decimals_natural": true,
+   "gloss_en": "The investor made a gain of M dollars and a loss of S dollars this year. What was the investor's net result this year?",
+   "notes": "",
+   "distractor_ok": true,
+   "verifier": {
+    "tag": "V4",
+    "natural": 3,
+    "comment": ""
+   }
+  },
+  {
+   "story_id": 14,
+   "bank": "A",
+   "domain": "score vs par",
+   "unit": "mapigo",
+   "sign_convention": "strokes minus par",
+   "facts_min_first": "Katika raundi ya pili, mchezaji alipata mapigo {M}, wakati par ya uwanja ni mapigo {S}.",
+   "facts_sub_first": "Par ya uwanja ni mapigo {S}, wakati katika raundi ya pili mchezaji alipata mapigo {M}.",
+   "question": "Matokeo ya mchezaji ukilinganisha na par katika raundi hiyo yalikuwa mapigo mangapi?",
+   "distractor_sentence": "Raundi hiyo ilichezwa uwanja namba {D}.",
+   "agreement_safe": true,
+   "agreement_note": "mapigo invariant plural noun after any numeral.",
+   "decimals_natural": false,
+   "gloss_en": "In the second round, the player scored M strokes, while the course par is S strokes. What was the player's result relative to par in that round?",
+   "notes": "",
+   "distractor_ok": true,
+   "verifier": {
+    "tag": "V4",
+    "natural": 3,
+    "comment": ""
+   }
+  },
+  {
+   "story_id": 17,
+   "bank": "B",
+   "domain": "relative",
+   "unit": "mabao",
+   "sign_convention": "team X's goals minus team Y's goals",
+   "facts_min_first": "Timu A ilifunga mabao {M}, wakati Timu B ilifunga mabao {S}.",
+   "facts_sub_first": "Timu B ilifunga mabao {S}, wakati Timu A ilifunga mabao {M}.",
+   "question": "Timu A ilikuwa na tofauti gani ya mabao ukilinganisha na Timu B?",
+   "distractor_sentence": "Mechi hiyo ilichezwa uwanjani namba {D}.",
+   "agreement_safe": true,
+   "agreement_note": "mabao (class 6 plural of 'goal') invariant after any numeral.",
+   "decimals_natural": false,
+   "gloss_en": "Team A scored M goals, while Team B scored S goals. What was Team A's goal difference compared to Team B?",
+   "notes": "Question names party X (Team A) whose number is M.",
+   "distractor_ok": true,
+   "verifier": {
+    "tag": "V4",
+    "natural": 3,
+    "comment": ""
+   }
+  },
+  {
+   "story_id": 20,
+   "bank": "B",
+   "domain": "relative",
+   "unit": "alama",
+   "sign_convention": "Neema's marks minus Zawadi's marks",
+   "facts_min_first": "Mwanafunzi Neema alipata alama {M} kwenye mtihani, wakati mwanafunzi Zawadi alipata alama {S}.",
+   "facts_sub_first": "Mwanafunzi Zawadi alipata alama {S} kwenye mtihani, wakati mwanafunzi Neema alipata alama {M}.",
+   "question": "Neema alikuwa na tofauti gani ya alama ukilinganisha na Zawadi?",
+   "distractor_sentence": "Mtihani huo ulifanyika chumba namba {D}.",
+   "agreement_safe": true,
+   "agreement_note": "alama (marks, class 9/10 invariant noun) takes the placeholder numeral directly for any integer.",
+   "decimals_natural": false,
+   "gloss_en": "Student Neema scored M marks on the exam, while student Zawadi scored S marks. What was Neema's mark difference compared to Zawadi?",
+   "notes": "Question names party X (Neema) whose number is M; invented generic names, no real people.",
+   "distractor_ok": true,
+   "verifier": {
+    "tag": "V4",
+    "natural": 3,
+    "comment": ""
+   }
+  }
+ ]
+}

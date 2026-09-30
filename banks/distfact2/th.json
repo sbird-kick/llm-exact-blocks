@@ -1,0 +1,90 @@
+{
+  "language_code": "th",
+  "refused": [],
+  "items": [
+    {
+      "story_id": 1,
+      "distractor_fact": "ชาวสวนคนหนึ่งที่บ้านของตนเองวัดอุณหภูมิได้ {D} องศาเซลเซียสในช่วงเวลาเดียวกัน",
+      "gloss_en": "A gardener measured a temperature of {D}°C at their own home during the same period.",
+      "entity_note": "a gardener at their own home (a person), not a different village's thermometer (a place) as in the first distractor, and not the park's noon/morning reading the question compares"
+    },
+    {
+      "story_id": 2,
+      "distractor_fact": "กองทุนรวมอีกแห่งหนึ่งประเมินมูลค่าหน่วยลงทุนของตนเองไว้ที่ {D} บาทในวันเดียวกัน",
+      "gloss_en": "A different mutual fund valued its own unit at {D} baht on the same day.",
+      "entity_note": "a different mutual fund's own unit valuation (an organisation), not another stock in the same market (an entity) as in the first distractor, and not this stock's opening/closing price the question compares"
+    },
+    {
+      "story_id": 3,
+      "distractor_fact": "ชาวประมงคนหนึ่งวัดระดับน้ำจากหลักส่วนตัวของตนเองได้ {D} เมตรในช่วงเวลาเดียวกัน",
+      "gloss_en": "A fisherman measured the water level from his own personal marker post at {D} meters during the same period.",
+      "entity_note": "a fisherman's own marker post (a person), not a different reservoir (a place) as in the first distractor, and not the reservoir's before/after-rain levels the question compares"
+    },
+    {
+      "story_id": 4,
+      "distractor_fact": "เรดาร์ติดตามที่สนามบินใกล้เคียงแห่งหนึ่งตรวจพบวัตถุอีกชิ้นหนึ่งบินอยู่ที่ความสูง {D} เมตรในวันเดียวกัน",
+      "gloss_en": "A tracking radar at a nearby airport detected a different object flying at an altitude of {D} meters on the same day.",
+      "entity_note": "a tracking radar at a different airport (an instrument/place), not a second plane (an entity) as in the first distractor, and not this plane's before/after-climb altitude the question compares"
+    },
+    {
+      "story_id": 5,
+      "distractor_fact": "โกดังสินค้าใกล้เคียงแห่งหนึ่งบันทึกน้ำหนักพัสดุของตนเองไว้ที่ {D} กิโลกรัมในช่วงเวลาเดียวกัน",
+      "gloss_en": "A nearby warehouse recorded the weight of its own parcel at {D} kilograms during the same period.",
+      "entity_note": "a warehouse's own parcel weight (a place/organisation), not a different man in a different program (a person) as in the first distractor, and not this man's before/after weight the question compares"
+    },
+    {
+      "story_id": 6,
+      "distractor_fact": "โรงเรียนแห่งหนึ่งในจังหวัดใกล้เคียงมีจำนวนนักเรียนอยู่ที่ {D} คนในปีเดียวกัน",
+      "gloss_en": "A school in a neighboring province had {D} students in the same year.",
+      "entity_note": "a school's own student count (an organisation), not a different town (a place) as in the first distractor, and not this town's population figures the question compares"
+    },
+    {
+      "story_id": 7,
+      "distractor_fact": "ร้านขายขนมใกล้บ้านแห่งหนึ่งมีเงินสดอยู่ในลิ้นชักจำนวน {D} บาทในวันเดียวกัน",
+      "gloss_en": "A candy shop near the house had {D} baht of cash in its drawer on the same day.",
+      "entity_note": "a shop's own cash drawer (an organisation/place), not a different boy's spending (a person) as in the first distractor, and not this boy's money received/spent the question compares"
+    },
+    {
+      "story_id": 8,
+      "distractor_fact": "พนักงานธนาคารคนหนึ่งเก็บเงินส่วนตัวไว้ในกระเป๋าจำนวน {D} บาทในสัปดาห์เดียวกัน",
+      "gloss_en": "A bank employee kept {D} baht of personal money in their bag during the same week.",
+      "entity_note": "a bank employee's own personal cash (a person), not a different savings account (an entity) as in the first distractor, and not this account's deposit/withdrawal figures the question compares"
+    },
+    {
+      "story_id": 9,
+      "distractor_fact": "พ่อค้าแผงลอยคนหนึ่งที่ขายอยู่คนละย่านมีรายรับส่วนตัวอยู่ที่ {D} บาทในเดือนเดียวกัน",
+      "gloss_en": "A street vendor selling in a different neighborhood had personal earnings of {D} baht in the same month.",
+      "entity_note": "a street vendor's personal earnings (a person), not a different shop (an organisation) as in the first distractor, and not this shop's income/expenses the question compares"
+    },
+    {
+      "story_id": 10,
+      "distractor_fact": "นักฟุตบอลคนหนึ่งในลีกอื่นยิงประตูได้ {D} ประตูในฤดูกาลเดียวกัน",
+      "gloss_en": "A footballer in a different league scored {D} goals in the same season.",
+      "entity_note": "an individual player's own scoring tally (a person), not a different club (an organisation) as in the first distractor, and not this club's scored/conceded tally the question compares"
+    },
+    {
+      "story_id": 11,
+      "distractor_fact": "กองทุนเฮดจ์ฟันด์แห่งหนึ่งทำกำไรจากการซื้อขายได้ {D} บาทในสัปดาห์เดียวกัน",
+      "gloss_en": "A hedge fund made trading profit of {D} baht in the same week.",
+      "entity_note": "a hedge fund's own trading profit (an organisation), not a different trader (a person) as in the first distractor, and not this trader's gains/losses the question compares"
+    },
+    {
+      "story_id": 14,
+      "distractor_fact": "ในการแข่งขันกอล์ฟสมัครเล่นรายการหนึ่งที่จัดขึ้นในวันเดียวกัน ผู้เข้าแข่งขันคนหนึ่งตีจบหลุมด้วยจำนวนสโตรกจริง {D} สโตรก โดยไม่มีการประกาศพาร์ของหลุมนั้นไว้",
+      "gloss_en": "In an amateur golf tournament held on the same day, a competitor finished a hole with an actual stroke count of {D} strokes, with no par ever announced for that hole.",
+      "entity_note": "a competitor in a different tournament whose hole's par is never announced (a series/event), not a golfer on a different course (a person/place) as in the first distractor, and not this hole's actual score vs. its stated par the question compares"
+    },
+    {
+      "story_id": 15,
+      "distractor_fact": "บริษัทรถทัวร์เอกชนแห่งหนึ่งซึ่งมีตารางเวลาของตนเองที่ไม่ได้เปิดเผยไว้ รายงานว่ารถของบริษัทมาถึงจริงที่นาทีที่ {D} นับจากเวลาอ้างอิงเดียวกัน",
+      "gloss_en": "A private bus company, which has its own unpublished timetable, reported that its bus actually arrived at minute {D}, counted from the same reference point.",
+      "entity_note": "a private bus company with its own unpublished timetable (an organisation), not a different train on a different route (an entity/series) as in the first distractor, and not this train's actual arrival vs. its stated schedule the question compares"
+    },
+    {
+      "story_id": 18,
+      "distractor_fact": "สโมสรกรีฑาอีกแห่งหนึ่งจัดการแข่งขันภายในและบันทึกเวลาของนักวิ่งคนหนึ่งไว้ที่ {D} วินาทีในวันเดียวกัน",
+      "gloss_en": "A different athletics club held an internal race and recorded a runner's time at {D} seconds on the same day.",
+      "entity_note": "a different athletics club's own internal race (an organisation), not Runner C in a different race (a person) as in the first distractor, and not Runner A's or Runner B's time the question compares"
+    }
+  ]
+}

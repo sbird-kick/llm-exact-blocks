@@ -1,0 +1,102 @@
+{
+  "language_code": "yo",
+  "refused": [],
+  "items": [
+    {
+      "story_id": 1,
+      "distractor_fact": "Ẹ̀rọ olùwọn ìgbóná mìíràn fi hàn pé ìgbóná jẹ́ {D} °C ní ọjọ́ mìíràn.",
+      "gloss_en": "A different thermometer showed a temperature of {D} °C on a different day.",
+      "entity_note": "A different instrument (a thermometer) on a different day, not the different town of the first distractor; kind changes from PLACE to INSTRUMENT."
+    },
+    {
+      "story_id": 2,
+      "distractor_fact": "Oníbàárà mìíràn rà ọjà mìíràn ní iye owó tí ó jẹ́ dọ́là {D} ní ọjọ́ kan náà.",
+      "gloss_en": "A different customer bought another item for {D} dollars on the same day.",
+      "entity_note": "A different person (a customer), not the different shop of the first distractor; kind changes from ORGANISATION to PERSON."
+    },
+    {
+      "story_id": 3,
+      "distractor_fact": "Ẹ̀rọ ìwọ̀n omi kan tí a gbé sí ojò kan fi hàn pé omi ga tó mítà {D} ní àkókò kan náà.",
+      "gloss_en": "A water-measuring device installed at a reservoir showed the water reaching {D} meters at the same time.",
+      "entity_note": "A different instrument (a gauge at a reservoir), not the different river of the first distractor; kind changes from PLACE to INSTRUMENT."
+    },
+    {
+      "story_id": 4,
+      "distractor_fact": "Ẹ̀rọ olùwọn gíga tí a gbé sí ọkọ̀ òfurufú kan fi hàn pé gíga rẹ̀ jẹ́ mítà {D} ní àkókò kan náà.",
+      "gloss_en": "An altimeter mounted on an airplane showed its altitude to be {D} meters at the same time.",
+      "entity_note": "A different instrument (an altimeter on a plane), not the different hiker of the first distractor; kind changes from PERSON to INSTRUMENT."
+    },
+    {
+      "story_id": 5,
+      "distractor_fact": "Àjọ kan ní owó tí a fi pamọ́ sí báńkì kan tí ó jẹ́ dọ́là {D} ní ọ̀sẹ̀ kan náà.",
+      "gloss_en": "An organization had money saved at a bank amounting to {D} dollars in the same week.",
+      "entity_note": "A different organisation, not the different person of the first distractor; kind changes from PERSON to ORGANISATION."
+    },
+    {
+      "story_id": 6,
+      "distractor_fact": "Ilé ìtajà kan ní owó tí a fi pamọ́ sí àpótí owó rẹ̀ tí ó jẹ́ dọ́là {D} ní ọjọ́ kan náà.",
+      "gloss_en": "A shop had money kept in its cash box amounting to {D} dollars on the same day.",
+      "entity_note": "A different organisation (a shop), not the different child of the first distractor; kind changes from PERSON to ORGANISATION."
+    },
+    {
+      "story_id": 7,
+      "distractor_fact": "Ẹnìkan tí kò ní í ṣe pẹ̀lú ilé-iṣẹ́ oúnjẹ yìí jere dọ́là {D} gẹ́gẹ́ bí owó oṣù rẹ̀ ní oṣù kan náà.",
+      "gloss_en": "A person unconnected to this restaurant earned {D} dollars as their monthly income in the same month.",
+      "entity_note": "A different person, not the different restaurant of the first distractor; kind changes from ORGANISATION to PERSON."
+    },
+    {
+      "story_id": 10,
+      "distractor_fact": "Ẹ̀rọ ṣíṣe ọjà kan ní ilé-iṣẹ́ mìíràn ṣe ẹ̀yà {D} ọjà ní ọ̀sẹ̀ kan náà, gẹ́gẹ́ bí àfojúsùn tirẹ̀ tí a kò sọ níhìín.",
+      "gloss_en": "A production machine at a different factory made {D} units of goods in the same week, per its own unstated target.",
+      "entity_note": "A different instrument (a machine at a different factory), with its own unstated target so it cannot be paired with the question's target; kind changes from ORGANISATION to INSTRUMENT."
+    },
+    {
+      "story_id": 11,
+      "distractor_fact": "Ibùdó ìwọ̀n òjò mìíràn gba òjò tí ó jẹ́ mílímítà {D} ní oṣù kan náà, gẹ́gẹ́ bí àsọtẹ́lẹ̀ tirẹ̀ tí a kò sọ níhìín.",
+      "gloss_en": "A different rain-gauge station received {D} millimeters of rainfall in the same month, per its own unstated forecast.",
+      "entity_note": "A different instrument (a rain-gauge station), with its own unstated forecast so it cannot be paired with the question's forecast; kind changes from PLACE to INSTRUMENT."
+    },
+    {
+      "story_id": 13,
+      "distractor_fact": "Ilé-iṣẹ́ ọkọ̀ ojú irin mìíràn ní àkọsílẹ̀ tí ó fi hàn pé ọkọ̀ wọn dé ní ìṣẹ́jú {D} kọjá wákàtí, gẹ́gẹ́ bí àkókò tirẹ̀ tí a kò sọ níhìín.",
+      "gloss_en": "A different railway company has a record showing their train arrived at minute {D} past the hour, per its own unstated schedule.",
+      "entity_note": "A different organisation (a railway company), not the different train of the first distractor; kind changes from INSTRUMENT to ORGANISATION."
+    },
+    {
+      "story_id": 14,
+      "distractor_fact": "Ilé-iṣẹ́ ọkọ̀ òfurufú mìíràn ní àkọsílẹ̀ tí ó fi hàn pé ọkọ̀ wọn dé ní ìṣẹ́jú {D} kọjá wákàtí, gẹ́gẹ́ bí àkókò tirẹ̀ tí a kò sọ níhìín.",
+      "gloss_en": "A different airline company has a record showing their flight arrived at minute {D} past the hour, per its own unstated schedule.",
+      "entity_note": "A different organisation (an airline), not the different flight of the first distractor; kind changes from INSTRUMENT to ORGANISATION."
+    },
+    {
+      "story_id": 15,
+      "distractor_fact": "Olùtọ́jú ilé mìíràn ṣàkọsílẹ̀ rẹ̀ pé ilẹ̀ {D} ni àmì ìtọ́kasí fún ilé tirẹ̀, tí a kò sọ níhìín.",
+      "gloss_en": "A different building's caretaker recorded floor {D} as their own building's unstated reference floor.",
+      "entity_note": "A different person (a caretaker), not the different elevator of the first distractor; kind changes from INSTRUMENT to PERSON."
+    },
+    {
+      "story_id": 16,
+      "distractor_fact": "Àjọ tí ń ṣọ́ etí Òkun kan ní ìjábọ̀ tirẹ̀ tí ó fi hàn pé ìwọ̀n omi jẹ́ mítà {D} ní ibi mìíràn, gẹ́gẹ́ bí ìlà ìtọ́kasí tirẹ̀ tí a kò sọ níhìín.",
+      "gloss_en": "A coastal-monitoring agency's own report shows a water reading of {D} meters at another site, per its own unstated datum.",
+      "entity_note": "A different organisation (a monitoring agency), not the different gauge of the first distractor; kind changes from INSTRUMENT to ORGANISATION."
+    },
+    {
+      "story_id": 18,
+      "distractor_fact": "Nínú ìdíje ọdún tó kọjá, ẹni tí ó dé àkọ́kọ́ bo ọ̀nà tó jẹ́ mítà {D}.",
+      "gloss_en": "In last year's edition of the race, the first-place finisher covered a distance of {D} meters.",
+      "entity_note": "A different series (a past year's edition of the race), not the different runner of the first distractor, and neither Ade nor Bola; kind changes from PERSON to SERIES."
+    },
+    {
+      "story_id": 19,
+      "distractor_fact": "Nínú àdánwò tí ó ṣáájú, olùdíjẹ tí ó ga jù gba ìdá ọgọ́rùn-ún {D}.",
+      "gloss_en": "In the previous exam sitting, the top-scoring candidate got {D} percent.",
+      "entity_note": "A different series (an earlier exam sitting), not the different student of the first distractor, and neither Tola nor Sade; kind changes from PERSON to SERIES."
+    },
+    {
+      "story_id": 20,
+      "distractor_fact": "Ilé-iṣẹ́ ìkọ́lé kan ní ètò láti kọ́ ilé gogoro mìíràn tó ga tó mítà {D}.",
+      "gloss_en": "A construction company has a plan to build another tower that will be {D} meters tall.",
+      "entity_note": "A different organisation (a construction company), not the different tower/city of the first distractor, and neither Kappa nor Sigma; kind changes from PLACE/ENTITY to ORGANISATION."
+    }
+  ]
+}

@@ -1,0 +1,281 @@
+{
+ "language": "Icelandic",
+ "language_code": "is",
+ "lead_in": "Svarið er",
+ "decimal_separator": ",",
+ "items": [
+  {
+   "story_id": 1,
+   "bank": "A",
+   "domain": "change",
+   "unit": "°C",
+   "sign_convention": "after minus before",
+   "gloss_en": "In the afternoon the temperature is {M}°C, while in the morning it was {S}°C. What was the change in temperature from morning to afternoon?",
+   "decimals_natural": true,
+   "facts_min_first": "Síðdegis er hitastigið {M}°C, en að morgni var hitastigið {S}°C.",
+   "facts_sub_first": "Að morgni var hitastigið {S}°C, en síðdegis er hitastigið {M}°C.",
+   "question": "Hver var breytingin á hitastigi frá morgni til síðdegis?",
+   "distractor_sentence": "Gögnin voru skráð frá stöð númer {D}.",
+   "agreement_note": "Einingartáknið °C er sett strax á eftir tölunni; íslensku orðin breytast ekki eftir stærð tölunnar (3, 51 eða 4870 eiga öll jafn vel við).",
+   "agreement_safe": true,
+   "distractor_ok": true,
+   "verifier": {
+    "tag": "V13",
+    "natural": 3,
+    "comment": ""
+   }
+  },
+  {
+   "story_id": 2,
+   "bank": "A",
+   "domain": "change",
+   "unit": "$",
+   "sign_convention": "after minus before",
+   "gloss_en": "At market close the share price is ${M}, while at market open it was ${S}. What was the change in price from open to close?",
+   "decimals_natural": true,
+   "facts_min_first": "Þegar markaðurinn lokar er hlutabréfaverðið ${M}, en þegar hann opnar var verðið ${S}.",
+   "facts_sub_first": "Þegar markaðurinn opnar var hlutabréfaverðið ${S}, en þegar hann lokar er verðið ${M}.",
+   "question": "Hver var breytingin á verðinu frá opnun til lokunar?",
+   "distractor_sentence": "Fyrirtækið er skráð undir númeri {D}.",
+   "agreement_note": "Einingartáknið $ er sett strax á eftir tölunni; íslensku orðin breytast ekki eftir stærð tölunnar (3, 51 eða 4870 eiga öll jafn vel við).",
+   "agreement_safe": true,
+   "distractor_ok": true,
+   "verifier": {
+    "tag": "V13",
+    "natural": 3,
+    "comment": ""
+   }
+  },
+  {
+   "story_id": 3,
+   "bank": "A",
+   "domain": "change",
+   "unit": "m",
+   "sign_convention": "after minus before",
+   "gloss_en": "This month the reservoir's water level reached {M} m, while last month it was {S} m. What was the change in the water level from last month to now?",
+   "decimals_natural": true,
+   "facts_min_first": "Í þessum mánuði náði vatnsborðið í miðlunarlóninu {M}m, en í síðasta mánuði var það {S}m.",
+   "facts_sub_first": "Í síðasta mánuði var vatnsborðið í miðlunarlóninu {S}m, en í þessum mánuði náði það {M}m.",
+   "question": "Hver var breytingin á vatnsborðinu frá síðasta mánuði til nú?",
+   "distractor_sentence": "Þetta miðlunarlón var byggt nálægt þjóðvegi númer {D}.",
+   "agreement_note": "Einingartáknið m er sett strax á eftir tölunni; íslensku orðin breytast ekki eftir stærð tölunnar (3, 51 eða 4870 eiga öll jafn vel við).",
+   "agreement_safe": true,
+   "distractor_ok": true,
+   "verifier": {
+    "tag": "V13",
+    "natural": 3,
+    "comment": "Question says 'til nu' where the facts contrast two months."
+   }
+  },
+  {
+   "story_id": 4,
+   "bank": "A",
+   "domain": "change",
+   "unit": "m",
+   "sign_convention": "after minus before",
+   "gloss_en": "In the final measurement the drone's altitude is {M} m, but in the initial measurement it was {S} m. What was the change in the drone's altitude from the initial to the final measurement?",
+   "decimals_natural": true,
+   "facts_min_first": "Í lokamælingunni er hæð drónans {M}m, en í fyrstu mælingunni var hæðin {S}m.",
+   "facts_sub_first": "Í fyrstu mælingunni var hæð drónans {S}m, en í lokamælingunni er hæðin {M}m.",
+   "question": "Hver var breytingin á hæð drónans frá fyrstu mælingu til þeirrar síðustu?",
+   "distractor_sentence": "Þessi dróni er af gerð númer {D}.",
+   "agreement_note": "Einingartáknið m er sett strax á eftir tölunni; íslensku orðin breytast ekki eftir stærð tölunnar (3, 51 eða 4870 eiga öll jafn vel við).",
+   "agreement_safe": true,
+   "distractor_ok": true,
+   "verifier": {
+    "tag": "V13",
+    "natural": 3,
+    "comment": ""
+   }
+  },
+  {
+   "story_id": 5,
+   "bank": "A",
+   "domain": "change",
+   "unit": "kg",
+   "sign_convention": "after minus before",
+   "gloss_en": "After the journey the package weighs {M} kg, but before shipping it weighed {S} kg. What was the change in the package's weight from before to after shipping?",
+   "decimals_natural": true,
+   "facts_min_first": "Eftir ferðina er þyngd pakkans {M}kg, en fyrir sendingu var þyngdin {S}kg.",
+   "facts_sub_first": "Fyrir sendingu var þyngd pakkans {S}kg, en eftir ferðina er þyngdin {M}kg.",
+   "question": "Hver var breytingin á þyngd pakkans fyrir og eftir sendingu?",
+   "distractor_sentence": "Þessi pakki er merktur með miða númer {D}.",
+   "agreement_note": "Einingartáknið kg er sett strax á eftir tölunni; íslensku orðin breytast ekki eftir stærð tölunnar (3, 51 eða 4870 eiga öll jafn vel við).",
+   "agreement_safe": true,
+   "distractor_ok": true,
+   "verifier": {
+    "tag": "V13",
+    "natural": 3,
+    "comment": ""
+   }
+  },
+  {
+   "story_id": 6,
+   "bank": "A",
+   "domain": "change",
+   "unit": "km/h",
+   "sign_convention": "after minus before",
+   "gloss_en": "In the final reading the engine's speed is {M} km/h, while in the initial reading it was {S} km/h. What was the change in the engine's speed from the initial to the final reading?",
+   "decimals_natural": true,
+   "facts_min_first": "Í síðustu mælingu er hraði vélarinnar {M}km/klst, en í fyrstu mælingu var hraðinn {S}km/klst.",
+   "facts_sub_first": "Í fyrstu mælingu var hraði vélarinnar {S}km/klst, en í síðustu mælingu er hraðinn {M}km/klst.",
+   "question": "Hver var breytingin á hraða vélarinnar frá fyrstu mælingu til þeirrar síðustu?",
+   "distractor_sentence": "Þessi vél hefur raðnúmer {D}.",
+   "agreement_note": "Einingartáknið km/klst er sett strax á eftir tölunni; íslensku orðin breytast ekki eftir stærð tölunnar (3, 51 eða 4870 eiga öll jafn vel við).",
+   "agreement_safe": true,
+   "distractor_ok": true,
+   "verifier": {
+    "tag": "V13",
+    "natural": 3,
+    "comment": ""
+   }
+  },
+  {
+   "story_id": 7,
+   "bank": "A",
+   "domain": "change",
+   "unit": "pts",
+   "sign_convention": "after minus before",
+   "gloss_en": "At the end of the session the player's score is {M} pts, while at the start it was {S} pts. What was the change in the player's score from the start to the end of the session?",
+   "decimals_natural": false,
+   "facts_min_first": "Í lok setunnar er stigafjöldi leikmannsins {M}pts, en í upphafi var stigafjöldinn {S}pts.",
+   "facts_sub_first": "Í upphafi setunnar var stigafjöldi leikmannsins {S}pts, en í lok setunnar er hann {M}pts.",
+   "question": "Hver var breytingin á stigum leikmannsins frá upphafi til loka setunnar?",
+   "distractor_sentence": "Þessi leikmaður notar stjórntæki númer {D}.",
+   "agreement_note": "Einingartáknið pts er sett strax á eftir tölunni; íslensku orðin breytast ekki eftir stærð tölunnar (3, 51 eða 4870 eiga öll jafn vel við).",
+   "agreement_safe": true,
+   "distractor_ok": true,
+   "verifier": {
+    "tag": "V13",
+    "natural": 3,
+    "comment": ""
+   }
+  },
+  {
+   "story_id": 8,
+   "bank": "A",
+   "domain": "balance",
+   "unit": "$",
+   "sign_convention": "deposited minus withdrawn",
+   "gloss_en": "A client deposited ${M} into the account, and withdrew ${S}. What is the client's balance now?",
+   "decimals_natural": true,
+   "facts_min_first": "Viðskiptavinur lagði ${M} inn á reikninginn og tók út ${S}.",
+   "facts_sub_first": "Viðskiptavinur tók út ${S} af reikningnum og hafði áður lagt inn ${M}.",
+   "question": "Hver er staða reiknings viðskiptavinarins núna?",
+   "distractor_sentence": "Þessi reikningur er skráður með númeri {D}.",
+   "agreement_note": "Einingartáknið $ er sett strax á eftir tölunni; íslensku orðin breytast ekki eftir stærð tölunnar (3, 51 eða 4870 eiga öll jafn vel við).",
+   "agreement_safe": true,
+   "distractor_ok": true,
+   "verifier": {
+    "tag": "V13",
+    "natural": 3,
+    "comment": ""
+   }
+  },
+  {
+   "story_id": 9,
+   "bank": "A",
+   "domain": "balance",
+   "unit": "pts",
+   "sign_convention": "earned minus redeemed",
+   "gloss_en": "A loyalty-club member earned {M} pts, and redeemed {S} pts. What is the member's points balance now?",
+   "decimals_natural": false,
+   "facts_min_first": "Félagi vann sér inn {M}pts og notaði {S}pts.",
+   "facts_sub_first": "Félagi notaði {S}pts og hafði áður unnið sér inn {M}pts.",
+   "question": "Hver er stigastaða félagans núna?",
+   "distractor_sentence": "Kort félagans ber númerið {D}.",
+   "agreement_note": "Einingartáknið pts er sett strax á eftir tölunni; íslensku orðin breytast ekki eftir stærð tölunnar (3, 51 eða 4870 eiga öll jafn vel við).",
+   "agreement_safe": true,
+   "distractor_ok": true,
+   "verifier": {
+    "tag": "V13",
+    "natural": 3,
+    "comment": ""
+   }
+  },
+  {
+   "story_id": 10,
+   "bank": "A",
+   "domain": "balance",
+   "unit": "",
+   "sign_convention": "received minus shipped",
+   "gloss_en": "A warehouse received a stock count of {M}, and shipped out a stock count of {S}. What is the warehouse's stock balance now?",
+   "decimals_natural": false,
+   "facts_min_first": "Vörugeymsla tók á móti birgðum sem námu {M}, og sendi frá sér birgðir sem námu {S}.",
+   "facts_sub_first": "Vörugeymsla sendi frá sér birgðir sem námu {S}, og hafði áður tekið á móti birgðum sem námu {M}.",
+   "question": "Hver er birgðastaða vörugeymslunnar núna?",
+   "distractor_sentence": "Þessi vörugeymsla er með hlið númer {D}.",
+   "agreement_note": "Talan er rituð með arabískum tölustöfum og stendur sem fylliliður forsetningar ('sem námu'); orðið á eftir (birgðir, mörk) heldur sömu mynd óháð stærð tölunnar.",
+   "agreement_safe": true,
+   "distractor_ok": true,
+   "verifier": {
+    "tag": "V13",
+    "natural": 3,
+    "comment": ""
+   }
+  },
+  {
+   "story_id": 11,
+   "bank": "A",
+   "domain": "net",
+   "unit": "$",
+   "sign_convention": "in minus out",
+   "gloss_en": "This month the shop's income is ${M}, while its expenses are ${S}. What was the shop's net result this month?",
+   "decimals_natural": true,
+   "facts_min_first": "Í þessum mánuði eru tekjur verslunarinnar ${M}, en útgjöldin eru ${S}.",
+   "facts_sub_first": "Í þessum mánuði eru útgjöld verslunarinnar ${S}, en tekjurnar eru ${M}.",
+   "question": "Hver var hreinn árangur verslunarinnar í þessum mánuði?",
+   "distractor_sentence": "Þessi verslun er staðsett í einingu númer {D}.",
+   "agreement_note": "Einingartáknið $ er sett strax á eftir tölunni; íslensku orðin breytast ekki eftir stærð tölunnar (3, 51 eða 4870 eiga öll jafn vel við).",
+   "agreement_safe": true,
+   "distractor_ok": true,
+   "verifier": {
+    "tag": "V13",
+    "natural": 3,
+    "comment": ""
+   }
+  },
+  {
+   "story_id": 12,
+   "bank": "A",
+   "domain": "net",
+   "unit": "",
+   "sign_convention": "in minus out",
+   "gloss_en": "Over the season, goals scored by the team amounted to {M}, and goals conceded amounted to {S}. What was the team's goal difference for the season?",
+   "decimals_natural": false,
+   "facts_min_first": "Yfir allt tímabilið skoraði liðið mörk sem námu {M}, og fékk á sig mörk sem námu {S}.",
+   "facts_sub_first": "Yfir allt tímabilið fékk liðið á sig mörk sem námu {S}, og skoraði mörk sem námu {M}.",
+   "question": "Hver var markamunur liðsins yfir tímabilið?",
+   "distractor_sentence": "Þetta lið keppir í deild númer {D}.",
+   "agreement_note": "Talan er rituð með arabískum tölustöfum og stendur sem fylliliður forsetningar ('sem námu'); orðið á eftir (birgðir, mörk) heldur sömu mynd óháð stærð tölunnar.",
+   "agreement_safe": true,
+   "distractor_ok": true,
+   "verifier": {
+    "tag": "V13",
+    "natural": 3,
+    "comment": ""
+   }
+  },
+  {
+   "story_id": 16,
+   "bank": "A",
+   "domain": "arrival vs schedule",
+   "unit": "min",
+   "sign_convention": "actual minus scheduled, late counted positive",
+   "gloss_en": "The train's actual arrival is {M} min after midnight, while its scheduled time is {S} min after midnight. How many minutes is the actual arrival relative to schedule, with lateness counted as positive?",
+   "decimals_natural": false,
+   "facts_min_first": "Raunveruleg koma lestarinnar er {M}mín eftir miðnætti, en áætluð koma er {S}mín.",
+   "facts_sub_first": "Áætluð koma lestarinnar er {S}mín eftir miðnætti, en raunveruleg koma er {M}mín.",
+   "question": "Hversu mörgum mínútum munar á raunverulegri komu lestarinnar og áætluninni, þar sem seinkun telst jákvæð?",
+   "distractor_sentence": "Þessi lest ber númerið {D}.",
+   "agreement_note": "Einingartáknið mín er sett strax á eftir tölunni; íslensku orðin breytast ekki eftir stærð tölunnar (3, 51 eða 4870 eiga öll jafn vel við).",
+   "agreement_safe": true,
+   "distractor_ok": true,
+   "verifier": {
+    "tag": "V13",
+    "natural": 3,
+    "comment": ""
+   }
+  }
+ ]
+}

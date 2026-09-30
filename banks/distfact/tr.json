@@ -1,0 +1,84 @@
+{
+ "language_code": "tr",
+ "refused": [],
+ "items": [
+  {
+   "story_id": 1,
+   "distractor_fact": "Komşu kasabadaki ölçüm istasyonu aynı sabah {D} derece kaydetti.",
+   "gloss_en": "The measuring station in the neighboring town recorded {D} degrees that same morning.",
+   "entity_note": "belongs to a different town's measuring station, not the instrument whose noon/dawn readings the question compares"
+  },
+  {
+   "story_id": 2,
+   "distractor_fact": "Aynı gün başka bir hisse {D} dolardan işlem gördü.",
+   "gloss_en": "On the same day, another stock traded at {D} dollars.",
+   "entity_note": "belongs to a different stock, not the one whose opening/closing price the question compares"
+  },
+  {
+   "story_id": 3,
+   "distractor_fact": "Komşu gölün su seviyesi aynı sabah {D} santimetreydi.",
+   "gloss_en": "The neighboring lake's water level was {D} centimeters that same morning.",
+   "entity_note": "belongs to a different lake, not the one whose morning/evening levels the question compares"
+  },
+  {
+   "story_id": 4,
+   "distractor_fact": "Başka bir drone aynı anda {D} metre yükseklikteydi.",
+   "gloss_en": "Another drone was at {D} meters of altitude at the same moment.",
+   "entity_note": "belongs to a different drone, not the one whose first/second measurements the question compares"
+  },
+  {
+   "story_id": 5,
+   "distractor_fact": "Aynı kargoda başka bir paket {D} kilogram geliyordu.",
+   "gloss_en": "In the same shipment, another package weighed {D} kilograms.",
+   "entity_note": "belongs to a different package in the shipment, not the one whose shipping/delivery weight the question compares"
+  },
+  {
+   "story_id": 6,
+   "distractor_fact": "Yandaki şeritteki başka bir araç o sırada {D} km/h hızla gidiyordu.",
+   "gloss_en": "Another vehicle in the next lane was going at {D} km/h at that moment.",
+   "entity_note": "belongs to a different vehicle, not the one whose first/second speed measurements the question compares"
+  },
+  {
+   "story_id": 8,
+   "distractor_fact": "Başka bir hesaba aynı gün {D} lira yatırıldı.",
+   "gloss_en": "{D} lira was deposited into another account the same day.",
+   "entity_note": "belongs to a different bank account, not the one whose deposit/withdrawal the question compares"
+  },
+  {
+   "story_id": 9,
+   "distractor_fact": "Rakip işletmenin bu ayki cirosu {D} lira oldu.",
+   "gloss_en": "A competing business's revenue this month was {D} lira.",
+   "entity_note": "belongs to a different, competing business, not the one whose income/expenses the question compares"
+  },
+  {
+   "story_id": 10,
+   "distractor_fact": "Ligdeki başka bir takım bu sezon {D} gol attı.",
+   "gloss_en": "Another team in the league scored {D} goals this season.",
+   "entity_note": "belongs to a different team in the league, not the one whose scored/conceded goals the question compares"
+  },
+  {
+   "story_id": 11,
+   "distractor_fact": "Başka bir yatırımcının bu yılki kazancı {D} lira oldu.",
+   "gloss_en": "Another investor's gain this year was {D} lira.",
+   "entity_note": "belongs to a different investor, not the one whose gain/loss the question compares"
+  },
+  {
+   "story_id": 14,
+   "distractor_fact": "Başka bir golfçü farklı bir sahada {D} vuruş yaptı.",
+   "gloss_en": "Another golfer made {D} strokes on a different course.",
+   "entity_note": "belongs to a different golfer on a different, unstated-par course, so it cannot pair with the story's stated par"
+  },
+  {
+   "story_id": 15,
+   "distractor_fact": "Farklı bir hatta çalışan otobüs aynı saatte {D} dakikada durağa ulaştı.",
+   "gloss_en": "A bus running on a different line reached the stop in {D} minutes at the same time.",
+   "entity_note": "belongs to a bus on a different line with its own unstated schedule, not the bus whose actual/scheduled time the question compares"
+  },
+  {
+   "story_id": 16,
+   "distractor_fact": "Başka bir binada bir dairenin bulunduğu kat {D}'dir.",
+   "gloss_en": "In another building, an apartment's floor is {D}.",
+   "entity_note": "belongs to an apartment in a different building with its own unstated reference floor, not the apartment the question compares"
+  }
+ ]
+}

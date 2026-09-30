@@ -1,0 +1,108 @@
+{
+  "language_code": "zh",
+  "refused": [],
+  "items": [
+    {
+      "story_id": 1,
+      "distractor_fact": "邻近城镇当天的气温是{D}摄氏度。",
+      "gloss_en": "The neighboring town's temperature that day was {D} degrees Celsius.",
+      "entity_note": "A different town's temperature reading, not the thermometer/place in the story."
+    },
+    {
+      "story_id": 2,
+      "distractor_fact": "另一件商品当天收盘时的价格是{D}元。",
+      "gloss_en": "Another item's closing price that day was {D} yuan.",
+      "entity_note": "A different item's price, not the item the story is about."
+    },
+    {
+      "story_id": 3,
+      "distractor_fact": "附近另一座水库同期的水位是{D}米。",
+      "gloss_en": "A nearby different reservoir's water level over the same period was {D} meters.",
+      "entity_note": "A different reservoir, not the one in the story."
+    },
+    {
+      "story_id": 4,
+      "distractor_fact": "另一架无人机同一时间的飞行高度是{D}米。",
+      "gloss_en": "Another drone's altitude at the same time was {D} meters.",
+      "entity_note": "A different drone, not the one being tracked in the story."
+    },
+    {
+      "story_id": 5,
+      "distractor_fact": "另一个小组本次活动的经费预算是{D}元。",
+      "gloss_en": "Another group's budget for this activity was {D} yuan.",
+      "entity_note": "A different group's fund, not the group in the story."
+    },
+    {
+      "story_id": 6,
+      "distractor_fact": "另一个账户本月存入的金额是{D}元。",
+      "gloss_en": "Another account's deposit amount this month was {D} yuan.",
+      "entity_note": "A different bank account, not the one in the story."
+    },
+    {
+      "story_id": 7,
+      "distractor_fact": "隔壁店铺本月的收入是{D}元。",
+      "gloss_en": "The neighboring shop's revenue this month was {D} yuan.",
+      "entity_note": "A different shop, not the one in the story."
+    },
+    {
+      "story_id": 8,
+      "distractor_fact": "另一支球队本赛季打入的球数是{D}个。",
+      "gloss_en": "Another team's number of goals scored this season was {D}.",
+      "entity_note": "A different team, not the one in the story."
+    },
+    {
+      "story_id": 9,
+      "distractor_fact": "另一位投资者本季度的收益是{D}元。",
+      "gloss_en": "Another investor's gains this quarter were {D} yuan.",
+      "entity_note": "A different investor, not the one in the story."
+    },
+    {
+      "story_id": 13,
+      "distractor_fact": "另一位球员在另一座球场的比赛中打出的杆数是{D}杆。",
+      "gloss_en": "Another player's stroke count in a round at a different golf course was {D} strokes.",
+      "entity_note": "A different player on a different, unstated-par course, not the player/course in the story."
+    },
+    {
+      "story_id": 14,
+      "distractor_fact": "另一条线路上,另一列火车当天实际到达的时刻是从零点算起的第{D}分钟。",
+      "gloss_en": "On a different line, another train's actual arrival moment that day was the {D}-th minute counted from midnight.",
+      "entity_note": "A different train on a different line with its own unstated timetable, not the train in the story."
+    },
+    {
+      "story_id": 15,
+      "distractor_fact": "另一条航线上,另一架航班当天实际起飞的时刻是从零点算起的第{D}分钟。",
+      "gloss_en": "On a different route, another flight's actual departure moment that day was the {D}-th minute counted from midnight.",
+      "entity_note": "A different flight on a different route with its own unstated schedule, not the flight in the story."
+    },
+    {
+      "story_id": 16,
+      "distractor_fact": "隔壁那栋大楼电梯目前所在的楼层编号是{D}。",
+      "gloss_en": "The elevator in the building next door is currently at floor number {D}.",
+      "entity_note": "A different building with its own unstated ground-floor reference, not the building in the story."
+    },
+    {
+      "story_id": 17,
+      "distractor_fact": "在另一场比赛中,丙队打入了{D}个球。",
+      "gloss_en": "In a different match, Team C scored {D} goals.",
+      "entity_note": "A third team in a separate match, not Team A or Team B in the story."
+    },
+    {
+      "story_id": 18,
+      "distractor_fact": "在另一场比赛中,丙选手所处的位置是第{D}米。",
+      "gloss_en": "In a different race, Runner C's position was the {D}-th meter.",
+      "entity_note": "A third runner in a separate race, not Runner A or Runner B in the story."
+    },
+    {
+      "story_id": 19,
+      "distractor_fact": "在另一处景区,一座瞭望塔的高度是{D}米。",
+      "gloss_en": "At a different scenic area, an observation tower's height was {D} meters.",
+      "entity_note": "A different tower at a different site, not Tower A or Tower B in the story."
+    },
+    {
+      "story_id": 20,
+      "distractor_fact": "在另一次考试中,丙同学的得分是{D}分。",
+      "gloss_en": "In a different exam, Student C's score was {D} points.",
+      "entity_note": "A third student in a separate exam, not Student A or Student B in the story."
+    }
+  ]
+}

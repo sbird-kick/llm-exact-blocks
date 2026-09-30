@@ -1,0 +1,78 @@
+{
+  "language_code": "ta",
+  "refused": [],
+  "items": [
+    {
+      "story_id": 1,
+      "distractor_fact": "அருகிலுள்ள ஊரின் வானிலை நிலையம் அதே காலையில் {D} டிகிரி செல்சியஸ் பதிவு செய்தது.",
+      "gloss_en": "The weather station of a nearby town recorded {D} degrees Celsius that same morning.",
+      "entity_note": "belongs to a different town's weather station, not the station whose evening-vs-morning reading is compared"
+    },
+    {
+      "story_id": 2,
+      "distractor_fact": "வேறொரு நிறுவனத்தின் பங்கு விலை அதே நாளில் {D} ரூபாயாக முடிவடைந்தது.",
+      "gloss_en": "Another company's share price closed at {D} rupees that same day.",
+      "entity_note": "belongs to a different company's share, not the share whose daily change is asked about"
+    },
+    {
+      "story_id": 3,
+      "distractor_fact": "அடுத்த மாவட்டத்தில் உள்ள மற்றொரு ஏரியின் நீர்மட்டம் அதே நாளில் {D} மீட்டராக இருந்தது.",
+      "gloss_en": "Another lake in the next district had a water level of {D} meters that same day.",
+      "entity_note": "belongs to a different lake in a different district, not the lake whose rain-driven change is asked about"
+    },
+    {
+      "story_id": 4,
+      "distractor_fact": "அதே நேரத்தில் வேறொரு பலூன் {D} மீட்டர் உயரத்தில் பறந்து கொண்டிருந்தது.",
+      "gloss_en": "At the same time, another balloon was flying at an altitude of {D} meters.",
+      "entity_note": "belongs to a different balloon, not the one whose altitude change is asked about"
+    },
+    {
+      "story_id": 5,
+      "distractor_fact": "அருகிலுள்ள மற்றொரு ஊரின் மக்கள்தொகை அதே ஆண்டில் {D} ஆக இருந்தது.",
+      "gloss_en": "Another nearby town's population was {D} that same year.",
+      "entity_note": "belongs to a different town, not the town whose year-over-year population change is asked about"
+    },
+    {
+      "story_id": 6,
+      "distractor_fact": "வேறொரு வாடிக்கையாளரின் கணக்கில் இந்த மாதம் வரவு வைக்கப்பட்ட தொகை {D} ரூபாய்.",
+      "gloss_en": "In a different customer's account, the amount deposited this month is {D} rupees.",
+      "entity_note": "belongs to a different customer's account, not the account whose net balance is asked about"
+    },
+    {
+      "story_id": 8,
+      "distractor_fact": "அருகிலுள்ள வேறொரு கடையின் இந்த மாத மொத்த வருமானம் {D} ரூபாய்.",
+      "gloss_en": "A different nearby shop's total income this month is {D} rupees.",
+      "entity_note": "belongs to a different shop, not the shop whose net profit is asked about"
+    },
+    {
+      "story_id": 9,
+      "distractor_fact": "அதே லீக்கில் உள்ள வேறொரு அணி இந்த பருவத்தில் அடித்த கோல்களின் எண்ணிக்கை {D}.",
+      "gloss_en": "A different team in the same league scored {D} goals this season.",
+      "entity_note": "belongs to a different team, not the team whose goal difference is asked about"
+    },
+    {
+      "story_id": 10,
+      "distractor_fact": "வேறொரு முதலீட்டாளர் இந்த ஆண்டு தனது முதலீட்டில் ஈட்டிய லாபம் {D} ரூபாய்.",
+      "gloss_en": "A different investor earned a profit of {D} rupees on their investment this year.",
+      "entity_note": "belongs to a different investor's investment, not the investment whose net result is asked about"
+    },
+    {
+      "story_id": 14,
+      "distractor_fact": "முற்றிலும் வேறு ஒரு மைதானத்தில், அதே நாளில் இன்னொரு வீரர் {D} அடிகள் கொண்டு சுற்றை முடித்தார்.",
+      "gloss_en": "On an entirely different golf course, on the same day, another player finished the round with {D} strokes.",
+      "entity_note": "belongs to a different player on a different course whose own par is not stated, so it cannot pair with this course's par"
+    },
+    {
+      "story_id": 15,
+      "distractor_fact": "வேறொரு பாதையில் இயங்கும் ரயில் ஒன்று, அதே நாளில் நள்ளிரவு முதல் {D} நிமிடங்கள் கழித்து வந்தடைந்தது.",
+      "gloss_en": "A train running on a different route arrived {D} minutes after midnight that same day.",
+      "entity_note": "belongs to a train on a different route with its own unstated schedule, not this train's schedule"
+    },
+    {
+      "story_id": 17,
+      "distractor_fact": "அதே தொடரில் விளையாடிய மூன்றாவது அணி அடித்த மொத்த கோல்களின் எண்ணிக்கை {D}.",
+      "gloss_en": "A third team that played in the same tournament scored a total of {D} goals.",
+      "entity_note": "belongs to a third team, not Team A or Team B whose goal difference the question compares"
+    }
+  ]
+}

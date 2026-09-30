@@ -1,0 +1,72 @@
+{
+  "language_code": "ko",
+  "refused": [],
+  "items": [
+    {
+      "story_id": 1,
+      "distractor_fact": "이웃 마을 관측소는 같은 날 기온이 {D}도였다고 발표했다.",
+      "gloss_en": "The observatory in the neighboring village announced that the temperature was {D} degrees that same day.",
+      "entity_note": "different place — a separate observatory in another village, not the story's location"
+    },
+    {
+      "story_id": 2,
+      "distractor_fact": "다른 종목의 주가는 그날 {D}원에 마감했다.",
+      "gloss_en": "A different stock's price closed at {D} won that day.",
+      "entity_note": "different entity — another stock, not the one the question is about"
+    },
+    {
+      "story_id": 3,
+      "distractor_fact": "인근 저수지의 수위는 같은 시각에 {D}cm였다.",
+      "gloss_en": "The nearby reservoir's water level was {D} cm at the same time.",
+      "entity_note": "different place — a separate, nearby reservoir"
+    },
+    {
+      "story_id": 4,
+      "distractor_fact": "다른 계좌에서는 이번 달 출금액이 {D}원이었다.",
+      "gloss_en": "In a different account, this month's withdrawal amount was {D} won.",
+      "entity_note": "different entity — a separate bank account"
+    },
+    {
+      "story_id": 5,
+      "distractor_fact": "다른 지점의 금고에는 오늘 {D}원이 새로 들어왔다.",
+      "gloss_en": "At a different branch's cash box, {D} won was newly put in today.",
+      "entity_note": "different entity — another branch's cash box"
+    },
+    {
+      "story_id": 6,
+      "distractor_fact": "룸메이트는 이번 달 {D}원을 썼다.",
+      "gloss_en": "The roommate spent {D} won this month.",
+      "entity_note": "different entity — a different person (the roommate), not the story's subject"
+    },
+    {
+      "story_id": 7,
+      "distractor_fact": "다른 프리랜서는 이번 달 지출이 {D}원이었다.",
+      "gloss_en": "A different freelancer's expenses this month were {D} won.",
+      "entity_note": "different entity — a different freelancer"
+    },
+    {
+      "story_id": 8,
+      "distractor_fact": "다른 팀은 이번 시즌 실점이 {D}골이다.",
+      "gloss_en": "A different team's goals conceded this season are {D}.",
+      "entity_note": "different entity — a different team with its own separate goal tally"
+    },
+    {
+      "story_id": 9,
+      "distractor_fact": "다른 투자자는 이번 분기에 손실 {D}원을 기록했다.",
+      "gloss_en": "A different investor recorded a loss of {D} won this quarter.",
+      "entity_note": "different entity — a different investor"
+    },
+    {
+      "story_id": 13,
+      "distractor_fact": "다른 선수는 어제 다른 코스에서 {D}타를 쳤다.",
+      "gloss_en": "A different player shot {D} strokes yesterday on a different course.",
+      "entity_note": "different entity and different course — another golfer on a course whose par is not stated, so no second par-based subtraction is implied"
+    },
+    {
+      "story_id": 14,
+      "distractor_fact": "다른 아마추어 선수는 다른 코스에서 오늘 {D}타를 기록했다.",
+      "gloss_en": "A different amateur golfer recorded {D} strokes today on a different course.",
+      "entity_note": "different entity and different course — another amateur golfer whose course's par is unstated"
+    }
+  ]
+}

@@ -1,0 +1,206 @@
+{
+ "language": "Kannada",
+ "language_code": "kn",
+ "lead_in": "ಉತ್ತರ:",
+ "decimal_separator": ".",
+ "items": [
+  {
+   "story_id": 1,
+   "bank": "A",
+   "domain": "change",
+   "unit": "°C",
+   "sign_convention": "after minus before",
+   "facts_min_first": "ಇಂದು ಸಂಜೆ ಒಂದು ನಗರದ ತಾಪಮಾನ {M}°C ಆಗಿತ್ತು; ಇಂದು ಬೆಳಿಗ್ಗೆ ಅದು {S}°C ಆಗಿತ್ತು.",
+   "facts_sub_first": "ಇಂದು ಬೆಳಿಗ್ಗೆ ಒಂದು ನಗರದ ತಾಪಮಾನ {S}°C ಆಗಿತ್ತು; ಇಂದು ಸಂಜೆ ಅದು {M}°C ಆಗಿತ್ತು.",
+   "question": "ತಾಪಮಾನದಲ್ಲಿ ಆದ ಬದಲಾವಣೆ ಏನಾಗಿತ್ತು?",
+   "distractor_sentence": "ಈ ಹವಾಮಾನ ಕೇಂದ್ರದ ಸಂಖ್ಯೆ {D} ಆಗಿದೆ.",
+   "agreement_safe": true,
+   "agreement_note": "ಸಂಖ್ಯೆಯ ನಂತರ ಬರುವ ಏಕಮಾನ ಚಿಹ್ನೆ ಎಂದಿಗೂ ರೂಪ ಬದಲಾಯಿಸುವುದಿಲ್ಲ, ಯಾವುದೇ ಸಂಖ್ಯೆಗೆ (3, 51, 4870) ಒಂದೇ ರೀತಿ.",
+   "decimals_natural": true,
+   "gloss_en": "This evening a city's temperature was {M} °C; this morning it was {S} °C. What was the change in temperature?",
+   "notes": "",
+   "distractor_ok": true,
+   "verifier": {
+    "tag": "V13",
+    "natural": 3,
+    "comment": ""
+   }
+  },
+  {
+   "story_id": 2,
+   "bank": "A",
+   "domain": "change",
+   "unit": "€",
+   "sign_convention": "after minus before",
+   "facts_min_first": "ವ್ಯಾಪಾರ ಮುಗಿದಾಗ ಒಂದು ಕಂಪನಿಯ ಷೇರು ಬೆಲೆ €{M} ಆಗಿತ್ತು; ವ್ಯಾಪಾರ ಆರಂಭವಾದಾಗ ಅದು €{S} ಆಗಿತ್ತು.",
+   "facts_sub_first": "ವ್ಯಾಪಾರ ಆರಂಭವಾದಾಗ ಒಂದು ಕಂಪನಿಯ ಷೇರು ಬೆಲೆ €{S} ಆಗಿತ್ತು; ವ್ಯಾಪಾರ ಮುಗಿದಾಗ ಅದು €{M} ಆಗಿತ್ತು.",
+   "question": "ದಿನದಲ್ಲಿ ಷೇರು ಬೆಲೆಯಲ್ಲಿ ಆದ ಬದಲಾವಣೆ ಏನಾಗಿತ್ತು?",
+   "distractor_sentence": "ಈ ಕಂಪನಿಗೆ {D} ಶಾಖಾ ಕಚೇರಿಗಳಿವೆ.",
+   "agreement_safe": true,
+   "agreement_note": "ಸಂಖ್ಯೆಯ ನಂತರ ಬರುವ ಏಕಮಾನ ಚಿಹ್ನೆ ಎಂದಿಗೂ ರೂಪ ಬದಲಾಯಿಸುವುದಿಲ್ಲ, ಯಾವುದೇ ಸಂಖ್ಯೆಗೆ (3, 51, 4870) ಒಂದೇ ರೀತಿ.",
+   "decimals_natural": true,
+   "gloss_en": "At the close of trading a company's share price was €{M}; at the opening of trading it was €{S}. What was the change in the share price during the day?",
+   "notes": "",
+   "distractor_ok": true,
+   "verifier": {
+    "tag": "V13",
+    "natural": 3,
+    "comment": ""
+   }
+  },
+  {
+   "story_id": 3,
+   "bank": "A",
+   "domain": "change",
+   "unit": "m",
+   "sign_convention": "after minus before",
+   "facts_min_first": "ಮಳೆಯ ನಂತರ ಒಂದು ಸರೋವರದ ನೀರಿನ ಮಟ್ಟ {M} m ಆಗಿತ್ತು; ಮಳೆಯ ಮೊದಲು ಅದು {S} m ಆಗಿತ್ತು.",
+   "facts_sub_first": "ಮಳೆಯ ಮೊದಲು ಒಂದು ಸರೋವರದ ನೀರಿನ ಮಟ್ಟ {S} m ಆಗಿತ್ತು; ಮಳೆಯ ನಂತರ ಅದು {M} m ಆಗಿತ್ತು.",
+   "question": "ಸರೋವರದ ನೀರಿನ ಮಟ್ಟದಲ್ಲಿ ಆದ ಬದಲಾವಣೆ ಏನಾಗಿತ್ತು?",
+   "distractor_sentence": "ಈ ಸರೋವರದ ಬಳಿಯ ಉದ್ಯಾನದ ಗೇಟ್ ಸಂಖ್ಯೆ {D} ಆಗಿದೆ.",
+   "agreement_safe": true,
+   "agreement_note": "ಸಂಖ್ಯೆಯ ನಂತರ ಬರುವ ಏಕಮಾನ ಚಿಹ್ನೆ ಎಂದಿಗೂ ರೂಪ ಬದಲಾಯಿಸುವುದಿಲ್ಲ, ಯಾವುದೇ ಸಂಖ್ಯೆಗೆ (3, 51, 4870) ಒಂದೇ ರೀತಿ.",
+   "decimals_natural": true,
+   "gloss_en": "After the rain a lake's water level was {M} m; before the rain it was {S} m. What was the change in the lake's water level?",
+   "notes": "",
+   "distractor_ok": true,
+   "verifier": {
+    "tag": "V13",
+    "natural": 3,
+    "comment": ""
+   }
+  },
+  {
+   "story_id": 4,
+   "bank": "A",
+   "domain": "balance",
+   "unit": "€",
+   "sign_convention": "deposited minus withdrawn",
+   "facts_min_first": "ಈ ತಿಂಗಳು ಒಂದು ಉಳಿತಾಯ ಖಾತೆಗೆ €{M} ಠೇವಣಿ ಮಾಡಲಾಯಿತು; ಅದರಿಂದ €{S} ಹಿಂಪಡೆಯಲಾಯಿತು.",
+   "facts_sub_first": "ಈ ತಿಂಗಳು ಒಂದು ಉಳಿತಾಯ ಖಾತೆಯಿಂದ €{S} ಹಿಂಪಡೆಯಲಾಯಿತು; ಅದಕ್ಕೆ €{M} ಠೇವಣಿ ಮಾಡಲಾಯಿತು.",
+   "question": "ಈ ತಿಂಗಳ ಖಾತೆಯ ಬಾಕಿ ಎಷ್ಟಾಗಿತ್ತು?",
+   "distractor_sentence": "ಈ ಬ್ಯಾಂಕ್ ಶಾಖೆ ಮಹಡಿ ಸಂಖ್ಯೆ {D} ರಲ್ಲಿದೆ.",
+   "agreement_safe": true,
+   "agreement_note": "ಸಂಖ್ಯೆಯ ನಂತರ ಬರುವ ಏಕಮಾನ ಚಿಹ್ನೆ ಎಂದಿಗೂ ರೂಪ ಬದಲಾಯಿಸುವುದಿಲ್ಲ, ಯಾವುದೇ ಸಂಖ್ಯೆಗೆ (3, 51, 4870) ಒಂದೇ ರೀತಿ.",
+   "decimals_natural": true,
+   "gloss_en": "During the month €{M} was deposited into a savings account; €{S} was withdrawn from it. What is the account's balance for the month?",
+   "notes": "",
+   "distractor_ok": true,
+   "verifier": {
+    "tag": "V13",
+    "natural": 3,
+    "comment": ""
+   }
+  },
+  {
+   "story_id": 5,
+   "bank": "A",
+   "domain": "balance",
+   "unit": "€",
+   "sign_convention": "had minus spent",
+   "facts_min_first": "ಒಂದು ಗಿಫ್ಟ್ ಕಾರ್ಡ್‌ನಲ್ಲಿ ಆರಂಭದಲ್ಲಿ €{M} ಇತ್ತು; ಅದರಿಂದ €{S} ಖರ್ಚು ಮಾಡಲಾಯಿತು.",
+   "facts_sub_first": "ಒಂದು ಗಿಫ್ಟ್ ಕಾರ್ಡ್‌ನಿಂದ €{S} ಖರ್ಚು ಮಾಡಲಾಯಿತು; ಆರಂಭದಲ್ಲಿ ಅದರಲ್ಲಿ €{M} ಇತ್ತು.",
+   "question": "ಕಾರ್ಡ್‌ನಲ್ಲಿ ಉಳಿದ ಬಾಕಿ ಎಷ್ಟಿದೆ?",
+   "distractor_sentence": "ಈ ಗಿಫ್ಟ್ ಕಾರ್ಡ್ ಅಂಗಡಿ ಸಂಖ್ಯೆ {D} ರಿಂದ ನೀಡಲಾಗಿದೆ.",
+   "agreement_safe": true,
+   "agreement_note": "ಸಂಖ್ಯೆಯ ನಂತರ ಬರುವ ಏಕಮಾನ ಚಿಹ್ನೆ ಎಂದಿಗೂ ರೂಪ ಬದಲಾಯಿಸುವುದಿಲ್ಲ, ಯಾವುದೇ ಸಂಖ್ಯೆಗೆ (3, 51, 4870) ಒಂದೇ ರೀತಿ.",
+   "decimals_natural": true,
+   "gloss_en": "A gift card had €{M} on it at the start; €{S} was spent from the card. What is the remaining balance on the card?",
+   "notes": "",
+   "distractor_ok": true,
+   "verifier": {
+    "tag": "V13",
+    "natural": 3,
+    "comment": ""
+   }
+  },
+  {
+   "story_id": 6,
+   "bank": "A",
+   "domain": "balance",
+   "unit": "GB",
+   "sign_convention": "had minus spent",
+   "facts_min_first": "ಒಂದು ಮೊಬೈಲ್ ಡೇಟಾ ಯೋಜನೆಯಲ್ಲಿ ತಿಂಗಳ ಆರಂಭದಲ್ಲಿ {M} GB ಇತ್ತು; ಈ ತಿಂಗಳು {S} GB ಬಳಸಲಾಯಿತು.",
+   "facts_sub_first": "ಈ ತಿಂಗಳು ಒಂದು ಮೊಬೈಲ್ ಡೇಟಾ ಯೋಜನೆಯಿಂದ {S} GB ಬಳಸಲಾಯಿತು; ತಿಂಗಳ ಆರಂಭದಲ್ಲಿ ಅದರಲ್ಲಿ {M} GB ಇತ್ತು.",
+   "question": "ಉಳಿದ ಡೇಟಾ ಬಾಕಿ ಎಷ್ಟಿದೆ?",
+   "distractor_sentence": "ಈ ಯೋಜನೆ ಒಪ್ಪಂದ ಸಂಖ್ಯೆ {D} ರ ಅಡಿಯಲ್ಲಿ ನೋಂದಣಿಯಾಗಿದೆ.",
+   "agreement_safe": true,
+   "agreement_note": "ಸಂಖ್ಯೆಯ ನಂತರ ಬರುವ ಏಕಮಾನ ಚಿಹ್ನೆ ಎಂದಿಗೂ ರೂಪ ಬದಲಾಯಿಸುವುದಿಲ್ಲ, ಯಾವುದೇ ಸಂಖ್ಯೆಗೆ (3, 51, 4870) ಒಂದೇ ರೀತಿ.",
+   "decimals_natural": true,
+   "gloss_en": "A mobile data plan had {M} GB at the start of the month; {S} GB was used during the month. What is the remaining data balance?",
+   "notes": "",
+   "distractor_ok": true,
+   "verifier": {
+    "tag": "V13",
+    "natural": 3,
+    "comment": ""
+   }
+  },
+  {
+   "story_id": 7,
+   "bank": "A",
+   "domain": "net",
+   "unit": "€",
+   "sign_convention": "in minus out",
+   "facts_min_first": "ಒಂದು ಕುಟುಂಬದ ಈ ತಿಂಗಳ ಆದಾಯ €{M} ಆಗಿತ್ತು; ಅದರ ಈ ತಿಂಗಳ ಖರ್ಚು €{S} ಆಗಿತ್ತು.",
+   "facts_sub_first": "ಒಂದು ಕುಟುಂಬದ ಈ ತಿಂಗಳ ಖರ್ಚು €{S} ಆಗಿತ್ತು; ಅದರ ಈ ತಿಂಗಳ ಆದಾಯ €{M} ಆಗಿತ್ತು.",
+   "question": "ಈ ತಿಂಗಳು ಕುಟುಂಬದ ನಿವ್ವಳ ಫಲಿತಾಂಶ ಏನಾಗಿತ್ತು?",
+   "distractor_sentence": "ಈ ಕುಟುಂಬ ಈ ವರ್ಷ ಫ್ಲಾಟ್ ಸಂಖ್ಯೆ {D} ಗೆ ಸ್ಥಳಾಂತರಗೊಂಡಿತು.",
+   "agreement_safe": true,
+   "agreement_note": "ಸಂಖ್ಯೆಯ ನಂತರ ಬರುವ ಏಕಮಾನ ಚಿಹ್ನೆ ಎಂದಿಗೂ ರೂಪ ಬದಲಾಯಿಸುವುದಿಲ್ಲ, ಯಾವುದೇ ಸಂಖ್ಯೆಗೆ (3, 51, 4870) ಒಂದೇ ರೀತಿ.",
+   "decimals_natural": true,
+   "gloss_en": "A household's income for the month was €{M}; its expenses for the month were €{S}. What was the household's net result for the month?",
+   "notes": "",
+   "distractor_ok": true,
+   "verifier": {
+    "tag": "V13",
+    "natural": 3,
+    "comment": ""
+   }
+  },
+  {
+   "story_id": 8,
+   "bank": "A",
+   "domain": "net",
+   "unit": "goal",
+   "sign_convention": "in minus out",
+   "facts_min_first": "ಒಂದು ಋತುವಿನಲ್ಲಿ ಒಂದು ಫುಟ್‌ಬಾಲ್ ತಂಡ {M} ಗೋಲ್ ಗಳಿಸಿತು; ಅದೇ ಋತುವಿನಲ್ಲಿ ಅದು {S} ಗೋಲ್ ಬಿಟ್ಟುಕೊಟ್ಟಿತು.",
+   "facts_sub_first": "ಒಂದು ಋತುವಿನಲ್ಲಿ ಒಂದು ಫುಟ್‌ಬಾಲ್ ತಂಡ {S} ಗೋಲ್ ಬಿಟ್ಟುಕೊಟ್ಟಿತು; ಅದೇ ಋತುವಿನಲ್ಲಿ ಅದು {M} ಗೋಲ್ ಗಳಿಸಿತು.",
+   "question": "ಋತುವಿನಲ್ಲಿ ತಂಡದ ಗೋಲ್ ವ್ಯತ್ಯಾಸ ಏನಾಗಿತ್ತು?",
+   "distractor_sentence": "ಈ ತಂಡ ತಮ್ಮ ಹೋಮ್ ಪಂದ್ಯಗಳನ್ನು ಗೇಟ್ ಸಂಖ್ಯೆ {D} ಇರುವ ಕ್ರೀಡಾಂಗಣದಲ್ಲಿ ಆಡಿತು.",
+   "agreement_safe": true,
+   "agreement_note": "ಕನ್ನಡದಲ್ಲಿ ಸಂಖ್ಯೆಯ ನಂತರ ಬರುವ ನಾಮಪದ ರೂಪ ಬದಲಾಗದೆ ಮೂಲ ರೂಪದಲ್ಲೇ ಉಳಿಯುತ್ತದೆ, 3, 51, 4870 ಗೂ ಒಂದೇ ರೀತಿ.",
+   "decimals_natural": false,
+   "gloss_en": "Over a season a football team scored {M} goals; it conceded {S} goals. What was the team's goal difference for the season?",
+   "notes": "",
+   "distractor_ok": true,
+   "verifier": {
+    "tag": "V13",
+    "natural": 2,
+    "comment": "Distractor uses plural 'ತಮ್ಮ' for the singular neuter 'ತಂಡ' ('ತನ್ನ')."
+   }
+  },
+  {
+   "story_id": 9,
+   "bank": "A",
+   "domain": "net",
+   "unit": "€",
+   "sign_convention": "in minus out",
+   "facts_min_first": "ಈ ತ್ರೈಮಾಸಿಕದಲ್ಲಿ ಒಂದು ಸಣ್ಣ ವ್ಯವಹಾರ €{M} ಲಾಭ ದಾಖಲಿಸಿತು; ಅದೇ ತ್ರೈಮಾಸಿಕದಲ್ಲಿ ಅದು €{S} ನಷ್ಟ ದಾಖಲಿಸಿತು.",
+   "facts_sub_first": "ಈ ತ್ರೈಮಾಸಿಕದಲ್ಲಿ ಒಂದು ಸಣ್ಣ ವ್ಯವಹಾರ €{S} ನಷ್ಟ ದಾಖಲಿಸಿತು; ಅದೇ ತ್ರೈಮಾಸಿಕದಲ್ಲಿ ಅದು €{M} ಲಾಭ ದಾಖಲಿಸಿತು.",
+   "question": "ಈ ತ್ರೈಮಾಸಿಕದಲ್ಲಿ ವ್ಯವಹಾರದ ನಿವ್ವಳ ಫಲಿತಾಂಶ ಏನಾಗಿತ್ತು?",
+   "distractor_sentence": "ಈ ವ್ಯವಹಾರ ಪರವಾನಗಿ ಸಂಖ್ಯೆ {D} ರ ಅಡಿಯಲ್ಲಿ ನೋಂದಣಿಯಾಗಿದೆ.",
+   "agreement_safe": true,
+   "agreement_note": "ಸಂಖ್ಯೆಯ ನಂತರ ಬರುವ ಏಕಮಾನ ಚಿಹ್ನೆ ಎಂದಿಗೂ ರೂಪ ಬದಲಾಯಿಸುವುದಿಲ್ಲ, ಯಾವುದೇ ಸಂಖ್ಯೆಗೆ (3, 51, 4870) ಒಂದೇ ರೀತಿ.",
+   "decimals_natural": true,
+   "gloss_en": "During the quarter a small business recorded €{M} in gains; it recorded €{S} in losses. What was the business's net result for the quarter?",
+   "notes": "",
+   "distractor_ok": true,
+   "verifier": {
+    "tag": "V13",
+    "natural": 3,
+    "comment": ""
+   }
+  }
+ ]
+}

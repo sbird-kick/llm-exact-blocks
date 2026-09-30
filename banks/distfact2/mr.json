@@ -1,0 +1,72 @@
+{
+ "language_code": "mr",
+ "refused": [],
+ "items": [
+  {
+   "story_id": 1,
+   "distractor_fact": "शेजाऱ्याच्या घरातील थर्मामीटरने त्याच वेळी {D}°C दाखवले.",
+   "gloss_en": "The neighbor's home thermometer showed {D} °C at the same time.",
+   "entity_note": "owner is a person's household instrument (a neighbor's thermometer), not a place like the first sentence's other city"
+  },
+  {
+   "story_id": 2,
+   "distractor_fact": "त्याच दिवशी एका शेअर बाजार निर्देशांकाचे मूल्य €{D} होते.",
+   "gloss_en": "That same day, a stock market index's value was €{D}.",
+   "entity_note": "owner is a market index (a series/benchmark), not another company like the first sentence"
+  },
+  {
+   "story_id": 3,
+   "distractor_fact": "जवळच्या एका शेतकऱ्याच्या विहिरीची पाण्याची पातळी त्याच दिवशी {D} m होती.",
+   "gloss_en": "A nearby farmer's well's water level was {D} m that same day.",
+   "entity_note": "owner is a person (a farmer's well), not another lake like the first sentence"
+  },
+  {
+   "story_id": 4,
+   "distractor_fact": "एका ग्राहकाने या महिन्यात वेगळ्या बँकेत €{D} जमा केले.",
+   "gloss_en": "A customer deposited €{D} into a different bank this month.",
+   "entity_note": "owner is a person (a customer), not another account at the same bank like the first sentence"
+  },
+  {
+   "story_id": 5,
+   "distractor_fact": "एका मित्राच्या पाकिटात सुरुवातीला रोख रक्कम €{D} होती.",
+   "gloss_en": "A friend's wallet had cash of €{D} in it at the start.",
+   "entity_note": "owner is a person's wallet holding cash, not another gift card like the first sentence"
+  },
+  {
+   "story_id": 6,
+   "distractor_fact": "टेलिकॉम कंपनीने त्या महिन्यात ग्राहकांसाठी जाहीर केलेला बोनस डेटा {D} GB होता.",
+   "gloss_en": "The telecom company's bonus data announced for customers that month was {D} GB.",
+   "entity_note": "owner is the operating organisation itself (a company-wide promotion), not another individual data plan like the first sentence"
+  },
+  {
+   "story_id": 7,
+   "distractor_fact": "शेजारी राहणाऱ्या एका व्यक्तीचे या महिन्याचे उत्पन्न €{D} होते.",
+   "gloss_en": "A person living nearby had an income of €{D} for the month.",
+   "entity_note": "owner is a single individual, not another whole household like the first sentence"
+  },
+  {
+   "story_id": 8,
+   "distractor_fact": "एका फँटसी लीग खेळाडूच्या संघाने त्याच हंगामात {D} गोल केले.",
+   "gloss_en": "A fantasy-league player's (virtual) team scored {D} goals that same season.",
+   "entity_note": "owner is a private individual's fantasy-league team, not another real club in the league like the first sentence"
+  },
+  {
+   "story_id": 9,
+   "distractor_fact": "एका स्वयंरोजगार व्यक्तीने त्याच तिमाहीत €{D} नफा कमावला.",
+   "gloss_en": "A self-employed individual earned €{D} in profit that same quarter.",
+   "entity_note": "owner is a single person, not another registered business like the first sentence"
+  },
+  {
+   "story_id": 15,
+   "distractor_fact": "एका बस कंपनीच्या बसचे प्रत्यक्ष आगमन वेळेचे रीडिंग, तिच्या स्वतःच्या वेळापत्रकानुसार, {D} min होते.",
+   "gloss_en": "A bus company's bus had an actual arrival time reading of {D} min, against its own separate schedule.",
+   "entity_note": "owner is a different transport organisation (a bus company, with its own unstated schedule), not another train on a different route like the first sentence"
+  },
+  {
+   "story_id": 16,
+   "distractor_fact": "एका तंत्रज्ञाच्या हातातील मजला मोजण्याच्या उपकरणाने, स्वतःच्या संदर्भ मजल्यानुसार, {D} रीडिंग दाखवले.",
+   "gloss_en": "A technician's handheld floor-measuring device showed a reading of {D}, against its own reference floor.",
+   "entity_note": "owner is a person's handheld instrument (with its own unstated reference floor), not another building's lift panel like the first sentence"
+  }
+ ]
+}

@@ -1,0 +1,102 @@
+{
+  "language_code": "uk",
+  "refused": [],
+  "items": [
+    {
+      "story_id": 1,
+      "distractor_fact": "У тій самій квартирі кімнатний термометр показував {D}°C.",
+      "gloss_en": "In that same apartment, the room thermometer showed D°C.",
+      "entity_note": "A different instrument — an indoor room thermometer in a private apartment — unlike the first distractor's different weather station (a place)."
+    },
+    {
+      "story_id": 2,
+      "distractor_fact": "Облігації цієї ж компанії того дня продавалися за {D} $.",
+      "gloss_en": "Bonds of that same company were selling for D $ that day.",
+      "entity_note": "A different financial instrument (the company's bonds), unlike the first distractor's different company (an organisation)."
+    },
+    {
+      "story_id": 3,
+      "distractor_fact": "За нотатками місцевого рибалки, рівень води у сусідньому ставку того самого ранку становив {D} м.",
+      "gloss_en": "According to a local fisherman's notes, the water level in a neighboring pond that same morning was D m.",
+      "entity_note": "A different person's own record (a local fisherman, about a pond), unlike the first distractor's different river (a place)."
+    },
+    {
+      "story_id": 4,
+      "distractor_fact": "На сусідньому будівельному майданчику кран піднявся на висоту {D} м.",
+      "gloss_en": "At a neighboring construction site, a crane rose to a height of D m.",
+      "entity_note": "A different place (a construction site) with a different kind of instrument (a crane), unlike the first distractor's different drone (an instrument)."
+    },
+    {
+      "story_id": 5,
+      "distractor_fact": "У сусідній транспортній компанії посилка того самого дня важила {D} кг.",
+      "gloss_en": "At a neighboring transport company, a parcel weighed D kg that same day.",
+      "entity_note": "A different organisation (a transport company), unlike the first distractor's different parcel at the same branch (an entity)."
+    },
+    {
+      "story_id": 6,
+      "distractor_fact": "GPS-трекер вантажівки тієї самої компанії зафіксував швидкість {D} км/год.",
+      "gloss_en": "The GPS tracker of a truck from that same company recorded a speed of D km/h.",
+      "entity_note": "A different instrument (a GPS tracker on a company truck), unlike the first distractor's different road and radar (a place)."
+    },
+    {
+      "story_id": 8,
+      "distractor_fact": "У касі сусіднього відділення банку того ж дня зафіксовано надходження на суму {D} $.",
+      "gloss_en": "At the till of a neighboring bank branch, cash receipts of D $ were recorded that same day.",
+      "entity_note": "A different organisation (a neighboring bank branch's till), unlike the first distractor's different account at this branch (an instrument)."
+    },
+    {
+      "story_id": 9,
+      "distractor_fact": "У тому самому торговому центрі за оренду іншого приміщення сплачено {D} $.",
+      "gloss_en": "In that same shopping mall, D $ was paid for the rent of a different unit.",
+      "entity_note": "A different place (the mall itself, via rent for another unit), unlike the first distractor's neighboring shop (an organisation)."
+    },
+    {
+      "story_id": 10,
+      "distractor_fact": "У таблиці кубкового турніру того самого сезону іншій команді в графі «Закинуто» записано {D}.",
+      "gloss_en": "In the table of that season's cup tournament, another team's \"Scored\" column shows D.",
+      "entity_note": "A different competition/series (the cup tournament's own table), unlike the first distractor's same league table for a different team (an organisation)."
+    },
+    {
+      "story_id": 11,
+      "distractor_fact": "На сусідній виробничій лінії того ж цеху за той самий день виготовлено {D} кг продукції.",
+      "gloss_en": "On a neighboring production line of that same workshop, D kg of product was made that same day.",
+      "entity_note": "A different place — a separate production line with its own unstated plan — unlike the first distractor's different workshop (an organisation)."
+    },
+    {
+      "story_id": 12,
+      "distractor_fact": "Через онлайн-платформу тієї самої мережі за той самий тиждень продано товарів на суму {D} $.",
+      "gloss_en": "Through the online platform of that same retail chain, D $ worth of goods were sold that same week.",
+      "entity_note": "A different sales channel (the chain's online platform, an instrument) with its own unstated plan, unlike the first distractor's different physical shop (an organisation)."
+    },
+    {
+      "story_id": 13,
+      "distractor_fact": "Домашній дощомір у тому самому місті зафіксував {D} мм опадів.",
+      "gloss_en": "A home rain gauge in that same city recorded D mm of precipitation.",
+      "entity_note": "A different instrument (a private rain gauge with no associated forecast), unlike the first distractor's different district (a place)."
+    },
+    {
+      "story_id": 14,
+      "distractor_fact": "У протоколі іншого турніру для іншої лунки в графі «Ударів» записано {D}.",
+      "gloss_en": "In the record of a different tournament, for a different hole, the \"Strokes\" column shows D.",
+      "entity_note": "A different competition/series (another tournament's scorecard) for a different hole with its own unstated par, unlike the first distractor's different player (a person)."
+    },
+    {
+      "story_id": 15,
+      "distractor_fact": "Табло сусідньої платформи того самого ранку показувало час прибуття іншого потяга — {D} хв після півночі.",
+      "gloss_en": "The display board on a neighboring platform that same morning showed another train's arrival time — D min after midnight.",
+      "entity_note": "A different place (a neighboring platform's display board) for a different train with its own unstated schedule, unlike the first distractor's different train route (an organisation/series)."
+    },
+    {
+      "story_id": 16,
+      "distractor_fact": "У сусідньому під'їзді того ж будинку поверх, де зупинився ліфт, позначений числом {D}.",
+      "gloss_en": "In a neighboring entrance of that same building, the floor where the elevator stopped is labeled with the number D.",
+      "entity_note": "A different place (a neighboring building entrance) with its own unstated ground-level reference, unlike the first distractor's different elevator (an instrument)."
+    },
+    {
+      "story_id": 19,
+      "distractor_fact": "Особистий термометр одного з мешканців того самого дня показував {D}°C.",
+      "gloss_en": "A personal thermometer belonging to one of the residents showed D°C that same day.",
+      "entity_note": "A different instrument (a resident's personal thermometer), unlike the first distractor's third city (a place)."
+    }
+  ]
+}

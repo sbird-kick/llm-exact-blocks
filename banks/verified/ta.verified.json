@@ -1,0 +1,272 @@
+{
+ "language": "Tamil",
+ "language_code": "ta",
+ "lead_in": "பதில்:",
+ "decimal_separator": ".",
+ "items": [
+  {
+   "story_id": 1,
+   "bank": "A",
+   "domain": "change",
+   "unit": "டிகிரி செல்சியஸ்",
+   "sign_convention": "after minus before",
+   "facts_min_first": "இன்று மாலை வெப்பநிலை {M} டிகிரி செல்சியஸாக இருந்தது; காலையில் அது {S} டிகிரி செல்சியஸாக இருந்தது.",
+   "facts_sub_first": "காலையில் வெப்பநிலை {S} டிகிரி செல்சியஸாக இருந்தது; மாலையில் அது {M} டிகிரி செல்சியஸாக இருந்தது.",
+   "question": "வெப்பநிலையில் ஏற்பட்ட மாற்றம் என்ன?",
+   "distractor_sentence": "இந்த வெப்பநிலை பதிவு நிலையம் எண் {D} ஆகும்.",
+   "agreement_safe": true,
+   "agreement_note": "எண் நேரடியாக மாறாத அலகுச் சொல் 'டிகிரி செல்சியஸ்' முன் வருகிறது; இது எந்த எண்ணுக்கும் வடிவம் மாறாது.",
+   "decimals_natural": true,
+   "gloss_en": "This evening the temperature was {M} degrees Celsius; this morning it was {S} degrees Celsius. What was the change in temperature?",
+   "notes": "",
+   "distractor_ok": true,
+   "verifier": {
+    "tag": "V4",
+    "natural": 3,
+    "comment": ""
+   }
+  },
+  {
+   "story_id": 2,
+   "bank": "A",
+   "domain": "change",
+   "unit": "ரூபாய்",
+   "sign_convention": "after minus before",
+   "facts_min_first": "இன்று சந்தை முடிவில் பங்கின் விலை {M} ரூபாயாக இருந்தது; சந்தை தொடங்கியபோது அது {S} ரூபாயாக இருந்தது.",
+   "facts_sub_first": "சந்தை தொடங்கியபோது பங்கின் விலை {S} ரூபாயாக இருந்தது; சந்தை முடிவில் அது {M} ரூபாயாக இருந்தது.",
+   "question": "நாள் முழுவதும் பங்கு விலையில் ஏற்பட்ட மாற்றம் என்ன?",
+   "distractor_sentence": "இந்த நிறுவனத்தில் {D} துறைகள் உள்ளன.",
+   "agreement_safe": true,
+   "agreement_note": "'ரூபாய்' எனும் அலகுச் சொல் எண்ணுக்குப் பின் வடிவம் மாறாமல் நிற்கிறது.",
+   "decimals_natural": true,
+   "gloss_en": "At market close the share's price was {M} rupees; when the market opened it was {S} rupees. What was the change in the share price over the day?",
+   "notes": "",
+   "distractor_ok": true,
+   "verifier": {
+    "tag": "V4",
+    "natural": 3,
+    "comment": ""
+   }
+  },
+  {
+   "story_id": 3,
+   "bank": "A",
+   "domain": "change",
+   "unit": "மீட்டர்",
+   "sign_convention": "after minus before",
+   "facts_min_first": "மழைக்குப் பிறகு ஏரியின் நீர்மட்டம் {M} மீட்டராக இருந்தது; மழைக்கு முன் அது {S} மீட்டராக இருந்தது.",
+   "facts_sub_first": "மழைக்கு முன் ஏரியின் நீர்மட்டம் {S} மீட்டராக இருந்தது; மழைக்குப் பிறகு அது {M} மீட்டராக இருந்தது.",
+   "question": "ஏரியின் நீர்மட்டத்தில் ஏற்பட்ட மாற்றம் என்ன?",
+   "distractor_sentence": "இந்த ஏரிக்கு அருகில் உள்ள பூங்காவின் நுழைவு வாயில் எண் {D} ஆகும்.",
+   "agreement_safe": true,
+   "agreement_note": "'மீட்டர்' அலகுச் சொல் எண்ணுக்குப் பின் வடிவம் மாறாது.",
+   "decimals_natural": true,
+   "gloss_en": "After the rain the lake's water level was {M} meters; before the rain it was {S} meters. What was the change in the lake's water level?",
+   "notes": "",
+   "distractor_ok": true,
+   "verifier": {
+    "tag": "V4",
+    "natural": 3,
+    "comment": ""
+   }
+  },
+  {
+   "story_id": 4,
+   "bank": "A",
+   "domain": "change",
+   "unit": "மீட்டர்",
+   "sign_convention": "after minus before",
+   "facts_min_first": "சிறிது நேரத்திற்குப் பிறகு பலூன் {M} மீட்டர் உயரத்தில் இருந்தது; பறக்கத் தொடங்கியபோது அது {S} மீட்டர் உயரத்தில் இருந்தது.",
+   "facts_sub_first": "பறக்கத் தொடங்கியபோது பலூன் {S} மீட்டர் உயரத்தில் இருந்தது; சிறிது நேரத்திற்குப் பிறகு அது {M} மீட்டர் உயரத்தில் இருந்தது.",
+   "question": "பலூனின் உயரத்தில் ஏற்பட்ட மாற்றம் என்ன?",
+   "distractor_sentence": "இந்த பலூன் தளத்தில் மொத்தம் {D} தளங்கள் உள்ளன.",
+   "agreement_safe": true,
+   "agreement_note": "'மீட்டர்' அலகுச் சொல் மாறாது; எண் வார்த்தையான 'ஒரு' போன்றவை தவிர்க்கப்பட்டுள்ளன.",
+   "decimals_natural": true,
+   "gloss_en": "After some time the balloon was at an altitude of {M} meters; when it started flying it was at {S} meters. What was the change in the balloon's altitude?",
+   "notes": "",
+   "distractor_ok": false,
+   "verifier": {
+    "tag": "V4",
+    "natural": 3,
+    "comment": "Distractor is incoherent: a balloon is said to have 17 floors."
+   }
+  },
+  {
+   "story_id": 5,
+   "bank": "A",
+   "domain": "change",
+   "unit": "-",
+   "sign_convention": "after minus before",
+   "facts_min_first": "இந்த ஆண்டு இறுதியில் ஊரின் மக்கள்தொகை {M} ஆக இருந்தது; ஆண்டு தொடக்கத்தில் அது {S} ஆக இருந்தது.",
+   "facts_sub_first": "ஆண்டு தொடக்கத்தில் ஊரின் மக்கள்தொகை {S} ஆக இருந்தது; ஆண்டு இறுதியில் அது {M} ஆக இருந்தது.",
+   "question": "ஆண்டு முழுவதும் மக்கள்தொகையில் ஏற்பட்ட மாற்றம் என்ன?",
+   "distractor_sentence": "இந்த ஊரில் மொத்தம் {D} பள்ளிகள் உள்ளன.",
+   "agreement_safe": true,
+   "agreement_note": "எண் 'ஆக இருந்தது' என்ற வினைமுன் நேரடியாக வருகிறது, பெயர்ச்சொல் வடிவமாற்றம் இல்லை.",
+   "decimals_natural": false,
+   "gloss_en": "At the end of this year the town's population was {M}; at the start of the year it was {S}. What was the change in the population over the year?",
+   "notes": "",
+   "distractor_ok": true,
+   "verifier": {
+    "tag": "V4",
+    "natural": 3,
+    "comment": ""
+   }
+  },
+  {
+   "story_id": 6,
+   "bank": "A",
+   "domain": "balance",
+   "unit": "ரூபாய்",
+   "sign_convention": "deposited minus withdrawn",
+   "facts_min_first": "இந்த மாதம் கணக்கில் வரவு வைக்கப்பட்ட தொகை {M} ரூபாய்; அதே மாதம் கணக்கிலிருந்து எடுக்கப்பட்ட தொகை {S} ரூபாய்.",
+   "facts_sub_first": "இந்த மாதம் கணக்கிலிருந்து எடுக்கப்பட்ட தொகை {S} ரூபாய்; அதே மாதம் கணக்கில் வரவு வைக்கப்பட்ட தொகை {M} ரூபாய்.",
+   "question": "இந்த மாதம் கணக்கின் நிகர இருப்பு எவ்வளவு?",
+   "distractor_sentence": "இந்த வங்கிக் கிளையின் எண் {D} ஆகும்.",
+   "agreement_safe": true,
+   "agreement_note": "'ரூபாய்' அலகுச் சொல் எண்ணுக்குப் பின் வடிவம் மாறாது.",
+   "decimals_natural": true,
+   "gloss_en": "The amount deposited into the account this month is {M} rupees; the amount withdrawn the same month is {S} rupees. What is the net balance of the account this month?",
+   "notes": "",
+   "distractor_ok": true,
+   "verifier": {
+    "tag": "V4",
+    "natural": 3,
+    "comment": ""
+   }
+  },
+  {
+   "story_id": 8,
+   "bank": "A",
+   "domain": "net",
+   "unit": "ரூபாய்",
+   "sign_convention": "income minus expenses",
+   "facts_min_first": "இந்த மாதம் கடையின் மொத்த வருமானம் {M} ரூபாய்; அதே மாதம் மொத்த செலவு {S} ரூபாய்.",
+   "facts_sub_first": "இந்த மாதம் கடையின் மொத்த செலவு {S} ரூபாய்; அதே மாதம் மொத்த வருமானம் {M} ரூபாய்.",
+   "question": "இந்த மாதம் கடையின் நிகர லாபம் எவ்வளவு?",
+   "distractor_sentence": "இந்த கடையில் {D} பணியாளர்கள் பணிபுரிகின்றனர்.",
+   "agreement_safe": true,
+   "agreement_note": "'ரூபாய்' அலகுச் சொல் எண்ணுக்குப் பின் வடிவம் மாறாது.",
+   "decimals_natural": true,
+   "gloss_en": "This month the shop's total income is {M} rupees; the same month the total expense is {S} rupees. What is the shop's net profit this month?",
+   "notes": "",
+   "distractor_ok": true,
+   "verifier": {
+    "tag": "V4",
+    "natural": 3,
+    "comment": ""
+   }
+  },
+  {
+   "story_id": 9,
+   "bank": "A",
+   "domain": "net",
+   "unit": "-",
+   "sign_convention": "goals scored minus conceded, one team",
+   "facts_min_first": "இந்த பருவத்தில் அணி அடித்த மொத்த கோல்களின் எண்ணிக்கை {M}; அதே பருவத்தில் அணிக்கு எதிராக அடிக்கப்பட்ட கோல்களின் எண்ணிக்கை {S}.",
+   "facts_sub_first": "இந்த பருவத்தில் அணிக்கு எதிராக அடிக்கப்பட்ட கோல்களின் எண்ணிக்கை {S}; அதே பருவத்தில் அணி அடித்த மொத்த கோல்களின் எண்ணிக்கை {M}.",
+   "question": "இந்த பருவத்தில் அணியின் கோல் வித்தியாசம் என்ன?",
+   "distractor_sentence": "இந்த அணி மொத்தம் {D} போட்டிகளில் விளையாடியது.",
+   "agreement_safe": true,
+   "agreement_note": "'எண்ணிக்கை' என்ற சொல்லுக்குப் பின் எண் நேரடியாக வருகிறது, வடிவமாற்றம் இல்லை.",
+   "decimals_natural": false,
+   "gloss_en": "The total number of goals the team scored this season is {M}; the number of goals scored against the team the same season is {S}. What is the team's goal difference this season?",
+   "notes": "",
+   "distractor_ok": true,
+   "verifier": {
+    "tag": "V4",
+    "natural": 3,
+    "comment": ""
+   }
+  },
+  {
+   "story_id": 10,
+   "bank": "A",
+   "domain": "net",
+   "unit": "ரூபாய்",
+   "sign_convention": "gains minus losses",
+   "facts_min_first": "இந்த ஆண்டு முதலீட்டில் ஈட்டிய லாபம் {M} ரூபாய்; அதே ஆண்டு ஏற்பட்ட நஷ்டம் {S} ரூபாய்.",
+   "facts_sub_first": "இந்த ஆண்டு முதலீட்டில் ஏற்பட்ட நஷ்டம் {S} ரூபாய்; அதே ஆண்டு ஈட்டிய லாபம் {M} ரூபாய்.",
+   "question": "இந்த ஆண்டு முதலீட்டின் நிகர விளைவு என்ன?",
+   "distractor_sentence": "இந்த முதலீட்டாளர் {D} நிறுவனங்களில் பங்கு வைத்துள்ளார்.",
+   "agreement_safe": true,
+   "agreement_note": "'ரூபாய்' அலகுச் சொல் எண்ணுக்குப் பின் வடிவம் மாறாது.",
+   "decimals_natural": true,
+   "gloss_en": "The profit earned on the investment this year is {M} rupees; the loss incurred the same year is {S} rupees. What is the net result of the investment this year?",
+   "notes": "",
+   "distractor_ok": true,
+   "verifier": {
+    "tag": "V4",
+    "natural": 3,
+    "comment": ""
+   }
+  },
+  {
+   "story_id": 14,
+   "bank": "A",
+   "domain": "score vs par",
+   "unit": "-",
+   "sign_convention": "strokes minus par",
+   "facts_min_first": "இந்த சுற்றில் வீரர் அடித்த மொத்த அடிகளின் எண்ணிக்கை {M}; அந்த மைதானத்தின் நிர்ணயிக்கப்பட்ட பார் எண்ணிக்கை {S}.",
+   "facts_sub_first": "அந்த மைதானத்தின் நிர்ணயிக்கப்பட்ட பார் எண்ணிக்கை {S}; இந்த சுற்றில் வீரர் அடித்த மொத்த அடிகளின் எண்ணிக்கை {M}.",
+   "question": "பாரை ஒப்பிடும்போது வீரரின் மதிப்பெண் என்ன?",
+   "distractor_sentence": "இந்த போட்டியில் {D} வீரர்கள் பங்கேற்றனர்.",
+   "agreement_safe": true,
+   "agreement_note": "'எண்ணிக்கை' என்ற சொல்லுக்குப் பின் எண் நேரடியாக வருகிறது, வடிவமாற்றம் இல்லை.",
+   "decimals_natural": false,
+   "gloss_en": "The total number of strokes the player took in this round is {M}; the course's set par count is {S}. What is the player's score relative to par?",
+   "notes": "",
+   "distractor_ok": true,
+   "verifier": {
+    "tag": "V4",
+    "natural": 3,
+    "comment": ""
+   }
+  },
+  {
+   "story_id": 15,
+   "bank": "A",
+   "domain": "arrival vs schedule",
+   "unit": "நிமிடங்கள்",
+   "sign_convention": "actual minus scheduled, late positive",
+   "facts_min_first": "இரயில் நள்ளிரவு முதல் {M} நிமிடங்கள் கழித்து வந்தடைந்தது; அது வர திட்டமிடப்பட்டிருந்த நேரம் நள்ளிரவு முதல் {S} நிமிடங்கள் கழித்தாகும்.",
+   "facts_sub_first": "இரயில் வர திட்டமிடப்பட்டிருந்த நேரம் நள்ளிரவு முதல் {S} நிமிடங்கள் கழித்தாகும்; அது உண்மையில் நள்ளிரவு முதல் {M} நிமிடங்கள் கழித்து வந்தடைந்தது.",
+   "question": "தாமதத்தை நேர்குறியாகக் கருதி, திட்டமிட்ட நேரத்தை ஒப்பிடும்போது இரயில் எத்தனை நிமிடங்கள் தாமதமானது?",
+   "distractor_sentence": "இந்த இரயிலில் {D} பெட்டிகள் உள்ளன.",
+   "agreement_safe": true,
+   "agreement_note": "எண் + பன்மைச் சொல் 'நிமிடங்கள்' என்பது எந்த எண்ணுக்கும் மாறாத வழக்கமான தமிழ் அமைப்பு.",
+   "decimals_natural": false,
+   "gloss_en": "The train arrived {M} minutes after midnight; it was scheduled to arrive {S} minutes after midnight. Counting lateness as positive, by how many minutes was the train late relative to the schedule?",
+   "notes": "",
+   "distractor_ok": true,
+   "verifier": {
+    "tag": "V4",
+    "natural": 2,
+    "comment": "Very long and stilted, but the sign convention is stated explicitly."
+   }
+  },
+  {
+   "story_id": 17,
+   "bank": "B",
+   "domain": "relative",
+   "unit": "-",
+   "sign_convention": "party X minus party Y",
+   "facts_min_first": "அணி அ இந்தத் தொடரில் அடித்த மொத்த கோல்களின் எண்ணிக்கை {M}; அணி ஆ அடித்த மொத்த கோல்களின் எண்ணிக்கை {S}.",
+   "facts_sub_first": "அணி ஆ அடித்த மொத்த கோல்களின் எண்ணிக்கை {S}; அணி அ அடித்த மொத்த கோல்களின் எண்ணிக்கை {M}.",
+   "question": "அணி ஆ-வுடன் ஒப்பிடும்போது அணி அ-வின் கோல் வித்தியாசம் என்ன?",
+   "distractor_sentence": "இந்தத் தொடரில் மொத்தம் {D} அணிகள் பங்கேற்றன.",
+   "agreement_safe": true,
+   "agreement_note": "'எண்ணிக்கை' என்ற சொல்லுக்குப் பின் எண் நேரடியாக வருகிறது, வடிவமாற்றம் இல்லை.",
+   "decimals_natural": false,
+   "gloss_en": "The total number of goals Team A scored in this tournament is {M}; the total number of goals Team B scored is {S}. Compared with Team B, what is Team A's goal difference?",
+   "notes": "",
+   "distractor_ok": true,
+   "verifier": {
+    "tag": "V4",
+    "natural": 3,
+    "comment": ""
+   }
+  }
+ ]
+}

@@ -5,6 +5,10 @@
     python banks/make_banks.py --banks v4wild     # one bank
     python banks/make_banks.py --check-only       # only compare banks/<bank>/ with SHIP.md5
 
+Before generating it checks the 185 inputs (the generator and the template files in
+verified/, distfact/, distfact2/ and writers_wild/) against INPUTS.md5, so a changed
+template is named before it can move a bank md5 (--skip-input-check to generate anyway).
+
 The banks land in banks/v3_61/, banks/v4/ and banks/v4wild/ (ignored by git), which is
 also where the v5 tools look for the v4 banks.
 
@@ -93,6 +97,9 @@ def main(argv=None) -> int:
                     help="directory holding gen_signed_bank_ml.py, verified/, distfact/, distfact2/, writers_wild/")
     ap.add_argument("--out", default=HERE, help="the banks are written to <out>/<bank>/")
     ap.add_argument("--ship", default=os.path.join(HERE, "SHIP.md5"))
+    ap.add_argument("--inputs-md5", default=os.path.join(HERE, "INPUTS.md5"))
+    ap.add_argument("--skip-input-check", action="store_true",
+                    help="generate even if an input differs from INPUTS.md5 (the bank md5s will then say whether it mattered)")
     ap.add_argument("--banks", default=",".join(BANKS))
     ap.add_argument("--check-only", action="store_true")
     a = ap.parse_args(argv)
@@ -110,6 +117,16 @@ def main(argv=None) -> int:
                 print("   ", os.path.relpath(p, a.root))
             print("See banks/README.md for which files belong here.")
             return 2
+        if not a.skip_input_check and os.path.exists(a.inputs_md5):
+            want = read_ship(a.inputs_md5)
+            changed = [rel for rel in sorted(want)
+                       if md5_of(os.path.join(a.root, rel)) != want[rel]]
+            print(f"input check: {len(want) - len(changed)}/{len(want)} inputs match INPUTS.md5")
+            if changed:
+                for rel in changed[:8]:
+                    print("    changed:", rel)
+                print("A changed input gives a different bank; rerun with --skip-input-check to generate anyway.")
+                return 2
         gen = os.path.join(a.root, "gen_signed_bank_ml.py")
         for bank in banks:
             out = os.path.join(a.out, bank)

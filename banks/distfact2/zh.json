@@ -1,0 +1,108 @@
+{
+  "language_code": "zh",
+  "refused": [],
+  "items": [
+    {
+      "story_id": 1,
+      "distractor_fact": "现场另一台温度计当天测得的气温是{D}摄氏度。",
+      "gloss_en": "Another thermometer at the site measured a temperature of {D} degrees Celsius that day.",
+      "entity_note": "A different physical instrument (a thermometer) at the scene, not a different town (place) like the first distractor."
+    },
+    {
+      "story_id": 2,
+      "distractor_fact": "另一家专卖店同类商品当天的成交价格是{D}元。",
+      "gloss_en": "A different specialty store's transaction price for a similar item that day was {D} yuan.",
+      "entity_note": "A different retailer (organisation) selling a similar item, not a different specific item (object) like the first distractor."
+    },
+    {
+      "story_id": 3,
+      "distractor_fact": "附近一处水文监测站的另一台水位仪当时的读数是{D}米。",
+      "gloss_en": "A different water-level gauge at a nearby hydrological monitoring station read {D} meters at the time.",
+      "entity_note": "A different monitoring instrument, not a different reservoir (place) like the first distractor."
+    },
+    {
+      "story_id": 4,
+      "distractor_fact": "附近一座信号塔的高度是{D}米。",
+      "gloss_en": "The height of a nearby signal tower was {D} meters.",
+      "entity_note": "A fixed structure (place/infrastructure), not another moving drone (instrument) like the first distractor."
+    },
+    {
+      "story_id": 5,
+      "distractor_fact": "带队老师个人为这次活动额外垫付了{D}元。",
+      "gloss_en": "The leading teacher personally advanced an extra {D} yuan for this activity.",
+      "entity_note": "An individual person's advance, not another group's budget (organisation) like the first distractor."
+    },
+    {
+      "story_id": 6,
+      "distractor_fact": "另一位储户本月的存款总额是{D}元。",
+      "gloss_en": "A different depositor's total deposits this month were {D} yuan.",
+      "entity_note": "An individual depositor (person), not a different bank account (entity/instrument) like the first distractor."
+    },
+    {
+      "story_id": 7,
+      "distractor_fact": "这条街上一位摊贩本月的收入是{D}元。",
+      "gloss_en": "A street vendor's income this month on this street was {D} yuan.",
+      "entity_note": "An individual vendor (person), not a different neighboring shop (organisation) like the first distractor."
+    },
+    {
+      "story_id": 8,
+      "distractor_fact": "在另一项联赛中,一名球员的职业生涯进球总数是{D}个。",
+      "gloss_en": "In a different league, a player's total career goals scored was {D}.",
+      "entity_note": "An individual player (person) in a different league, not another team (organisation) like the first distractor."
+    },
+    {
+      "story_id": 9,
+      "distractor_fact": "另一家基金公司本季度公布的收益是{D}元。",
+      "gloss_en": "A different fund company's disclosed gain this quarter was {D} yuan.",
+      "entity_note": "A company (organisation), not another individual investor (person) like the first distractor."
+    },
+    {
+      "story_id": 13,
+      "distractor_fact": "某球具品牌在测试新款球杆时记录的杆数是{D}杆,这项测试没有设定标准杆。",
+      "gloss_en": "A golf-equipment brand's recorded stroke count while testing a new club was {D} strokes; this test had no par set.",
+      "entity_note": "A brand's non-competitive testing session (organisation), not another player on another course (person/place) like the first distractor; the sentence states outright that no par applies."
+    },
+    {
+      "story_id": 14,
+      "distractor_fact": "同一天,一名值班调度员开始当班的时刻是从零点算起的第{D}分钟。",
+      "gloss_en": "The same day, an on-duty dispatcher's shift-start time was the {D}-th minute counted from midnight.",
+      "entity_note": "A dispatcher's personal shift-start time (person), not another train on another line (vehicle/place) like the first distractor; a person's shift has no relation to the train's timetable."
+    },
+    {
+      "story_id": 15,
+      "distractor_fact": "同一天,机场塔台一名管制员开始当班的时刻是从零点算起的第{D}分钟。",
+      "gloss_en": "The same day, an air-traffic controller in the tower began their shift at the {D}-th minute counted from midnight.",
+      "entity_note": "A controller's personal shift-start time (person), not another flight on another route (vehicle/place) like the first distractor; a person's shift has no relation to the flight's schedule."
+    },
+    {
+      "story_id": 16,
+      "distractor_fact": "同一时刻,在另一栋写字楼内,一名保洁员所在的楼层编号是{D}。",
+      "gloss_en": "At the same moment, in a different office building, a cleaner's floor number was {D}.",
+      "entity_note": "A person (cleaner) inside a different building, not the adjacent building's elevator (place) like the first distractor; that other building's own ground-lobby reference does not apply here."
+    },
+    {
+      "story_id": 17,
+      "distractor_fact": "该联赛官方公布的单场最高进球纪录是{D}个。",
+      "gloss_en": "The league's officially published single-match highest-goals record was {D}.",
+      "entity_note": "A league-wide record kept by the organisation, not a third team in a different match (series) like the first distractor."
+    },
+    {
+      "story_id": 18,
+      "distractor_fact": "赛事组委会设置的中途补给点位置是从起点算起第{D}米。",
+      "gloss_en": "The organizing committee's mid-race supply station was located at the {D}-th meter from the start.",
+      "entity_note": "A fixed course marker set by the organizing committee (organisation), not a third runner in a different race (series/person) like the first distractor."
+    },
+    {
+      "story_id": 19,
+      "distractor_fact": "电力公司架设的一根输电铁塔高度是{D}米。",
+      "gloss_en": "The height of a transmission tower erected by the power company was {D} meters.",
+      "entity_note": "A structure owned by a company (organisation), not a tower at a different scenic site (place) like the first distractor."
+    },
+    {
+      "story_id": 20,
+      "distractor_fact": "年级组公布的本次考试最高分是{D}分。",
+      "gloss_en": "The grade-level teaching group's published highest score for this exam was {D} points.",
+      "entity_note": "A grade-wide record kept by the organisation, not a third student in a different exam (series/person) like the first distractor."
+    }
+  ]
+}

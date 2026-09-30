@@ -1,0 +1,84 @@
+{
+  "language_code": "tr",
+  "refused": [],
+  "items": [
+    {
+      "story_id": 1,
+      "distractor_fact": "Meteorolog o sabah kendi termometresinde {D} derece okudu.",
+      "gloss_en": "The meteorologist read {D} degrees on his own thermometer that morning.",
+      "entity_note": "belongs to a person (the meteorologist's own thermometer), a different kind of owner from the first sentence's place (the neighboring town's station), and not the instrument whose morning/afternoon readings the question compares"
+    },
+    {
+      "story_id": 2,
+      "distractor_fact": "Aynı gün bir tahvil {D} dolardan işlem gördü.",
+      "gloss_en": "On the same day, a bond traded at {D} dollars.",
+      "entity_note": "belongs to a different financial instrument (a bond), a different kind of owner from the first sentence's other company's stock, and not the stock whose opening/closing price the question compares"
+    },
+    {
+      "story_id": 3,
+      "distractor_fact": "Belediyenin nehir ölçüm istasyonundaki seviye aynı sabah {D} santimetreydi.",
+      "gloss_en": "The level at the municipality's river measurement station was {D} centimeters that same morning.",
+      "entity_note": "belongs to a municipal organization's river gauge, a different kind of owner from the first sentence's neighboring lake (a place), and not the lake whose morning/evening levels the question compares"
+    },
+    {
+      "story_id": 4,
+      "distractor_fact": "Komşu inşaat şirketinin vinç kolu o sırada {D} metre yükseklikteydi.",
+      "gloss_en": "The neighboring construction company's crane arm was at {D} meters of altitude at that moment.",
+      "entity_note": "belongs to a construction company's crane, an organization-owned instrument, a different kind of owner from the first sentence's other drone, and not the drone whose first/second measurements the question compares"
+    },
+    {
+      "story_id": 5,
+      "distractor_fact": "Başka bir nakliye firmasının gönderisi {D} kilogram geliyordu.",
+      "gloss_en": "Another freight company's shipment weighed {D} kilograms.",
+      "entity_note": "belongs to a different freight company (an organization), a different kind of owner from the first sentence's sibling package in the same shipment, and not the package whose shipping/delivery weight the question compares"
+    },
+    {
+      "story_id": 6,
+      "distractor_fact": "Firmanın teslimat kamyonu o sırada {D} km/h hızla gidiyordu.",
+      "gloss_en": "The company's delivery truck was going {D} km/h at that moment.",
+      "entity_note": "belongs to a company's delivery truck, an organization-owned instrument, a different kind of owner from the first sentence's anonymous vehicle in the next lane, and not the vehicle whose first/second speed measurements the question compares"
+    },
+    {
+      "story_id": 8,
+      "distractor_fact": "Şehir dışındaki bir şubede aynı gün {D} lira çekildi.",
+      "gloss_en": "At an out-of-town branch, {D} lira was withdrawn that same day.",
+      "entity_note": "belongs to a specific out-of-town bank branch (a place), a different kind of owner from the first sentence's other account holder, and not the account whose deposit/withdrawal the question compares"
+    },
+    {
+      "story_id": 9,
+      "distractor_fact": "Aynı sektörde çalışan bağımsız bir danışmanın bu ayki geliri {D} lira oldu.",
+      "gloss_en": "An independent consultant working in the same sector had an income of {D} lira this month.",
+      "entity_note": "belongs to an individual consultant (a person), a different kind of owner from the first sentence's competing business (an organization), and not the business whose income/expenses the question compares"
+    },
+    {
+      "story_id": 10,
+      "distractor_fact": "Ligin gol kralı bu sezon {D} gol attı.",
+      "gloss_en": "The league's top scorer scored {D} goals this season.",
+      "entity_note": "belongs to an individual player (a person), a different kind of owner from the first sentence's other team (an organization), and not the team whose scored/conceded goals the question compares"
+    },
+    {
+      "story_id": 11,
+      "distractor_fact": "Bir yatırım fonunun bu yılki kazancı {D} lira oldu.",
+      "gloss_en": "An investment fund's gain this year was {D} lira.",
+      "entity_note": "belongs to an investment fund (an organization), a different kind of owner from the first sentence's other individual investor, and not the investor whose gain/loss the question compares"
+    },
+    {
+      "story_id": 14,
+      "distractor_fact": "Başka bir turnuvada yarışan bir takım bu turda toplam {D} vuruş yaptı.",
+      "gloss_en": "A team competing in a different tournament made a total of {D} strokes this round.",
+      "entity_note": "belongs to a team (an organization) in a different tournament with its own unstated par, a different kind of owner from the first sentence's other individual golfer, and not the golfer whose strokes-vs-par the question compares"
+    },
+    {
+      "story_id": 15,
+      "distractor_fact": "Farklı bir işletmeye ait servis aracı aynı saatte {D} dakikada durağa ulaştı.",
+      "gloss_en": "A shuttle belonging to a different company reached the stop in {D} minutes at the same time.",
+      "entity_note": "belongs to a different transit company (an organization) with its own unstated schedule, a different kind of owner from the first sentence's bus on a different line (a series), and not the bus whose actual/scheduled time the question compares"
+    },
+    {
+      "story_id": 16,
+      "distractor_fact": "Başka bir şirketin ofisinin bulunduğu kat {D}'dir.",
+      "gloss_en": "A different company's office is located on floor {D}.",
+      "entity_note": "belongs to a company's office (an organization) with its own unstated reference floor, a different kind of owner from the first sentence's other building's apartment (a place), and not the apartment whose level-vs-reference the question compares"
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "language_code": "ro",
+  "refused": [],
+  "items": [
+    {
+      "story_id": 1,
+      "distractor_fact": "Termometrul de acasă al unui locuitor din oraș a indicat {D}°C în aceeași dimineață.",
+      "gloss_en": "A resident's home thermometer in the town showed D°C that same morning.",
+      "entity_note": "A resident's home thermometer, owned by a PERSON, differs in kind from the first sentence's owner (a different weather station, a PLACE)."
+    },
+    {
+      "story_id": 2,
+      "distractor_fact": "Portofoliul personal al unui investitor individual a fost evaluat la {D} $ în aceeași zi.",
+      "gloss_en": "An individual investor's personal portfolio was valued at D $ on the same day.",
+      "entity_note": "An individual investor's personal portfolio, owned by a PERSON, differs from the first sentence's owner (a different company's shares, an ORGANISATION)."
+    },
+    {
+      "story_id": 3,
+      "distractor_fact": "Autoritatea de gospodărire a apelor a semnalat, pentru un alt baraj aflat sub administrarea sa, un nivel de {D} m în aceeași perioadă.",
+      "gloss_en": "The water management authority reported, for another dam under its administration, a level of D m in the same period.",
+      "entity_note": "A water-management authority administering a different dam, an ORGANISATION, differs from the first sentence's owner (a neighboring reservoir, a PLACE)."
+    },
+    {
+      "story_id": 4,
+      "distractor_fact": "Un pilot de parapantă aflat în aceeași zonă survola la o altitudine de {D} m în acel moment.",
+      "gloss_en": "A paraglider pilot in the same area was flying at an altitude of D m at that moment.",
+      "entity_note": "An individual paraglider pilot, a PERSON, differs from the first sentence's owner (a different aircraft, an INSTRUMENT)."
+    },
+    {
+      "story_id": 6,
+      "distractor_fact": "O casă de amanet din același oraș avea în casierie {D} $ în aceeași perioadă.",
+      "gloss_en": "A pawnshop in the same town had D $ in its till during the same period.",
+      "entity_note": "A pawnshop, an ORGANISATION, differs from the first sentence's owner (a different savings account, an INSTRUMENT-like object)."
+    },
+    {
+      "story_id": 7,
+      "distractor_fact": "Un angajat al magazinului avea în portofelul personal {D} $ în acel moment.",
+      "gloss_en": "An employee of the store had D $ in their personal wallet at that moment.",
+      "entity_note": "An employee's personal wallet, owned by a PERSON, differs from the first sentence's owner (a different store's petty cash box, an ORGANISATION)."
+    },
+    {
+      "story_id": 8,
+      "distractor_fact": "Proprietarul afacerii avea, pe cont personal, economii de {D} $ la începutul lunii.",
+      "gloss_en": "The business's owner personally had D $ in savings at the start of the month.",
+      "entity_note": "The owner's personal savings account, a PERSON, differs from the first sentence's owner (a different business, an ORGANISATION)."
+    },
+    {
+      "story_id": 9,
+      "distractor_fact": "Un jucător individual dintr-o altă echipă a marcat, pe cont propriu, un total de {D} în același sezon.",
+      "gloss_en": "An individual player from another team scored, on his own, a total of D in the same season.",
+      "entity_note": "An individual player, a PERSON, differs from the first sentence's owner (a different team in the same championship, an ORGANISATION)."
+    },
+    {
+      "story_id": 10,
+      "distractor_fact": "Un consilier financiar avea, în cont personal, economii de {D} $ în aceeași perioadă.",
+      "gloss_en": "A financial advisor personally held D $ in savings during the same period.",
+      "entity_note": "An individual financial advisor's personal account, a PERSON, differs from the first sentence's owner (a different investment portfolio, an INSTRUMENT-like object)."
+    },
+    {
+      "story_id": 11,
+      "distractor_fact": "Un alt depozit din același oraș a înregistrat un stoc efectiv de {D} kg, față de ținta proprie de stoc, nemenționată aici.",
+      "gloss_en": "A different warehouse in the same town recorded an actual stock of D kg, against its own stock target, not stated here.",
+      "entity_note": "A different warehouse, a PLACE, differs from the first sentence's owner (a different factory, an ORGANISATION); its own unstated target satisfies the shared-reference rule."
+    },
+    {
+      "story_id": 12,
+      "distractor_fact": "Un agent de vânzări independent a realizat, în aceeași lună, vânzări efective de {D} $, față de propriul obiectiv, nemenționat aici.",
+      "gloss_en": "An independent sales agent achieved, in the same month, actual sales of D $, against his own target, not stated here.",
+      "entity_note": "An independent sales agent, a PERSON, differs from the first sentence's owner (a different store in the same chain, an ORGANISATION); own unstated target satisfies the shared-reference rule."
+    },
+    {
+      "story_id": 13,
+      "distractor_fact": "Un fermier din aceeași regiune a măsurat, cu propriul instrument, {D} mm de precipitații efective în aceeași lună, față de prognoza proprie pentru terenul său, nemenționată aici.",
+      "gloss_en": "A farmer in the same region measured, with his own instrument, D mm of actual rainfall in the same month, against his own forecast for his land, not stated here.",
+      "entity_note": "An individual farmer, a PERSON, differs from the first sentence's owner (a different weather station in a different locality, a PLACE); own unstated forecast satisfies the shared-reference rule."
+    },
+    {
+      "story_id": 14,
+      "distractor_fact": "Un club de golf diferit a organizat un turneu în care scorul câștigător a fost de {D}, față de parul propriu al terenului acelui club, nemenționat aici.",
+      "gloss_en": "A different golf club organized a tournament in which the winning score was D, against that club's own course par, not stated here.",
+      "entity_note": "A different golf club, an ORGANISATION, differs from the first sentence's owner (a different player, a PERSON); the club's own unstated par satisfies the shared-reference rule."
+    },
+    {
+      "story_id": 15,
+      "distractor_fact": "Un simulator de golf dintr-o sală de sport a înregistrat un scor de {D} pentru o rundă virtuală, față de parul propriu setat pentru acel parcurs virtual, nemenționat aici.",
+      "gloss_en": "A golf simulator in a gym recorded a score of D for a virtual round, against the simulator's own par set for that virtual course, not stated here.",
+      "entity_note": "A golf simulator, an INSTRUMENT, differs from the first sentence's owner (a different player, a PERSON); its own unstated virtual-course par satisfies the shared-reference rule."
+    },
+    {
+      "story_id": 17,
+      "distractor_fact": "Un jucător individual, dintr-un alt meci al aceleiași etape, a marcat pe cont propriu un total de {D}.",
+      "gloss_en": "An individual player, from another match in the same round, scored on his own a total of D.",
+      "entity_note": "An individual player, a PERSON, differs from the first sentence's owner (a third team in a different match, an ORGANISATION)."
+    },
+    {
+      "story_id": 19,
+      "distractor_fact": "O altă clasă, la un test diferit, a obținut o medie de {D}.",
+      "gloss_en": "A different class, on a different test, achieved an average of D.",
+      "entity_note": "A class treated as a collective group, an ORGANISATION, differs from the first sentence's owner (a third student, a PERSON)."
+    },
+    {
+      "story_id": 20,
+      "distractor_fact": "O anumită universitate are o populație de {D}.",
+      "gloss_en": "A certain university has a population of D.",
+      "entity_note": "A university, an ORGANISATION, differs from the first sentence's owner (a different city in another region, a PLACE)."
+    }
+  ]
+}

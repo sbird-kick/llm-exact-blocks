@@ -1,0 +1,48 @@
+{
+  "language_code": "bo",
+  "refused": [],
+  "items": [
+    {
+      "story_id": 1,
+      "distractor_fact": "ཚོད་འཇལ་ཆས་གཞན་ཞིག་གིས་དུས་ཚོད་དེར་དྲོད་ཚད་ {D}°C ཞེས་བཀོད་ཡོད།",
+      "gloss_en": "A different measuring instrument recorded a reading of {D}°C at that same time.",
+      "entity_note": "Owner is a measuring instrument, not a place like the first sentence's neighboring town."
+    },
+    {
+      "story_id": 2,
+      "distractor_fact": "མི་སྒེར་ཞིག་གི་ཉར་ཚགས་རིན་ཐང་ནི་དུས་ཚོད་དེར་ ${D} ཡིན།",
+      "gloss_en": "A private individual's personal holding at that time was valued at ${D}.",
+      "entity_note": "Owner is a private person, not an organisation like the first sentence's another company."
+    },
+    {
+      "story_id": 3,
+      "distractor_fact": "ཉེ་འཁོར་གྱི་ཉ་པ་ཞིག་གི་རང་གི་ཚད་རྟགས་ཀྱི་ཆུའི་མཐོ་ཚད་ནི་ཟླ་བ་འདིར་ {D}m ཡིན།",
+      "gloss_en": "A nearby fisherman's own marker showed the water level this month at {D} m.",
+      "entity_note": "Owner is a person's own marker, not a place like the first sentence's different reservoir."
+    },
+    {
+      "story_id": 4,
+      "distractor_fact": "ཉེ་འཁོར་གྱི་རི་བོའི་མཐོ་ཚད་རྟགས་ནི་ {D}m ཡིན།",
+      "gloss_en": "The nearby hill's elevation marker read {D} m.",
+      "entity_note": "Owner is a fixed landmark (a place), not an instrument like the first sentence's different drone."
+    },
+    {
+      "story_id": 5,
+      "distractor_fact": "འགྲེམ་སྤེལ་བ་དེའི་རང་གི་ཐོ་ཤོག་གི་ལྗིད་ཚད་ནི་ {D}kg ཡིན།",
+      "gloss_en": "The courier's own bag had a weight of {D} kg.",
+      "entity_note": "Owner is a person (the courier), not an object like the first sentence's different package."
+    },
+    {
+      "story_id": 6,
+      "distractor_fact": "འགྲུལ་འཁོར་གཞན་ཞིག་སྐྱོང་མཁན་གྱི་མགྱོགས་ཚད་ནི་དུས་ཚོད་དེར་ {D}km/h ཡིན།",
+      "gloss_en": "Another driver operating a different vehicle was going at {D} km/h at that time.",
+      "entity_note": "Owner is a person (the driver), not an instrument like the first sentence's different engine."
+    },
+    {
+      "story_id": 7,
+      "distractor_fact": "རྩེད་མོའི་ཚོགས་པ་གཞན་ཞིག་གི་སྐོར་གྲངས་ནི་སྔོན་གྱི་ལོའི་འགྲན་བསྡུར་སྐབས་ {D}pts ཡིན།",
+      "gloss_en": "A different team's score in last year's competition was {D} pts.",
+      "entity_note": "Owner is a team (an organisation), not a person like the first sentence's different player."
+    }
+  ]
+}

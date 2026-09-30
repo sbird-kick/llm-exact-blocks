@@ -1,0 +1,42 @@
+{
+ "language_code": "sw",
+ "refused": [],
+ "items": [
+  {
+   "story_id": 6,
+   "distractor_fact": "Duka jingine liliweka akiba ya euro {D} kwenye akaunti yake tofauti wiki hiyo hiyo.",
+   "gloss_en": "A different shop deposited savings of {D} euros into its own separate account that same week.",
+   "entity_note": "a shop's own deposit (an organisation), not a fellow trader (a person) as in the first distractor, and not the trader/account whose balance is asked about"
+  },
+  {
+   "story_id": 9,
+   "distractor_fact": "Mchezaji mmoja kutoka klabu nyingine alifunga mabao {D} msimu huo.",
+   "gloss_en": "A player from a different club scored {D} goals that same season.",
+   "entity_note": "one player's own tally (a person), not another team in the league (an organisation) as in the first distractor, and not the team whose scored/conceded goals are compared"
+  },
+  {
+   "story_id": 10,
+   "distractor_fact": "Kampuni jirani ya uwekezaji iliripoti faida ya dola {D} msimu uliopita.",
+   "gloss_en": "A neighbouring investment company reported a gain of {D} dollars last season.",
+   "entity_note": "a company's own report (an organisation), not a fellow investor (a person) as in the first distractor, and not this investor's gain/loss for this year"
+  },
+  {
+   "story_id": 14,
+   "distractor_fact": "Katika mashindano mengine yaliyofanyika siku hiyo hiyo, mshiriki mmoja alipata mapigo {D} kwenye uwanja wenye par yake mwenyewe.",
+   "gloss_en": "In a different tournament held that same day, one competitor scored {D} strokes on a course with its own separate par.",
+   "entity_note": "a separate tournament's own round (a series/event), not another player (a person) as in the first distractor, and the course's par there is its own, not the stated par S"
+  },
+  {
+   "story_id": 17,
+   "distractor_fact": "Uwanja mwingine katika jiji hilo ulirekodi mabao {D} katika mechi nyingine wikendi hiyo.",
+   "gloss_en": "A different stadium in that city recorded {D} goals in a different match that same weekend.",
+   "entity_note": "a stadium's own record (a place), not Timu C (an organisation) as in the first distractor, and not Timu A or Timu B whose goals are compared"
+  },
+  {
+   "story_id": 20,
+   "distractor_fact": "Chuo kingine kilirekodi wastani wa alama {D} kwenye mtihani wake wenyewe wiki hiyo.",
+   "gloss_en": "A different school recorded an average of {D} marks on its own exam that same week.",
+   "entity_note": "a school's own record (an organisation), not another student (a person) as in the first distractor, and not Neema or Zawadi whose marks are compared"
+  }
+ ]
+}

@@ -1,0 +1,108 @@
+{
+  "language_code": "my",
+  "refused": [],
+  "items": [
+    {
+      "story_id": 1,
+      "distractor_fact": "အနီးရှိ ရွာတစ်ရွာ၏ အပူချိန်တိုင်းကိရိယာသည် ထိုမနက်ခင်းတွင်ပင် {D} ဒီဂရီစင်တီဂရိတ် ပြသည်။",
+      "gloss_en": "The nearby village's own temperature gauge showed {D} degrees Celsius that same morning.",
+      "entity_note": "a different village's own gauge, not the city's evening/morning thermometer the question compares"
+    },
+    {
+      "story_id": 2,
+      "distractor_fact": "အလားတူနေ့တွင် အခြားရှယ်ယာတစ်ခု၏ စျေးနှုန်းသည် {D} ဒေါ်လာ ရှိသည်။",
+      "gloss_en": "On that same day, a different stock's price was {D} dollars.",
+      "entity_note": "a different stock, not the one whose open/close price is being compared"
+    },
+    {
+      "story_id": 3,
+      "distractor_fact": "အနီးရှိ ရေကန်တစ်ခု၏ ရေအမြင့်သည် ထိုအချိန်ကာလတွင်ပင် {D} မီတာ ရှိသည်။",
+      "gloss_en": "A nearby reservoir's own water level during that same period was {D} meters.",
+      "entity_note": "a different reservoir, not the one whose before/after water level is compared"
+    },
+    {
+      "story_id": 4,
+      "distractor_fact": "အခြားလူတစ်ဦး၏ အလေးချိန်သည် ထိုအချိန်ကာလအတွင်းပင် {D} ကီလိုဂရမ် ရှိသည်။",
+      "gloss_en": "A different person's weight during that same period was {D} kilograms.",
+      "entity_note": "a different person, not the one whose before/after diet weight is compared"
+    },
+    {
+      "story_id": 5,
+      "distractor_fact": "အခြားဘဏ်စာရင်းတစ်ခုသို့ ထိုလအတွင်းပင် ငွေသွင်းသည့်ပမာဏသည် {D} ဒေါ်လာ ရှိသည်။",
+      "gloss_en": "A different bank account had its own deposit of {D} dollars that same month.",
+      "entity_note": "a different bank account, not the one whose deposits/withdrawals set this month's balance change"
+    },
+    {
+      "story_id": 6,
+      "distractor_fact": "အခြားကလေးတစ်ဦး လက်ဝယ်ရှိ ငွေပမာဏသည် {D} ဒေါ်လာ ရှိသည်။",
+      "gloss_en": "A different child's money on hand was {D} dollars.",
+      "entity_note": "a different child, not the one whose money-on-hand and spending set the balance"
+    },
+    {
+      "story_id": 7,
+      "distractor_fact": "အနီးရှိ အခြားစတိုးဆိုင်တစ်ဆိုင် လက်ဝယ်ရှိ ငွေသားပမာဏသည် {D} ဒေါ်လာ ရှိသည်။",
+      "gloss_en": "A different nearby shop's cash on hand was {D} dollars.",
+      "entity_note": "a different shop, not the one whose cash-on-hand and spending set its balance"
+    },
+    {
+      "story_id": 8,
+      "distractor_fact": "အိမ်နီးချင်း မိသားစုတစ်စု၏ လစဉ်ဝင်ငွေသည် {D} ဒေါ်လာ ရှိသည်။",
+      "gloss_en": "A neighboring family's monthly income was {D} dollars.",
+      "entity_note": "a different family, not the one whose income/expenses give the net result"
+    },
+    {
+      "story_id": 9,
+      "distractor_fact": "အခြားအသင်းတစ်သင်း၏ ထိုရာသီအတွက် သွင်းယူနိုင်ခဲ့သည့် ဂိုးအရေအတွက်သည် {D} ဂိုး ရှိသည်။",
+      "gloss_en": "A different team's goals scored that season was {D} goals.",
+      "entity_note": "a different team, not the one whose scored/conceded goals give the goal difference"
+    },
+    {
+      "story_id": 10,
+      "distractor_fact": "အခြားရင်းနှီးမြှုပ်နှံသူတစ်ဦး၏ ထိုနှစ်အတွက် အမြတ်ငွေသည် {D} ဒေါ်လာ ရှိသည်။",
+      "gloss_en": "A different investor's gains that year were {D} dollars.",
+      "entity_note": "a different investor, not the one whose gains/losses give the net result"
+    },
+    {
+      "story_id": 14,
+      "distractor_fact": "အခြားလိုင်းပေါ်ရှိ မီးရထားတစ်စင်း ရောက်ရှိချိန်ကို မိနစ်ပြပါက {D} ဖြစ်ပြီး၊ ၎င်းသည် မိမိကိုယ်ပိုင် အချိန်ဇယားနှင့်သာ သက်ဆိုင်သည်။",
+      "gloss_en": "A train on a different line arrived at minute {D} on its own separate schedule, which does not apply here.",
+      "entity_note": "a different train on a different line, whose own schedule is unstated and not the one the question compares against"
+    },
+    {
+      "story_id": 15,
+      "distractor_fact": "အခြားခရီးစဉ်ပေါ်ရှိ လေယာဉ်တစ်စင်း ဆိုက်ရောက်ချိန်ကို မိနစ်ပြပါက {D} ဖြစ်ပြီး၊ ၎င်းသည် မိမိကိုယ်ပိုင် အချိန်ဇယားနှင့်သာ သက်ဆိုင်သည်။",
+      "gloss_en": "A flight on a different route arrived at minute {D} on its own separate schedule, which does not apply here.",
+      "entity_note": "a different flight on a different route, whose own schedule is unstated and not the one the question compares against"
+    },
+    {
+      "story_id": 16,
+      "distractor_fact": "အခြားအဆောက်အအုံတစ်ခုတွင် စာအုပ်ဆိုင်တည်ရှိသည့် အထပ်နံပါတ်သည် {D} ဖြစ်ပြီး၊ ၎င်းသည် မိမိကိုယ်ပိုင် မြေညီထပ်ကိုသာ အခြေခံသည်။",
+      "gloss_en": "In a different building, the floor number where a bookshop is located is {D}, based on that building's own separate ground floor.",
+      "entity_note": "a different building whose own ground-floor reference is unstated and not the one the question compares against"
+    },
+    {
+      "story_id": 17,
+      "distractor_fact": "အခြားပြိုင်ပွဲတစ်ခုတွင် ကစားခဲ့သည့်အသင်းတစ်သင်း၏ သွင်းယူနိုင်ခဲ့သည့် ဂိုးအရေအတွက်သည် {D} ဂိုး ရှိသည်။",
+      "gloss_en": "In a different match, a team that played there scored {D} goals.",
+      "entity_note": "a team in a different match, not team X or team Y whose goal difference is asked about"
+    },
+    {
+      "story_id": 18,
+      "distractor_fact": "အခြားစာမေးပွဲတစ်ခုတွင် ကျောင်းသားတစ်ဦး၏ ရမှတ်သည် {D} မှတ် ရှိသည်။",
+      "gloss_en": "On a different exam, a student's score was {D} points.",
+      "entity_note": "a student on a different exam, not student X or student Y whose score margin is asked about"
+    },
+    {
+      "story_id": 19,
+      "distractor_fact": "အခြားကုမ္ပဏီတစ်ခု၏ ဤနှစ်အတွက် ဝင်ငွေသည် {D} ဒေါ်လာ ရှိသည်။",
+      "gloss_en": "A different company's revenue this year was {D} dollars.",
+      "entity_note": "a company other than company X or company Y, whose revenue difference is asked about"
+    },
+    {
+      "story_id": 20,
+      "distractor_fact": "အခြားပြေးပွဲတစ်ခုတွင် ပြေးသမားတစ်ဦး အပြီးသတ်ချိန်သည် စက္ကန့်ပြပါက {D} ဖြစ်သည်။",
+      "gloss_en": "In a different race, a runner's finishing time in seconds was {D}.",
+      "entity_note": "a runner in a different race, not runner X or runner Y whose time margin is asked about"
+    }
+  ]
+}

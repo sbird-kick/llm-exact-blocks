@@ -1,0 +1,84 @@
+{
+  "language_code": "uz",
+  "refused": [],
+  "items": [
+    {
+      "story_id": 1,
+      "distractor_fact": "Uy termometri o'sha payt {D}°C haroratni ko'rsatdi.",
+      "gloss_en": "A household thermometer showed a temperature of {D}°C at that moment.",
+      "entity_note": "belongs to a different measuring instrument (a household thermometer), not a place-based station in a neighboring district as in the first sentence"
+    },
+    {
+      "story_id": 2,
+      "distractor_fact": "Savdo panelidagi indeks shartnomasi o'sha kuni {D} dollardan yopildi.",
+      "gloss_en": "An index contract on the trading panel closed that day at {D} dollars.",
+      "entity_note": "belongs to a different financial instrument (an index contract), not another company's stock as in the first sentence"
+    },
+    {
+      "story_id": 3,
+      "distractor_fact": "Portdagi suv o'lchagich asbobi o'sha kuni sathni {D} santimetr deb ko'rsatdi.",
+      "gloss_en": "The water-gauge instrument at the port that day showed the level as {D} centimetres.",
+      "entity_note": "belongs to a different measuring instrument (a port's water gauge), not a neighboring lake as in the first sentence"
+    },
+    {
+      "story_id": 4,
+      "distractor_fact": "Yaqin atrofdagi radiolokatsiya minorasi {D} metr balandlikda joylashgan.",
+      "gloss_en": "A nearby radar tower is located at an altitude of {D} metres.",
+      "entity_note": "belongs to a fixed instrument/structure (a nearby radar tower), not another aircraft as in the first sentence"
+    },
+    {
+      "story_id": 5,
+      "distractor_fact": "Dorixonadan yuborilgan yetkazib berish posilkasi {D} kilogramm tortdi.",
+      "gloss_en": "A delivery package sent from the pharmacy weighed {D} kilograms.",
+      "entity_note": "belongs to an inanimate object (a delivery package), not another patient as in the first sentence"
+    },
+    {
+      "story_id": 6,
+      "distractor_fact": "Mahalliy fabrikada {D} kishi ishlaydi.",
+      "gloss_en": "A local factory employs {D} people.",
+      "entity_note": "belongs to an organisation (a local factory), not a neighboring village as in the first sentence"
+    },
+    {
+      "story_id": 7,
+      "distractor_fact": "Yo'l xavfsizligi xizmati bu yo'lda tezlik chegarasini {D} km/soat deb belgiladi.",
+      "gloss_en": "The road safety service set the speed limit on this road at {D} km/h.",
+      "entity_note": "belongs to an organisation (the road safety service's posted limit), not another car as in the first sentence"
+    },
+    {
+      "story_id": 8,
+      "distractor_fact": "Boshqa filialdagi zaxira mablag' {D} dollarni tashkil etdi.",
+      "gloss_en": "The reserve fund at a different branch came to {D} dollars.",
+      "entity_note": "belongs to an organisation (a different bank branch's reserve fund), not another customer as in the first sentence"
+    },
+    {
+      "story_id": 9,
+      "distractor_fact": "Do'kon egasining shu oydagi shaxsiy xarajati {D} dollarni tashkil etdi.",
+      "gloss_en": "The shop owner's personal expense that month came to {D} dollars.",
+      "entity_note": "belongs to a person (the shop owner's personal expense), not another department as in the first sentence"
+    },
+    {
+      "story_id": 10,
+      "distractor_fact": "Terma jamoaning bir futbolchisi boshqa bir uchrashuvda {D} ta gol urdi.",
+      "gloss_en": "A player of the national team scored {D} goals in a different match.",
+      "entity_note": "belongs to a person (an individual footballer's tally in a different match), not another team as in the first sentence"
+    },
+    {
+      "story_id": 13,
+      "distractor_fact": "Golf simulyatorida o'ynagan foydalanuvchi shu kuni {D} ta zarba bilan yakunladi.",
+      "gloss_en": "A user playing on a golf simulator finished that day with {D} strokes.",
+      "entity_note": "belongs to a different instrument (a golf simulator, whose own par is not stated), not a different golfer on a different real course as in the first sentence"
+    },
+    {
+      "story_id": 14,
+      "distractor_fact": "Nazoratchi xodim o'z ish smenasini shu kuni yarim tundan keyingi {D}-daqiqada boshlagan edi.",
+      "gloss_en": "A supervising staff member started their shift that day at minute {D} after midnight.",
+      "entity_note": "belongs to a person (a staff member's shift start, unrelated to any train timetable), not another train on a different route as in the first sentence"
+    },
+    {
+      "story_id": 17,
+      "distractor_fact": "Ikkinchi devizionda o'ynagan bir futbolchi shu kuni {D} ta gol urdi.",
+      "gloss_en": "A footballer playing in the second division scored {D} goals that day.",
+      "entity_note": "belongs to a person (an individual player in a different division), not a third team in a different match as in the first sentence"
+    }
+  ]
+}

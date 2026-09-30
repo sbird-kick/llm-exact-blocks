@@ -1,0 +1,120 @@
+{
+  "language_code": "pt",
+  "refused": [],
+  "items": [
+    {
+      "story_id": 1,
+      "distractor_fact": "Um colega mediu, no seu próprio termómetro, {D}°C nessa mesma manhã.",
+      "gloss_en": "A colleague measured {D}°C on his own thermometer that same morning.",
+      "entity_note": "A colleague (a person with his own instrument), not the neighboring village (a place) as in the first distractor; not the thermometer in Vale Novo whose evening/morning readings the question compares."
+    },
+    {
+      "story_id": 2,
+      "distractor_fact": "Nesse mesmo dia, um fundo de investimento do setor fechou a {D}€.",
+      "gloss_en": "That same day, an investment fund in the sector closed at {D}€.",
+      "entity_note": "An investment fund (a financial instrument), not another company (an organization) as in the first distractor; not the Cedro share whose opening/closing value the question compares."
+    },
+    {
+      "story_id": 3,
+      "distractor_fact": "Nesse mesmo dia, uma boia de medição instalada a montante marcava {D} m.",
+      "gloss_en": "That same day, a measuring buoy installed upstream read {D} m.",
+      "entity_note": "A measuring buoy (an instrument), not the neighboring reservoir (a place) as in the first distractor; not the Serrano reservoir whose start/end-of-day levels the question compares."
+    },
+    {
+      "story_id": 4,
+      "distractor_fact": "Nesse mesmo momento, a pilota Beatriz estava a uma altitude de {D} m.",
+      "gloss_en": "At that same moment, pilot Beatriz was at an altitude of {D} m.",
+      "entity_note": "Pilot Beatriz (a named person), not another balloon (an instrument) as in the first distractor; not Marcos, whose takeoff/landing altitude the question compares."
+    },
+    {
+      "story_id": 5,
+      "distractor_fact": "Nesse mesmo mês, um colega de trabalho de Inês gastou {D}€ da sua própria poupança.",
+      "gloss_en": "That same month, a coworker of Inês spent {D}€ from his own savings.",
+      "entity_note": "A coworker of Inês (a person), not another account at the same bank (an instrument) as in the first distractor; not Inês's account, whose total and spending the question compares."
+    },
+    {
+      "story_id": 6,
+      "distractor_fact": "Nessa mesma semana, um funcionário da loja de Bento teve levantamentos de {D}€ no seu cofre pessoal.",
+      "gloss_en": "That same week, an employee of Bento's shop had withdrawals of {D}€ from his personal safe.",
+      "entity_note": "An employee's personal safe (a person), not another shop in the same chain (an organization) as in the first distractor; not Bento's shop safe, whose deposits and withdrawals the question compares."
+    },
+    {
+      "story_id": 7,
+      "distractor_fact": "Nesse mesmo mês, um mecânico independente teve despesas de {D}€ no seu próprio negócio.",
+      "gloss_en": "That same month, an independent mechanic had expenses of {D}€ in his own business.",
+      "entity_note": "An independent mechanic (a person), not a competing workshop (an organization) as in the first distractor; not Teresa's workshop, whose revenue and expenses the question compares."
+    },
+    {
+      "story_id": 8,
+      "distractor_fact": "Nessa mesma temporada, mas na copa nacional, o adversário da fase final marcou {D} pts.",
+      "gloss_en": "That same season, but in the national cup, the final-stage opponent scored {D} pts.",
+      "entity_note": "The final-stage opponent in a different competition (the national cup), not another team in the same league (an organization) as in the first distractor; not the Falcões, whose points scored and conceded the question compares."
+    },
+    {
+      "story_id": 9,
+      "distractor_fact": "Nessa mesma semana, uma máquina de fiação alugada por outra empresa produziu {D} kg de fio.",
+      "gloss_en": "That same week, a spinning machine rented by another company produced {D} kg of yarn.",
+      "entity_note": "A rented spinning machine (an instrument), not another factory in the group (an organization) as in the first distractor; its own target is left unstated, so it cannot be paired into a second subtraction, and it is not the Ourém factory the question compares to its target."
+    },
+    {
+      "story_id": 10,
+      "distractor_fact": "Nesse mesmo mês, uma estação meteorológica privada instalada noutra zona registou {D} mm de chuva.",
+      "gloss_en": "That same month, a private weather station installed in another area recorded {D} mm of rain.",
+      "entity_note": "A private weather station (an instrument), not a neighboring region (a place) as in the first distractor; its own forecast is left unstated, so it cannot be paired into a second subtraction, and it is not Ribeira Alta, whose rainfall and forecast the question compares."
+    },
+    {
+      "story_id": 11,
+      "distractor_fact": "Nesse mesmo fim de semana, numa competição por equipas, a equipa visitante somou {D} pts.",
+      "gloss_en": "That same weekend, in a team competition, the visiting team totaled {D} pts.",
+      "entity_note": "A visiting team in a different, team-based competition (an organization), not a different individual golfer on a different course (a person) as in the first distractor; no par is stated for it, so it cannot be paired into a second subtraction, and it is not Duarte, whose score and the course's par the question compares."
+    },
+    {
+      "story_id": 12,
+      "distractor_fact": "Nessa mesma manhã, a operadora rodoviária da cidade registou a chegada de um dos seus autocarros às {D} min contados desde a meia-noite.",
+      "gloss_en": "That same morning, the city's bus operator recorded the arrival of one of its buses at {D} minutes counted from midnight.",
+      "entity_note": "The city's bus operator and one of its buses (an organization), not a train on a different line (an instrument) as in the first distractor; no timetable is stated for it, so it cannot be paired into a second subtraction, and it is not Marco's train, whose arrival and schedule the question compares."
+    },
+    {
+      "story_id": 13,
+      "distractor_fact": "Um amigo de Sara vive, noutro prédio da cidade, no piso número {D}.",
+      "gloss_en": "A friend of Sara lives, in a different building in the city, on floor number {D}.",
+      "entity_note": "A friend of Sara (a person), not an unnamed resident of the neighboring building (a place) as in the first distractor; no ground-floor reference is stated for that building, so it cannot be paired into a second subtraction, and it is not Sara's apartment, whose floor and the ground-floor reference the question compares."
+    },
+    {
+      "story_id": 14,
+      "distractor_fact": "Nesse mesmo dia, a empresa responsável por outra barragem da região reportou uma leitura de {D}%.",
+      "gloss_en": "That same day, the company responsible for another dam in the region reported a reading of {D}%.",
+      "entity_note": "The company responsible for a different dam (an organization), not a sensor at another dam (an instrument) as in the first distractor; no reference level is stated for it, so it cannot be paired into a second subtraction, and it is not the Codal dam, whose reading and reference level the question compares."
+    },
+    {
+      "story_id": 15,
+      "distractor_fact": "Nesse mesmo mês, um abrigo de animais da cidade tinha um cão que pesava {D} kg.",
+      "gloss_en": "That same month, a city animal shelter had a dog that weighed {D} kg.",
+      "entity_note": "A city animal shelter (an organization), not another client of the clinic (a person) as in the first distractor; not Helena's dog, whose weight before and after treatment the question compares."
+    },
+    {
+      "story_id": 16,
+      "distractor_fact": "Nesse mesmo dia, uma empresa de transportes registou um dos seus camiões a {D} km/h num controlo interno de velocidade.",
+      "gloss_en": "That same day, a transport company recorded one of its trucks at {D} km/h in an internal speed check.",
+      "entity_note": "A transport company and its own truck (an organization), not another car at a third radar (an instrument/place) as in the first distractor; not Nuno's car, whose speed at the two radars the question compares."
+    },
+    {
+      "story_id": 18,
+      "distractor_fact": "Nessa mesma subida, mas numa trilha vizinha, o ponto mais alto ficava a uma altitude de {D} m.",
+      "gloss_en": "On that same climb, but on a neighboring trail, the highest point was at an altitude of {D} m.",
+      "entity_note": "The highest point of a neighboring trail (a place), not a third hiker in the same group (a person) as in the first distractor; not Rui or Filipa, whose altitudes the question compares."
+    },
+    {
+      "story_id": 19,
+      "distractor_fact": "Nesse mesmo trimestre, um investidor independente do setor registou um lucro de {D}€ nos seus próprios negócios.",
+      "gloss_en": "That same quarter, an independent investor in the sector recorded a profit of {D}€ in his own ventures.",
+      "entity_note": "An independent investor (a person), not a third company in the sector (an organization) as in the first distractor; not Girassol or Bétula, whose profits the question compares."
+    },
+    {
+      "story_id": 20,
+      "distractor_fact": "Na edição do ano anterior desta maratona, o vencedor da categoria fez um tempo de {D} min.",
+      "gloss_en": "In the previous year's edition of this marathon, the category winner ran a time of {D} min.",
+      "entity_note": "The winner of a different edition of the race (a different series/year), not a third runner in the same race (a person) as in the first distractor; not Alberto or Bruno, whose times in this marathon the question compares."
+    }
+  ]
+}

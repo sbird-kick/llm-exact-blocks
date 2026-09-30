@@ -1,0 +1,90 @@
+{
+  "language_code": "de",
+  "refused": [],
+  "items": [
+    {
+      "story_id": 1,
+      "distractor_fact": "Das Thermometer im Nachbarort zeigte am selben Nachmittag {D} Grad Celsius an.",
+      "gloss_en": "The thermometer in the neighboring village showed {D} degrees Celsius that same afternoon.",
+      "entity_note": "A thermometer in a different village, not the one whose noon/morning readings the question compares."
+    },
+    {
+      "story_id": 2,
+      "distractor_fact": "Die Aktie eines anderen Unternehmens schloss am selben Tag bei {D} Euro.",
+      "gloss_en": "The stock of a different company closed that same day at {D} euros.",
+      "entity_note": "A different company's stock price, not the one whose opening/closing prices the question compares."
+    },
+    {
+      "story_id": 3,
+      "distractor_fact": "Der Pegel eines anderen Flusses stand am selben Abend bei {D} Zentimetern.",
+      "gloss_en": "The level of a different river stood that same evening at {D} centimeters.",
+      "entity_note": "A different river's water level, not the one whose evening/morning readings the question compares."
+    },
+    {
+      "story_id": 5,
+      "distractor_fact": "Auf einem anderen Konto wurden {D} Euro eingezahlt.",
+      "gloss_en": "Into a different account, {D} euros were deposited.",
+      "entity_note": "A deposit into a different account, not the one whose deposit/withdrawal the question compares."
+    },
+    {
+      "story_id": 7,
+      "distractor_fact": "Ein anderer Haushalt hatte im selben Monat Ausgaben von {D} Euro.",
+      "gloss_en": "A different household had expenses of {D} euros that same month.",
+      "entity_note": "A different household's expenses, not the one whose income/expenses the question compares."
+    },
+    {
+      "story_id": 8,
+      "distractor_fact": "Eine andere Mannschaft erzielte in der Saison {D} Tore.",
+      "gloss_en": "A different team scored {D} goals in the season.",
+      "entity_note": "A different team's goals scored, not the one whose scored/conceded goals the question compares."
+    },
+    {
+      "story_id": 9,
+      "distractor_fact": "Ein anderer Anleger verzeichnete im selben Jahr Gewinne von {D} Euro.",
+      "gloss_en": "A different investor recorded gains of {D} euros that same year.",
+      "entity_note": "A different investor's gains, not the one whose gains/losses the question compares."
+    },
+    {
+      "story_id": 10,
+      "distractor_fact": "Eine andere Fabrik produzierte im selben Monat {D} Stück.",
+      "gloss_en": "A different factory produced {D} units that same month.",
+      "entity_note": "A different factory's actual output, with its own unstated plan, not the factory whose actual/planned output the question compares."
+    },
+    {
+      "story_id": 11,
+      "distractor_fact": "In einer anderen Region fielen im selben Monat {D} Millimeter Niederschlag.",
+      "gloss_en": "In a different region, {D} millimeters of rain fell that same month.",
+      "entity_note": "A different region's actual rainfall, with its own unstated forecast, not the region whose actual/forecast rainfall the question compares."
+    },
+    {
+      "story_id": 12,
+      "distractor_fact": "Ein anderer Golfer benötigte an einem anderen Loch {D} Schläge.",
+      "gloss_en": "A different golfer needed {D} strokes on a different hole.",
+      "entity_note": "A different golfer on a different hole, whose par is not stated, not the golfer/hole the question compares."
+    },
+    {
+      "story_id": 13,
+      "distractor_fact": "Ein anderer Golfer beendete eine andere Runde mit {D} Schlägen.",
+      "gloss_en": "A different golfer finished a different round with {D} strokes.",
+      "entity_note": "A different golfer's different round, whose par is not stated, not the golfer/round the question compares."
+    },
+    {
+      "story_id": 14,
+      "distractor_fact": "Ein anderer Zug erreichte auf einer anderen Strecke den Bahnhof {D} Minuten nach Mitternacht.",
+      "gloss_en": "A different train, on a different line, reached the station {D} minutes after midnight.",
+      "entity_note": "A different train on a different line, whose schedule is not stated, not the train whose actual/scheduled arrival the question compares."
+    },
+    {
+      "story_id": 15,
+      "distractor_fact": "Ein anderer Flug landete auf einer anderen Strecke {D} Minuten nach Mitternacht.",
+      "gloss_en": "A different flight, on a different route, landed {D} minutes after midnight.",
+      "entity_note": "A different flight on a different route, whose schedule is not stated, not the flight whose actual/scheduled landing the question compares."
+    },
+    {
+      "story_id": 16,
+      "distractor_fact": "Ein anderer Pegelsensor an einer anderen Messstelle zeigte einen Wasserstand von {D} Zentimetern an.",
+      "gloss_en": "A different water-level sensor, at a different measuring site, showed a water level of {D} centimeters.",
+      "entity_note": "A different sensor at a different site, whose own reference line is not stated, not the sensor whose level/reference the question compares."
+    }
+  ]
+}

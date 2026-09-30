@@ -1,0 +1,72 @@
+{
+ "language_code": "mr",
+ "refused": [],
+ "items": [
+  {
+   "story_id": 1,
+   "distractor_fact": "शेजारच्या शहरात त्याच सकाळी तापमान {D}°C नोंदवले गेले.",
+   "gloss_en": "In the neighboring city, that same morning the temperature was recorded as {D} °C.",
+   "entity_note": "a different city's temperature reading, not the city in the story"
+  },
+  {
+   "story_id": 2,
+   "distractor_fact": "याच दिवशी दुसऱ्या कंपनीचा समारोपाचा भाव €{D} होता.",
+   "gloss_en": "On the same day, another company's closing share price was €{D}.",
+   "entity_note": "a different company's share price"
+  },
+  {
+   "story_id": 3,
+   "distractor_fact": "जवळच्या दुसऱ्या तळ्याची पाण्याची पातळी त्याच दिवशी {D} m होती.",
+   "gloss_en": "A nearby, different lake's water level on that same day was {D} m.",
+   "entity_note": "a different lake's water level"
+  },
+  {
+   "story_id": 4,
+   "distractor_fact": "त्याच बँकेतील दुसऱ्या खात्यात या महिन्यात €{D} जमा करण्यात आले.",
+   "gloss_en": "In a different account at the same bank, €{D} was deposited this month.",
+   "entity_note": "a different savings account's deposit"
+  },
+  {
+   "story_id": 5,
+   "distractor_fact": "दुसऱ्या गिफ्ट कार्डावर सुरुवातीला €{D} होते.",
+   "gloss_en": "A different gift card had €{D} on it at the start.",
+   "entity_note": "a different gift card's starting balance"
+  },
+  {
+   "story_id": 6,
+   "distractor_fact": "दुसऱ्या मोबाइल डेटा योजनेत महिन्याच्या सुरुवातीला {D} GB होते.",
+   "gloss_en": "A different mobile data plan had {D} GB at the start of the month.",
+   "entity_note": "a different data plan's starting allowance"
+  },
+  {
+   "story_id": 7,
+   "distractor_fact": "शेजारच्या कुटुंबाचे या महिन्याचे उत्पन्न €{D} होते.",
+   "gloss_en": "A neighboring household's income for the month was €{D}.",
+   "entity_note": "a different household's income"
+  },
+  {
+   "story_id": 8,
+   "distractor_fact": "त्याच लीगमधील दुसऱ्या संघाने त्याच हंगामात {D} गोल केले.",
+   "gloss_en": "A different team in the same league scored {D} goals that same season.",
+   "entity_note": "a different football team's goals scored"
+  },
+  {
+   "story_id": 9,
+   "distractor_fact": "दुसऱ्या लहान व्यवसायाने त्याच तिमाहीत €{D} नफा नोंदवला.",
+   "gloss_en": "A different small business recorded €{D} in profit that same quarter.",
+   "entity_note": "a different business's profit"
+  },
+  {
+   "story_id": 15,
+   "distractor_fact": "दुसऱ्या मार्गावरील एका ट्रेनचे प्रत्यक्ष आगमन वेळेचे रीडिंग {D} min होते.",
+   "gloss_en": "A train on a different route had an actual arrival time reading of {D} min.",
+   "entity_note": "a different train on a different route, with its own unstated schedule"
+  },
+  {
+   "story_id": 16,
+   "distractor_fact": "दुसऱ्या इमारतीच्या लिफ्ट पॅनलवर दाखवलेले मजला रीडिंग {D} होते.",
+   "gloss_en": "A different building's lift panel showed a floor reading of {D}.",
+   "entity_note": "a different building's lift panel, with its own unstated ground floor"
+  }
+ ]
+}

@@ -1,0 +1,272 @@
+{
+ "language": "Slovak",
+ "language_code": "sk",
+ "lead_in": "Odpoveď:",
+ "decimal_separator": ",",
+ "items": [
+  {
+   "story_id": 1,
+   "bank": "A",
+   "domain": "change",
+   "unit": "°C",
+   "sign_convention": "after minus before",
+   "facts_min_first": "Hodnota teploty v meste dnes večer bola {M} °C; hodnota teploty v meste dnes ráno bola {S} °C.",
+   "facts_sub_first": "Hodnota teploty v meste dnes ráno bola {S} °C; hodnota teploty v meste dnes večer bola {M} °C.",
+   "question": "Aká bola zmena teploty?",
+   "distractor_sentence": "Táto meteorologická stanica má číslo {D}.",
+   "agreement_safe": true,
+   "agreement_note": "Podmetom je vždy ženské podstatné meno 'hodnota', takže sloveso 'bola' sa nemení bez ohľadu na číslo (vyhýba sa slovenskej zhode podstatného mena s číslovkou 2-4 vs 5+). Ak za číslom nasleduje jednotka, je to vždy neskloňovaná skratka alebo značka (°C, €, m, mm, min, GB, b.), nikdy sklonené slovo. Platí rovnako pre 3, 51 aj 4870.",
+   "decimals_natural": true,
+   "gloss_en": "This evening a city's temperature was {M} °C; this morning it was {S} °C. What was the change in temperature?",
+   "notes": "",
+   "distractor_ok": true,
+   "verifier": {
+    "tag": "V13",
+    "natural": 2,
+    "comment": "Every sentence uses the 'Hodnota X bola N' data-sheet frame, which no native writer would use in prose."
+   }
+  },
+  {
+   "story_id": 2,
+   "bank": "A",
+   "domain": "change",
+   "unit": "€",
+   "sign_convention": "after minus before",
+   "facts_min_first": "Hodnota ceny akcie spoločnosti na konci obchodovania bola {M} €; hodnota ceny akcie na začiatku obchodovania bola {S} €.",
+   "facts_sub_first": "Hodnota ceny akcie spoločnosti na začiatku obchodovania bola {S} €; hodnota ceny akcie na konci obchodovania bola {M} €.",
+   "question": "Aká bola zmena ceny akcie počas dňa?",
+   "distractor_sentence": "Táto spoločnosť sídli v budove s číslom {D}.",
+   "agreement_safe": true,
+   "agreement_note": "Podmetom je vždy ženské podstatné meno 'hodnota', takže sloveso 'bola' sa nemení bez ohľadu na číslo (vyhýba sa slovenskej zhode podstatného mena s číslovkou 2-4 vs 5+). Ak za číslom nasleduje jednotka, je to vždy neskloňovaná skratka alebo značka (°C, €, m, mm, min, GB, b.), nikdy sklonené slovo. Platí rovnako pre 3, 51 aj 4870.",
+   "decimals_natural": true,
+   "gloss_en": "At the close of trading a company's share price was €{M}; at the opening of trading it was €{S}. What was the change in the share price during the day?",
+   "notes": "",
+   "distractor_ok": true,
+   "verifier": {
+    "tag": "V13",
+    "natural": 2,
+    "comment": "Every sentence uses the 'Hodnota X bola N' data-sheet frame, which no native writer would use in prose."
+   }
+  },
+  {
+   "story_id": 3,
+   "bank": "A",
+   "domain": "change",
+   "unit": "m",
+   "sign_convention": "after minus before",
+   "facts_min_first": "Hodnota hladiny jazera po daždi bola {M} m; hodnota hladiny jazera pred daždom bola {S} m.",
+   "facts_sub_first": "Hodnota hladiny jazera pred daždom bola {S} m; hodnota hladiny jazera po daždi bola {M} m.",
+   "question": "Aká bola zmena hladiny jazera?",
+   "distractor_sentence": "Brána parku pri tomto jazere má číslo {D}.",
+   "agreement_safe": true,
+   "agreement_note": "Podmetom je vždy ženské podstatné meno 'hodnota', takže sloveso 'bola' sa nemení bez ohľadu na číslo (vyhýba sa slovenskej zhode podstatného mena s číslovkou 2-4 vs 5+). Ak za číslom nasleduje jednotka, je to vždy neskloňovaná skratka alebo značka (°C, €, m, mm, min, GB, b.), nikdy sklonené slovo. Platí rovnako pre 3, 51 aj 4870.",
+   "decimals_natural": true,
+   "gloss_en": "After the rain a lake's water level was {M} m; before the rain it was {S} m. What was the change in the lake's water level?",
+   "notes": "",
+   "distractor_ok": true,
+   "verifier": {
+    "tag": "V13",
+    "natural": 2,
+    "comment": "Every sentence uses the 'Hodnota X bola N' data-sheet frame, which no native writer would use in prose."
+   }
+  },
+  {
+   "story_id": 4,
+   "bank": "A",
+   "domain": "balance",
+   "unit": "€",
+   "sign_convention": "deposited minus withdrawn",
+   "facts_min_first": "Hodnota vkladu na sporiaci účet tento mesiac bola {M} €; hodnota výberu z účtu tento mesiac bola {S} €.",
+   "facts_sub_first": "Hodnota výberu z účtu tento mesiac bola {S} €; hodnota vkladu na sporiaci účet tento mesiac bola {M} €.",
+   "question": "Aký bol zostatok na účte za tento mesiac?",
+   "distractor_sentence": "Táto pobočka banky sa nachádza na poschodí s číslom {D}.",
+   "agreement_safe": true,
+   "agreement_note": "Podmetom je vždy ženské podstatné meno 'hodnota', takže sloveso 'bola' sa nemení bez ohľadu na číslo (vyhýba sa slovenskej zhode podstatného mena s číslovkou 2-4 vs 5+). Ak za číslom nasleduje jednotka, je to vždy neskloňovaná skratka alebo značka (°C, €, m, mm, min, GB, b.), nikdy sklonené slovo. Platí rovnako pre 3, 51 aj 4870.",
+   "decimals_natural": true,
+   "gloss_en": "During the month €{M} was deposited into a savings account; €{S} was withdrawn from it. What is the account's balance for the month?",
+   "notes": "",
+   "distractor_ok": true,
+   "verifier": {
+    "tag": "V13",
+    "natural": 2,
+    "comment": "Every sentence uses the 'Hodnota X bola N' data-sheet frame, which no native writer would use in prose."
+   }
+  },
+  {
+   "story_id": 5,
+   "bank": "A",
+   "domain": "balance",
+   "unit": "€",
+   "sign_convention": "had minus spent",
+   "facts_min_first": "Hodnota, ktorú darčeková karta mala na začiatku, bola {M} €; hodnota minutá z karty bola {S} €.",
+   "facts_sub_first": "Hodnota minutá z darčekovej karty bola {S} €; hodnota, ktorú karta mala na začiatku, bola {M} €.",
+   "question": "Aký je zostávajúci zostatok na karte?",
+   "distractor_sentence": "Táto darčeková karta bola vydaná v obchode s číslom {D}.",
+   "agreement_safe": true,
+   "agreement_note": "Podmetom je vždy ženské podstatné meno 'hodnota', takže sloveso 'bola' sa nemení bez ohľadu na číslo (vyhýba sa slovenskej zhode podstatného mena s číslovkou 2-4 vs 5+). Ak za číslom nasleduje jednotka, je to vždy neskloňovaná skratka alebo značka (°C, €, m, mm, min, GB, b.), nikdy sklonené slovo. Platí rovnako pre 3, 51 aj 4870.",
+   "decimals_natural": true,
+   "gloss_en": "A gift card had €{M} on it at the start; €{S} was spent from the card. What is the remaining balance on the card?",
+   "notes": "",
+   "distractor_ok": true,
+   "verifier": {
+    "tag": "V13",
+    "natural": 2,
+    "comment": "Every sentence uses the 'Hodnota X bola N' data-sheet frame, which no native writer would use in prose."
+   }
+  },
+  {
+   "story_id": 6,
+   "bank": "A",
+   "domain": "balance",
+   "unit": "GB",
+   "sign_convention": "had minus spent",
+   "facts_min_first": "Hodnota dátového balíka na začiatku mesiaca bola {M} GB; hodnota spotrebovaných dát tento mesiac bola {S} GB.",
+   "facts_sub_first": "Hodnota spotrebovaných dát tento mesiac bola {S} GB; hodnota dátového balíka na začiatku mesiaca bola {M} GB.",
+   "question": "Aký je zostávajúci dátový zostatok?",
+   "distractor_sentence": "Tento tarifný plán je registrovaný pod zmluvou s číslom {D}.",
+   "agreement_safe": true,
+   "agreement_note": "Podmetom je vždy ženské podstatné meno 'hodnota', takže sloveso 'bola' sa nemení bez ohľadu na číslo (vyhýba sa slovenskej zhode podstatného mena s číslovkou 2-4 vs 5+). Ak za číslom nasleduje jednotka, je to vždy neskloňovaná skratka alebo značka (°C, €, m, mm, min, GB, b.), nikdy sklonené slovo. Platí rovnako pre 3, 51 aj 4870.",
+   "decimals_natural": true,
+   "gloss_en": "A mobile data plan had {M} GB at the start of the month; {S} GB was used during the month. What is the remaining data balance?",
+   "notes": "",
+   "distractor_ok": true,
+   "verifier": {
+    "tag": "V13",
+    "natural": 2,
+    "comment": "Every sentence uses the 'Hodnota X bola N' data-sheet frame, which no native writer would use in prose."
+   }
+  },
+  {
+   "story_id": 7,
+   "bank": "A",
+   "domain": "net",
+   "unit": "€",
+   "sign_convention": "in minus out",
+   "facts_min_first": "Hodnota príjmu domácnosti tento mesiac bola {M} €; hodnota výdavkov domácnosti tento mesiac bola {S} €.",
+   "facts_sub_first": "Hodnota výdavkov domácnosti tento mesiac bola {S} €; hodnota príjmu domácnosti tento mesiac bola {M} €.",
+   "question": "Aký bol čistý výsledok domácnosti za tento mesiac?",
+   "distractor_sentence": "Táto rodina sa tento rok presťahovala do bytu s číslom {D}.",
+   "agreement_safe": true,
+   "agreement_note": "Podmetom je vždy ženské podstatné meno 'hodnota', takže sloveso 'bola' sa nemení bez ohľadu na číslo (vyhýba sa slovenskej zhode podstatného mena s číslovkou 2-4 vs 5+). Ak za číslom nasleduje jednotka, je to vždy neskloňovaná skratka alebo značka (°C, €, m, mm, min, GB, b.), nikdy sklonené slovo. Platí rovnako pre 3, 51 aj 4870.",
+   "decimals_natural": true,
+   "gloss_en": "A household's income for the month was €{M}; its expenses for the month were €{S}. What was the household's net result for the month?",
+   "notes": "",
+   "distractor_ok": true,
+   "verifier": {
+    "tag": "V13",
+    "natural": 2,
+    "comment": "Every sentence uses the 'Hodnota X bola N' data-sheet frame, which no native writer would use in prose."
+   }
+  },
+  {
+   "story_id": 8,
+   "bank": "A",
+   "domain": "net",
+   "unit": "goal",
+   "sign_convention": "in minus out",
+   "facts_min_first": "Hodnota strelených gólov futbalového tímu za sezónu bola {M}; hodnota inkasovaných gólov za sezónu bola {S}.",
+   "facts_sub_first": "Hodnota inkasovaných gólov futbalového tímu za sezónu bola {S}; hodnota strelených gólov za sezónu bola {M}.",
+   "question": "Aký bol gólový rozdiel tímu za sezónu?",
+   "distractor_sentence": "Tento tím hrával domáce zápasy na štadióne s bránou číslo {D}.",
+   "agreement_safe": true,
+   "agreement_note": "Podmetom je vždy ženské podstatné meno 'hodnota', takže sloveso 'bola' sa nemení bez ohľadu na číslo (vyhýba sa slovenskej zhode podstatného mena s číslovkou 2-4 vs 5+). Ak za číslom nasleduje jednotka, je to vždy neskloňovaná skratka alebo značka (°C, €, m, mm, min, GB, b.), nikdy sklonené slovo. Platí rovnako pre 3, 51 aj 4870.",
+   "decimals_natural": false,
+   "gloss_en": "Over a season a football team scored {M} goals; it conceded {S} goals. What was the team's goal difference for the season?",
+   "notes": "",
+   "distractor_ok": true,
+   "verifier": {
+    "tag": "V13",
+    "natural": 2,
+    "comment": "Every sentence uses the 'Hodnota X bola N' data-sheet frame, which no native writer would use in prose."
+   }
+  },
+  {
+   "story_id": 9,
+   "bank": "A",
+   "domain": "net",
+   "unit": "€",
+   "sign_convention": "in minus out",
+   "facts_min_first": "Hodnota zisku malého podniku za tento kvartál bola {M} €; hodnota straty za tento kvartál bola {S} €.",
+   "facts_sub_first": "Hodnota straty malého podniku za tento kvartál bola {S} €; hodnota zisku za tento kvartál bola {M} €.",
+   "question": "Aký bol čistý výsledok podniku za tento kvartál?",
+   "distractor_sentence": "Tento podnik je registrovaný pod licenciou s číslom {D}.",
+   "agreement_safe": true,
+   "agreement_note": "Podmetom je vždy ženské podstatné meno 'hodnota', takže sloveso 'bola' sa nemení bez ohľadu na číslo (vyhýba sa slovenskej zhode podstatného mena s číslovkou 2-4 vs 5+). Ak za číslom nasleduje jednotka, je to vždy neskloňovaná skratka alebo značka (°C, €, m, mm, min, GB, b.), nikdy sklonené slovo. Platí rovnako pre 3, 51 aj 4870.",
+   "decimals_natural": true,
+   "gloss_en": "During the quarter a small business recorded €{M} in gains; it recorded €{S} in losses. What was the business's net result for the quarter?",
+   "notes": "",
+   "distractor_ok": true,
+   "verifier": {
+    "tag": "V13",
+    "natural": 2,
+    "comment": "Profit and loss as two separate quoted values is an odd way to state gains and losses."
+   }
+  },
+  {
+   "story_id": 15,
+   "bank": "A",
+   "domain": "arrival vs schedule",
+   "unit": "min",
+   "sign_convention": "actual minus scheduled, late positive",
+   "facts_min_first": "Hodnota skutočného času príchodu vlaku bola {M} min; hodnota plánovaného času príchodu bola {S} min.",
+   "facts_sub_first": "Hodnota plánovaného času príchodu vlaku bola {S} min; hodnota skutočného času príchodu bola {M} min.",
+   "question": "Koľko minút mal vlak oproti plánu, pričom meškanie sa počíta ako kladné?",
+   "distractor_sentence": "Tento vlak odišiel z nástupišťa s číslom {D}.",
+   "agreement_safe": true,
+   "agreement_note": "Podmetom je vždy ženské podstatné meno 'hodnota', takže sloveso 'bola' sa nemení bez ohľadu na číslo (vyhýba sa slovenskej zhode podstatného mena s číslovkou 2-4 vs 5+). Ak za číslom nasleduje jednotka, je to vždy neskloňovaná skratka alebo značka (°C, €, m, mm, min, GB, b.), nikdy sklonené slovo. Platí rovnako pre 3, 51 aj 4870.",
+   "decimals_natural": false,
+   "gloss_en": "A train's actual arrival time reading was {M} min; its scheduled arrival time reading was {S} min. How many minutes was the train relative to its schedule, with lateness counted as positive?",
+   "notes": "",
+   "distractor_ok": true,
+   "verifier": {
+    "tag": "V13",
+    "natural": 2,
+    "comment": "'Kolko minut mal vlak oproti planu' is missing its noun (meskania/naskoku)."
+   }
+  },
+  {
+   "story_id": 16,
+   "bank": "A",
+   "domain": "level vs reference",
+   "unit": "floor",
+   "sign_convention": "level minus reference",
+   "facts_min_first": "Hodnota podlažia zobrazená na paneli výťahu bola {M}; hodnota prízemia budovy je {S}.",
+   "facts_sub_first": "Hodnota prízemia budovy je {S}; hodnota podlažia zobrazená na paneli výťahu bola {M}.",
+   "question": "Akú hodnotu podlažia ukazuje panel v porovnaní s prízemím?",
+   "distractor_sentence": "Tento výťah má v budove číslo {D}.",
+   "agreement_safe": true,
+   "agreement_note": "Podmetom je vždy ženské podstatné meno 'hodnota', takže sloveso 'bola' sa nemení bez ohľadu na číslo (vyhýba sa slovenskej zhode podstatného mena s číslovkou 2-4 vs 5+). Ak za číslom nasleduje jednotka, je to vždy neskloňovaná skratka alebo značka (°C, €, m, mm, min, GB, b.), nikdy sklonené slovo. Platí rovnako pre 3, 51 aj 4870.",
+   "decimals_natural": false,
+   "gloss_en": "A lift panel showed a floor reading of {M}; the building's ground floor reading is {S}. Relative to the ground floor, what floor reading does the panel show?",
+   "notes": "",
+   "distractor_ok": true,
+   "verifier": {
+    "tag": "V13",
+    "natural": 2,
+    "comment": "Every sentence uses the 'Hodnota X bola N' data-sheet frame, which no native writer would use in prose."
+   }
+  },
+  {
+   "story_id": 17,
+   "bank": "B",
+   "domain": "relative",
+   "unit": "goal",
+   "sign_convention": "named party's number minus the other party's number",
+   "facts_min_first": "Hodnota gólov domáceho tímu v zápase bola {M}; hodnota gólov hosťujúceho tímu bola {S}.",
+   "facts_sub_first": "Hodnota gólov hosťujúceho tímu v zápase bola {S}; hodnota gólov domáceho tímu bola {M}.",
+   "question": "Aký bol gólový rozdiel domáceho tímu oproti hosťujúcemu tímu?",
+   "distractor_sentence": "Tento zápas sa hral na štadióne s bránou číslo {D}.",
+   "agreement_safe": true,
+   "agreement_note": "Podmetom je vždy ženské podstatné meno 'hodnota', takže sloveso 'bola' sa nemení bez ohľadu na číslo (vyhýba sa slovenskej zhode podstatného mena s číslovkou 2-4 vs 5+). Ak za číslom nasleduje jednotka, je to vždy neskloňovaná skratka alebo značka (°C, €, m, mm, min, GB, b.), nikdy sklonené slovo. Platí rovnako pre 3, 51 aj 4870.",
+   "decimals_natural": false,
+   "gloss_en": "In a match the home team's goal reading was {M}; the visiting team's goal reading was {S}. What was the home team's goal difference relative to the visiting team?",
+   "notes": "",
+   "distractor_ok": true,
+   "verifier": {
+    "tag": "V13",
+    "natural": 2,
+    "comment": "Every sentence uses the 'Hodnota X bola N' data-sheet frame, which no native writer would use in prose."
+   }
+  }
+ ]
+}

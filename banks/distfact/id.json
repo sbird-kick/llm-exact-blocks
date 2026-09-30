@@ -1,0 +1,84 @@
+{
+  "language_code": "id",
+  "refused": [],
+  "items": [
+    {
+      "story_id": 1,
+      "distractor_fact": "Stasiun cuaca di desa tetangga mencatat {D} pada pagi yang sama.",
+      "gloss_en": "The weather station in the neighboring village recorded {D} that same morning.",
+      "entity_note": "a different village's own weather station, not the afternoon/morning readings of the city the question compares"
+    },
+    {
+      "story_id": 2,
+      "distractor_fact": "Saham perusahaan lain di bursa yang sama ditutup pada {D} hari itu.",
+      "gloss_en": "Another company's stock on the same exchange closed at {D} that day.",
+      "entity_note": "a different company's stock, not the opening/closing price of the company the question compares"
+    },
+    {
+      "story_id": 3,
+      "distractor_fact": "Permukaan air danau lain di kecamatan sebelah tercatat {D} pada musim yang sama.",
+      "gloss_en": "The water level of another lake in the neighboring district was recorded at {D} in the same season.",
+      "entity_note": "a different lake in a different district, not this lake's before/after readings"
+    },
+    {
+      "story_id": 4,
+      "distractor_fact": "Ketinggian terbang drone lain yang diterbangkan hari itu tercatat {D}.",
+      "gloss_en": "The flying altitude of another drone flown that day was recorded at {D}.",
+      "entity_note": "a different drone, not this drone's first/second logged readings"
+    },
+    {
+      "story_id": 5,
+      "distractor_fact": "Berat badan atlet lain di tim yang sama tercatat {D} pada pemeriksaan itu.",
+      "gloss_en": "The body weight of another athlete on the same team was recorded at {D} at that check.",
+      "entity_note": "a different athlete, not this athlete's start-of-season/end-of-season readings"
+    },
+    {
+      "story_id": 6,
+      "distractor_fact": "Kecepatan mobil balap lain di lintasan yang sama terbaca {D} pada putaran itu.",
+      "gloss_en": "The speed of another race car on the same track read {D} on that lap.",
+      "entity_note": "a different race car, not this car's first-lap/last-lap readings"
+    },
+    {
+      "story_id": 7,
+      "distractor_fact": "Adiknya memiliki uang saku sebesar {D} minggu itu.",
+      "gloss_en": "His/her younger sibling had pocket money of {D} that week.",
+      "entity_note": "a different child (the sibling), not this child's own pocket money and spending"
+    },
+    {
+      "story_id": 8,
+      "distractor_fact": "Nasabah lain di bank yang sama menyetor {D} ke rekeningnya bulan itu.",
+      "gloss_en": "Another customer at the same bank deposited {D} into their account that month.",
+      "entity_note": "a different customer, not this customer's deposit/withdrawal figures"
+    },
+    {
+      "story_id": 9,
+      "distractor_fact": "Usaha kecil lain di pasar yang sama memperoleh pemasukan sebesar {D} bulan itu.",
+      "gloss_en": "Another small business at the same market earned income of {D} that month.",
+      "entity_note": "a different business, not this business's income/expenses"
+    },
+    {
+      "story_id": 10,
+      "distractor_fact": "Tim lain di liga yang sama mencetak {D} gol sepanjang musim itu.",
+      "gloss_en": "Another team in the same league scored {D} goals that season.",
+      "entity_note": "a different football team, not this team's goals scored/conceded"
+    },
+    {
+      "story_id": 14,
+      "distractor_fact": "Pegolf lain di lapangan yang berbeda menyelesaikan permainannya dengan {D} pukulan pada hari yang sama.",
+      "gloss_en": "Another golfer, on a different course, finished their round with {D} strokes that same day.",
+      "entity_note": "a different golfer on a different course whose par is not stated, so it cannot pair with this hole's par"
+    },
+    {
+      "story_id": 15,
+      "distractor_fact": "Kereta lain pada jalur yang berbeda tiba di stasiunnya pada menit {D} pagi itu.",
+      "gloss_en": "Another train, on a different line, arrived at its station at minute {D} that same morning.",
+      "entity_note": "a different train on a different line, with no schedule stated for it, so it cannot pair with this train's schedule minute"
+    },
+    {
+      "story_id": 16,
+      "distractor_fact": "Kamar hotel lain di gedung yang berbeda berada di lantai {D}.",
+      "gloss_en": "A room in a different hotel building is on floor {D}.",
+      "entity_note": "a room in an entirely different hotel building, whose own lobby/reference floor is not stated, so it cannot pair with this hotel's lobby floor"
+    }
+  ]
+}

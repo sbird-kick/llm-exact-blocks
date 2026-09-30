@@ -1,0 +1,102 @@
+{
+  "language_code": "uk",
+  "refused": [],
+  "items": [
+    {
+      "story_id": 1,
+      "distractor_fact": "Сусідня метеостанція того самого ранку зафіксувала показник {D}°C.",
+      "gloss_en": "A neighboring weather station recorded a reading of D°C that same morning.",
+      "entity_note": "A different weather station than the one whose morning/evening readings the question compares."
+    },
+    {
+      "story_id": 2,
+      "distractor_fact": "Акції іншої компанії того самого дня коштували {D} $.",
+      "gloss_en": "Shares of a different company cost D $ that same day.",
+      "entity_note": "A different company's stock, not the one whose opening/closing price the question compares."
+    },
+    {
+      "story_id": 3,
+      "distractor_fact": "Рівень води в сусідній річці того самого ранку був на позначці {D} м.",
+      "gloss_en": "The water level in a neighboring river was at a mark of D m that same morning.",
+      "entity_note": "A different river than the one whose morning/evening level the question compares."
+    },
+    {
+      "story_id": 4,
+      "distractor_fact": "Інший дрон на сусідньому маршруті тримався на висоті {D} м.",
+      "gloss_en": "Another drone on a neighboring route was flying at an altitude of D m.",
+      "entity_note": "A different drone on a different route, not the one whose two route points the question compares."
+    },
+    {
+      "story_id": 5,
+      "distractor_fact": "Вага іншої посилки в тому самому відділенні становила {D} кг.",
+      "gloss_en": "The weight of a different parcel at the same branch was D kg.",
+      "entity_note": "A different parcel, not the one being repacked."
+    },
+    {
+      "story_id": 6,
+      "distractor_fact": "Радар на сусідній трасі того самого дня зафіксував швидкість іншого автомобіля {D} км/год.",
+      "gloss_en": "A radar on a neighboring road recorded another car's speed as D km/h that same day.",
+      "entity_note": "A different car measured by a different radar on a different road, not the two posts the question compares."
+    },
+    {
+      "story_id": 8,
+      "distractor_fact": "На інший рахунок того самого дня було внесено {D} $.",
+      "gloss_en": "D $ was deposited into a different account that same day.",
+      "entity_note": "A different account, not the one whose balance the question computes."
+    },
+    {
+      "story_id": 9,
+      "distractor_fact": "Дохід сусідньої крамниці за той самий місяць становив {D} $.",
+      "gloss_en": "A neighboring shop's income for the same month was D $.",
+      "entity_note": "A different shop, not the one whose net result the question computes."
+    },
+    {
+      "story_id": 10,
+      "distractor_fact": "У тій самій турнірній таблиці іншій команді в графі «Закинуто» записано {D}.",
+      "gloss_en": "In the same tournament table, another team's entry in the \"Scored\" column is D.",
+      "entity_note": "A different team's row in the same table, not the team whose goal difference the question computes."
+    },
+    {
+      "story_id": 11,
+      "distractor_fact": "Інший цех того самого дня виготовив {D} кг продукції.",
+      "gloss_en": "A different workshop produced D kg of goods that same day.",
+      "entity_note": "A different workshop with its own unstated production target, separate from the plan given in the story."
+    },
+    {
+      "story_id": 12,
+      "distractor_fact": "Інший магазин продав товарів на суму {D} $ за той самий тиждень.",
+      "gloss_en": "A different shop sold goods worth D $ over the same week.",
+      "entity_note": "A different shop with its own unstated sales plan, separate from the plan given in the story."
+    },
+    {
+      "story_id": 13,
+      "distractor_fact": "У сусідньому районі того самого дня випало {D} мм опадів.",
+      "gloss_en": "In a neighboring district, D mm of rain fell that same day.",
+      "entity_note": "A different district with its own unstated forecast, separate from the forecast given in the story."
+    },
+    {
+      "story_id": 14,
+      "distractor_fact": "У картці іншого гравця в графі «Ударів» для іншої лунки записано {D}.",
+      "gloss_en": "In another player's scorecard, the entry in the \"Strokes\" column for a different hole is D.",
+      "entity_note": "A different player and a different hole, whose par is not stated, separate from the pair the question compares."
+    },
+    {
+      "story_id": 15,
+      "distractor_fact": "Потяг іншого маршруту прибув того самого ранку, і час прибуття становив {D} хв після півночі.",
+      "gloss_en": "A train on a different route arrived that same morning, and the arrival time was D minutes after midnight.",
+      "entity_note": "A different train route with its own unstated schedule, separate from the train the question compares."
+    },
+    {
+      "story_id": 16,
+      "distractor_fact": "На панелі іншого ліфта поверх, де він зупинився, позначений числом {D}.",
+      "gloss_en": "On a different elevator's panel, the floor where it stopped is marked with the number D.",
+      "entity_note": "A different elevator with its own unstated ground-level reference, separate from the elevator the question compares."
+    },
+    {
+      "story_id": 19,
+      "distractor_fact": "Того самого дня в місті Харкові термометр показав {D}°C.",
+      "gloss_en": "That same day, in the city of Kharkiv, the thermometer showed D°C.",
+      "entity_note": "A third city, neither Lviv nor Odesa, the two the question compares."
+    }
+  ]
+}

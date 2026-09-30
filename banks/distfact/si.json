@@ -1,0 +1,126 @@
+{
+  "language_code": "si",
+  "refused": [],
+  "items": [
+    {
+      "story_id": 1,
+      "distractor_fact": "අසල්වැසි උද්‍යානයේ උෂ්ණත්වය එදිනම {D}°C විය.",
+      "gloss_en": "At the neighboring park, the temperature that same day was D°C.",
+      "entity_note": "a different park, so its reading cannot be paired with this park's evening/morning figures"
+    },
+    {
+      "story_id": 2,
+      "distractor_fact": "එදිනම වෙනත් සමාගමක කොටසේ මිල ${D} විය.",
+      "gloss_en": "That same day, another company's share price was $D.",
+      "entity_note": "a different company's stock, not the one whose open/close is being compared"
+    },
+    {
+      "story_id": 3,
+      "distractor_fact": "යාබද ජලාශයේ ජල මට්ටම එදින මීටර් {D}ක් විය.",
+      "gloss_en": "At the adjacent reservoir, the water level that day was D meters.",
+      "entity_note": "a different reservoir, so its level does not belong to the evening/morning pair being compared"
+    },
+    {
+      "story_id": 4,
+      "distractor_fact": "එම දිනයේම වෙනත් බැලූනයක උස මීටර් {D}ක් විය.",
+      "gloss_en": "That same day, another balloon's altitude was D meters.",
+      "entity_note": "a different balloon, not the one whose rise/descent altitudes are being compared"
+    },
+    {
+      "story_id": 5,
+      "distractor_fact": "එකම බැංකුවේ වෙනත් ගිණුමක මාසය ආරම්භයේ තිබූ මුදල ${D} විය.",
+      "gloss_en": "At the same bank, another account's balance at the start of the month was $D.",
+      "entity_note": "a different account, not the one whose starting balance and spending are being compared"
+    },
+    {
+      "story_id": 6,
+      "distractor_fact": "වෙනත් ගිණුමකට එම සතියේම තැන්පත් කළ මුදල ${D} විය.",
+      "gloss_en": "Into another account, that same week, the amount deposited was $D.",
+      "entity_note": "a different account, not the one whose deposit and withdrawal are being netted"
+    },
+    {
+      "story_id": 7,
+      "distractor_fact": "එම මාසයේම වෙනත් අංශයක ආදායම ${D} විය.",
+      "gloss_en": "That same month, another department's income was $D.",
+      "entity_note": "a different department, not the one whose income and expenses are being netted"
+    },
+    {
+      "story_id": 8,
+      "distractor_fact": "එම වාරයේම වෙනත් කණ්ඩායමක් ගෝල {D}ක් රැස් කළේය.",
+      "gloss_en": "That same season, another team scored D goals.",
+      "entity_note": "a different team, not the one whose scored/conceded goals set the goal difference"
+    },
+    {
+      "story_id": 9,
+      "distractor_fact": "එම වර්ෂයේම වෙනත් ආයෝජනයකින් ලද ලාභය ${D} විය.",
+      "gloss_en": "That same year, another investment's gain was $D.",
+      "entity_note": "a different investment, not the one whose gain and loss are being netted"
+    },
+    {
+      "story_id": 10,
+      "distractor_fact": "එම මාසයේම වෙනත් කම්හලක සැබෑ නිෂ්පාදනය ටොන් {D}ක් විය.",
+      "gloss_en": "That same month, another factory's actual production was D tons.",
+      "entity_note": "a different factory with its own unstated target, not the one being measured against the stated target"
+    },
+    {
+      "story_id": 11,
+      "distractor_fact": "එම මාසයේම වෙනත් නගරයක සැබෑ වර්ෂාපතනය මිලිමීටර් {D}ක් විය.",
+      "gloss_en": "That same month, another city's actual rainfall was D millimeters.",
+      "entity_note": "a different city with its own unstated forecast, not the one being measured against the stated forecast"
+    },
+    {
+      "story_id": 12,
+      "distractor_fact": "එම කාර්තුවේම වෙනත් ශාඛාවක සැබෑ විකුණුම් ප්‍රමාණය ${D} විය.",
+      "gloss_en": "That same quarter, another branch's actual sales were $D.",
+      "entity_note": "a different branch with its own unstated target, not the one being measured against the stated target"
+    },
+    {
+      "story_id": 13,
+      "distractor_fact": "වෙනත් තරගාවලියක ක්‍රීඩකයෙක් අවසන් වටයේදී පහර {D}ක් ගැසුවේය.",
+      "gloss_en": "In another tournament, a player took D strokes in the final round.",
+      "entity_note": "a different tournament with its own unstated par, not the round being measured against the stated par"
+    },
+    {
+      "story_id": 14,
+      "distractor_fact": "වෙනත් මාර්ගයක දුම්රියක පැමිණි වේලාව, දිනයේ ආරම්භයේ සිට ගණන් කළ විට, මිනිත්තු {D}ක් විය.",
+      "gloss_en": "On a different line, another train's arrival time, counted from the start of the day, was minute D.",
+      "entity_note": "a different train on a different line, with its own unstated timetable, not the one measured against the stated schedule"
+    },
+    {
+      "story_id": 15,
+      "distractor_fact": "යාබද ගොඩනැගිල්ලේ, එහිම මහල් අංකනයට අනුව, මගේ මිතුරාගේ මහල මහල් {D} වේ.",
+      "gloss_en": "In the adjacent building, according to that building's own floor numbering, my friend's floor is floor D.",
+      "entity_note": "a different building with its own floor-numbering reference, not the one whose floor is measured against its own ground floor"
+    },
+    {
+      "story_id": 16,
+      "distractor_fact": "එම වැඩසටහනේම වෙනත් සහභාගිවන්නෙකුගේ බර වැඩසටහන ආරම්භයේදී කිලෝග්‍රෑම් {D}ක් විය.",
+      "gloss_en": "In that same program, another participant's weight at the start was D kilograms.",
+      "entity_note": "a different participant, not the one whose before/after weights are being compared"
+    },
+    {
+      "story_id": 17,
+      "distractor_fact": "එදිනම වූ වෙනත් තරගයක කණ්ඩායමක් ගෝල {D}ක් ලබා ගත්තේය.",
+      "gloss_en": "In another match that same day, a team scored D goals.",
+      "entity_note": "a different match and team, not the red or blue team being compared"
+    },
+    {
+      "story_id": 18,
+      "distractor_fact": "වෙනත් තරගයක (හීට් එකක) ධාවකයෙකුගේ අවසන් කළ වේලාව තත්පර {D}ක් විය.",
+      "gloss_en": "In another race (heat), a runner's finish time was second D.",
+      "entity_note": "a different heat and runner, not Anusha or Nishani being compared"
+    },
+    {
+      "story_id": 19,
+      "distractor_fact": "එම කාර්තුවේම තුන්වන සමාගමක ආදායම ${D} විය.",
+      "gloss_en": "That same quarter, a third company's revenue was $D.",
+      "entity_note": "a third company, not the first or second company being compared"
+    },
+    {
+      "story_id": 20,
+      "distractor_fact": "ක්‍රීඩාවේදීම වෙනත් ක්‍රීඩකයෙක් ලකුණු {D}ක් ලබා ගත්තේය.",
+      "gloss_en": "In that same game, another player scored D points.",
+      "entity_note": "a different player, not Kamal or Sunil being compared"
+    }
+  ]
+}

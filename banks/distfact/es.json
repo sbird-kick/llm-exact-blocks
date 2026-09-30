@@ -1,0 +1,114 @@
+{
+ "language_code": "es",
+ "refused": [],
+ "items": [
+  {
+   "story_id": 1,
+   "distractor_fact": "En el pueblo vecino, el termómetro marcaba {D} °C esa misma tarde.",
+   "gloss_en": "In the neighboring village, the thermometer read {D}°C that same afternoon.",
+   "entity_note": "The reading belongs to a different village's thermometer, not the weather station in the story."
+  },
+  {
+   "story_id": 2,
+   "distractor_fact": "Ese mismo día, las acciones de otra empresa del sector cerraron a {D} dólares.",
+   "gloss_en": "That same day, another company's stock in the sector closed at {D} dollars.",
+   "entity_note": "The price belongs to a different company's stock, not the one in the story."
+  },
+  {
+   "story_id": 3,
+   "distractor_fact": "Esa misma semana, el embalse vecino se encontraba a {D} metros.",
+   "gloss_en": "That same week, the neighboring reservoir stood at {D} meters.",
+   "entity_note": "The level belongs to a different, neighboring reservoir, not the one in the story."
+  },
+  {
+   "story_id": 4,
+   "distractor_fact": "Otro dron de la misma flota volaba esa tarde a {D} metros de altitud.",
+   "gloss_en": "Another drone from the same fleet was flying that afternoon at an altitude of {D} meters.",
+   "entity_note": "The altitude belongs to a different drone in the fleet, not the one in the story."
+  },
+  {
+   "story_id": 5,
+   "distractor_fact": "Otro paciente de la misma clínica pesó {D} kilogramos esa misma semana.",
+   "gloss_en": "Another patient at the same clinic weighed {D} kilograms that same week.",
+   "entity_note": "The weight belongs to a different patient, not the one in the story."
+  },
+  {
+   "story_id": 6,
+   "distractor_fact": "En una carretera distinta, otro radar registró esa tarde una velocidad de {D} kilómetros por hora.",
+   "gloss_en": "On a different road, another radar recorded a speed of {D} kilometers per hour that afternoon.",
+   "entity_note": "The speed belongs to a different radar on a different road, not the one in the story."
+  },
+  {
+   "story_id": 7,
+   "distractor_fact": "Esa misma entidad bancaria gestiona otra cuenta que recibió depósitos por {D} euros ese mes.",
+   "gloss_en": "That same bank manages another account that received deposits of {D} euros that month.",
+   "entity_note": "The deposit total belongs to a different account, not the one whose net balance is asked about."
+  },
+  {
+   "story_id": 9,
+   "distractor_fact": "El hogar vecino tuvo unos gastos de {D} euros ese mismo mes.",
+   "gloss_en": "The neighboring household had expenses of {D} euros that same month.",
+   "entity_note": "The expense figure belongs to a different, neighboring household, not the one in the story."
+  },
+  {
+   "story_id": 10,
+   "distractor_fact": "Otro equipo de la misma liga anotó {D} goles esa temporada.",
+   "gloss_en": "Another team in the same league scored {D} goals that season.",
+   "entity_note": "The goal count belongs to a different team, not the one whose goal difference is asked about."
+  },
+  {
+   "story_id": 11,
+   "distractor_fact": "Otro inversor del mismo fondo obtuvo unas ganancias de {D} euros ese año.",
+   "gloss_en": "Another investor in the same fund made gains of {D} euros that year.",
+   "entity_note": "The gains belong to a different investor, not the one in the story."
+  },
+  {
+   "story_id": 12,
+   "distractor_fact": "Otra fábrica del mismo grupo produjo {D} unidades ese trimestre.",
+   "gloss_en": "Another factory in the same group produced {D} units that quarter.",
+   "entity_note": "The production figure belongs to a different factory, and its own target is left unstated, so it cannot be paired into a second subtraction."
+  },
+  {
+   "story_id": 13,
+   "distractor_fact": "En una región vecina cayeron esa misma semana {D} milímetros de lluvia.",
+   "gloss_en": "In a neighboring region, {D} millimeters of rain fell that same week.",
+   "entity_note": "The rainfall belongs to a different region, and its own forecast is left unstated, so it cannot be paired into a second subtraction."
+  },
+  {
+   "story_id": 14,
+   "distractor_fact": "Otro golfista, en un campo distinto, terminó la ronda con {D} golpes.",
+   "gloss_en": "Another golfer, on a different course, finished the round with {D} strokes.",
+   "entity_note": "The stroke count belongs to a different golfer on a different course, whose par is left unstated."
+  },
+  {
+   "story_id": 15,
+   "distractor_fact": "Ese mismo día, un tren de otra línea llegó a una estación distinta en el minuto {D} contado desde la medianoche.",
+   "gloss_en": "That same day, a train on a different line arrived at a different station at minute {D} counted from midnight.",
+   "entity_note": "The arrival mark belongs to a different train on a different line and station, whose own schedule is left unstated."
+  },
+  {
+   "story_id": 16,
+   "distractor_fact": "Un sensor instalado en otro río marcó esa misma mañana una lectura de {D} centímetros.",
+   "gloss_en": "A sensor installed on another river recorded a reading of {D} centimeters that same morning.",
+   "entity_note": "The reading belongs to a sensor on a different river, whose own reference line is left unstated."
+  },
+  {
+   "story_id": 18,
+   "distractor_fact": "Ese mismo día, la ciudad de Solavalle registró una temperatura de {D} °C.",
+   "gloss_en": "That same day, the city of Solavalle recorded a temperature of {D}°C.",
+   "entity_note": "The reading belongs to a third city, neither Rioverde nor Montealto, the two the question compares."
+  },
+  {
+   "story_id": 19,
+   "distractor_fact": "Ese mismo mes, la sucursal Sur vendió {D} unidades.",
+   "gloss_en": "That same month, the Sur branch sold {D} units.",
+   "entity_note": "The sales figure belongs to a third branch, neither Centro nor Norte, the two the question compares."
+  },
+  {
+   "story_id": 20,
+   "distractor_fact": "En otro partido de esa misma jornada, un tercer equipo anotó {D} goles.",
+   "gloss_en": "In another match of that same round, a third team scored {D} goals.",
+   "entity_note": "The goal count belongs to a third team in a different match, neither the home nor away team the question compares."
+  }
+ ]
+}

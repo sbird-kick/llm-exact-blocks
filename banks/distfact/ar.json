@@ -1,0 +1,96 @@
+{
+  "language_code": "ar",
+  "refused": [],
+  "items": [
+    {
+      "story_id": 1,
+      "distractor_fact": "سجّلت محطة الرصد في مدينة مجاورة درجة حرارة بلغت {D}°م في نفس الصباح.",
+      "gloss_en": "The observation station in a neighboring city recorded a temperature of {D}°C that same morning.",
+      "entity_note": "A different weather station, in a neighboring city, from the one whose morning/evening readings the question compares."
+    },
+    {
+      "story_id": 2,
+      "distractor_fact": "أغلق سهم شركة أخرى في نفس اليوم عند {D}$.",
+      "gloss_en": "Another company's stock closed that same day at {D}$.",
+      "entity_note": "A different company's stock, not the one whose opening/closing price the question compares."
+    },
+    {
+      "story_id": 3,
+      "distractor_fact": "حافظت طائرة أخرى على ارتفاع بلغ {D} م خلال نفس الفترة.",
+      "gloss_en": "Another plane maintained an altitude of {D} m during the same period.",
+      "entity_note": "A different aircraft than the one whose climb altitude the question compares."
+    },
+    {
+      "story_id": 4,
+      "distractor_fact": "بلغ رصيد حساب زبون آخر في ذلك الوقت {D}$.",
+      "gloss_en": "Another customer's account balance at that time was {D}$.",
+      "entity_note": "A different customer's bank account, not the one in the story."
+    },
+    {
+      "story_id": 6,
+      "distractor_fact": "أودع مدّخر آخر في حسابه خلال الشهر نفسه مبلغ {D}$.",
+      "gloss_en": "Another saver deposited {D}$ into their account during that same month.",
+      "entity_note": "A different saver's account; only their deposit is stated, with no matching withdrawal, so no second subtraction can be formed."
+    },
+    {
+      "story_id": 7,
+      "distractor_fact": "بلغ دخل أسرة أخرى خلال الشهر نفسه {D}$.",
+      "gloss_en": "Another family's income during that same month was {D}$.",
+      "entity_note": "A different family; only their income is stated, with no matching expenses given."
+    },
+    {
+      "story_id": 8,
+      "distractor_fact": "سجّل فريق آخر في الدوري نفسه خلال الموسم عددًا من الأهداف بلغ {D}.",
+      "gloss_en": "Another team in the same league scored {D} goals during the season.",
+      "entity_note": "A different team; only goals scored is stated, with no conceded count given, so no second subtraction can be formed."
+    },
+    {
+      "story_id": 9,
+      "distractor_fact": "حقق مستثمر آخر من صفقاته الرابحة خلال العام نفسه مبلغ {D}$.",
+      "gloss_en": "Another investor made {D}$ from their winning trades during that same year.",
+      "entity_note": "A different investor; only their gains are stated, with no matching losses given."
+    },
+    {
+      "story_id": 10,
+      "distractor_fact": "أنتج مصنع آخر خلال الشهر نفسه عددًا من الوحدات بلغ {D}، وله هدف إنتاج خاص به لم يُذكر.",
+      "gloss_en": "Another factory produced {D} units during that same month, and has its own production target, which was not stated.",
+      "entity_note": "A different factory with its own, unstated target, so its output cannot be paired against the story's target."
+    },
+    {
+      "story_id": 12,
+      "distractor_fact": "بلغت كمية الأمطار الفعلية التي هطلت في منطقة أخرى خلال الشهر نفسه {D} ملم، بحسب نشرة جوية مختلفة.",
+      "gloss_en": "The actual rainfall that fell in another region during that same month was {D} mm, according to a different weather bulletin.",
+      "entity_note": "A different region with its own separate forecast bulletin, whose forecast value is not stated."
+    },
+    {
+      "story_id": 13,
+      "distractor_fact": "أنهى لاعب آخر الجولة على ملعب مختلف بعدد ضربات بلغ {D}.",
+      "gloss_en": "A different player finished the round on a different course with {D} strokes.",
+      "entity_note": "A different player on a different course whose par is not stated."
+    },
+    {
+      "story_id": 14,
+      "distractor_fact": "أنهت لاعبة أخرى الجولة على ملعب مختلف تمامًا بعدد ضربات بلغ {D}.",
+      "gloss_en": "A different player finished the round on an entirely different course with {D} strokes.",
+      "entity_note": "A different player on an entirely different course whose par is not stated."
+    },
+    {
+      "story_id": 15,
+      "distractor_fact": "وصل قطار آخر يسير على خط مختلف تمامًا فعليًا عند الدقيقة {D} محسوبة من منتصف الليل.",
+      "gloss_en": "Another train, running on an entirely different line, actually arrived at minute-mark {D} counted from midnight.",
+      "entity_note": "A different train on a different line; its scheduled time is not stated."
+    },
+    {
+      "story_id": 16,
+      "distractor_fact": "توقف مصعد آخر في مبنى مختلف عند الطابق الذي يحمل الرقم {D}.",
+      "gloss_en": "Another elevator, in a different building, stopped at the floor numbered {D}.",
+      "entity_note": "A different elevator in a different building, whose reference floor is not stated."
+    },
+    {
+      "story_id": 19,
+      "distractor_fact": "سجّل أحد الفرق في مباراة أخرى عددًا من الأهداف بلغ {D}.",
+      "gloss_en": "A team in a different match scored {D} goals.",
+      "entity_note": "A different match; only one team's score is stated, with no opposing score given."
+    }
+  ]
+}

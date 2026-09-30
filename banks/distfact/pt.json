@@ -1,0 +1,120 @@
+{
+  "language_code": "pt",
+  "refused": [],
+  "items": [
+    {
+      "story_id": 1,
+      "distractor_fact": "Na aldeia vizinha, o termómetro marcava {D}°C nessa mesma manhã.",
+      "gloss_en": "In the neighboring village, the thermometer read {D}°C that same morning.",
+      "entity_note": "The reading belongs to a different village's thermometer, not the one in Vale Novo."
+    },
+    {
+      "story_id": 2,
+      "distractor_fact": "Nesse mesmo dia, as ações de outra empresa do setor fecharam a {D}€.",
+      "gloss_en": "That same day, another company's shares in the sector closed at {D}€.",
+      "entity_note": "The price belongs to a different company's stock, not Cedro's."
+    },
+    {
+      "story_id": 3,
+      "distractor_fact": "Nessa mesma semana, a albufeira vizinha estava a {D} m.",
+      "gloss_en": "That same week, the neighboring reservoir stood at {D} m.",
+      "entity_note": "The level belongs to a different, neighboring reservoir, not the one at Serrano."
+    },
+    {
+      "story_id": 4,
+      "distractor_fact": "Nessa mesma tarde, outro balão do festival voava a uma altitude de {D} m.",
+      "gloss_en": "That same afternoon, another balloon at the festival was flying at an altitude of {D} m.",
+      "entity_note": "The altitude belongs to a different balloon and pilot, not Marcos."
+    },
+    {
+      "story_id": 5,
+      "distractor_fact": "Noutra conta poupança do mesmo banco, já se tinham gasto {D}€ nesse mês.",
+      "gloss_en": "In another savings account at the same bank, {D}€ had already been spent that month.",
+      "entity_note": "The spending figure belongs to a different account, not Inês's."
+    },
+    {
+      "story_id": 6,
+      "distractor_fact": "No cofre de outra loja da mesma cadeia, saíram {D}€ em levantamentos nessa semana.",
+      "gloss_en": "In another store's safe in the same chain, {D}€ went out in withdrawals that week.",
+      "entity_note": "The withdrawal total belongs to a different shop's safe, not Bento's."
+    },
+    {
+      "story_id": 7,
+      "distractor_fact": "Nesse mesmo mês, uma oficina concorrente teve despesas de {D}€.",
+      "gloss_en": "That same month, a competing workshop had expenses of {D}€.",
+      "entity_note": "The expense figure belongs to a different, competing workshop, not Teresa's."
+    },
+    {
+      "story_id": 8,
+      "distractor_fact": "Nessa mesma época, outra equipa da liga marcou {D} pts.",
+      "gloss_en": "That same season, another team in the league scored {D} pts.",
+      "entity_note": "The points figure belongs to a different team, not Falcões."
+    },
+    {
+      "story_id": 9,
+      "distractor_fact": "Nessa mesma semana, outra fábrica do grupo produziu {D} kg de fio.",
+      "gloss_en": "That same week, another factory in the group produced {D} kg of yarn.",
+      "entity_note": "The output belongs to a different factory, whose own target is left unstated, so it cannot be paired into a second subtraction."
+    },
+    {
+      "story_id": 10,
+      "distractor_fact": "Numa região vizinha, choveram nesse mesmo mês {D} mm.",
+      "gloss_en": "In a neighboring region, {D} mm fell that same month.",
+      "entity_note": "The rainfall belongs to a different region, whose own forecast is left unstated, so it cannot be paired into a second subtraction."
+    },
+    {
+      "story_id": 11,
+      "distractor_fact": "Noutro campo, um golfista diferente terminou a volta com {D} pts.",
+      "gloss_en": "On a different course, a different golfer finished the round with {D} pts.",
+      "entity_note": "The stroke count belongs to a different golfer on a different course, whose par is left unstated."
+    },
+    {
+      "story_id": 12,
+      "distractor_fact": "Nessa mesma manhã, um comboio de outra linha chegou à sua estação às {D} min contados desde a meia-noite.",
+      "gloss_en": "That same morning, a train on a different line arrived at its station at minute {D} counted from midnight.",
+      "entity_note": "The arrival time belongs to a different train on a different line, whose own timetable is left unstated."
+    },
+    {
+      "story_id": 13,
+      "distractor_fact": "No prédio vizinho, o apartamento de outro morador fica no piso número {D}.",
+      "gloss_en": "In the neighboring building, another resident's apartment is on floor number {D}.",
+      "entity_note": "The floor number belongs to a different building, whose own ground-floor reference is left unstated."
+    },
+    {
+      "story_id": 14,
+      "distractor_fact": "Nesse mesmo dia, o sensor de outra barragem registou uma leitura de {D}%.",
+      "gloss_en": "That same day, another dam's sensor recorded a reading of {D}%.",
+      "entity_note": "The reading belongs to a different dam's sensor, whose own reference level is left unstated."
+    },
+    {
+      "story_id": 15,
+      "distractor_fact": "Nesse mesmo mês, o cão de outro cliente da clínica pesava {D} kg.",
+      "gloss_en": "That same month, another client's dog at the clinic weighed {D} kg.",
+      "entity_note": "The weight belongs to a different dog and owner, not Helena's."
+    },
+    {
+      "story_id": 16,
+      "distractor_fact": "Nesse mesmo dia, outro carro foi registado num terceiro radar a {D} km/h.",
+      "gloss_en": "That same day, another car was clocked at a third radar at {D} km/h.",
+      "entity_note": "The speed belongs to a different car at a third radar, not either of the two radars in the story."
+    },
+    {
+      "story_id": 18,
+      "distractor_fact": "No mesmo grupo, um terceiro caminhante estava a uma altitude de {D} m.",
+      "gloss_en": "In the same group, a third hiker was at an altitude of {D} m.",
+      "entity_note": "The altitude belongs to a third hiker, neither Rui nor Filipa, the two the question compares."
+    },
+    {
+      "story_id": 19,
+      "distractor_fact": "Nesse mesmo trimestre, uma terceira empresa do setor registou um lucro de {D}€.",
+      "gloss_en": "That same quarter, a third company in the sector posted a profit of {D}€.",
+      "entity_note": "The profit belongs to a third company, neither Girassol nor Bétula, the two the question compares."
+    },
+    {
+      "story_id": 20,
+      "distractor_fact": "Na mesma maratona, um terceiro corredor fez um tempo de {D} min.",
+      "gloss_en": "In the same marathon, a third runner posted a time of {D} min.",
+      "entity_note": "The time belongs to a third runner, neither Alberto nor Bruno, the two the question compares."
+    }
+  ]
+}

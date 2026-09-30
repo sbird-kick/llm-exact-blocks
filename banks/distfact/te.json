@@ -1,0 +1,120 @@
+{
+  "language_code": "te",
+  "refused": [],
+  "items": [
+    {
+      "story_id": 1,
+      "distractor_fact": "పక్క పట్టణంలో ఉదయం ఉష్ణోగ్రత {D}°C నమోదైంది.",
+      "gloss_en": "In the neighbouring town, the morning temperature recorded was {D}°C.",
+      "entity_note": "a different town's own reading, not the noon/dawn temperature of this thermometer that the question compares"
+    },
+    {
+      "story_id": 2,
+      "distractor_fact": "మరో కంపెనీ షేరు ధర ఆ రోజు ₹{D} వద్ద ముగిసింది.",
+      "gloss_en": "Another company's share price closed that day at ₹{D}.",
+      "entity_note": "a different company's stock, not the open/close prices of this share that the question compares"
+    },
+    {
+      "story_id": 3,
+      "distractor_fact": "పక్క రిజర్వాయర్‌లో ఉదయం నీటి మట్టం {D} మీటర్లు ఉంది.",
+      "gloss_en": "At the neighbouring reservoir, the morning water level was {D} metres.",
+      "entity_note": "a different reservoir's own level, not the evening/morning readings of this reservoir that the question compares"
+    },
+    {
+      "story_id": 4,
+      "distractor_fact": "మరో డ్రోన్ మొదటి పరిశీలనలో {D} మీటర్ల ఎత్తులో ఉంది.",
+      "gloss_en": "Another drone was at an altitude of {D} metres at the first observation.",
+      "entity_note": "a different drone, not the two logged observations of this drone that the question compares"
+    },
+    {
+      "story_id": 5,
+      "distractor_fact": "మరో ప్యాకెట్ బరువు డెలివరీకి ముందు {D} కిలోగ్రాములు ఉంది.",
+      "gloss_en": "Another package weighed {D} kilograms before delivery.",
+      "entity_note": "a different package, not the before/after weights of this package that the question compares"
+    },
+    {
+      "story_id": 6,
+      "distractor_fact": "పక్క గ్రామ జనాభా గత జనగణనలో {D} ఉంది.",
+      "gloss_en": "The neighbouring village's population in the previous census was {D}.",
+      "entity_note": "a different village's own count, not the two censuses of this village that the question compares"
+    },
+    {
+      "story_id": 7,
+      "distractor_fact": "పక్క నదీ గేజ్‌లో నీటి మట్టం {D} సెంటీమీటర్లుగా నమోదైంది.",
+      "gloss_en": "At the neighbouring river gauge, the water level was recorded at {D} centimetres.",
+      "entity_note": "a different gauge with its own unstated datum, not this gauge's reading against its own stated reference line"
+    },
+    {
+      "story_id": 8,
+      "distractor_fact": "సీత వద్ద మొత్తం ₹{D} ఉన్నాయి.",
+      "gloss_en": "Sita had a total of ₹{D}.",
+      "entity_note": "a different person's own money, not Ramu's total and spending that the question compares"
+    },
+    {
+      "story_id": 9,
+      "distractor_fact": "మరో ఖాతాలో ఈ నెల ₹{D} జమ అయ్యాయి.",
+      "gloss_en": "In another account, ₹{D} was deposited this month.",
+      "entity_note": "a different account, not the deposit/withdrawal of this account that the question compares"
+    },
+    {
+      "story_id": 10,
+      "distractor_fact": "పక్క దుకాణం ఈ నెల ఆదాయం ₹{D} ఉంది.",
+      "gloss_en": "The neighbouring shop's income this month was ₹{D}.",
+      "entity_note": "a different shop's own income, not this shop's income/expense that the question compares"
+    },
+    {
+      "story_id": 11,
+      "distractor_fact": "మరో జట్టు ఈ సీజన్‌లో {D} గోల్స్ చేసింది.",
+      "gloss_en": "Another team scored {D} goals this season.",
+      "entity_note": "a different team's own tally, not this team's goals scored/conceded that the question compares"
+    },
+    {
+      "story_id": 12,
+      "distractor_fact": "మరో వ్యాపారికి ఈ నెల లావాదేవీల ద్వారా ₹{D} లాభం వచ్చింది.",
+      "gloss_en": "Another trader made a profit of ₹{D} from deals this month.",
+      "entity_note": "a different trader, not this trader's gain/loss that the question compares"
+    },
+    {
+      "story_id": 13,
+      "distractor_fact": "పక్క ఫ్యాక్టరీ ఈ వారం వాస్తవ ఉత్పత్తి {D} యూనిట్లు ఉంది.",
+      "gloss_en": "The neighbouring factory's actual production this week was {D} units.",
+      "entity_note": "a different factory with its own unstated target, not this factory's actual output against its own stated target"
+    },
+    {
+      "story_id": 14,
+      "distractor_fact": "పక్క జిల్లాలో ఈ వర్షాకాలంలో వాస్తవ వర్షపాతం {D} మిల్లీమీటర్లు నమోదైంది.",
+      "gloss_en": "In the neighbouring district, actual rainfall this monsoon was recorded at {D} millimetres.",
+      "entity_note": "a different district's own station, not this monsoon's actual rainfall against its own stated forecast"
+    },
+    {
+      "story_id": 15,
+      "distractor_fact": "మరో క్రీడాకారుడు వేరే కోర్సులో ఈ రౌండ్‌ను {D} స్ట్రోక్‌లలో ముగించాడు.",
+      "gloss_en": "Another player finished this round on a different course in {D} strokes.",
+      "entity_note": "a different player on a different course whose par is not stated, not this player's score against this course's stated par"
+    },
+    {
+      "story_id": 16,
+      "distractor_fact": "మరో రైలు వాస్తవ రాక సమయం అర్ధరాత్రి నుండి {D} నిమిషాల తర్వాత ఉంది.",
+      "gloss_en": "Another train's actual arrival time was {D} minutes after midnight.",
+      "entity_note": "a different train with its own unstated schedule, not this train's actual arrival against its own stated schedule"
+    },
+    {
+      "story_id": 17,
+      "distractor_fact": "మరో మ్యాచ్‌లో జట్టు గామా {D} గోల్స్ చేసింది.",
+      "gloss_en": "In another match, team Gamma scored {D} goals.",
+      "entity_note": "a different match and team, not Alpha's goals against Beta's in this match that the question compares"
+    },
+    {
+      "story_id": 19,
+      "distractor_fact": "అదే రోజు నగరం ఇ ఉష్ణోగ్రత {D}°C ఉంది.",
+      "gloss_en": "That same day, city C's temperature was {D}°C.",
+      "entity_note": "a third city, not city A's temperature relative to city B's that the question compares"
+    },
+    {
+      "story_id": 20,
+      "distractor_fact": "ఇదే ఎక్కడంలో పర్వతారోహకుడు రవి {D} మీటర్ల ఎత్తుకు చేరుకున్నాడు.",
+      "gloss_en": "On the same climb, mountaineer Ravi reached an altitude of {D} metres.",
+      "entity_note": "a third mountaineer, not Arjun's altitude relative to Vikas's that the question compares"
+    }
+  ]
+}

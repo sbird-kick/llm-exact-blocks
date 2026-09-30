@@ -1,0 +1,72 @@
+{
+  "language_code": "ml",
+  "refused": [],
+  "items": [
+    {
+      "story_id": 1,
+      "distractor_fact": "ആ വൈകുന്നേരം തന്നെ മറ്റൊരു കാലാവസ്ഥാ കേന്ദ്രത്തിലെ റീഡിംഗ് {D}°C ആയിരുന്നു.",
+      "gloss_en": "That same evening, a different weather station's reading was {D} °C.",
+      "entity_note": "Owner is a weather station (an instrument), unlike the first distractor_fact whose owner was a different city (a place)."
+    },
+    {
+      "story_id": 2,
+      "distractor_fact": "അതേ ദിവസം മറ്റൊരു ഓഹരി സൂചികയുടെ മൂല്യം €{D} ആയിരുന്നു.",
+      "gloss_en": "On the same day, a different stock index's value was €{D}.",
+      "entity_note": "Owner is a market index (an instrument/benchmark), unlike the first distractor_fact whose owner was a different company (an organisation)."
+    },
+    {
+      "story_id": 3,
+      "distractor_fact": "അതേ ദിവസം താഴെയുള്ള മറ്റൊരു ജല അളവുകോൽ കാണിച്ച റീഡിംഗ് {D} m ആയിരുന്നു.",
+      "gloss_en": "On the same day, a different water gauge downstream showed a reading of {D} m.",
+      "entity_note": "Owner is a measuring gauge (an instrument), unlike the first distractor_fact whose owner was a different lake (a place)."
+    },
+    {
+      "story_id": 4,
+      "distractor_fact": "അതേ മാസം മറ്റൊരാൾ സ്വന്തം അക്കൗണ്ടിലേക്ക് €{D} നിക്ഷേപിച്ചു.",
+      "gloss_en": "During the same month, a different person deposited €{D} into their own account.",
+      "entity_note": "Owner is an individual person, unlike the first distractor_fact whose owner was a different account (an instrument)."
+    },
+    {
+      "story_id": 5,
+      "distractor_fact": "മറ്റൊരു ഉപഭോക്താവിന്റെ കാർഡിൽ €{D} ബാക്കിയുണ്ട്.",
+      "gloss_en": "A different customer's card has €{D} remaining.",
+      "entity_note": "Owner is a person (a customer), unlike the first distractor_fact whose owner was a different card (an instrument)."
+    },
+    {
+      "story_id": 6,
+      "distractor_fact": "കുടുംബത്തിലെ മറ്റൊരാളുടെ ലൈനിൽ ഈ മാസം {D} GB ബാക്കിയുണ്ട്.",
+      "gloss_en": "A different family member's line has {D} GB remaining this month.",
+      "entity_note": "Owner is a person (a family member), unlike the first distractor_fact whose owner was a different plan (an instrument)."
+    },
+    {
+      "story_id": 7,
+      "distractor_fact": "അയൽപക്കത്തെ ഒരു വ്യക്തിയുടെ ഈ മാസത്തെ വരുമാനം €{D} ആയിരുന്നു.",
+      "gloss_en": "A neighboring individual's income this month was €{D}.",
+      "entity_note": "Owner is a single person, unlike the first distractor_fact whose owner was a different household (a group/organisation-like entity)."
+    },
+    {
+      "story_id": 8,
+      "distractor_fact": "അതേ സീസണിൽ മറ്റൊരു കളിക്കാരൻ ലീഗിൽ {D} ഗോൾ നേടി.",
+      "gloss_en": "In the same season, a different player scored {D} goals in the league.",
+      "entity_note": "Owner is an individual player (a person), unlike the first distractor_fact whose owner was a different team (an organisation)."
+    },
+    {
+      "story_id": 9,
+      "distractor_fact": "ഈ പാദത്തിൽ ഒരു സ്വതന്ത്ര ഫ്രീലാൻസർ €{D} വരുമാനം രേഖപ്പെടുത്തി.",
+      "gloss_en": "This quarter, an independent freelancer recorded €{D} in earnings.",
+      "entity_note": "Owner is a single person (a freelancer), unlike the first distractor_fact whose owner was a different small business (an organisation)."
+    },
+    {
+      "story_id": 15,
+      "distractor_fact": "മറ്റൊരു ബസ് കമ്പനിയുടെ വാഹനത്തിന്റെ യഥാർത്ഥ വരവ് സമയ റീഡിംഗ് {D} min ആയിരുന്നു, അതിന്റെ സ്വന്തം ഷെഡ്യൂൾ ഒരിക്കലും പറഞ്ഞിട്ടില്ല.",
+      "gloss_en": "A different bus company's vehicle had an actual arrival time reading of {D} min, with its own schedule never stated.",
+      "entity_note": "Shared-reference domain (rule 6): owner is a different organisation (a bus company) whose own scheduled reading is never given, unlike the first distractor_fact whose owner was a different train on a different line (an instrument/service)."
+    },
+    {
+      "story_id": 16,
+      "distractor_fact": "മറ്റൊരു പ്രോപ്പർട്ടി മാനേജ്മെന്റ് കമ്പനിയുടെ കെട്ടിടത്തിലെ ഡയറക്ടറി റീഡിംഗ് {D} ആയിരുന്നു, അതിന്റെ സ്വന്തം ഗ്രൗണ്ട് ഫ്ലോർ റീഡിംഗ് ഒരിക്കലും പറഞ്ഞിട്ടില്ല.",
+      "gloss_en": "A different property management company's building directory reading was {D}, with its own ground-floor reading never stated.",
+      "entity_note": "Shared-reference domain (rule 6): owner is a different organisation (a property management company), unlike the first distractor_fact whose owner was a different building (a place)."
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "language_code": "bn",
+  "refused": [],
+  "items": [
+    {
+      "story_id": 1,
+      "distractor_fact": "পাশের বাড়ির একজন বাসিন্দা সেদিন সকালে নিজের থার্মোমিটারে {D}°সে তাপমাত্রা দেখেছিলেন।",
+      "gloss_en": "A resident of the neighboring house saw a temperature of {D}°C on his own thermometer that morning.",
+      "entity_note": "an individual resident's own thermometer reading; owner is a PERSON, unlike the first sentence's different village (a PLACE)"
+    },
+    {
+      "story_id": 2,
+      "distractor_fact": "সেদিনই আরেকজন বিনিয়োগকারী তার শেয়ার {D} টাকায় বিক্রি করেছিলেন।",
+      "gloss_en": "That same day another investor sold his shares for {D} taka.",
+      "entity_note": "a different investor's own sale price; owner is a PERSON, unlike the first sentence's different company (an ORGANISATION)"
+    },
+    {
+      "story_id": 3,
+      "distractor_fact": "একজন কৃষক তার জমির পাশের খালে সেদিন সকালে জলস্তর {D} মিটার পরিমাপ করেছিলেন।",
+      "gloss_en": "A farmer measured the water level in the canal beside his field as {D} metres that morning.",
+      "entity_note": "a farmer's own canal-water reading; owner is a PERSON, unlike the first sentence's neighboring reservoir (a PLACE)"
+    },
+    {
+      "story_id": 4,
+      "distractor_fact": "মেলায় উপস্থিত একজন দর্শক সেদিন তার ঘুড়ি {D} মিটার উচ্চতায় ওড়াচ্ছিলেন।",
+      "gloss_en": "A visitor at the fair was flying his kite at a height of {D} metres that day.",
+      "entity_note": "a fairgoer's own kite height; owner is a PERSON, unlike the first sentence's different balloon (an INSTRUMENT/object)"
+    },
+    {
+      "story_id": 5,
+      "distractor_fact": "একই গুদামে একজন কর্মীর ব্যক্তিগত ব্যাগের ওজন ছিল {D} কেজি।",
+      "gloss_en": "In the same warehouse, a worker's personal bag weighed {D} kilograms.",
+      "entity_note": "a worker's own bag; owner is a PERSON, unlike the first sentence's different package (an object/INSTRUMENT)"
+    },
+    {
+      "story_id": 6,
+      "distractor_fact": "একই বাজারের ব্যবস্থাপনা কমিটির তহবিলে সেদিন {D} টাকা ছিল।",
+      "gloss_en": "The same market's management committee's fund held {D} taka that day.",
+      "entity_note": "the market management committee's fund; owner is an ORGANISATION, unlike the first sentence's neighboring shopkeeper (a PERSON)"
+    },
+    {
+      "story_id": 7,
+      "distractor_fact": "একই ব্যাংকের একটি শাখার নিজস্ব তহবিলে সেদিন {D} টাকা ছিল।",
+      "gloss_en": "A branch of the same bank had {D} taka in its own fund that day.",
+      "entity_note": "a bank branch's own fund; owner is an ORGANISATION, unlike the first sentence's different customer (a PERSON)"
+    },
+    {
+      "story_id": 8,
+      "distractor_fact": "একজন প্রতিবেশী এই মাসে {D} টাকা সঞ্চয় করেছিলেন।",
+      "gloss_en": "A neighbor saved {D} taka this month.",
+      "entity_note": "a lone individual's own savings; owner is a single PERSON, unlike the first sentence's different family (a household group)"
+    },
+    {
+      "story_id": 9,
+      "distractor_fact": "গত মরসুমে এই লিগের সর্বোচ্চ গোলদাতা মোট {D}টি গোল করেছিলেন।",
+      "gloss_en": "Last season, the league's top scorer scored a total of {D} goals.",
+      "entity_note": "an individual player's tally from a past season; owner is a PERSON, unlike the first sentence's different team (an ORGANISATION)"
+    },
+    {
+      "story_id": 10,
+      "distractor_fact": "একই বাজারের একটি ব্যবসায়ী সমিতির তহবিলে এই সপ্তাহে {D} টাকা জমা হয়েছে।",
+      "gloss_en": "In the same market, a traders' association's fund received a deposit of {D} taka this week.",
+      "entity_note": "a traders' association's fund; owner is an ORGANISATION, unlike the first sentence's neighboring trader (a PERSON)"
+    },
+    {
+      "story_id": 11,
+      "distractor_fact": "একই শিল্প এলাকার একজন তত্ত্বাবধায়ক এই মাসে তার নিজস্ব লক্ষ্যমাত্রার বিপরীতে {D} ইউনিট উৎপাদন তদারকি করেছিলেন।",
+      "gloss_en": "A supervisor in the same industrial area oversaw production of {D} units this month against his own target.",
+      "entity_note": "an individual supervisor with his own (unstated) target; owner is a PERSON, unlike the first sentence's different factory (an ORGANISATION/PLACE)"
+    },
+    {
+      "story_id": 12,
+      "distractor_fact": "একই দোকানে একজন বিক্রয়কর্মী এই মাসে তার নিজস্ব লক্ষ্যমাত্রার বিপরীতে {D} ইউনিট বিক্রি করেছেন।",
+      "gloss_en": "In the same shop, a salesperson sold {D} units this month against their own target.",
+      "entity_note": "an individual salesperson with their own (unstated) target; owner is a PERSON, unlike the first sentence's different shop (a PLACE/ORGANISATION)"
+    },
+    {
+      "story_id": 13,
+      "distractor_fact": "একই বছরে, ভিন্ন একটি এলাকায় কাজ করা একটি কৃষি সমবায় সমিতি তাদের নিজস্ব পূর্বাভাসের তুলনায় {D} মিলিমিটার বৃষ্টিপাত রেকর্ড করেছিল।",
+      "gloss_en": "In the same year, an agricultural cooperative working in a different area recorded {D} millimetres of rainfall relative to its own forecast.",
+      "entity_note": "an agricultural cooperative with its own (unstated) forecast; owner is an ORGANISATION, unlike the first sentence's neighboring region (a PLACE)"
+    },
+    {
+      "story_id": 14,
+      "distractor_fact": "একই ক্লাবের একটি দল একটি ভিন্ন হোলে খেলে মোট {D} স্ট্রোক নিয়েছিল, যার পার সেখানে উল্লেখ নেই।",
+      "gloss_en": "A team from the same club played a different hole and took a total of {D} strokes, whose par there is not stated.",
+      "entity_note": "a team's total on a different, unstated-par hole; owner is an ORGANISATION, unlike the first sentence's different individual golfer (a PERSON)"
+    },
+    {
+      "story_id": 15,
+      "distractor_fact": "একই স্টেশন থেকে ছাড়া একটি বাস কোম্পানি তাদের নিজস্ব সময়সূচির তুলনায় যাত্রা শুরুর {D} মিনিট পরে গন্তব্যে পৌঁছেছিল।",
+      "gloss_en": "A bus company departing from the same station reached its destination {D} minutes after departure, relative to its own schedule.",
+      "entity_note": "a bus company with its own (unstated) schedule; owner is an ORGANISATION, unlike the first sentence's different train (an INSTRUMENT/vehicle)"
+    },
+    {
+      "story_id": 16,
+      "distractor_fact": "একই প্রকল্পের একটি ভিন্ন পর্যবেক্ষণ বিভাগ তাদের নিজস্ব রেফারেন্স লেভেলের তুলনায় {D} সেন্টিমিটার রিডিং রেকর্ড করেছে।",
+      "gloss_en": "A different monitoring department of the same project recorded a reading of {D} centimetres relative to its own reference level.",
+      "entity_note": "a monitoring department with its own (unstated) reference level; owner is an ORGANISATION, unlike the first sentence's different sensor (an INSTRUMENT)"
+    },
+    {
+      "story_id": 17,
+      "distractor_fact": "একই টুর্নামেন্টে খেলা একজন খেলোয়াড় এই মরসুমে ব্যক্তিগতভাবে {D}টি গোল করেছেন।",
+      "gloss_en": "A player who played in the same tournament personally scored {D} goals this season.",
+      "entity_note": "an individual player's own personal season tally; owner is a PERSON, unlike the first sentence's third team in a separate match (an ORGANISATION)"
+    }
+  ]
+}

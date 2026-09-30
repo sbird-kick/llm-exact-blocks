@@ -1,0 +1,78 @@
+{
+  "language_code": "fa",
+  "refused": [],
+  "items": [
+    {
+      "story_id": 1,
+      "distractor_fact": "دمای هوا در ایستگاه هواشناسی شهر مجاور، در همان روز {D} درجه سانتی‌گراد ثبت شد.",
+      "gloss_en": "The temperature at the weather station in the neighboring city was recorded as {D} degrees C on the same day.",
+      "entity_note": "different place: a weather station in a neighboring city, not the one whose end-of-day/start-of-day readings are asked about"
+    },
+    {
+      "story_id": 2,
+      "distractor_fact": "سهام یک شرکت دیگر در همان روز {D} دلار معامله شد.",
+      "gloss_en": "Shares of another company were traded at {D} dollars on the same day.",
+      "entity_note": "different entity: another company's stock, not the one whose open/close price is asked about"
+    },
+    {
+      "story_id": 3,
+      "distractor_fact": "سطح آب یک مخزن دیگر در همان هفته {D} متر بود.",
+      "gloss_en": "The water level of another reservoir was {D} meters in the same week.",
+      "entity_note": "different place: another reservoir, not the one whose end-of-week/start-of-week level is asked about"
+    },
+    {
+      "story_id": 4,
+      "distractor_fact": "ارتفاع یک پهپاد دیگر در همان پرواز {D} متر بود.",
+      "gloss_en": "The altitude of another drone during the same flight was {D} meters.",
+      "entity_note": "different entity: another drone, not the one whose altitude change is asked about"
+    },
+    {
+      "story_id": 5,
+      "distractor_fact": "وزن یک بیمار دیگر در همان ویزیت {D} کیلوگرم بود.",
+      "gloss_en": "The weight of another patient at the same visit was {D} kilograms.",
+      "entity_note": "different entity: another patient, not the one whose weight change is asked about"
+    },
+    {
+      "story_id": 6,
+      "distractor_fact": "جمعیت روستای مجاور در همان سال {D} نفر بود.",
+      "gloss_en": "The population of the neighboring village in the same year was {D} people.",
+      "entity_note": "different place: a neighboring village, not the one whose end-of-year/start-of-year population is asked about"
+    },
+    {
+      "story_id": 7,
+      "distractor_fact": "سرعت یک خودروی دیگر در همان رادار {D} کیلومتر بر ساعت ثبت شد.",
+      "gloss_en": "The speed of another car was recorded as {D} km/h at the same radar.",
+      "entity_note": "different entity: another car, not the one whose speed change between the two radar readings is asked about"
+    },
+    {
+      "story_id": 8,
+      "distractor_fact": "در یک حساب بانکی دیگر طی همین ماه {D} دلار واریز شد.",
+      "gloss_en": "In another bank account, {D} dollars were deposited during the same month.",
+      "entity_note": "different entity: another bank account, not the one whose net balance is asked about"
+    },
+    {
+      "story_id": 10,
+      "distractor_fact": "خانواده‌ای دیگر در همان ماه {D} دلار هزینه کرد.",
+      "gloss_en": "Another household spent {D} dollars in the same month.",
+      "entity_note": "different entity: another household, not the one whose net financial result is asked about"
+    },
+    {
+      "story_id": 11,
+      "distractor_fact": "یک تیم دیگر در همان فصل {D} گل زد.",
+      "gloss_en": "Another team scored {D} goals in the same season.",
+      "entity_note": "different entity: another soccer team, not the one whose goal difference is asked about"
+    },
+    {
+      "story_id": 12,
+      "distractor_fact": "یک معامله‌گر دیگر در همان هفته {D} دلار سود کرد.",
+      "gloss_en": "Another trader gained {D} dollars in the same week.",
+      "entity_note": "different entity: another trader, not the one whose net trading result is asked about"
+    },
+    {
+      "story_id": 15,
+      "distractor_fact": "یک گلف‌باز دیگر در زمین گلف دیگری {D} ضربه زد.",
+      "gloss_en": "Another golfer took {D} strokes on a different golf course.",
+      "entity_note": "shared-reference domain: different entity AND different course, whose par is not the {S} stated in the story, so this stroke count cannot be compared to that par"
+    }
+  ]
+}

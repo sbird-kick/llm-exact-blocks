@@ -1,0 +1,108 @@
+{
+  "language_code": "ro",
+  "refused": [],
+  "items": [
+    {
+      "story_id": 1,
+      "distractor_fact": "Stația meteo din orașul vecin a înregistrat {D}°C în aceeași dimineață.",
+      "gloss_en": "The weather station in the neighboring town recorded {D}°C the same morning.",
+      "entity_note": "A different weather station, located in a neighboring town."
+    },
+    {
+      "story_id": 2,
+      "distractor_fact": "Acțiunile unei alte companii, listate pe aceeași bursă, au fost cotate la {D} $ în aceeași zi.",
+      "gloss_en": "Shares of a different company, listed on the same exchange, were quoted at {D} $ that same day.",
+      "entity_note": "A different company's shares, on the same exchange."
+    },
+    {
+      "story_id": 3,
+      "distractor_fact": "Nivelul apei dintr-un rezervor vecin a fost de {D} m în aceeași perioadă.",
+      "gloss_en": "The water level in a neighboring reservoir was {D} m during the same period.",
+      "entity_note": "A different, neighboring reservoir."
+    },
+    {
+      "story_id": 4,
+      "distractor_fact": "Un avion aflat în aceeași zonă zbura la o altitudine de {D} m în acel moment.",
+      "gloss_en": "An airplane in the same area was flying at an altitude of {D} m at that moment.",
+      "entity_note": "A different aircraft (an airplane), not the weather balloon."
+    },
+    {
+      "story_id": 6,
+      "distractor_fact": "Într-un alt cont de economii au fost depuse {D} $ în aceeași perioadă.",
+      "gloss_en": "Into a different savings account, {D} $ was deposited during the same period.",
+      "entity_note": "A different savings account."
+    },
+    {
+      "story_id": 7,
+      "distractor_fact": "Caseta de rezervă a unui magazin vecin conținea {D} $ la începutul aceleiași zile.",
+      "gloss_en": "The petty cash box of a neighboring store contained {D} $ at the start of that same day.",
+      "entity_note": "A different store's petty cash box."
+    },
+    {
+      "story_id": 8,
+      "distractor_fact": "O altă afacere din aceeași zonă a raportat cheltuieli de {D} $ în aceeași lună.",
+      "gloss_en": "A different business in the same area reported expenses of {D} $ that same month.",
+      "entity_note": "A different business."
+    },
+    {
+      "story_id": 9,
+      "distractor_fact": "O altă echipă din același campionat a marcat un total de {D} în același sezon.",
+      "gloss_en": "A different team in the same league scored a total of {D} that same season.",
+      "entity_note": "A different football team."
+    },
+    {
+      "story_id": 10,
+      "distractor_fact": "Un alt portofoliu de investiții a înregistrat pierderi de {D} $ în aceeași perioadă.",
+      "gloss_en": "A different investment portfolio recorded losses of {D} $ during the same period.",
+      "entity_note": "A different investment portfolio."
+    },
+    {
+      "story_id": 11,
+      "distractor_fact": "O fabrică diferită, din același grup, a produs efectiv {D} kg în aceeași săptămână, față de ținta proprie, nemenționată aici.",
+      "gloss_en": "A different factory, in the same group, actually produced {D} kg that same week, against its own target, not stated here.",
+      "entity_note": "A different factory, whose own target is not the one stated in this story."
+    },
+    {
+      "story_id": 12,
+      "distractor_fact": "Un alt magazin din același lanț a realizat vânzări efective de {D} $ în aceeași lună, față de prognoza proprie, nemenționată aici.",
+      "gloss_en": "A different store in the same chain achieved actual sales of {D} $ that same month, against its own forecast, not stated here.",
+      "entity_note": "A different store, whose own forecast is not the one stated in this story."
+    },
+    {
+      "story_id": 13,
+      "distractor_fact": "O stație meteorologică dintr-o altă localitate a înregistrat efectiv {D} mm de precipitații în aceeași lună, față de prognoza proprie, nemenționată aici.",
+      "gloss_en": "A weather station in a different locality actually recorded {D} mm of rainfall that same month, against its own forecast, not stated here.",
+      "entity_note": "A different weather station in a different locality, with its own unstated forecast."
+    },
+    {
+      "story_id": 14,
+      "distractor_fact": "Un alt jucător, pe un teren diferit, a încheiat runda cu un total de {D}, față de parul propriu al terenului respectiv, nemenționat aici.",
+      "gloss_en": "A different player, on a different course, finished the round with a total of {D}, against that course's own par, not stated here.",
+      "entity_note": "A different player on a different course, whose own par is not the one stated in this story."
+    },
+    {
+      "story_id": 15,
+      "distractor_fact": "Pe un alt teren de golf, un jucător diferit a încheiat runda cu un total de {D}, față de parul propriu al acelui teren, nemenționat aici.",
+      "gloss_en": "On a different golf course, a different player finished the round with a total of {D}, against that course's own par, not stated here.",
+      "entity_note": "A different player on a different golf course, whose own par is not the one stated in this story."
+    },
+    {
+      "story_id": 17,
+      "distractor_fact": "Într-un alt meci din aceeași etapă, o a treia echipă a marcat un total de {D}.",
+      "gloss_en": "In a different match in the same round, a third team scored a total of {D}.",
+      "entity_note": "A third team, playing in a different match."
+    },
+    {
+      "story_id": 19,
+      "distractor_fact": "La un test diferit, susținut de o altă clasă, un al treilea elev a obținut un punctaj de {D}.",
+      "gloss_en": "In a different test, taken by a different class, a third student got a score of {D}.",
+      "entity_note": "A third student, in a different test and class."
+    },
+    {
+      "story_id": 20,
+      "distractor_fact": "Un alt oraș, aflat într-o regiune diferită, are o populație de {D}.",
+      "gloss_en": "A different city, located in a different region, has a population of {D}.",
+      "entity_note": "A different city, in another region."
+    }
+  ]
+}

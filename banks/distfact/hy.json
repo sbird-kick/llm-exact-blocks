@@ -1,0 +1,108 @@
+{
+ "language_code": "hy",
+ "refused": [],
+ "items": [
+  {
+   "story_id": 1,
+   "distractor_fact": "Հարևան քաղաքի կայանում ջերմաստիճանը գրանցվել է {D} °C:",
+   "gloss_en": "At the station in the neighboring town, the temperature was recorded as D degrees C.",
+   "entity_note": "a different weather station, in a neighboring town, from the one in the story"
+  },
+  {
+   "story_id": 2,
+   "distractor_fact": "Մեկ այլ ընկերության բաժնետոմսի գինը կազմել է {D} դոլար:",
+   "gloss_en": "Another company's stock price was D dollars.",
+   "entity_note": "a different company's stock, not the one whose price is being compared"
+  },
+  {
+   "story_id": 3,
+   "distractor_fact": "Հարևան գետի մակարդակը կազմել է {D} մետր:",
+   "gloss_en": "The level of the neighboring river was D meters.",
+   "entity_note": "a different river than the one whose morning/evening levels are compared"
+  },
+  {
+   "story_id": 4,
+   "distractor_fact": "Մեկ այլ օդապարիկի բարձրությունը կազմել է {D} մետր:",
+   "gloss_en": "Another balloon's altitude was D meters.",
+   "entity_note": "a different balloon than the one being measured twice"
+  },
+  {
+   "story_id": 5,
+   "distractor_fact": "Հարևան ագարակի կենդանու քաշը կազմել է {D} կիլոգրամ:",
+   "gloss_en": "The weight of the animal at the neighboring farm was D kilograms.",
+   "entity_note": "a different animal, at a neighboring farm, than the one weighed at month start/end"
+  },
+  {
+   "story_id": 6,
+   "distractor_fact": "Հարևան գյուղի բնակչությունը կազմել է {D} բնակիչ:",
+   "gloss_en": "The neighboring village's population was D inhabitants.",
+   "entity_note": "a different village than the one whose population changed"
+  },
+  {
+   "story_id": 7,
+   "distractor_fact": "Մեկ այլ ավտոմեքենայի արագության ցուցմունքը եղել է {D} կմ/ժ:",
+   "gloss_en": "Another car's speed reading was D km/h.",
+   "entity_note": "a different car than the one measured twice"
+  },
+  {
+   "story_id": 8,
+   "distractor_fact": "Մեկ այլ ուսանող ունեցել է {D} դոլար:",
+   "gloss_en": "Another student had D dollars.",
+   "entity_note": "a different student than the one whose balance is asked about"
+  },
+  {
+   "story_id": 9,
+   "distractor_fact": "Մեկ այլ հաշվին մուտքագրվել է {D} եվրո:",
+   "gloss_en": "D euros were deposited into another account.",
+   "entity_note": "a different bank account than the one whose balance changed"
+  },
+  {
+   "story_id": 10,
+   "distractor_fact": "Մեկ այլ ընկերության ամսական եկամուտը կազմել է {D} դոլար:",
+   "gloss_en": "Another company's monthly income was D dollars.",
+   "entity_note": "a different company than the one whose net result is asked about"
+  },
+  {
+   "story_id": 11,
+   "distractor_fact": "Մեկ այլ թիմ մրցաշրջանում խփել է {D} գոլ:",
+   "gloss_en": "Another team scored D goals during the season.",
+   "entity_note": "a different team than the one whose goal difference is asked about"
+  },
+  {
+   "story_id": 12,
+   "distractor_fact": "Մեկ այլ ներդրող ստացել է {D} դոլար օգուտ:",
+   "gloss_en": "Another investor gained D dollars.",
+   "entity_note": "a different investor than the one whose net result is asked about"
+  },
+  {
+   "story_id": 13,
+   "distractor_fact": "Մեկ այլ գործարան արտադրել է {D} միավոր:",
+   "gloss_en": "Another factory produced D units.",
+   "entity_note": "a different factory, with its own unstated target, than the one being compared to its target"
+  },
+  {
+   "story_id": 14,
+   "distractor_fact": "Մեկ այլ խանութի ամսական վաճառքը կազմել է {D} դոլար:",
+   "gloss_en": "Another shop's monthly sales were D dollars.",
+   "entity_note": "a different shop, with its own unstated plan, than the one being compared to its plan"
+  },
+  {
+   "story_id": 15,
+   "distractor_fact": "Հարևան կայանում տեղումների քանակը կազմել է {D} միլիմետր:",
+   "gloss_en": "At the neighboring station, rainfall was D millimeters.",
+   "entity_note": "a different weather station, with its own unstated forecast, than the one being compared to its forecast"
+  },
+  {
+   "story_id": 16,
+   "distractor_fact": "Մեկ այլ խաղացող մեկ այլ դաշտում խաղն ավարտել է {D} հարվածով:",
+   "gloss_en": "Another player finished a round on a different course with D strokes.",
+   "entity_note": "a different player on a different course, whose par is not stated, than the one being compared to par"
+  },
+  {
+   "story_id": 17,
+   "distractor_fact": "Գ թիմը մրցախաղում խփել է {D} գոլ:",
+   "gloss_en": "Team C scored D goals in its match.",
+   "entity_note": "a third team, Team C, distinct from both Team A and Team B being compared"
+  }
+ ]
+}

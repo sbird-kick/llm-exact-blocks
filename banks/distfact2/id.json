@@ -1,0 +1,84 @@
+{
+  "language_code": "id",
+  "refused": [],
+  "items": [
+    {
+      "story_id": 1,
+      "distractor_fact": "Termometer pribadi milik seorang warga di kota lain menunjukkan angka {D} pada sore itu.",
+      "gloss_en": "A resident of a different city's personal thermometer showed the number {D} that afternoon.",
+      "entity_note": "a resident of a different city and their own personal thermometer (a person), differing in kind from the first sentence's neighboring-village weather station (a place)."
+    },
+    {
+      "story_id": 2,
+      "distractor_fact": "Nilai portofolio saham milik seorang investor pribadi ditutup pada {D} pada hari yang sama.",
+      "gloss_en": "An individual investor's private stock portfolio value closed at {D} on the same day.",
+      "entity_note": "a private individual investor and their own portfolio (a person), differing in kind from the first sentence's other listed company (an organisation)."
+    },
+    {
+      "story_id": 3,
+      "distractor_fact": "Reservoir milik perusahaan air minum setempat tercatat berada di ketinggian {D} pada musim yang sama.",
+      "gloss_en": "A reservoir owned by the local drinking-water utility company was recorded at a height of {D} in the same season.",
+      "entity_note": "a water utility company and its own reservoir (an organisation), differing in kind from the first sentence's lake in a neighboring district (a place)."
+    },
+    {
+      "story_id": 4,
+      "distractor_fact": "Pesawat model milik seorang penghobi lain tercatat terbang pada ketinggian {D} pada hari yang sama.",
+      "gloss_en": "A different hobbyist's model aircraft was recorded flying at an altitude of {D} on the same day.",
+      "entity_note": "a hobbyist and their own named model aircraft (a person), differing in kind from the first sentence's different drone with no owner stated (an instrument)."
+    },
+    {
+      "story_id": 5,
+      "distractor_fact": "Tim atletik dari sekolah lain mencatat rata-rata berat badan pemainnya sebesar {D} pada pemeriksaan serupa musim itu.",
+      "gloss_en": "An athletics team from a different school recorded an average player weight of {D} at a similar check that season.",
+      "entity_note": "a different school's athletic team and its own aggregate figure (an organisation), differing in kind from the first sentence's different athlete on the same team (a person)."
+    },
+    {
+      "story_id": 6,
+      "distractor_fact": "Pada seri balapan musim lalu, kecepatan tertinggi yang tercatat di papan skor adalah {D}.",
+      "gloss_en": "In last season's racing series, the top speed recorded on the scoreboard was {D}.",
+      "entity_note": "last season's racing series and its own scoreboard record (a different series/edition), differing in kind from the first sentence's different race car on the same track (an instrument)."
+    },
+    {
+      "story_id": 7,
+      "distractor_fact": "Koperasi sekolah memiliki total dana kas sebesar {D} pada minggu itu.",
+      "gloss_en": "The school cooperative had a total cash fund of {D} that week.",
+      "entity_note": "the school cooperative's own cash fund (an organisation), differing in kind from the first sentence's sibling (a person)."
+    },
+    {
+      "story_id": 8,
+      "distractor_fact": "Cabang bank lain di kota yang sama mencatat total setoran seluruh nasabahnya sebesar {D} bulan itu.",
+      "gloss_en": "A different bank branch in the same city recorded total deposits from all its customers as {D} that month.",
+      "entity_note": "a different bank branch and its own aggregate total (an organisation), differing in kind from the first sentence's different individual customer (a person)."
+    },
+    {
+      "story_id": 9,
+      "distractor_fact": "Seorang pedagang keliling di sekitar pasar itu memperoleh penghasilan sebesar {D} pada bulan yang sama.",
+      "gloss_en": "A traveling vendor near that market earned an income of {D} in the same month.",
+      "entity_note": "an individual traveling vendor (a person), differing in kind from the first sentence's different small business at the same market (an organisation)."
+    },
+    {
+      "story_id": 10,
+      "distractor_fact": "Pencetak gol terbanyak di liga itu pada musim sebelumnya mencetak {D} gol secara individu.",
+      "gloss_en": "The league's top individual goal-scorer from the previous season scored {D} goals individually.",
+      "entity_note": "an individual player's personal tally from a previous season (a person, and a different series/edition), differing in kind from the first sentence's different team in the same league (an organisation)."
+    },
+    {
+      "story_id": 14,
+      "distractor_fact": "Turnamen amal yang diselenggarakan panitia berbeda mencatat salah satu pesertanya menyelesaikan permainan dengan {D} pukulan, pada lapangan yang parnya tidak diumumkan.",
+      "gloss_en": "A charity tournament organized by a different committee recorded one of its participants finishing with {D} strokes, on a course whose par was not announced.",
+      "entity_note": "a different tournament committee and an unnamed participant on a course with no stated par (an organisation), differing in kind from the first sentence's individual golfer on a different course (a person); satisfies the shared-reference rule since that course's par is never given."
+    },
+    {
+      "story_id": 15,
+      "distractor_fact": "Bus milik perusahaan otobus lain tiba di terminalnya sendiri pada menit {D} dari titik acuan waktu itu, tanpa jadwal resmi yang disebutkan untuknya.",
+      "gloss_en": "A bus belonging to a different bus company arrived at its own terminal at minute {D} from that time reference point, with no official schedule stated for it.",
+      "entity_note": "a different bus company and its own vehicle/terminal (an organisation), differing in kind from the first sentence's different train on a different line (an instrument); satisfies the shared-reference rule since no schedule is stated for this bus."
+    },
+    {
+      "story_id": 16,
+      "distractor_fact": "Sebuah gedung apartemen yang dikelola oleh perusahaan pengelola properti lain memiliki unit di lantai {D}, tanpa lantai lobi acuan yang disebutkan untuk gedung itu.",
+      "gloss_en": "An apartment building managed by a different property management company has a unit on floor {D}, with no reference lobby floor stated for that building.",
+      "entity_note": "a different property management company and its own building (an organisation), differing in kind from the first sentence's different hotel building (a place); satisfies the shared-reference rule since no lobby reference floor is stated for it."
+    }
+  ]
+}

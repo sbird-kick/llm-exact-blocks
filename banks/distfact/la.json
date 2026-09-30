@@ -1,0 +1,60 @@
+{
+  "language_code": "la",
+  "refused": [],
+  "items": [
+    {
+      "story_id": 1,
+      "distractor_fact": "Statio autem meteorologica in vico proximo eodem die temperaturam {D}°C notavit.",
+      "gloss_en": "Meanwhile the weather station in the neighboring village recorded a temperature of {D}°C that same day.",
+      "entity_note": "different place: a weather station in a neighboring village, not the site of the morning/afternoon reading"
+    },
+    {
+      "story_id": 2,
+      "distractor_fact": "Pretium autem partis alterius societatis eodem die ${D} fuit.",
+      "gloss_en": "Meanwhile the share price of a different company was ${D} on the same day.",
+      "entity_note": "different entity: another company's share, not the one whose open/close price is compared"
+    },
+    {
+      "story_id": 3,
+      "distractor_fact": "Altitudo autem aquae in flumine vicino eodem tempore {D}m fuit.",
+      "gloss_en": "Meanwhile the water level in the nearby river was {D}m at the same time.",
+      "entity_note": "different place: a nearby river, not the reservoir whose level is compared month to month"
+    },
+    {
+      "story_id": 4,
+      "distractor_fact": "Altitudo autem alterius aeronavis automatae, quae simul volabat, {D}m erat.",
+      "gloss_en": "Meanwhile the altitude of another drone, flying at the same time, was {D}m.",
+      "entity_note": "different entity: another drone flying simultaneously, not the one whose initial/final altitude is compared"
+    },
+    {
+      "story_id": 5,
+      "distractor_fact": "Pondus autem alterius sarcinae, quae eodem die missa est, {D}kg erat.",
+      "gloss_en": "Meanwhile the weight of another package, shipped the same day, was {D}kg.",
+      "entity_note": "different entity: another package shipped the same day, not the one weighed before/after its journey"
+    },
+    {
+      "story_id": 6,
+      "distractor_fact": "Celeritas autem alterius machinae, in alio curru instructae, {D}km/h erat.",
+      "gloss_en": "Meanwhile the speed of another engine, fitted in a different vehicle, was {D}km/h.",
+      "entity_note": "different instrument: an engine in a different vehicle, not the one whose initial/final speed is compared"
+    },
+    {
+      "story_id": 7,
+      "distractor_fact": "Numerus autem punctorum alterius lusoris, in eodem ludo certantis, {D}pts erat.",
+      "gloss_en": "Meanwhile the point total of another player, competing in the same game, was {D}pts.",
+      "entity_note": "different entity: another player's score, not the start/end score of the player in question"
+    },
+    {
+      "story_id": 12,
+      "distractor_fact": "Alius autem grex, in certamine diverso eodem tempore facto, puncta {D} per totum tempus accepit.",
+      "gloss_en": "Meanwhile a different team, in a separate competition held at the same time, scored {D} goals over the season.",
+      "entity_note": "different entity: another team in a different competition, not the team whose scored/conceded goals are compared"
+    },
+    {
+      "story_id": 16,
+      "distractor_fact": "Alius autem currus ferriviarius, in alia via ferrata, eodem die {D}min post mediam noctem pervenit.",
+      "gloss_en": "Meanwhile another train, on a different line, arrived {D} minutes after midnight that same day.",
+      "entity_note": "different entity/reference: another train on a different line, whose own schedule is not stated, so it cannot be read against this train's schedule"
+    }
+  ]
+}

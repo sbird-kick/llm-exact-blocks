@@ -1,0 +1,78 @@
+{
+  "language_code": "km",
+  "refused": [],
+  "items": [
+    {
+      "story_id": 1,
+      "distractor_fact": "នៅដំបូលអគារជិតខាង ឧបករណ៍វាស់សីតុណ្ហភាពមួយទៀតបានវាស់បាន {D} អង្សាសេ ក្នុងព្រឹកដដែល។",
+      "gloss_en": "On the roof of a nearby building, another thermometer read {D}°C that same morning.",
+      "entity_note": "a different instrument (thermometer) on a different building's roof, not the garden's own gauge."
+    },
+    {
+      "story_id": 2,
+      "distractor_fact": "ភាគហ៊ុនរបស់ក្រុមហ៊ុនមួយផ្សេងទៀតមានតម្លៃ {D} ដុល្លារ ក្នុងថ្ងៃដដែល។",
+      "gloss_en": "Shares of a different company were priced at {D} dollars that same day.",
+      "entity_note": "a different company's stock, not the one whose price changed."
+    },
+    {
+      "story_id": 3,
+      "distractor_fact": "អាងស្តុកទឹកមួយផ្សេងទៀតនៅតំបន់ជិតខាងមានកម្រិតទឹក {D} ម៉ែត្រ ក្នុងថ្ងៃដដែល។",
+      "gloss_en": "A different reservoir in a nearby area had a water level of {D} meters that same day.",
+      "entity_note": "a different reservoir, not the one whose level changed with the rain."
+    },
+    {
+      "story_id": 4,
+      "distractor_fact": "យន្តហោះគ្មានមនុស្សបើកមួយផ្សេងទៀតមានកម្ពស់ {D} ម៉ែត្រពីដី ក្នុងពេលដដែល។",
+      "gloss_en": "A different drone was flying at an altitude of {D} meters above the ground at the same time.",
+      "entity_note": "a different drone, not the one whose altitude changed during its flight."
+    },
+    {
+      "story_id": 5,
+      "distractor_fact": "កញ្ចប់មួយផ្សេងទៀតនៅក្នុងឃ្លាំងតែមួយមានទម្ងន់ {D} គីឡូក្រាម។",
+      "gloss_en": "A different package in the same warehouse weighed {D} kilograms.",
+      "entity_note": "a different package, not the one that was repacked."
+    },
+    {
+      "story_id": 6,
+      "distractor_fact": "ភូមិជិតខាងមួយទៀតមានចំនួនប្រជាជន {D} នាក់ ក្នុងឆ្នាំដដែល។",
+      "gloss_en": "A neighboring village had a population of {D} people that same year.",
+      "entity_note": "a different village, not the one whose population changed."
+    },
+    {
+      "story_id": 7,
+      "distractor_fact": "ឡានមួយគ្រឿងផ្សេងទៀតបានបើកបរដោយល្បឿន {D} គីឡូម៉ែត្រក្នុងមួយម៉ោង នៅផ្លូវកោងតែមួយ។",
+      "gloss_en": "A different car was traveling at {D} km/h on the same curve.",
+      "entity_note": "a different car, not the one whose speed changed through the curve."
+    },
+    {
+      "story_id": 9,
+      "distractor_fact": "គណនីធនាគាររបស់មិត្តភ័ក្តិនាងម្នាក់ទៀតបានទទួលការដាក់ប្រាក់សរុបចំនួន {D} ដុល្លារ ក្នុងខែដដែល។",
+      "gloss_en": "A friend's bank account received total deposits of {D} dollars that same month.",
+      "entity_note": "a different person's bank account, not hers."
+    },
+    {
+      "story_id": 10,
+      "distractor_fact": "ហាងតូចមួយផ្សេងទៀតនៅតំបន់ជិតខាងមានចំណូលសរុបចំនួន {D} ដុល្លារ ក្នុងខែដដែល។",
+      "gloss_en": "A different small shop in a nearby area had total income of {D} dollars that same month.",
+      "entity_note": "a different shop, not the one whose net result is being asked about."
+    },
+    {
+      "story_id": 12,
+      "distractor_fact": "ផលប័ត្រវិនិយោគរបស់អ្នកវិនិយោគម្នាក់ទៀតមានប្រាក់ចំណេញសរុបចំនួន {D} ដុល្លារ ក្នុងឆ្នាំដដែល។",
+      "gloss_en": "A different investor's portfolio had total gains of {D} dollars that same year.",
+      "entity_note": "a different investor's portfolio, not his."
+    },
+    {
+      "story_id": 17,
+      "distractor_fact": "រថភ្លើងមួយផ្សេងទៀតនៅលើខ្សែផ្លូវខុសគ្នា បានមកដល់ស្ថានីយ៍ជាក់ស្តែងនៅម៉ោងស្មើនឹង {D} គិតជានាទី ដោយប្រកាន់តាមកាលវិភាគផ្ទាល់ខ្លួនរបស់វា។",
+      "gloss_en": "A different train, on a different line, actually arrived at the station at a time equal to {D} minutes, going by its own separate schedule.",
+      "entity_note": "a different train on a different line with its own unstated schedule, not this train's actual-vs-scheduled pair."
+    },
+    {
+      "story_id": 18,
+      "distractor_fact": "ក្នុងអគារមួយផ្សេងទៀត ការិយាល័យមួយស្ថិតនៅជាន់ដែលមានលេខរៀងស្មើនឹង {D} រាប់ពីជាន់សំរេចផ្ទាល់ខ្លួនរបស់អគារនោះ។",
+      "gloss_en": "In a different building, an office is on a floor whose number equals {D}, counting from that building's own reference floor.",
+      "entity_note": "a different building with its own separate reference floor, not this building's office-vs-reference pair."
+    }
+  ]
+}

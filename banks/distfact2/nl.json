@@ -1,0 +1,96 @@
+{
+  "language_code": "nl",
+  "refused": [],
+  "items": [
+    {
+      "story_id": 1,
+      "distractor_fact": "Een amateurmeteoroloog in de buurt mat diezelfde week op eigen thermometer een temperatuur van {D} °C.",
+      "gloss_en": "An amateur meteorologist nearby measured a temperature of {D} °C that same week on his own thermometer.",
+      "entity_note": "An amateur meteorologist's own thermometer (a person), not a neighboring village (a place) as in the first distractor; not Wijkhoven's morning/evening readings the question compares."
+    },
+    {
+      "story_id": 2,
+      "distractor_fact": "Een particuliere verkoper bood in diezelfde periode een vergelijkbare fiets aan voor {D} €.",
+      "gloss_en": "A private seller offered a similar bike for {D} € during that same period.",
+      "entity_note": "A private seller (a person), not a competing bike shop (an organisation) as in the first distractor; not the shop's start-of-month/end-of-month price the question compares."
+    },
+    {
+      "story_id": 3,
+      "distractor_fact": "De regionale waterbeheerder registreerde na dezelfde storm, voor een geheel ander traject, een waterstand van {D} m.",
+      "gloss_en": "The regional water authority recorded a water level of {D} m for an entirely different stretch after the same storm.",
+      "entity_note": "The regional water authority's reading for a different stretch (an organisation), not a neighboring canal (a place) as in the first distractor; not the canal's before/after-storm levels the question compares."
+    },
+    {
+      "story_id": 4,
+      "distractor_fact": "Een andere wandelaar volgde diezelfde dag een eigen route en bereikte een hoogte van {D} m.",
+      "gloss_en": "Another hiker followed his own route that same day and reached an altitude of {D} m.",
+      "entity_note": "A different hiker on his own route (a person), not a neighboring peak in the same range (a place) as in the first distractor; not the hiker's start-point/top altitudes the question compares."
+    },
+    {
+      "story_id": 5,
+      "distractor_fact": "Het reisbureau dat de reis boekte, rekende voor een vergelijkbaar reispakket een bedrag van {D} €.",
+      "gloss_en": "The travel agency that booked the trip charged {D} € for a similar travel package.",
+      "entity_note": "The travel agency's package price (an organisation), not a fellow traveler (a person) as in the first distractor; not the traveler's starting money/spending the question compares."
+    },
+    {
+      "story_id": 6,
+      "distractor_fact": "Op een spaarrekening bij de bank stond voor een geheel ander doel een bedrag van {D} €.",
+      "gloss_en": "A savings account at the bank held {D} € for an entirely different purpose.",
+      "entity_note": "A bank savings account (an organisation), not the little brother's piggy bank (a person) as in the first distractor; not the piggy bank's deposits/withdrawals the question compares."
+    },
+    {
+      "story_id": 7,
+      "distractor_fact": "De kantoormanager hield voor eigen privégebruik apart een bedrag van {D} € achter de hand.",
+      "gloss_en": "The office manager kept {D} € aside for his own private use.",
+      "entity_note": "The office manager's private money (a person), not a different department (an organisation) as in the first distractor; not the office's received/paid-out petty cash the question compares."
+    },
+    {
+      "story_id": 8,
+      "distractor_fact": "Een zelfstandige boekhouder die er werkte, verdiende in diezelfde maand apart {D} € aan andere klussen.",
+      "gloss_en": "A freelance bookkeeper who worked there separately earned {D} € from other jobs that same month.",
+      "entity_note": "A freelance bookkeeper's side earnings (a person), not a different business on the same street (an organisation) as in the first distractor; not the business's income/expenses the question compares."
+    },
+    {
+      "story_id": 9,
+      "distractor_fact": "Een individuele topscorer uit de competitie kwam dat seizoen tot een persoonlijk totaal van {D} doelpunten.",
+      "gloss_en": "An individual top scorer in the league reached a personal total of {D} goals that season.",
+      "entity_note": "An individual top scorer's personal tally (a person), not a rival team (an organisation) as in the first distractor; not the team's goals for/against the question compares."
+    },
+    {
+      "story_id": 10,
+      "distractor_fact": "Het beleggingsfonds waarin hij participeerde, boekte datzelfde jaar voor alle deelnemers samen winsten van {D} €.",
+      "gloss_en": "The investment fund he participated in booked combined gains of {D} € for all participants that same year.",
+      "entity_note": "The investment fund's combined gains (an organisation), not a different investor (a person) as in the first distractor; not the investor's own profits/losses the question compares."
+    },
+    {
+      "story_id": 14,
+      "distractor_fact": "Tijdens een ander toernooi in de regio, waarvan het par niet werd vermeld, kwam de kampioen tot een score van {D} slagen.",
+      "gloss_en": "During a different tournament in the region, whose par was not stated, the champion scored {D} strokes.",
+      "entity_note": "A different tournament's champion (a series/event), not a different golfer on a different course (a person) as in the first distractor; its par is left unstated so it cannot substitute for the story's par, and it is not the golfer's own score/par the question compares."
+    },
+    {
+      "story_id": 15,
+      "distractor_fact": "Bij een andere vervoerder kwam een bus aan op een tijdstip dat overeenkwam met {D} min na middernacht, volgens een dienstregeling die niet werd genoemd.",
+      "gloss_en": "At a different carrier, a bus arrived at a time equivalent to {D} min after midnight, according to a timetable that was not stated.",
+      "entity_note": "A different transport operator's bus (an organisation), not a different train on a different line (a series) as in the first distractor; its timetable is left unstated so it cannot substitute for the story's schedule, and it is not the train's own arrival/schedule the question compares."
+    },
+    {
+      "story_id": 17,
+      "distractor_fact": "De topscorer van het toernooi kwam in totaal tot {D} doelpunten voor zijn persoonlijke telling.",
+      "gloss_en": "The tournament's top scorer reached a personal total of {D} goals.",
+      "entity_note": "The tournament's individual top scorer (a person), not a third team, Condors (an organisation) as in the first distractor; not Adelaars's/Beren's team totals the question compares."
+    },
+    {
+      "story_id": 19,
+      "distractor_fact": "Een zelfstandige marktkraamhouder in dezelfde branche behaalde in dezelfde maand een omzet van {D} €.",
+      "gloss_en": "An independent market-stall vendor in the same trade achieved revenue of {D} € that same month.",
+      "entity_note": "An independent market vendor (a person), not a third shop, Oost (an organisation) as in the first distractor; not Noord's/Zuid's revenue the question compares."
+    },
+    {
+      "story_id": 20,
+      "distractor_fact": "Een particuliere weerwaarnemer mat die dag op een eigen station een temperatuur van {D} °C.",
+      "gloss_en": "A private weather observer measured a temperature of {D} °C that day at his own station.",
+      "entity_note": "A private weather observer (a person), not a third city, Tilburg (a place) as in the first distractor; not Almere's/Emmen's temperatures the question compares."
+    }
+  ]
+}

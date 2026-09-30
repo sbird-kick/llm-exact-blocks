@@ -1,0 +1,184 @@
+{
+ "language": "Mongolian (Cyrillic script)",
+ "language_code": "mn",
+ "lead_in": "Хариулт нь",
+ "decimal_separator": ",",
+ "items": [
+  {
+   "story_id": 1,
+   "bank": "A",
+   "domain": "change",
+   "unit": "°C",
+   "sign_convention": "after minus before",
+   "facts_min_first": "Цаг уурын харуулын одоогийн заасан температур {M}°C байгаа бол өмнө нь температур {S}°C байсан.",
+   "facts_sub_first": "Цаг уурын харуулын өмнөх заасан температур {S}°C байсан бол одоо температур {M}°C болжээ.",
+   "question": "Температур хэрхэн өөрчлөгдсөн бэ?",
+   "distractor_sentence": "Энэ харуул {D} дугаар зам дээр байрладаг.",
+   "agreement_safe": true,
+   "agreement_note": "{M} and {S} are followed directly by the invariant unit symbol °C and then a separate copula; no case suffix attaches to the numeral, so any integer from 1 to 999999 reads naturally.",
+   "decimals_natural": true,
+   "gloss_en": "The weather station's current reading is {M}°C, while before the temperature was {S}°C. How did the temperature change?",
+   "notes": "",
+   "distractor_ok": true,
+   "verifier": {
+    "tag": "V7",
+    "natural": 2,
+    "comment": "'Цаг уурын харуул' is an odd name for a weather station and the phrasing is stiff."
+   }
+  },
+  {
+   "story_id": 3,
+   "bank": "A",
+   "domain": "change",
+   "unit": "м",
+   "sign_convention": "after minus before",
+   "facts_min_first": "Цөөрмийн одоогийн усны түвшин {M} метр байгаа бол өмнө нь {S} метр байсан.",
+   "facts_sub_first": "Цөөрмийн өмнөх усны түвшин {S} метр байсан бол одоо {M} метр болжээ.",
+   "question": "Усны түвшин хэрхэн өөрчлөгдсөн бэ?",
+   "distractor_sentence": "Энэ цөөрөм хотоос {D} дугаар замын дагуу оршдог.",
+   "agreement_safe": true,
+   "agreement_note": "\"метр\" stands as an independent word after the numeral and never takes a case ending tied to the number's value, so it works for any integer.",
+   "decimals_natural": true,
+   "gloss_en": "The reservoir's current water level is {M} meters, while before it was {S} meters. How did the water level change?",
+   "notes": "",
+   "distractor_ok": true,
+   "verifier": {
+    "tag": "V7",
+    "natural": 3,
+    "comment": ""
+   }
+  },
+  {
+   "story_id": 4,
+   "bank": "A",
+   "domain": "change",
+   "unit": "м",
+   "sign_convention": "after minus before",
+   "facts_min_first": "Агаарын бөмбөлгийн одоогийн өндөр {M} метр байгаа бол эхэндээ өндөр {S} метр байсан.",
+   "facts_sub_first": "Агаарын бөмбөлгийн эхний өндөр {S} метр байсан бол одоо {M} метр болжээ.",
+   "question": "Бөмбөлгийн өндөр хэрхэн өөрчлөгдсөн бэ?",
+   "distractor_sentence": "Энэ бөмбөлгийг {D} дугаартай баг тэнгэрт хөөргөсөн.",
+   "agreement_safe": true,
+   "agreement_note": "Same construction as item 3: numeral plus метр plus a separate verb, invariant for any integer.",
+   "decimals_natural": true,
+   "gloss_en": "The balloon's current altitude is {M} meters, while at the start it was {S} meters. How did the altitude change?",
+   "notes": "",
+   "distractor_ok": true,
+   "verifier": {
+    "tag": "V7",
+    "natural": 3,
+    "comment": ""
+   }
+  },
+  {
+   "story_id": 5,
+   "bank": "A",
+   "domain": "change",
+   "unit": "кг",
+   "sign_convention": "after minus before",
+   "facts_min_first": "Аялагчийн одоогийн цүнхний жин {M} кг байгаа бол явахаасаа өмнө жин {S} кг байсан.",
+   "facts_sub_first": "Аялагч явахаасаа өмнө цүнхний жин {S} кг байсан бол одоо {M} кг болжээ.",
+   "question": "Цүнхний жин хэрхэн өөрчлөгдсөн бэ?",
+   "distractor_sentence": "Аялагч {D} дугаартай онгоцны буудлаар нисдэг.",
+   "agreement_safe": true,
+   "agreement_note": "\"кг\" attaches directly after the numeral as an invariant abbreviation, followed by a separate copula, so it stays grammatical for any integer.",
+   "decimals_natural": true,
+   "gloss_en": "The traveler's backpack currently weighs {M} kg, while before departure it weighed {S} kg. How did the weight change?",
+   "notes": "",
+   "distractor_ok": true,
+   "verifier": {
+    "tag": "V7",
+    "natural": 3,
+    "comment": ""
+   }
+  },
+  {
+   "story_id": 6,
+   "bank": "A",
+   "domain": "change",
+   "unit": "хүн",
+   "sign_convention": "after minus before",
+   "facts_min_first": "Тосгоны одоогийн хүн ам {M} хүн байгаа бол өнгөрсөн онд {S} хүн байсан.",
+   "facts_sub_first": "Тосгоны өнгөрсөн оны хүн ам {S} хүн байсан бол одоо {M} хүн болжээ.",
+   "question": "Хүн амын тоо хэрхэн өөрчлөгдсөн бэ?",
+   "distractor_sentence": "Энэ тосгон {D} дугаар аймагт байрладаг.",
+   "agreement_safe": true,
+   "agreement_note": "\"хүн\" is an unmarked counter word that never inflects for the value of the preceding numeral, so it works for any integer.",
+   "decimals_natural": false,
+   "gloss_en": "The village's current population is {M} people, while last year it was {S} people. How did the population change?",
+   "notes": "",
+   "distractor_ok": true,
+   "verifier": {
+    "tag": "V7",
+    "natural": 3,
+    "comment": ""
+   }
+  },
+  {
+   "story_id": 7,
+   "bank": "A",
+   "domain": "change",
+   "unit": "км/ц",
+   "sign_convention": "after minus before",
+   "facts_min_first": "Гүйгчийн одоогийн хурд {M} км/ц байгаа бол уралдааны эхэнд хурд {S} км/ц байсан.",
+   "facts_sub_first": "Гүйгчийн уралдааны эхний хурд {S} км/ц байсан бол одоо {M} км/ц болжээ.",
+   "question": "Гүйгчийн хурд хэрхэн өөрчлөгдсөн бэ?",
+   "distractor_sentence": "Гүйгч өрсөлдөөнд {D} дугаартай хантаазтай гүйсэн.",
+   "agreement_safe": true,
+   "agreement_note": "\"км/ц\" is a symbol appended after the numeral, invariant across all values, with the verb kept as a separate word.",
+   "decimals_natural": true,
+   "gloss_en": "The runner's current speed is {M} km/h, while at the start of the race it was {S} km/h. How did the speed change?",
+   "notes": "",
+   "distractor_ok": true,
+   "verifier": {
+    "tag": "V7",
+    "natural": 3,
+    "comment": ""
+   }
+  },
+  {
+   "story_id": 10,
+   "bank": "A",
+   "domain": "net",
+   "unit": "₮",
+   "sign_convention": "income minus expenses",
+   "facts_min_first": "Дэлгүүрийн энэ сарын орлого {M}₮ байсан бол зарлага {S}₮ байсан.",
+   "facts_sub_first": "Дэлгүүрийн энэ сарын зарлага {S}₮ байсан бол орлого {M}₮ байсан.",
+   "question": "Дэлгүүрийн энэ сарын цэвэр үр дүн ямар байсан бэ?",
+   "distractor_sentence": "Дэлгүүр гудамжны {D} дугаар байранд байрладаг.",
+   "agreement_safe": true,
+   "agreement_note": "The currency-symbol pattern keeps agreement invariant for any integer, as in earlier balance items.",
+   "decimals_natural": true,
+   "gloss_en": "The shop's income this month was {M}₮ and its expenses were {S}₮. What was the shop's net result this month?",
+   "notes": "",
+   "distractor_ok": true,
+   "verifier": {
+    "tag": "V7",
+    "natural": 3,
+    "comment": ""
+   }
+  },
+  {
+   "story_id": 11,
+   "bank": "A",
+   "domain": "net",
+   "unit": "гол",
+   "sign_convention": "goals scored minus conceded",
+   "facts_min_first": "Багийн улирлын турш оруулсан гол {M} байсан бол алдсан гол {S} байсан.",
+   "facts_sub_first": "Багийн улирлын турш алдсан гол {S} байсан бол оруулсан гол {M} байсан.",
+   "question": "Багийн улирлын голын зөрүү ямар байсан бэ?",
+   "distractor_sentence": "Баг энэ улиралд {D} дугаартай хувцастай тоглосон.",
+   "agreement_safe": true,
+   "agreement_note": "The bare numeral is followed directly by the verb байсан with no case suffix, since \"гол\" (goal) as a count noun does not inflect based on the numeral's value in Mongolian.",
+   "decimals_natural": false,
+   "gloss_en": "Over the season the team scored {M} goals and conceded {S} goals. What was the team's goal difference for the season?",
+   "notes": "",
+   "distractor_ok": true,
+   "verifier": {
+    "tag": "V7",
+    "natural": 3,
+    "comment": ""
+   }
+  }
+ ]
+}

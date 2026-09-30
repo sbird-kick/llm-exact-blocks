@@ -1,0 +1,90 @@
+{
+  "language_code": "he",
+  "refused": [],
+  "items": [
+    {
+      "story_id": 1,
+      "distractor_fact": "באותו הבוקר מדד תושב משכונה סמוכה, בעזרת מד החום הפרטי שלו, טמפרטורה שעמדה על {D}°C.",
+      "gloss_en": "That same morning, a resident from a nearby neighborhood measured, using his own private thermometer, a temperature that stood at D°C.",
+      "entity_note": "different owner kind: a person (a local resident with his own thermometer), not a place, unlike the first distractor's coastal city."
+    },
+    {
+      "story_id": 2,
+      "distractor_fact": "באותו יום המסחר עמד שווי אחזקותיו הפרטיות של סוחר עצמאי אחר על {D}₪.",
+      "gloss_en": "On that same trading day, the value of a different independent trader's private holdings stood at D₪.",
+      "entity_note": "different owner kind: a person (an independent trader), not an organisation, unlike the first distractor's different company."
+    },
+    {
+      "story_id": 3,
+      "distractor_fact": "באותו החודש מדד דייג מקומי, לפי סימון פרטי משלו, מפלס מים שעמד על {D} מ'.",
+      "gloss_en": "During that same month, a local fisherman measured, by his own private marker, a water level that stood at D m.",
+      "entity_note": "different owner kind: a person (a local fisherman with his own marker), not a place, unlike the first distractor's nearby lake."
+    },
+    {
+      "story_id": 4,
+      "distractor_fact": "באותו הזמן עמד גובהה של משואת קרקע שבגבעה הסמוכה על {D} מ'.",
+      "gloss_en": "At that same time, the height of a ground beacon on the nearby hill stood at D m.",
+      "entity_note": "different owner kind: a place (a fixed beacon on a nearby hill), not another instrument, unlike the first distractor's different drone."
+    },
+    {
+      "story_id": 5,
+      "distractor_fact": "באותה עונת האימונים עמד משקלו של תיק הציוד של הקבוצה על {D} ק\"ג.",
+      "gloss_en": "During that same training season, the weight of the team's equipment bag stood at D kg.",
+      "entity_note": "different owner kind: an instrument/object (the team's equipment bag), not a person, unlike the first distractor's different gymnast."
+    },
+    {
+      "story_id": 6,
+      "distractor_fact": "באותו העשור עמד מספר החברים הרשומים בעמותה מקומית על {D} נפש.",
+      "gloss_en": "During that same decade, the number of registered members in a local nonprofit organisation stood at D people.",
+      "entity_note": "different owner kind: an organisation (a local nonprofit), not a place, unlike the first distractor's neighboring settlement."
+    },
+    {
+      "story_id": 7,
+      "distractor_fact": "באותו הזמן עמדה מהירות הרכבים הממוצעת שנמדדה בנקודת מדידה אחרת בכביש על {D} קמ\"ש.",
+      "gloss_en": "At that same time, the average vehicle speed measured at a different measurement point on the road stood at D km/h.",
+      "entity_note": "different owner kind: a place (a different measurement point on the road), not another single vehicle, unlike the first distractor's different car."
+    },
+    {
+      "story_id": 8,
+      "distractor_fact": "באותו היום עמד הסכום בקופה הקטנה במקום עבודתו של דני על {D}₪.",
+      "gloss_en": "On that same day, the amount in the petty cash box at Danny's workplace stood at D₪.",
+      "entity_note": "different owner kind: an organisation (Danny's workplace / its cash box), not a person, unlike the first distractor's Danny's colleague."
+    },
+    {
+      "story_id": 9,
+      "distractor_fact": "באותו החודש עמדה היתרה בפיקדון חיסכון נפרד בבנק על {D}₪.",
+      "gloss_en": "During that same month, the balance in a separate savings deposit at the bank stood at D₪.",
+      "entity_note": "different owner kind: an impersonal financial instrument (a separate bank deposit), not a person, unlike the first distractor's Michal's colleague."
+    },
+    {
+      "story_id": 10,
+      "distractor_fact": "באותו החודש עמד שכר הטרחה שגבה יועץ חיצוני שביקר בחברה על {D}₪.",
+      "gloss_en": "That same month, the fee charged by an external consultant who visited the company stood at D₪.",
+      "entity_note": "different owner kind: a person (an external consultant), not an organisation, unlike the first distractor's competing company."
+    },
+    {
+      "story_id": 11,
+      "distractor_fact": "באותה העונה עמד מספר השערים שהבקיע לבדו שחקן מקבוצה אחרת על {D}.",
+      "gloss_en": "That same season, the number of goals scored alone by a player from a different team stood at D.",
+      "entity_note": "different owner kind: a person (an individual player), not an organisation, unlike the first distractor's rival team."
+    },
+    {
+      "story_id": 12,
+      "distractor_fact": "במהלך אותה השנה עמד סך הרווחים של קרן השקעות בתיק נפרד על {D}₪.",
+      "gloss_en": "During that same year, the total gains of an investment fund in a separate portfolio stood at D₪.",
+      "entity_note": "different owner kind: an organisation (an investment fund), not a person, unlike the first distractor's different investor."
+    },
+    {
+      "story_id": 15,
+      "distractor_fact": "באותו הטורניר עמד מספר המכות שנרשם בלוח התוצאות של מגרש גולף אחר על {D}.",
+      "gloss_en": "In that same tournament, the number of strokes recorded on the scoreboard of a different golf course stood at D.",
+      "entity_note": "different owner kind: a place (a different course's own scoreboard), not a person, unlike the first distractor's different golfer; that course's own par is not stated, so the story's par does not apply to it."
+    },
+    {
+      "story_id": 16,
+      "distractor_fact": "במקביל עמדה הקומה שאליה הגיעה מעלית פרטית של חברה אחרת על {D}.",
+      "gloss_en": "In parallel, the floor reached by a private elevator belonging to a different company stood at D.",
+      "entity_note": "different owner kind: an organisation (a different company's own elevator), not a place, unlike the first distractor's nearby building; that company's own reference floor is not stated, so the story's reference floor does not apply to it."
+    }
+  ]
+}

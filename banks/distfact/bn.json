@@ -1,0 +1,108 @@
+{
+  "language_code": "bn",
+  "refused": [],
+  "items": [
+    {
+      "story_id": 1,
+      "distractor_fact": "পাশের গ্রামে সেদিন সকালে তাপমাত্রা ছিল {D}°সে।",
+      "gloss_en": "In the neighboring village that same morning, the temperature was {D}°C.",
+      "entity_note": "a different village's own temperature reading, not the morning/evening pair the question compares"
+    },
+    {
+      "story_id": 2,
+      "distractor_fact": "একই বাজারে অন্য একটি কোম্পানির শেয়ারের দাম ছিল {D} টাকা।",
+      "gloss_en": "In the same market, another company's share price was {D} taka.",
+      "entity_note": "a different company's share price, not the close/open pair for this company's share"
+    },
+    {
+      "story_id": 3,
+      "distractor_fact": "পাশের জলাধারের জলস্তর সেদিন সকালে ছিল {D} মিটার।",
+      "gloss_en": "The neighboring reservoir's water level, that same morning, was {D} metres.",
+      "entity_note": "a different reservoir's own water level, not the afternoon/morning pair for this reservoir"
+    },
+    {
+      "story_id": 4,
+      "distractor_fact": "একই দিনে অন্য একটি বেলুন {D} মিটার উচ্চতায় ছিল।",
+      "gloss_en": "On the same day, another balloon was at a height of {D} metres.",
+      "entity_note": "a different balloon, not the one whose afternoon/morning heights are compared"
+    },
+    {
+      "story_id": 5,
+      "distractor_fact": "একই গুদামে অন্য একটি প্যাকেজের ওজন ছিল {D} কেজি।",
+      "gloss_en": "In the same warehouse, another package's weight was {D} kilograms.",
+      "entity_note": "a different package, not the one whose end-of-month/start-of-month weights are compared"
+    },
+    {
+      "story_id": 6,
+      "distractor_fact": "পাশের দোকানদারের কাছে সেদিন {D} টাকা ছিল।",
+      "gloss_en": "The neighboring shopkeeper had {D} taka that day.",
+      "entity_note": "a different shopkeeper's money, not the one whose balance is asked about"
+    },
+    {
+      "story_id": 7,
+      "distractor_fact": "একই ব্যাংকে অন্য একজন গ্রাহক সেদিন {D} টাকা জমা করেছেন।",
+      "gloss_en": "At the same bank, another customer deposited {D} taka that day.",
+      "entity_note": "a different customer's deposit, not the one whose account balance change is asked about"
+    },
+    {
+      "story_id": 8,
+      "distractor_fact": "পাশের পরিবারের এই মাসে আয় হয়েছে {D} টাকা।",
+      "gloss_en": "The neighboring family's income this month was {D} taka.",
+      "entity_note": "a different family's income, not the one whose net result is asked about"
+    },
+    {
+      "story_id": 9,
+      "distractor_fact": "একই লিগে অন্য একটি দল এই মরসুমে {D}টি গোল করেছে।",
+      "gloss_en": "In the same league, another team scored {D} goals this season.",
+      "entity_note": "a different team's goals scored, not the one whose goal difference is asked about"
+    },
+    {
+      "story_id": 10,
+      "distractor_fact": "পাশের ব্যবসায়ীর এই সপ্তাহে লাভ হয়েছে {D} টাকা।",
+      "gloss_en": "The neighboring trader's gain this week was {D} taka.",
+      "entity_note": "a different trader's gain, not the one whose net result is asked about"
+    },
+    {
+      "story_id": 11,
+      "distractor_fact": "একই শিল্প এলাকার অন্য একটি কারখানায় এই মাসে {D} ইউনিট উৎপাদন হয়েছে।",
+      "gloss_en": "At another factory in the same industrial area, {D} units were produced this month.",
+      "entity_note": "a different factory with its own unstated target, so it cannot pair with this factory's stated target"
+    },
+    {
+      "story_id": 12,
+      "distractor_fact": "একই বাজারে অন্য একটি দোকানে এই মাসে বিক্রয় হয়েছে {D} ইউনিট।",
+      "gloss_en": "At another shop in the same market, sales this month were {D} units.",
+      "entity_note": "a different shop with its own unstated target, not this shop's stated target"
+    },
+    {
+      "story_id": 13,
+      "distractor_fact": "পাশের অঞ্চলে এই বছর বৃষ্টিপাত হয়েছে {D} মিলিমিটার।",
+      "gloss_en": "In the neighboring region, rainfall this year was {D} millimetres.",
+      "entity_note": "a different region with its own unstated forecast, not this region's stated forecast"
+    },
+    {
+      "story_id": 14,
+      "distractor_fact": "পাশের হোলে খেলা আরেকজন গলফার {D} স্ট্রোক নিয়েছেন।",
+      "gloss_en": "On the neighboring hole, another golfer who played there took {D} strokes.",
+      "entity_note": "a different golfer on a different hole, whose own par is not stated"
+    },
+    {
+      "story_id": 15,
+      "distractor_fact": "একটি ভিন্ন রুটের ট্রেন যাত্রা শুরুর {D} মিনিট পরে পৌঁছেছে।",
+      "gloss_en": "A train on a different route arrived {D} minutes after its own departure.",
+      "entity_note": "a different train on a different route, with its own unstated schedule"
+    },
+    {
+      "story_id": 16,
+      "distractor_fact": "পাশের এলাকার একটি সেন্সর {D} সেন্টিমিটার রিডিং দেখিয়েছে।",
+      "gloss_en": "A sensor in the neighboring area showed a reading of {D} centimetres.",
+      "entity_note": "a different sensor with its own unstated reference level"
+    },
+    {
+      "story_id": 17,
+      "distractor_fact": "একই টুর্নামেন্টে অন্য একটি ম্যাচে দল গ {D}টি গোল করেছে।",
+      "gloss_en": "In the same tournament, in a different match, team C scored {D} goals.",
+      "entity_note": "a third team (team C) in a separate match, not team A or team B being compared"
+    }
+  ]
+}

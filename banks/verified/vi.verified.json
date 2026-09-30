@@ -1,0 +1,228 @@
+{
+ "language": "Vietnamese",
+ "language_code": "vi",
+ "lead_in": "Đáp số là",
+ "decimal_separator": ",",
+ "items": [
+  {
+   "story_id": 5,
+   "bank": "A",
+   "domain": "balance",
+   "unit": "$",
+   "sign_convention": "had minus spent",
+   "facts_min_first": "Đầu tháng, tài khoản của Lan có {M} đô la. Trong tháng, cô đã chi tiêu hết {S} đô la.",
+   "facts_sub_first": "Trong tháng, Lan đã chi tiêu hết {S} đô la. Đầu tháng, tài khoản của cô có {M} đô la.",
+   "question": "Số dư trong tài khoản của Lan hiện là bao nhiêu?",
+   "distractor_sentence": "Lan mở tài khoản này tại chi nhánh số {D}.",
+   "agreement_safe": true,
+   "agreement_note": "Vietnamese numerals never inflect the noun/classifier that follows; '{M}/{S}' plus a bare unit word (độ C, đô la, mét, điểm, bàn, cú, phiếu, tầng, phút, sản phẩm, milimét, xăng-ti-mét) reads naturally for 3, 51, or 4870 with no change in form.",
+   "decimals_natural": true,
+   "gloss_en": "At the start of the month, Lan's account had ${M}. During the month, she spent ${S}. What is Lan's current balance?",
+   "notes": "Classic overdraft-possible balance; negative means overdrawn.",
+   "distractor_ok": true,
+   "verifier": {
+    "tag": "V3",
+    "natural": 3,
+    "comment": ""
+   }
+  },
+  {
+   "story_id": 6,
+   "bank": "A",
+   "domain": "balance",
+   "unit": "$",
+   "sign_convention": "deposited minus withdrawn",
+   "facts_min_first": "Trong ngày, cửa hàng đã nộp vào quỹ {M} đô la. Cửa hàng cũng đã rút ra {S} đô la để trả nhà cung cấp.",
+   "facts_sub_first": "Cửa hàng đã rút ra {S} đô la để trả nhà cung cấp. Trong ngày, cửa hàng đã nộp vào quỹ {M} đô la.",
+   "question": "Số dư trong quỹ tiền mặt đã thay đổi bao nhiêu đô la?",
+   "distractor_sentence": "Cửa hàng nằm trên tuyến xe buýt số {D}.",
+   "agreement_safe": true,
+   "agreement_note": "Vietnamese numerals never inflect the noun/classifier that follows; '{M}/{S}' plus a bare unit word (độ C, đô la, mét, điểm, bàn, cú, phiếu, tầng, phút, sản phẩm, milimét, xăng-ti-mét) reads naturally for 3, 51, or 4870 with no change in form.",
+   "decimals_natural": true,
+   "gloss_en": "During the day, the shop deposited ${M} into the register. The shop also withdrew ${S} to pay a supplier. How much did the cash register balance change by?",
+   "notes": "Deposits minus withdrawals for a shop's till.",
+   "distractor_ok": true,
+   "verifier": {
+    "tag": "V3",
+    "natural": 3,
+    "comment": ""
+   }
+  },
+  {
+   "story_id": 7,
+   "bank": "A",
+   "domain": "balance",
+   "unit": "$",
+   "sign_convention": "had minus spent",
+   "facts_min_first": "Đầu tuần, Minh có {M} đô la tiền tiêu vặt. Đến cuối tuần, cậu đã tiêu {S} đô la.",
+   "facts_sub_first": "Đến cuối tuần, Minh đã tiêu {S} đô la. Đầu tuần, cậu có {M} đô la tiền tiêu vặt.",
+   "question": "Số tiền tiêu vặt của Minh còn lại là bao nhiêu?",
+   "distractor_sentence": "Minh học ở phòng số {D}.",
+   "agreement_safe": true,
+   "agreement_note": "Vietnamese numerals never inflect the noun/classifier that follows; '{M}/{S}' plus a bare unit word (độ C, đô la, mét, điểm, bàn, cú, phiếu, tầng, phút, sản phẩm, milimét, xăng-ti-mét) reads naturally for 3, 51, or 4870 with no change in form.",
+   "decimals_natural": true,
+   "gloss_en": "At the start of the week, Minh had ${M} of pocket money. By the end of the week, he had spent ${S}. How much of Minh's pocket money is left?",
+   "notes": "Weekly allowance balance; negative means he overspent (owes money).",
+   "distractor_ok": true,
+   "verifier": {
+    "tag": "V3",
+    "natural": 3,
+    "comment": ""
+   }
+  },
+  {
+   "story_id": 8,
+   "bank": "A",
+   "domain": "net",
+   "unit": "$",
+   "sign_convention": "income minus expenses",
+   "facts_min_first": "Trong tháng, gia đình ông Hùng có tổng thu nhập là {M} đô la. Tổng chi phí trong tháng là {S} đô la.",
+   "facts_sub_first": "Tổng chi phí của gia đình ông Hùng trong tháng là {S} đô la. Tổng thu nhập trong tháng là {M} đô la.",
+   "question": "Kết quả tài chính ròng của gia đình trong tháng này là bao nhiêu?",
+   "distractor_sentence": "Gia đình ông Hùng sống ở căn hộ số {D}.",
+   "agreement_safe": true,
+   "agreement_note": "Vietnamese numerals never inflect the noun/classifier that follows; '{M}/{S}' plus a bare unit word (độ C, đô la, mét, điểm, bàn, cú, phiếu, tầng, phút, sản phẩm, milimét, xăng-ti-mét) reads naturally for 3, 51, or 4870 with no change in form.",
+   "decimals_natural": true,
+   "gloss_en": "This month, Mr. Hung's family had total income of ${M}. Total expenses for the month were ${S}. What was the family's net financial result this month?",
+   "notes": "Household income minus expenses; negative means the family ran a deficit.",
+   "distractor_ok": true,
+   "verifier": {
+    "tag": "V3",
+    "natural": 3,
+    "comment": ""
+   }
+  },
+  {
+   "story_id": 9,
+   "bank": "A",
+   "domain": "net",
+   "unit": "bàn",
+   "sign_convention": "goals scored minus conceded",
+   "facts_min_first": "Trong mùa giải, đội bóng đã ghi được {M} bàn thắng. Đội cũng đã để thủng lưới {S} bàn.",
+   "facts_sub_first": "Trong mùa giải, đội bóng đã để thủng lưới {S} bàn. Đội cũng đã ghi được {M} bàn thắng.",
+   "question": "Hiệu số bàn thắng bại của đội trong mùa giải này là bao nhiêu?",
+   "distractor_sentence": "Đội bóng này thi đấu ở sân vận động số {D}.",
+   "agreement_safe": true,
+   "agreement_note": "Vietnamese numerals never inflect the noun/classifier that follows; '{M}/{S}' plus a bare unit word (độ C, đô la, mét, điểm, bàn, cú, phiếu, tầng, phút, sản phẩm, milimét, xăng-ti-mét) reads naturally for 3, 51, or 4870 with no change in form.",
+   "decimals_natural": false,
+   "gloss_en": "Over the season, the team scored {M} goals. The team also conceded {S} goals. What was the team's goal difference this season?",
+   "notes": "Single team's own goal difference across a season, not a head-to-head comparison.",
+   "distractor_ok": true,
+   "verifier": {
+    "tag": "V3",
+    "natural": 3,
+    "comment": ""
+   }
+  },
+  {
+   "story_id": 10,
+   "bank": "A",
+   "domain": "net",
+   "unit": "$",
+   "sign_convention": "gains minus losses",
+   "facts_min_first": "Trong năm, nhà đầu tư đã có khoản lãi là {M} đô la. Nhà đầu tư cũng chịu khoản lỗ là {S} đô la.",
+   "facts_sub_first": "Trong năm, nhà đầu tư đã chịu khoản lỗ là {S} đô la. Nhà đầu tư cũng có khoản lãi là {M} đô la.",
+   "question": "Kết quả đầu tư ròng trong năm của nhà đầu tư này là bao nhiêu?",
+   "distractor_sentence": "Nhà đầu tư này quản lý quỹ số {D}.",
+   "agreement_safe": true,
+   "agreement_note": "Vietnamese numerals never inflect the noun/classifier that follows; '{M}/{S}' plus a bare unit word (độ C, đô la, mét, điểm, bàn, cú, phiếu, tầng, phút, sản phẩm, milimét, xăng-ti-mét) reads naturally for 3, 51, or 4870 with no change in form.",
+   "decimals_natural": true,
+   "gloss_en": "Over the year, the investor had gains of ${M}. The investor also had losses of ${S}. What was this investor's net result for the year?",
+   "notes": "Gains minus losses for one investor.",
+   "distractor_ok": true,
+   "verifier": {
+    "tag": "V3",
+    "natural": 3,
+    "comment": ""
+   }
+  },
+  {
+   "story_id": 13,
+   "bank": "A",
+   "domain": "score vs par",
+   "unit": "cú",
+   "sign_convention": "strokes minus par",
+   "facts_min_first": "Vòng đấu này, tay golf đã đánh {M} cú. Par của sân là {S} cú.",
+   "facts_sub_first": "Par của sân trong vòng đấu này là {S} cú. Tay golf đã đánh {M} cú.",
+   "question": "Số cú đánh của tay golf này so với par là bao nhiêu?",
+   "distractor_sentence": "Tay golf này xuất phát ở lỗ số {D}.",
+   "agreement_safe": true,
+   "agreement_note": "Vietnamese numerals never inflect the noun/classifier that follows; '{M}/{S}' plus a bare unit word (độ C, đô la, mét, điểm, bàn, cú, phiếu, tầng, phút, sản phẩm, milimét, xăng-ti-mét) reads naturally for 3, 51, or 4870 with no change in form.",
+   "decimals_natural": false,
+   "gloss_en": "In this round, the golfer took {M} strokes. Par for the course is {S} strokes. What is this golfer's score relative to par?",
+   "notes": "Golf strokes minus par; negative is under par (good), positive is over par.",
+   "distractor_ok": true,
+   "verifier": {
+    "tag": "V3",
+    "natural": 3,
+    "comment": ""
+   }
+  },
+  {
+   "story_id": 14,
+   "bank": "A",
+   "domain": "score vs par",
+   "unit": "cú",
+   "sign_convention": "strokes minus par",
+   "facts_min_first": "Ở vòng chơi golf mini, một người chơi đã đánh {M} cú. Par của đường golf này là {S} cú.",
+   "facts_sub_first": "Par của đường golf mini này là {S} cú. Một người chơi đã đánh {M} cú.",
+   "question": "Số cú đánh của người chơi này so với par là bao nhiêu?",
+   "distractor_sentence": "Đường golf mini này có tổng cộng {D} biển báo.",
+   "agreement_safe": true,
+   "agreement_note": "Vietnamese numerals never inflect the noun/classifier that follows; '{M}/{S}' plus a bare unit word (độ C, đô la, mét, điểm, bàn, cú, phiếu, tầng, phút, sản phẩm, milimét, xăng-ti-mét) reads naturally for 3, 51, or 4870 with no change in form.",
+   "decimals_natural": false,
+   "gloss_en": "In a round of mini golf, a player took {M} strokes. Par for this course is {S} strokes. What is this player's score relative to par?",
+   "notes": "Second, independent golf-vs-par template with a different setting (mini golf).",
+   "distractor_ok": true,
+   "verifier": {
+    "tag": "V3",
+    "natural": 3,
+    "comment": ""
+   }
+  },
+  {
+   "story_id": 15,
+   "bank": "A",
+   "domain": "arrival vs schedule",
+   "unit": "phút",
+   "sign_convention": "actual minus scheduled, late counted positive",
+   "facts_min_first": "Chuyến tàu này thực tế đến ga vào phút thứ {M} tính từ nửa đêm. Theo lịch trình, tàu phải đến vào phút thứ {S} tính từ nửa đêm.",
+   "facts_sub_first": "Theo lịch trình, tàu phải đến vào phút thứ {S} tính từ nửa đêm. Chuyến tàu này thực tế đến ga vào phút thứ {M} tính từ nửa đêm.",
+   "question": "Chuyến tàu này đến trễ bao nhiêu phút so với lịch trình, coi trễ là số dương?",
+   "distractor_sentence": "Chuyến tàu này chạy trên tuyến số {D}.",
+   "agreement_safe": true,
+   "agreement_note": "Vietnamese numerals never inflect the noun/classifier that follows; '{M}/{S}' plus a bare unit word (độ C, đô la, mét, điểm, bàn, cú, phiếu, tầng, phút, sản phẩm, milimét, xăng-ti-mét) reads naturally for 3, 51, or 4870 with no change in form.",
+   "decimals_natural": false,
+   "gloss_en": "This train actually arrived at the station at the minute mark {M} past midnight. According to the schedule, it was due at the minute mark {S} past midnight. How many minutes late was this train, counting lateness as positive?",
+   "notes": "Actual minus scheduled arrival time in minutes; negative means it was early.",
+   "distractor_ok": true,
+   "verifier": {
+    "tag": "V3",
+    "natural": 2,
+    "comment": "'phút thứ {P} tính từ nửa đêm' is stiff but unambiguous and the sign convention is stated."
+   }
+  },
+  {
+   "story_id": 16,
+   "bank": "A",
+   "domain": "level vs reference",
+   "unit": "tầng",
+   "sign_convention": "level minus reference level",
+   "facts_min_first": "Thang máy hiện dừng ở tầng được đánh số {M}. Tầng trệt của tòa nhà này được đánh số {S}.",
+   "facts_sub_first": "Tầng trệt của tòa nhà này được đánh số {S}. Thang máy hiện dừng ở tầng được đánh số {M}.",
+   "question": "Thang máy đang ở tầng nào tính theo tầng trệt?",
+   "distractor_sentence": "Tòa nhà này có tổng cộng {D} thang máy.",
+   "agreement_safe": true,
+   "agreement_note": "Vietnamese numerals never inflect the noun/classifier that follows; '{M}/{S}' plus a bare unit word (độ C, đô la, mét, điểm, bàn, cú, phiếu, tầng, phút, sản phẩm, milimét, xăng-ti-mét) reads naturally for 3, 51, or 4870 with no change in form.",
+   "decimals_natural": false,
+   "gloss_en": "The elevator is currently stopped at the floor numbered {M}. The ground floor of this building is numbered {S}. Which floor is the elevator on, relative to the ground floor?",
+   "notes": "Floor level relative to a reference (ground floor); negative means below the reference, e.g. a basement level.",
+   "distractor_ok": true,
+   "verifier": {
+    "tag": "V3",
+    "natural": 2,
+    "comment": "'tầng được đánh số' is stiff."
+   }
+  }
+ ]
+}

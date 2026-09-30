@@ -1,0 +1,114 @@
+{
+  "language_code": "ms",
+  "refused": [],
+  "items": [
+    {
+      "story_id": 1,
+      "distractor_fact": "Sebuah agensi cuaca serantau lain merekodkan bacaan suhu setinggi {D}°C pada masa yang sama.",
+      "gloss_en": "A different regional weather agency recorded a temperature reading of D°C at the same time.",
+      "entity_note": "an organisation (a regional weather agency), not a place like the first distractor's neighbouring city"
+    },
+    {
+      "story_id": 2,
+      "distractor_fact": "Di bursa saham negara jiran, harga saham sebuah syarikat berkaitan ditutup pada paras {D} pada hari itu.",
+      "gloss_en": "On the stock exchange of a neighbouring country, the share price of a related company closed at a level of D that day.",
+      "entity_note": "a place (a foreign stock exchange), not an organisation like the first distractor's other company"
+    },
+    {
+      "story_id": 3,
+      "distractor_fact": "Seorang jurutera yang menyelia sebuah takungan air berlainan mencatatkan paras air pada bacaan {D} meter pada masa yang sama.",
+      "gloss_en": "An engineer supervising a different water reservoir recorded the water level at a reading of D meters at the same time.",
+      "entity_note": "a person (an engineer), not a place like the first distractor's other dam"
+    },
+    {
+      "story_id": 4,
+      "distractor_fact": "Seorang juruterbang belon udara panas berada pada ketinggian {D} meter pada masa yang sama di kawasan lain.",
+      "gloss_en": "A hot-air balloon pilot was at an altitude of D meters at the same time in a different area.",
+      "entity_note": "a person (a balloon pilot), not an instrument like the first distractor's other drone"
+    },
+    {
+      "story_id": 5,
+      "distractor_fact": "Sebuah kedai runcit di pasar yang sama menyimpan wang tunai dalam tilnya sebanyak {D} pada awal minggu itu.",
+      "gloss_en": "A grocery shop in the same market kept cash in its till amounting to D at the start of that week.",
+      "entity_note": "an organisation (a shop), not a person like the first distractor's other trader"
+    },
+    {
+      "story_id": 6,
+      "distractor_fact": "Seorang guru di sekolah itu menyimpan wang tabungan peribadinya sebanyak {D} pada bulan yang sama.",
+      "gloss_en": "A teacher at that school kept personal savings amounting to D in the same month.",
+      "entity_note": "a person (a teacher), not an organisation like the first distractor's other school cooperative"
+    },
+    {
+      "story_id": 7,
+      "distractor_fact": "Seorang peniaga persendirian berdekatan mengumpul wang jualan sebanyak {D} sepanjang hari yang sama.",
+      "gloss_en": "A nearby independent vendor collected sales money amounting to D during that same day.",
+      "entity_note": "a person (an independent vendor), not an organisation like the first distractor's other school canteen"
+    },
+    {
+      "story_id": 8,
+      "distractor_fact": "Pemilik sebuah kenderaan lain menambah nilai tunai sebanyak {D} untuk mengisi minyak pada bulan yang sama.",
+      "gloss_en": "The owner of a different vehicle topped up cash value amounting to D for refuelling in the same month.",
+      "entity_note": "a person (a vehicle owner), not an instrument like the first distractor's other fuel card"
+    },
+    {
+      "story_id": 9,
+      "distractor_fact": "Pada edisi liga musim sebelumnya, jumlah jaringan gol yang direkodkan keseluruhannya berjumlah {D}.",
+      "gloss_en": "In the previous season's league edition, the total goals recorded overall amounted to D.",
+      "entity_note": "a series (a past league edition), not an organisation like the first distractor's other football team"
+    },
+    {
+      "story_id": 10,
+      "distractor_fact": "Seorang usahawan persendirian yang menjalankan perniagaan kecilnya sendiri memperoleh pendapatan sebanyak {D} pada bulan tersebut.",
+      "gloss_en": "An independent entrepreneur running their own small business earned income amounting to D that month.",
+      "entity_note": "a person (a sole entrepreneur), not an organisation like the first distractor's other company"
+    },
+    {
+      "story_id": 11,
+      "distractor_fact": "Sebuah koperasi pertanian di daerah itu mengumpul hasil tuaian sebanyak {D} kilogram pada musim yang sama.",
+      "gloss_en": "An agricultural cooperative in that district collected a harvest yield amounting to D kilograms in the same season.",
+      "entity_note": "an organisation (an agricultural cooperative), not a person like the first distractor's other farmer"
+    },
+    {
+      "story_id": 12,
+      "distractor_fact": "Pada suku tahun sebelumnya, industri berkaitan itu secara keseluruhan menghasilkan sebanyak {D} unit barangan sebenar, mengikut sasaran suku tahun tersebut yang tidak dinyatakan di sini.",
+      "gloss_en": "In the previous quarter, the related industry as a whole produced an actual count of D units of goods, against that quarter's target, not stated here.",
+      "entity_note": "a series (a previous quarter's industry-wide figure with its own unstated target), not an organisation like the first distractor's other factory"
+    },
+    {
+      "story_id": 14,
+      "distractor_fact": "Pada kejohanan golf yang berlainan tahun sebelumnya, seorang pemain lain mencatatkan sebanyak {D} pukulan bagi pusingannya, pada padang dengan par sendiri yang tidak dinyatakan di sini.",
+      "gloss_en": "At a different golf tournament the previous year, another player recorded a count of D strokes for their round, on a course with its own par, not stated here.",
+      "entity_note": "a series (a past tournament edition with its own unstated par), not a person like the first distractor's other golfer on another course"
+    },
+    {
+      "story_id": 15,
+      "distractor_fact": "Sebuah syarikat bas yang mengendalikan laluan berlainan tiba pada minit ke-{D} selepas jam rujukan jadualnya sendiri.",
+      "gloss_en": "A bus company operating a different route arrived at minute D after its own timetable's reference hour mark.",
+      "entity_note": "an organisation (a bus company), not an instrument like the first distractor's other train"
+    },
+    {
+      "story_id": 16,
+      "distractor_fact": "Sebuah agensi pemetaan kerajaan yang berlainan mencatatkan ketinggian sebuah tapak lain pada bacaan {D} meter, menggunakan datum rujukannya sendiri.",
+      "gloss_en": "A different government mapping agency recorded a different site's elevation at a reading of D meters, using its own reference datum.",
+      "entity_note": "an organisation (a government mapping agency), not a person like the first distractor's other surveyor"
+    },
+    {
+      "story_id": 18,
+      "distractor_fact": "Sebuah sekolah lain merekodkan purata markah pelajar tingkatan tersebut sebanyak {D} markah dalam peperiksaan piawai yang berlainan.",
+      "gloss_en": "A different school recorded that form level's average student score amounting to D marks in a different standardised exam.",
+      "entity_note": "an organisation (a different school's average score), not a person like the first distractor's third student"
+    },
+    {
+      "story_id": 19,
+      "distractor_fact": "Sebuah syarikat pembinaan lain sedang membina sebuah menara projek berlainan dengan ketinggian rekaan sebanyak {D} meter.",
+      "gloss_en": "A different construction company is building a different tower project with a designed height amounting to D meters.",
+      "entity_note": "an organisation (a construction company), not a place like the first distractor's other tower in a different city"
+    },
+    {
+      "story_id": 20,
+      "distractor_fact": "Sebuah kelab larian menganjurkan acara larian berlainan dan merekodkan masa purata pesertanya sebanyak {D} saat.",
+      "gloss_en": "A running club organised a different race event and recorded its participants' average time amounting to D seconds.",
+      "entity_note": "an organisation (a running club's average), not a person like the first distractor's third runner"
+    }
+  ]
+}

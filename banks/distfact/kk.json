@@ -1,0 +1,54 @@
+{
+  "language_code": "kk",
+  "refused": [],
+  "items": [
+    {
+      "story_id": 7,
+      "distractor_fact": "Оның досының шотында {D} теңге бар еді.",
+      "gloss_en": "Her friend had a balance of D tenge in the account. No case suffix attaches to the numeral; теңге stays unqualified after any numeral.",
+      "entity_note": "a different person's (her friend's) bank account, not Aigerim's"
+    },
+    {
+      "story_id": 8,
+      "distractor_fact": "Көрші серіктестіктің шотында {D} теңге қалды.",
+      "gloss_en": "The neighboring partnership's account had D tenge left over. The locative/possessive suffixes attach to шот(ы), not to the numeral, so the sentence holds for any value.",
+      "entity_note": "a different partnership's account, not the one in the story"
+    },
+    {
+      "story_id": 9,
+      "distractor_fact": "Көрші отбасының сол айдағы шығысы {D} теңге болды.",
+      "gloss_en": "The neighboring family's expenses for that same month were D tenge. Suffixes attach to шығысы, not the numeral; теңге is unqualified after any numeral.",
+      "entity_note": "a different family's expenses, not this family's income/expense pair"
+    },
+    {
+      "story_id": 10,
+      "distractor_fact": "Басқа команда сол маусымда {D} гол соқты.",
+      "gloss_en": "Another team scored D goals that same season. Гол stays unqualified after any numeral, so no case/number agreement varies with the value.",
+      "entity_note": "a different team's own goal count in the same season"
+    },
+    {
+      "story_id": 11,
+      "distractor_fact": "Басқа трейдердің сол айдағы табысы {D} доллар болды.",
+      "gloss_en": "Another trader's gain for that same month was D dollars. Доллар is invariant after any numeral, and possessive suffixes attach to табысы, not to the numeral.",
+      "entity_note": "a different trader's gain, not this trader's gain/loss pair"
+    },
+    {
+      "story_id": 14,
+      "distractor_fact": "Басқа гольфшы басқа раундта {D} соққы жасады.",
+      "gloss_en": "Another golfer made D strokes in a different round. Соққы does not inflect after a numeral, so the sentence is grammatical for any integer.",
+      "entity_note": "a different golfer, in a different round/course whose par is never stated"
+    },
+    {
+      "story_id": 16,
+      "distractor_fact": "Көрші үйдегі лифттің көрсеткіші {D} деп тұр.",
+      "gloss_en": "The elevator in the neighboring building shows D. The postposition деп takes the bare numeral, with no case suffix attaching to it.",
+      "entity_note": "a different elevator in another building, whose ground-floor reference is never stated"
+    },
+    {
+      "story_id": 17,
+      "distractor_fact": "В командасы басқа ойында {D} гол соқты.",
+      "gloss_en": "Team V scored D goals in a different match. Гол is unqualified after any numeral, and possessive suffixes attach to command(as)ы, not the numeral.",
+      "entity_note": "a third team (Team V), in a separate match from the A-vs-B game the question compares"
+    }
+  ]
+}

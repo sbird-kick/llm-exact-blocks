@@ -1,0 +1,54 @@
+{
+  "language_code": "mn",
+  "refused": [],
+  "items": [
+    {
+      "story_id": 1,
+      "distractor_fact": "Судлаачийн зөөврийн дулаан хэмжигч мөн өглөө {D}°C заасан байв.",
+      "gloss_en": "The researcher's portable thermometer also read {D}°C that same morning.",
+      "entity_note": "a researcher's portable thermometer (an instrument carried by a person), differing in kind from the first sentence's owner (a neighboring district's weather station, a place)."
+    },
+    {
+      "story_id": 3,
+      "distractor_fact": "Ус ашиглалтын компанийн хариуцдаг цөөрмийн усны түвшин {D} метр байдаг.",
+      "gloss_en": "The water level of the reservoir managed by the water-utility company is {D} meters.",
+      "entity_note": "a reservoir managed by a water-utility company (an organization), differing in kind from the first sentence's owner (a neighboring province's reservoir, a place)."
+    },
+    {
+      "story_id": 4,
+      "distractor_fact": "Өнгөрсөн жилийн бөмбөлгийн наадамд оролцсон бөмбөлгийн өндөр {D} метр байсан.",
+      "gloss_en": "The altitude of the balloon that took part in last year's balloon festival was {D} meters.",
+      "entity_note": "a balloon from last year's festival (a different series/year), differing in kind from the first sentence's owner (a different team's balloon, an organization)."
+    },
+    {
+      "story_id": 5,
+      "distractor_fact": "Нисэх компанийн бүртгэлийн хэмжуураар хэмжсэн өөр нэгэн ачаа {D} кг жинтэй гарчээ.",
+      "gloss_en": "A different piece of luggage weighed by the airline's registration scale came out to {D} kg.",
+      "entity_note": "luggage weighed by the airline's own scale (an organization's instrument), differing in kind from the first sentence's owner (a fellow traveler, a person)."
+    },
+    {
+      "story_id": 6,
+      "distractor_fact": "Статистикийн газарт бүртгэлтэй нүүдэлчдийн нэгдлийн хүн ам {D} хүн байдаг.",
+      "gloss_en": "The population of a herders' cooperative registered with the statistics office is {D} people.",
+      "entity_note": "a herders' cooperative registered with a government office (an organization), differing in kind from the first sentence's owner (a neighboring village, a place)."
+    },
+    {
+      "story_id": 7,
+      "distractor_fact": "Өнгөрсөн оны мөн тэр уралдаанд оролцсон гүйгчийн эхний хурд {D} км/ц байсан.",
+      "gloss_en": "The starting speed of a runner who took part in last year's edition of the same race was {D} km/h.",
+      "entity_note": "a runner from last year's edition of the race (a different series/year), differing in kind from the first sentence's owner (a different runner in the same race, a person)."
+    },
+    {
+      "story_id": 10,
+      "distractor_fact": "Өөр нэгэн дансны тооцоонд орсон энэ сарын орлого {D}₮ байв.",
+      "gloss_en": "The income entered into a different bank account's statement this month was {D}₮.",
+      "entity_note": "a different bank account's recorded income (a financial instrument/record), differing in kind from the first sentence's owner (a neighboring shop, a place-linked business)."
+    },
+    {
+      "story_id": 11,
+      "distractor_fact": "Тэр багийн улирлын өмнөх дасгал тоглолтуудад (нөхөрсөг тоглолт) оруулсан гол {D} байв.",
+      "gloss_en": "That same team scored {D} goals in its preseason friendly matches.",
+      "entity_note": "the same team's goals in preseason friendly matches (a different series/competition), differing in kind from the first sentence's owner (a different team, an organization)."
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+ "language_code": "zu",
+ "refused": [],
+ "items": [
+  {
+   "story_id": 2,
+   "distractor_fact": "Inani lesabelo sesheya kumtshalizimali othile lalingu-${D} ngalolo suku.",
+   "gloss_en": "A certain investor's shareholding value was $D on that day (the invariant copulative 'lalingu-' before the amount, same construction the story itself uses, holds for any integer).",
+   "entity_note": "Owner is an individual investor (a person), differing in kind from the first distractor's owner, another company (an organisation)."
+  },
+  {
+   "story_id": 4,
+   "distractor_fact": "Ukuphakama komuntu owenyuka intaba kwakungu-{D} m ngaleso sikhathi.",
+   "gloss_en": "The altitude of a person climbing the mountain was {D} m at that time (the invariant copulative 'kwakungu-' before the number, matching the story's own construction, holds for any integer).",
+   "entity_note": "Owner is an individual mountain climber (a person), unlike the first distractor's owner, another plane (an instrument)."
+  },
+  {
+   "story_id": 5,
+   "distractor_fact": "Isisindo sephakethe elithunyelwe yinkampani yeposi sasingu-{D} kg ngalolo suku.",
+   "gloss_en": "The weight of a parcel sent by the courier company was {D} kg on that day (invariant 'sasingu-' copulative before the number).",
+   "entity_note": "Owner is a courier company (an organisation), unlike the first distractor's owner, another child (a person)."
+  },
+  {
+   "story_id": 6,
+   "distractor_fact": "Inkampani okuthengwa kuyo yasala nemali engu-${D} ekheshini layo ngalolo suku.",
+   "gloss_en": "The company being bought from was left with $D in its till that day (invariant 'engu-' before the amount).",
+   "entity_note": "Owner is the retailer/company (an organisation), unlike the first distractor's owner, his friend (a person)."
+  },
+  {
+   "story_id": 7,
+   "distractor_fact": "Umngane wakhe wafaka imali engu-${D} esikhwameni sakhe ngalolo suku.",
+   "gloss_en": "His friend put $D into his own wallet that day (invariant 'engu-' before the amount).",
+   "entity_note": "Owner is a friend (a person), unlike the first distractor's owner, another account (a financial instrument)."
+  },
+  {
+   "story_id": 8,
+   "distractor_fact": "Inkampani encane yaphothula le nyanga ngenzuzo engu-${D}.",
+   "gloss_en": "A small company closed this month with a profit of $D (invariant 'engu-' before the amount).",
+   "entity_note": "Owner is a small company (an organisation), unlike the first distractor's owner, another family (a person/household)."
+  },
+  {
+   "story_id": 9,
+   "distractor_fact": "Umdlali othile wafaka amagoli angu-{D} kule sizini.",
+   "gloss_en": "A certain player scored {D} goals this season (invariant 'angu-' before the number, unit word 'amagoli' carries the noun class).",
+   "entity_note": "Owner is an individual player (a person), unlike the first distractor's owner, another team (an organisation)."
+  },
+  {
+   "story_id": 10,
+   "distractor_fact": "Inkampani ethile yathola inzuzo engu-${D} kulo nyaka.",
+   "gloss_en": "A certain company made a profit of $D this year (invariant 'engu-' before the amount).",
+   "entity_note": "Owner is a company (an organisation), unlike the first distractor's owner, another investor (a person)."
+  },
+  {
+   "story_id": 14,
+   "distractor_fact": "Kwenye inkundla yegalofu, ipara yehobhole layo yayingu-{D} amashothi ngaleso sizini.",
+   "gloss_en": "At a different golf course, the par of its hole was {D} strokes that season (invariant 'yayingu-' before the number, unit word 'amashothi' after).",
+   "entity_note": "Owner is a different golf course (a venue/place), unlike the first distractor's owner, another player (a person); its own par, not the story's stated par, is what is given, satisfying the shared-reference rule."
+  },
+  {
+   "story_id": 15,
+   "distractor_fact": "Inqubo yokufika ngempela yohambo lwenye inhlangano yezindiza yayingu-{D} imizuzu ngalolo suku.",
+   "gloss_en": "The actual arrival reading of a flight belonging to a different airline was {D} minutes that day (invariant 'yayingu-' before the number).",
+   "entity_note": "Owner is a different airline (an organisation), unlike the first distractor's owner, another plane (an instrument); that airline's own schedule, not the story's schedule, is the relevant reference."
+  },
+  {
+   "story_id": 17,
+   "distractor_fact": "Umdlali othile wafaka amagoli angu-{D} kulowo mdlalo owahlukene ngaleli viki.",
+   "gloss_en": "A certain player scored {D} goals in that different match this week (invariant 'angu-' before the number).",
+   "entity_note": "Owner is an individual player (a person), unlike the first distractor's owner, Team C (an organisation)."
+  },
+  {
+   "story_id": 18,
+   "distractor_fact": "Umthengisi othile wathengisa izinto ezingu-{D} ngaleli viki.",
+   "gloss_en": "A certain salesperson sold {D} units this week (invariant 'ezingu-' before the number).",
+   "entity_note": "Owner is an individual salesperson (a person), unlike the first distractor's owner, the Delta branch (an organisation)."
+  },
+  {
+   "story_id": 19,
+   "distractor_fact": "Uthemomitha wasemkhunjini olwela olwandle wafunda u-{D} °C ngalolo suku.",
+   "gloss_en": "A thermometer aboard a ship at sea read {D} °C that day (invariant 'u-' before the number, degree symbol after).",
+   "entity_note": "Owner is a ship's thermometer (an instrument), unlike the first distractor's owner, the town of Eastfield (a place)."
+  },
+  {
+   "story_id": 20,
+   "distractor_fact": "Emncintiswaneni wanonyaka odlule, umgijimi othile wagijima ngesikhathi esingu-{D} imizuzwana.",
+   "gloss_en": "In last year's race, a certain runner ran with a time of {D} seconds (invariant 'esingu-' before the number).",
+   "entity_note": "Owner belongs to a different race/series (last year's edition), unlike the first distractor's owner, the third runner in this same race."
+  }
+ ]
+}
