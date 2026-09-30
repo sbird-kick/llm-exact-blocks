@@ -77,7 +77,7 @@ def read_ship(path: str) -> dict[str, str]:
     return want
 
 
-def check(out: str, banks, ship: dict[str, str]) -> int:
+def check(out: str, banks, ship: dict[str, str], label: str = "SHIP.md5") -> int:
     bad = 0
     rels = [r for r in sorted(ship) if r.split("/")[0] in banks]
     for rel in rels:
@@ -87,7 +87,7 @@ def check(out: str, banks, ship: dict[str, str]) -> int:
         bad += not ok
         size = os.path.getsize(path) if os.path.exists(path) else 0
         print(f"  {'ok  ' if ok else 'FAIL'} {rel:<28} {size:>11,} B  {got}")
-    print(f"md5 check: {len(rels) - bad}/{len(rels)} files match SHIP.md5")
+    print(f"md5 check: {len(rels) - bad}/{len(rels)} files match {label}")
     return bad
 
 

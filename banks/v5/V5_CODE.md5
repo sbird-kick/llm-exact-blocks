@@ -1,0 +1,43 @@
+# md5 of the v5 tools and briefs as shipped in this repository (md5sum format; run `md5sum -c V5_CODE.md5` from banks/v5/).
+# The clean templates are the 25 language files + index.json (make_v5.py joins them into the project's
+# clean_v5_r1-16.json, md5 e92b1741ff7d4cac752f18bf033f60e9). The project's own md5s, and which files differ from them and why, are in data_gen/V5_TOOLS.md.
+7b99e872a5033bafa8e3009d953e8cb9  v5_common.py
+df1c37d9becc7b1ba552d89989e983f6  validate_single.py
+7a326112b2355029ed62bc1a7aa9fc33  validate_v5.py
+a657bc42f56e58e9a840539ded8da3a0  status_v5.py
+866aefdb86b75b5ba2dff5c27bbf2c2c  make_blind_v5.py
+741447d90d4a0f9ca6295994108ab918  check_v5.py
+487094606226315106bc2b347799bcba  host_attr_v5.py
+fa56d9c8031b3b46d097b31098c4d804  gen_v5.py
+6713f29fbfc3e8c896d479ff6346350d  manifest_v5.json
+3c88585f94939bfc8f23cb335297d744  BRIEF_v5_writer.md
+b9766d867ba7c8bc0cebd54502e1b8e6  VERIFY_v5.md
+03e40757c13641f7aef91964c445e6f8  DESIGN_v5.md
+05f92d0203b3f9f77039388e091b7886  ADDON_v5_writer_ru_uk.md
+49d1dab2644733d6a92e24e81fabad9d  clean/r1-16/README.md
+4eb6567f436cd1be707cb14f79397db5  clean/r1-16/ar.json
+5361c0004e16577e935396d34d6a7018  clean/r1-16/bn.json
+4a4552dd899935167a5d270ddaf2a0a3  clean/r1-16/de.json
+79a87235d1dce6b96e371ad189cbfb1d  clean/r1-16/el.json
+3e7ce90cd4d07d041a8e3c0bc1d9c679  clean/r1-16/en.json
+f01f555ea1150662d7a8e10ac4064e08  clean/r1-16/es.json
+e6417d214961380ffdb87cd8e623ff9e  clean/r1-16/fa.json
+600e73198d38b7fa2a05eef518fe3289  clean/r1-16/fr.json
+1b8ae2d4c92604cfa718accdf75a6990  clean/r1-16/he.json
+8d2f59ca26cd2decfc5272ab334b6cca  clean/r1-16/hi.json
+6930c1dfce5649ec89ecb718629d7250  clean/r1-16/id.json
+4f04c209470f633e1bc88626aee383cd  clean/r1-16/index.json
+7afe795c446c7aa41ed6fd3550e9c87f  clean/r1-16/it.json
+1affdc31f31254681b9e3e31e6e40853  clean/r1-16/ja.json
+67379b256c283aa036a681360de67b43  clean/r1-16/ko.json
+af03fac6d82fcd56d7ff0938f030ebdb  clean/r1-16/nl.json
+8b825bc6f24cc3a601819a92fd0ea7c0  clean/r1-16/pl.json
+2dff0311d3191ef7a54b2d5c1d31b80d  clean/r1-16/pt.json
+96e79bf099feb0f829c149161bb6537d  clean/r1-16/ru.json
+4e3fe9ed106d2eab8f9300db09934655  clean/r1-16/sw.json
+45ab1ffb10220f688ec58281b8e2d69e  clean/r1-16/ta.json
+0a6d42b8b934700ddc48adbe9eca954b  clean/r1-16/th.json
+fc973d7a44ffa5017ca8d8080629e73a  clean/r1-16/tr.json
+15008c8aed3cd3f1c29f74b954b446a6  clean/r1-16/uk.json
+aab23d1fd28f12039bf6a2027f051aeb  clean/r1-16/vi.json
+5abf2ddfb7e1047714e3b68d8739e114  clean/r1-16/zh.json

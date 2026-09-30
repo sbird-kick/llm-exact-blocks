@@ -19,3 +19,14 @@ banks/v4/
 banks/v4wild/
 banks/v5/bank/
 banks/v5/_selftest_tmp/
+# the v5 pipeline's working directories (the bank in progress; blind_key/ must never be shared)
+banks/v5/writers/
+banks/v5/accept/
+banks/v5/blind/
+banks/v5/blind_key/
+banks/v5/verify/
+banks/v5/preview/
+banks/v5/VERIFY_REPORT_v5.md
+# single clean files: the joined v5 one (python banks/make_v5.py rebuilds it from banks/v5/clean/r1-16/)
+# and your own check_v5.py --clean outputs; split them per language (make_v5.split_clean) to commit them
+banks/v5/clean/*.json

@@ -55,9 +55,9 @@ the one every number was measured on. If you change a template on purpose, the i
 names the file and stops; `--skip-input-check` generates anyway, and SHIP.md5 then tells you
 whether the rows moved.
 
-Two inputs differ from the project's own copies in a comment only: one docstring phrase of
-the generator and the `source_note` of `en_wild.json` were reworded so that neither names a
-test set. Neither text reaches a row, and all 14 bank md5s are the project's (the old md5s
+Two inputs differ from the project's own copies in a comment only: two docstring passages
+of the generator and the `source_note` of `en_wild.json` were reworded so that neither names
+a test set or quotes a number measured on one. Neither text reaches a row, and all 14 bank md5s are the project's (the old md5s
 are recorded at the top of `INPUTS.md5`).
 
 Four optional checks live beside the generator in the project folder and are not included
@@ -82,6 +82,6 @@ better than a half has to come from reading the words.
 ## Bank v5
 
 The v5 bank (25 languages, add / sub / mul / div, 4,352 verified templates, 24 rows each)
-lives in [`v5/`](v5/): its clean template file, the tools that made it, and
+lives in [`v5/`](v5/): its clean templates (one file per language in `v5/clean/r1-16/`), the tools that made it, and
 `python banks/make_v5.py`, which regenerates it and checks its md5s. See
 [`data_gen/V5_TOOLS.md`](../data_gen/V5_TOOLS.md).

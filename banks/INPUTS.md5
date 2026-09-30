@@ -1,7 +1,7 @@
 # md5 of every input make_banks.py reads (the generator and the 184 template files), md5sum format:
 # `md5sum -c INPUTS.md5` from banks/, or `python banks/make_banks.py`, which checks these before generating.
 # Two files differ from the project's copies by a comment only (neither text reaches a row; SHIP.md5 is unchanged):
-#   gen_signed_bank_ml.py      project md5 47e8d633750c9ebfccc978c23462df2f (one docstring phrase reworded)
+#   gen_signed_bank_ml.py      project md5 47e8d633750c9ebfccc978c23462df2f (two docstring passages reworded: no test set named, no test-set number)
 #   writers_wild/en_wild.json  project md5 cb08c059848f8042a55e08c7799019dd (its `source_note` names no test set)
 786c1508a5b5e070e59ada236a880f1b  distfact/am.json
 42357f9e926f8a510f9696a3989e594b  distfact/ar.json
@@ -125,7 +125,7 @@ d101823382849b34c804909b2df9b44c  distfact2/sv.json
 a0cd47202e731330f6a19fdae86f353b  distfact2/yo.json
 6d94fa382697b97509b5e7feba7378f0  distfact2/zh.json
 0f0ab019a43d6e394b2e2cba064d9756  distfact2/zu.json
-f3a0cd559b78b4ede52cc4f2e176a1d7  gen_signed_bank_ml.py
+71a23e488ab6a436e921cea2a30128aa  gen_signed_bank_ml.py
 5cc8341b81a2da01471b13918514ba45  verified/am.verified.json
 fc9ba46e78c023983b4e1777e7224829  verified/ar.verified.json
 0187251821f699b27dc976cd7fd6d63a  verified/bg.verified.json

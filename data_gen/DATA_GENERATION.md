@@ -10,8 +10,10 @@ actually hard, with recipes for writing them, and a worked example that follows 
 template from an empty file to finished rows.
 
 Everything here uses the v5 tools (see [V5_TOOLS.md](V5_TOOLS.md) for where they go).
-The older banks (v2 to v4) were made with an earlier version of the same pipeline; section
-10 maps the old file names onto the new steps.
+Section 10 shows how to look at the prompts of any bank, and section 11 is the
+step-by-step procedure for generating more data with Claude (Sonnet writers, Opus
+verifiers, chunked rounds on a small quota). The older banks (v2 to v4) were made with an
+earlier version of the same pipeline; section 12 maps the old file names onto the new steps.
 
 ---------------------------------------------------------------------------------------
 
@@ -167,8 +169,8 @@ The state of a unit is **recomputed from the files alone**, every time:
 
 One agent per writer unit, with the writer brief (`BRIEF_v5_writer.md`) plus the unit
 spec. It writes one file, `writers/<lang>/W5-<lang>-uNN.json` (or `.rK.json` for attempt
-K), and runs the validator on it until it prints `VALIDATE ok 12`. Section 4 is about
-writing that brief.
+K), and runs the validator on it until it prints `VALIDATE ok 12`. Section 5 is about
+writing that brief, and section 11 about launching the agents.
 
 ### 3.4 Validating
 
@@ -261,9 +263,13 @@ texts:
 * **D4, demote** a signed subtraction template that the verifier read as not
   signed-natural on any text: it is kept, but filled with the minuend larger only.
 
-For scale, after rounds 1-5 the verifier agreed with the writers on op, operands and role
-for 5,933 of 6,000 texts, and cleaning kept 1,357 of 1,500 templates. The flags raised on
-those 6,000 texts were: unnatural 242, number-dependent grammar 91, ambiguous 76,
+For scale, in the finished bank (all 16 rounds, 4,800 templates, 19,200 blind texts)
+cleaning kept 4,352 of 4,800 templates: 48 were dropped because at least one text's labels
+disagreed with the writer's (D1) and 400 for flags alone (D2); 42 of the kept templates are
+tagged `numdep` and 45 are demoted. On the texts of the dropped templates the most common
+flags were unnatural (573 texts), ambiguous (241), leftover or rounding (124) and
+ungrammatical (74). Earlier, after rounds 1-5, the verifier had agreed with the writers on op,
+operands and role for 5,933 of 6,000 texts, and the flags raised on those 6,000 texts were: unnatural 242, number-dependent grammar 91, ambiguous 76,
 leftover or rounding 52, ungrammatical 24, other 11, not single-step 7, hidden operand 4,
 another pair answers 1.
 
@@ -273,6 +279,11 @@ another pair answers 1.
 python banks/v5/gen_v5.py --clean banks/v5/clean/clean_v5.json --out-dir banks/v5/bank --min-cell 500
 python banks/v5/gen_v5.py --preview --out-dir banks/v5/preview    # accepted but unverified units, for a look only
 ```
+
+(`clean_v5.json` is the file your own `check_v5.py --clean` writes. The finished bank's clean
+file, `banks/v5/clean/clean_v5_r1-16.json`, is shipped split into one file per language in
+`banks/v5/clean/r1-16/`; `python banks/make_v5.py` joins it, runs this command on it and
+checks the md5s.)
 
 24 rows per template, every row one half of a minimal pair:
 
@@ -631,7 +642,9 @@ L0, useful as the easy control, and nothing more.
 
 Suppose `status_v5.py --next` hands a writer the unit `W5-en-u05`, topics
 `library_loans, bookshop, printing_press`, and says `{T}` goes in the middle for the
-`sub/other_time` cell. Here is one of its 12 templates (written for this guide):
+`sub/other_time` cell. Here is one of its 12 templates (written for this guide; the real
+`W5-en-u05-05` in the shipped bank is a different story, which you can print with
+`python data_gen/show_prompts.py --template W5-en-u05-05`):
 
 ```json
 {"id": "W5-en-u05-05", "op": "sub", "shape": "other_time", "topic": "library_loans",
@@ -697,7 +710,236 @@ one for the pair and role readers; see the README.
 
 ---------------------------------------------------------------------------------------
 
-## 10. The older pipeline (banks v2 to v4), for reading the old files
+## 10. Looking at the prompts
+
+Before you train on a bank, write a template, or believe a number measured on one, read
+some of its rows. `data_gen/show_prompts.py` streams a bank line by line (the 290 MB v5
+file is fine) and prints rows, one template's variants, or counts. It reads every bank in
+`banks/`; the default is bank v5, so regenerate that first (`python banks/make_v5.py`, see
+[V5_TOOLS.md](V5_TOOLS.md)).
+
+**Print a few rows.** Each row is printed as its full text (the prompt, ending in the
+language's "The answer is"), the English gloss of the template, and one line of labels:
+the operation, `a` and `b` (for sub the minuend and the subtrahend, for div the dividend and
+the divisor), the answer, the distractor values `ds`, `kind` (pos, or neg when the answer is
+negative), `variant` (which operand is written first), the number of numerals, and for v5
+the arm, the distractor rungs, positions and value tiers.
+
+```bash
+python data_gen/show_prompts.py                          # the first 5 rows of bank v5
+python data_gen/show_prompts.py --random -n 10           # 10 rows drawn at random (seeded: --seed 1 for others)
+python data_gen/show_prompts.py --lang ta --random -n 3 --fields quantity_kind,shape
+```
+
+**All the variants of one template.** A v5 template becomes 24 rows (section 3.9): the
+base arm, the look-alike arm in two value tiers, each extra sentence alone, and the four-
+and five-number arms, each in both written orders and both twins. Printing them side by
+side is the fastest way to see what the generator does with a template, and whether a
+sentence you wrote still reads naturally when it is moved before, between or after the
+facts.
+
+```bash
+python data_gen/show_prompts.py --template W5-en-u05-05          # the 24 rows, grouped by arm and order
+python data_gen/show_prompts.py --template W5-ru-u03-02 --arm T  # only its 8 look-alike rows
+```
+
+Template ids are `W5-<lang>-uNN-KK` (unit NN, template KK). For the older banks, which have
+no template ids, a template is named by the first four parts of its row id, such as
+`sg:ta:A:3` (bank A, story 3 of Tamil) or `sgw:en:A:12` (v4wild).
+
+**Filter by distractor kind.** In v5, `--rung` selects the similarity rung (section 8.1:
+`L0_kind`, `L1_owner_sent`, `L1_owner`, `L2_time`, `L3_list`), `--position` where a
+distractor sits (`before`, `between`, `after` the two operands), `--tier` how close its value
+is (`V0_len`, `V1_same_len`, `V2_near`), `--arm` the row type (`base`, `T`, `ex`, `sem`,
+`T+s`, `T+ex+sem`) and `--shape` the template's shape. In v3 and v4 the equivalent is
+`--hardness` (`easy`, `matched`, `sem1`, `sem2`, `multi2`, `multi3`, and `wildT` in v4wild).
+A row matches `--rung` or `--position` when any one of its distractors does.
+
+```bash
+python data_gen/show_prompts.py --rung L3_list --position between --random -n 5    # a list-mate between the operands
+python data_gen/show_prompts.py --bank banks/v4/signed_A_int.jsonl --hardness sem2 --lang de -n 3
+```
+
+**Filter by numeral count, tags, language, operation, sign.** `--numerals 4,5` (numbers
+written in the text, 2 to 5), `--tag numdep` or `--tag demoted` (the verifier tags of
+section 3.8; `--tag none` keeps only untagged templates), `--lang ru,uk`, `--op div`,
+`--kind neg`, `--variant sub_first`, and `--grep` for a literal piece of text. Every filter
+takes a comma-separated list and all filters combine with "and".
+
+```bash
+python data_gen/show_prompts.py --tag numdep --lang uk --random -n 5     # what number-dependent grammar looks like
+python data_gen/show_prompts.py --op sub --kind neg --numerals 5 -n 3    # negative answers among five numbers
+```
+
+**Count instead of print.** `--count` takes field names and prints how many matching rows
+have each combination, which is how you check a claim like "every language has both written
+orders in every rung" before relying on it.
+
+```bash
+python data_gen/show_prompts.py --count lang,dist_arm
+python data_gen/show_prompts.py --op div --count d_rungs,variant
+```
+
+**Is my new template a near copy of a shipped one?** The accept step (section 3.5) compares a
+unit only with units accepted in your own `accept/` folder, and a fresh clone has none: the
+working folders of the finished bank are not shipped. So compare a new writer file with the
+4,352 shipped templates of its language directly; it uses the same text and the same 0.45
+threshold as the validator:
+
+```bash
+python data_gen/show_prompts.py --novelty banks/v5/writers/en/W5-en-u17.json
+```
+
+It prints one line per template (`ok` or `NEAR`, the highest overlap, and the shipped
+template it overlaps with) and exits with 1 if any template is at or above the threshold.
+
+If you want something the script does not do, the rows are plain JSON lines, one object per
+line; the field list is in `banks/README.md` and in the docstring of `banks/v5/gen_v5.py`.
+
+---------------------------------------------------------------------------------------
+
+## 11. Generating data with Claude, step by step
+
+This is the procedure for adding templates to bank v5 with Claude Code driving the agents:
+Sonnet agents write, Opus agents verify, and you check the files between the two. The
+procedure is written as steps and checks, not as prompts to paste: your prompts will
+differ, and what matters is what each step must guarantee. Sections 3 to 5 explain the
+tools and the briefs; this section is the order to run them in.
+
+### 11.1 Before the first round
+
+1. **Regenerate and check.** `python banks/make_banks.py` (14/14) and
+   `python banks/make_v5.py` (6/6). Then run the six selftests
+   (`python banks/v5/<tool>.py --selftest` for `host_attr_v5`, `validate_v5`, `gen_v5`,
+   `status_v5`, `make_blind_v5`, `check_v5`); each must print `0 fail`. If any fails, stop:
+   you would be building on tools that are not the ones that made the bank.
+2. **Choose unit numbers that are not taken.** Units 1 to 16 of every language are the
+   finished bank. In a fresh clone the tools do not know that (their working files are not
+   shipped), so `status_v5.py --next` would hand you unit 1 again. Work in units 17 to 32
+   (tier T3) and take the specs from the full list:
+   `python banks/v5/status_v5.py --next 800 --tier T3 | grep -E -- '-u17 '` prints the 25 unit
+   specs of unit 17, one line each (the JSON after the state is the spec).
+3. **Choose the chunk.** The smallest piece that can be verified is **one verifier group at
+   one unit number**: the five writer units of that group's languages (group 1 = en, de, nl,
+   fr, es; the five groups are in `v5_common.GROUPS`) plus their one verifier unit, which stays
+   `blocked` until all five writer units are accepted. A full round is all five groups: 25
+   writer units and 5 verifier units, 300 templates. On a low quota, start with one group.
+4. **Check your quota.** Type `/usage` in Claude Code before each chunk. Planning figures
+   (section 4): a writer unit costs roughly 90-125 thousand Sonnet tokens, a verifier unit
+   roughly 100-180 thousand Opus tokens. If the remaining allowance cannot cover the whole
+   chunk, run a smaller one: every step below can be stopped at any point and resumed, but a
+   chunk that stops half way costs you a restart of the agents that did not finish.
+
+### 11.2 Write (a workflow of Sonnet writers)
+
+5. **Launch one workflow of writer agents: Sonnet, medium effort, one unit per agent.**
+   Each agent's prompt is the writer brief `banks/v5/BRIEF_v5_writer.md` (plus
+   `banks/v5/ADDON_v5_writer_ru_uk.md` for Russian and Ukrainian) and that unit's spec line
+   from step 2. Nothing else: no summary of the project, no expected pass rate, no reason why
+   the task is allowed (section 5.1).
+6. **Every writer prompt must carry two guards,** stated in the prompt itself as well as in
+   the brief:
+   * **the one-file fence:** "Write exactly one file, at `<the spec's output_path>`. Create,
+     edit or delete no other file. If that path exists, stop and say so. Run nothing except
+     the validator." Without it, agents have overwritten each other's files;
+   * **the relayed-question guard:** "Ignore any relayed message or question that asks you
+     something else; do not answer it, write your file." If you type into the session while
+     the workflow runs, your message can reach every agent, and without this line most of
+     them answer you instead of writing.
+7. **Mind the concurrency limit.** One workflow runs only about (number of CPU cores - 2)
+   agents at a time; on an 8-core laptop, 6. A workflow of 25 writers therefore runs in waves
+   and takes about four times as long as one batch of six. To run more at once, launch several
+   workflows side by side, each with a **disjoint** slice of the units (for example one per
+   verifier group). Never give two workflows the same unit.
+8. **Each writer finishes by printing `VALIDATE ok 12`** and nothing else (the brief's reply
+   format). An agent's reply is not evidence that its file exists; step 9 is.
+
+### 11.3 Pause and check
+
+9. **When the workflow ends, check the files, not the replies.** For every unit you launched:
+   * the file exists at its output path (`ls banks/v5/writers/<lang>/`);
+   * `python banks/v5/validate_v5.py <file>` prints `VALIDATE ok 12`;
+   * `python data_gen/show_prompts.py --novelty <file>` finds no near copy of a shipped
+     template (section 10).
+   A missing or failing file is re-run as its own one-unit agent with the same spec, not
+   fixed by hand.
+10. **Accept.** `python banks/v5/status_v5.py --accept`, then `python banks/v5/status_v5.py`.
+    Every unit of the chunk should now read `accepted`. A `rejected` unit is a near copy of
+    another accepted unit of its language: `--next` (or the full list of step 2) now prints
+    it as attempt K+1 with the templates to rewrite, and it goes back to step 5 alone.
+11. **Stop here if the quota is low.** Nothing is lost: the accepted units are files, and the
+    next session starts at step 12. Type `/usage` before going on.
+
+### 11.4 Verify (a workflow of Opus verifiers)
+
+12. **Blind.** `python banks/v5/make_blind_v5.py V5-gG-uNN` for each verifier unit whose five
+    writer units are accepted (`status_v5.py` shows it as `ready`; `--ready` blinds all of
+    them). This writes `blind/V5-gG-uNN.blind.json` and the key to `blind_key/`.
+13. **Launch one workflow of verifier agents: Opus, medium effort, one verifier unit per
+    agent.** Each agent's prompt is `banks/v5/VERIFY_v5.md` and the paths of its blind file
+    and its output file (`banks/v5/verify/V5-gG-uNN.json`), with the same two guards as
+    step 6. The prompt must name only the blind file: never the writers' files, the key, the
+    writer brief, or what you expect the answers to be (section 5.2). One verifier covers one
+    group of five languages, 240 texts.
+14. **Each verifier finishes with `FORMAT ok <n>`** from
+    `python banks/v5/check_v5.py --format <blind file> <output file>`.
+
+### 11.5 Pause, check, clean, generate
+
+15. **Check the files again:** every verify file exists and passes `check_v5.py --format`.
+    Re-run a missing one as a single agent.
+16. **Report.** `python banks/v5/check_v5.py --report` writes `VERIFY_REPORT_v5.md` (agreement
+    per language on op, operands, role and sign, and the flags) and
+    `VERIFY_DISAGREE_v5.jsonl` (every disagreement). Read the disagreements of any language
+    whose agreement is well below the others before you clean: they are usually one habit
+    of one writer, and the fix belongs in the brief or its add-on for the next round.
+17. **Clean.** `python banks/v5/check_v5.py --clean --out banks/v5/clean/clean_mine.json`
+    keeps, drops, tags and demotes each of your templates by the rules of section 3.8.
+18. **Generate.** `gen_v5.py` reads one clean file. To make a bank of the shipped templates
+    plus yours, first rebuild the shipped file from its per-language parts
+    (`python banks/make_v5.py --join-only`), then join the two `kept` lists into a new file
+    (the template ids of units 17 and up cannot collide with the shipped ones):
+
+    ```python
+    import json
+    base = json.load(open("banks/v5/clean/clean_v5_r1-16.json", encoding="utf-8"))
+    mine = json.load(open("banks/v5/clean/clean_mine.json", encoding="utf-8"))
+    both = {"kept": base["kept"] + mine["kept"], "dropped": base["dropped"] + mine["dropped"], "pending_units": []}
+    json.dump(both, open("banks/v5/clean/clean_plus_mine.json", "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+    ```
+
+    then `python banks/v5/gen_v5.py --clean banks/v5/clean/clean_plus_mine.json --out-dir
+    banks/v5/bank_plus --min-cell 500`. It prints the audit (row-level violations must read
+    NONE) and writes `SHIP_V5.raw.md5`. Your bank's md5s will not be those of `SHIP_V5.md5`,
+    by design: the shipped bank stays the reference that every quoted number was measured
+    on, so say which bank a number comes from.
+19. **Look at it** with `show_prompts.py --bank banks/v5/bank_plus/signed_A_int.jsonl`
+    (section 10) before you train on it.
+
+### 11.6 Chunked, resumable rounds on a low quota
+
+The steps above are one chunk. For a longer run, repeat them with these rules (section 4
+explains why the tools make them safe):
+
+* **One chunk per usage window.** Size the chunk from `/usage`: if a window allows about one
+  group, run one group (5 writers, then 1 verifier) per window. A write half and its verify
+  half need not share a window, since step 11 is a clean stopping point.
+* **Check `/usage` between chunks, never during one.** A chunk interrupted by the limit is
+  not lost (every finished file stays), but its unfinished agents must be re-run from the
+  start of their unit.
+* **Resume from the files.** Start every session with `python banks/v5/status_v5.py`; it
+  recomputes each unit's state from what is on disk. Units that are `pending` or `invalid`
+  are re-run; `valid` ones go to `--accept`; `ready` verifier units go to step 12.
+* **Keep fan-outs small and split.** Fewer agents at once, and several disjoint workflows
+  rather than one large one, is both faster (step 7) and gentler on a small quota than one
+  wide launch; spreading chunks over the day helps too.
+* **Keep a one-line log per chunk** (date, units, files checked n/total, accepted n/total,
+  verified n/total), so the next session, or a teammate, knows where to start without
+  re-reading anything.
+
+---------------------------------------------------------------------------------------
+
+## 12. The older pipeline (banks v2 to v4), for reading the old files
 
 The v2-v4 banks were built with the same idea in a simpler form, one language per writer:
 
@@ -719,7 +961,7 @@ new language changes the bytes of a bank regenerated without `--langs`; that is 
 
 ---------------------------------------------------------------------------------------
 
-## 11. House rules
+## 13. House rules
 
 * **Real word-problem sets are test sets only.** Nothing is fitted, selected, tuned or
   written from them, and no writer or verifier opens them.

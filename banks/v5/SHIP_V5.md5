@@ -1,0 +1,11 @@
+# md5 of the files gen_v5.py writes for bank v5 from clean/clean_v5_r1-16.json (md5 e92b1741ff7d4cac752f18bf033f60e9),
+# which make_v5.py joins from clean/r1-16/<lang>.json.
+# Recorded 2026-09-30 by regenerating twice (PYTHONHASHSEED=0 and 1, identical); check with python banks/make_v5.py.
+# AUDIT_v5.txt is the --min-cell 500 run (one line longer than a run without it).
+# The three empty files (d41d8cd9...) are real: v5 has no bank B and no decimal rows.
+7fd3fb38f489fc7effab2a91e8a8a16f  AUDIT_v5.txt
+50c097e041052a96522688bc35f42bf9  pairs.json
+d41d8cd98f00b204e9800998ecf8427e  signed_A_dec.jsonl
+bec1624d6ee364805188c0ae436a7b2e  signed_A_int.jsonl
+d41d8cd98f00b204e9800998ecf8427e  signed_B_dec.jsonl
+d41d8cd98f00b204e9800998ecf8427e  signed_B_int.jsonl

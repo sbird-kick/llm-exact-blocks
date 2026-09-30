@@ -1,0 +1,38 @@
+{
+ "pending_units": [],
+ "languages": [
+  "ar",
+  "bn",
+  "de",
+  "el",
+  "en",
+  "es",
+  "fa",
+  "fr",
+  "he",
+  "hi",
+  "id",
+  "it",
+  "ja",
+  "ko",
+  "nl",
+  "pl",
+  "pt",
+  "ru",
+  "sw",
+  "ta",
+  "th",
+  "tr",
+  "uk",
+  "vi",
+  "zh"
+ ],
+ "joined_md5": "e92b1741ff7d4cac752f18bf033f60e9",
+ "top_level_keys": [
+  "kept",
+  "dropped",
+  "pending_units"
+ ],
+ "n_kept": 4352,
+ "n_dropped": 448
+}

@@ -70,8 +70,8 @@ nothing else about the rows that already exist:
       THE QUESTION v3 ASKS: does the text-only baseline fall to chance on the sem arms while R2 stays at the host's ceiling?
 =====================================================================================================================
 
-VERSION 4 (2026-09-22) -- THE WILD-STRUCTURE FIX.  Readers fitted on v2/v3 score 98-99% in-bank and 63% (8B) / 60% (32B) on 343
-real English word problems with 3-5 numerals; the 09-22 16:0x diagnosis found that EVERY transfer miss keeps one gold operand
+VERSION 4 (2026-09-22) -- THE WILD-STRUCTURE FIX.  Readers fitted on v2/v3 score 98-99% in-bank and far lower on real English
+word problems with 3-5 numerals (a test set); the 09-22 diagnosis found that every transfer miss keeps one gold operand
 and swaps the other for a LIST-MATE, because a wild row's extra numerals are a list of THREE SAME-KIND quantities from which the
 QUESTION selects two, and because wild rows mix subtraction, addition and multiplication.  v2/v3 carry exactly ONE distractor, of
 a DIFFERENT owner, excludable without reading the question, and subtraction only.  v4 attacks both halves and, again, changes

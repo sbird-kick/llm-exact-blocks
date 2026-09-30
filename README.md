@@ -121,9 +121,10 @@ exact_block/numerals_ml.py  opt-in per-language numeral parsing (digit systems, 
 train.py                  four supervised losses, frozen host, ~0.06 M trainable params
 eval.py                   host vs host+block answer accuracy, per op and width cell
 tests/test_cpu.py         CPU-only: calculator exactness, locator, hooks, bitwise inertness
-tests/test_numerals_ml.py, tests/test_bank_corpus.py   CPU-only, standard library only
-banks/                    the multilingual banks: regeneration script and md5s (see below)
-data_gen/                 bank -> corpus converter, the v5 tool list, DATA_GENERATION.md
+tests/test_numerals_ml.py, tests/test_bank_corpus.py, tests/test_banks_shipped.py   CPU-only, standard library only
+banks/                    the multilingual banks: templates, generators, regeneration scripts and md5s (see below)
+banks/v5/                 bank v5: its clean templates and the tools that wrote, verified and generate it
+data_gen/                 bank -> corpus converter, prompt viewer, the v5 tool list, DATA_GENERATION.md
 sbatch/                   SLURM runners for the cluster
 ```
 
@@ -209,15 +210,24 @@ The English corpus above is what `python -m exact_block.data` writes, and it is 
 For other languages the project has **signed word-problem banks**: one-step problems
 written from blind-verified templates, where the story's meaning (not the numbers' size)
 decides which number is subtracted from which, with one to four distractor numbers of the
-same kind. Everything about them is in three places:
+same kind. The templates and generators are in the repository (the generated rows are
+not: you regenerate them, and md5s prove you got the same bytes). Everything about them is
+in three places:
 
-* [`banks/README.md`](banks/README.md): the three banks, what each adds, the row format,
-  and `python banks/make_banks.py`, which regenerates them byte for byte and checks 14 md5s;
+* [`banks/README.md`](banks/README.md): the three older banks, what each adds, the row
+  format, and `python banks/make_banks.py`, which regenerates them byte for byte and checks
+  14 md5s;
 * [`data_gen/DATA_GENERATION.md`](data_gen/DATA_GENERATION.md): how templates are written,
   validated, verified blind and turned into rows, how the work is cut into resumable rounds,
   the language-specific pitfalls, and what makes a distractor hard (with recipes);
-* [`data_gen/V5_TOOLS.md`](data_gen/V5_TOOLS.md): the tools of bank v5 (25 languages,
-  add / sub / mul / div). The v5 templates arrive when that bank is finished.
+* [`data_gen/V5_TOOLS.md`](data_gen/V5_TOOLS.md): bank v5, finished: 4,352 verified
+  templates in 25 languages, add / sub / mul / div, 104,448 rows, regenerated and
+  md5-checked by `python banks/make_v5.py`; and the tools that made it.
+
+To read the prompts of any bank (one template's variants, filters by distractor kind,
+numeral count, tags or language), use `python data_gen/show_prompts.py`
+(DATA_GENERATION.md section 10). To make more data with Claude, section 11 of the same guide
+is the step-by-step procedure.
 
 **Languages.** `v3_61`: 61 languages (bank A; 36 of them also bank B): Amharic, Arabic,
 Bulgarian, Bengali, Tibetan, Czech, German, Greek, English, Spanish, Basque, Persian,
@@ -228,6 +238,7 @@ Romanian, Russian, Sinhala, Slovak, Albanian, Serbian, Swedish, Swahili, Tamil, 
 Thai, Filipino, Turkish, Ukrainian, Urdu, Uzbek, Vietnamese, Yoruba, Chinese, Zulu.
 `v4`: 25 of them (ar bn de el en es fa fr he hi id it ja ko nl pl pt ru sw ta th tr uk vi
 zh) with 4-5-number rows added. `v4wild`: English, with addition and product as well.
+`v5`: the same 25 languages, with all four operations and 2-5 numbers per row.
 
 **Training and evaluating on a bank.** `data_gen/bank_to_corpus.py` writes a bank's rows
 in exactly the format `train.py` and `eval.py` already read, so neither needs a new flag:
@@ -253,7 +264,8 @@ Things to know before you read the numbers:
   some: `grep '"op": "off"' data/train.jsonl >> data_indic/train.jsonl` (and the same for
   `val` / `test`) after generating the English corpus.
 * **Only subtraction in most banks.** `v3_61` and `v4` are subtraction only; `v4wild` adds
-  addition and product (English). The width cells are few (`1x1`, `2x2`, `4x1`, `4x3`, `6x6`)
+  addition and product (English); `v5` has add, sub, mul and div in 25 languages, and the
+  converter leaves its division rows out (the block has no division body). The width cells are few (`1x1`, `2x2`, `4x1`, `4x3`, `6x6`)
   because the bank's numerals come from eight fixed categories.
 * **Per-language numerals.** The banks write plain ASCII digits, so `numerals.py` reads them
   as they are. For text that did not come from a generator (native digits such as ৩৫০ or
