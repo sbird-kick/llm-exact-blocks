@@ -124,6 +124,7 @@ tests/test_cpu.py         CPU-only: calculator exactness, locator, hooks, bitwis
 tests/test_numerals_ml.py, tests/test_bank_corpus.py, tests/test_banks_shipped.py   CPU-only, standard library only
 banks/                    the multilingual banks: templates, generators, regeneration scripts and md5s (see below)
 banks/v5/                 bank v5: its clean templates and the tools that wrote, verified and generate it
+banks/subrole/ subrole_g3/ divrole2/ v5x/ abstainbank/ abstainbank_x/ audience/   the 2026-10-01 banks (banks/README.md)
 data_gen/                 bank -> corpus converter, prompt viewer, the v5 tool list, DATA_GENERATION.md
 sbatch/                   SLURM runners for the cluster
 ```
@@ -239,6 +240,21 @@ Thai, Filipino, Turkish, Ukrainian, Urdu, Uzbek, Vietnamese, Yoruba, Chinese, Zu
 `v4`: 25 of them (ar bn de el en es fa fr he hi id it ja ko nl pl pt ru sw ta th tr uk vi
 zh) with 4-5-number rows added. `v4wild`: English, with addition and product as well.
 `v5`: the same 25 languages, with all four operations and 2-5 numbers per row.
+
+**Banks added on 2026-10-01** (all described in [`banks/README.md`](banks/README.md) and in
+section 14 of the guide; each folder has its clean templates and a `CODE.md5`):
+
+* `banks/subrole/` (190 templates) and `banks/subrole_g3/` (33, held out): English
+  subtraction where the minuend is smaller in half the rows and written second in half;
+* `banks/divrole2/`: English division in the same design (164 templates + 20 reference);
+  these three regenerate with `python banks/make_role_banks.py`;
+* `banks/v5x/`, **partial**: v5 in Bulgarian, Czech, Hungarian, Romanian, Slovak and Serbian,
+  with eight question forms (274 templates, the first of six chunks); `python banks/make_v5x.py`;
+* `banks/abstainbank/`: 503 English questions the block should abstain on (percent, roots,
+  two-step, yes/no ...), each with an ordinary one-step twin; templates only;
+* `banks/abstainbank_x/`, **partial**: the same in German, Spanish, French, Italian, Dutch
+  and Portuguese (68 templates so far); templates only;
+* `banks/audience/`, **demo-grade**: 199 short demo-style prompts and their generator.
 
 **Training and evaluating on a bank.** `data_gen/bank_to_corpus.py` writes a bank's rows
 in exactly the format `train.py` and `eval.py` already read, so neither needs a new flag:

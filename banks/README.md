@@ -290,8 +290,8 @@ the 197 templates that passed everything.
 
 ```bash
 cd banks/audience
-python3 gen_audience_v2.py --final --audit audit.json     # -> bank_v2/, compare bank_v2/BANK_v2.md5 with SHIP_AUDIENCE_V2.md5
-python3 gen_audience.py --final --audit audit.json        # v1 -> bank/ (SHIP_AUDIENCE_V1.md5); then:
+python3 gen_audience_v2.py --final --audit audit.json     # -> bank_v2/; the md5 lines of bank_v2/BANK_v2.md5 must be those of SHIP_AUDIENCE_V2.md5
+python3 gen_audience.py --final --audit audit.json        # v1 -> bank/ (md5s in SHIP_AUDIENCE_V1.md5); then:
 python3 gen_audience_v2.py --selftest                     # v2 against v1, 13 checks
 ```
 
