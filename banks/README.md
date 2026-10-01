@@ -263,3 +263,38 @@ added as `clean/X01r2/`. The clean files are one per language in `abstainbank_x/
 with `index.json`; `python banks/clean_split.py join banks/abstainbank_x/clean/X01r1 <out.json>`
 rebuilds the project's single file byte for byte. As for AB1, the filling tool is not
 shipped (it builds on AB1's); the AB1 notes on filling apply unchanged.
+
+## The audience demo bank (English, DEMO-GRADE)
+
+`audience/` is a small bank written for a live demonstration: the kinds of prompt an
+audience types when it is handed the model. It is **demo-grade**: not pre-registered, never
+used as a result, and filled from code templates written by four writers (`writers/W1-W4.json`:
+`text` with `{A}`, `{B}`, `{C}` slots, slot ranges, `constraints`, the `answer` as a Python
+expression, the `operands`). 200 templates in five categories:
+
+| category | templates | what | example |
+|---|---:|---|---|
+| `single` | 90 | one in-set step (add 20, sub 25, mul 22, div 23) | "{A} plus {B} equals what?" |
+| `multi` | 40 | two or three steps | "... picked up {B} more ..., then {C} passengers got off. How many remain?" |
+| `oos` | 35 | an operation outside the four (percent, average, remainder, square, rounding ...) | "What number is {A} percent of {B}?" |
+| `noarith` | 20 | no arithmetic: restate a number, the answer already given, a trick question | "Tom's jersey number is {A}. What is Tom's jersey number?" |
+| `lookalike` | 15 | looks like one step and is not quite (an absolute gap, a sum of three, a chain) | "What is the age gap between them?" |
+
+A Sonnet audit (`audit.json`) dropped 1 template (ambiguous), leaving 199. `gen_audience.py`
+fills each up to 16 times (bank v1, 3,163 rows); `gen_audience_v2.py` imports it unchanged and
+fixes two fill problems that a later blind verification found ("1 goals"; a filled number
+equal to another numeral, so a second pair answers): bank v2, 3,161 rows, 2.2 MB, not
+committed. Bank v2 then passed the blind verification: answer confirmed 199/199, label
+agreement 191/192, blocking flags 1/199, unnatural 7/199; `verified_templates_v2.json` lists
+the 197 templates that passed everything.
+
+```bash
+cd banks/audience
+python3 gen_audience_v2.py --final --audit audit.json     # -> bank_v2/, compare bank_v2/BANK_v2.md5 with SHIP_AUDIENCE_V2.md5
+python3 gen_audience.py --final --audit audit.json        # v1 -> bank/ (SHIP_AUDIENCE_V1.md5); then:
+python3 gen_audience_v2.py --selftest                     # v2 against v1, 13 checks
+```
+
+The prose OTHER bank that was blind-verified with it is not shipped: its generator also
+builds a held-out test file and quotes a test-set result, so it needs more than a comment
+rewording first.

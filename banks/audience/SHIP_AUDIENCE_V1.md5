@@ -1,0 +1,9 @@
+# md5 of the files `python3 gen_audience.py --final --audit audit.json` writes under banks/audience/bank/ (v1, 3,163 rows),
+# as the project recorded them. v2 (the bank to use) needs v1 only for its selftest.
+79faccfff54544866ca897e5921f6b20  audience_bank.jsonl
+2584a269fecc67890ebc983790d61ccc  census.json
+99f32aa6ff68d0dc08009ce184286b4e  dump/AUD_single.jsonl
+7b7b2d1f389e1a371a3aa784462a226b  dump/AUD_multi.jsonl
+5af1c8b61d9c892e9cf8f59d214059d6  dump/AUD_oos.jsonl
+76b88415c615ce6b740db73311741167  dump/AUD_noarith.jsonl
+e69ee8a1af56776e494858774d0ca333  dump/AUD_lookalike.jsonl

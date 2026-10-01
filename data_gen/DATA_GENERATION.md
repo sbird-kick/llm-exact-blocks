@@ -1020,3 +1020,8 @@ layouts are in [`banks/README.md`](../banks/README.md).
 * **`banks/abstainbank_x/`** (PARTIAL): AB1 written natively in other languages, each
   template in one of the eight v5x question forms. So far 68 templates in German, Spanish,
   French, Italian, Dutch and Portuguese (round 1 of the pilot chunk). Templates only.
+* **`banks/audience/`** (English, DEMO-GRADE): 199 short prompts of the kind people type at
+  a live demo ("What is {A} plus {B}?", a three-number story, "What number is {A} percent of
+  {B}?", "What is Tom's jersey number?"), so a demo gate can be fitted on them. Not a test
+  set and not a result; blind-verified afterwards (197 of 199 pass). 3,161 rows from
+  `gen_audience_v2.py --final --audit audit.json`.

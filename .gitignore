@@ -37,3 +37,7 @@ banks/divrole2/bank/
 # bank v5x (partial): the generated rows and the joined clean file (python banks/make_v5x.py)
 banks/v5x/bank/
 banks/v5x/clean/*.json
+# the audience demo bank's generated rows and its --validate output
+banks/audience/bank/
+banks/audience/bank_v2/
+banks/audience/validate.json

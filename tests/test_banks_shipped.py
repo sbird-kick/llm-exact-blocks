@@ -106,6 +106,20 @@ def test_abstainbank_x_templates_match_and_join():
     assert len(j["kept"]) == 68 and len(j["dropped"]) == 28
 
 
+def test_audience_bank_v2_regenerates():
+    """the demo audience bank v2 (about a second): inputs match CODE.md5, gen_audience_v2.py reproduces its md5s"""
+    import subprocess
+    d = os.path.join(ROOT, "banks", "audience")
+    want = MB.read_ship(os.path.join(d, "CODE.md5"))
+    assert len(want) == 8 and not [r for r in want if MB.md5_of(os.path.join(d, r)) != want[r]]
+    with tempfile.TemporaryDirectory() as out:
+        subprocess.run([sys.executable, "gen_audience_v2.py", "--final", "--audit", "audit.json", "--out", out],
+                       cwd=d, check=True, capture_output=True, env=dict(os.environ, PYTHONDONTWRITEBYTECODE="1"))
+        ship = MB.read_ship(os.path.join(d, "SHIP_AUDIENCE_V2.md5"))
+        bad = [r for r in ship if MB.md5_of(os.path.join(out, r)) != ship[r]]
+        assert len(ship) == 8 and not bad, bad
+
+
 def test_v5x_regenerates():
     """about five seconds: join, v5x.py gen, six md5s"""
     import make_v5x as MX

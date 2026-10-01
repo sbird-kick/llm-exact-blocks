@@ -1,0 +1,1002 @@
+[
+  {
+    "tid": "W1-001",
+    "verdict": "OK",
+    "reason": ""
+  },
+  {
+    "tid": "W1-002",
+    "verdict": "OK",
+    "reason": ""
+  },
+  {
+    "tid": "W1-003",
+    "verdict": "OK",
+    "reason": ""
+  },
+  {
+    "tid": "W1-004",
+    "verdict": "OK",
+    "reason": ""
+  },
+  {
+    "tid": "W1-005",
+    "verdict": "OK",
+    "reason": ""
+  },
+  {
+    "tid": "W1-006",
+    "verdict": "OK",
+    "reason": ""
+  },
+  {
+    "tid": "W1-007",
+    "verdict": "OK",
+    "reason": ""
+  },
+  {
+    "tid": "W1-008",
+    "verdict": "OK",
+    "reason": ""
+  },
+  {
+    "tid": "W1-009",
+    "verdict": "OK",
+    "reason": ""
+  },
+  {
+    "tid": "W1-010",
+    "verdict": "OK",
+    "reason": ""
+  },
+  {
+    "tid": "W1-011",
+    "verdict": "OK",
+    "reason": ""
+  },
+  {
+    "tid": "W1-012",
+    "verdict": "OK",
+    "reason": ""
+  },
+  {
+    "tid": "W1-013",
+    "verdict": "OK",
+    "reason": ""
+  },
+  {
+    "tid": "W1-014",
+    "verdict": "OK",
+    "reason": ""
+  },
+  {
+    "tid": "W1-015",
+    "verdict": "OK",
+    "reason": ""
+  },
+  {
+    "tid": "W1-016",
+    "verdict": "OK",
+    "reason": ""
+  },
+  {
+    "tid": "W1-017",
+    "verdict": "OK",
+    "reason": ""
+  },
+  {
+    "tid": "W1-018",
+    "verdict": "OK",
+    "reason": ""
+  },
+  {
+    "tid": "W1-019",
+    "verdict": "OK",
+    "reason": ""
+  },
+  {
+    "tid": "W1-020",
+    "verdict": "OK",
+    "reason": ""
+  },
+  {
+    "tid": "W1-021",
+    "verdict": "OK",
+    "reason": ""
+  },
+  {
+    "tid": "W1-022",
+    "verdict": "OK",
+    "reason": ""
+  },
+  {
+    "tid": "W1-023",
+    "verdict": "OK",
+    "reason": ""
+  },
+  {
+    "tid": "W1-024",
+    "verdict": "OK",
+    "reason": ""
+  },
+  {
+    "tid": "W1-025",
+    "verdict": "OK",
+    "reason": ""
+  },
+  {
+    "tid": "W1-026",
+    "verdict": "OK",
+    "reason": ""
+  },
+  {
+    "tid": "W1-027",
+    "verdict": "OK",
+    "reason": ""
+  },
+  {
+    "tid": "W1-028",
+    "verdict": "OK",
+    "reason": ""
+  },
+  {
+    "tid": "W1-029",
+    "verdict": "OK",
+    "reason": ""
+  },
+  {
+    "tid": "W1-030",
+    "verdict": "OK",
+    "reason": ""
+  },
+  {
+    "tid": "W1-031",
+    "verdict": "OK",
+    "reason": ""
+  },
+  {
+    "tid": "W1-032",
+    "verdict": "OK",
+    "reason": ""
+  },
+  {
+    "tid": "W1-033",
+    "verdict": "OK",
+    "reason": ""
+  },
+  {
+    "tid": "W1-034",
+    "verdict": "OK",
+    "reason": ""
+  },
+  {
+    "tid": "W1-035",
+    "verdict": "OK",
+    "reason": ""
+  },
+  {
+    "tid": "W1-036",
+    "verdict": "OK",
+    "reason": ""
+  },
+  {
+    "tid": "W1-037",
+    "verdict": "OK",
+    "reason": ""
+  },
+  {
+    "tid": "W1-038",
+    "verdict": "OK",
+    "reason": ""
+  },
+  {
+    "tid": "W1-039",
+    "verdict": "OK",
+    "reason": ""
+  },
+  {
+    "tid": "W1-040",
+    "verdict": "OK",
+    "reason": ""
+  },
+  {
+    "tid": "W1-041",
+    "verdict": "OK",
+    "reason": ""
+  },
+  {
+    "tid": "W1-042",
+    "verdict": "OK",
+    "reason": ""
+  },
+  {
+    "tid": "W1-043",
+    "verdict": "OK",
+    "reason": ""
+  },
+  {
+    "tid": "W1-044",
+    "verdict": "OK",
+    "reason": ""
+  },
+  {
+    "tid": "W1-045",
+    "verdict": "OK",
+    "reason": ""
+  },
+  {
+    "tid": "W2-001",
+    "verdict": "OK",
+    "reason": ""
+  },
+  {
+    "tid": "W2-002",
+    "verdict": "OK",
+    "reason": ""
+  },
+  {
+    "tid": "W2-003",
+    "verdict": "OK",
+    "reason": ""
+  },
+  {
+    "tid": "W2-004",
+    "verdict": "OK",
+    "reason": ""
+  },
+  {
+    "tid": "W2-005",
+    "verdict": "OK",
+    "reason": ""
+  },
+  {
+    "tid": "W2-006",
+    "verdict": "OK",
+    "reason": ""
+  },
+  {
+    "tid": "W2-007",
+    "verdict": "OK",
+    "reason": ""
+  },
+  {
+    "tid": "W2-008",
+    "verdict": "OK",
+    "reason": ""
+  },
+  {
+    "tid": "W2-009",
+    "verdict": "OK",
+    "reason": ""
+  },
+  {
+    "tid": "W2-010",
+    "verdict": "OK",
+    "reason": ""
+  },
+  {
+    "tid": "W2-011",
+    "verdict": "OK",
+    "reason": ""
+  },
+  {
+    "tid": "W2-012",
+    "verdict": "OK",
+    "reason": ""
+  },
+  {
+    "tid": "W2-013",
+    "verdict": "OK",
+    "reason": ""
+  },
+  {
+    "tid": "W2-014",
+    "verdict": "OK",
+    "reason": ""
+  },
+  {
+    "tid": "W2-015",
+    "verdict": "OK",
+    "reason": ""
+  },
+  {
+    "tid": "W2-016",
+    "verdict": "OK",
+    "reason": ""
+  },
+  {
+    "tid": "W2-017",
+    "verdict": "OK",
+    "reason": ""
+  },
+  {
+    "tid": "W2-018",
+    "verdict": "OK",
+    "reason": ""
+  },
+  {
+    "tid": "W2-019",
+    "verdict": "OK",
+    "reason": ""
+  },
+  {
+    "tid": "W2-020",
+    "verdict": "OK",
+    "reason": ""
+  },
+  {
+    "tid": "W2-021",
+    "verdict": "OK",
+    "reason": ""
+  },
+  {
+    "tid": "W2-022",
+    "verdict": "OK",
+    "reason": ""
+  },
+  {
+    "tid": "W2-023",
+    "verdict": "OK",
+    "reason": ""
+  },
+  {
+    "tid": "W2-024",
+    "verdict": "OK",
+    "reason": ""
+  },
+  {
+    "tid": "W2-025",
+    "verdict": "OK",
+    "reason": ""
+  },
+  {
+    "tid": "W2-026",
+    "verdict": "OK",
+    "reason": ""
+  },
+  {
+    "tid": "W2-027",
+    "verdict": "OK",
+    "reason": ""
+  },
+  {
+    "tid": "W2-028",
+    "verdict": "OK",
+    "reason": ""
+  },
+  {
+    "tid": "W2-029",
+    "verdict": "OK",
+    "reason": ""
+  },
+  {
+    "tid": "W2-030",
+    "verdict": "OK",
+    "reason": ""
+  },
+  {
+    "tid": "W2-031",
+    "verdict": "OK",
+    "reason": ""
+  },
+  {
+    "tid": "W2-032",
+    "verdict": "OK",
+    "reason": ""
+  },
+  {
+    "tid": "W2-033",
+    "verdict": "OK",
+    "reason": ""
+  },
+  {
+    "tid": "W2-034",
+    "verdict": "OK",
+    "reason": ""
+  },
+  {
+    "tid": "W2-035",
+    "verdict": "OK",
+    "reason": ""
+  },
+  {
+    "tid": "W2-036",
+    "verdict": "OK",
+    "reason": ""
+  },
+  {
+    "tid": "W2-037",
+    "verdict": "OK",
+    "reason": ""
+  },
+  {
+    "tid": "W2-038",
+    "verdict": "OK",
+    "reason": ""
+  },
+  {
+    "tid": "W2-039",
+    "verdict": "OK",
+    "reason": ""
+  },
+  {
+    "tid": "W2-040",
+    "verdict": "OK",
+    "reason": ""
+  },
+  {
+    "tid": "W2-041",
+    "verdict": "OK",
+    "reason": ""
+  },
+  {
+    "tid": "W2-042",
+    "verdict": "OK",
+    "reason": ""
+  },
+  {
+    "tid": "W2-043",
+    "verdict": "OK",
+    "reason": ""
+  },
+  {
+    "tid": "W2-044",
+    "verdict": "OK",
+    "reason": ""
+  },
+  {
+    "tid": "W2-045",
+    "verdict": "OK",
+    "reason": ""
+  },
+  {
+    "tid": "W3-001",
+    "verdict": "OK",
+    "reason": ""
+  },
+  {
+    "tid": "W3-002",
+    "verdict": "OK",
+    "reason": ""
+  },
+  {
+    "tid": "W3-003",
+    "verdict": "OK",
+    "reason": ""
+  },
+  {
+    "tid": "W3-004",
+    "verdict": "OK",
+    "reason": ""
+  },
+  {
+    "tid": "W3-005",
+    "verdict": "OK",
+    "reason": ""
+  },
+  {
+    "tid": "W3-006",
+    "verdict": "OK",
+    "reason": ""
+  },
+  {
+    "tid": "W3-007",
+    "verdict": "OK",
+    "reason": ""
+  },
+  {
+    "tid": "W3-008",
+    "verdict": "OK",
+    "reason": ""
+  },
+  {
+    "tid": "W3-009",
+    "verdict": "OK",
+    "reason": ""
+  },
+  {
+    "tid": "W3-010",
+    "verdict": "OK",
+    "reason": ""
+  },
+  {
+    "tid": "W3-011",
+    "verdict": "OK",
+    "reason": ""
+  },
+  {
+    "tid": "W3-012",
+    "verdict": "OK",
+    "reason": ""
+  },
+  {
+    "tid": "W3-013",
+    "verdict": "OK",
+    "reason": ""
+  },
+  {
+    "tid": "W3-014",
+    "verdict": "OK",
+    "reason": ""
+  },
+  {
+    "tid": "W3-015",
+    "verdict": "OK",
+    "reason": ""
+  },
+  {
+    "tid": "W3-016",
+    "verdict": "OK",
+    "reason": ""
+  },
+  {
+    "tid": "W3-017",
+    "verdict": "OK",
+    "reason": ""
+  },
+  {
+    "tid": "W3-018",
+    "verdict": "OK",
+    "reason": ""
+  },
+  {
+    "tid": "W3-019",
+    "verdict": "OK",
+    "reason": ""
+  },
+  {
+    "tid": "W3-020",
+    "verdict": "OK",
+    "reason": ""
+  },
+  {
+    "tid": "W3-021",
+    "verdict": "OK",
+    "reason": ""
+  },
+  {
+    "tid": "W3-022",
+    "verdict": "OK",
+    "reason": ""
+  },
+  {
+    "tid": "W3-023",
+    "verdict": "OK",
+    "reason": ""
+  },
+  {
+    "tid": "W3-024",
+    "verdict": "OK",
+    "reason": ""
+  },
+  {
+    "tid": "W3-025",
+    "verdict": "OK",
+    "reason": ""
+  },
+  {
+    "tid": "W3-026",
+    "verdict": "OK",
+    "reason": ""
+  },
+  {
+    "tid": "W3-027",
+    "verdict": "OK",
+    "reason": ""
+  },
+  {
+    "tid": "W3-028",
+    "verdict": "OK",
+    "reason": ""
+  },
+  {
+    "tid": "W3-029",
+    "verdict": "OK",
+    "reason": ""
+  },
+  {
+    "tid": "W3-030",
+    "verdict": "OK",
+    "reason": ""
+  },
+  {
+    "tid": "W3-031",
+    "verdict": "OK",
+    "reason": ""
+  },
+  {
+    "tid": "W3-032",
+    "verdict": "OK",
+    "reason": ""
+  },
+  {
+    "tid": "W3-033",
+    "verdict": "OK",
+    "reason": ""
+  },
+  {
+    "tid": "W3-034",
+    "verdict": "OK",
+    "reason": ""
+  },
+  {
+    "tid": "W3-035",
+    "verdict": "OK",
+    "reason": ""
+  },
+  {
+    "tid": "W3-036",
+    "verdict": "OK",
+    "reason": ""
+  },
+  {
+    "tid": "W3-037",
+    "verdict": "OK",
+    "reason": ""
+  },
+  {
+    "tid": "W3-038",
+    "verdict": "OK",
+    "reason": ""
+  },
+  {
+    "tid": "W3-039",
+    "verdict": "OK",
+    "reason": ""
+  },
+  {
+    "tid": "W3-040",
+    "verdict": "OK",
+    "reason": ""
+  },
+  {
+    "tid": "W3-041",
+    "verdict": "OK",
+    "reason": ""
+  },
+  {
+    "tid": "W3-042",
+    "verdict": "OK",
+    "reason": ""
+  },
+  {
+    "tid": "W3-043",
+    "verdict": "OK",
+    "reason": ""
+  },
+  {
+    "tid": "W3-044",
+    "verdict": "AMBIGUOUS",
+    "reason": "Ages of 969 and 987 years are not physically sensible for humans; scenario undermines the story despite unambiguous arithmetic."
+  },
+  {
+    "tid": "W3-045",
+    "verdict": "OK",
+    "reason": ""
+  },
+  {
+    "tid": "W3-046",
+    "verdict": "OK",
+    "reason": ""
+  },
+  {
+    "tid": "W3-047",
+    "verdict": "OK",
+    "reason": ""
+  },
+  {
+    "tid": "W3-048",
+    "verdict": "OK",
+    "reason": ""
+  },
+  {
+    "tid": "W3-049",
+    "verdict": "OK",
+    "reason": ""
+  },
+  {
+    "tid": "W3-050",
+    "verdict": "OK",
+    "reason": ""
+  },
+  {
+    "tid": "W3-051",
+    "verdict": "OK",
+    "reason": ""
+  },
+  {
+    "tid": "W3-052",
+    "verdict": "OK",
+    "reason": ""
+  },
+  {
+    "tid": "W3-053",
+    "verdict": "OK",
+    "reason": ""
+  },
+  {
+    "tid": "W3-054",
+    "verdict": "OK",
+    "reason": ""
+  },
+  {
+    "tid": "W3-055",
+    "verdict": "OK",
+    "reason": ""
+  },
+  {
+    "tid": "W4-001",
+    "verdict": "OK",
+    "reason": ""
+  },
+  {
+    "tid": "W4-002",
+    "verdict": "OK",
+    "reason": ""
+  },
+  {
+    "tid": "W4-003",
+    "verdict": "OK",
+    "reason": ""
+  },
+  {
+    "tid": "W4-004",
+    "verdict": "OK",
+    "reason": ""
+  },
+  {
+    "tid": "W4-005",
+    "verdict": "OK",
+    "reason": ""
+  },
+  {
+    "tid": "W4-006",
+    "verdict": "OK",
+    "reason": ""
+  },
+  {
+    "tid": "W4-007",
+    "verdict": "OK",
+    "reason": ""
+  },
+  {
+    "tid": "W4-008",
+    "verdict": "OK",
+    "reason": ""
+  },
+  {
+    "tid": "W4-009",
+    "verdict": "OK",
+    "reason": ""
+  },
+  {
+    "tid": "W4-010",
+    "verdict": "OK",
+    "reason": ""
+  },
+  {
+    "tid": "W4-011",
+    "verdict": "OK",
+    "reason": ""
+  },
+  {
+    "tid": "W4-012",
+    "verdict": "OK",
+    "reason": ""
+  },
+  {
+    "tid": "W4-013",
+    "verdict": "OK",
+    "reason": ""
+  },
+  {
+    "tid": "W4-014",
+    "verdict": "OK",
+    "reason": ""
+  },
+  {
+    "tid": "W4-015",
+    "verdict": "OK",
+    "reason": ""
+  },
+  {
+    "tid": "W4-016",
+    "verdict": "OK",
+    "reason": ""
+  },
+  {
+    "tid": "W4-017",
+    "verdict": "OK",
+    "reason": ""
+  },
+  {
+    "tid": "W4-018",
+    "verdict": "OK",
+    "reason": ""
+  },
+  {
+    "tid": "W4-019",
+    "verdict": "OK",
+    "reason": ""
+  },
+  {
+    "tid": "W4-020",
+    "verdict": "OK",
+    "reason": ""
+  },
+  {
+    "tid": "W4-021",
+    "verdict": "OK",
+    "reason": ""
+  },
+  {
+    "tid": "W4-022",
+    "verdict": "OK",
+    "reason": ""
+  },
+  {
+    "tid": "W4-023",
+    "verdict": "OK",
+    "reason": ""
+  },
+  {
+    "tid": "W4-024",
+    "verdict": "OK",
+    "reason": ""
+  },
+  {
+    "tid": "W4-025",
+    "verdict": "OK",
+    "reason": ""
+  },
+  {
+    "tid": "W4-026",
+    "verdict": "OK",
+    "reason": ""
+  },
+  {
+    "tid": "W4-027",
+    "verdict": "OK",
+    "reason": ""
+  },
+  {
+    "tid": "W4-028",
+    "verdict": "OK",
+    "reason": ""
+  },
+  {
+    "tid": "W4-029",
+    "verdict": "OK",
+    "reason": ""
+  },
+  {
+    "tid": "W4-030",
+    "verdict": "OK",
+    "reason": ""
+  },
+  {
+    "tid": "W4-031",
+    "verdict": "OK",
+    "reason": ""
+  },
+  {
+    "tid": "W4-032",
+    "verdict": "OK",
+    "reason": ""
+  },
+  {
+    "tid": "W4-033",
+    "verdict": "OK",
+    "reason": ""
+  },
+  {
+    "tid": "W4-034",
+    "verdict": "OK",
+    "reason": ""
+  },
+  {
+    "tid": "W4-035",
+    "verdict": "OK",
+    "reason": ""
+  },
+  {
+    "tid": "W4-036",
+    "verdict": "OK",
+    "reason": ""
+  },
+  {
+    "tid": "W4-037",
+    "verdict": "OK",
+    "reason": ""
+  },
+  {
+    "tid": "W4-038",
+    "verdict": "OK",
+    "reason": ""
+  },
+  {
+    "tid": "W4-039",
+    "verdict": "OK",
+    "reason": ""
+  },
+  {
+    "tid": "W4-040",
+    "verdict": "OK",
+    "reason": ""
+  },
+  {
+    "tid": "W4-041",
+    "verdict": "OK",
+    "reason": ""
+  },
+  {
+    "tid": "W4-042",
+    "verdict": "OK",
+    "reason": ""
+  },
+  {
+    "tid": "W4-043",
+    "verdict": "OK",
+    "reason": ""
+  },
+  {
+    "tid": "W4-044",
+    "verdict": "OK",
+    "reason": ""
+  },
+  {
+    "tid": "W4-045",
+    "verdict": "OK",
+    "reason": ""
+  },
+  {
+    "tid": "W4-046",
+    "verdict": "OK",
+    "reason": ""
+  },
+  {
+    "tid": "W4-047",
+    "verdict": "OK",
+    "reason": ""
+  },
+  {
+    "tid": "W4-048",
+    "verdict": "OK",
+    "reason": ""
+  },
+  {
+    "tid": "W4-049",
+    "verdict": "OK",
+    "reason": ""
+  },
+  {
+    "tid": "W4-050",
+    "verdict": "OK",
+    "reason": ""
+  },
+  {
+    "tid": "W4-051",
+    "verdict": "OK",
+    "reason": ""
+  },
+  {
+    "tid": "W4-052",
+    "verdict": "OK",
+    "reason": ""
+  },
+  {
+    "tid": "W4-053",
+    "verdict": "OK",
+    "reason": ""
+  },
+  {
+    "tid": "W4-054",
+    "verdict": "OK",
+    "reason": ""
+  },
+  {
+    "tid": "W4-055",
+    "verdict": "OK",
+    "reason": ""
+  }
+]

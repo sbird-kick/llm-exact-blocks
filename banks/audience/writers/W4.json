@@ -1,0 +1,1354 @@
+[
+  {
+    "tid": "W4-001",
+    "category": "oos",
+    "op": "percent_of",
+    "text": "What is {A} percent of {B}?",
+    "slots": {
+      "A": [
+        20,
+        25
+      ],
+      "B": [
+        4,
+        600
+      ]
+    },
+    "constraints": [
+      "(A * B) % 100 == 0"
+    ],
+    "answer": "A * B // 100",
+    "operands": [
+      "A",
+      "B"
+    ],
+    "distractors": [],
+    "tags": [],
+    "note": "basic percent"
+  },
+  {
+    "tid": "W4-002",
+    "category": "oos",
+    "op": "percent_of",
+    "text": "A shirt costs {B} dollars and is {A} percent off. How much is the discount?",
+    "slots": {
+      "A": [
+        20,
+        25
+      ],
+      "B": [
+        4,
+        600
+      ]
+    },
+    "constraints": [
+      "(A * B) % 100 == 0"
+    ],
+    "answer": "A * B // 100",
+    "operands": [
+      "A",
+      "B"
+    ],
+    "distractors": [],
+    "tags": [],
+    "note": "discount amount"
+  },
+  {
+    "tid": "W4-003",
+    "category": "oos",
+    "op": "percent_of",
+    "text": "If you leave a {A} percent tip on a {B} dollar bill, how much is the tip?",
+    "slots": {
+      "A": [
+        20,
+        25
+      ],
+      "B": [
+        4,
+        600
+      ]
+    },
+    "constraints": [
+      "(A * B) % 100 == 0"
+    ],
+    "answer": "A * B // 100",
+    "operands": [
+      "A",
+      "B"
+    ],
+    "distractors": [],
+    "tags": [],
+    "note": "tip amount"
+  },
+  {
+    "tid": "W4-004",
+    "category": "oos",
+    "op": "percent_of",
+    "text": "What number is {A} percent of {B}?",
+    "slots": {
+      "A": [
+        20,
+        25
+      ],
+      "B": [
+        4,
+        600
+      ]
+    },
+    "constraints": [
+      "(A * B) % 100 == 0"
+    ],
+    "answer": "A * B // 100",
+    "operands": [
+      "A",
+      "B"
+    ],
+    "distractors": [],
+    "tags": [],
+    "note": "percent phrasing"
+  },
+  {
+    "tid": "W4-005",
+    "category": "oos",
+    "op": "percent_of",
+    "text": "A store marks an item down by {A} percent. The item costs {B} dollars before the sale. What is the markdown amount in dollars?",
+    "slots": {
+      "A": [
+        20,
+        25
+      ],
+      "B": [
+        4,
+        600
+      ]
+    },
+    "constraints": [
+      "(A * B) % 100 == 0"
+    ],
+    "answer": "A * B // 100",
+    "operands": [
+      "A",
+      "B"
+    ],
+    "distractors": [],
+    "tags": [],
+    "note": "markdown amount"
+  },
+  {
+    "tid": "W4-006",
+    "category": "oos",
+    "op": "average",
+    "text": "What is the average of {A} and {B}?",
+    "slots": {
+      "A": [
+        1,
+        500
+      ],
+      "B": [
+        1,
+        500
+      ]
+    },
+    "constraints": [
+      "(A + B) % 2 == 0"
+    ],
+    "answer": "(A + B) // 2",
+    "operands": [
+      "A",
+      "B"
+    ],
+    "distractors": [],
+    "tags": [],
+    "note": "mean of two"
+  },
+  {
+    "tid": "W4-007",
+    "category": "oos",
+    "op": "average",
+    "text": "What is the average of {A}, {B} and {C}?",
+    "slots": {
+      "A": [
+        1,
+        300
+      ],
+      "B": [
+        1,
+        300
+      ],
+      "C": [
+        1,
+        300
+      ]
+    },
+    "constraints": [
+      "(A + B + C) % 3 == 0"
+    ],
+    "answer": "(A + B + C) // 3",
+    "operands": [
+      "A",
+      "B",
+      "C"
+    ],
+    "distractors": [],
+    "tags": [],
+    "note": "mean of three"
+  },
+  {
+    "tid": "W4-008",
+    "category": "oos",
+    "op": "average",
+    "text": "Find the average of {A} and {B}.",
+    "slots": {
+      "A": [
+        1,
+        500
+      ],
+      "B": [
+        1,
+        500
+      ]
+    },
+    "constraints": [
+      "(A + B) % 2 == 0"
+    ],
+    "answer": "(A + B) // 2",
+    "operands": [
+      "A",
+      "B"
+    ],
+    "distractors": [],
+    "tags": [],
+    "note": "mean of two, imperative"
+  },
+  {
+    "tid": "W4-009",
+    "category": "oos",
+    "op": "average",
+    "text": "What is the mean of {A}, {B} and {C}?",
+    "slots": {
+      "A": [
+        1,
+        300
+      ],
+      "B": [
+        1,
+        300
+      ],
+      "C": [
+        1,
+        300
+      ]
+    },
+    "constraints": [
+      "(A + B + C) % 3 == 0"
+    ],
+    "answer": "(A + B + C) // 3",
+    "operands": [
+      "A",
+      "B",
+      "C"
+    ],
+    "distractors": [],
+    "tags": [],
+    "note": "mean of three"
+  },
+  {
+    "tid": "W4-010",
+    "category": "oos",
+    "op": "square",
+    "text": "What is {A} squared?",
+    "slots": {
+      "A": [
+        2,
+        99
+      ]
+    },
+    "constraints": [],
+    "answer": "A ** 2",
+    "operands": [
+      "A"
+    ],
+    "distractors": [],
+    "tags": [],
+    "note": "square"
+  },
+  {
+    "tid": "W4-011",
+    "category": "oos",
+    "op": "square",
+    "text": "What do you get when you square {A}?",
+    "slots": {
+      "A": [
+        2,
+        99
+      ]
+    },
+    "constraints": [],
+    "answer": "A ** 2",
+    "operands": [
+      "A"
+    ],
+    "distractors": [],
+    "tags": [],
+    "note": "square, alt phrasing"
+  },
+  {
+    "tid": "W4-012",
+    "category": "oos",
+    "op": "cube",
+    "text": "What is {A} cubed?",
+    "slots": {
+      "A": [
+        2,
+        21
+      ]
+    },
+    "constraints": [],
+    "answer": "A ** 3",
+    "operands": [
+      "A"
+    ],
+    "distractors": [],
+    "tags": [],
+    "note": "cube"
+  },
+  {
+    "tid": "W4-013",
+    "category": "oos",
+    "op": "power",
+    "text": "What is {A} to the power of {B}?",
+    "slots": {
+      "A": [
+        2,
+        9
+      ],
+      "B": [
+        2,
+        3
+      ]
+    },
+    "constraints": [
+      "A ** B <= 9999"
+    ],
+    "answer": "A ** B",
+    "operands": [
+      "A",
+      "B"
+    ],
+    "distractors": [],
+    "tags": [],
+    "note": "small power"
+  },
+  {
+    "tid": "W4-014",
+    "category": "oos",
+    "op": "remainder",
+    "text": "What is the remainder when {A} is divided by {B}?",
+    "slots": {
+      "A": [
+        10,
+        999
+      ],
+      "B": [
+        2,
+        50
+      ]
+    },
+    "constraints": [],
+    "answer": "A % B",
+    "operands": [
+      "A",
+      "B"
+    ],
+    "distractors": [],
+    "tags": [],
+    "note": "remainder"
+  },
+  {
+    "tid": "W4-015",
+    "category": "oos",
+    "op": "remainder",
+    "text": "If you divide {A} by {B}, what is left over?",
+    "slots": {
+      "A": [
+        10,
+        999
+      ],
+      "B": [
+        2,
+        50
+      ]
+    },
+    "constraints": [],
+    "answer": "A % B",
+    "operands": [
+      "A",
+      "B"
+    ],
+    "distractors": [],
+    "tags": [],
+    "note": "remainder, alt phrasing"
+  },
+  {
+    "tid": "W4-016",
+    "category": "oos",
+    "op": "remainder",
+    "text": "What remainder do you get dividing {A} by {B}?",
+    "slots": {
+      "A": [
+        10,
+        999
+      ],
+      "B": [
+        2,
+        50
+      ]
+    },
+    "constraints": [],
+    "answer": "A % B",
+    "operands": [
+      "A",
+      "B"
+    ],
+    "distractors": [],
+    "tags": [],
+    "note": "remainder, alt phrasing"
+  },
+  {
+    "tid": "W4-017",
+    "category": "oos",
+    "op": "remainder",
+    "text": "{A} divided by {B} leaves what remainder?",
+    "slots": {
+      "A": [
+        10,
+        999
+      ],
+      "B": [
+        2,
+        50
+      ]
+    },
+    "constraints": [],
+    "answer": "A % B",
+    "operands": [
+      "A",
+      "B"
+    ],
+    "distractors": [],
+    "tags": [],
+    "note": "remainder, terse phrasing"
+  },
+  {
+    "tid": "W4-018",
+    "category": "oos",
+    "op": "round_ten",
+    "text": "Round {A} to the nearest ten.",
+    "slots": {
+      "A": [
+        1,
+        9998
+      ]
+    },
+    "constraints": [],
+    "answer": "round_to(A, 10)",
+    "operands": [
+      "A"
+    ],
+    "distractors": [],
+    "tags": [],
+    "note": "round to ten"
+  },
+  {
+    "tid": "W4-019",
+    "category": "oos",
+    "op": "round_ten",
+    "text": "What is {A} rounded to the nearest ten?",
+    "slots": {
+      "A": [
+        1,
+        9998
+      ]
+    },
+    "constraints": [],
+    "answer": "round_to(A, 10)",
+    "operands": [
+      "A"
+    ],
+    "distractors": [],
+    "tags": [],
+    "note": "round to ten, question"
+  },
+  {
+    "tid": "W4-020",
+    "category": "oos",
+    "op": "round_hundred",
+    "text": "Round {A} to the nearest hundred.",
+    "slots": {
+      "A": [
+        1,
+        9899
+      ]
+    },
+    "constraints": [],
+    "answer": "round_to(A, 100)",
+    "operands": [
+      "A"
+    ],
+    "distractors": [],
+    "tags": [],
+    "note": "round to hundred"
+  },
+  {
+    "tid": "W4-021",
+    "category": "oos",
+    "op": "round_hundred",
+    "text": "What is {A} rounded to the nearest hundred?",
+    "slots": {
+      "A": [
+        1,
+        9899
+      ]
+    },
+    "constraints": [],
+    "answer": "round_to(A, 100)",
+    "operands": [
+      "A"
+    ],
+    "distractors": [],
+    "tags": [],
+    "note": "round to hundred, question"
+  },
+  {
+    "tid": "W4-022",
+    "category": "oos",
+    "op": "hours_to_minutes",
+    "text": "How many minutes are in {A} hours?",
+    "slots": {
+      "A": [
+        1,
+        48
+      ]
+    },
+    "constraints": [],
+    "answer": "A * 60",
+    "operands": [
+      "A"
+    ],
+    "distractors": [],
+    "tags": [],
+    "note": "hours to minutes"
+  },
+  {
+    "tid": "W4-023",
+    "category": "oos",
+    "op": "days_to_hours",
+    "text": "How many hours are in {A} days?",
+    "slots": {
+      "A": [
+        1,
+        60
+      ]
+    },
+    "constraints": [],
+    "answer": "A * 24",
+    "operands": [
+      "A"
+    ],
+    "distractors": [],
+    "tags": [],
+    "note": "days to hours"
+  },
+  {
+    "tid": "W4-024",
+    "category": "oos",
+    "op": "weeks_to_days",
+    "text": "How many days are in {A} weeks?",
+    "slots": {
+      "A": [
+        1,
+        100
+      ]
+    },
+    "constraints": [],
+    "answer": "A * 7",
+    "operands": [
+      "A"
+    ],
+    "distractors": [],
+    "tags": [],
+    "note": "weeks to days"
+  },
+  {
+    "tid": "W4-025",
+    "category": "oos",
+    "op": "minutes_to_seconds",
+    "text": "How many seconds are in {A} minutes?",
+    "slots": {
+      "A": [
+        1,
+        150
+      ]
+    },
+    "constraints": [],
+    "answer": "A * 60",
+    "operands": [
+      "A"
+    ],
+    "distractors": [],
+    "tags": [],
+    "note": "minutes to seconds"
+  },
+  {
+    "tid": "W4-026",
+    "category": "oos",
+    "op": "feet_to_inches",
+    "text": "How many inches are in {A} feet?",
+    "slots": {
+      "A": [
+        1,
+        300
+      ]
+    },
+    "constraints": [],
+    "answer": "A * 12",
+    "operands": [
+      "A"
+    ],
+    "distractors": [],
+    "tags": [],
+    "note": "feet to inches"
+  },
+  {
+    "tid": "W4-027",
+    "category": "oos",
+    "op": "maximum",
+    "text": "Which is bigger, {A} or {B}?",
+    "slots": {
+      "A": [
+        1,
+        999
+      ],
+      "B": [
+        1,
+        999
+      ]
+    },
+    "constraints": [
+      "A != B"
+    ],
+    "answer": "max(A, B)",
+    "operands": [
+      "A",
+      "B"
+    ],
+    "distractors": [],
+    "tags": [],
+    "note": "pick larger"
+  },
+  {
+    "tid": "W4-028",
+    "category": "oos",
+    "op": "maximum",
+    "text": "What is the largest of {A}, {B} and {C}?",
+    "slots": {
+      "A": [
+        1,
+        999
+      ],
+      "B": [
+        1,
+        999
+      ],
+      "C": [
+        1,
+        999
+      ]
+    },
+    "constraints": [],
+    "answer": "max(A, B, C)",
+    "operands": [
+      "A",
+      "B",
+      "C"
+    ],
+    "distractors": [],
+    "tags": [],
+    "note": "largest of three"
+  },
+  {
+    "tid": "W4-029",
+    "category": "oos",
+    "op": "minimum",
+    "text": "Which is smaller, {A} or {B}?",
+    "slots": {
+      "A": [
+        1,
+        999
+      ],
+      "B": [
+        1,
+        999
+      ]
+    },
+    "constraints": [
+      "A != B"
+    ],
+    "answer": "min(A, B)",
+    "operands": [
+      "A",
+      "B"
+    ],
+    "distractors": [],
+    "tags": [],
+    "note": "pick smaller"
+  },
+  {
+    "tid": "W4-030",
+    "category": "oos",
+    "op": "minimum",
+    "text": "What is the smallest of {A}, {B} and {C}?",
+    "slots": {
+      "A": [
+        1,
+        999
+      ],
+      "B": [
+        1,
+        999
+      ],
+      "C": [
+        1,
+        999
+      ]
+    },
+    "constraints": [],
+    "answer": "min(A, B, C)",
+    "operands": [
+      "A",
+      "B",
+      "C"
+    ],
+    "distractors": [],
+    "tags": [],
+    "note": "smallest of three"
+  },
+  {
+    "tid": "W4-031",
+    "category": "oos",
+    "op": "square_root",
+    "text": "What is the square root of {A}?",
+    "slots": {
+      "A": [
+        1,
+        50
+      ]
+    },
+    "constraints": [
+      "isqrt(A) ** 2 == A"
+    ],
+    "answer": "isqrt(A)",
+    "operands": [
+      "A"
+    ],
+    "distractors": [],
+    "tags": [],
+    "note": "perfect square only"
+  },
+  {
+    "tid": "W4-032",
+    "category": "oos",
+    "op": "digit_sum",
+    "text": "What is the sum of the digits of {A}?",
+    "slots": {
+      "A": [
+        10,
+        9999
+      ]
+    },
+    "constraints": [],
+    "answer": "digit_sum(A)",
+    "operands": [
+      "A"
+    ],
+    "distractors": [],
+    "tags": [],
+    "note": "digit sum"
+  },
+  {
+    "tid": "W4-033",
+    "category": "oos",
+    "op": "count_inclusive",
+    "text": "How many whole numbers are there from {A} to {B}, including both?",
+    "slots": {
+      "A": [
+        1,
+        100
+      ],
+      "B": [
+        1,
+        100
+      ]
+    },
+    "constraints": [
+      "B > A"
+    ],
+    "answer": "B - A + 1",
+    "operands": [
+      "A",
+      "B"
+    ],
+    "distractors": [],
+    "tags": [],
+    "note": "inclusive count"
+  },
+  {
+    "tid": "W4-034",
+    "category": "oos",
+    "op": "half_of",
+    "text": "What is half of {A}?",
+    "slots": {
+      "A": [
+        2,
+        9998
+      ]
+    },
+    "constraints": [
+      "A % 2 == 0"
+    ],
+    "answer": "A // 2",
+    "operands": [
+      "A"
+    ],
+    "distractors": [],
+    "tags": [],
+    "note": "half, even only"
+  },
+  {
+    "tid": "W4-035",
+    "category": "oos",
+    "op": "gcd",
+    "text": "What is the greatest common factor of {A} and {B}?",
+    "slots": {
+      "A": [
+        1,
+        500
+      ],
+      "B": [
+        1,
+        500
+      ]
+    },
+    "constraints": [],
+    "answer": "gcd(A, B)",
+    "operands": [
+      "A",
+      "B"
+    ],
+    "distractors": [],
+    "tags": [],
+    "note": "gcd"
+  },
+  {
+    "tid": "W4-036",
+    "category": "noarith",
+    "op": "restate",
+    "text": "Maria is {A} years old. How old is Maria?",
+    "slots": {
+      "A": [
+        5,
+        95
+      ]
+    },
+    "constraints": [],
+    "answer": "A",
+    "operands": [
+      "A"
+    ],
+    "distractors": [],
+    "tags": [],
+    "note": "restate age"
+  },
+  {
+    "tid": "W4-037",
+    "category": "noarith",
+    "op": "restate",
+    "text": "The bus to the zoo is number {A}. Which bus goes to the zoo?",
+    "slots": {
+      "A": [
+        1,
+        999
+      ]
+    },
+    "constraints": [],
+    "answer": "A",
+    "operands": [
+      "A"
+    ],
+    "distractors": [],
+    "tags": [],
+    "note": "restate bus number"
+  },
+  {
+    "tid": "W4-038",
+    "category": "noarith",
+    "op": "restate",
+    "text": "My room is {A} and yours is {B}. What is my room number?",
+    "slots": {
+      "A": [
+        100,
+        999
+      ],
+      "B": [
+        100,
+        999
+      ]
+    },
+    "constraints": [],
+    "answer": "A",
+    "operands": [
+      "A"
+    ],
+    "distractors": [],
+    "tags": [],
+    "note": "restate with distractor number"
+  },
+  {
+    "tid": "W4-039",
+    "category": "noarith",
+    "op": "restate",
+    "text": "Tom's jersey number is {A}. What is Tom's jersey number?",
+    "slots": {
+      "A": [
+        1,
+        99
+      ]
+    },
+    "constraints": [],
+    "answer": "A",
+    "operands": [
+      "A"
+    ],
+    "distractors": [],
+    "tags": [],
+    "note": "restate jersey number"
+  },
+  {
+    "tid": "W4-040",
+    "category": "noarith",
+    "op": "restate",
+    "text": "The recipe is on page {A} of the cookbook. What page is the recipe on?",
+    "slots": {
+      "A": [
+        1,
+        400
+      ]
+    },
+    "constraints": [],
+    "answer": "A",
+    "operands": [
+      "A"
+    ],
+    "distractors": [],
+    "tags": [],
+    "note": "restate page number"
+  },
+  {
+    "tid": "W4-041",
+    "category": "noarith",
+    "op": "restate",
+    "text": "Our house number is {A} and the neighbor's is {B}. What is our house number?",
+    "slots": {
+      "A": [
+        100,
+        999
+      ],
+      "B": [
+        100,
+        999
+      ]
+    },
+    "constraints": [],
+    "answer": "A",
+    "operands": [
+      "A"
+    ],
+    "distractors": [],
+    "tags": [],
+    "note": "restate with distractor number"
+  },
+  {
+    "tid": "W4-042",
+    "category": "noarith",
+    "op": "restate",
+    "text": "The flight leaves from gate {A}. Which gate does the flight leave from?",
+    "slots": {
+      "A": [
+        1,
+        99
+      ]
+    },
+    "constraints": [],
+    "answer": "A",
+    "operands": [
+      "A"
+    ],
+    "distractors": [],
+    "tags": [],
+    "note": "restate gate number"
+  },
+  {
+    "tid": "W4-043",
+    "category": "noarith",
+    "op": "restate",
+    "text": "Dad is {A} years old and Mom is {B} years old. How old is Dad?",
+    "slots": {
+      "A": [
+        30,
+        80
+      ],
+      "B": [
+        30,
+        80
+      ]
+    },
+    "constraints": [],
+    "answer": "A",
+    "operands": [
+      "A"
+    ],
+    "distractors": [],
+    "tags": [],
+    "note": "restate age with distractor"
+  },
+  {
+    "tid": "W4-044",
+    "category": "noarith",
+    "op": "answer_given",
+    "text": "I added {A} and {B} and got {C}. What did I get?",
+    "slots": {
+      "A": [
+        1,
+        6
+      ],
+      "B": [
+        1,
+        6
+      ],
+      "C": [
+        2,
+        12
+      ]
+    },
+    "constraints": [
+      "C == A + B"
+    ],
+    "answer": "C",
+    "operands": [
+      "C"
+    ],
+    "distractors": [],
+    "tags": [],
+    "note": "sum already stated"
+  },
+  {
+    "tid": "W4-045",
+    "category": "noarith",
+    "op": "answer_given",
+    "text": "I started with {A} dollars, spent {B}, and ended up with {C}. How much did I end up with?",
+    "slots": {
+      "A": [
+        20,
+        25
+      ],
+      "B": [
+        1,
+        5
+      ],
+      "C": [
+        15,
+        24
+      ]
+    },
+    "constraints": [
+      "A > B",
+      "C == A - B"
+    ],
+    "answer": "C",
+    "operands": [
+      "C"
+    ],
+    "distractors": [],
+    "tags": [],
+    "note": "difference already stated"
+  },
+  {
+    "tid": "W4-046",
+    "category": "noarith",
+    "op": "answer_given",
+    "text": "We multiplied {A} by {B} to get {C}. What did we get?",
+    "slots": {
+      "A": [
+        2,
+        3
+      ],
+      "B": [
+        3,
+        4
+      ],
+      "C": [
+        6,
+        12
+      ]
+    },
+    "constraints": [
+      "C == A * B"
+    ],
+    "answer": "C",
+    "operands": [
+      "C"
+    ],
+    "distractors": [],
+    "tags": [],
+    "note": "product already stated"
+  },
+  {
+    "tid": "W4-047",
+    "category": "noarith",
+    "op": "answer_given",
+    "text": "The temperature was {A} degrees and it dropped by {B} to {C} degrees. What was the new temperature?",
+    "slots": {
+      "A": [
+        50,
+        55
+      ],
+      "B": [
+        1,
+        5
+      ],
+      "C": [
+        45,
+        54
+      ]
+    },
+    "constraints": [
+      "A > B",
+      "C == A - B"
+    ],
+    "answer": "C",
+    "operands": [
+      "C"
+    ],
+    "distractors": [],
+    "tags": [],
+    "note": "new value already stated"
+  },
+  {
+    "tid": "W4-048",
+    "category": "noarith",
+    "op": "answer_given",
+    "text": "I counted {A} red balls and {B} blue balls, for {C} balls total. How many balls were there in total?",
+    "slots": {
+      "A": [
+        1,
+        6
+      ],
+      "B": [
+        1,
+        6
+      ],
+      "C": [
+        2,
+        12
+      ]
+    },
+    "constraints": [
+      "C == A + B"
+    ],
+    "answer": "C",
+    "operands": [
+      "C"
+    ],
+    "distractors": [],
+    "tags": [],
+    "note": "total already stated"
+  },
+  {
+    "tid": "W4-049",
+    "category": "noarith",
+    "op": "answer_given",
+    "text": "The trip is {A} miles there and {B} miles back, which is {C} miles altogether. How many miles is the round trip?",
+    "slots": {
+      "A": [
+        1,
+        6
+      ],
+      "B": [
+        1,
+        6
+      ],
+      "C": [
+        2,
+        12
+      ]
+    },
+    "constraints": [
+      "C == A + B"
+    ],
+    "answer": "C",
+    "operands": [
+      "C"
+    ],
+    "distractors": [],
+    "tags": [],
+    "note": "total already stated"
+  },
+  {
+    "tid": "W4-050",
+    "category": "noarith",
+    "op": "trick",
+    "text": "I have {A} apples and eat none of them. How many apples do I have?",
+    "slots": {
+      "A": [
+        1,
+        50
+      ]
+    },
+    "constraints": [],
+    "answer": "A",
+    "operands": [
+      "A"
+    ],
+    "distractors": [],
+    "tags": [],
+    "note": "nothing changes"
+  },
+  {
+    "tid": "W4-051",
+    "category": "noarith",
+    "op": "trick",
+    "text": "A farmer had {A} sheep and all but {B} ran away. How many are left?",
+    "slots": {
+      "A": [
+        5,
+        99
+      ],
+      "B": [
+        1,
+        98
+      ]
+    },
+    "constraints": [
+      "A > B"
+    ],
+    "answer": "B",
+    "operands": [
+      "B"
+    ],
+    "distractors": [],
+    "tags": [],
+    "note": "classic all-but riddle"
+  },
+  {
+    "tid": "W4-052",
+    "category": "noarith",
+    "op": "trick",
+    "text": "There were {A} candles on a cake, and I blew out all but {B} of them. How many are still lit?",
+    "slots": {
+      "A": [
+        5,
+        99
+      ],
+      "B": [
+        1,
+        98
+      ]
+    },
+    "constraints": [
+      "A > B"
+    ],
+    "answer": "B",
+    "operands": [
+      "B"
+    ],
+    "distractors": [],
+    "tags": [],
+    "note": "classic all-but riddle"
+  },
+  {
+    "tid": "W4-053",
+    "category": "noarith",
+    "op": "trick",
+    "text": "I bought {A} eggs and dropped {B} of them, but none broke. How many unbroken eggs do I have?",
+    "slots": {
+      "A": [
+        5,
+        99
+      ],
+      "B": [
+        1,
+        98
+      ]
+    },
+    "constraints": [
+      "A > B"
+    ],
+    "answer": "A",
+    "operands": [
+      "A"
+    ],
+    "distractors": [],
+    "tags": [],
+    "note": "nothing broke, count unchanged"
+  },
+  {
+    "tid": "W4-054",
+    "category": "noarith",
+    "op": "trick",
+    "text": "There are {A} fish in a tank and {B} of them jump out, but you scoop them all back in right away. How many fish are in the tank now?",
+    "slots": {
+      "A": [
+        5,
+        99
+      ],
+      "B": [
+        1,
+        98
+      ]
+    },
+    "constraints": [
+      "A > B"
+    ],
+    "answer": "A",
+    "operands": [
+      "A"
+    ],
+    "distractors": [],
+    "tags": [],
+    "note": "net change is zero"
+  },
+  {
+    "tid": "W4-055",
+    "category": "noarith",
+    "op": "trick",
+    "text": "A man has {A} sons and each son has {B} sisters. How many daughters does the man have?",
+    "slots": {
+      "A": [
+        2,
+        10
+      ],
+      "B": [
+        1,
+        10
+      ]
+    },
+    "constraints": [],
+    "answer": "B",
+    "operands": [
+      "B"
+    ],
+    "distractors": [],
+    "tags": [],
+    "note": "classic siblings riddle"
+  }
+]

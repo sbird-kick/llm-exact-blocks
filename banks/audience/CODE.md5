@@ -1,0 +1,11 @@
+# md5 of every input of banks/audience (md5sum format; `md5sum -c CODE.md5` from banks/audience/). Byte for byte the project's.
+# verified_templates_v2.json is the blind verification's verified subset of bank v2 (197 of 199 template ids); the
+# generators do not read it.
+4c24ab7cf644892de680185898962aa7  gen_audience.py
+de4565064c20a9d9dbba1715e139e80b  gen_audience_v2.py
+eb0cbbcb538efa87f341b64c8ea94172  audit.json
+f23c3d85457aa16e4feb5cb50970ae78  writers/W1.json
+41fd806f1def728407253112bbb9b7a6  writers/W2.json
+6b9b1876c2877b31652d9fc6186fa60b  writers/W3.json
+7ed65e06b8e894d6b89e5230316c6b73  writers/W4.json
+eab1384e82c5e1f66319a52448d6e45e  verified_templates_v2.json

@@ -1,0 +1,1438 @@
+[
+ {
+  "tid": "W2-001",
+  "category": "single",
+  "op": "mul",
+  "text": "There are {A} boxes with {B} pencils in each box, stored in room {D1}. How many pencils are there?",
+  "slots": {
+   "A": [
+    2,
+    20
+   ],
+   "B": [
+    2,
+    30
+   ],
+   "D1": [
+    100,
+    400
+   ]
+  },
+  "constraints": [
+   "A * B < 10000"
+  ],
+  "answer": "A * B",
+  "operands": [
+   "A",
+   "B"
+  ],
+  "distractors": [
+   "D1"
+  ],
+  "tags": [
+   "each",
+   "distractor"
+  ],
+  "note": "each-box total, room number is irrelevant"
+ },
+ {
+  "tid": "W2-002",
+  "category": "single",
+  "op": "mul",
+  "text": "A baker makes {A} trays of muffins with {B} muffins on each tray. How many muffins does she make?",
+  "slots": {
+   "A": [
+    2,
+    15
+   ],
+   "B": [
+    2,
+    12
+   ]
+  },
+  "constraints": [
+   "A * B < 10000"
+  ],
+  "answer": "A * B",
+  "operands": [
+   "A",
+   "B"
+  ],
+  "distractors": [],
+  "tags": [
+   "each"
+  ],
+  "note": "trays times muffins per tray"
+ },
+ {
+  "tid": "W2-003",
+  "category": "single",
+  "op": "mul",
+  "text": "Each shelf holds {B} books, and there are {A} shelves. How many books fit in total?",
+  "slots": {
+   "A": [
+    2,
+    12
+   ],
+   "B": [
+    2,
+    20
+   ]
+  },
+  "constraints": [
+   "A * B < 10000"
+  ],
+  "answer": "A * B",
+  "operands": [
+   "A",
+   "B"
+  ],
+  "distractors": [],
+  "tags": [
+   "each"
+  ],
+  "note": "shelves times books per shelf"
+ },
+ {
+  "tid": "W2-004",
+  "category": "single",
+  "op": "mul",
+  "text": "A farmer, who is {D1} years old, has {A} baskets holding {B} apples each. How many apples does he have?",
+  "slots": {
+   "A": [
+    2,
+    15
+   ],
+   "B": [
+    2,
+    20
+   ],
+   "D1": [
+    20,
+    70
+   ]
+  },
+  "constraints": [
+   "A * B < 10000"
+  ],
+  "answer": "A * B",
+  "operands": [
+   "A",
+   "B"
+  ],
+  "distractors": [
+   "D1"
+  ],
+  "tags": [
+   "each",
+   "distractor"
+  ],
+  "note": "farmer age is irrelevant"
+ },
+ {
+  "tid": "W2-005",
+  "category": "single",
+  "op": "mul",
+  "text": "There are {A} vans, and each van carries {B} passengers. How many passengers can they carry in total?",
+  "slots": {
+   "A": [
+    2,
+    10
+   ],
+   "B": [
+    4,
+    20
+   ]
+  },
+  "constraints": [
+   "A * B < 10000"
+  ],
+  "answer": "A * B",
+  "operands": [
+   "A",
+   "B"
+  ],
+  "distractors": [],
+  "tags": [
+   "each"
+  ],
+  "note": "vans times passengers per van"
+ },
+ {
+  "tid": "W2-006",
+  "category": "single",
+  "op": "mul",
+  "text": "A store arranges {A} shelves with {B} cans on each shelf in aisle {D1}. How many cans are on display?",
+  "slots": {
+   "A": [
+    2,
+    10
+   ],
+   "B": [
+    2,
+    24
+   ],
+   "D1": [
+    1,
+    20
+   ]
+  },
+  "constraints": [
+   "A * B < 10000"
+  ],
+  "answer": "A * B",
+  "operands": [
+   "A",
+   "B"
+  ],
+  "distractors": [
+   "D1"
+  ],
+  "tags": [
+   "each",
+   "distractor"
+  ],
+  "note": "aisle number is irrelevant"
+ },
+ {
+  "tid": "W2-007",
+  "category": "single",
+  "op": "mul",
+  "text": "Maya has {A} stickers. Priya has {B} times as many stickers as Maya. How many stickers does Priya have?",
+  "slots": {
+   "A": [
+    2,
+    50
+   ],
+   "B": [
+    2,
+    6
+   ]
+  },
+  "constraints": [
+   "A * B < 10000"
+  ],
+  "answer": "A * B",
+  "operands": [
+   "A",
+   "B"
+  ],
+  "distractors": [],
+  "tags": [
+   "times_as_many"
+  ],
+  "note": "both factors are slots"
+ },
+ {
+  "tid": "W2-008",
+  "category": "single",
+  "op": "mul",
+  "text": "A small pond has {A} fish. The lake has {B} times as many fish as the pond. How many fish are in the lake?",
+  "slots": {
+   "A": [
+    5,
+    60
+   ],
+   "B": [
+    2,
+    6
+   ]
+  },
+  "constraints": [
+   "A * B < 10000"
+  ],
+  "answer": "A * B",
+  "operands": [
+   "A",
+   "B"
+  ],
+  "distractors": [],
+  "tags": [
+   "times_as_many"
+  ],
+  "note": "both factors are slots"
+ },
+ {
+  "tid": "W2-009",
+  "category": "single",
+  "op": "mul",
+  "text": "Last year the club had {A} members. This year it has {B} times as many members. How many members does it have now?",
+  "slots": {
+   "A": [
+    5,
+    80
+   ],
+   "B": [
+    2,
+    5
+   ]
+  },
+  "constraints": [
+   "A * B < 10000"
+  ],
+  "answer": "A * B",
+  "operands": [
+   "A",
+   "B"
+  ],
+  "distractors": [],
+  "tags": [
+   "times_as_many"
+  ],
+  "note": "both factors are slots"
+ },
+ {
+  "tid": "W2-010",
+  "category": "single",
+  "op": "mul",
+  "text": "Tom saved {A} dollars. His brother saved {B} times as much. How much did his brother save?",
+  "slots": {
+   "A": [
+    5,
+    90
+   ],
+   "B": [
+    2,
+    6
+   ]
+  },
+  "constraints": [
+   "A * B < 10000"
+  ],
+  "answer": "A * B",
+  "operands": [
+   "A",
+   "B"
+  ],
+  "distractors": [],
+  "tags": [
+   "times_as_many"
+  ],
+  "note": "both factors are slots"
+ },
+ {
+  "tid": "W2-011",
+  "category": "single",
+  "op": "mul",
+  "text": "A soccer club sold {A} tickets to Saturday's game, cheered on by {D1} fans. They sold {B} times as many tickets to Sunday's game. How many tickets did they sell to Sunday's game?",
+  "slots": {
+   "A": [
+    10,
+    200
+   ],
+   "B": [
+    2,
+    4
+   ],
+   "D1": [
+    50,
+    500
+   ]
+  },
+  "constraints": [
+   "A * B < 10000"
+  ],
+  "answer": "A * B",
+  "operands": [
+   "A",
+   "B"
+  ],
+  "distractors": [
+   "D1"
+  ],
+  "tags": [
+   "times_as_many",
+   "distractor"
+  ],
+  "note": "fan count is irrelevant"
+ },
+ {
+  "tid": "W2-012",
+  "category": "single",
+  "op": "mul",
+  "text": "Liam ate {A} grapes. Noah ate twice as many grapes. How many grapes did Noah eat?",
+  "slots": {
+   "A": [
+    3,
+    60
+   ]
+  },
+  "constraints": [],
+  "answer": "A * 2",
+  "operands": [
+   "A"
+  ],
+  "distractors": [],
+  "tags": [
+   "twice"
+  ],
+  "note": "twice is the hidden second factor",
+  "word_operand": 2
+ },
+ {
+  "tid": "W2-013",
+  "category": "single",
+  "op": "mul",
+  "text": "The red team scored {A} goals. The blue team scored twice as many goals. How many goals did the blue team score?",
+  "slots": {
+   "A": [
+    1,
+    20
+   ]
+  },
+  "constraints": [],
+  "answer": "A * 2",
+  "operands": [
+   "A"
+  ],
+  "distractors": [],
+  "tags": [
+   "twice"
+  ],
+  "note": "twice is the hidden second factor",
+  "word_operand": 2
+ },
+ {
+  "tid": "W2-014",
+  "category": "single",
+  "op": "mul",
+  "text": "Sara walked {A} laps around the track on a {D1} degree day. Her sister walked twice as many laps. How many laps did her sister walk?",
+  "slots": {
+   "A": [
+    2,
+    30
+   ],
+   "D1": [
+    30,
+    100
+   ]
+  },
+  "constraints": [],
+  "answer": "A * 2",
+  "operands": [
+   "A"
+  ],
+  "distractors": [
+   "D1"
+  ],
+  "tags": [
+   "twice",
+   "distractor"
+  ],
+  "note": "temperature is irrelevant",
+  "word_operand": 2
+ },
+ {
+  "tid": "W2-015",
+  "category": "single",
+  "op": "mul",
+  "text": "A parking lot has {A} rows and {B} columns of spaces. How many spaces are there in total?",
+  "slots": {
+   "A": [
+    2,
+    20
+   ],
+   "B": [
+    2,
+    20
+   ]
+  },
+  "constraints": [
+   "A * B < 10000"
+  ],
+  "answer": "A * B",
+  "operands": [
+   "A",
+   "B"
+  ],
+  "distractors": [],
+  "tags": [],
+  "note": "rows times columns"
+ },
+ {
+  "tid": "W2-016",
+  "category": "single",
+  "op": "mul",
+  "text": "The seating chart has {A} rows with {B} seats in each row. How many seats are in the auditorium?",
+  "slots": {
+   "A": [
+    2,
+    30
+   ],
+   "B": [
+    2,
+    20
+   ]
+  },
+  "constraints": [
+   "A * B < 10000"
+  ],
+  "answer": "A * B",
+  "operands": [
+   "A",
+   "B"
+  ],
+  "distractors": [],
+  "tags": [],
+  "note": "rows times seats per row"
+ },
+ {
+  "tid": "W2-017",
+  "category": "single",
+  "op": "mul",
+  "text": "A vending machine sells {B} sodas per day. It sits {D1} feet from a locker numbered {D2}. How many sodas does it sell in {A} days?",
+  "slots": {
+   "A": [
+    2,
+    30
+   ],
+   "B": [
+    2,
+    40
+   ],
+   "D1": [
+    5,
+    50
+   ],
+   "D2": [
+    100,
+    400
+   ]
+  },
+  "constraints": [
+   "A * B < 10000"
+  ],
+  "answer": "A * B",
+  "operands": [
+   "A",
+   "B"
+  ],
+  "distractors": [
+   "D1",
+   "D2"
+  ],
+  "tags": [
+   "distractor"
+  ],
+  "note": "distance and locker number are irrelevant"
+ },
+ {
+  "tid": "W2-018",
+  "category": "single",
+  "op": "mul",
+  "text": "A gym class meets for {B} minutes each day, taught by a coach who is {D1} years old, in a building with {D2} floors. How many minutes does it meet over {A} school days?",
+  "slots": {
+   "A": [
+    2,
+    20
+   ],
+   "B": [
+    5,
+    60
+   ],
+   "D1": [
+    25,
+    65
+   ],
+   "D2": [
+    1,
+    10
+   ]
+  },
+  "constraints": [
+   "A * B < 10000"
+  ],
+  "answer": "A * B",
+  "operands": [
+   "A",
+   "B"
+  ],
+  "distractors": [
+   "D1",
+   "D2"
+  ],
+  "tags": [
+   "distractor"
+  ],
+  "note": "coach age and floor count are irrelevant"
+ },
+ {
+  "tid": "W2-019",
+  "category": "single",
+  "op": "mul",
+  "text": "Tickets cost {B} dollars each, and a family of {D1} buys {A} tickets. How much do the tickets cost in total?",
+  "slots": {
+   "A": [
+    2,
+    10
+   ],
+   "B": [
+    5,
+    50
+   ],
+   "D1": [
+    2,
+    6
+   ]
+  },
+  "constraints": [
+   "A * B < 10000"
+  ],
+  "answer": "A * B",
+  "operands": [
+   "A",
+   "B"
+  ],
+  "distractors": [
+   "D1"
+  ],
+  "tags": [
+   "distractor"
+  ],
+  "note": "family size is irrelevant"
+ },
+ {
+  "tid": "W2-020",
+  "category": "single",
+  "op": "mul",
+  "text": "A notebook costs {B} dollars. How much would {A} notebooks cost?",
+  "slots": {
+   "A": [
+    2,
+    20
+   ],
+   "B": [
+    2,
+    10
+   ]
+  },
+  "constraints": [
+   "A * B < 10000"
+  ],
+  "answer": "A * B",
+  "operands": [
+   "A",
+   "B"
+  ],
+  "distractors": [],
+  "tags": [],
+  "note": "price times quantity"
+ },
+ {
+  "tid": "W2-021",
+  "category": "single",
+  "op": "mul",
+  "text": "What is {A} times {B}?",
+  "slots": {
+   "A": [
+    2,
+    99
+   ],
+   "B": [
+    2,
+    90
+   ]
+  },
+  "constraints": [
+   "A * B < 10000"
+  ],
+  "answer": "A * B",
+  "operands": [
+   "A",
+   "B"
+  ],
+  "distractors": [],
+  "tags": [
+   "bare"
+  ],
+  "note": "bare multiplication"
+ },
+ {
+  "tid": "W2-022",
+  "category": "single",
+  "op": "mul",
+  "text": "Multiply {A} by {B}.",
+  "slots": {
+   "A": [
+    2,
+    90
+   ],
+   "B": [
+    2,
+    90
+   ]
+  },
+  "constraints": [
+   "A * B < 10000"
+  ],
+  "answer": "A * B",
+  "operands": [
+   "A",
+   "B"
+  ],
+  "distractors": [],
+  "tags": [
+   "bare"
+  ],
+  "note": "bare multiplication"
+ },
+ {
+  "tid": "W2-023",
+  "category": "single",
+  "op": "div",
+  "text": "{A} candies are shared equally among {B} kids. How many candies does each kid get?",
+  "slots": {
+   "A": [
+    10,
+    300
+   ],
+   "B": [
+    2,
+    10
+   ]
+  },
+  "constraints": [
+   "B >= 2",
+   "A % B == 0"
+  ],
+  "answer": "A // B",
+  "operands": [
+   "A",
+   "B"
+  ],
+  "distractors": [],
+  "tags": [
+   "split_equally"
+  ],
+  "note": "exact split among kids"
+ },
+ {
+  "tid": "W2-024",
+  "category": "single",
+  "op": "div",
+  "text": "A teacher, who has worked here for {D1} years, divides {A} pencils equally among {B} students. How many pencils does each student get?",
+  "slots": {
+   "A": [
+    10,
+    400
+   ],
+   "B": [
+    2,
+    12
+   ],
+   "D1": [
+    1,
+    30
+   ]
+  },
+  "constraints": [
+   "B >= 2",
+   "A % B == 0"
+  ],
+  "answer": "A // B",
+  "operands": [
+   "A",
+   "B"
+  ],
+  "distractors": [
+   "D1"
+  ],
+  "tags": [
+   "split_equally",
+   "distractor"
+  ],
+  "note": "years worked is irrelevant"
+ },
+ {
+  "tid": "W2-025",
+  "category": "single",
+  "op": "div",
+  "text": "{A} dollars in prize money is split equally between {B} winners. How much does each winner get?",
+  "slots": {
+   "A": [
+    10,
+    600
+   ],
+   "B": [
+    2,
+    10
+   ]
+  },
+  "constraints": [
+   "B >= 2",
+   "A % B == 0"
+  ],
+  "answer": "A // B",
+  "operands": [
+   "A",
+   "B"
+  ],
+  "distractors": [],
+  "tags": [
+   "split_equally"
+  ],
+  "note": "exact split among winners"
+ },
+ {
+  "tid": "W2-026",
+  "category": "single",
+  "op": "div",
+  "text": "{A} apples are split evenly among {B} baskets. How many apples go in each basket?",
+  "slots": {
+   "A": [
+    10,
+    300
+   ],
+   "B": [
+    2,
+    10
+   ]
+  },
+  "constraints": [
+   "B >= 2",
+   "A % B == 0"
+  ],
+  "answer": "A // B",
+  "operands": [
+   "A",
+   "B"
+  ],
+  "distractors": [],
+  "tags": [
+   "split_equally"
+  ],
+  "note": "exact split among baskets"
+ },
+ {
+  "tid": "W2-027",
+  "category": "single",
+  "op": "div",
+  "text": "A charity splits {A} dollars equally among {B} families, using {D1} volunteers to help. How much does each family receive?",
+  "slots": {
+   "A": [
+    50,
+    600
+   ],
+   "B": [
+    2,
+    10
+   ],
+   "D1": [
+    3,
+    20
+   ]
+  },
+  "constraints": [
+   "B >= 2",
+   "A % B == 0"
+  ],
+  "answer": "A // B",
+  "operands": [
+   "A",
+   "B"
+  ],
+  "distractors": [
+   "D1"
+  ],
+  "tags": [
+   "split_equally",
+   "distractor"
+  ],
+  "note": "volunteer count is irrelevant"
+ },
+ {
+  "tid": "W2-028",
+  "category": "single",
+  "op": "div",
+  "text": "{A} balloons are shared equally among {B} party guests. How many balloons does each guest get?",
+  "slots": {
+   "A": [
+    10,
+    200
+   ],
+   "B": [
+    2,
+    12
+   ]
+  },
+  "constraints": [
+   "B >= 2",
+   "A % B == 0"
+  ],
+  "answer": "A // B",
+  "operands": [
+   "A",
+   "B"
+  ],
+  "distractors": [],
+  "tags": [
+   "split_equally"
+  ],
+  "note": "exact split among guests"
+ },
+ {
+  "tid": "W2-029",
+  "category": "single",
+  "op": "div",
+  "text": "The coach, who has coached for {D1} years, splits {A} players equally into {B} equal squads after winning {D2} games this season. How many players are on each squad?",
+  "slots": {
+   "A": [
+    10,
+    80
+   ],
+   "B": [
+    2,
+    8
+   ],
+   "D1": [
+    1,
+    30
+   ],
+   "D2": [
+    2,
+    20
+   ]
+  },
+  "constraints": [
+   "B >= 2",
+   "A % B == 0"
+  ],
+  "answer": "A // B",
+  "operands": [
+   "A",
+   "B"
+  ],
+  "distractors": [
+   "D1",
+   "D2"
+  ],
+  "tags": [
+   "split_equally",
+   "distractor"
+  ],
+  "note": "years coached and wins are irrelevant"
+ },
+ {
+  "tid": "W2-030",
+  "category": "single",
+  "op": "div",
+  "text": "{A} liters of juice are poured equally into {B} pitchers. How many liters go into each pitcher?",
+  "slots": {
+   "A": [
+    10,
+    300
+   ],
+   "B": [
+    2,
+    10
+   ]
+  },
+  "constraints": [
+   "B >= 2",
+   "A % B == 0"
+  ],
+  "answer": "A // B",
+  "operands": [
+   "A",
+   "B"
+  ],
+  "distractors": [],
+  "tags": [
+   "split_equally"
+  ],
+  "note": "exact split among pitchers"
+ },
+ {
+  "tid": "W2-031",
+  "category": "single",
+  "op": "div",
+  "text": "{A} students are put into teams of {B}. How many teams are there?",
+  "slots": {
+   "A": [
+    10,
+    300
+   ],
+   "B": [
+    2,
+    12
+   ]
+  },
+  "constraints": [
+   "B >= 2",
+   "A % B == 0"
+  ],
+  "answer": "A // B",
+  "operands": [
+   "A",
+   "B"
+  ],
+  "distractors": [],
+  "tags": [
+   "groups"
+  ],
+  "note": "counting groups of a fixed size"
+ },
+ {
+  "tid": "W2-032",
+  "category": "single",
+  "op": "div",
+  "text": "A librarian, who has worked {D1} shifts this week, has {A} books and packs them into boxes of {B}. How many boxes does she need?",
+  "slots": {
+   "A": [
+    10,
+    400
+   ],
+   "B": [
+    2,
+    12
+   ],
+   "D1": [
+    1,
+    6
+   ]
+  },
+  "constraints": [
+   "B >= 2",
+   "A % B == 0"
+  ],
+  "answer": "A // B",
+  "operands": [
+   "A",
+   "B"
+  ],
+  "distractors": [
+   "D1"
+  ],
+  "tags": [
+   "groups",
+   "distractor"
+  ],
+  "note": "shift count is irrelevant"
+ },
+ {
+  "tid": "W2-033",
+  "category": "single",
+  "op": "div",
+  "text": "{A} chairs, borrowed from room {D1}, need to be arranged into rows of {B} for a banquet with {D2} volunteers helping. How many rows will there be?",
+  "slots": {
+   "A": [
+    20,
+    300
+   ],
+   "B": [
+    2,
+    15
+   ],
+   "D1": [
+    100,
+    500
+   ],
+   "D2": [
+    2,
+    20
+   ]
+  },
+  "constraints": [
+   "B >= 2",
+   "A % B == 0"
+  ],
+  "answer": "A // B",
+  "operands": [
+   "A",
+   "B"
+  ],
+  "distractors": [
+   "D1",
+   "D2"
+  ],
+  "tags": [
+   "groups",
+   "distractor"
+  ],
+  "note": "room number and volunteer count are irrelevant"
+ },
+ {
+  "tid": "W2-034",
+  "category": "single",
+  "op": "div",
+  "text": "A farmer has {A} eggs, collected over {D1} days, and packs them into cartons of {B}. How many cartons does he fill?",
+  "slots": {
+   "A": [
+    12,
+    400
+   ],
+   "B": [
+    2,
+    12
+   ],
+   "D1": [
+    3,
+    30
+   ]
+  },
+  "constraints": [
+   "B >= 2",
+   "A % B == 0"
+  ],
+  "answer": "A // B",
+  "operands": [
+   "A",
+   "B"
+  ],
+  "distractors": [
+   "D1"
+  ],
+  "tags": [
+   "groups",
+   "distractor"
+  ],
+  "note": "number of collection days is irrelevant"
+ },
+ {
+  "tid": "W2-035",
+  "category": "single",
+  "op": "div",
+  "text": "{A} runners are divided into heats of {B}. How many heats are there?",
+  "slots": {
+   "A": [
+    10,
+    200
+   ],
+   "B": [
+    2,
+    10
+   ]
+  },
+  "constraints": [
+   "B >= 2",
+   "A % B == 0"
+  ],
+  "answer": "A // B",
+  "operands": [
+   "A",
+   "B"
+  ],
+  "distractors": [],
+  "tags": [
+   "groups"
+  ],
+  "note": "counting groups of a fixed size"
+ },
+ {
+  "tid": "W2-036",
+  "category": "single",
+  "op": "div",
+  "text": "A pack of {B} markers costs {A} dollars in total. How much does each marker cost?",
+  "slots": {
+   "A": [
+    10,
+    300
+   ],
+   "B": [
+    2,
+    12
+   ]
+  },
+  "constraints": [
+   "B >= 2",
+   "A % B == 0"
+  ],
+  "answer": "A // B",
+  "operands": [
+   "A",
+   "B"
+  ],
+  "distractors": [],
+  "tags": [],
+  "note": "total price divided by quantity"
+ },
+ {
+  "tid": "W2-037",
+  "category": "single",
+  "op": "div",
+  "text": "{B} friends, celebrating a birthday turning {D1}, split a {A} dollar dinner bill evenly. How much does each person pay?",
+  "slots": {
+   "A": [
+    20,
+    600
+   ],
+   "B": [
+    2,
+    10
+   ],
+   "D1": [
+    18,
+    60
+   ]
+  },
+  "constraints": [
+   "B >= 2",
+   "A % B == 0"
+  ],
+  "answer": "A // B",
+  "operands": [
+   "A",
+   "B"
+  ],
+  "distractors": [
+   "D1"
+  ],
+  "tags": [
+   "distractor"
+  ],
+  "note": "birthday age is irrelevant"
+ },
+ {
+  "tid": "W2-038",
+  "category": "single",
+  "op": "div",
+  "text": "A box of {B} light bulbs costs {A} dollars. What is the price of one bulb?",
+  "slots": {
+   "A": [
+    10,
+    300
+   ],
+   "B": [
+    2,
+    12
+   ]
+  },
+  "constraints": [
+   "B >= 2",
+   "A % B == 0"
+  ],
+  "answer": "A // B",
+  "operands": [
+   "A",
+   "B"
+  ],
+  "distractors": [],
+  "tags": [],
+  "note": "total price divided by quantity"
+ },
+ {
+  "tid": "W2-039",
+  "category": "single",
+  "op": "div",
+  "text": "A factory produces {A} toys over {B} equal days, using {D1} machines in building {D2}. How many toys are produced each day?",
+  "slots": {
+   "A": [
+    20,
+    600
+   ],
+   "B": [
+    2,
+    12
+   ],
+   "D1": [
+    2,
+    20
+   ],
+   "D2": [
+    1,
+    10
+   ]
+  },
+  "constraints": [
+   "B >= 2",
+   "A % B == 0"
+  ],
+  "answer": "A // B",
+  "operands": [
+   "A",
+   "B"
+  ],
+  "distractors": [
+   "D1",
+   "D2"
+  ],
+  "tags": [
+   "distractor"
+  ],
+  "note": "machine count and building number are irrelevant"
+ },
+ {
+  "tid": "W2-040",
+  "category": "single",
+  "op": "div",
+  "text": "A car travels {A} miles over {B} equal-length trips. How many miles is each trip?",
+  "slots": {
+   "A": [
+    10,
+    600
+   ],
+   "B": [
+    2,
+    12
+   ]
+  },
+  "constraints": [
+   "B >= 2",
+   "A % B == 0"
+  ],
+  "answer": "A // B",
+  "operands": [
+   "A",
+   "B"
+  ],
+  "distractors": [],
+  "tags": [],
+  "note": "total distance divided by trips"
+ },
+ {
+  "tid": "W2-041",
+  "category": "single",
+  "op": "div",
+  "text": "{A} liters of water are used evenly over {B} weeks by a family of {D1}. How many liters are used each week?",
+  "slots": {
+   "A": [
+    10,
+    400
+   ],
+   "B": [
+    2,
+    12
+   ],
+   "D1": [
+    2,
+    8
+   ]
+  },
+  "constraints": [
+   "B >= 2",
+   "A % B == 0"
+  ],
+  "answer": "A // B",
+  "operands": [
+   "A",
+   "B"
+  ],
+  "distractors": [
+   "D1"
+  ],
+  "tags": [
+   "distractor"
+  ],
+  "note": "family size is irrelevant"
+ },
+ {
+  "tid": "W2-042",
+  "category": "single",
+  "op": "div",
+  "text": "What is {A} divided by {B}?",
+  "slots": {
+   "A": [
+    10,
+    600
+   ],
+   "B": [
+    2,
+    12
+   ]
+  },
+  "constraints": [
+   "B >= 2",
+   "A % B == 0"
+  ],
+  "answer": "A // B",
+  "operands": [
+   "A",
+   "B"
+  ],
+  "distractors": [],
+  "tags": [
+   "bare"
+  ],
+  "note": "bare division"
+ },
+ {
+  "tid": "W2-043",
+  "category": "single",
+  "op": "div",
+  "text": "Divide {A} by {B}.",
+  "slots": {
+   "A": [
+    10,
+    600
+   ],
+   "B": [
+    2,
+    12
+   ]
+  },
+  "constraints": [
+   "B >= 2",
+   "A % B == 0"
+  ],
+  "answer": "A // B",
+  "operands": [
+   "A",
+   "B"
+  ],
+  "distractors": [],
+  "tags": [
+   "bare"
+  ],
+  "note": "bare division"
+ },
+ {
+  "tid": "W2-044",
+  "category": "single",
+  "op": "div",
+  "text": "{A} divided by {B} equals what?",
+  "slots": {
+   "A": [
+    10,
+    600
+   ],
+   "B": [
+    2,
+    12
+   ]
+  },
+  "constraints": [
+   "B >= 2",
+   "A % B == 0"
+  ],
+  "answer": "A // B",
+  "operands": [
+   "A",
+   "B"
+  ],
+  "distractors": [],
+  "tags": [
+   "bare"
+  ],
+  "note": "bare division"
+ },
+ {
+  "tid": "W2-045",
+  "category": "single",
+  "op": "div",
+  "text": "Find the value of {A} divided by {B}.",
+  "slots": {
+   "A": [
+    10,
+    600
+   ],
+   "B": [
+    2,
+    12
+   ]
+  },
+  "constraints": [
+   "B >= 2",
+   "A % B == 0"
+  ],
+  "answer": "A // B",
+  "operands": [
+   "A",
+   "B"
+  ],
+  "distractors": [],
+  "tags": [
+   "bare"
+  ],
+  "note": "bare division"
+ }
+]
