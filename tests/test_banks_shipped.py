@@ -83,6 +83,16 @@ def test_v5x_inputs_and_join():
     assert len(d["kept"]) == 274 and len(d["dropped"]) == 14 and len({e["lang"] for e in d["kept"]}) == 6
 
 
+def test_abstainbank_templates_match_code_md5():
+    d = os.path.join(ROOT, "banks", "abstainbank")
+    want = MB.read_ship(os.path.join(d, "CODE.md5"))
+    assert len(want) == 8
+    bad = [rel for rel in sorted(want) if MB.md5_of(os.path.join(d, rel)) != want[rel]]
+    assert not bad, bad
+    kept = [e for rel in want for e in json.load(open(os.path.join(d, rel), encoding="utf-8"))["kept"]]
+    assert len(kept) == 503 == len({e["template"]["id"] for e in kept})
+
+
 def test_v5x_regenerates():
     """about five seconds: join, v5x.py gen, six md5s"""
     import make_v5x as MX

@@ -182,3 +182,54 @@ per language in `v5x/clean/C1/` plus `index.json`; `banks/clean_split.py` joins 
 byte into the clean file `v5x.py` reads (md5 `476b62cf...`) and splits a clean file of your
 own the same way. `v5x/manifest/` holds the 144 writer-unit specs of all six chunks (`gen`
 reads their forms and story ids). `v5x.py selftest` runs here (76 checks).
+
+## Abstain bank AB1 (English): questions the block must NOT answer, each with an in-set twin
+
+`abstainbank/clean/` holds 503 blind-verified English templates (8 clean files). Each
+template is one scene with two questions over the same facts: `question_abs`, which is NOT
+one + - x / of two written numbers (a percent, a square root, a remainder, a two-step sum,
+a yes/no ...), and `question_pos`, an ordinary one-step twin (`pos_op` add / sub / mul / div
+on `{M}` and `{S}`) in the same register, so that a gate cannot learn "unusual wording =>
+abstain". Both questions come in two fact orders (`facts_first`: `{M}` before `{S}`;
+`facts_second`: `{S}` first), and a template was kept only if all four texts passed the
+blind verifier. `abs_prog` is the abstain answer as a program over the slots (exact
+fractions: `+ - * / %`, `pct pctof avg sq cube pow sqrt floor ceil round gcd lcm fact comb
+digitsum ndigits rev digitprod incl posts tri max min abs`, `word(...)` for a name, `text`
+for a word answer, `none` for not answerable; `c` is the hidden constant `hidden_c`, e.g. 10
+in "rounded to the nearest ten").
+
+| file | what | kept | dropped |
+|---|---|---:|---:|
+| `clean_abstainbank_C1.json` | percent 23, power_root 16, inexact_div 20, noninteger 18, underspecified 5 | 82 | 23 |
+| `clean_abstainbank_C2.json` | average 25, hidden_const 25, two_step 15, number_theory 9, compare 11 | 85 | 20 |
+| `clean_abstainbank_C3.json` | counting 20, ratio 23, multi_step 18, digits 12, lookup 13 | 86 | 19 |
+| `clean_abstainbank_C4.json` | rounding 19, estimate 21, date_time 14, nonnumeric 13, no_arith 17 | 84 | 21 |
+| `clean_abstainbank_R1.json` | re-pilot: underspecified | 28 | 2 |
+| `clean_abstainbank_R2.json` | re-pilot: number_theory | 24 | 6 |
+| `clean_abstainbank_R345.json` | re-pilots R3 + R4 + R5 merged: nonnumeric (13 + 19 + 29) | 61 | (not kept in the merge) |
+| `clean_abstainbank_R6.json` | re-pilot: nonnumeric, rewritten so the wording does not give the class away | 53 | 7 |
+| **all** | 20 classes | **503** | |
+
+Twins: add 138, sub 145, mul 127, div 93; registers: story 382, quiz 121; twin styles: plain
+239, near_miss 139 (in-set wording that sounds out-of-set: "how far apart", "split equally",
+"times as many"), unusual 63, signed 62 (an a<b subtraction with a negative answer). Tags:
+`alt_single` (82: a near-miss text where the verifier said a hasty reader might answer with
+one operation; kept, tagged) and `fill_level` (7).
+
+**The nonnumeric class: read this before you use it.** Its answer is a word (yes / no, a
+named option, odd / even). In C4's 13 nonnumeric templates and the 61 of R345 the question
+type shows in the wording: a bag-of-words classifier on the question alone tells the
+abstain question from its twin on 23/26 (C4) and 121/122 (R345) held-out texts. So a
+result on those 74 templates says nothing beyond "it read the question's words". R6's 53
+were rewritten so that the twins borrow the abstain side's words and the reverse; the same
+classifier gets 99/106 (93.4%) there. Report the three groups on separate lines.
+
+**Rows are not generated here.** The project's tool that fills these templates
+(`abstainbank.py`) imports its earlier abstain tool and pinned copies of the v5 tools, so it
+does not run on its own in this repository and is not shipped. The templates are complete:
+to make rows, fill `{M}`, `{S}` (and `{T}`, `{U}` where present) with numbers, compute the
+abstain answer with `abs_prog` and the twin's with `pos_op`, and keep a fill only if no
+single + - x / of any two written numbers equals the abstain answer (otherwise the block
+would be right to fire; for `compare` and `lookup` the answer is one of the written numbers
+itself). The project's bank used about 8 rows per template (small, mid and
+huge numbers where the operation makes sense).

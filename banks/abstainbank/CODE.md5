@@ -1,0 +1,12 @@
+# md5 of the AB1 clean template files (md5sum format; `md5sum -c CODE.md5` from banks/abstainbank/). Byte for byte the project's.
+# clean_abstainbank_R345.json is the project's merge of its R3, R4 and R5 clean files (kept templates only; 13 + 19 + 29),
+# shipped under this name; the project keeps it as dump/stage_clean/clean_R345.json. The tool that turns these templates
+# into rows is not shipped (it imports the project's earlier abstain tool); see banks/README.md.
+ad7d3b2622997ce4b45f465628947a5c  clean/clean_abstainbank_C1.json
+e4f59c93e53f943f837e464427024385  clean/clean_abstainbank_C2.json
+ce1162d7ca04299d9f1670795f89b088  clean/clean_abstainbank_C3.json
+c2b3f1b9defc1f3e384ce5bfb58d4527  clean/clean_abstainbank_C4.json
+6ec86d9abf5abb556599838bf47fcbb6  clean/clean_abstainbank_R1.json
+bb2902ff29724e84e2be8835ea8e3926  clean/clean_abstainbank_R2.json
+03eaa275b1655e02fdc8f686788c17b3  clean/clean_abstainbank_R345.json
+335c4c5e684f18487ee64c9d62b5ce2c  clean/clean_abstainbank_R6.json

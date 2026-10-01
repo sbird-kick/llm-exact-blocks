@@ -1009,3 +1009,11 @@ layouts are in [`banks/README.md`](../banks/README.md).
   rows; `python banks/make_v5x.py`. The tool, `v5x.py`, wraps the v5 tools of section 4
   unchanged and adds the form rules, so writing a v5x unit is writing a v5 unit with one
   more field per cell.
+* **`banks/abstainbank/`** (English, AB1): 503 templates of questions the block should
+  abstain on (20 classes: percent, roots, remainders, averages, two- and three-step
+  questions, rounding, dates, yes/no ...), each with a one-step twin over the same facts.
+  Templates only: the project's filling tool does not run on its own here, and
+  `banks/README.md` says how to fill them. The lesson of its re-pilots is the one of
+  section 8 from the other side: if the abstain question and its twin can be told apart
+  by their words alone, a gate trained on them learns the words. Write the twin in the
+  abstain question's vocabulary.
