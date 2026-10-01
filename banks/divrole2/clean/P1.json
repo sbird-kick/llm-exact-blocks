@@ -1,0 +1,1698 @@
+{
+ "bar": "kept(written) >= 50% of written and kept in the bank (v5+written) >= 25",
+ "chunk": "P1",
+ "dropped": [
+  {
+   "notes": [
+    "asks how many containers were filled or made; a fraction of a container is not a sensible count",
+    "asks how many containers were filled or made; a fraction of a container is not a sensible count",
+    "asks how many containers were filled or made; a fraction of a container is not a sensible count",
+    "asks how many containers were filled or made; a fraction of a container is not a sensible count"
+   ],
+   "reasons": [
+    "Fa>b: a fractional answer does not read naturally",
+    "Fa>b: flags ['integer_only']",
+    "Sa>b: a fractional answer does not read naturally",
+    "Sa>b: flags ['integer_only']",
+    "Fa<b: a fractional answer does not read naturally",
+    "Fa<b: flags ['integer_only']",
+    "Sa<b: a fractional answer does not read naturally",
+    "Sa<b: flags ['integer_only']"
+   ],
+   "tkey": "v5:W5-en-u01-10"
+  },
+  {
+   "notes": [
+    "asks for a count of whole items; a fraction makes no sense; setup states quantities without saying what is divided; the question decides",
+    "asks for a count of whole items; a fraction makes no sense; setup states quantities without saying what is divided; the question decides",
+    "asks for a count of whole items; a fraction makes no sense; setup states quantities without saying what is divided; the question decides",
+    "asks for a count of whole items; a fraction makes no sense; setup states quantities without saying what is divided; the question decides"
+   ],
+   "reasons": [
+    "Fa<b: a fractional answer does not read naturally",
+    "Fa<b: flags ['integer_only']",
+    "Sa>b: a fractional answer does not read naturally",
+    "Sa>b: flags ['integer_only']",
+    "Fa>b: a fractional answer does not read naturally",
+    "Fa>b: flags ['integer_only']",
+    "Sa<b: a fractional answer does not read naturally",
+    "Sa<b: flags ['integer_only']"
+   ],
+   "tkey": "v5:W5-en-u01-12"
+  },
+  {
+   "notes": [
+    "asks for a count of whole items; a fraction of one makes no sense",
+    "asks for a count of whole items; a fraction of one makes no sense",
+    "asks for a count of whole items; a fraction of one makes no sense",
+    "asks for a count of whole items; a fraction of one makes no sense"
+   ],
+   "reasons": [
+    "Sa<b: a fractional answer does not read naturally",
+    "Sa<b: flags ['integer_only']",
+    "Fa<b: a fractional answer does not read naturally",
+    "Fa<b: flags ['integer_only']",
+    "Sa>b: a fractional answer does not read naturally",
+    "Sa>b: flags ['integer_only']",
+    "Fa>b: a fractional answer does not read naturally",
+    "Fa>b: flags ['integer_only']"
+   ],
+   "tkey": "v5:W5-en-u02-10"
+  },
+  {
+   "notes": [
+    "asks for a count of whole items; a fraction of one makes no sense; 'tonight's stalls tickets' and 'every row fills evenly' read awkwardly",
+    "asks for a count of whole items; a fraction of one makes no sense; 'tonight's stalls tickets' and 'every row fills evenly' read awkwardly",
+    "asks for a count of whole items; a fraction of one makes no sense; 'tonight's stalls tickets' and 'every row fills evenly' read awkwardly",
+    "asks for a count of whole items; a fraction of one makes no sense; 'tonight's stalls tickets' and 'every row fills evenly' read awkwardly"
+   ],
+   "reasons": [
+    "Sa<b: a fractional answer does not read naturally",
+    "Sa<b: flags ['integer_only', 'unnatural']",
+    "Fa>b: a fractional answer does not read naturally",
+    "Fa>b: flags ['integer_only', 'unnatural']",
+    "Fa<b: a fractional answer does not read naturally",
+    "Fa<b: flags ['integer_only', 'unnatural']",
+    "Sa>b: a fractional answer does not read naturally",
+    "Sa>b: flags ['integer_only', 'unnatural']"
+   ],
+   "tkey": "v5:W5-en-u03-10"
+  },
+  {
+   "notes": [
+    "asks for a count of whole items; a fraction makes no sense; 'tonight's run' having dozens of performances is odd",
+    "asks for a count of whole items; a fraction makes no sense; 'tonight's run' having dozens of performances is odd",
+    "asks for a count of whole items; a fraction makes no sense; 'tonight's run' having dozens of performances is odd",
+    "asks for a count of whole items; a fraction makes no sense; 'tonight's run' having dozens of performances is odd"
+   ],
+   "reasons": [
+    "Fa>b: a fractional answer does not read naturally",
+    "Fa>b: flags ['integer_only', 'unnatural']",
+    "Fa<b: a fractional answer does not read naturally",
+    "Fa<b: flags ['integer_only', 'unnatural']",
+    "Sa>b: a fractional answer does not read naturally",
+    "Sa>b: flags ['integer_only', 'unnatural']",
+    "Sa<b: a fractional answer does not read naturally",
+    "Sa<b: flags ['integer_only', 'unnatural']"
+   ],
+   "tkey": "v5:W5-en-u03-11"
+  },
+  {
+   "notes": [
+    "asks how many containers/groups were filled; a fraction makes no sense",
+    "asks how many containers/groups were filled; a fraction makes no sense; fewer items than one container holds, so none are filled",
+    "asks how many containers/groups were filled; a fraction makes no sense; fewer items than one container holds, so none are filled",
+    "asks how many containers/groups were filled; a fraction makes no sense"
+   ],
+   "reasons": [
+    "Fa>b: a fractional answer does not read naturally",
+    "Fa>b: flags ['integer_only']",
+    "Sa<b: a fractional answer does not read naturally",
+    "Sa<b: flags ['integer_only']",
+    "Fa<b: a fractional answer does not read naturally",
+    "Fa<b: flags ['integer_only']",
+    "Sa>b: a fractional answer does not read naturally",
+    "Sa>b: flags ['integer_only']"
+   ],
+   "tkey": "v5:W5-en-u03-12"
+  },
+  {
+   "notes": [
+    "asks for a count of whole items; a fraction of one makes no sense",
+    "asks for a count of whole items; a fraction of one makes no sense",
+    "asks for a count of whole items; a fraction of one makes no sense",
+    "asks for a count of whole items; a fraction of one makes no sense"
+   ],
+   "reasons": [
+    "Sa>b: a fractional answer does not read naturally",
+    "Sa>b: flags ['integer_only']",
+    "Sa<b: a fractional answer does not read naturally",
+    "Sa<b: flags ['integer_only']",
+    "Fa<b: a fractional answer does not read naturally",
+    "Fa<b: flags ['integer_only']",
+    "Fa>b: a fractional answer does not read naturally",
+    "Fa>b: flags ['integer_only']"
+   ],
+   "tkey": "v5:W5-en-u04-10"
+  },
+  {
+   "notes": [
+    "discrete items cannot be split into fractions",
+    "discrete items cannot be split into fractions",
+    "discrete items cannot be split into fractions",
+    "discrete items cannot be split into fractions"
+   ],
+   "reasons": [
+    "Sa<b: a fractional answer does not read naturally",
+    "Sa<b: flags ['integer_only']",
+    "Sa>b: a fractional answer does not read naturally",
+    "Sa>b: flags ['integer_only']",
+    "Fa<b: a fractional answer does not read naturally",
+    "Fa<b: flags ['integer_only']",
+    "Fa>b: a fractional answer does not read naturally",
+    "Fa>b: flags ['integer_only']"
+   ],
+   "tkey": "v5:W5-en-u04-11"
+  },
+  {
+   "notes": [
+    "asks for a count of whole items; a fraction makes no sense; setup states quantities without saying what is divided; the question decides",
+    "asks for a count of whole items; a fraction makes no sense; setup states quantities without saying what is divided; the question decides",
+    "asks for a count of whole items; a fraction makes no sense; setup states quantities without saying what is divided; the question decides",
+    "asks for a count of whole items; a fraction makes no sense; setup states quantities without saying what is divided; the question decides"
+   ],
+   "reasons": [
+    "Sa>b: a fractional answer does not read naturally",
+    "Sa>b: flags ['integer_only']",
+    "Fa<b: a fractional answer does not read naturally",
+    "Fa<b: flags ['integer_only']",
+    "Fa>b: a fractional answer does not read naturally",
+    "Fa>b: flags ['integer_only']",
+    "Sa<b: a fractional answer does not read naturally",
+    "Sa<b: flags ['integer_only']"
+   ],
+   "tkey": "v5:W5-en-u04-12"
+  },
+  {
+   "notes": [
+    "asks how many containers/groups were filled; a fraction makes no sense; fewer items than one container holds, so none are filled",
+    "asks how many containers/groups were filled; a fraction makes no sense",
+    "asks how many containers/groups were filled; a fraction makes no sense",
+    "asks how many containers/groups were filled; a fraction makes no sense; fewer items than one container holds, so none are filled"
+   ],
+   "reasons": [
+    "Fa<b: a fractional answer does not read naturally",
+    "Fa<b: flags ['integer_only']",
+    "Sa>b: a fractional answer does not read naturally",
+    "Sa>b: flags ['integer_only']",
+    "Fa>b: a fractional answer does not read naturally",
+    "Fa>b: flags ['integer_only']",
+    "Sa<b: a fractional answer does not read naturally",
+    "Sa<b: flags ['integer_only']"
+   ],
+   "tkey": "v5:W5-en-u05-10"
+  },
+  {
+   "notes": [
+    "discrete items cannot be split into fractions; dividing stork sightings among posts is an odd scenario",
+    "discrete items cannot be split into fractions; dividing stork sightings among posts is an odd scenario",
+    "discrete items cannot be split into fractions; dividing stork sightings among posts is an odd scenario",
+    "discrete items cannot be split into fractions; dividing stork sightings among posts is an odd scenario"
+   ],
+   "reasons": [
+    "Sa<b: a fractional answer does not read naturally",
+    "Sa<b: flags ['integer_only', 'unnatural']",
+    "Sa>b: a fractional answer does not read naturally",
+    "Sa>b: flags ['integer_only', 'unnatural']",
+    "Fa>b: a fractional answer does not read naturally",
+    "Fa>b: flags ['integer_only', 'unnatural']",
+    "Fa<b: a fractional answer does not read naturally",
+    "Fa<b: flags ['integer_only', 'unnatural']"
+   ],
+   "tkey": "v5:W5-en-u05-11"
+  },
+  {
+   "notes": [
+    "asks for a count of whole items; a fraction of one makes no sense",
+    "asks for a count of whole items; a fraction of one makes no sense",
+    "asks for a count of whole items; a fraction of one makes no sense",
+    "asks for a count of whole items; a fraction of one makes no sense"
+   ],
+   "reasons": [
+    "Fa>b: a fractional answer does not read naturally",
+    "Fa>b: flags ['integer_only']",
+    "Fa<b: a fractional answer does not read naturally",
+    "Fa<b: flags ['integer_only']",
+    "Sa>b: a fractional answer does not read naturally",
+    "Sa>b: flags ['integer_only']",
+    "Sa<b: a fractional answer does not read naturally",
+    "Sa<b: flags ['integer_only']"
+   ],
+   "tkey": "v5:W5-en-u05-12"
+  },
+  {
+   "notes": [
+    "asks for a count of whole items; a fraction of one makes no sense",
+    "asks for a count of whole items; a fraction of one makes no sense",
+    "asks for a count of whole items; a fraction of one makes no sense",
+    "asks for a count of whole items; a fraction of one makes no sense"
+   ],
+   "reasons": [
+    "Fa<b: a fractional answer does not read naturally",
+    "Fa<b: flags ['integer_only']",
+    "Fa>b: a fractional answer does not read naturally",
+    "Fa>b: flags ['integer_only']",
+    "Sa<b: a fractional answer does not read naturally",
+    "Sa<b: flags ['integer_only']",
+    "Sa>b: a fractional answer does not read naturally",
+    "Sa>b: flags ['integer_only']"
+   ],
+   "tkey": "v5:W5-en-u06-04"
+  },
+  {
+   "notes": [
+    "discrete items cannot be split into fractions; \"will divide\" then \"if ... were divided\" is a tense clash",
+    "discrete items cannot be split into fractions; \"will divide\" then \"if ... were divided\" is a tense clash",
+    "discrete items cannot be split into fractions; \"will divide\" then \"if ... were divided\" is a tense clash",
+    "discrete items cannot be split into fractions; \"will divide\" then \"if ... were divided\" is a tense clash"
+   ],
+   "reasons": [
+    "Fa>b: a fractional answer does not read naturally",
+    "Fa>b: flags ['integer_only', 'unnatural']",
+    "Sa<b: a fractional answer does not read naturally",
+    "Sa<b: flags ['integer_only', 'unnatural']",
+    "Fa<b: a fractional answer does not read naturally",
+    "Fa<b: flags ['integer_only', 'unnatural']",
+    "Sa>b: a fractional answer does not read naturally",
+    "Sa>b: flags ['integer_only', 'unnatural']"
+   ],
+   "tkey": "v5:W5-en-u06-12"
+  },
+  {
+   "notes": [
+    "asks for a count of whole items; a fraction makes no sense",
+    "asks for a count of whole items; a fraction makes no sense",
+    "asks for a count of whole items; a fraction makes no sense",
+    "asks for a count of whole items; a fraction makes no sense"
+   ],
+   "reasons": [
+    "Sa<b: a fractional answer does not read naturally",
+    "Sa<b: flags ['integer_only']",
+    "Fa>b: a fractional answer does not read naturally",
+    "Fa>b: flags ['integer_only']",
+    "Fa<b: a fractional answer does not read naturally",
+    "Fa<b: flags ['integer_only']",
+    "Sa>b: a fractional answer does not read naturally",
+    "Sa>b: flags ['integer_only']"
+   ],
+   "tkey": "v5:W5-en-u07-11"
+  },
+  {
+   "notes": [
+    "asks for a count of whole items; a fraction makes no sense; setup states quantities without saying what is divided; the question decides",
+    "asks for a count of whole items; a fraction makes no sense; setup states quantities without saying what is divided; the question decides",
+    "asks for a count of whole items; a fraction makes no sense; setup states quantities without saying what is divided; the question decides",
+    "asks for a count of whole items; a fraction makes no sense; setup states quantities without saying what is divided; the question decides"
+   ],
+   "reasons": [
+    "Fa<b: a fractional answer does not read naturally",
+    "Fa<b: flags ['integer_only']",
+    "Fa>b: a fractional answer does not read naturally",
+    "Fa>b: flags ['integer_only']",
+    "Sa>b: a fractional answer does not read naturally",
+    "Sa>b: flags ['integer_only']",
+    "Sa<b: a fractional answer does not read naturally",
+    "Sa<b: flags ['integer_only']"
+   ],
+   "tkey": "v5:W5-en-u08-10"
+  },
+  {
+   "notes": [
+    "asks how many containers/groups were filled; a fraction makes no sense",
+    "asks how many containers/groups were filled; a fraction makes no sense; fewer items than one container holds, so none are filled",
+    "asks how many containers/groups were filled; a fraction makes no sense; fewer items than one container holds, so none are filled",
+    "asks how many containers/groups were filled; a fraction makes no sense"
+   ],
+   "reasons": [
+    "Fa>b: a fractional answer does not read naturally",
+    "Fa>b: flags ['integer_only']",
+    "Fa<b: a fractional answer does not read naturally",
+    "Fa<b: flags ['integer_only']",
+    "Sa<b: a fractional answer does not read naturally",
+    "Sa<b: flags ['integer_only']",
+    "Sa>b: a fractional answer does not read naturally",
+    "Sa>b: flags ['integer_only']"
+   ],
+   "tkey": "v5:W5-en-u08-12"
+  },
+  {
+   "notes": [
+    "asks for a count of whole items; a fraction of one makes no sense; 'each of this week's masons' is an odd phrase",
+    "asks for a count of whole items; a fraction of one makes no sense; 'each of this week's masons' is an odd phrase",
+    "asks for a count of whole items; a fraction of one makes no sense; 'each of this week's masons' is an odd phrase",
+    "asks for a count of whole items; a fraction of one makes no sense; 'each of this week's masons' is an odd phrase"
+   ],
+   "reasons": [
+    "Sa<b: a fractional answer does not read naturally",
+    "Sa<b: flags ['integer_only', 'unnatural']",
+    "Fa>b: a fractional answer does not read naturally",
+    "Fa>b: flags ['integer_only', 'unnatural']",
+    "Sa>b: a fractional answer does not read naturally",
+    "Sa>b: flags ['integer_only', 'unnatural']",
+    "Fa<b: a fractional answer does not read naturally",
+    "Fa<b: flags ['integer_only', 'unnatural']"
+   ],
+   "tkey": "v5:W5-en-u09-11"
+  },
+  {
+   "notes": [
+    "asks how many containers/groups were filled; a fraction makes no sense; fewer items than one container holds, so none are filled",
+    "asks how many containers/groups were filled; a fraction makes no sense",
+    "asks how many containers/groups were filled; a fraction makes no sense",
+    "asks how many containers/groups were filled; a fraction makes no sense; fewer items than one container holds, so none are filled"
+   ],
+   "reasons": [
+    "Sa<b: a fractional answer does not read naturally",
+    "Sa<b: flags ['integer_only']",
+    "Fa>b: a fractional answer does not read naturally",
+    "Fa>b: flags ['integer_only']",
+    "Sa>b: a fractional answer does not read naturally",
+    "Sa>b: flags ['integer_only']",
+    "Fa<b: a fractional answer does not read naturally",
+    "Fa<b: flags ['integer_only']"
+   ],
+   "tkey": "v5:W5-en-u10-10"
+  },
+  {
+   "notes": [
+    "asks how many containers were filled or made; a fraction of a container is not a sensible count",
+    "asks how many containers were filled or made; a fraction of a container is not a sensible count",
+    "asks how many containers were filled or made; a fraction of a container is not a sensible count",
+    "asks how many containers were filled or made; a fraction of a container is not a sensible count"
+   ],
+   "reasons": [
+    "Fa<b: a fractional answer does not read naturally",
+    "Fa<b: flags ['integer_only']",
+    "Sa>b: a fractional answer does not read naturally",
+    "Sa>b: flags ['integer_only']",
+    "Sa<b: a fractional answer does not read naturally",
+    "Sa<b: flags ['integer_only']",
+    "Fa>b: a fractional answer does not read naturally",
+    "Fa>b: flags ['integer_only']"
+   ],
+   "tkey": "v5:W5-en-u10-12"
+  },
+  {
+   "notes": [
+    "asks for a count of whole items; a fraction makes no sense; setup states quantities without saying what is divided; the question decides",
+    "asks for a count of whole items; a fraction makes no sense; setup states quantities without saying what is divided; the question decides",
+    "asks for a count of whole items; a fraction makes no sense; setup states quantities without saying what is divided; the question decides",
+    "asks for a count of whole items; a fraction makes no sense; setup states quantities without saying what is divided; the question decides"
+   ],
+   "reasons": [
+    "Sa<b: a fractional answer does not read naturally",
+    "Sa<b: flags ['integer_only']",
+    "Fa<b: a fractional answer does not read naturally",
+    "Fa<b: flags ['integer_only']",
+    "Fa>b: a fractional answer does not read naturally",
+    "Fa>b: flags ['integer_only']",
+    "Sa>b: a fractional answer does not read naturally",
+    "Sa>b: flags ['integer_only']"
+   ],
+   "tkey": "v5:W5-en-u11-10"
+  },
+  {
+   "notes": [
+    "asks for a count of whole items; a fraction makes no sense",
+    "asks for a count of whole items; a fraction makes no sense",
+    "asks for a count of whole items; a fraction makes no sense",
+    "asks for a count of whole items; a fraction makes no sense"
+   ],
+   "reasons": [
+    "Sa>b: a fractional answer does not read naturally",
+    "Sa>b: flags ['integer_only']",
+    "Sa<b: a fractional answer does not read naturally",
+    "Sa<b: flags ['integer_only']",
+    "Fa<b: a fractional answer does not read naturally",
+    "Fa<b: flags ['integer_only']",
+    "Fa>b: a fractional answer does not read naturally",
+    "Fa>b: flags ['integer_only']"
+   ],
+   "tkey": "v5:W5-en-u11-11"
+  },
+  {
+   "notes": [
+    "asks for a count of whole items; a fraction makes no sense; setup states quantities without saying what is divided; the question decides",
+    "asks for a count of whole items; a fraction makes no sense; setup states quantities without saying what is divided; the question decides",
+    "asks for a count of whole items; a fraction makes no sense; setup states quantities without saying what is divided; the question decides",
+    "asks for a count of whole items; a fraction makes no sense; setup states quantities without saying what is divided; the question decides"
+   ],
+   "reasons": [
+    "Sa>b: a fractional answer does not read naturally",
+    "Sa>b: flags ['integer_only']",
+    "Fa<b: a fractional answer does not read naturally",
+    "Fa<b: flags ['integer_only']",
+    "Fa>b: a fractional answer does not read naturally",
+    "Fa>b: flags ['integer_only']",
+    "Sa<b: a fractional answer does not read naturally",
+    "Sa<b: flags ['integer_only']"
+   ],
+   "tkey": "v5:W5-en-u11-12"
+  },
+  {
+   "notes": [
+    "asks for a count of whole items; a fraction makes no sense; setup states quantities without saying what is divided; the question decides",
+    "asks for a count of whole items; a fraction makes no sense; setup states quantities without saying what is divided; the question decides",
+    "asks for a count of whole items; a fraction makes no sense; setup states quantities without saying what is divided; the question decides",
+    "asks for a count of whole items; a fraction makes no sense; setup states quantities without saying what is divided; the question decides"
+   ],
+   "reasons": [
+    "Fa>b: a fractional answer does not read naturally",
+    "Fa>b: flags ['integer_only']",
+    "Sa>b: a fractional answer does not read naturally",
+    "Sa>b: flags ['integer_only']",
+    "Sa<b: a fractional answer does not read naturally",
+    "Sa<b: flags ['integer_only']",
+    "Fa<b: a fractional answer does not read naturally",
+    "Fa<b: flags ['integer_only']"
+   ],
+   "tkey": "v5:W5-en-u12-10"
+  },
+  {
+   "notes": [
+    "asks how many items (shells/packages) each gets; a fraction of one makes no sense",
+    "asks how many items (shells/packages) each gets; a fraction of one makes no sense",
+    "asks how many items (shells/packages) each gets; a fraction of one makes no sense",
+    "asks how many items (shells/packages) each gets; a fraction of one makes no sense"
+   ],
+   "reasons": [
+    "Fa>b: a fractional answer does not read naturally",
+    "Fa>b: flags ['integer_only']",
+    "Sa>b: a fractional answer does not read naturally",
+    "Sa>b: flags ['integer_only']",
+    "Sa<b: a fractional answer does not read naturally",
+    "Sa<b: flags ['integer_only']",
+    "Fa<b: a fractional answer does not read naturally",
+    "Fa<b: flags ['integer_only']"
+   ],
+   "tkey": "v5:W5-en-u12-11"
+  },
+  {
+   "notes": [
+    "asks how many containers/groups were filled; a fraction makes no sense",
+    "asks how many containers/groups were filled; a fraction makes no sense; fewer items than one container holds, so none are filled",
+    "asks how many containers/groups were filled; a fraction makes no sense",
+    "asks how many containers/groups were filled; a fraction makes no sense; fewer items than one container holds, so none are filled"
+   ],
+   "reasons": [
+    "Sa>b: a fractional answer does not read naturally",
+    "Sa>b: flags ['integer_only']",
+    "Fa<b: a fractional answer does not read naturally",
+    "Fa<b: flags ['integer_only']",
+    "Fa>b: a fractional answer does not read naturally",
+    "Fa>b: flags ['integer_only']",
+    "Sa<b: a fractional answer does not read naturally",
+    "Sa<b: flags ['integer_only']"
+   ],
+   "tkey": "v5:W5-en-u12-12"
+  },
+  {
+   "notes": [
+    "asks how many containers were filled or made; a fraction of a container is not a sensible count",
+    "asks how many containers were filled or made; a fraction of a container is not a sensible count",
+    "asks how many containers were filled or made; a fraction of a container is not a sensible count",
+    "asks how many containers were filled or made; a fraction of a container is not a sensible count"
+   ],
+   "reasons": [
+    "Fa>b: a fractional answer does not read naturally",
+    "Fa>b: flags ['integer_only']",
+    "Sa<b: a fractional answer does not read naturally",
+    "Sa<b: flags ['integer_only']",
+    "Fa<b: a fractional answer does not read naturally",
+    "Fa<b: flags ['integer_only']",
+    "Sa>b: a fractional answer does not read naturally",
+    "Sa>b: flags ['integer_only']"
+   ],
+   "tkey": "v5:W5-en-u13-10"
+  },
+  {
+   "notes": [
+    "asks for a count of whole items; a fraction of one makes no sense",
+    "asks for a count of whole items; a fraction of one makes no sense",
+    "asks for a count of whole items; a fraction of one makes no sense",
+    "asks for a count of whole items; a fraction of one makes no sense"
+   ],
+   "reasons": [
+    "Fa>b: a fractional answer does not read naturally",
+    "Fa>b: flags ['integer_only']",
+    "Sa>b: a fractional answer does not read naturally",
+    "Sa>b: flags ['integer_only']",
+    "Sa<b: a fractional answer does not read naturally",
+    "Sa<b: flags ['integer_only']",
+    "Fa<b: a fractional answer does not read naturally",
+    "Fa<b: flags ['integer_only']"
+   ],
+   "tkey": "v5:W5-en-u13-11"
+  },
+  {
+   "notes": [
+    "asks for a count of whole items; a fraction makes no sense",
+    "asks for a count of whole items; a fraction makes no sense",
+    "asks for a count of whole items; a fraction makes no sense",
+    "asks for a count of whole items; a fraction makes no sense"
+   ],
+   "reasons": [
+    "Sa<b: a fractional answer does not read naturally",
+    "Sa<b: flags ['integer_only']",
+    "Fa<b: a fractional answer does not read naturally",
+    "Fa<b: flags ['integer_only']",
+    "Sa>b: a fractional answer does not read naturally",
+    "Sa>b: flags ['integer_only']",
+    "Fa>b: a fractional answer does not read naturally",
+    "Fa>b: flags ['integer_only']"
+   ],
+   "tkey": "v5:W5-en-u13-12"
+  },
+  {
+   "notes": [
+    "asks for a count of whole items; a fraction makes no sense; setup states quantities without saying what is divided; the question decides",
+    "asks for a count of whole items; a fraction makes no sense; setup states quantities without saying what is divided; the question decides",
+    "asks for a count of whole items; a fraction makes no sense; setup states quantities without saying what is divided; the question decides",
+    "asks for a count of whole items; a fraction makes no sense; setup states quantities without saying what is divided; the question decides"
+   ],
+   "reasons": [
+    "Sa>b: a fractional answer does not read naturally",
+    "Sa>b: flags ['integer_only']",
+    "Fa>b: a fractional answer does not read naturally",
+    "Fa>b: flags ['integer_only']",
+    "Sa<b: a fractional answer does not read naturally",
+    "Sa<b: flags ['integer_only']",
+    "Fa<b: a fractional answer does not read naturally",
+    "Fa<b: flags ['integer_only']"
+   ],
+   "tkey": "v5:W5-en-u14-10"
+  },
+  {
+   "notes": [
+    "asks for a count of whole items; a fraction makes no sense",
+    "asks for a count of whole items; a fraction makes no sense",
+    "asks for a count of whole items; a fraction makes no sense",
+    "asks for a count of whole items; a fraction makes no sense"
+   ],
+   "reasons": [
+    "Sa<b: a fractional answer does not read naturally",
+    "Sa<b: flags ['integer_only']",
+    "Fa<b: a fractional answer does not read naturally",
+    "Fa<b: flags ['integer_only']",
+    "Sa>b: a fractional answer does not read naturally",
+    "Sa>b: flags ['integer_only']",
+    "Fa>b: a fractional answer does not read naturally",
+    "Fa>b: flags ['integer_only']"
+   ],
+   "tkey": "v5:W5-en-u14-11"
+  },
+  {
+   "notes": [
+    "asks for a count of whole items; a fraction of one makes no sense",
+    "asks for a count of whole items; a fraction of one makes no sense",
+    "asks for a count of whole items; a fraction of one makes no sense",
+    "asks for a count of whole items; a fraction of one makes no sense"
+   ],
+   "reasons": [
+    "Sa<b: a fractional answer does not read naturally",
+    "Sa<b: flags ['integer_only']",
+    "Fa>b: a fractional answer does not read naturally",
+    "Fa>b: flags ['integer_only']",
+    "Sa>b: a fractional answer does not read naturally",
+    "Sa>b: flags ['integer_only']",
+    "Fa<b: a fractional answer does not read naturally",
+    "Fa<b: flags ['integer_only']"
+   ],
+   "tkey": "v5:W5-en-u14-12"
+  },
+  {
+   "notes": [
+    "discrete items cannot be split into fractions",
+    "discrete items cannot be split into fractions",
+    "discrete items cannot be split into fractions",
+    "discrete items cannot be split into fractions"
+   ],
+   "reasons": [
+    "Fa<b: a fractional answer does not read naturally",
+    "Fa<b: flags ['integer_only']",
+    "Fa>b: a fractional answer does not read naturally",
+    "Fa>b: flags ['integer_only']",
+    "Sa<b: a fractional answer does not read naturally",
+    "Sa<b: flags ['integer_only']",
+    "Sa>b: a fractional answer does not read naturally",
+    "Sa>b: flags ['integer_only']"
+   ],
+   "tkey": "v5:W5-en-u15-11"
+  },
+  {
+   "notes": [
+    "asks how many containers were filled or made; a fraction of a container is not a sensible count",
+    "asks how many containers were filled or made; a fraction of a container is not a sensible count",
+    "asks how many containers were filled or made; a fraction of a container is not a sensible count",
+    "asks how many containers were filled or made; a fraction of a container is not a sensible count"
+   ],
+   "reasons": [
+    "Sa>b: a fractional answer does not read naturally",
+    "Sa>b: flags ['integer_only']",
+    "Fa<b: a fractional answer does not read naturally",
+    "Fa<b: flags ['integer_only']",
+    "Sa<b: a fractional answer does not read naturally",
+    "Sa<b: flags ['integer_only']",
+    "Fa>b: a fractional answer does not read naturally",
+    "Fa>b: flags ['integer_only']"
+   ],
+   "tkey": "v5:W5-en-u15-12"
+  },
+  {
+   "notes": [
+    "asks how many containers were filled or made; a fraction of a container is not a sensible count",
+    "asks how many containers were filled or made; a fraction of a container is not a sensible count",
+    "asks how many containers were filled or made; a fraction of a container is not a sensible count",
+    "asks how many containers were filled or made; a fraction of a container is not a sensible count"
+   ],
+   "reasons": [
+    "Fa>b: a fractional answer does not read naturally",
+    "Fa>b: flags ['integer_only']",
+    "Fa<b: a fractional answer does not read naturally",
+    "Fa<b: flags ['integer_only']",
+    "Sa<b: a fractional answer does not read naturally",
+    "Sa<b: flags ['integer_only']",
+    "Sa>b: a fractional answer does not read naturally",
+    "Sa>b: flags ['integer_only']"
+   ],
+   "tkey": "v5:W5-en-u16-10"
+  },
+  {
+   "notes": [
+    "asks how many items (shells/packages) each gets; a fraction of one makes no sense",
+    "asks how many items (shells/packages) each gets; a fraction of one makes no sense",
+    "asks how many items (shells/packages) each gets; a fraction of one makes no sense",
+    "asks how many items (shells/packages) each gets; a fraction of one makes no sense"
+   ],
+   "reasons": [
+    "Sa>b: a fractional answer does not read naturally",
+    "Sa>b: flags ['integer_only']",
+    "Fa<b: a fractional answer does not read naturally",
+    "Fa<b: flags ['integer_only']",
+    "Fa>b: a fractional answer does not read naturally",
+    "Fa>b: flags ['integer_only']",
+    "Sa<b: a fractional answer does not read naturally",
+    "Sa<b: flags ['integer_only']"
+   ],
+   "tkey": "v5:W5-en-u16-11"
+  },
+  {
+   "notes": [
+    "only the per-unit wording of the question fixes which number is divided",
+    "only the per-unit wording of the question fixes which number is divided",
+    "only the per-unit wording of the question fixes which number is divided; a night lasting 29 hours is implausible",
+    "only the per-unit wording of the question fixes which number is divided; a night lasting 29 hours is implausible"
+   ],
+   "reasons": [
+    "Sa<b: flags ['unnatural']",
+    "Fa<b: flags ['unnatural']"
+   ],
+   "tkey": "written:DR2-u02-06"
+  },
+  {
+   "notes": [
+    "awkward word order: cut to be handed out ... from 53 kilograms",
+    "awkward word order: cut to be handed out ... from 17 kilograms"
+   ],
+   "reasons": [
+    "Sa>b: flags ['unnatural']",
+    "Sa<b: flags ['unnatural']"
+   ],
+   "tkey": "written:DR2-u04-02"
+  },
+  {
+   "notes": [
+    "a pool holding under 100 litres is implausible; the setup gives two quantities; only the \"per\" question fixes the dividend",
+    "a pool holding under 100 litres is implausible; the setup gives two quantities; only the \"per\" question fixes the dividend",
+    "a pool holding under 100 litres is implausible; the setup gives two quantities; only the \"per\" question fixes the dividend",
+    "a pool holding under 100 litres is implausible; the setup gives two quantities; only the \"per\" question fixes the dividend"
+   ],
+   "reasons": [
+    "Sa>b: flags ['unnatural']",
+    "Sa<b: flags ['unnatural']",
+    "Fa>b: flags ['unnatural']",
+    "Fa<b: flags ['unnatural']"
+   ],
+   "tkey": "written:DR2-u04-09"
+  }
+ ],
+ "drrole_mode": "reference",
+ "kept": [
+  {
+   "div_mode": "group_count",
+   "first": "This month the studio has {M} kilograms of clay to share equally among its {S} students.",
+   "fraction_reading": "",
+   "frame": "drrole",
+   "origin": "v5",
+   "question": "Sharing this month's clay equally among the studio's students, how many kilograms of clay does each student get?",
+   "quotient_convention": "",
+   "role_only_in_question": 0,
+   "second": "This month the studio's {S} students will share its clay equally; the studio has {M} kilograms on hand this month.",
+   "source": "drrole",
+   "tid": "W5-en-u01-11",
+   "tkey": "drrole:W5-en-u01-11",
+   "topic": "pottery",
+   "unit": "drrole"
+  },
+  {
+   "div_mode": "group_count",
+   "first": "This month the weaving hall wove {M} metres of cloth. It split the total evenly across {S} looms.",
+   "fraction_reading": "",
+   "frame": "drrole",
+   "origin": "v5",
+   "question": "How many metres of cloth did each loom weave this month?",
+   "quotient_convention": "",
+   "role_only_in_question": 0,
+   "second": "The weaving hall splits its cloth evenly across {S} looms. This month it wove {M} metres of cloth.",
+   "source": "drrole",
+   "tid": "W5-en-u02-11",
+   "tkey": "drrole:W5-en-u02-11",
+   "topic": "weaving",
+   "unit": "drrole"
+  },
+  {
+   "div_mode": "group_count",
+   "first": "This year the sailing club collected {M} pounds in dues. It split the dues equally among its {S} members.",
+   "fraction_reading": "",
+   "frame": "drrole",
+   "origin": "v5",
+   "question": "How many pounds did each member of the sailing club pay in dues this year?",
+   "quotient_convention": "",
+   "role_only_in_question": 0,
+   "second": "This year the sailing club has {S} members. It collected {M} pounds in dues among them.",
+   "source": "drrole",
+   "tid": "W5-en-u08-11",
+   "tkey": "drrole:W5-en-u08-11",
+   "topic": "sailing_club",
+   "unit": "drrole"
+  },
+  {
+   "div_mode": "group_count",
+   "first": "This week the road crew received {M} tonnes of gravel, to be spread evenly across {S} sections of the new route.",
+   "fraction_reading": "",
+   "frame": "drrole",
+   "origin": "v5",
+   "question": "How many tonnes of gravel will the crew spread on each section this week?",
+   "quotient_convention": "",
+   "role_only_in_question": 0,
+   "second": "This week {S} sections of the new route will each receive a share of the {M} tonnes of gravel the crew received.",
+   "source": "drrole",
+   "tid": "W5-en-u10-11",
+   "tkey": "drrole:W5-en-u10-11",
+   "topic": "road_building",
+   "unit": "drrole"
+  },
+  {
+   "div_mode": "rate_or_share",
+   "first": "{M} dollars are shared equally among {S} people.",
+   "fraction_reading": "",
+   "frame": "drrole",
+   "origin": "digits_prose",
+   "question": "How many dollars does each person get?",
+   "quotient_convention": "",
+   "role_only_in_question": 0,
+   "second": "There are {S} people. {M} dollars are shared equally among them.",
+   "source": "drrole",
+   "tid": "dp01",
+   "tkey": "drrole:dp01",
+   "topic": "money",
+   "unit": "drrole"
+  },
+  {
+   "div_mode": "rate_or_share",
+   "first": "A car travels {M} km in {S} hours.",
+   "fraction_reading": "",
+   "frame": "drrole",
+   "origin": "digits_prose",
+   "question": "How many km does the car travel per hour?",
+   "quotient_convention": "",
+   "role_only_in_question": 4,
+   "second": "In {S} hours, a car travels {M} km.",
+   "source": "drrole",
+   "tid": "dp02",
+   "tkey": "drrole:dp02",
+   "topic": "speed",
+   "unit": "drrole"
+  },
+  {
+   "div_mode": "rate_or_share",
+   "first": "{M} pizzas are split equally among {S} friends.",
+   "fraction_reading": "",
+   "frame": "drrole",
+   "origin": "digits_prose",
+   "question": "How much pizza does each friend get?",
+   "quotient_convention": "",
+   "role_only_in_question": 0,
+   "second": "There are {S} friends. They split {M} pizzas equally.",
+   "source": "drrole",
+   "tid": "dp03",
+   "tkey": "drrole:dp03",
+   "topic": "pizza",
+   "unit": "drrole"
+  },
+  {
+   "div_mode": "rate_or_share",
+   "first": "{M} litres of juice are poured equally into {S} jugs.",
+   "fraction_reading": "",
+   "frame": "drrole",
+   "origin": "digits_prose",
+   "question": "How many litres of juice go into each jug?",
+   "quotient_convention": "",
+   "role_only_in_question": 0,
+   "second": "There are {S} jugs. {M} litres of juice are poured equally into them.",
+   "source": "drrole",
+   "tid": "dp04",
+   "tkey": "drrole:dp04",
+   "topic": "juice",
+   "unit": "drrole"
+  },
+  {
+   "div_mode": "rate_or_share",
+   "first": "{M} kg of flour is divided equally among {S} bakers.",
+   "fraction_reading": "",
+   "frame": "drrole",
+   "origin": "digits_prose",
+   "question": "How many kg of flour does each baker get?",
+   "quotient_convention": "",
+   "role_only_in_question": 0,
+   "second": "{S} bakers divide {M} kg of flour equally among themselves.",
+   "source": "drrole",
+   "tid": "dp05",
+   "tkey": "drrole:dp05",
+   "topic": "flour",
+   "unit": "drrole"
+  },
+  {
+   "div_mode": "rate_or_share",
+   "first": "A cyclist rides {M} miles in {S} hours.",
+   "fraction_reading": "",
+   "frame": "drrole",
+   "origin": "digits_prose",
+   "question": "What is her average speed in miles per hour?",
+   "quotient_convention": "",
+   "role_only_in_question": 4,
+   "second": "In {S} hours, a cyclist rides {M} miles.",
+   "source": "drrole",
+   "tid": "dp06",
+   "tkey": "drrole:dp06",
+   "topic": "cycling",
+   "unit": "drrole"
+  },
+  {
+   "div_mode": "rate_or_share",
+   "first": "{M} cakes are shared equally among {S} children.",
+   "fraction_reading": "",
+   "frame": "drrole",
+   "origin": "digits_prose",
+   "question": "How much cake does each child get?",
+   "quotient_convention": "",
+   "role_only_in_question": 0,
+   "second": "There are {S} children. {M} cakes are shared equally among them.",
+   "source": "drrole",
+   "tid": "dp07",
+   "tkey": "drrole:dp07",
+   "topic": "cake",
+   "unit": "drrole"
+  },
+  {
+   "div_mode": "rate_or_share",
+   "first": "A tap fills {M} litres in {S} minutes.",
+   "fraction_reading": "",
+   "frame": "drrole",
+   "origin": "digits_prose",
+   "question": "How many litres does the tap fill per minute?",
+   "quotient_convention": "",
+   "role_only_in_question": 4,
+   "second": "In {S} minutes, a tap fills {M} litres.",
+   "source": "drrole",
+   "tid": "dp08",
+   "tkey": "drrole:dp08",
+   "topic": "tap",
+   "unit": "drrole"
+  },
+  {
+   "div_mode": "rate_or_share",
+   "first": "{M} pounds of prize money is split equally between {S} winners.",
+   "fraction_reading": "",
+   "frame": "drrole",
+   "origin": "digits_prose",
+   "question": "How many pounds does each winner receive?",
+   "quotient_convention": "",
+   "role_only_in_question": 0,
+   "second": "There are {S} winners. They split {M} pounds of prize money equally.",
+   "source": "drrole",
+   "tid": "dp09",
+   "tkey": "drrole:dp09",
+   "topic": "prize",
+   "unit": "drrole"
+  },
+  {
+   "div_mode": "rate_or_share",
+   "first": "A printer uses {M} ml of ink for {S} pages.",
+   "fraction_reading": "",
+   "frame": "drrole",
+   "origin": "digits_prose",
+   "question": "How many ml of ink does the printer use per page?",
+   "quotient_convention": "",
+   "role_only_in_question": 4,
+   "second": "For {S} pages, a printer uses {M} ml of ink.",
+   "source": "drrole",
+   "tid": "dp10",
+   "tkey": "drrole:dp10",
+   "topic": "ink",
+   "unit": "drrole"
+  },
+  {
+   "div_mode": "rate_or_share",
+   "first": "A rope {M} metres long is cut into {S} equal pieces.",
+   "fraction_reading": "",
+   "frame": "drrole",
+   "origin": "digits_prose",
+   "question": "How long is each piece, in metres?",
+   "quotient_convention": "",
+   "role_only_in_question": 0,
+   "second": "A rope is cut into {S} equal pieces. The rope is {M} metres long.",
+   "source": "drrole",
+   "tid": "dp11",
+   "tkey": "drrole:dp11",
+   "topic": "rope",
+   "unit": "drrole"
+  },
+  {
+   "div_mode": "rate_or_share",
+   "first": "A hiker walks {M} km in {S} hours.",
+   "fraction_reading": "",
+   "frame": "drrole",
+   "origin": "digits_prose",
+   "question": "How many km does the hiker walk per hour?",
+   "quotient_convention": "",
+   "role_only_in_question": 4,
+   "second": "In {S} hours, a hiker walks {M} km.",
+   "source": "drrole",
+   "tid": "dp12",
+   "tkey": "drrole:dp12",
+   "topic": "walk",
+   "unit": "drrole"
+  },
+  {
+   "div_mode": "rate_or_share",
+   "first": "{M} hours of work are shared equally by {S} volunteers.",
+   "fraction_reading": "",
+   "frame": "drrole",
+   "origin": "digits_prose",
+   "question": "How many hours does each volunteer work?",
+   "quotient_convention": "",
+   "role_only_in_question": 0,
+   "second": "There are {S} volunteers. They share {M} hours of work equally.",
+   "source": "drrole",
+   "tid": "dp13",
+   "tkey": "drrole:dp13",
+   "topic": "volunteer",
+   "unit": "drrole"
+  },
+  {
+   "div_mode": "rate_or_share",
+   "first": "A family pays {M} dollars for {S} kg of apples.",
+   "fraction_reading": "",
+   "frame": "drrole",
+   "origin": "digits_prose",
+   "question": "What is the price per kg, in dollars?",
+   "quotient_convention": "",
+   "role_only_in_question": 4,
+   "second": "For {S} kg of apples, a family pays {M} dollars.",
+   "source": "drrole",
+   "tid": "dp14",
+   "tkey": "drrole:dp14",
+   "topic": "price",
+   "unit": "drrole"
+  },
+  {
+   "div_mode": "rate_or_share",
+   "first": "{M} litres of soup are served equally into {S} bowls.",
+   "fraction_reading": "",
+   "frame": "drrole",
+   "origin": "digits_prose",
+   "question": "How many litres of soup go into each bowl?",
+   "quotient_convention": "",
+   "role_only_in_question": 0,
+   "second": "There are {S} bowls. {M} litres of soup are served equally into them.",
+   "source": "drrole",
+   "tid": "dp15",
+   "tkey": "drrole:dp15",
+   "topic": "soup",
+   "unit": "drrole"
+  },
+  {
+   "div_mode": "rate_or_share",
+   "first": "A machine weaves {M} metres of cloth in {S} hours.",
+   "fraction_reading": "",
+   "frame": "drrole",
+   "origin": "digits_prose",
+   "question": "How many metres of cloth does the machine weave per hour?",
+   "quotient_convention": "",
+   "role_only_in_question": 4,
+   "second": "In {S} hours, a machine weaves {M} metres of cloth.",
+   "source": "drrole",
+   "tid": "dp16",
+   "tkey": "drrole:dp16",
+   "topic": "cloth",
+   "unit": "drrole"
+  },
+  {
+   "first": "The restaurant bill came to {M} dollars, and it was split evenly among {S} diners at the table.",
+   "fraction_reading": "each diner pays less than one dollar",
+   "frame": "D01",
+   "question": "How many dollars did each diner pay?",
+   "quotient_convention": "dollars of the bill divided by diners",
+   "role_only_in_question": 0,
+   "second": "The restaurant bill was split evenly among {S} diners at the table, and it came to {M} dollars.",
+   "source": "written",
+   "tid": "DR2-u01-01",
+   "tkey": "written:DR2-u01-01",
+   "topic": "restaurant bill",
+   "unit": "DR2-u01"
+  },
+  {
+   "first": "A stable owner spread {M} kilograms of hay evenly for the herd, which numbered {S} horses.",
+   "fraction_reading": "each horse gets less than a kilogram of hay",
+   "frame": "D02",
+   "question": "How many kilograms of hay did each horse get?",
+   "quotient_convention": "kilograms of hay divided by horses",
+   "role_only_in_question": 0,
+   "second": "A stable owner spread hay evenly for the herd, which numbered {S} horses, using {M} kilograms of it.",
+   "source": "written",
+   "tid": "DR2-u01-02",
+   "tkey": "written:DR2-u01-02",
+   "topic": "hay for horses",
+   "unit": "DR2-u01"
+  },
+  {
+   "first": "The cook ladled {M} litres of soup out of the pot and poured it evenly into {S} bowls.",
+   "fraction_reading": "each bowl gets less than a litre of soup",
+   "frame": "D03",
+   "question": "How many litres of soup went into each bowl?",
+   "quotient_convention": "litres of soup divided by bowls",
+   "role_only_in_question": 0,
+   "second": "The cook poured soup evenly into {S} bowls, ladling {M} litres of it out of the pot.",
+   "source": "written",
+   "tid": "DR2-u01-03",
+   "tkey": "written:DR2-u01-03",
+   "topic": "soup into bowls",
+   "unit": "DR2-u01"
+  },
+  {
+   "first": "A tailor cut {M} metres of fabric from the roll into {S} strips of equal length.",
+   "fraction_reading": "each strip is shorter than a metre",
+   "frame": "D04",
+   "question": "How many metres long was each strip?",
+   "quotient_convention": "metres of fabric divided by strips",
+   "role_only_in_question": 0,
+   "second": "A tailor cut the fabric from the roll into {S} strips of equal length, using {M} metres of it.",
+   "source": "written",
+   "tid": "DR2-u01-04",
+   "tkey": "written:DR2-u01-04",
+   "topic": "fabric roll",
+   "unit": "DR2-u01"
+  },
+  {
+   "first": "Along the garden fence a snail covered {M} metres, and the crawl took the snail {S} hours.",
+   "fraction_reading": "the snail covers less than a metre in each hour",
+   "frame": "D05",
+   "question": "How many metres did the snail cover per hour on average?",
+   "quotient_convention": "metres crawled divided by hours",
+   "role_only_in_question": 4,
+   "second": "Along the garden fence a snail took {S} hours to crawl, and it covered {M} metres.",
+   "source": "written",
+   "tid": "DR2-u01-05",
+   "tkey": "written:DR2-u01-05",
+   "topic": "snail",
+   "unit": "DR2-u01"
+  },
+  {
+   "first": "A pump filled the tank with {M} litres of water, running steadily for {S} minutes.",
+   "fraction_reading": "the pump delivers less than a litre each minute",
+   "frame": "D06",
+   "question": "How many litres of water did the pump deliver every minute?",
+   "quotient_convention": "litres of water divided by minutes",
+   "role_only_in_question": 4,
+   "second": "Running steadily for {S} minutes, a pump filled the tank with {M} litres of water.",
+   "source": "written",
+   "tid": "DR2-u01-06",
+   "tkey": "written:DR2-u01-06",
+   "topic": "water pump",
+   "unit": "DR2-u01"
+  },
+  {
+   "first": "A shopper paid {M} dollars at the market for cheese weighing {S} kilograms.",
+   "fraction_reading": "the cheese costs less than a dollar per kilogram",
+   "frame": "D07",
+   "question": "What was the price of the cheese per kilogram, in dollars?",
+   "quotient_convention": "dollars paid divided by kilograms of cheese",
+   "role_only_in_question": 4,
+   "second": "A shopper at the market bought cheese weighing {S} kilograms and paid {M} dollars for it.",
+   "source": "written",
+   "tid": "DR2-u01-07",
+   "tkey": "written:DR2-u01-07",
+   "topic": "cheese",
+   "unit": "DR2-u01"
+  },
+  {
+   "first": "Over its morning route the delivery van covered {M} kilometres while burning {S} litres of fuel.",
+   "fraction_reading": "the van covers less than a kilometre on each litre",
+   "frame": "D08",
+   "question": "How many kilometres did the van cover per litre of fuel?",
+   "quotient_convention": "kilometres driven divided by litres of fuel",
+   "role_only_in_question": 4,
+   "second": "Over its morning route the delivery van burned {S} litres of fuel to cover {M} kilometres.",
+   "source": "written",
+   "tid": "DR2-u01-08",
+   "tkey": "written:DR2-u01-08",
+   "topic": "delivery van fuel",
+   "unit": "DR2-u01"
+  },
+  {
+   "first": "The chef stirred {M} grams of salt into a big pot holding {S} litres of soup.",
+   "fraction_reading": "there is less than a gram of salt in each litre",
+   "frame": "D09",
+   "question": "How many grams of salt are there per litre of soup?",
+   "quotient_convention": "grams of salt divided by litres of soup",
+   "role_only_in_question": 4,
+   "second": "The chef stirred salt into a big pot holding {S} litres of soup, adding {M} grams of it.",
+   "source": "written",
+   "tid": "DR2-u01-09",
+   "tkey": "written:DR2-u01-09",
+   "topic": "salt in soup",
+   "unit": "DR2-u01"
+  },
+  {
+   "first": "Rain gathered {M} millimetres in the gauge across a wet spell that lasted {S} days.",
+   "fraction_reading": "on average less than a millimetre fell each day",
+   "frame": "D10",
+   "question": "What was the average rainfall per day, in millimetres?",
+   "quotient_convention": "millimetres of rain divided by days",
+   "role_only_in_question": 4,
+   "second": "Across a wet spell that lasted {S} days, rain gathered {M} millimetres in the gauge.",
+   "source": "written",
+   "tid": "DR2-u01-10",
+   "tkey": "written:DR2-u01-10",
+   "topic": "rainfall",
+   "unit": "DR2-u01"
+  },
+  {
+   "first": "A babysitter earned {M} dollars for watching the children over {S} hours.",
+   "fraction_reading": "the babysitter earns less than a dollar each hour",
+   "frame": "D11",
+   "question": "How many dollars did the babysitter earn per hour?",
+   "quotient_convention": "dollars earned divided by hours",
+   "role_only_in_question": 4,
+   "second": "Over {S} hours of watching the children, a babysitter earned {M} dollars.",
+   "source": "written",
+   "tid": "DR2-u01-11",
+   "tkey": "written:DR2-u01-11",
+   "topic": "babysitter",
+   "unit": "DR2-u01"
+  },
+  {
+   "first": "A pot of porridge used {M} grams of oats and was ladled out as {S} helpings.",
+   "fraction_reading": "each helping holds less than a gram of oats",
+   "frame": "D12",
+   "question": "How many grams of oats were in each helping?",
+   "quotient_convention": "grams of oats divided by helpings",
+   "role_only_in_question": 0,
+   "second": "A pot of porridge was ladled out as {S} helpings and used {M} grams of oats.",
+   "source": "written",
+   "tid": "DR2-u01-12",
+   "tkey": "written:DR2-u01-12",
+   "topic": "porridge oats",
+   "unit": "DR2-u01"
+  },
+  {
+   "first": "The taxi fare across town came to {M} dollars, and it was divided evenly among {S} colleagues who rode in the cab.",
+   "fraction_reading": "each colleague pays less than a dollar",
+   "frame": "D01",
+   "question": "How many dollars did each colleague pay for the ride?",
+   "quotient_convention": "dollars of fare divided by colleagues",
+   "role_only_in_question": 0,
+   "second": "{S} colleagues rode in the cab across town, and the taxi fare, {M} dollars, was divided evenly among them.",
+   "source": "written",
+   "tid": "DR2-u02-01",
+   "tkey": "written:DR2-u02-01",
+   "topic": "taxi fare",
+   "unit": "DR2-u02"
+  },
+  {
+   "first": "A charity handed out {M} kilograms of rice, shared equally among {S} families in the village.",
+   "fraction_reading": "each family receives less than a kilogram",
+   "frame": "D02",
+   "question": "How many kilograms of rice did each family receive?",
+   "quotient_convention": "kilograms of rice divided by families",
+   "role_only_in_question": 0,
+   "second": "A charity handed out rice to {S} families in the village, sharing {M} kilograms of it equally.",
+   "source": "written",
+   "tid": "DR2-u02-02",
+   "tkey": "written:DR2-u02-02",
+   "topic": "rice for families",
+   "unit": "DR2-u02"
+  },
+  {
+   "first": "A jug held {M} litres of lemonade, which was poured evenly into {S} glasses at the party.",
+   "fraction_reading": "each glass gets less than a litre",
+   "frame": "D03",
+   "question": "How many litres of lemonade went into each glass?",
+   "quotient_convention": "litres of lemonade divided by glasses",
+   "role_only_in_question": 0,
+   "second": "At the party, lemonade was poured evenly into {S} glasses from a jug that held {M} litres.",
+   "source": "written",
+   "tid": "DR2-u02-03",
+   "tkey": "written:DR2-u02-03",
+   "topic": "lemonade into glasses",
+   "unit": "DR2-u02"
+  },
+  {
+   "first": "A carpenter sawed a timber plank that measured {M} metres in length into {S} pieces of identical size.",
+   "fraction_reading": "each piece is shorter than a metre",
+   "frame": "D04",
+   "question": "How many metres long was each piece?",
+   "quotient_convention": "metres of plank divided by pieces",
+   "role_only_in_question": 0,
+   "second": "A carpenter sawed a timber plank into {S} pieces of identical size, the plank measuring {M} metres in length.",
+   "source": "written",
+   "tid": "DR2-u02-04",
+   "tkey": "written:DR2-u02-04",
+   "topic": "timber plank",
+   "unit": "DR2-u02"
+  },
+  {
+   "first": "A cyclist rode {M} kilometres along the coast path, and the ride lasted {S} hours at a steady speed.",
+   "fraction_reading": "the cyclist covers less than a kilometre in each hour",
+   "frame": "D05",
+   "question": "How many kilometres did the cyclist ride per hour?",
+   "quotient_convention": "kilometres ridden divided by hours",
+   "role_only_in_question": 4,
+   "second": "A cyclist rode along the coast path for {S} hours at a steady speed, covering {M} kilometres.",
+   "source": "written",
+   "tid": "DR2-u02-05",
+   "tkey": "written:DR2-u02-05",
+   "topic": "cyclist",
+   "unit": "DR2-u02"
+  },
+  {
+   "first": "A shopper paid {M} dollars at the market for {S} kilograms of apples.",
+   "fraction_reading": "a kilogram of apples costs less than a dollar",
+   "frame": "D07",
+   "question": "How many dollars did the apples cost per kilogram?",
+   "quotient_convention": "dollars paid divided by kilograms of apples",
+   "role_only_in_question": 4,
+   "second": "A shopper bought {S} kilograms of apples at the market and paid {M} dollars for them.",
+   "source": "written",
+   "tid": "DR2-u02-07",
+   "tkey": "written:DR2-u02-07",
+   "topic": "apples",
+   "unit": "DR2-u02"
+  },
+  {
+   "first": "The motorboat travelled {M} kilometres across the bay while burning {S} litres of fuel.",
+   "fraction_reading": "the motorboat travels less than a kilometre on each litre",
+   "frame": "D08",
+   "question": "How many kilometres did the motorboat travel per litre of fuel?",
+   "quotient_convention": "kilometres travelled divided by litres of fuel",
+   "role_only_in_question": 4,
+   "second": "The motorboat burned {S} litres of fuel while travelling {M} kilometres across the bay.",
+   "source": "written",
+   "tid": "DR2-u02-08",
+   "tkey": "written:DR2-u02-08",
+   "topic": "motorboat fuel",
+   "unit": "DR2-u02"
+  },
+  {
+   "first": "A cook stirs {M} grams of sugar into {S} litres of lemonade.",
+   "fraction_reading": "each litre gets less than a gram of sugar",
+   "frame": "D09",
+   "question": "How many grams of sugar went into each litre of lemonade?",
+   "quotient_convention": "grams of sugar divided by litres of lemonade",
+   "role_only_in_question": 4,
+   "second": "A cook stirs sugar into {S} litres of lemonade, using {M} grams of it.",
+   "source": "written",
+   "tid": "DR2-u02-09",
+   "tkey": "written:DR2-u02-09",
+   "topic": "sugar in lemonade",
+   "unit": "DR2-u02"
+  },
+  {
+   "first": "A dairy collected {M} litres of milk during a stretch of {S} days.",
+   "fraction_reading": "the dairy collects less than a litre on an average day",
+   "frame": "D10",
+   "question": "What was the average amount of milk collected per day, in litres?",
+   "quotient_convention": "litres of milk divided by days",
+   "role_only_in_question": 4,
+   "second": "During a stretch of {S} days, a dairy collected {M} litres of milk.",
+   "source": "written",
+   "tid": "DR2-u02-10",
+   "tkey": "written:DR2-u02-10",
+   "topic": "milk from a dairy",
+   "unit": "DR2-u02"
+  },
+  {
+   "first": "A gardener earned {M} dollars for trimming hedges and worked {S} hours on the job.",
+   "fraction_reading": "the gardener earns less than a dollar in each hour",
+   "frame": "D11",
+   "question": "How many dollars did the gardener earn per hour?",
+   "quotient_convention": "dollars earned divided by hours worked",
+   "role_only_in_question": 4,
+   "second": "A gardener worked {S} hours trimming hedges and earned {M} dollars for the job.",
+   "source": "written",
+   "tid": "DR2-u02-11",
+   "tkey": "written:DR2-u02-11",
+   "topic": "gardener",
+   "unit": "DR2-u02"
+  },
+  {
+   "first": "The pancake batter used {M} grams of flour to make {S} servings for breakfast.",
+   "fraction_reading": "each serving contains less than a gram of flour",
+   "frame": "D12",
+   "question": "How many grams of flour went into each serving?",
+   "quotient_convention": "grams of flour divided by servings",
+   "role_only_in_question": 4,
+   "second": "The pancake batter made {S} servings for breakfast and used {M} grams of flour.",
+   "source": "written",
+   "tid": "DR2-u02-12",
+   "tkey": "written:DR2-u02-12",
+   "topic": "pancake flour",
+   "unit": "DR2-u02"
+  },
+  {
+   "first": "The prize pot at the quiz night held {M} dollars, shared equally among {S} team members.",
+   "fraction_reading": "each team member receives less than a dollar",
+   "frame": "D01",
+   "question": "How many dollars did each team member receive?",
+   "quotient_convention": "dollars of prize money divided by team members",
+   "role_only_in_question": 0,
+   "second": "The prize pot at the quiz night was shared equally among {S} team members, and it held {M} dollars.",
+   "source": "written",
+   "tid": "DR2-u03-01",
+   "tkey": "written:DR2-u03-01",
+   "topic": "quiz prize",
+   "unit": "DR2-u03"
+  },
+  {
+   "first": "Along the garden wall, {M} kilograms of fertiliser were spread evenly over {S} rose bushes.",
+   "fraction_reading": "each rose bush gets less than a kilogram of fertiliser",
+   "frame": "D02",
+   "question": "How many kilograms of fertiliser did each rose bush get?",
+   "quotient_convention": "kilograms of fertiliser divided by rose bushes",
+   "role_only_in_question": 0,
+   "second": "Along the garden wall, {S} rose bushes were fed by spreading {M} kilograms of fertiliser evenly over them.",
+   "source": "written",
+   "tid": "DR2-u03-02",
+   "tkey": "written:DR2-u03-02",
+   "topic": "fertiliser for rose bushes",
+   "unit": "DR2-u03"
+  },
+  {
+   "first": "The children dug up {M} litres of sand and poured it evenly into {S} buckets.",
+   "fraction_reading": "each bucket gets less than a litre of sand",
+   "frame": "D03",
+   "question": "How many litres of sand ended up in each bucket?",
+   "quotient_convention": "litres of sand divided by buckets",
+   "role_only_in_question": 0,
+   "second": "The children had {S} buckets and poured evenly into them the {M} litres of sand they dug up.",
+   "source": "written",
+   "tid": "DR2-u03-03",
+   "tkey": "written:DR2-u03-03",
+   "topic": "sand into buckets",
+   "unit": "DR2-u03"
+  },
+  {
+   "first": "A hose measuring {M} metres was cut into {S} pieces of identical length.",
+   "fraction_reading": "each piece is shorter than a metre",
+   "frame": "D04",
+   "question": "How many metres long is each piece?",
+   "quotient_convention": "metres of hose divided by pieces",
+   "role_only_in_question": 0,
+   "second": "A hose was cut into {S} pieces of identical length, and it measured {M} metres before cutting.",
+   "source": "written",
+   "tid": "DR2-u03-04",
+   "tkey": "written:DR2-u03-04",
+   "topic": "garden hose",
+   "unit": "DR2-u03"
+  },
+  {
+   "first": "A surging glacier advanced {M} metres down the valley during {S} hours of observation.",
+   "fraction_reading": "the glacier advances less than a metre each hour",
+   "frame": "D05",
+   "question": "How many metres did the glacier advance per hour?",
+   "quotient_convention": "metres advanced divided by hours observed",
+   "role_only_in_question": 4,
+   "second": "A surging glacier spent {S} hours under observation, advancing {M} metres down the valley.",
+   "source": "written",
+   "tid": "DR2-u03-05",
+   "tkey": "written:DR2-u03-05",
+   "topic": "glacier",
+   "unit": "DR2-u03"
+  },
+  {
+   "first": "The old cider press ran steadily and filled barrels with {M} litres of juice over {S} minutes.",
+   "fraction_reading": "the press produces less than a litre of juice per minute",
+   "frame": "D06",
+   "question": "How many litres of juice did the press produce per minute?",
+   "quotient_convention": "litres of juice divided by minutes of pressing",
+   "role_only_in_question": 4,
+   "second": "The old cider press ran steadily for {S} minutes and filled barrels with {M} litres of juice.",
+   "source": "written",
+   "tid": "DR2-u03-06",
+   "tkey": "written:DR2-u03-06",
+   "topic": "cider press",
+   "unit": "DR2-u03"
+  },
+  {
+   "first": "For the velvet curtains, the tailor paid {M} dollars to buy {S} metres of fabric.",
+   "fraction_reading": "the fabric costs less than a dollar per metre",
+   "frame": "D07",
+   "question": "What was the price per metre of the fabric, in dollars?",
+   "quotient_convention": "dollars paid divided by metres of fabric",
+   "role_only_in_question": 4,
+   "second": "For the velvet curtains, the tailor bought {S} metres of fabric and paid {M} dollars.",
+   "source": "written",
+   "tid": "DR2-u03-07",
+   "tkey": "written:DR2-u03-07",
+   "topic": "fabric",
+   "unit": "DR2-u03"
+  },
+  {
+   "first": "The painter covered {M} square metres of fence using {S} litres of paint.",
+   "fraction_reading": "each litre of paint covers less than a square metre",
+   "frame": "D08",
+   "question": "How many square metres of fence did each litre of paint cover?",
+   "quotient_convention": "square metres of fence divided by litres of paint",
+   "role_only_in_question": 4,
+   "second": "The painter used {S} litres of paint to cover {M} square metres of fence.",
+   "source": "written",
+   "tid": "DR2-u03-08",
+   "tkey": "written:DR2-u03-08",
+   "topic": "paint on a fence",
+   "unit": "DR2-u03"
+  },
+  {
+   "first": "The dyer stirred {M} grams of indigo powder into {S} litres of water in the vat.",
+   "fraction_reading": "there is less than a gram of indigo in each litre of water",
+   "frame": "D09",
+   "question": "How many grams of indigo were there per litre of water?",
+   "quotient_convention": "grams of indigo divided by litres of water",
+   "role_only_in_question": 4,
+   "second": "The dyer filled the vat with {S} litres of water and stirred in {M} grams of indigo powder.",
+   "source": "written",
+   "tid": "DR2-u03-09",
+   "tkey": "written:DR2-u03-09",
+   "topic": "dye in a vat",
+   "unit": "DR2-u03"
+  },
+  {
+   "first": "Over the season, the striker scored {M} goals across {S} matches.",
+   "fraction_reading": "the striker scores less than one goal per match on average",
+   "frame": "D10",
+   "question": "What was the average number of goals the striker scored per match?",
+   "quotient_convention": "goals scored divided by matches played",
+   "role_only_in_question": 4,
+   "second": "Over the season, the striker played {S} matches and scored {M} goals.",
+   "source": "written",
+   "tid": "DR2-u03-10",
+   "tkey": "written:DR2-u03-10",
+   "topic": "goals in a season",
+   "unit": "DR2-u03"
+  },
+  {
+   "first": "The tutor earned {M} dollars for teaching {S} hours of lessons this week.",
+   "fraction_reading": "the tutor earns less than a dollar per hour",
+   "frame": "D11",
+   "question": "How many dollars did the tutor earn per hour?",
+   "quotient_convention": "dollars earned divided by hours taught",
+   "role_only_in_question": 4,
+   "second": "This week the tutor taught {S} hours of lessons and earned {M} dollars.",
+   "source": "written",
+   "tid": "DR2-u03-11",
+   "tkey": "written:DR2-u03-11",
+   "topic": "tutor",
+   "unit": "DR2-u03"
+  },
+  {
+   "first": "The fruit salad recipe calls for {M} kilograms of strawberries, and these make {S} servings.",
+   "fraction_reading": "each serving contains less than a kilogram of strawberries",
+   "frame": "D12",
+   "question": "How many kilograms of strawberries go into each serving?",
+   "quotient_convention": "kilograms of strawberries divided by servings",
+   "role_only_in_question": 4,
+   "second": "The fruit salad recipe makes {S} servings, and it calls for {M} kilograms of strawberries.",
+   "source": "written",
+   "tid": "DR2-u03-12",
+   "tkey": "written:DR2-u03-12",
+   "topic": "fruit salad",
+   "unit": "DR2-u03"
+  },
+  {
+   "first": "The cabin rental bill came to {M} dollars, and it was shared equally among {S} friends who stayed there.",
+   "fraction_reading": "each friend pays less than a dollar",
+   "frame": "D01",
+   "question": "How many dollars did each friend pay?",
+   "quotient_convention": "dollars of rental bill divided by friends sharing it",
+   "role_only_in_question": 0,
+   "second": "{S} friends stayed at the cabin and shared the rental bill equally, which came to {M} dollars.",
+   "source": "written",
+   "tid": "DR2-u04-01",
+   "tkey": "written:DR2-u04-01",
+   "topic": "cabin rental",
+   "unit": "DR2-u04"
+  },
+  {
+   "first": "The press produced {M} litres of olive oil, and workers poured it evenly into {S} bottles.",
+   "fraction_reading": "each bottle gets less than a litre of oil",
+   "frame": "D03",
+   "question": "How many litres of olive oil went into each bottle?",
+   "quotient_convention": "litres of olive oil divided by bottles",
+   "role_only_in_question": 0,
+   "second": "Workers poured the olive oil evenly into {S} bottles after the press produced {M} litres.",
+   "source": "written",
+   "tid": "DR2-u04-03",
+   "tkey": "written:DR2-u04-03",
+   "topic": "olive oil into bottles",
+   "unit": "DR2-u04"
+  },
+  {
+   "first": "A roll of ribbon measuring {M} metres is trimmed into {S} equal strips for gift wrapping.",
+   "fraction_reading": "each strip is shorter than a metre",
+   "frame": "D04",
+   "question": "How long is each strip, in metres?",
+   "quotient_convention": "metres of ribbon divided by strips",
+   "role_only_in_question": 0,
+   "second": "For gift wrapping, ribbon is trimmed into {S} equal strips from a roll measuring {M} metres.",
+   "source": "written",
+   "tid": "DR2-u04-04",
+   "tkey": "written:DR2-u04-04",
+   "topic": "ribbon",
+   "unit": "DR2-u04"
+  },
+  {
+   "first": "A sailing boat crossed {M} kilometres of open sea while sailing steadily for {S} hours.",
+   "fraction_reading": "the boat covers less than a kilometre each hour",
+   "frame": "D05",
+   "question": "How many kilometres did the boat sail per hour?",
+   "quotient_convention": "kilometres sailed divided by hours sailing",
+   "role_only_in_question": 4,
+   "second": "A sailing boat sailed steadily for {S} hours, crossing {M} kilometres of open sea.",
+   "source": "written",
+   "tid": "DR2-u04-05",
+   "tkey": "written:DR2-u04-05",
+   "topic": "sailing boat",
+   "unit": "DR2-u04"
+  },
+  {
+   "first": "The ice-cream machine churned out {M} litres of ice cream over the course of {S} minutes.",
+   "fraction_reading": "the machine makes less than a litre each minute",
+   "frame": "D06",
+   "question": "How many litres of ice cream did it make per minute, on average?",
+   "quotient_convention": "litres of ice cream divided by minutes of running",
+   "role_only_in_question": 4,
+   "second": "Over the course of {S} minutes, the ice-cream machine churned out {M} litres of ice cream.",
+   "source": "written",
+   "tid": "DR2-u04-06",
+   "tkey": "written:DR2-u04-06",
+   "topic": "ice-cream machine",
+   "unit": "DR2-u04"
+  },
+  {
+   "first": "A driver paid {M} dollars at the station for {S} litres of petrol.",
+   "fraction_reading": "petrol costs less than a dollar for each litre",
+   "frame": "D07",
+   "question": "What was the price of petrol per litre, in dollars?",
+   "quotient_convention": "dollars paid divided by litres of petrol bought",
+   "role_only_in_question": 4,
+   "second": "At the station, a driver bought {S} litres of petrol and paid {M} dollars for it.",
+   "source": "written",
+   "tid": "DR2-u04-07",
+   "tkey": "written:DR2-u04-07",
+   "topic": "petrol",
+   "unit": "DR2-u04"
+  },
+  {
+   "first": "Gardeners sowed grass over {M} square metres of lawn with {S} kilograms of seed.",
+   "fraction_reading": "each kilogram of seed covers less than a square metre",
+   "frame": "D08",
+   "question": "How many square metres of lawn did each kilogram of seed cover?",
+   "quotient_convention": "square metres of lawn sown divided by kilograms of seed",
+   "role_only_in_question": 4,
+   "second": "With {S} kilograms of seed, gardeners sowed grass over {M} square metres of lawn.",
+   "source": "written",
+   "tid": "DR2-u04-08",
+   "tkey": "written:DR2-u04-08",
+   "topic": "lawn seed",
+   "unit": "DR2-u04"
+  },
+  {
+   "first": "At a training camp, a runner covered {M} kilometres across {S} days of jogging.",
+   "fraction_reading": "the runner jogs less than a kilometre on an average day",
+   "frame": "D10",
+   "question": "What was the average distance run per day, in kilometres?",
+   "quotient_convention": "kilometres run divided by days of jogging",
+   "role_only_in_question": 4,
+   "second": "Across {S} days of jogging at a training camp, a runner covered {M} kilometres.",
+   "source": "written",
+   "tid": "DR2-u04-10",
+   "tkey": "written:DR2-u04-10",
+   "topic": "running distance",
+   "unit": "DR2-u04"
+  },
+  {
+   "first": "A dog walker earned {M} dollars from neighbours for working {S} hours this week.",
+   "fraction_reading": "the dog walker earns less than a dollar for each hour",
+   "frame": "D11",
+   "question": "How many dollars did the dog walker earn per hour?",
+   "quotient_convention": "dollars earned divided by hours worked",
+   "role_only_in_question": 4,
+   "second": "This week a dog walker worked {S} hours for neighbours and earned {M} dollars.",
+   "source": "written",
+   "tid": "DR2-u04-11",
+   "tkey": "written:DR2-u04-11",
+   "topic": "dog walker",
+   "unit": "DR2-u04"
+  },
+  {
+   "first": "The cook used {M} grams of rice for the curry dinner, which was dished out as {S} servings.",
+   "fraction_reading": "each serving holds less than a gram of rice",
+   "frame": "D12",
+   "question": "How many grams of rice went into each serving?",
+   "quotient_convention": "grams of rice divided by servings",
+   "role_only_in_question": 4,
+   "second": "The curry dinner was dished out as {S} servings, and the cook used {M} grams of rice for it.",
+   "source": "written",
+   "tid": "DR2-u04-12",
+   "tkey": "written:DR2-u04-12",
+   "topic": "curry rice",
+   "unit": "DR2-u04"
+  }
+ ],
+ "kept_by_source": {
+  "drrole": [
+   20,
+   20
+  ],
+  "v5": [
+   0,
+   36
+  ],
+  "written": [
+   45,
+   48
+  ]
+ },
+ "kept_in_bank": 45,
+ "verdict": "GO"
+}

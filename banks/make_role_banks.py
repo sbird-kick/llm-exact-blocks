@@ -34,6 +34,7 @@ from make_banks import md5_of, read_ship  # noqa: E402
 BANKS = {
     "subrole": ("subrole.py", "SHIP_SUBROLE.md5"),
     "subrole_g3": ("subrole_g3.py", "SHIP_SUBROLE_G3.md5"),
+    "divrole2": ("divrole2.py", "SHIP_DIVROLE2.md5"),
 }
 
 

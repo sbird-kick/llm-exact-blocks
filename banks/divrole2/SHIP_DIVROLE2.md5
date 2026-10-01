@@ -1,0 +1,5 @@
+# md5 of the two files `python3 divrole2.py gen` writes under banks/divrole2/bank/, as the project recorded them
+# (184 kept templates x 8 number pairs x 4 cells = 5,888 rows: 5,248 bank rows in folds 0-4, 640 reference rows in fold -1).
+# Check with python banks/make_role_banks.py divrole2.
+a89f5e04e937784b7247caf6c02ce12b  dump/DIVROLE2.jsonl
+2b113bc8a14620c13d6e5e521e247c22  bank_census.json

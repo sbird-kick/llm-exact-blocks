@@ -1,0 +1,1016 @@
+{
+ "bar": "kept(written) >= 50% of written",
+ "chunk": "G2",
+ "dropped": [
+  {
+   "notes": [
+    "a cafe with this many waiters on shift is implausible",
+    "a cafe with this many waiters on shift is implausible",
+    "a cafe with this many waiters on shift is implausible",
+    "a cafe with this many waiters on shift is implausible"
+   ],
+   "reasons": [
+    "Sa<b: flags ['number_dependent_grammar']",
+    "Sa>b: flags ['number_dependent_grammar']",
+    "Fa<b: flags ['number_dependent_grammar']",
+    "Fa>b: flags ['number_dependent_grammar']"
+   ],
+   "tkey": "written:DR2-u11-01"
+  },
+  {
+   "notes": [
+    "a shift/session of this many hours is implausible; the context word fits only small values; the setup gives two quantities as a plain rate pair; only the question fixes which is divided",
+    "a shift/session of this many hours is implausible; the context word fits only small values; the setup gives two quantities as a plain rate pair; only the question fixes which is divided",
+    "a shift/session of this many hours is implausible; the context word fits only small values; the setup gives two quantities as a plain rate pair; only the question fixes which is divided",
+    "a shift/session of this many hours is implausible; the context word fits only small values; the setup gives two quantities as a plain rate pair; only the question fixes which is divided"
+   ],
+   "reasons": [
+    "Fa<b: flags ['number_dependent_grammar']",
+    "Sa>b: flags ['number_dependent_grammar']",
+    "Sa<b: flags ['number_dependent_grammar']",
+    "Fa>b: flags ['number_dependent_grammar']"
+   ],
+   "tkey": "written:DR2-u11-11"
+  },
+  {
+   "notes": [
+    "sentence opens with a numeral and the relative clause 'which weighed' attaches to the wrong noun",
+    "sentence opens with a numeral and the relative clause 'which weighed' attaches to the wrong noun"
+   ],
+   "reasons": [
+    "Sa<b: flags ['unnatural']",
+    "Sa>b: flags ['unnatural']"
+   ],
+   "tkey": "written:DR2-u12-02"
+  },
+  {
+   "notes": [
+    "'because' links the sharing to the payment oddly; the cause-effect order is unnatural",
+    "'because' links the sharing to the payment oddly; the cause-effect order is unnatural"
+   ],
+   "reasons": [
+    "Sa<b: flags ['unnatural']",
+    "Sa>b: flags ['unnatural']"
+   ],
+   "tkey": "written:DR2-u13-01"
+  },
+  {
+   "notes": [
+    "'had 57 students to share the paint equally, and 12 litres of it were set out' is awkwardly ordered"
+   ],
+   "reasons": [
+    "Sa<b: flags ['unnatural']"
+   ],
+   "tkey": "written:DR2-u13-02"
+  },
+  {
+   "notes": [
+    "'sawed N sections from anchor chain, and it had M metres of it' is awkward and does not clearly say the whole chain was used",
+    "'sawed N sections from anchor chain, and it had M metres of it' is awkward and does not clearly say the whole chain was used"
+   ],
+   "reasons": [
+    "Sa<b: flags ['unnatural']",
+    "Sa>b: flags ['unnatural']"
+   ],
+   "tkey": "written:DR2-u13-04"
+  },
+  {
+   "notes": [
+    "awkward word order: 'split equally among them the grant of ... it received'",
+    "awkward word order: 'split equally among them the grant of ... it received'"
+   ],
+   "reasons": [
+    "Sa>b: flags ['unnatural']",
+    "Sa<b: flags ['unnatural']"
+   ],
+   "tkey": "written:DR2-u14-01"
+  },
+  {
+   "notes": [
+    "a shift/session of this many hours is implausible; the context word fits only small values; the setup gives two quantities as a plain rate pair; only the question fixes which is divided",
+    "the setup gives two quantities as a plain rate pair; only the question fixes which is divided",
+    "a shift/session of this many hours is implausible; the context word fits only small values; the setup gives two quantities as a plain rate pair; only the question fixes which is divided",
+    "the setup gives two quantities as a plain rate pair; only the question fixes which is divided"
+   ],
+   "reasons": [
+    "Fa<b: flags ['number_dependent_grammar']",
+    "Sa<b: flags ['number_dependent_grammar']"
+   ],
+   "tkey": "written:DR2-u14-05"
+  },
+  {
+   "notes": [
+    "a teapot holding this many litres is implausible; the setup gives two quantities as a plain rate pair; only the question fixes which is divided",
+    "a teapot holding this many litres is implausible; the setup gives two quantities as a plain rate pair; only the question fixes which is divided",
+    "a teapot holding this many litres is implausible; the setup gives two quantities as a plain rate pair; only the question fixes which is divided",
+    "a teapot holding this many litres is implausible; the setup gives two quantities as a plain rate pair; only the question fixes which is divided"
+   ],
+   "reasons": [
+    "Fa<b: flags ['number_dependent_grammar']",
+    "Fa>b: flags ['number_dependent_grammar']",
+    "Sa<b: flags ['number_dependent_grammar']",
+    "Sa>b: flags ['number_dependent_grammar']"
+   ],
+   "tkey": "written:DR2-u14-09"
+  },
+  {
+   "notes": [
+    "dozens of flatmates sharing one flat is implausible",
+    "dozens of flatmates sharing one flat is implausible",
+    "dozens of flatmates sharing one flat is implausible",
+    "dozens of flatmates sharing one flat is implausible"
+   ],
+   "reasons": [
+    "Fa>b: flags ['unnatural']",
+    "Sa>b: flags ['unnatural']",
+    "Fa<b: flags ['unnatural']",
+    "Sa<b: flags ['unnatural']"
+   ],
+   "tkey": "written:DR2-u15-01"
+  },
+  {
+   "notes": [
+    "a single drone flight lasting this many hours is implausible; the setup gives two quantities as a plain rate pair; only the question fixes which is divided",
+    "a single drone flight lasting this many hours is implausible; the setup gives two quantities as a plain rate pair; only the question fixes which is divided",
+    "the setup gives two quantities as a plain rate pair; only the question fixes which is divided",
+    "the setup gives two quantities as a plain rate pair; only the question fixes which is divided"
+   ],
+   "reasons": [
+    "Sa<b: flags ['number_dependent_grammar']",
+    "Fa<b: flags ['number_dependent_grammar']"
+   ],
+   "tkey": "written:DR2-u15-05"
+  },
+  {
+   "notes": [
+    "a shift/session of this many hours is implausible; the context word fits only small values; the setup gives two quantities as a plain rate pair; only the question fixes which is divided",
+    "a shift/session of this many hours is implausible; the context word fits only small values; the setup gives two quantities as a plain rate pair; only the question fixes which is divided",
+    "a shift/session of this many hours is implausible; the context word fits only small values; the setup gives two quantities as a plain rate pair; only the question fixes which is divided",
+    "a shift/session of this many hours is implausible; the context word fits only small values; the setup gives two quantities as a plain rate pair; only the question fixes which is divided"
+   ],
+   "reasons": [
+    "Fa<b: flags ['number_dependent_grammar']",
+    "Sa<b: flags ['number_dependent_grammar']",
+    "Fa>b: flags ['number_dependent_grammar']",
+    "Sa>b: flags ['number_dependent_grammar']"
+   ],
+   "tkey": "written:DR2-u15-11"
+  },
+  {
+   "notes": [
+    "'since' as the link between the sharing and the cost reads oddly",
+    "'since' as the link between the sharing and the cost reads oddly"
+   ],
+   "reasons": [
+    "Sa<b: flags ['unnatural']",
+    "Sa>b: flags ['unnatural']"
+   ],
+   "tkey": "written:DR2-u16-01"
+  }
+ ],
+ "drrole_mode": "reference",
+ "kept": [
+  {
+   "first": "The shelter vet has {M} litres of milk to feed to {S} hungry kittens, and every kitten must get an equal portion.",
+   "fraction_reading": "each kitten gets less than a litre of milk",
+   "frame": "D02",
+   "question": "How many litres of milk does each kitten get?",
+   "quotient_convention": "litres of milk divided by kittens",
+   "role_only_in_question": 0,
+   "second": "The shelter vet has {S} hungry kittens to feed, with {M} litres of milk to share out, and every kitten must get an equal portion.",
+   "source": "written",
+   "tid": "DR2-u11-02",
+   "tkey": "written:DR2-u11-02",
+   "topic": "milk for kittens",
+   "unit": "DR2-u11"
+  },
+  {
+   "first": "A mill hand packs {M} kilograms of flour evenly into {S} identical tins.",
+   "fraction_reading": "each tin holds less than a kilogram of flour",
+   "frame": "D03",
+   "question": "How many kilograms of flour go into each tin?",
+   "quotient_convention": "kilograms of flour divided by tins",
+   "role_only_in_question": 0,
+   "second": "A mill hand packs flour evenly into {S} identical tins, using {M} kilograms in the process.",
+   "source": "written",
+   "tid": "DR2-u11-03",
+   "tkey": "written:DR2-u11-03",
+   "topic": "flour into tins",
+   "unit": "DR2-u11"
+  },
+  {
+   "first": "A curtain rail {M} metres long is sawn into {S} equal pieces for the nursery windows.",
+   "fraction_reading": "each piece is shorter than a metre",
+   "frame": "D04",
+   "question": "How many metres long is each piece of rail?",
+   "quotient_convention": "metres of rail divided by pieces",
+   "role_only_in_question": 0,
+   "second": "For the nursery windows, a curtain rail is sawn into {S} equal pieces, and before cutting it measured {M} metres.",
+   "source": "written",
+   "tid": "DR2-u11-04",
+   "tkey": "written:DR2-u11-04",
+   "topic": "curtain rail",
+   "unit": "DR2-u11"
+  },
+  {
+   "first": "The old tram rattled along the coast for {M} kilometres in {S} hours.",
+   "fraction_reading": "the tram covers less than a kilometre in each hour",
+   "frame": "D05",
+   "question": "How many kilometres did the tram travel per hour, on average?",
+   "quotient_convention": "kilometres travelled divided by hours",
+   "role_only_in_question": 4,
+   "second": "In {S} hours the old tram rattled along the coast for {M} kilometres.",
+   "source": "written",
+   "tid": "DR2-u11-05",
+   "tkey": "written:DR2-u11-05",
+   "topic": "tram",
+   "unit": "DR2-u11"
+  },
+  {
+   "first": "The town fountain pumped {M} litres of water into its basin over {S} minutes.",
+   "fraction_reading": "less than a litre flows in each minute",
+   "frame": "D06",
+   "question": "How many litres per minute flowed into the basin, on average?",
+   "quotient_convention": "litres of water divided by minutes",
+   "role_only_in_question": 4,
+   "second": "Over {S} minutes the town fountain pumped {M} litres of water into its basin.",
+   "source": "written",
+   "tid": "DR2-u11-06",
+   "tkey": "written:DR2-u11-06",
+   "topic": "fountain",
+   "unit": "DR2-u11"
+  },
+  {
+   "first": "To patch the garden path, the council paid {M} dollars for {S} kilograms of gravel.",
+   "fraction_reading": "each kilogram of gravel costs less than a dollar",
+   "frame": "D07",
+   "question": "What was the price per kilogram of the gravel, in dollars?",
+   "quotient_convention": "dollars paid divided by kilograms of gravel bought",
+   "role_only_in_question": 4,
+   "second": "To patch the garden path, the council bought {S} kilograms of gravel, paying {M} dollars for it.",
+   "source": "written",
+   "tid": "DR2-u11-07",
+   "tkey": "written:DR2-u11-07",
+   "topic": "gravel",
+   "unit": "DR2-u11"
+  },
+  {
+   "first": "A crew marked {M} metres of centre line along the new bypass, using up {S} litres of white paint.",
+   "fraction_reading": "each litre of paint marks less than a metre of line",
+   "frame": "D08",
+   "question": "How many metres of line did the crew mark per litre of paint?",
+   "quotient_convention": "metres of line divided by litres of paint",
+   "role_only_in_question": 4,
+   "second": "A crew used up {S} litres of white paint marking {M} metres of centre line along the new bypass.",
+   "source": "written",
+   "tid": "DR2-u11-08",
+   "tkey": "written:DR2-u11-08",
+   "topic": "road paint",
+   "unit": "DR2-u11"
+  },
+  {
+   "first": "The chef whisked {M} grams of smoked paprika into {S} litres of tomato sauce.",
+   "fraction_reading": "each litre of sauce holds less than a gram of paprika",
+   "frame": "D09",
+   "question": "How many grams of paprika are in each litre of sauce?",
+   "quotient_convention": "grams of paprika divided by litres of sauce",
+   "role_only_in_question": 4,
+   "second": "Into {S} litres of tomato sauce the chef whisked {M} grams of smoked paprika.",
+   "source": "written",
+   "tid": "DR2-u11-09",
+   "tkey": "written:DR2-u11-09",
+   "topic": "spice in a sauce",
+   "unit": "DR2-u11"
+  },
+  {
+   "first": "{M} kilowatt hours of electricity were used by the lighthouse over a stretch of {S} winter days.",
+   "fraction_reading": "the lighthouse uses less than a kilowatt hour on an average day",
+   "frame": "D10",
+   "question": "What was the lighthouse's average electricity use per day, in kilowatt hours?",
+   "quotient_convention": "kilowatt hours of electricity divided by days",
+   "role_only_in_question": 4,
+   "second": "Over a stretch of {S} winter days the lighthouse used {M} kilowatt hours of electricity.",
+   "source": "written",
+   "tid": "DR2-u11-10",
+   "tkey": "written:DR2-u11-10",
+   "topic": "electricity use",
+   "unit": "DR2-u11"
+  },
+  {
+   "first": "The cook used {M} kilograms of beef to prepare {S} servings of stew.",
+   "fraction_reading": "each serving contains less than a kilogram of beef",
+   "frame": "D12",
+   "question": "How many kilograms of beef went into each serving?",
+   "quotient_convention": "kilograms of beef divided by servings",
+   "role_only_in_question": 4,
+   "second": "The cook prepared {S} servings of stew, using {M} kilograms of beef.",
+   "source": "written",
+   "tid": "DR2-u11-12",
+   "tkey": "written:DR2-u11-12",
+   "topic": "stew beef",
+   "unit": "DR2-u11"
+  },
+  {
+   "first": "The allotment committee set the annual site fee at {M} dollars, to be covered equally by {S} plot holders.",
+   "fraction_reading": "each plot holder pays less than a dollar",
+   "frame": "D01",
+   "question": "How many dollars must each plot holder pay?",
+   "quotient_convention": "dollars of site fee divided by plot holders",
+   "role_only_in_question": 0,
+   "second": "To be covered equally by {S} plot holders, the allotment committee set the annual site fee at {M} dollars.",
+   "source": "written",
+   "tid": "DR2-u12-01",
+   "tkey": "written:DR2-u12-01",
+   "topic": "allotment fee",
+   "unit": "DR2-u12"
+  },
+  {
+   "first": "At the harvest fair, a stall owner poured {M} litres of apple juice evenly into {S} paper cups.",
+   "fraction_reading": "each cup holds less than a litre of juice",
+   "frame": "D03",
+   "question": "How much juice, in litres, does each paper cup hold?",
+   "quotient_convention": "litres of juice divided by cups",
+   "role_only_in_question": 0,
+   "second": "At the harvest fair, a stall owner poured apple juice evenly into {S} paper cups, using {M} litres of it.",
+   "source": "written",
+   "tid": "DR2-u12-03",
+   "tkey": "written:DR2-u12-03",
+   "topic": "juice into cups",
+   "unit": "DR2-u12"
+  },
+  {
+   "first": "An instructor cut {M} metres of climbing rope into {S} equal pieces for the wall.",
+   "fraction_reading": "each piece is shorter than a metre",
+   "frame": "D04",
+   "question": "How long, in metres, is each piece of rope?",
+   "quotient_convention": "metres of rope divided by pieces",
+   "role_only_in_question": 0,
+   "second": "An instructor cut climbing rope into {S} equal pieces for the wall, starting from {M} metres of it.",
+   "source": "written",
+   "tid": "DR2-u12-04",
+   "tkey": "written:DR2-u12-04",
+   "topic": "climbing rope",
+   "unit": "DR2-u12"
+  },
+  {
+   "first": "A horse pulled a cart {M} kilometres in {S} hours along the old canal road.",
+   "fraction_reading": "the cart covers less than a kilometre in each hour",
+   "frame": "D05",
+   "question": "How many kilometres per hour did the cart travel on average?",
+   "quotient_convention": "kilometres travelled divided by hours",
+   "role_only_in_question": 4,
+   "second": "In {S} hours, a horse pulled a cart {M} kilometres along the old canal road.",
+   "source": "written",
+   "tid": "DR2-u12-05",
+   "tkey": "written:DR2-u12-05",
+   "topic": "horse and cart",
+   "unit": "DR2-u12"
+  },
+  {
+   "first": "The olive press produced {M} litres of oil during {S} hours of pressing.",
+   "fraction_reading": "the press makes less than a litre of oil in each hour",
+   "frame": "D06",
+   "question": "How many litres of oil did it produce per hour?",
+   "quotient_convention": "litres of oil divided by hours",
+   "role_only_in_question": 4,
+   "second": "During {S} hours of pressing, the olive press produced {M} litres of oil.",
+   "source": "written",
+   "tid": "DR2-u12-06",
+   "tkey": "written:DR2-u12-06",
+   "topic": "olive press",
+   "unit": "DR2-u12"
+  },
+  {
+   "first": "The knitting club bought wool in bulk, and the bill came to {M} dollars for {S} kilograms.",
+   "fraction_reading": "the wool costs less than a dollar per kilogram",
+   "frame": "D07",
+   "question": "What did the wool cost, in dollars, per kilogram?",
+   "quotient_convention": "dollars paid divided by kilograms of wool",
+   "role_only_in_question": 4,
+   "second": "The knitting club bought wool in bulk, {S} kilograms of it, and the bill came to {M} dollars.",
+   "source": "written",
+   "tid": "DR2-u12-07",
+   "tkey": "written:DR2-u12-07",
+   "topic": "wool",
+   "unit": "DR2-u12"
+  },
+  {
+   "first": "A farmer covered {M} square metres of field using {S} kilograms of fertiliser.",
+   "fraction_reading": "each kilogram of fertiliser covers less than a square metre",
+   "frame": "D08",
+   "question": "How many square metres did each kilogram of fertiliser cover?",
+   "quotient_convention": "square metres covered divided by kilograms of fertiliser",
+   "role_only_in_question": 4,
+   "second": "Using {S} kilograms of fertiliser, a farmer covered {M} square metres of field.",
+   "source": "written",
+   "tid": "DR2-u12-08",
+   "tkey": "written:DR2-u12-08",
+   "topic": "fertiliser on a field",
+   "unit": "DR2-u12"
+  },
+  {
+   "first": "Estate workers scattered {M} kilograms of lime across a meadow with an area of {S} square metres.",
+   "fraction_reading": "each square metre receives less than a kilogram of lime",
+   "frame": "D09",
+   "question": "How many kilograms of lime went onto each square metre?",
+   "quotient_convention": "kilograms of lime divided by square metres of meadow",
+   "role_only_in_question": 4,
+   "second": "Across a meadow with an area of {S} square metres, estate workers scattered {M} kilograms of lime.",
+   "source": "written",
+   "tid": "DR2-u12-09",
+   "tkey": "written:DR2-u12-09",
+   "topic": "lime on a meadow",
+   "unit": "DR2-u12"
+  },
+  {
+   "first": "A village bus burned {M} litres of fuel across {S} trips to the market town.",
+   "fraction_reading": "the bus burns less than a litre of fuel on an average trip",
+   "frame": "D10",
+   "question": "What was the average fuel use per trip, in litres?",
+   "quotient_convention": "litres of fuel divided by trips",
+   "role_only_in_question": 4,
+   "second": "Across {S} trips to the market town, a village bus burned {M} litres of fuel.",
+   "source": "written",
+   "tid": "DR2-u12-10",
+   "tkey": "written:DR2-u12-10",
+   "topic": "bus fuel",
+   "unit": "DR2-u12"
+  },
+  {
+   "first": "A house painter earned {M} dollars for working {S} hours on the cottage.",
+   "fraction_reading": "the painter earns less than a dollar in each hour",
+   "frame": "D11",
+   "question": "What was the painter's pay, in dollars, for each hour worked?",
+   "quotient_convention": "dollars earned divided by hours worked",
+   "role_only_in_question": 4,
+   "second": "For working {S} hours on the cottage, a house painter earned {M} dollars.",
+   "source": "written",
+   "tid": "DR2-u12-11",
+   "tkey": "written:DR2-u12-11",
+   "topic": "house painter",
+   "unit": "DR2-u12"
+  },
+  {
+   "first": "The recipe for a muffin batch called for {M} grams of butter, enough for {S} servings.",
+   "fraction_reading": "each serving gets less than a gram of butter",
+   "frame": "D12",
+   "question": "How many grams of butter go into each serving?",
+   "quotient_convention": "grams of butter divided by servings",
+   "role_only_in_question": 4,
+   "second": "The recipe for a muffin batch was enough for {S} servings and called for {M} grams of butter.",
+   "source": "written",
+   "tid": "DR2-u12-12",
+   "tkey": "written:DR2-u12-12",
+   "topic": "muffin butter",
+   "unit": "DR2-u12"
+  },
+  {
+   "first": "A sack of birdseed held {M} kilograms, which was poured evenly into {S} feeders around the garden.",
+   "fraction_reading": "each feeder gets less than a kilogram of seed",
+   "frame": "D03",
+   "question": "How many kilograms of birdseed went into each feeder?",
+   "quotient_convention": "kilograms of birdseed divided by feeders",
+   "role_only_in_question": 0,
+   "second": "A sack of birdseed was poured evenly into {S} feeders around the garden, and it held {M} kilograms.",
+   "source": "written",
+   "tid": "DR2-u13-03",
+   "tkey": "written:DR2-u13-03",
+   "topic": "birdseed into feeders",
+   "unit": "DR2-u13"
+  },
+  {
+   "first": "The barge's logbook showed {M} kilometres of river covered after {S} hours under way.",
+   "fraction_reading": "the barge covers less than a kilometre in each hour",
+   "frame": "D05",
+   "question": "At what speed, in kilometres per hour, did the barge move?",
+   "quotient_convention": "kilometres travelled divided by hours",
+   "role_only_in_question": 4,
+   "second": "After {S} hours under way, the barge's logbook showed {M} kilometres of river covered.",
+   "source": "written",
+   "tid": "DR2-u13-05",
+   "tkey": "written:DR2-u13-05",
+   "topic": "river barge",
+   "unit": "DR2-u13"
+  },
+  {
+   "first": "The sawmill cut {M} tonnes of timber during {S} hours of operation.",
+   "fraction_reading": "the mill cuts less than a tonne of timber in an hour",
+   "frame": "D06",
+   "question": "How many tonnes of timber did the sawmill cut per hour?",
+   "quotient_convention": "tonnes of timber divided by hours",
+   "role_only_in_question": 4,
+   "second": "During {S} hours of operation, the sawmill cut {M} tonnes of timber.",
+   "source": "written",
+   "tid": "DR2-u13-06",
+   "tkey": "written:DR2-u13-06",
+   "topic": "sawmill",
+   "unit": "DR2-u13"
+  },
+  {
+   "first": "The hallway carpet cost {M} dollars, and the shop sold {S} metres of it.",
+   "fraction_reading": "a metre of carpet costs less than a dollar",
+   "frame": "D07",
+   "question": "What was the price per metre of the carpet, in dollars?",
+   "quotient_convention": "dollars of cost divided by metres of carpet",
+   "role_only_in_question": 4,
+   "second": "The shop sold {S} metres of hallway carpet, and it cost {M} dollars.",
+   "source": "written",
+   "tid": "DR2-u13-07",
+   "tkey": "written:DR2-u13-07",
+   "topic": "carpet",
+   "unit": "DR2-u13"
+  },
+  {
+   "first": "The tiler grouted {M} square metres of floor and used {S} kilograms of grout mix.",
+   "fraction_reading": "a kilogram of grout covers less than a square metre",
+   "frame": "D08",
+   "question": "How many square metres of floor did each kilogram of grout cover?",
+   "quotient_convention": "square metres of floor divided by kilograms of grout",
+   "role_only_in_question": 4,
+   "second": "The tiler used {S} kilograms of grout mix to grout {M} square metres of floor.",
+   "source": "written",
+   "tid": "DR2-u13-08",
+   "tkey": "written:DR2-u13-08",
+   "topic": "tile grout",
+   "unit": "DR2-u13"
+  },
+  {
+   "first": "Council workers spread {M} kilograms of grit over {S} square metres of icy road.",
+   "fraction_reading": "each square metre gets less than a kilogram of grit",
+   "frame": "D09",
+   "question": "How many kilograms of grit landed on each square metre?",
+   "quotient_convention": "kilograms of grit divided by square metres",
+   "role_only_in_question": 4,
+   "second": "Over {S} square metres of icy road, council workers spread {M} kilograms of grit.",
+   "source": "written",
+   "tid": "DR2-u13-09",
+   "tkey": "written:DR2-u13-09",
+   "topic": "grit on an icy road",
+   "unit": "DR2-u13"
+  },
+  {
+   "first": "The orchard picked {M} kilograms of apples over {S} days of harvest.",
+   "fraction_reading": "the orchard picked less than a kilogram on an average day",
+   "frame": "D10",
+   "question": "What was the average amount picked per day, in kilograms of apples?",
+   "quotient_convention": "kilograms of apples divided by days",
+   "role_only_in_question": 4,
+   "second": "Over {S} days of harvest, the orchard picked {M} kilograms of apples.",
+   "source": "written",
+   "tid": "DR2-u13-10",
+   "tkey": "written:DR2-u13-10",
+   "topic": "apple harvest",
+   "unit": "DR2-u13"
+  },
+  {
+   "first": "The lab assistant's pay slip showed {M} dollars for {S} hours spent running experiments.",
+   "fraction_reading": "the pay is less than a dollar for each hour",
+   "frame": "D11",
+   "question": "What hourly rate, in dollars per hour, did the assistant receive?",
+   "quotient_convention": "dollars earned divided by hours worked",
+   "role_only_in_question": 4,
+   "second": "For {S} hours spent running experiments, the lab assistant's pay slip showed {M} dollars.",
+   "source": "written",
+   "tid": "DR2-u13-11",
+   "tkey": "written:DR2-u13-11",
+   "topic": "lab assistant",
+   "unit": "DR2-u13"
+  },
+  {
+   "first": "The chef measured {M} millilitres of oil for a batch of salad dressing that covers {S} servings.",
+   "fraction_reading": "each serving gets less than a millilitre of oil",
+   "frame": "D12",
+   "question": "How much oil goes into each serving, in millilitres?",
+   "quotient_convention": "millilitres of oil divided by servings",
+   "role_only_in_question": 4,
+   "second": "For a batch of salad dressing that covers {S} servings, the chef measured {M} millilitres of oil.",
+   "source": "written",
+   "tid": "DR2-u13-12",
+   "tkey": "written:DR2-u13-12",
+   "topic": "salad dressing oil",
+   "unit": "DR2-u13"
+  },
+  {
+   "first": "The farmer measured out {M} kilograms of grain and scattered it evenly for {S} hens to peck at.",
+   "fraction_reading": "each hen gets less than a kilogram of grain",
+   "frame": "D02",
+   "question": "How many kilograms of grain did each hen get?",
+   "quotient_convention": "kilograms of grain divided by hens",
+   "role_only_in_question": 0,
+   "second": "The farmer scattered grain evenly for {S} hens to peck at, after measuring out {M} kilograms of it.",
+   "source": "written",
+   "tid": "DR2-u14-02",
+   "tkey": "written:DR2-u14-02",
+   "topic": "grain for hens",
+   "unit": "DR2-u14"
+  },
+  {
+   "first": "The cafe brewed {M} litres of tea and poured it equally into {S} teapots.",
+   "fraction_reading": "each teapot gets less than a litre of tea",
+   "frame": "D03",
+   "question": "How many litres of tea went into each teapot?",
+   "quotient_convention": "litres of tea divided by teapots",
+   "role_only_in_question": 0,
+   "second": "The cafe poured tea equally into {S} teapots after brewing {M} litres of it.",
+   "source": "written",
+   "tid": "DR2-u14-03",
+   "tkey": "written:DR2-u14-03",
+   "topic": "tea into teapots",
+   "unit": "DR2-u14"
+  },
+  {
+   "first": "The carpenter trimmed a bamboo pole that measured {M} metres, cutting it into {S} equal sections for a garden trellis.",
+   "fraction_reading": "each section is shorter than a metre",
+   "frame": "D04",
+   "question": "How long was each section, in metres?",
+   "quotient_convention": "metres of pole divided by sections",
+   "role_only_in_question": 0,
+   "second": "For a garden trellis, the carpenter cut a bamboo pole into {S} equal sections, the pole having measured {M} metres.",
+   "source": "written",
+   "tid": "DR2-u14-04",
+   "tkey": "written:DR2-u14-04",
+   "topic": "bamboo pole",
+   "unit": "DR2-u14"
+  },
+  {
+   "first": "A maple tap filled the bucket with {M} litres of sap, and the bucket hung beneath it for {S} hours.",
+   "fraction_reading": "the tap yields less than a litre of sap per hour",
+   "frame": "D06",
+   "question": "How many litres of sap flowed into the bucket per hour?",
+   "quotient_convention": "litres of sap divided by hours",
+   "role_only_in_question": 4,
+   "second": "The bucket hung beneath a maple tap for {S} hours and filled with {M} litres of sap.",
+   "source": "written",
+   "tid": "DR2-u14-06",
+   "tkey": "written:DR2-u14-06",
+   "topic": "maple syrup tap",
+   "unit": "DR2-u14"
+  },
+  {
+   "first": "The market stall sold honey for {M} dollars after weighing out {S} kilograms of it.",
+   "fraction_reading": "a kilogram of honey costs less than a dollar",
+   "frame": "D07",
+   "question": "What was the price per kilogram of honey, in dollars?",
+   "quotient_convention": "dollars paid divided by kilograms of honey",
+   "role_only_in_question": 4,
+   "second": "The market stall weighed out {S} kilograms of honey and sold it for {M} dollars.",
+   "source": "written",
+   "tid": "DR2-u14-07",
+   "tkey": "written:DR2-u14-07",
+   "topic": "honey",
+   "unit": "DR2-u14"
+  },
+  {
+   "first": "A lawnmower cut grass across {M} square metres of lawn while burning {S} litres of petrol.",
+   "fraction_reading": "the mower cuts less than a square metre per litre of petrol",
+   "frame": "D08",
+   "question": "How many square metres of lawn did the mower cut per litre of petrol?",
+   "quotient_convention": "square metres of lawn divided by litres of petrol",
+   "role_only_in_question": 4,
+   "second": "Burning {S} litres of petrol, a lawnmower cut grass across {M} square metres of lawn.",
+   "source": "written",
+   "tid": "DR2-u14-08",
+   "tkey": "written:DR2-u14-08",
+   "topic": "lawnmower petrol",
+   "unit": "DR2-u14"
+  },
+  {
+   "first": "Over the revision period, the student logged {M} hours of study, spread across {S} days.",
+   "fraction_reading": "the student studied less than an hour on an average day",
+   "frame": "D10",
+   "question": "How many hours did the student study on average each day?",
+   "quotient_convention": "hours of study divided by days",
+   "role_only_in_question": 4,
+   "second": "Spread across {S} days, the student logged {M} hours of study over the revision period.",
+   "source": "written",
+   "tid": "DR2-u14-10",
+   "tkey": "written:DR2-u14-10",
+   "topic": "study hours",
+   "unit": "DR2-u14"
+  },
+  {
+   "first": "Baling hay in the barn paid the farmhand {M} dollars for the {S} hours she spent.",
+   "fraction_reading": "the farmhand earns less than a dollar per hour",
+   "frame": "D11",
+   "question": "How many dollars did the farmhand earn per hour?",
+   "quotient_convention": "dollars earned divided by hours worked",
+   "role_only_in_question": 4,
+   "second": "The farmhand spent {S} hours baling hay in the barn, which paid {M} dollars.",
+   "source": "written",
+   "tid": "DR2-u14-11",
+   "tkey": "written:DR2-u14-11",
+   "topic": "farmhand",
+   "unit": "DR2-u14"
+  },
+  {
+   "first": "The cook simmered {M} kilograms of lentils in the soup pot, then ladled the soup into {S} servings.",
+   "fraction_reading": "each serving holds less than a kilogram of lentils",
+   "frame": "D12",
+   "question": "How many kilograms of lentils went into each serving?",
+   "quotient_convention": "kilograms of lentils divided by servings",
+   "role_only_in_question": 0,
+   "second": "The cook ladled the soup into {S} servings, having simmered {M} kilograms of lentils in the soup pot.",
+   "source": "written",
+   "tid": "DR2-u14-12",
+   "tkey": "written:DR2-u14-12",
+   "topic": "lentil soup",
+   "unit": "DR2-u14"
+  },
+  {
+   "first": "A delivery truck dumped {M} kilograms of sand on the site for the bricklayers, who will divide it evenly among {S} builders.",
+   "fraction_reading": "each builder gets less than a kilogram of sand",
+   "frame": "D02",
+   "question": "How many kilograms of sand does each builder get?",
+   "quotient_convention": "kilograms of sand divided by builders",
+   "role_only_in_question": 0,
+   "second": "The bricklayers will divide sand evenly among {S} builders, after a delivery truck dumped {M} kilograms of it on the site.",
+   "source": "written",
+   "tid": "DR2-u15-02",
+   "tkey": "written:DR2-u15-02",
+   "topic": "sand for builders",
+   "unit": "DR2-u15"
+  },
+  {
+   "first": "The bakery had {M} litres of maple syrup, which was poured evenly into {S} jugs.",
+   "fraction_reading": "each jug gets less than a litre of syrup",
+   "frame": "D03",
+   "question": "How many litres of syrup went into each jug?",
+   "quotient_convention": "litres of syrup divided by jugs",
+   "role_only_in_question": 0,
+   "second": "The bakery poured maple syrup evenly into {S} jugs, starting from {M} litres of it.",
+   "source": "written",
+   "tid": "DR2-u15-03",
+   "tkey": "written:DR2-u15-03",
+   "topic": "syrup into jugs",
+   "unit": "DR2-u15"
+  },
+  {
+   "first": "A butcher has a sausage that is {M} centimetres long and cuts it into {S} equal pieces.",
+   "fraction_reading": "each piece is shorter than a centimetre",
+   "frame": "D04",
+   "question": "How many centimetres long is each piece?",
+   "quotient_convention": "centimetres of sausage divided by pieces",
+   "role_only_in_question": 0,
+   "second": "A butcher cuts a sausage into {S} equal pieces, and the sausage is {M} centimetres long.",
+   "source": "written",
+   "tid": "DR2-u15-04",
+   "tkey": "written:DR2-u15-04",
+   "topic": "sausage",
+   "unit": "DR2-u15"
+  },
+  {
+   "first": "The rain gutter filled a barrel with {M} litres of water during a storm that lasted {S} minutes.",
+   "fraction_reading": "less than a litre of water runs in each minute",
+   "frame": "D06",
+   "question": "How many litres of water ran into the barrel per minute?",
+   "quotient_convention": "litres of water divided by minutes",
+   "role_only_in_question": 4,
+   "second": "During a storm that lasted {S} minutes, the rain gutter filled a barrel with {M} litres of water.",
+   "source": "written",
+   "tid": "DR2-u15-06",
+   "tkey": "written:DR2-u15-06",
+   "topic": "rain gutter",
+   "unit": "DR2-u15"
+  },
+  {
+   "first": "A farmer paid {M} dollars for a load of firewood that weighed {S} kilograms.",
+   "fraction_reading": "each kilogram costs less than a dollar",
+   "frame": "D07",
+   "question": "How many dollars did the firewood cost per kilogram?",
+   "quotient_convention": "dollars paid divided by kilograms bought",
+   "role_only_in_question": 4,
+   "second": "A farmer bought a load of firewood that weighed {S} kilograms and paid {M} dollars for it.",
+   "source": "written",
+   "tid": "DR2-u15-07",
+   "tkey": "written:DR2-u15-07",
+   "topic": "firewood",
+   "unit": "DR2-u15"
+  },
+  {
+   "first": "Rolling down the coast road, the camper van covered {M} kilometres and the fuel gauge showed that {S} litres had been used.",
+   "fraction_reading": "the van drives less than a kilometre on each litre",
+   "frame": "D08",
+   "question": "How many kilometres did the van cover per litre used?",
+   "quotient_convention": "kilometres driven divided by litres of fuel",
+   "role_only_in_question": 4,
+   "second": "Rolling down the coast road, the camper van's fuel gauge showed that {S} litres had been used after it covered {M} kilometres.",
+   "source": "written",
+   "tid": "DR2-u15-08",
+   "tkey": "written:DR2-u15-08",
+   "topic": "camper van fuel",
+   "unit": "DR2-u15"
+  },
+  {
+   "first": "Stirring {M} grams of soap flakes through the bucket made suds, and the bucket held {S} litres of rinse water.",
+   "fraction_reading": "each litre of water holds less than a gram of soap",
+   "frame": "D09",
+   "question": "How many grams of soap are in each litre of the rinse water?",
+   "quotient_convention": "grams of soap divided by litres of water",
+   "role_only_in_question": 4,
+   "second": "The bucket held {S} litres of rinse water, and stirring {M} grams of soap flakes through it made suds.",
+   "source": "written",
+   "tid": "DR2-u15-09",
+   "tkey": "written:DR2-u15-09",
+   "topic": "soap in a bucket",
+   "unit": "DR2-u15"
+  },
+  {
+   "first": "During the summer season a swimmer covered {M} kilometres in the pool over {S} practice days.",
+   "fraction_reading": "the swimmer averages less than a kilometre on each practice day",
+   "frame": "D10",
+   "question": "What was the average distance in kilometres swum per practice day?",
+   "quotient_convention": "kilometres swum divided by practice days",
+   "role_only_in_question": 4,
+   "second": "During the summer season a swimmer practised on {S} days and covered {M} kilometres in the pool.",
+   "source": "written",
+   "tid": "DR2-u15-10",
+   "tkey": "written:DR2-u15-10",
+   "topic": "swimming distance",
+   "unit": "DR2-u15"
+  },
+  {
+   "first": "A pot of chilli contains {M} grams of kidney beans and is ladled out as {S} servings.",
+   "fraction_reading": "each serving has less than a gram of beans",
+   "frame": "D12",
+   "question": "How many grams of kidney beans are in each serving?",
+   "quotient_convention": "grams of beans divided by servings",
+   "role_only_in_question": 0,
+   "second": "A pot of chilli is ladled out as {S} servings and contains {M} grams of kidney beans.",
+   "source": "written",
+   "tid": "DR2-u15-12",
+   "tkey": "written:DR2-u15-12",
+   "topic": "chilli beans",
+   "unit": "DR2-u15"
+  },
+  {
+   "first": "The workshop melted {M} kilograms of wax and handed it out evenly among {S} candle makers.",
+   "fraction_reading": "each candle maker receives less than a kilogram of wax",
+   "frame": "D02",
+   "question": "How many kilograms of wax does each candle maker receive?",
+   "quotient_convention": "kilograms of wax divided by candle makers",
+   "role_only_in_question": 0,
+   "second": "The workshop has {S} candle makers and melted {M} kilograms of wax, handing it out evenly among them.",
+   "source": "written",
+   "tid": "DR2-u16-02",
+   "tkey": "written:DR2-u16-02",
+   "topic": "wax for candle makers",
+   "unit": "DR2-u16"
+  },
+  {
+   "first": "At feeding time, the kennel pours {M} cups of dog food evenly into {S} bowls.",
+   "fraction_reading": "each bowl gets less than a cup of dog food",
+   "frame": "D03",
+   "question": "How much dog food, in cups, goes into each bowl?",
+   "quotient_convention": "cups of dog food divided by bowls",
+   "role_only_in_question": 0,
+   "second": "At feeding time, the kennel pours dog food evenly into {S} bowls, using {M} cups of it.",
+   "source": "written",
+   "tid": "DR2-u16-03",
+   "tkey": "written:DR2-u16-03",
+   "topic": "dog food into bowls",
+   "unit": "DR2-u16"
+  },
+  {
+   "first": "Before the festival, Tomas trimmed {M} metres of fairy lights into {S} equal strands for the porch.",
+   "fraction_reading": "each strand is shorter than a metre",
+   "frame": "D04",
+   "question": "How many metres long is each strand?",
+   "quotient_convention": "metres of fairy lights divided by strands",
+   "role_only_in_question": 0,
+   "second": "Before the festival, Tomas trimmed fairy lights into {S} equal strands for the porch, starting from {M} metres.",
+   "source": "written",
+   "tid": "DR2-u16-04",
+   "tkey": "written:DR2-u16-04",
+   "topic": "string of lights",
+   "unit": "DR2-u16"
+  },
+  {
+   "first": "A garden slug crawled {M} centimetres along the path over {S} hours.",
+   "fraction_reading": "the slug moves less than a centimetre in each hour",
+   "frame": "D05",
+   "question": "How many centimetres per hour did the slug travel?",
+   "quotient_convention": "centimetres crawled divided by hours",
+   "role_only_in_question": 4,
+   "second": "A garden slug spent {S} hours on the path and crawled {M} centimetres along it.",
+   "source": "written",
+   "tid": "DR2-u16-05",
+   "tkey": "written:DR2-u16-05",
+   "topic": "garden slug",
+   "unit": "DR2-u16"
+  },
+  {
+   "first": "A fuel pump delivered {M} litres of diesel into the tank during {S} minutes.",
+   "fraction_reading": "the pump delivers less than a litre in each minute",
+   "frame": "D06",
+   "question": "How many litres of diesel did the pump deliver per minute?",
+   "quotient_convention": "litres of diesel divided by minutes",
+   "role_only_in_question": 4,
+   "second": "During {S} minutes, a fuel pump delivered {M} litres of diesel into the tank.",
+   "source": "written",
+   "tid": "DR2-u16-06",
+   "tkey": "written:DR2-u16-06",
+   "topic": "fuel pump",
+   "unit": "DR2-u16"
+  },
+  {
+   "first": "Dev paid {M} dollars to leave his car in the station lot for {S} hours.",
+   "fraction_reading": "parking costs less than a dollar for each hour",
+   "frame": "D07",
+   "question": "What was the parking price per hour, in dollars?",
+   "quotient_convention": "dollars paid divided by hours parked",
+   "role_only_in_question": 4,
+   "second": "Dev left his car in the station lot for {S} hours and paid {M} dollars.",
+   "source": "written",
+   "tid": "DR2-u16-07",
+   "tkey": "written:DR2-u16-07",
+   "topic": "parking",
+   "unit": "DR2-u16"
+  },
+  {
+   "first": "Wood stain was brushed over {M} square metres of decking, and the crew went through {S} litres doing it.",
+   "fraction_reading": "each litre of stain covers less than a square metre",
+   "frame": "D08",
+   "question": "How many square metres of decking did the crew cover with each litre of stain?",
+   "quotient_convention": "square metres of decking divided by litres of stain",
+   "role_only_in_question": 4,
+   "second": "The crew went through {S} litres of wood stain, brushing it over {M} square metres of decking.",
+   "source": "written",
+   "tid": "DR2-u16-08",
+   "tkey": "written:DR2-u16-08",
+   "topic": "wood stain on decking",
+   "unit": "DR2-u16"
+  },
+  {
+   "first": "A cleaner spread {M} grams of floor wax over a hall floor of {S} square metres.",
+   "fraction_reading": "each square metre gets less than a gram of wax",
+   "frame": "D09",
+   "question": "How many grams of wax went onto each square metre of floor?",
+   "quotient_convention": "grams of wax divided by square metres of floor",
+   "role_only_in_question": 4,
+   "second": "A cleaner spread floor wax over a hall floor of {S} square metres, using {M} grams.",
+   "source": "written",
+   "tid": "DR2-u16-09",
+   "tkey": "written:DR2-u16-09",
+   "topic": "wax on a floor",
+   "unit": "DR2-u16"
+  },
+  {
+   "first": "Over the summer, the greenhouse gave {M} kilograms of tomatoes, picked on {S} different days.",
+   "fraction_reading": "on average, less than a kilogram was picked each day",
+   "frame": "D10",
+   "question": "How many kilograms of tomatoes were picked on average per day?",
+   "quotient_convention": "kilograms of tomatoes divided by picking days",
+   "role_only_in_question": 4,
+   "second": "Tomatoes were picked on {S} different days over the summer, and the greenhouse gave {M} kilograms.",
+   "source": "written",
+   "tid": "DR2-u16-10",
+   "tkey": "written:DR2-u16-10",
+   "topic": "tomato crop",
+   "unit": "DR2-u16"
+  },
+  {
+   "first": "At the weekend tournament, the referee collected {M} dollars in fees across {S} hours of officiating.",
+   "fraction_reading": "the referee earns less than a dollar for each hour",
+   "frame": "D11",
+   "question": "How many dollars in fees did the referee collect per hour?",
+   "quotient_convention": "dollars earned divided by hours worked",
+   "role_only_in_question": 4,
+   "second": "Across {S} hours of officiating at the weekend tournament, the referee collected {M} dollars in fees.",
+   "source": "written",
+   "tid": "DR2-u16-11",
+   "tkey": "written:DR2-u16-11",
+   "topic": "referee",
+   "unit": "DR2-u16"
+  },
+  {
+   "first": "A baker prepared {M} grams of icing to top {S} servings of cake.",
+   "fraction_reading": "each serving gets less than a gram of icing",
+   "frame": "D12",
+   "question": "How many grams of icing go on each serving?",
+   "quotient_convention": "grams of icing divided by servings",
+   "role_only_in_question": 0,
+   "second": "A baker prepared icing to top {S} servings of cake, and used {M} grams.",
+   "source": "written",
+   "tid": "DR2-u16-12",
+   "tkey": "written:DR2-u16-12",
+   "topic": "cake icing",
+   "unit": "DR2-u16"
+  }
+ ],
+ "kept_by_source": {
+  "drrole": [
+   0,
+   0
+  ],
+  "v5": [
+   0,
+   0
+  ],
+  "written": [
+   59,
+   72
+  ]
+ },
+ "kept_in_bank": 59,
+ "verdict": "GO"
+}

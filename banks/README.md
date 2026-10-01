@@ -132,3 +132,22 @@ with `fold = -2` and `template_source = written_g3`. It is meant to be scored by
 fitted on `subrole/` and never fitted on. `subrole_g3.py` reads `../subrole/` (md5-pinned)
 and refuses any template that is a near-twin of a `subrole/` one in either written order.
 Its selftest runs here (71 checks).
+
+### `divrole2/`: division, dividend smaller in half the rows and written second in half
+
+`{M}` is the dividend and `{S}` the divisor; the answer is always M / S as an exact
+fraction, so on the a<b rows it is a proper fraction (`ans` is then not an integer).
+184 kept templates, 8 number pairs each, 5,888 rows (`bank/dump/DIVROLE2.jsonl`, 7.2 MB,
+not committed):
+
+| source | kept | fold | rows |
+|---|---|---|---|
+| written (12 division frames D01-D12: money split among people, food or material shared, amounts poured into containers, a length cut into pieces, distance per time, amount per time, cost per unit, distance per litre of fuel, a mixture or spread, a total over several days, pay per hour, an ingredient per serving) | 164/192 | 0-4 | 5,248 |
+| `drrole`, **reference**: the 20 templates of an earlier, smaller division role bank, re-verified blind here | 20/20 | -1 | 640 |
+| `v5` (the English v5 division templates, re-verified blind as a calibration) | 0/36 | | 0 |
+
+The reference templates are kept out of the folds on purpose: fit on folds 0-4 and score
+the frozen reader on fold -1. Kept written templates per frame: D01 8, D02 11, D03 14,
+D04 14, D05 14, D06 15, D07 15, D08 16, D09 14, D10 15, D11 13, D12 15. The selftest of
+`divrole2.py` needs the earlier bank's candidate files, which are not shipped; `gen` does
+not.

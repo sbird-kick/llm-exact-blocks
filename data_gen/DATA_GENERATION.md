@@ -996,3 +996,9 @@ layouts are in [`banks/README.md`](../banks/README.md).
 * **`banks/subrole_g3/`** (English, subtraction): 33 more templates in the same design,
   for testing only (`fold = -2`): score a reader fitted on `subrole/` on them, never fit on
   them. 3,036 rows; `python banks/make_role_banks.py subrole_g3`.
+* **`banks/divrole2/`** (English, division): the dividend is smaller in half the rows (the
+  answer is then a proper fraction, 3/8) and written second in half the rows. 164
+  templates in folds 0-4 plus 20 reference templates in fold -1, 5,888 rows;
+  `python banks/make_role_banks.py divrole2`. A division template must read naturally with
+  a fractional answer: 3/8 of a litre each is fine, 3/8 of a bus is not, so the frames are
+  shares of an amount, rates and unit prices, never a count of whole things.

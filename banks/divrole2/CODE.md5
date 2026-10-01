@@ -1,0 +1,8 @@
+# md5 of every input of banks/divrole2 (md5sum format; `md5sum -c CODE.md5` from banks/divrole2/, or python banks/make_role_banks.py).
+# divrole2.py differs from the project's copy in two status-string rewordings only (no person's name); no rewording
+# touches code, and the bank md5s in SHIP_DIVROLE2.md5 are the project's.
+#   divrole2.py  project md5 2c343914a1d431e54b904ac689191a86
+8517544200d37a56bd2d876510c182e8  divrole2.py
+63d62cf87e30be42a32d50da250f214c  clean/P1.json
+498be890b63b50d38eacf9a8ad618539  clean/G1.json
+fc74c939b009e332fa9670eeec106a33  clean/G2.json
