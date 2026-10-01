@@ -1,0 +1,161 @@
+{
+ "uid": "W5X-cs-u505",
+ "lang": "cs",
+ "language": "Czech",
+ "unit": 505,
+ "k": 1,
+ "chunk": "C1",
+ "slice": "S01",
+ "slice_title": "kitchens and bakeries",
+ "half": 1,
+ "topics": [
+  "catering",
+  "market_food_stall",
+  "home_cooking"
+ ],
+ "lead_in": "Odpověď je",
+ "t_first_position": {
+  "add/list": "middle",
+  "add/other_time": "last",
+  "add/diff_owner": "first",
+  "sub/list": "last",
+  "sub/other_time": "first",
+  "sub/diff_owner": "middle",
+  "mul/list": "first",
+  "mul/other_time": "middle",
+  "mul/diff_owner": "last",
+  "div/list": "middle",
+  "div/other_time": "last",
+  "div/diff_owner": "first"
+ },
+ "forms": {
+  "add/list": "F1",
+  "add/other_time": "F2",
+  "add/diff_owner": "F3",
+  "sub/list": "F4",
+  "sub/other_time": "F5",
+  "sub/diff_owner": "F6",
+  "mul/list": "F7",
+  "mul/other_time": "F0",
+  "mul/diff_owner": "F1",
+  "div/list": "F2",
+  "div/other_time": "F3",
+  "div/diff_owner": "F4"
+ },
+ "cells": [
+  {
+   "cell": "add/list",
+   "op": "add",
+   "shape": "list",
+   "t_first_position": "middle",
+   "form": "F1",
+   "form_name": "question_first"
+  },
+  {
+   "cell": "add/other_time",
+   "op": "add",
+   "shape": "other_time",
+   "t_first_position": "last",
+   "form": "F2",
+   "form_name": "imperative"
+  },
+  {
+   "cell": "add/diff_owner",
+   "op": "add",
+   "shape": "diff_owner",
+   "t_first_position": "first",
+   "form": "F3",
+   "form_name": "conditional"
+  },
+  {
+   "cell": "sub/list",
+   "op": "sub",
+   "shape": "list",
+   "t_first_position": "last",
+   "form": "F4",
+   "form_name": "indirect"
+  },
+  {
+   "cell": "sub/other_time",
+   "op": "sub",
+   "shape": "other_time",
+   "t_first_position": "first",
+   "form": "F5",
+   "form_name": "casual"
+  },
+  {
+   "cell": "sub/diff_owner",
+   "op": "sub",
+   "shape": "diff_owner",
+   "t_first_position": "middle",
+   "form": "F6",
+   "form_name": "fill_blank"
+  },
+  {
+   "cell": "mul/list",
+   "op": "mul",
+   "shape": "list",
+   "t_first_position": "first",
+   "form": "F7",
+   "form_name": "dialogue"
+  },
+  {
+   "cell": "mul/other_time",
+   "op": "mul",
+   "shape": "other_time",
+   "t_first_position": "middle",
+   "form": "F0",
+   "form_name": "plain"
+  },
+  {
+   "cell": "mul/diff_owner",
+   "op": "mul",
+   "shape": "diff_owner",
+   "t_first_position": "last",
+   "form": "F1",
+   "form_name": "question_first"
+  },
+  {
+   "cell": "div/list",
+   "op": "div",
+   "shape": "list",
+   "t_first_position": "middle",
+   "form": "F2",
+   "form_name": "imperative"
+  },
+  {
+   "cell": "div/other_time",
+   "op": "div",
+   "shape": "other_time",
+   "t_first_position": "last",
+   "form": "F3",
+   "form_name": "conditional"
+  },
+  {
+   "cell": "div/diff_owner",
+   "op": "div",
+   "shape": "diff_owner",
+   "t_first_position": "first",
+   "form": "F4",
+   "form_name": "indirect"
+  }
+ ],
+ "templates": 12,
+ "output_file": "writers/cs/W5X-cs-u505.json",
+ "story_ids": [
+  50501,
+  50512
+ ],
+ "language_notes": {
+  "script": "Latin",
+  "digits": "ASCII digits are filled into every slot, with no grouping, as in v3_61 (1664/1664 of its cs rows used ASCII digits only). You write no digit at all, of any script.",
+  "punctuation": "End statements with . and questions with ? (the usual Czech punctuation).",
+  "agreement": "1 takes the nominative singular, 2-4 the nominative plural, 5+ the genitive plural: prefer a unit abbreviation (kg, l, Kč, ks.), a label and a colon, or declare number_dependent. Never a roundabout \"v počtu ...\".",
+  "number_words": "the validator lists: dva dvě tři čtyři pět šest sedm osm devět deset sto tisíc polovina dvakrát tucet",
+  "file_check": [
+   "no ě / ř / ů anywhere: reads as Slovak, not Czech",
+   "Slovak letters (ô ľ ĺ ŕ ä) in a Czech file"
+  ],
+  "flagged": false
+ }
+}

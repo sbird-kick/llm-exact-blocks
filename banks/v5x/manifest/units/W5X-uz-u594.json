@@ -1,0 +1,160 @@
+{
+ "uid": "W5X-uz-u594",
+ "lang": "uz",
+ "language": "Uzbek",
+ "unit": 594,
+ "k": 2,
+ "chunk": "C4",
+ "slice": "S18",
+ "slice_title": "fishing and the sea",
+ "half": 1,
+ "topics": [
+  "lighthouse",
+  "sailing_club",
+  "seaweed_farm"
+ ],
+ "lead_in": "Javob:",
+ "t_first_position": {
+  "add/list": "first",
+  "add/other_time": "middle",
+  "add/diff_owner": "last",
+  "sub/list": "middle",
+  "sub/other_time": "last",
+  "sub/diff_owner": "first",
+  "mul/list": "last",
+  "mul/other_time": "first",
+  "mul/diff_owner": "middle",
+  "div/list": "first",
+  "div/other_time": "middle",
+  "div/diff_owner": "last"
+ },
+ "forms": {
+  "add/list": "F1",
+  "add/other_time": "F2",
+  "add/diff_owner": "F3",
+  "sub/list": "F4",
+  "sub/other_time": "F5",
+  "sub/diff_owner": "F6",
+  "mul/list": "F7",
+  "mul/other_time": "F0",
+  "mul/diff_owner": "F1",
+  "div/list": "F2",
+  "div/other_time": "F3",
+  "div/diff_owner": "F4"
+ },
+ "cells": [
+  {
+   "cell": "add/list",
+   "op": "add",
+   "shape": "list",
+   "t_first_position": "first",
+   "form": "F1",
+   "form_name": "question_first"
+  },
+  {
+   "cell": "add/other_time",
+   "op": "add",
+   "shape": "other_time",
+   "t_first_position": "middle",
+   "form": "F2",
+   "form_name": "imperative"
+  },
+  {
+   "cell": "add/diff_owner",
+   "op": "add",
+   "shape": "diff_owner",
+   "t_first_position": "last",
+   "form": "F3",
+   "form_name": "conditional"
+  },
+  {
+   "cell": "sub/list",
+   "op": "sub",
+   "shape": "list",
+   "t_first_position": "middle",
+   "form": "F4",
+   "form_name": "indirect"
+  },
+  {
+   "cell": "sub/other_time",
+   "op": "sub",
+   "shape": "other_time",
+   "t_first_position": "last",
+   "form": "F5",
+   "form_name": "casual"
+  },
+  {
+   "cell": "sub/diff_owner",
+   "op": "sub",
+   "shape": "diff_owner",
+   "t_first_position": "first",
+   "form": "F6",
+   "form_name": "fill_blank"
+  },
+  {
+   "cell": "mul/list",
+   "op": "mul",
+   "shape": "list",
+   "t_first_position": "last",
+   "form": "F7",
+   "form_name": "dialogue"
+  },
+  {
+   "cell": "mul/other_time",
+   "op": "mul",
+   "shape": "other_time",
+   "t_first_position": "first",
+   "form": "F0",
+   "form_name": "plain"
+  },
+  {
+   "cell": "mul/diff_owner",
+   "op": "mul",
+   "shape": "diff_owner",
+   "t_first_position": "middle",
+   "form": "F1",
+   "form_name": "question_first"
+  },
+  {
+   "cell": "div/list",
+   "op": "div",
+   "shape": "list",
+   "t_first_position": "first",
+   "form": "F2",
+   "form_name": "imperative"
+  },
+  {
+   "cell": "div/other_time",
+   "op": "div",
+   "shape": "other_time",
+   "t_first_position": "middle",
+   "form": "F3",
+   "form_name": "conditional"
+  },
+  {
+   "cell": "div/diff_owner",
+   "op": "div",
+   "shape": "diff_owner",
+   "t_first_position": "last",
+   "form": "F4",
+   "form_name": "indirect"
+  }
+ ],
+ "templates": 12,
+ "output_file": "writers/uz/W5X-uz-u594.json",
+ "story_ids": [
+  59401,
+  59412
+ ],
+ "language_notes": {
+  "script": "Latin",
+  "digits": "ASCII digits are filled into every slot, with no grouping, as in v3_61 (1536/1536 of its uz rows used ASCII digits only). You write no digit at all, of any script.",
+  "punctuation": "End statements with . and questions with ? (the usual Uzbek punctuation).",
+  "agreement": "A noun after a numeral stays singular: invariant.",
+  "number_words": "the validator lists: ikki to'rt besh olti yetti sakkiz to'qqiz o'n ming yarim",
+  "file_check": [
+   "no oʻ / gʻ anywhere: not Uzbek (Latin)"
+  ],
+  "flagged": false
+ }
+}

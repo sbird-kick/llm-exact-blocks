@@ -1002,3 +1002,10 @@ layouts are in [`banks/README.md`](../banks/README.md).
   `python banks/make_role_banks.py divrole2`. A division template must read naturally with
   a fractional answer: 3/8 of a litre each is fine, 3/8 of a bus is not, so the frames are
   shares of an amount, rates and unit prices, never a count of whole things.
+* **`banks/v5x/`** (PARTIAL): bank v5 extended to the 36 languages of v3_61 that v5 lacks,
+  with a question-form axis (F0-F7: plain, question first, instruction, conditional,
+  indirect, casual, fill-in-the-blank, dialogue). Only chunk C1 is
+  done: Bulgarian, Czech, Hungarian, Romanian, Slovak and Serbian, 274 templates, 6,576
+  rows; `python banks/make_v5x.py`. The tool, `v5x.py`, wraps the v5 tools of section 4
+  unchanged and adds the form rules, so writing a v5x unit is writing a v5 unit with one
+  more field per cell.

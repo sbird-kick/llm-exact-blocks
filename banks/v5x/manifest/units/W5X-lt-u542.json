@@ -1,0 +1,160 @@
+{
+ "uid": "W5X-lt-u542",
+ "lang": "lt",
+ "language": "Lithuanian",
+ "unit": 542,
+ "k": 2,
+ "chunk": "C2",
+ "slice": "S12",
+ "slice_title": "factories and warehouses",
+ "half": 0,
+ "topics": [
+  "assembly_line",
+  "packing",
+  "warehouse_stock"
+ ],
+ "lead_in": "Atsakymas yra",
+ "t_first_position": {
+  "add/list": "last",
+  "add/other_time": "first",
+  "add/diff_owner": "middle",
+  "sub/list": "first",
+  "sub/other_time": "middle",
+  "sub/diff_owner": "last",
+  "mul/list": "middle",
+  "mul/other_time": "last",
+  "mul/diff_owner": "first",
+  "div/list": "last",
+  "div/other_time": "first",
+  "div/diff_owner": "middle"
+ },
+ "forms": {
+  "add/list": "F4",
+  "add/other_time": "F5",
+  "add/diff_owner": "F6",
+  "sub/list": "F7",
+  "sub/other_time": "F0",
+  "sub/diff_owner": "F1",
+  "mul/list": "F2",
+  "mul/other_time": "F3",
+  "mul/diff_owner": "F4",
+  "div/list": "F5",
+  "div/other_time": "F6",
+  "div/diff_owner": "F7"
+ },
+ "cells": [
+  {
+   "cell": "add/list",
+   "op": "add",
+   "shape": "list",
+   "t_first_position": "last",
+   "form": "F4",
+   "form_name": "indirect"
+  },
+  {
+   "cell": "add/other_time",
+   "op": "add",
+   "shape": "other_time",
+   "t_first_position": "first",
+   "form": "F5",
+   "form_name": "casual"
+  },
+  {
+   "cell": "add/diff_owner",
+   "op": "add",
+   "shape": "diff_owner",
+   "t_first_position": "middle",
+   "form": "F6",
+   "form_name": "fill_blank"
+  },
+  {
+   "cell": "sub/list",
+   "op": "sub",
+   "shape": "list",
+   "t_first_position": "first",
+   "form": "F7",
+   "form_name": "dialogue"
+  },
+  {
+   "cell": "sub/other_time",
+   "op": "sub",
+   "shape": "other_time",
+   "t_first_position": "middle",
+   "form": "F0",
+   "form_name": "plain"
+  },
+  {
+   "cell": "sub/diff_owner",
+   "op": "sub",
+   "shape": "diff_owner",
+   "t_first_position": "last",
+   "form": "F1",
+   "form_name": "question_first"
+  },
+  {
+   "cell": "mul/list",
+   "op": "mul",
+   "shape": "list",
+   "t_first_position": "middle",
+   "form": "F2",
+   "form_name": "imperative"
+  },
+  {
+   "cell": "mul/other_time",
+   "op": "mul",
+   "shape": "other_time",
+   "t_first_position": "last",
+   "form": "F3",
+   "form_name": "conditional"
+  },
+  {
+   "cell": "mul/diff_owner",
+   "op": "mul",
+   "shape": "diff_owner",
+   "t_first_position": "first",
+   "form": "F4",
+   "form_name": "indirect"
+  },
+  {
+   "cell": "div/list",
+   "op": "div",
+   "shape": "list",
+   "t_first_position": "last",
+   "form": "F5",
+   "form_name": "casual"
+  },
+  {
+   "cell": "div/other_time",
+   "op": "div",
+   "shape": "other_time",
+   "t_first_position": "first",
+   "form": "F6",
+   "form_name": "fill_blank"
+  },
+  {
+   "cell": "div/diff_owner",
+   "op": "div",
+   "shape": "diff_owner",
+   "t_first_position": "middle",
+   "form": "F7",
+   "form_name": "dialogue"
+  }
+ ],
+ "templates": 12,
+ "output_file": "writers/lt/W5X-lt-u542.json",
+ "story_ids": [
+  54201,
+  54212
+ ],
+ "language_notes": {
+  "script": "Latin",
+  "digits": "ASCII digits are filled into every slot, with no grouping, as in v3_61 (1664/1664 of its lt rows used ASCII digits only). You write no digit at all, of any script.",
+  "punctuation": "End statements with . and questions with ? (the usual Lithuanian punctuation).",
+  "agreement": "1 (21, 31 ... not 11) singular, 2-9 plural, 10-20 and round tens genitive plural: prefer a unit abbreviation (kg, l, €, vnt.), a label and a colon, or declare number_dependent.",
+  "number_words": "the validator lists: du dvi trys keturi keturios penki penkios šeši šešios septyni aštuoni devyni dešimt šimtas tūkstantis dvigubai",
+  "file_check": [
+   "no Lithuanian letters (ą č ę ė į š ų ū ž)"
+  ],
+  "flagged": false
+ }
+}

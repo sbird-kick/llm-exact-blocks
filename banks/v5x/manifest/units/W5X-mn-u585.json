@@ -1,0 +1,161 @@
+{
+ "uid": "W5X-mn-u585",
+ "lang": "mn",
+ "language": "Mongolian",
+ "unit": 585,
+ "k": 1,
+ "chunk": "C4",
+ "slice": "S11",
+ "slice_title": "offices and services",
+ "half": 1,
+ "topics": [
+  "filing_and_forms",
+  "reception_visitors",
+  "printing_and_copying"
+ ],
+ "lead_in": "Хариулт нь",
+ "t_first_position": {
+  "add/list": "first",
+  "add/other_time": "middle",
+  "add/diff_owner": "last",
+  "sub/list": "middle",
+  "sub/other_time": "last",
+  "sub/diff_owner": "first",
+  "mul/list": "last",
+  "mul/other_time": "first",
+  "mul/diff_owner": "middle",
+  "div/list": "first",
+  "div/other_time": "middle",
+  "div/diff_owner": "last"
+ },
+ "forms": {
+  "add/list": "F5",
+  "add/other_time": "F6",
+  "add/diff_owner": "F7",
+  "sub/list": "F0",
+  "sub/other_time": "F1",
+  "sub/diff_owner": "F2",
+  "mul/list": "F3",
+  "mul/other_time": "F4",
+  "mul/diff_owner": "F5",
+  "div/list": "F6",
+  "div/other_time": "F7",
+  "div/diff_owner": "F0"
+ },
+ "cells": [
+  {
+   "cell": "add/list",
+   "op": "add",
+   "shape": "list",
+   "t_first_position": "first",
+   "form": "F5",
+   "form_name": "casual"
+  },
+  {
+   "cell": "add/other_time",
+   "op": "add",
+   "shape": "other_time",
+   "t_first_position": "middle",
+   "form": "F6",
+   "form_name": "fill_blank"
+  },
+  {
+   "cell": "add/diff_owner",
+   "op": "add",
+   "shape": "diff_owner",
+   "t_first_position": "last",
+   "form": "F7",
+   "form_name": "dialogue"
+  },
+  {
+   "cell": "sub/list",
+   "op": "sub",
+   "shape": "list",
+   "t_first_position": "middle",
+   "form": "F0",
+   "form_name": "plain"
+  },
+  {
+   "cell": "sub/other_time",
+   "op": "sub",
+   "shape": "other_time",
+   "t_first_position": "last",
+   "form": "F1",
+   "form_name": "question_first"
+  },
+  {
+   "cell": "sub/diff_owner",
+   "op": "sub",
+   "shape": "diff_owner",
+   "t_first_position": "first",
+   "form": "F2",
+   "form_name": "imperative"
+  },
+  {
+   "cell": "mul/list",
+   "op": "mul",
+   "shape": "list",
+   "t_first_position": "last",
+   "form": "F3",
+   "form_name": "conditional"
+  },
+  {
+   "cell": "mul/other_time",
+   "op": "mul",
+   "shape": "other_time",
+   "t_first_position": "first",
+   "form": "F4",
+   "form_name": "indirect"
+  },
+  {
+   "cell": "mul/diff_owner",
+   "op": "mul",
+   "shape": "diff_owner",
+   "t_first_position": "middle",
+   "form": "F5",
+   "form_name": "casual"
+  },
+  {
+   "cell": "div/list",
+   "op": "div",
+   "shape": "list",
+   "t_first_position": "first",
+   "form": "F6",
+   "form_name": "fill_blank"
+  },
+  {
+   "cell": "div/other_time",
+   "op": "div",
+   "shape": "other_time",
+   "t_first_position": "middle",
+   "form": "F7",
+   "form_name": "dialogue"
+  },
+  {
+   "cell": "div/diff_owner",
+   "op": "div",
+   "shape": "diff_owner",
+   "t_first_position": "last",
+   "form": "F0",
+   "form_name": "plain"
+  }
+ ],
+ "templates": 12,
+ "output_file": "writers/mn/W5X-mn-u585.json",
+ "story_ids": [
+  58501,
+  58512
+ ],
+ "language_notes": {
+  "script": "Cyrillic",
+  "digits": "ASCII digits are filled into every slot, with no grouping, as in v3_61 (1024/1024 of its mn rows used ASCII digits only). You write no digit at all, of any script.",
+  "punctuation": "End statements with . and questions with ? (the usual Mongolian punctuation).",
+  "agreement": "A noun after a numeral stays singular: invariant.",
+  "number_words": "the validator lists: хоёр гурав дөрөв зургаа долоо найм ес арав мянга хагас",
+  "file_check": [
+   "no ө / ү anywhere: reads as Russian, not Mongolian",
+   "Kazakh letters in a Mongolian file"
+  ],
+  "flagged": false
+ }
+}

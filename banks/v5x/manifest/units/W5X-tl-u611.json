@@ -1,0 +1,158 @@
+{
+ "uid": "W5X-tl-u611",
+ "lang": "tl",
+ "language": "Filipino (Tagalog)",
+ "unit": 611,
+ "k": 3,
+ "chunk": "C5",
+ "slice": "S02",
+ "slice_title": "farms and orchards",
+ "half": 1,
+ "topics": [
+  "grain_fields",
+  "beekeeping",
+  "greenhouse"
+ ],
+ "lead_in": "Ang sagot ay",
+ "t_first_position": {
+  "add/list": "last",
+  "add/other_time": "first",
+  "add/diff_owner": "middle",
+  "sub/list": "first",
+  "sub/other_time": "middle",
+  "sub/diff_owner": "last",
+  "mul/list": "middle",
+  "mul/other_time": "last",
+  "mul/diff_owner": "first",
+  "div/list": "last",
+  "div/other_time": "first",
+  "div/diff_owner": "middle"
+ },
+ "forms": {
+  "add/list": "F7",
+  "add/other_time": "F0",
+  "add/diff_owner": "F1",
+  "sub/list": "F2",
+  "sub/other_time": "F3",
+  "sub/diff_owner": "F4",
+  "mul/list": "F5",
+  "mul/other_time": "F6",
+  "mul/diff_owner": "F7",
+  "div/list": "F0",
+  "div/other_time": "F1",
+  "div/diff_owner": "F2"
+ },
+ "cells": [
+  {
+   "cell": "add/list",
+   "op": "add",
+   "shape": "list",
+   "t_first_position": "last",
+   "form": "F7",
+   "form_name": "dialogue"
+  },
+  {
+   "cell": "add/other_time",
+   "op": "add",
+   "shape": "other_time",
+   "t_first_position": "first",
+   "form": "F0",
+   "form_name": "plain"
+  },
+  {
+   "cell": "add/diff_owner",
+   "op": "add",
+   "shape": "diff_owner",
+   "t_first_position": "middle",
+   "form": "F1",
+   "form_name": "question_first"
+  },
+  {
+   "cell": "sub/list",
+   "op": "sub",
+   "shape": "list",
+   "t_first_position": "first",
+   "form": "F2",
+   "form_name": "imperative"
+  },
+  {
+   "cell": "sub/other_time",
+   "op": "sub",
+   "shape": "other_time",
+   "t_first_position": "middle",
+   "form": "F3",
+   "form_name": "conditional"
+  },
+  {
+   "cell": "sub/diff_owner",
+   "op": "sub",
+   "shape": "diff_owner",
+   "t_first_position": "last",
+   "form": "F4",
+   "form_name": "indirect"
+  },
+  {
+   "cell": "mul/list",
+   "op": "mul",
+   "shape": "list",
+   "t_first_position": "middle",
+   "form": "F5",
+   "form_name": "casual"
+  },
+  {
+   "cell": "mul/other_time",
+   "op": "mul",
+   "shape": "other_time",
+   "t_first_position": "last",
+   "form": "F6",
+   "form_name": "fill_blank"
+  },
+  {
+   "cell": "mul/diff_owner",
+   "op": "mul",
+   "shape": "diff_owner",
+   "t_first_position": "first",
+   "form": "F7",
+   "form_name": "dialogue"
+  },
+  {
+   "cell": "div/list",
+   "op": "div",
+   "shape": "list",
+   "t_first_position": "last",
+   "form": "F0",
+   "form_name": "plain"
+  },
+  {
+   "cell": "div/other_time",
+   "op": "div",
+   "shape": "other_time",
+   "t_first_position": "first",
+   "form": "F1",
+   "form_name": "question_first"
+  },
+  {
+   "cell": "div/diff_owner",
+   "op": "div",
+   "shape": "diff_owner",
+   "t_first_position": "middle",
+   "form": "F2",
+   "form_name": "imperative"
+  }
+ ],
+ "templates": 12,
+ "output_file": "writers/tl/W5X-tl-u611.json",
+ "story_ids": [
+  61101,
+  61112
+ ],
+ "language_notes": {
+  "script": "Latin",
+  "digits": "ASCII digits are filled into every slot, with no grouping, as in v3_61 (1920/1920 of its tl rows used ASCII digits only). You write no digit at all, of any script.",
+  "punctuation": "End statements with . and questions with ? (the usual Filipino (Tagalog) punctuation).",
+  "agreement": "The linker -ng / na after a spoken numeral depends on the number: write \"{M} kilo ng ...\" / \"{M} piraso ng ...\" with no linker attached to the slot, or declare number_dependent.",
+  "number_words": "the validator lists: dalawa dalawang tatlo tatlong apat lima limang anim siyam walo sampu sampung isandaan sandaan libo kalahati doble",
+  "file_check": [],
+  "flagged": false
+ }
+}

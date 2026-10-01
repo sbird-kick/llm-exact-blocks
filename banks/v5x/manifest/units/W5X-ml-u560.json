@@ -1,0 +1,158 @@
+{
+ "uid": "W5X-ml-u560",
+ "lang": "ml",
+ "language": "Malayalam",
+ "unit": 560,
+ "k": 4,
+ "chunk": "C3",
+ "slice": "S02",
+ "slice_title": "farms and orchards",
+ "half": 0,
+ "topics": [
+  "dairy",
+  "orchard_harvest",
+  "poultry"
+ ],
+ "lead_in": "ഉത്തരം:",
+ "t_first_position": {
+  "add/list": "last",
+  "add/other_time": "first",
+  "add/diff_owner": "middle",
+  "sub/list": "first",
+  "sub/other_time": "middle",
+  "sub/diff_owner": "last",
+  "mul/list": "middle",
+  "mul/other_time": "last",
+  "mul/diff_owner": "first",
+  "div/list": "last",
+  "div/other_time": "first",
+  "div/diff_owner": "middle"
+ },
+ "forms": {
+  "add/list": "F4",
+  "add/other_time": "F5",
+  "add/diff_owner": "F6",
+  "sub/list": "F7",
+  "sub/other_time": "F0",
+  "sub/diff_owner": "F1",
+  "mul/list": "F2",
+  "mul/other_time": "F3",
+  "mul/diff_owner": "F4",
+  "div/list": "F5",
+  "div/other_time": "F6",
+  "div/diff_owner": "F7"
+ },
+ "cells": [
+  {
+   "cell": "add/list",
+   "op": "add",
+   "shape": "list",
+   "t_first_position": "last",
+   "form": "F4",
+   "form_name": "indirect"
+  },
+  {
+   "cell": "add/other_time",
+   "op": "add",
+   "shape": "other_time",
+   "t_first_position": "first",
+   "form": "F5",
+   "form_name": "casual"
+  },
+  {
+   "cell": "add/diff_owner",
+   "op": "add",
+   "shape": "diff_owner",
+   "t_first_position": "middle",
+   "form": "F6",
+   "form_name": "fill_blank"
+  },
+  {
+   "cell": "sub/list",
+   "op": "sub",
+   "shape": "list",
+   "t_first_position": "first",
+   "form": "F7",
+   "form_name": "dialogue"
+  },
+  {
+   "cell": "sub/other_time",
+   "op": "sub",
+   "shape": "other_time",
+   "t_first_position": "middle",
+   "form": "F0",
+   "form_name": "plain"
+  },
+  {
+   "cell": "sub/diff_owner",
+   "op": "sub",
+   "shape": "diff_owner",
+   "t_first_position": "last",
+   "form": "F1",
+   "form_name": "question_first"
+  },
+  {
+   "cell": "mul/list",
+   "op": "mul",
+   "shape": "list",
+   "t_first_position": "middle",
+   "form": "F2",
+   "form_name": "imperative"
+  },
+  {
+   "cell": "mul/other_time",
+   "op": "mul",
+   "shape": "other_time",
+   "t_first_position": "last",
+   "form": "F3",
+   "form_name": "conditional"
+  },
+  {
+   "cell": "mul/diff_owner",
+   "op": "mul",
+   "shape": "diff_owner",
+   "t_first_position": "first",
+   "form": "F4",
+   "form_name": "indirect"
+  },
+  {
+   "cell": "div/list",
+   "op": "div",
+   "shape": "list",
+   "t_first_position": "last",
+   "form": "F5",
+   "form_name": "casual"
+  },
+  {
+   "cell": "div/other_time",
+   "op": "div",
+   "shape": "other_time",
+   "t_first_position": "first",
+   "form": "F6",
+   "form_name": "fill_blank"
+  },
+  {
+   "cell": "div/diff_owner",
+   "op": "div",
+   "shape": "diff_owner",
+   "t_first_position": "middle",
+   "form": "F7",
+   "form_name": "dialogue"
+  }
+ ],
+ "templates": 12,
+ "output_file": "writers/ml/W5X-ml-u560.json",
+ "story_ids": [
+  56001,
+  56012
+ ],
+ "language_notes": {
+  "script": "Malayalam",
+  "digits": "ASCII digits are filled into every slot, with no grouping, as in v3_61 (1408/1408 of its ml rows used ASCII digits only). You write no digit at all, of any script.",
+  "punctuation": "End statements with . and questions with ? (the usual Malayalam punctuation).",
+  "agreement": "A noun after a numeral is singular after 1 and plural otherwise in many of these languages: prefer a unit abbreviation, a counter or a label and a colon, or declare number_dependent (at most 2 of 12).",
+  "number_words": "the validator lists: രണ്ട് മൂന്ന് നാല് അഞ്ച് ഏഴ് എട്ട് ഒൻപത് പത്ത് നൂറ് ആയിരം പകുതി",
+  "file_check": [],
+  "flagged": false
+ }
+}

@@ -1,0 +1,158 @@
+{
+ "uid": "W5X-km-u630",
+ "lang": "km",
+ "language": "Khmer",
+ "unit": 630,
+ "k": 2,
+ "chunk": "C6",
+ "slice": "S23",
+ "slice_title": "geography and population",
+ "half": 0,
+ "topics": [
+  "city_population",
+  "mountain_heights",
+  "river_lengths"
+ ],
+ "lead_in": "ចម្លើយគឺ",
+ "t_first_position": {
+  "add/list": "first",
+  "add/other_time": "middle",
+  "add/diff_owner": "last",
+  "sub/list": "middle",
+  "sub/other_time": "last",
+  "sub/diff_owner": "first",
+  "mul/list": "last",
+  "mul/other_time": "first",
+  "mul/diff_owner": "middle",
+  "div/list": "first",
+  "div/other_time": "middle",
+  "div/diff_owner": "last"
+ },
+ "forms": {
+  "add/list": "F2",
+  "add/other_time": "F3",
+  "add/diff_owner": "F4",
+  "sub/list": "F5",
+  "sub/other_time": "F6",
+  "sub/diff_owner": "F7",
+  "mul/list": "F0",
+  "mul/other_time": "F1",
+  "mul/diff_owner": "F2",
+  "div/list": "F3",
+  "div/other_time": "F4",
+  "div/diff_owner": "F5"
+ },
+ "cells": [
+  {
+   "cell": "add/list",
+   "op": "add",
+   "shape": "list",
+   "t_first_position": "first",
+   "form": "F2",
+   "form_name": "imperative"
+  },
+  {
+   "cell": "add/other_time",
+   "op": "add",
+   "shape": "other_time",
+   "t_first_position": "middle",
+   "form": "F3",
+   "form_name": "conditional"
+  },
+  {
+   "cell": "add/diff_owner",
+   "op": "add",
+   "shape": "diff_owner",
+   "t_first_position": "last",
+   "form": "F4",
+   "form_name": "indirect"
+  },
+  {
+   "cell": "sub/list",
+   "op": "sub",
+   "shape": "list",
+   "t_first_position": "middle",
+   "form": "F5",
+   "form_name": "casual"
+  },
+  {
+   "cell": "sub/other_time",
+   "op": "sub",
+   "shape": "other_time",
+   "t_first_position": "last",
+   "form": "F6",
+   "form_name": "fill_blank"
+  },
+  {
+   "cell": "sub/diff_owner",
+   "op": "sub",
+   "shape": "diff_owner",
+   "t_first_position": "first",
+   "form": "F7",
+   "form_name": "dialogue"
+  },
+  {
+   "cell": "mul/list",
+   "op": "mul",
+   "shape": "list",
+   "t_first_position": "last",
+   "form": "F0",
+   "form_name": "plain"
+  },
+  {
+   "cell": "mul/other_time",
+   "op": "mul",
+   "shape": "other_time",
+   "t_first_position": "first",
+   "form": "F1",
+   "form_name": "question_first"
+  },
+  {
+   "cell": "mul/diff_owner",
+   "op": "mul",
+   "shape": "diff_owner",
+   "t_first_position": "middle",
+   "form": "F2",
+   "form_name": "imperative"
+  },
+  {
+   "cell": "div/list",
+   "op": "div",
+   "shape": "list",
+   "t_first_position": "first",
+   "form": "F3",
+   "form_name": "conditional"
+  },
+  {
+   "cell": "div/other_time",
+   "op": "div",
+   "shape": "other_time",
+   "t_first_position": "middle",
+   "form": "F4",
+   "form_name": "indirect"
+  },
+  {
+   "cell": "div/diff_owner",
+   "op": "div",
+   "shape": "diff_owner",
+   "t_first_position": "last",
+   "form": "F5",
+   "form_name": "casual"
+  }
+ ],
+ "templates": 12,
+ "output_file": "writers/km/W5X-km-u630.json",
+ "story_ids": [
+  63001,
+  63012
+ ],
+ "language_notes": {
+  "script": "Khmer",
+  "digits": "ASCII digits are filled into every slot, with no grouping, as in v3_61 (1216/1216 of its km rows used ASCII digits only). You write no digit at all, of any script.",
+  "punctuation": "End statements with ។ and questions with ? (or a question word + ។).",
+  "agreement": "Noun + {M} + classifier: invariant.",
+  "number_words": "the validator has no list for km; the blind verifier flags any number word, ordinal, date or clock time",
+  "file_check": [],
+  "flagged": true
+ }
+}

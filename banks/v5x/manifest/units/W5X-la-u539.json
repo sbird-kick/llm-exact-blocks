@@ -1,0 +1,158 @@
+{
+ "uid": "W5X-la-u539",
+ "lang": "la",
+ "language": "Latin",
+ "unit": 539,
+ "k": 3,
+ "chunk": "C2",
+ "slice": "S17",
+ "slice_title": "animals and reserves",
+ "half": 1,
+ "topics": [
+  "animal_shelter",
+  "wildlife_park",
+  "insect_survey"
+ ],
+ "lead_in": "Responsum est",
+ "t_first_position": {
+  "add/list": "last",
+  "add/other_time": "first",
+  "add/diff_owner": "middle",
+  "sub/list": "first",
+  "sub/other_time": "middle",
+  "sub/diff_owner": "last",
+  "mul/list": "middle",
+  "mul/other_time": "last",
+  "mul/diff_owner": "first",
+  "div/list": "last",
+  "div/other_time": "first",
+  "div/diff_owner": "middle"
+ },
+ "forms": {
+  "add/list": "F5",
+  "add/other_time": "F6",
+  "add/diff_owner": "F7",
+  "sub/list": "F0",
+  "sub/other_time": "F1",
+  "sub/diff_owner": "F2",
+  "mul/list": "F3",
+  "mul/other_time": "F4",
+  "mul/diff_owner": "F5",
+  "div/list": "F6",
+  "div/other_time": "F7",
+  "div/diff_owner": "F0"
+ },
+ "cells": [
+  {
+   "cell": "add/list",
+   "op": "add",
+   "shape": "list",
+   "t_first_position": "last",
+   "form": "F5",
+   "form_name": "casual"
+  },
+  {
+   "cell": "add/other_time",
+   "op": "add",
+   "shape": "other_time",
+   "t_first_position": "first",
+   "form": "F6",
+   "form_name": "fill_blank"
+  },
+  {
+   "cell": "add/diff_owner",
+   "op": "add",
+   "shape": "diff_owner",
+   "t_first_position": "middle",
+   "form": "F7",
+   "form_name": "dialogue"
+  },
+  {
+   "cell": "sub/list",
+   "op": "sub",
+   "shape": "list",
+   "t_first_position": "first",
+   "form": "F0",
+   "form_name": "plain"
+  },
+  {
+   "cell": "sub/other_time",
+   "op": "sub",
+   "shape": "other_time",
+   "t_first_position": "middle",
+   "form": "F1",
+   "form_name": "question_first"
+  },
+  {
+   "cell": "sub/diff_owner",
+   "op": "sub",
+   "shape": "diff_owner",
+   "t_first_position": "last",
+   "form": "F2",
+   "form_name": "imperative"
+  },
+  {
+   "cell": "mul/list",
+   "op": "mul",
+   "shape": "list",
+   "t_first_position": "middle",
+   "form": "F3",
+   "form_name": "conditional"
+  },
+  {
+   "cell": "mul/other_time",
+   "op": "mul",
+   "shape": "other_time",
+   "t_first_position": "last",
+   "form": "F4",
+   "form_name": "indirect"
+  },
+  {
+   "cell": "mul/diff_owner",
+   "op": "mul",
+   "shape": "diff_owner",
+   "t_first_position": "first",
+   "form": "F5",
+   "form_name": "casual"
+  },
+  {
+   "cell": "div/list",
+   "op": "div",
+   "shape": "list",
+   "t_first_position": "last",
+   "form": "F6",
+   "form_name": "fill_blank"
+  },
+  {
+   "cell": "div/other_time",
+   "op": "div",
+   "shape": "other_time",
+   "t_first_position": "first",
+   "form": "F7",
+   "form_name": "dialogue"
+  },
+  {
+   "cell": "div/diff_owner",
+   "op": "div",
+   "shape": "diff_owner",
+   "t_first_position": "middle",
+   "form": "F0",
+   "form_name": "plain"
+  }
+ ],
+ "templates": 12,
+ "output_file": "writers/la/W5X-la-u539.json",
+ "story_ids": [
+  53901,
+  53912
+ ],
+ "language_notes": {
+  "script": "Latin",
+  "digits": "ASCII digits are filled into every slot, with no grouping, as in v3_61 (1152/1152 of its la rows used ASCII digits only). You write no digit at all, of any script.",
+  "punctuation": "End statements with . and questions with ? (the usual Latin punctuation).",
+  "agreement": "Nouns after a numeral agree (1 singular, else plural; thousands take the genitive): prefer \"numerus X est {M}\" style labels, unit abbreviations, or declare number_dependent. Keep scenes that a Latin writer can say without neologisms; F5 casual = the informal register of a letter.",
+  "number_words": "the validator lists: duo duae tres tria quattuor quinque sex septem octo novem decem centum mille dimidium duplex bis ter",
+  "file_check": [],
+  "flagged": false
+ }
+}

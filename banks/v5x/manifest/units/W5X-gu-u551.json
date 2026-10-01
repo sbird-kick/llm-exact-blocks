@@ -1,0 +1,158 @@
+{
+ "uid": "W5X-gu-u551",
+ "lang": "gu",
+ "language": "Gujarati",
+ "unit": 551,
+ "k": 3,
+ "chunk": "C3",
+ "slice": "S19",
+ "slice_title": "building and mining",
+ "half": 0,
+ "topics": [
+  "construction_site",
+  "bricklaying",
+  "quarry"
+ ],
+ "lead_in": "જવાબ:",
+ "t_first_position": {
+  "add/list": "last",
+  "add/other_time": "first",
+  "add/diff_owner": "middle",
+  "sub/list": "first",
+  "sub/other_time": "middle",
+  "sub/diff_owner": "last",
+  "mul/list": "middle",
+  "mul/other_time": "last",
+  "mul/diff_owner": "first",
+  "div/list": "last",
+  "div/other_time": "first",
+  "div/diff_owner": "middle"
+ },
+ "forms": {
+  "add/list": "F0",
+  "add/other_time": "F1",
+  "add/diff_owner": "F2",
+  "sub/list": "F3",
+  "sub/other_time": "F4",
+  "sub/diff_owner": "F5",
+  "mul/list": "F6",
+  "mul/other_time": "F7",
+  "mul/diff_owner": "F0",
+  "div/list": "F1",
+  "div/other_time": "F2",
+  "div/diff_owner": "F3"
+ },
+ "cells": [
+  {
+   "cell": "add/list",
+   "op": "add",
+   "shape": "list",
+   "t_first_position": "last",
+   "form": "F0",
+   "form_name": "plain"
+  },
+  {
+   "cell": "add/other_time",
+   "op": "add",
+   "shape": "other_time",
+   "t_first_position": "first",
+   "form": "F1",
+   "form_name": "question_first"
+  },
+  {
+   "cell": "add/diff_owner",
+   "op": "add",
+   "shape": "diff_owner",
+   "t_first_position": "middle",
+   "form": "F2",
+   "form_name": "imperative"
+  },
+  {
+   "cell": "sub/list",
+   "op": "sub",
+   "shape": "list",
+   "t_first_position": "first",
+   "form": "F3",
+   "form_name": "conditional"
+  },
+  {
+   "cell": "sub/other_time",
+   "op": "sub",
+   "shape": "other_time",
+   "t_first_position": "middle",
+   "form": "F4",
+   "form_name": "indirect"
+  },
+  {
+   "cell": "sub/diff_owner",
+   "op": "sub",
+   "shape": "diff_owner",
+   "t_first_position": "last",
+   "form": "F5",
+   "form_name": "casual"
+  },
+  {
+   "cell": "mul/list",
+   "op": "mul",
+   "shape": "list",
+   "t_first_position": "middle",
+   "form": "F6",
+   "form_name": "fill_blank"
+  },
+  {
+   "cell": "mul/other_time",
+   "op": "mul",
+   "shape": "other_time",
+   "t_first_position": "last",
+   "form": "F7",
+   "form_name": "dialogue"
+  },
+  {
+   "cell": "mul/diff_owner",
+   "op": "mul",
+   "shape": "diff_owner",
+   "t_first_position": "first",
+   "form": "F0",
+   "form_name": "plain"
+  },
+  {
+   "cell": "div/list",
+   "op": "div",
+   "shape": "list",
+   "t_first_position": "last",
+   "form": "F1",
+   "form_name": "question_first"
+  },
+  {
+   "cell": "div/other_time",
+   "op": "div",
+   "shape": "other_time",
+   "t_first_position": "first",
+   "form": "F2",
+   "form_name": "imperative"
+  },
+  {
+   "cell": "div/diff_owner",
+   "op": "div",
+   "shape": "diff_owner",
+   "t_first_position": "middle",
+   "form": "F3",
+   "form_name": "conditional"
+  }
+ ],
+ "templates": 12,
+ "output_file": "writers/gu/W5X-gu-u551.json",
+ "story_ids": [
+  55101,
+  55112
+ ],
+ "language_notes": {
+  "script": "Gujarati",
+  "digits": "ASCII digits are filled into every slot, with no grouping, as in v3_61 (1280/1280 of its gu rows used ASCII digits only). You write no digit at all, of any script.",
+  "punctuation": "End statements with . and questions with ? (the usual Gujarati punctuation).",
+  "agreement": "A noun after a numeral is singular after 1 and plural otherwise in many of these languages: prefer a unit abbreviation, a counter or a label and a colon, or declare number_dependent (at most 2 of 12).",
+  "number_words": "the validator lists: બે ત્રણ ચાર પાંચ સાત આઠ દસ સો હજાર અડધું અડધો અડધી અડધા બમણું",
+  "file_check": [],
+  "flagged": false
+ }
+}

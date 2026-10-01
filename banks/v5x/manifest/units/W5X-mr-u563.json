@@ -1,0 +1,158 @@
+{
+ "uid": "W5X-mr-u563",
+ "lang": "mr",
+ "language": "Marathi",
+ "unit": 563,
+ "k": 3,
+ "chunk": "C3",
+ "slice": "S20",
+ "slice_title": "post and delivery",
+ "half": 1,
+ "topics": [
+  "delivery_vans",
+  "mail_sorting",
+  "drone_delivery"
+ ],
+ "lead_in": "उत्तर:",
+ "t_first_position": {
+  "add/list": "last",
+  "add/other_time": "first",
+  "add/diff_owner": "middle",
+  "sub/list": "first",
+  "sub/other_time": "middle",
+  "sub/diff_owner": "last",
+  "mul/list": "middle",
+  "mul/other_time": "last",
+  "mul/diff_owner": "first",
+  "div/list": "last",
+  "div/other_time": "first",
+  "div/diff_owner": "middle"
+ },
+ "forms": {
+  "add/list": "F3",
+  "add/other_time": "F4",
+  "add/diff_owner": "F5",
+  "sub/list": "F6",
+  "sub/other_time": "F7",
+  "sub/diff_owner": "F0",
+  "mul/list": "F1",
+  "mul/other_time": "F2",
+  "mul/diff_owner": "F3",
+  "div/list": "F4",
+  "div/other_time": "F5",
+  "div/diff_owner": "F6"
+ },
+ "cells": [
+  {
+   "cell": "add/list",
+   "op": "add",
+   "shape": "list",
+   "t_first_position": "last",
+   "form": "F3",
+   "form_name": "conditional"
+  },
+  {
+   "cell": "add/other_time",
+   "op": "add",
+   "shape": "other_time",
+   "t_first_position": "first",
+   "form": "F4",
+   "form_name": "indirect"
+  },
+  {
+   "cell": "add/diff_owner",
+   "op": "add",
+   "shape": "diff_owner",
+   "t_first_position": "middle",
+   "form": "F5",
+   "form_name": "casual"
+  },
+  {
+   "cell": "sub/list",
+   "op": "sub",
+   "shape": "list",
+   "t_first_position": "first",
+   "form": "F6",
+   "form_name": "fill_blank"
+  },
+  {
+   "cell": "sub/other_time",
+   "op": "sub",
+   "shape": "other_time",
+   "t_first_position": "middle",
+   "form": "F7",
+   "form_name": "dialogue"
+  },
+  {
+   "cell": "sub/diff_owner",
+   "op": "sub",
+   "shape": "diff_owner",
+   "t_first_position": "last",
+   "form": "F0",
+   "form_name": "plain"
+  },
+  {
+   "cell": "mul/list",
+   "op": "mul",
+   "shape": "list",
+   "t_first_position": "middle",
+   "form": "F1",
+   "form_name": "question_first"
+  },
+  {
+   "cell": "mul/other_time",
+   "op": "mul",
+   "shape": "other_time",
+   "t_first_position": "last",
+   "form": "F2",
+   "form_name": "imperative"
+  },
+  {
+   "cell": "mul/diff_owner",
+   "op": "mul",
+   "shape": "diff_owner",
+   "t_first_position": "first",
+   "form": "F3",
+   "form_name": "conditional"
+  },
+  {
+   "cell": "div/list",
+   "op": "div",
+   "shape": "list",
+   "t_first_position": "last",
+   "form": "F4",
+   "form_name": "indirect"
+  },
+  {
+   "cell": "div/other_time",
+   "op": "div",
+   "shape": "other_time",
+   "t_first_position": "first",
+   "form": "F5",
+   "form_name": "casual"
+  },
+  {
+   "cell": "div/diff_owner",
+   "op": "div",
+   "shape": "diff_owner",
+   "t_first_position": "middle",
+   "form": "F6",
+   "form_name": "fill_blank"
+  }
+ ],
+ "templates": 12,
+ "output_file": "writers/mr/W5X-mr-u563.json",
+ "story_ids": [
+  56301,
+  56312
+ ],
+ "language_notes": {
+  "script": "Devanagari",
+  "digits": "ASCII digits are filled into every slot, with no grouping, as in v3_61 (1408/1408 of its mr rows used ASCII digits only). You write no digit at all, of any script.",
+  "punctuation": "End statements with . and questions with ?.",
+  "agreement": "A noun after a numeral is singular after 1 and plural otherwise in many of these languages: prefer a unit abbreviation, a counter or a label and a colon, or declare number_dependent (at most 2 of 12).",
+  "number_words": "the validator lists: दोन तीन चार पाच सहा सात आठ नऊ दहा शंभर हजार अर्धा अर्धे अर्धी दुप्पट",
+  "file_check": [],
+  "flagged": false
+ }
+}

@@ -1,0 +1,160 @@
+{
+ "uid": "W5X-yo-u644",
+ "lang": "yo",
+ "language": "Yoruba",
+ "unit": 644,
+ "k": 4,
+ "chunk": "C6",
+ "slice": "S12",
+ "slice_title": "factories and warehouses",
+ "half": 1,
+ "topics": [
+  "quality_control",
+  "bottling_plant",
+  "textile_mill"
+ ],
+ "lead_in": "Ìdáhùn náà ni",
+ "t_first_position": {
+  "add/list": "last",
+  "add/other_time": "first",
+  "add/diff_owner": "middle",
+  "sub/list": "first",
+  "sub/other_time": "middle",
+  "sub/diff_owner": "last",
+  "mul/list": "middle",
+  "mul/other_time": "last",
+  "mul/diff_owner": "first",
+  "div/list": "last",
+  "div/other_time": "first",
+  "div/diff_owner": "middle"
+ },
+ "forms": {
+  "add/list": "F1",
+  "add/other_time": "F2",
+  "add/diff_owner": "F3",
+  "sub/list": "F4",
+  "sub/other_time": "F5",
+  "sub/diff_owner": "F6",
+  "mul/list": "F7",
+  "mul/other_time": "F0",
+  "mul/diff_owner": "F1",
+  "div/list": "F2",
+  "div/other_time": "F3",
+  "div/diff_owner": "F4"
+ },
+ "cells": [
+  {
+   "cell": "add/list",
+   "op": "add",
+   "shape": "list",
+   "t_first_position": "last",
+   "form": "F1",
+   "form_name": "question_first"
+  },
+  {
+   "cell": "add/other_time",
+   "op": "add",
+   "shape": "other_time",
+   "t_first_position": "first",
+   "form": "F2",
+   "form_name": "imperative"
+  },
+  {
+   "cell": "add/diff_owner",
+   "op": "add",
+   "shape": "diff_owner",
+   "t_first_position": "middle",
+   "form": "F3",
+   "form_name": "conditional"
+  },
+  {
+   "cell": "sub/list",
+   "op": "sub",
+   "shape": "list",
+   "t_first_position": "first",
+   "form": "F4",
+   "form_name": "indirect"
+  },
+  {
+   "cell": "sub/other_time",
+   "op": "sub",
+   "shape": "other_time",
+   "t_first_position": "middle",
+   "form": "F5",
+   "form_name": "casual"
+  },
+  {
+   "cell": "sub/diff_owner",
+   "op": "sub",
+   "shape": "diff_owner",
+   "t_first_position": "last",
+   "form": "F6",
+   "form_name": "fill_blank"
+  },
+  {
+   "cell": "mul/list",
+   "op": "mul",
+   "shape": "list",
+   "t_first_position": "middle",
+   "form": "F7",
+   "form_name": "dialogue"
+  },
+  {
+   "cell": "mul/other_time",
+   "op": "mul",
+   "shape": "other_time",
+   "t_first_position": "last",
+   "form": "F0",
+   "form_name": "plain"
+  },
+  {
+   "cell": "mul/diff_owner",
+   "op": "mul",
+   "shape": "diff_owner",
+   "t_first_position": "first",
+   "form": "F1",
+   "form_name": "question_first"
+  },
+  {
+   "cell": "div/list",
+   "op": "div",
+   "shape": "list",
+   "t_first_position": "last",
+   "form": "F2",
+   "form_name": "imperative"
+  },
+  {
+   "cell": "div/other_time",
+   "op": "div",
+   "shape": "other_time",
+   "t_first_position": "first",
+   "form": "F3",
+   "form_name": "conditional"
+  },
+  {
+   "cell": "div/diff_owner",
+   "op": "div",
+   "shape": "diff_owner",
+   "t_first_position": "middle",
+   "form": "F4",
+   "form_name": "indirect"
+  }
+ ],
+ "templates": 12,
+ "output_file": "writers/yo/W5X-yo-u644.json",
+ "story_ids": [
+  64401,
+  64412
+ ],
+ "language_notes": {
+  "script": "Latin",
+  "digits": "ASCII digits are filled into every slot, with no grouping, as in v3_61 (1664/1664 of its yo rows used ASCII digits only). You write no digit at all, of any script.",
+  "punctuation": "End statements with . and questions with ? (the usual Yoruba punctuation).",
+  "agreement": "The numeral follows the noun (ẹyin {M}): invariant.",
+  "number_words": "the validator lists: méjì mẹ́ta mẹ́rin márùn mẹ́fà méje mẹ́jọ mẹ́sàn mẹ́wàá ọgọ́rùn ẹgbẹ̀rún ìdajì",
+  "file_check": [
+   "no dot-below letter (ẹ ọ ṣ) anywhere: write Yoruba with its full orthography"
+  ],
+  "flagged": true
+ }
+}

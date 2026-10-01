@@ -1,0 +1,158 @@
+{
+ "uid": "W5X-bo-u625",
+ "lang": "bo",
+ "language": "Tibetan",
+ "unit": 625,
+ "k": 1,
+ "chunk": "C6",
+ "slice": "S16",
+ "slice_title": "music, theatre and museums",
+ "half": 1,
+ "topics": [
+  "choir",
+  "orchestra",
+  "film_screenings"
+ ],
+ "lead_in": "ལན་ནི",
+ "t_first_position": {
+  "add/list": "middle",
+  "add/other_time": "last",
+  "add/diff_owner": "first",
+  "sub/list": "last",
+  "sub/other_time": "first",
+  "sub/diff_owner": "middle",
+  "mul/list": "first",
+  "mul/other_time": "middle",
+  "mul/diff_owner": "last",
+  "div/list": "middle",
+  "div/other_time": "last",
+  "div/diff_owner": "first"
+ },
+ "forms": {
+  "add/list": "F7",
+  "add/other_time": "F0",
+  "add/diff_owner": "F1",
+  "sub/list": "F2",
+  "sub/other_time": "F3",
+  "sub/diff_owner": "F4",
+  "mul/list": "F5",
+  "mul/other_time": "F6",
+  "mul/diff_owner": "F7",
+  "div/list": "F0",
+  "div/other_time": "F1",
+  "div/diff_owner": "F2"
+ },
+ "cells": [
+  {
+   "cell": "add/list",
+   "op": "add",
+   "shape": "list",
+   "t_first_position": "middle",
+   "form": "F7",
+   "form_name": "dialogue"
+  },
+  {
+   "cell": "add/other_time",
+   "op": "add",
+   "shape": "other_time",
+   "t_first_position": "last",
+   "form": "F0",
+   "form_name": "plain"
+  },
+  {
+   "cell": "add/diff_owner",
+   "op": "add",
+   "shape": "diff_owner",
+   "t_first_position": "first",
+   "form": "F1",
+   "form_name": "question_first"
+  },
+  {
+   "cell": "sub/list",
+   "op": "sub",
+   "shape": "list",
+   "t_first_position": "last",
+   "form": "F2",
+   "form_name": "imperative"
+  },
+  {
+   "cell": "sub/other_time",
+   "op": "sub",
+   "shape": "other_time",
+   "t_first_position": "first",
+   "form": "F3",
+   "form_name": "conditional"
+  },
+  {
+   "cell": "sub/diff_owner",
+   "op": "sub",
+   "shape": "diff_owner",
+   "t_first_position": "middle",
+   "form": "F4",
+   "form_name": "indirect"
+  },
+  {
+   "cell": "mul/list",
+   "op": "mul",
+   "shape": "list",
+   "t_first_position": "first",
+   "form": "F5",
+   "form_name": "casual"
+  },
+  {
+   "cell": "mul/other_time",
+   "op": "mul",
+   "shape": "other_time",
+   "t_first_position": "middle",
+   "form": "F6",
+   "form_name": "fill_blank"
+  },
+  {
+   "cell": "mul/diff_owner",
+   "op": "mul",
+   "shape": "diff_owner",
+   "t_first_position": "last",
+   "form": "F7",
+   "form_name": "dialogue"
+  },
+  {
+   "cell": "div/list",
+   "op": "div",
+   "shape": "list",
+   "t_first_position": "middle",
+   "form": "F0",
+   "form_name": "plain"
+  },
+  {
+   "cell": "div/other_time",
+   "op": "div",
+   "shape": "other_time",
+   "t_first_position": "last",
+   "form": "F1",
+   "form_name": "question_first"
+  },
+  {
+   "cell": "div/diff_owner",
+   "op": "div",
+   "shape": "diff_owner",
+   "t_first_position": "first",
+   "form": "F2",
+   "form_name": "imperative"
+  }
+ ],
+ "templates": 12,
+ "output_file": "writers/bo/W5X-bo-u625.json",
+ "story_ids": [
+  62501,
+  62512
+ ],
+ "language_notes": {
+  "script": "Tibetan",
+  "digits": "ASCII digits are filled into every slot, with no grouping, as in v3_61 (896/896 of its bo rows used ASCII digits only). You write no digit at all, of any script.",
+  "punctuation": "End every sentence with ། (shad) and a question with its question particle + །. A shad also closes clauses, and the generator may insert a sentence after ANY shad between {M} and {S}: put a shad between them only at a real sentence end.",
+  "agreement": "Noun + {M}: invariant.",
+  "number_words": "the validator has no list for bo; the blind verifier flags any number word, ordinal, date or clock time",
+  "file_check": [],
+  "flagged": true
+ }
+}

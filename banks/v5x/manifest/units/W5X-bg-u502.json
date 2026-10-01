@@ -1,0 +1,161 @@
+{
+ "uid": "W5X-bg-u502",
+ "lang": "bg",
+ "language": "Bulgarian",
+ "unit": 502,
+ "k": 2,
+ "chunk": "C1",
+ "slice": "S07",
+ "slice_title": "air and sea travel",
+ "half": 0,
+ "topics": [
+  "airport",
+  "ferry",
+  "harbour"
+ ],
+ "lead_in": "Отговорът е",
+ "t_first_position": {
+  "add/list": "middle",
+  "add/other_time": "last",
+  "add/diff_owner": "first",
+  "sub/list": "last",
+  "sub/other_time": "first",
+  "sub/diff_owner": "middle",
+  "mul/list": "first",
+  "mul/other_time": "middle",
+  "mul/diff_owner": "last",
+  "div/list": "middle",
+  "div/other_time": "last",
+  "div/diff_owner": "first"
+ },
+ "forms": {
+  "add/list": "F2",
+  "add/other_time": "F3",
+  "add/diff_owner": "F4",
+  "sub/list": "F5",
+  "sub/other_time": "F6",
+  "sub/diff_owner": "F7",
+  "mul/list": "F0",
+  "mul/other_time": "F1",
+  "mul/diff_owner": "F2",
+  "div/list": "F3",
+  "div/other_time": "F4",
+  "div/diff_owner": "F5"
+ },
+ "cells": [
+  {
+   "cell": "add/list",
+   "op": "add",
+   "shape": "list",
+   "t_first_position": "middle",
+   "form": "F2",
+   "form_name": "imperative"
+  },
+  {
+   "cell": "add/other_time",
+   "op": "add",
+   "shape": "other_time",
+   "t_first_position": "last",
+   "form": "F3",
+   "form_name": "conditional"
+  },
+  {
+   "cell": "add/diff_owner",
+   "op": "add",
+   "shape": "diff_owner",
+   "t_first_position": "first",
+   "form": "F4",
+   "form_name": "indirect"
+  },
+  {
+   "cell": "sub/list",
+   "op": "sub",
+   "shape": "list",
+   "t_first_position": "last",
+   "form": "F5",
+   "form_name": "casual"
+  },
+  {
+   "cell": "sub/other_time",
+   "op": "sub",
+   "shape": "other_time",
+   "t_first_position": "first",
+   "form": "F6",
+   "form_name": "fill_blank"
+  },
+  {
+   "cell": "sub/diff_owner",
+   "op": "sub",
+   "shape": "diff_owner",
+   "t_first_position": "middle",
+   "form": "F7",
+   "form_name": "dialogue"
+  },
+  {
+   "cell": "mul/list",
+   "op": "mul",
+   "shape": "list",
+   "t_first_position": "first",
+   "form": "F0",
+   "form_name": "plain"
+  },
+  {
+   "cell": "mul/other_time",
+   "op": "mul",
+   "shape": "other_time",
+   "t_first_position": "middle",
+   "form": "F1",
+   "form_name": "question_first"
+  },
+  {
+   "cell": "mul/diff_owner",
+   "op": "mul",
+   "shape": "diff_owner",
+   "t_first_position": "last",
+   "form": "F2",
+   "form_name": "imperative"
+  },
+  {
+   "cell": "div/list",
+   "op": "div",
+   "shape": "list",
+   "t_first_position": "middle",
+   "form": "F3",
+   "form_name": "conditional"
+  },
+  {
+   "cell": "div/other_time",
+   "op": "div",
+   "shape": "other_time",
+   "t_first_position": "last",
+   "form": "F4",
+   "form_name": "indirect"
+  },
+  {
+   "cell": "div/diff_owner",
+   "op": "div",
+   "shape": "diff_owner",
+   "t_first_position": "first",
+   "form": "F5",
+   "form_name": "casual"
+  }
+ ],
+ "templates": 12,
+ "output_file": "writers/bg/W5X-bg-u502.json",
+ "story_ids": [
+  50201,
+  50212
+ ],
+ "language_notes": {
+  "script": "Cyrillic",
+  "digits": "ASCII digits are filled into every slot, with no grouping, as in v3_61 (2048/2048 of its bg rows used ASCII digits only). You write no digit at all, of any script.",
+  "punctuation": "End statements with . and questions with ? (the usual Bulgarian punctuation).",
+  "agreement": "Masculine nouns take the count form after a numeral (5 стола) but the singular after 1: prefer a unit abbreviation (кг, л, лв.), a label and a colon, or declare number_dependent.",
+  "number_words": "the validator lists: два две три четири пет шест седем осем девет десет сто хиляда хиляди половин половина двойно дузина",
+  "file_check": [
+   "no ъ anywhere: reads as Serbian or Russian, not Bulgarian",
+   "letters of Russian / Serbian / Ukrainian in a Bulgarian file"
+  ],
+  "flagged": false
+ }
+}

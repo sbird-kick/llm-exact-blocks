@@ -34,3 +34,6 @@ banks/v5/clean/*.json
 banks/subrole/bank/
 banks/subrole_g3/bank/
 banks/divrole2/bank/
+# bank v5x (partial): the generated rows and the joined clean file (python banks/make_v5x.py)
+banks/v5x/bank/
+banks/v5x/clean/*.json

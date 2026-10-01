@@ -1,0 +1,158 @@
+{
+ "uid": "W5X-gu-u552",
+ "lang": "gu",
+ "language": "Gujarati",
+ "unit": 552,
+ "k": 4,
+ "chunk": "C3",
+ "slice": "S01",
+ "slice_title": "kitchens and bakeries",
+ "half": 0,
+ "topics": [
+  "bread_and_pastry",
+  "restaurant_kitchen",
+  "school_canteen"
+ ],
+ "lead_in": "જવાબ:",
+ "t_first_position": {
+  "add/list": "first",
+  "add/other_time": "middle",
+  "add/diff_owner": "last",
+  "sub/list": "middle",
+  "sub/other_time": "last",
+  "sub/diff_owner": "first",
+  "mul/list": "last",
+  "mul/other_time": "first",
+  "mul/diff_owner": "middle",
+  "div/list": "first",
+  "div/other_time": "middle",
+  "div/diff_owner": "last"
+ },
+ "forms": {
+  "add/list": "F2",
+  "add/other_time": "F3",
+  "add/diff_owner": "F4",
+  "sub/list": "F5",
+  "sub/other_time": "F6",
+  "sub/diff_owner": "F7",
+  "mul/list": "F0",
+  "mul/other_time": "F1",
+  "mul/diff_owner": "F2",
+  "div/list": "F3",
+  "div/other_time": "F4",
+  "div/diff_owner": "F5"
+ },
+ "cells": [
+  {
+   "cell": "add/list",
+   "op": "add",
+   "shape": "list",
+   "t_first_position": "first",
+   "form": "F2",
+   "form_name": "imperative"
+  },
+  {
+   "cell": "add/other_time",
+   "op": "add",
+   "shape": "other_time",
+   "t_first_position": "middle",
+   "form": "F3",
+   "form_name": "conditional"
+  },
+  {
+   "cell": "add/diff_owner",
+   "op": "add",
+   "shape": "diff_owner",
+   "t_first_position": "last",
+   "form": "F4",
+   "form_name": "indirect"
+  },
+  {
+   "cell": "sub/list",
+   "op": "sub",
+   "shape": "list",
+   "t_first_position": "middle",
+   "form": "F5",
+   "form_name": "casual"
+  },
+  {
+   "cell": "sub/other_time",
+   "op": "sub",
+   "shape": "other_time",
+   "t_first_position": "last",
+   "form": "F6",
+   "form_name": "fill_blank"
+  },
+  {
+   "cell": "sub/diff_owner",
+   "op": "sub",
+   "shape": "diff_owner",
+   "t_first_position": "first",
+   "form": "F7",
+   "form_name": "dialogue"
+  },
+  {
+   "cell": "mul/list",
+   "op": "mul",
+   "shape": "list",
+   "t_first_position": "last",
+   "form": "F0",
+   "form_name": "plain"
+  },
+  {
+   "cell": "mul/other_time",
+   "op": "mul",
+   "shape": "other_time",
+   "t_first_position": "first",
+   "form": "F1",
+   "form_name": "question_first"
+  },
+  {
+   "cell": "mul/diff_owner",
+   "op": "mul",
+   "shape": "diff_owner",
+   "t_first_position": "middle",
+   "form": "F2",
+   "form_name": "imperative"
+  },
+  {
+   "cell": "div/list",
+   "op": "div",
+   "shape": "list",
+   "t_first_position": "first",
+   "form": "F3",
+   "form_name": "conditional"
+  },
+  {
+   "cell": "div/other_time",
+   "op": "div",
+   "shape": "other_time",
+   "t_first_position": "middle",
+   "form": "F4",
+   "form_name": "indirect"
+  },
+  {
+   "cell": "div/diff_owner",
+   "op": "div",
+   "shape": "diff_owner",
+   "t_first_position": "last",
+   "form": "F5",
+   "form_name": "casual"
+  }
+ ],
+ "templates": 12,
+ "output_file": "writers/gu/W5X-gu-u552.json",
+ "story_ids": [
+  55201,
+  55212
+ ],
+ "language_notes": {
+  "script": "Gujarati",
+  "digits": "ASCII digits are filled into every slot, with no grouping, as in v3_61 (1280/1280 of its gu rows used ASCII digits only). You write no digit at all, of any script.",
+  "punctuation": "End statements with . and questions with ? (the usual Gujarati punctuation).",
+  "agreement": "A noun after a numeral is singular after 1 and plural otherwise in many of these languages: prefer a unit abbreviation, a counter or a label and a colon, or declare number_dependent (at most 2 of 12).",
+  "number_words": "the validator lists: બે ત્રણ ચાર પાંચ સાત આઠ દસ સો હજાર અડધું અડધો અડધી અડધા બમણું",
+  "file_check": [],
+  "flagged": false
+ }
+}

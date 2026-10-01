@@ -1,0 +1,160 @@
+{
+ "uid": "W5X-is-u535",
+ "lang": "is",
+ "language": "Icelandic",
+ "unit": 535,
+ "k": 3,
+ "chunk": "C2",
+ "slice": "S17",
+ "slice_title": "animals and reserves",
+ "half": 0,
+ "topics": [
+  "zoo",
+  "bird_count",
+  "aquarium"
+ ],
+ "lead_in": "Svarið er",
+ "t_first_position": {
+  "add/list": "middle",
+  "add/other_time": "last",
+  "add/diff_owner": "first",
+  "sub/list": "last",
+  "sub/other_time": "first",
+  "sub/diff_owner": "middle",
+  "mul/list": "first",
+  "mul/other_time": "middle",
+  "mul/diff_owner": "last",
+  "div/list": "middle",
+  "div/other_time": "last",
+  "div/diff_owner": "first"
+ },
+ "forms": {
+  "add/list": "F4",
+  "add/other_time": "F5",
+  "add/diff_owner": "F6",
+  "sub/list": "F7",
+  "sub/other_time": "F0",
+  "sub/diff_owner": "F1",
+  "mul/list": "F2",
+  "mul/other_time": "F3",
+  "mul/diff_owner": "F4",
+  "div/list": "F5",
+  "div/other_time": "F6",
+  "div/diff_owner": "F7"
+ },
+ "cells": [
+  {
+   "cell": "add/list",
+   "op": "add",
+   "shape": "list",
+   "t_first_position": "middle",
+   "form": "F4",
+   "form_name": "indirect"
+  },
+  {
+   "cell": "add/other_time",
+   "op": "add",
+   "shape": "other_time",
+   "t_first_position": "last",
+   "form": "F5",
+   "form_name": "casual"
+  },
+  {
+   "cell": "add/diff_owner",
+   "op": "add",
+   "shape": "diff_owner",
+   "t_first_position": "first",
+   "form": "F6",
+   "form_name": "fill_blank"
+  },
+  {
+   "cell": "sub/list",
+   "op": "sub",
+   "shape": "list",
+   "t_first_position": "last",
+   "form": "F7",
+   "form_name": "dialogue"
+  },
+  {
+   "cell": "sub/other_time",
+   "op": "sub",
+   "shape": "other_time",
+   "t_first_position": "first",
+   "form": "F0",
+   "form_name": "plain"
+  },
+  {
+   "cell": "sub/diff_owner",
+   "op": "sub",
+   "shape": "diff_owner",
+   "t_first_position": "middle",
+   "form": "F1",
+   "form_name": "question_first"
+  },
+  {
+   "cell": "mul/list",
+   "op": "mul",
+   "shape": "list",
+   "t_first_position": "first",
+   "form": "F2",
+   "form_name": "imperative"
+  },
+  {
+   "cell": "mul/other_time",
+   "op": "mul",
+   "shape": "other_time",
+   "t_first_position": "middle",
+   "form": "F3",
+   "form_name": "conditional"
+  },
+  {
+   "cell": "mul/diff_owner",
+   "op": "mul",
+   "shape": "diff_owner",
+   "t_first_position": "last",
+   "form": "F4",
+   "form_name": "indirect"
+  },
+  {
+   "cell": "div/list",
+   "op": "div",
+   "shape": "list",
+   "t_first_position": "middle",
+   "form": "F5",
+   "form_name": "casual"
+  },
+  {
+   "cell": "div/other_time",
+   "op": "div",
+   "shape": "other_time",
+   "t_first_position": "last",
+   "form": "F6",
+   "form_name": "fill_blank"
+  },
+  {
+   "cell": "div/diff_owner",
+   "op": "div",
+   "shape": "diff_owner",
+   "t_first_position": "first",
+   "form": "F7",
+   "form_name": "dialogue"
+  }
+ ],
+ "templates": 12,
+ "output_file": "writers/is/W5X-is-u535.json",
+ "story_ids": [
+  53501,
+  53512
+ ],
+ "language_notes": {
+  "script": "Latin",
+  "digits": "ASCII digits are filled into every slot, with no grouping, as in v3_61 (1664/1664 of its is rows used ASCII digits only). You write no digit at all, of any script.",
+  "punctuation": "End statements with . and questions with ? (the usual Icelandic punctuation).",
+  "agreement": "1 / 21 ... (not 11) agree in the singular, everything else plural: prefer a unit abbreviation (kg, l, kr.), a label and a colon, or declare number_dependent.",
+  "number_words": "the validator lists: tveir tvær tvö þrír þrjár þrjú fjórir fjórar fjögur fimm sex sjö átta níu tíu hundrað þúsund helmingur tvöfalt",
+  "file_check": [
+   "no þ / ð / æ anywhere: not Icelandic"
+  ],
+  "flagged": false
+ }
+}

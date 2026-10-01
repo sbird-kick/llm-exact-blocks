@@ -1,0 +1,161 @@
+{
+ "uid": "W5X-sr-u521",
+ "lang": "sr",
+ "language": "Serbian",
+ "unit": 521,
+ "k": 1,
+ "chunk": "C1",
+ "slice": "S03",
+ "slice_title": "schools and learning",
+ "half": 1,
+ "topics": [
+  "homework",
+  "science_fair",
+  "school_library_corner"
+ ],
+ "lead_in": "Одговор је",
+ "t_first_position": {
+  "add/list": "last",
+  "add/other_time": "first",
+  "add/diff_owner": "middle",
+  "sub/list": "first",
+  "sub/other_time": "middle",
+  "sub/diff_owner": "last",
+  "mul/list": "middle",
+  "mul/other_time": "last",
+  "mul/diff_owner": "first",
+  "div/list": "last",
+  "div/other_time": "first",
+  "div/diff_owner": "middle"
+ },
+ "forms": {
+  "add/list": "F5",
+  "add/other_time": "F6",
+  "add/diff_owner": "F7",
+  "sub/list": "F0",
+  "sub/other_time": "F1",
+  "sub/diff_owner": "F2",
+  "mul/list": "F3",
+  "mul/other_time": "F4",
+  "mul/diff_owner": "F5",
+  "div/list": "F6",
+  "div/other_time": "F7",
+  "div/diff_owner": "F0"
+ },
+ "cells": [
+  {
+   "cell": "add/list",
+   "op": "add",
+   "shape": "list",
+   "t_first_position": "last",
+   "form": "F5",
+   "form_name": "casual"
+  },
+  {
+   "cell": "add/other_time",
+   "op": "add",
+   "shape": "other_time",
+   "t_first_position": "first",
+   "form": "F6",
+   "form_name": "fill_blank"
+  },
+  {
+   "cell": "add/diff_owner",
+   "op": "add",
+   "shape": "diff_owner",
+   "t_first_position": "middle",
+   "form": "F7",
+   "form_name": "dialogue"
+  },
+  {
+   "cell": "sub/list",
+   "op": "sub",
+   "shape": "list",
+   "t_first_position": "first",
+   "form": "F0",
+   "form_name": "plain"
+  },
+  {
+   "cell": "sub/other_time",
+   "op": "sub",
+   "shape": "other_time",
+   "t_first_position": "middle",
+   "form": "F1",
+   "form_name": "question_first"
+  },
+  {
+   "cell": "sub/diff_owner",
+   "op": "sub",
+   "shape": "diff_owner",
+   "t_first_position": "last",
+   "form": "F2",
+   "form_name": "imperative"
+  },
+  {
+   "cell": "mul/list",
+   "op": "mul",
+   "shape": "list",
+   "t_first_position": "middle",
+   "form": "F3",
+   "form_name": "conditional"
+  },
+  {
+   "cell": "mul/other_time",
+   "op": "mul",
+   "shape": "other_time",
+   "t_first_position": "last",
+   "form": "F4",
+   "form_name": "indirect"
+  },
+  {
+   "cell": "mul/diff_owner",
+   "op": "mul",
+   "shape": "diff_owner",
+   "t_first_position": "first",
+   "form": "F5",
+   "form_name": "casual"
+  },
+  {
+   "cell": "div/list",
+   "op": "div",
+   "shape": "list",
+   "t_first_position": "last",
+   "form": "F6",
+   "form_name": "fill_blank"
+  },
+  {
+   "cell": "div/other_time",
+   "op": "div",
+   "shape": "other_time",
+   "t_first_position": "first",
+   "form": "F7",
+   "form_name": "dialogue"
+  },
+  {
+   "cell": "div/diff_owner",
+   "op": "div",
+   "shape": "diff_owner",
+   "t_first_position": "middle",
+   "form": "F0",
+   "form_name": "plain"
+  }
+ ],
+ "templates": 12,
+ "output_file": "writers/sr/W5X-sr-u521.json",
+ "story_ids": [
+  52101,
+  52112
+ ],
+ "language_notes": {
+  "script": "Cyrillic (write Serbian in Cyrillic, never Latin)",
+  "digits": "ASCII digits are filled into every slot, with no grouping, as in v3_61 (1728/1728 of its sr rows used ASCII digits only). You write no digit at all, of any script.",
+  "punctuation": "End statements with . and questions with ? (the usual Serbian punctuation).",
+  "agreement": "As in Russian: 1 / 21 ... singular, 2-4 paucal, 5+ genitive plural: prefer a unit abbreviation (кг, л, дин.), a label and a colon, or declare number_dependent. Never \"у количини од ...\".",
+  "number_words": "the validator lists: два две три четири пет шест седам осам девет десет хиљаду хиљада половина дупло туце",
+  "file_check": [
+   "no ј anywhere: reads as Bulgarian or Russian, not Serbian (write Serbian in Cyrillic)",
+   "letters of Russian / Bulgarian / Ukrainian in a Serbian file"
+  ],
+  "flagged": false
+ }
+}

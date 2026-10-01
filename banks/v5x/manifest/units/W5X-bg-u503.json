@@ -1,0 +1,161 @@
+{
+ "uid": "W5X-bg-u503",
+ "lang": "bg",
+ "language": "Bulgarian",
+ "unit": 503,
+ "k": 3,
+ "chunk": "C1",
+ "slice": "S13",
+ "slice_title": "health and clinics",
+ "half": 0,
+ "topics": [
+  "clinic_patients",
+  "pharmacy",
+  "blood_bank"
+ ],
+ "lead_in": "Отговорът е",
+ "t_first_position": {
+  "add/list": "last",
+  "add/other_time": "first",
+  "add/diff_owner": "middle",
+  "sub/list": "first",
+  "sub/other_time": "middle",
+  "sub/diff_owner": "last",
+  "mul/list": "middle",
+  "mul/other_time": "last",
+  "mul/diff_owner": "first",
+  "div/list": "last",
+  "div/other_time": "first",
+  "div/diff_owner": "middle"
+ },
+ "forms": {
+  "add/list": "F4",
+  "add/other_time": "F5",
+  "add/diff_owner": "F6",
+  "sub/list": "F7",
+  "sub/other_time": "F0",
+  "sub/diff_owner": "F1",
+  "mul/list": "F2",
+  "mul/other_time": "F3",
+  "mul/diff_owner": "F4",
+  "div/list": "F5",
+  "div/other_time": "F6",
+  "div/diff_owner": "F7"
+ },
+ "cells": [
+  {
+   "cell": "add/list",
+   "op": "add",
+   "shape": "list",
+   "t_first_position": "last",
+   "form": "F4",
+   "form_name": "indirect"
+  },
+  {
+   "cell": "add/other_time",
+   "op": "add",
+   "shape": "other_time",
+   "t_first_position": "first",
+   "form": "F5",
+   "form_name": "casual"
+  },
+  {
+   "cell": "add/diff_owner",
+   "op": "add",
+   "shape": "diff_owner",
+   "t_first_position": "middle",
+   "form": "F6",
+   "form_name": "fill_blank"
+  },
+  {
+   "cell": "sub/list",
+   "op": "sub",
+   "shape": "list",
+   "t_first_position": "first",
+   "form": "F7",
+   "form_name": "dialogue"
+  },
+  {
+   "cell": "sub/other_time",
+   "op": "sub",
+   "shape": "other_time",
+   "t_first_position": "middle",
+   "form": "F0",
+   "form_name": "plain"
+  },
+  {
+   "cell": "sub/diff_owner",
+   "op": "sub",
+   "shape": "diff_owner",
+   "t_first_position": "last",
+   "form": "F1",
+   "form_name": "question_first"
+  },
+  {
+   "cell": "mul/list",
+   "op": "mul",
+   "shape": "list",
+   "t_first_position": "middle",
+   "form": "F2",
+   "form_name": "imperative"
+  },
+  {
+   "cell": "mul/other_time",
+   "op": "mul",
+   "shape": "other_time",
+   "t_first_position": "last",
+   "form": "F3",
+   "form_name": "conditional"
+  },
+  {
+   "cell": "mul/diff_owner",
+   "op": "mul",
+   "shape": "diff_owner",
+   "t_first_position": "first",
+   "form": "F4",
+   "form_name": "indirect"
+  },
+  {
+   "cell": "div/list",
+   "op": "div",
+   "shape": "list",
+   "t_first_position": "last",
+   "form": "F5",
+   "form_name": "casual"
+  },
+  {
+   "cell": "div/other_time",
+   "op": "div",
+   "shape": "other_time",
+   "t_first_position": "first",
+   "form": "F6",
+   "form_name": "fill_blank"
+  },
+  {
+   "cell": "div/diff_owner",
+   "op": "div",
+   "shape": "diff_owner",
+   "t_first_position": "middle",
+   "form": "F7",
+   "form_name": "dialogue"
+  }
+ ],
+ "templates": 12,
+ "output_file": "writers/bg/W5X-bg-u503.json",
+ "story_ids": [
+  50301,
+  50312
+ ],
+ "language_notes": {
+  "script": "Cyrillic",
+  "digits": "ASCII digits are filled into every slot, with no grouping, as in v3_61 (2048/2048 of its bg rows used ASCII digits only). You write no digit at all, of any script.",
+  "punctuation": "End statements with . and questions with ? (the usual Bulgarian punctuation).",
+  "agreement": "Masculine nouns take the count form after a numeral (5 стола) but the singular after 1: prefer a unit abbreviation (кг, л, лв.), a label and a colon, or declare number_dependent.",
+  "number_words": "the validator lists: два две три четири пет шест седем осем девет десет сто хиляда хиляди половин половина двойно дузина",
+  "file_check": [
+   "no ъ anywhere: reads as Serbian or Russian, not Bulgarian",
+   "letters of Russian / Serbian / Ukrainian in a Bulgarian file"
+  ],
+  "flagged": false
+ }
+}

@@ -1,0 +1,158 @@
+{
+ "uid": "W5X-si-u639",
+ "lang": "si",
+ "language": "Sinhala",
+ "unit": 639,
+ "k": 3,
+ "chunk": "C6",
+ "slice": "S06",
+ "slice_title": "roads and rail",
+ "half": 0,
+ "topics": [
+  "trains",
+  "buses",
+  "car_park"
+ ],
+ "lead_in": "පිළිතුර වන්නේ",
+ "t_first_position": {
+  "add/list": "first",
+  "add/other_time": "middle",
+  "add/diff_owner": "last",
+  "sub/list": "middle",
+  "sub/other_time": "last",
+  "sub/diff_owner": "first",
+  "mul/list": "last",
+  "mul/other_time": "first",
+  "mul/diff_owner": "middle",
+  "div/list": "first",
+  "div/other_time": "middle",
+  "div/diff_owner": "last"
+ },
+ "forms": {
+  "add/list": "F6",
+  "add/other_time": "F7",
+  "add/diff_owner": "F0",
+  "sub/list": "F1",
+  "sub/other_time": "F2",
+  "sub/diff_owner": "F3",
+  "mul/list": "F4",
+  "mul/other_time": "F5",
+  "mul/diff_owner": "F6",
+  "div/list": "F7",
+  "div/other_time": "F0",
+  "div/diff_owner": "F1"
+ },
+ "cells": [
+  {
+   "cell": "add/list",
+   "op": "add",
+   "shape": "list",
+   "t_first_position": "first",
+   "form": "F6",
+   "form_name": "fill_blank"
+  },
+  {
+   "cell": "add/other_time",
+   "op": "add",
+   "shape": "other_time",
+   "t_first_position": "middle",
+   "form": "F7",
+   "form_name": "dialogue"
+  },
+  {
+   "cell": "add/diff_owner",
+   "op": "add",
+   "shape": "diff_owner",
+   "t_first_position": "last",
+   "form": "F0",
+   "form_name": "plain"
+  },
+  {
+   "cell": "sub/list",
+   "op": "sub",
+   "shape": "list",
+   "t_first_position": "middle",
+   "form": "F1",
+   "form_name": "question_first"
+  },
+  {
+   "cell": "sub/other_time",
+   "op": "sub",
+   "shape": "other_time",
+   "t_first_position": "last",
+   "form": "F2",
+   "form_name": "imperative"
+  },
+  {
+   "cell": "sub/diff_owner",
+   "op": "sub",
+   "shape": "diff_owner",
+   "t_first_position": "first",
+   "form": "F3",
+   "form_name": "conditional"
+  },
+  {
+   "cell": "mul/list",
+   "op": "mul",
+   "shape": "list",
+   "t_first_position": "last",
+   "form": "F4",
+   "form_name": "indirect"
+  },
+  {
+   "cell": "mul/other_time",
+   "op": "mul",
+   "shape": "other_time",
+   "t_first_position": "first",
+   "form": "F5",
+   "form_name": "casual"
+  },
+  {
+   "cell": "mul/diff_owner",
+   "op": "mul",
+   "shape": "diff_owner",
+   "t_first_position": "middle",
+   "form": "F6",
+   "form_name": "fill_blank"
+  },
+  {
+   "cell": "div/list",
+   "op": "div",
+   "shape": "list",
+   "t_first_position": "first",
+   "form": "F7",
+   "form_name": "dialogue"
+  },
+  {
+   "cell": "div/other_time",
+   "op": "div",
+   "shape": "other_time",
+   "t_first_position": "middle",
+   "form": "F0",
+   "form_name": "plain"
+  },
+  {
+   "cell": "div/diff_owner",
+   "op": "div",
+   "shape": "diff_owner",
+   "t_first_position": "last",
+   "form": "F1",
+   "form_name": "question_first"
+  }
+ ],
+ "templates": 12,
+ "output_file": "writers/si/W5X-si-u639.json",
+ "story_ids": [
+  63901,
+  63912
+ ],
+ "language_notes": {
+  "script": "Sinhala",
+  "digits": "ASCII digits are filled into every slot, with no grouping, as in v3_61 (2048/2048 of its si rows used ASCII digits only). You write no digit at all, of any script.",
+  "punctuation": "End statements with . and questions with ?.",
+  "agreement": "Noun + {M} + a suffix such as -ක් written onto the numeral is invariant.",
+  "number_words": "the validator lists: දෙක තුන හතර පහ හය හත අට දහය සියය දහස",
+  "file_check": [],
+  "flagged": true
+ }
+}

@@ -1,0 +1,160 @@
+{
+ "uid": "W5X-fi-u531",
+ "lang": "fi",
+ "language": "Finnish",
+ "unit": 531,
+ "k": 3,
+ "chunk": "C2",
+ "slice": "S16",
+ "slice_title": "music, theatre and museums",
+ "half": 1,
+ "topics": [
+  "choir",
+  "orchestra",
+  "film_screenings"
+ ],
+ "lead_in": "Vastaus on",
+ "t_first_position": {
+  "add/list": "first",
+  "add/other_time": "middle",
+  "add/diff_owner": "last",
+  "sub/list": "middle",
+  "sub/other_time": "last",
+  "sub/diff_owner": "first",
+  "mul/list": "last",
+  "mul/other_time": "first",
+  "mul/diff_owner": "middle",
+  "div/list": "first",
+  "div/other_time": "middle",
+  "div/diff_owner": "last"
+ },
+ "forms": {
+  "add/list": "F3",
+  "add/other_time": "F4",
+  "add/diff_owner": "F5",
+  "sub/list": "F6",
+  "sub/other_time": "F7",
+  "sub/diff_owner": "F0",
+  "mul/list": "F1",
+  "mul/other_time": "F2",
+  "mul/diff_owner": "F3",
+  "div/list": "F4",
+  "div/other_time": "F5",
+  "div/diff_owner": "F6"
+ },
+ "cells": [
+  {
+   "cell": "add/list",
+   "op": "add",
+   "shape": "list",
+   "t_first_position": "first",
+   "form": "F3",
+   "form_name": "conditional"
+  },
+  {
+   "cell": "add/other_time",
+   "op": "add",
+   "shape": "other_time",
+   "t_first_position": "middle",
+   "form": "F4",
+   "form_name": "indirect"
+  },
+  {
+   "cell": "add/diff_owner",
+   "op": "add",
+   "shape": "diff_owner",
+   "t_first_position": "last",
+   "form": "F5",
+   "form_name": "casual"
+  },
+  {
+   "cell": "sub/list",
+   "op": "sub",
+   "shape": "list",
+   "t_first_position": "middle",
+   "form": "F6",
+   "form_name": "fill_blank"
+  },
+  {
+   "cell": "sub/other_time",
+   "op": "sub",
+   "shape": "other_time",
+   "t_first_position": "last",
+   "form": "F7",
+   "form_name": "dialogue"
+  },
+  {
+   "cell": "sub/diff_owner",
+   "op": "sub",
+   "shape": "diff_owner",
+   "t_first_position": "first",
+   "form": "F0",
+   "form_name": "plain"
+  },
+  {
+   "cell": "mul/list",
+   "op": "mul",
+   "shape": "list",
+   "t_first_position": "last",
+   "form": "F1",
+   "form_name": "question_first"
+  },
+  {
+   "cell": "mul/other_time",
+   "op": "mul",
+   "shape": "other_time",
+   "t_first_position": "first",
+   "form": "F2",
+   "form_name": "imperative"
+  },
+  {
+   "cell": "mul/diff_owner",
+   "op": "mul",
+   "shape": "diff_owner",
+   "t_first_position": "middle",
+   "form": "F3",
+   "form_name": "conditional"
+  },
+  {
+   "cell": "div/list",
+   "op": "div",
+   "shape": "list",
+   "t_first_position": "first",
+   "form": "F4",
+   "form_name": "indirect"
+  },
+  {
+   "cell": "div/other_time",
+   "op": "div",
+   "shape": "other_time",
+   "t_first_position": "middle",
+   "form": "F5",
+   "form_name": "casual"
+  },
+  {
+   "cell": "div/diff_owner",
+   "op": "div",
+   "shape": "diff_owner",
+   "t_first_position": "last",
+   "form": "F6",
+   "form_name": "fill_blank"
+  }
+ ],
+ "templates": 12,
+ "output_file": "writers/fi/W5X-fi-u531.json",
+ "story_ids": [
+  53101,
+  53112
+ ],
+ "language_notes": {
+  "script": "Latin",
+  "digits": "ASCII digits are filled into every slot, with no grouping, as in v3_61 (2048/2048 of its fi rows used ASCII digits only). You write no digit at all, of any script.",
+  "punctuation": "End statements with . and questions with ? (the usual Finnish punctuation).",
+  "agreement": "After 1 the nominative singular, after every other number the partitive singular (viisi omenaa): prefer a unit abbreviation (kg, l, €, kpl) or a label and a colon, or declare number_dependent.",
+  "number_words": "the validator lists: kaksi kolme neljä viisi seitsemän kahdeksan yhdeksän kymmenen puolet tusina sata tuhat",
+  "file_check": [
+   "no ä / ö anywhere: not Finnish"
+  ],
+  "flagged": false
+ }
+}

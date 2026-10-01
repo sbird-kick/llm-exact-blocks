@@ -1,0 +1,158 @@
+{
+ "uid": "W5X-tl-u612",
+ "lang": "tl",
+ "language": "Filipino (Tagalog)",
+ "unit": 612,
+ "k": 4,
+ "chunk": "C5",
+ "slice": "S08",
+ "slice_title": "weather and climate",
+ "half": 1,
+ "topics": [
+  "wind_measurement",
+  "river_level",
+  "air_quality"
+ ],
+ "lead_in": "Ang sagot ay",
+ "t_first_position": {
+  "add/list": "first",
+  "add/other_time": "middle",
+  "add/diff_owner": "last",
+  "sub/list": "middle",
+  "sub/other_time": "last",
+  "sub/diff_owner": "first",
+  "mul/list": "last",
+  "mul/other_time": "first",
+  "mul/diff_owner": "middle",
+  "div/list": "first",
+  "div/other_time": "middle",
+  "div/diff_owner": "last"
+ },
+ "forms": {
+  "add/list": "F1",
+  "add/other_time": "F2",
+  "add/diff_owner": "F3",
+  "sub/list": "F4",
+  "sub/other_time": "F5",
+  "sub/diff_owner": "F6",
+  "mul/list": "F7",
+  "mul/other_time": "F0",
+  "mul/diff_owner": "F1",
+  "div/list": "F2",
+  "div/other_time": "F3",
+  "div/diff_owner": "F4"
+ },
+ "cells": [
+  {
+   "cell": "add/list",
+   "op": "add",
+   "shape": "list",
+   "t_first_position": "first",
+   "form": "F1",
+   "form_name": "question_first"
+  },
+  {
+   "cell": "add/other_time",
+   "op": "add",
+   "shape": "other_time",
+   "t_first_position": "middle",
+   "form": "F2",
+   "form_name": "imperative"
+  },
+  {
+   "cell": "add/diff_owner",
+   "op": "add",
+   "shape": "diff_owner",
+   "t_first_position": "last",
+   "form": "F3",
+   "form_name": "conditional"
+  },
+  {
+   "cell": "sub/list",
+   "op": "sub",
+   "shape": "list",
+   "t_first_position": "middle",
+   "form": "F4",
+   "form_name": "indirect"
+  },
+  {
+   "cell": "sub/other_time",
+   "op": "sub",
+   "shape": "other_time",
+   "t_first_position": "last",
+   "form": "F5",
+   "form_name": "casual"
+  },
+  {
+   "cell": "sub/diff_owner",
+   "op": "sub",
+   "shape": "diff_owner",
+   "t_first_position": "first",
+   "form": "F6",
+   "form_name": "fill_blank"
+  },
+  {
+   "cell": "mul/list",
+   "op": "mul",
+   "shape": "list",
+   "t_first_position": "last",
+   "form": "F7",
+   "form_name": "dialogue"
+  },
+  {
+   "cell": "mul/other_time",
+   "op": "mul",
+   "shape": "other_time",
+   "t_first_position": "first",
+   "form": "F0",
+   "form_name": "plain"
+  },
+  {
+   "cell": "mul/diff_owner",
+   "op": "mul",
+   "shape": "diff_owner",
+   "t_first_position": "middle",
+   "form": "F1",
+   "form_name": "question_first"
+  },
+  {
+   "cell": "div/list",
+   "op": "div",
+   "shape": "list",
+   "t_first_position": "first",
+   "form": "F2",
+   "form_name": "imperative"
+  },
+  {
+   "cell": "div/other_time",
+   "op": "div",
+   "shape": "other_time",
+   "t_first_position": "middle",
+   "form": "F3",
+   "form_name": "conditional"
+  },
+  {
+   "cell": "div/diff_owner",
+   "op": "div",
+   "shape": "diff_owner",
+   "t_first_position": "last",
+   "form": "F4",
+   "form_name": "indirect"
+  }
+ ],
+ "templates": 12,
+ "output_file": "writers/tl/W5X-tl-u612.json",
+ "story_ids": [
+  61201,
+  61212
+ ],
+ "language_notes": {
+  "script": "Latin",
+  "digits": "ASCII digits are filled into every slot, with no grouping, as in v3_61 (1920/1920 of its tl rows used ASCII digits only). You write no digit at all, of any script.",
+  "punctuation": "End statements with . and questions with ? (the usual Filipino (Tagalog) punctuation).",
+  "agreement": "The linker -ng / na after a spoken numeral depends on the number: write \"{M} kilo ng ...\" / \"{M} piraso ng ...\" with no linker attached to the slot, or declare number_dependent.",
+  "number_words": "the validator lists: dalawa dalawang tatlo tatlong apat lima limang anim siyam walo sampu sampung isandaan sandaan libo kalahati doble",
+  "file_check": [],
+  "flagged": false
+ }
+}

@@ -1,0 +1,160 @@
+{
+ "uid": "W5X-ur-u613",
+ "lang": "ur",
+ "language": "Urdu",
+ "unit": 613,
+ "k": 1,
+ "chunk": "C5",
+ "slice": "S15",
+ "slice_title": "crafts and making",
+ "half": 0,
+ "topics": [
+  "knitting",
+  "pottery",
+  "sewing"
+ ],
+ "lead_in": "جواب ہے",
+ "t_first_position": {
+  "add/list": "middle",
+  "add/other_time": "last",
+  "add/diff_owner": "first",
+  "sub/list": "last",
+  "sub/other_time": "first",
+  "sub/diff_owner": "middle",
+  "mul/list": "first",
+  "mul/other_time": "middle",
+  "mul/diff_owner": "last",
+  "div/list": "middle",
+  "div/other_time": "last",
+  "div/diff_owner": "first"
+ },
+ "forms": {
+  "add/list": "F4",
+  "add/other_time": "F5",
+  "add/diff_owner": "F6",
+  "sub/list": "F7",
+  "sub/other_time": "F0",
+  "sub/diff_owner": "F1",
+  "mul/list": "F2",
+  "mul/other_time": "F3",
+  "mul/diff_owner": "F4",
+  "div/list": "F5",
+  "div/other_time": "F6",
+  "div/diff_owner": "F7"
+ },
+ "cells": [
+  {
+   "cell": "add/list",
+   "op": "add",
+   "shape": "list",
+   "t_first_position": "middle",
+   "form": "F4",
+   "form_name": "indirect"
+  },
+  {
+   "cell": "add/other_time",
+   "op": "add",
+   "shape": "other_time",
+   "t_first_position": "last",
+   "form": "F5",
+   "form_name": "casual"
+  },
+  {
+   "cell": "add/diff_owner",
+   "op": "add",
+   "shape": "diff_owner",
+   "t_first_position": "first",
+   "form": "F6",
+   "form_name": "fill_blank"
+  },
+  {
+   "cell": "sub/list",
+   "op": "sub",
+   "shape": "list",
+   "t_first_position": "last",
+   "form": "F7",
+   "form_name": "dialogue"
+  },
+  {
+   "cell": "sub/other_time",
+   "op": "sub",
+   "shape": "other_time",
+   "t_first_position": "first",
+   "form": "F0",
+   "form_name": "plain"
+  },
+  {
+   "cell": "sub/diff_owner",
+   "op": "sub",
+   "shape": "diff_owner",
+   "t_first_position": "middle",
+   "form": "F1",
+   "form_name": "question_first"
+  },
+  {
+   "cell": "mul/list",
+   "op": "mul",
+   "shape": "list",
+   "t_first_position": "first",
+   "form": "F2",
+   "form_name": "imperative"
+  },
+  {
+   "cell": "mul/other_time",
+   "op": "mul",
+   "shape": "other_time",
+   "t_first_position": "middle",
+   "form": "F3",
+   "form_name": "conditional"
+  },
+  {
+   "cell": "mul/diff_owner",
+   "op": "mul",
+   "shape": "diff_owner",
+   "t_first_position": "last",
+   "form": "F4",
+   "form_name": "indirect"
+  },
+  {
+   "cell": "div/list",
+   "op": "div",
+   "shape": "list",
+   "t_first_position": "middle",
+   "form": "F5",
+   "form_name": "casual"
+  },
+  {
+   "cell": "div/other_time",
+   "op": "div",
+   "shape": "other_time",
+   "t_first_position": "last",
+   "form": "F6",
+   "form_name": "fill_blank"
+  },
+  {
+   "cell": "div/diff_owner",
+   "op": "div",
+   "shape": "diff_owner",
+   "t_first_position": "first",
+   "form": "F7",
+   "form_name": "dialogue"
+  }
+ ],
+ "templates": 12,
+ "output_file": "writers/ur/W5X-ur-u613.json",
+ "story_ids": [
+  61301,
+  61312
+ ],
+ "language_notes": {
+  "script": "Arabic",
+  "digits": "ASCII digits are filled into every slot, with no grouping, as in v3_61 (2048/2048 of its ur rows used ASCII digits only). You write no digit at all, of any script.",
+  "punctuation": "End statements with ۔ (U+06D4) and questions with ؟.",
+  "agreement": "A noun after a numeral is singular after 1 and plural otherwise in many of these languages: prefer a unit abbreviation, a counter or a label and a colon, or declare number_dependent (at most 2 of 12).",
+  "number_words": "the validator lists: تین چار پانچ چھ سات آٹھ دس ہزار آدھا آدھی دگنا",
+  "file_check": [
+   "no Urdu letters (ے ٹ ڈ ڑ ں ھ): reads as Arabic or Persian"
+  ],
+  "flagged": false
+ }
+}

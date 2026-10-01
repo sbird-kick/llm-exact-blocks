@@ -69,6 +69,27 @@ def test_divrole2_bank_regenerates():
     regen_role_bank("divrole2")
 
 
+def test_v5x_inputs_and_join():
+    """v5x (partial, chunk C1): every shipped input matches CODE.md5, and the language files join byte for byte."""
+    import clean_split as CS
+    v5x = os.path.join(ROOT, "banks", "v5x")
+    want = MB.read_ship(os.path.join(v5x, "CODE.md5"))
+    assert len(want) == 154
+    bad = [rel for rel in sorted(want) if MB.md5_of(os.path.join(v5x, rel)) != want[rel]]
+    assert not bad, bad
+    b, md5 = CS.join_clean(os.path.join(v5x, "clean", "C1"))
+    assert hashlib.md5(b).hexdigest() == md5 == "476b62cf4e7a4fd33c68c0bd8eedb32e"
+    d = json.loads(b)
+    assert len(d["kept"]) == 274 and len(d["dropped"]) == 14 and len({e["lang"] for e in d["kept"]}) == 6
+
+
+def test_v5x_regenerates():
+    """about five seconds: join, v5x.py gen, six md5s"""
+    import make_v5x as MX
+    with tempfile.TemporaryDirectory() as d:
+        assert MX.main(["--out", d]) == 0
+
+
 def test_no_shipped_file_over_1mb():
     import subprocess
     try:

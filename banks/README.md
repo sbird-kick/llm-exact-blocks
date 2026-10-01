@@ -151,3 +151,34 @@ the frozen reader on fold -1. Kept written templates per frame: D01 8, D02 11, D
 D04 14, D05 14, D06 15, D07 15, D08 16, D09 14, D10 15, D11 13, D12 15. The selftest of
 `divrole2.py` needs the earlier bank's candidate files, which are not shipped; `gen` does
 not.
+
+## Bank v5x (PARTIAL: chunk C1 of 6)
+
+Bank v5x is v5 (same row schema, wild-shaped distractors, add / sub / mul / div, 24 rows
+per template) for the 36 languages of `v3_61` that v5 lacks, plus a question-form axis:
+every template is asked in one of eight forms: F0 plain (facts, then the question), F1 question
+first, F2 an instruction ("Work out how many ..."), F3 conditional ("If ..., how many ...?"),
+F4 indirect ("Tell me how many ..."), F5 casual chat, F6 a statement ending in a blank ___,
+F7 a dialogue (one speaker gives the facts, another asks). It is written in six
+chunks of six languages. **Only chunk C1 has been verified and cleaned so far**, so the bank
+is partial and its md5s will change when later chunks arrive:
+
+| lang | kept | dropped | add | sub | mul | div |
+|---|---:|---:|---:|---:|---:|---:|
+| bg Bulgarian | 45 | 3 | 12 | 12 | 12 | 9 |
+| cs Czech | 47 | 1 | 12 | 12 | 12 | 11 |
+| hu Hungarian | 46 | 2 | 12 | 12 | 11 | 11 |
+| ro Romanian | 42 | 6 | 12 | 11 | 10 | 9 |
+| sk Slovak | 47 | 1 | 12 | 11 | 12 | 12 |
+| sr Serbian | 47 | 1 | 12 | 12 | 12 | 11 |
+| **C1** | **274** | **14** | **72** | **70** | **69** | **63** |
+
+```bash
+python banks/make_v5x.py              # joins v5x/clean/C1/<lang>.json, runs v5x.py gen -> banks/v5x/bank/C1/, checks 6 md5s
+```
+
+6,576 rows (`signed_A_int.jsonl`, 18.6 MB, not committed). The clean templates are one file
+per language in `v5x/clean/C1/` plus `index.json`; `banks/clean_split.py` joins them byte for
+byte into the clean file `v5x.py` reads (md5 `476b62cf...`) and splits a clean file of your
+own the same way. `v5x/manifest/` holds the 144 writer-unit specs of all six chunks (`gen`
+reads their forms and story ids). `v5x.py selftest` runs here (76 checks).

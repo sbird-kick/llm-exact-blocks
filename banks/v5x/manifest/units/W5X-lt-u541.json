@@ -1,0 +1,160 @@
+{
+ "uid": "W5X-lt-u541",
+ "lang": "lt",
+ "language": "Lithuanian",
+ "unit": 541,
+ "k": 1,
+ "chunk": "C2",
+ "slice": "S06",
+ "slice_title": "roads and rail",
+ "half": 0,
+ "topics": [
+  "trains",
+  "buses",
+  "car_park"
+ ],
+ "lead_in": "Atsakymas yra",
+ "t_first_position": {
+  "add/list": "middle",
+  "add/other_time": "last",
+  "add/diff_owner": "first",
+  "sub/list": "last",
+  "sub/other_time": "first",
+  "sub/diff_owner": "middle",
+  "mul/list": "first",
+  "mul/other_time": "middle",
+  "mul/diff_owner": "last",
+  "div/list": "middle",
+  "div/other_time": "last",
+  "div/diff_owner": "first"
+ },
+ "forms": {
+  "add/list": "F2",
+  "add/other_time": "F3",
+  "add/diff_owner": "F4",
+  "sub/list": "F5",
+  "sub/other_time": "F6",
+  "sub/diff_owner": "F7",
+  "mul/list": "F0",
+  "mul/other_time": "F1",
+  "mul/diff_owner": "F2",
+  "div/list": "F3",
+  "div/other_time": "F4",
+  "div/diff_owner": "F5"
+ },
+ "cells": [
+  {
+   "cell": "add/list",
+   "op": "add",
+   "shape": "list",
+   "t_first_position": "middle",
+   "form": "F2",
+   "form_name": "imperative"
+  },
+  {
+   "cell": "add/other_time",
+   "op": "add",
+   "shape": "other_time",
+   "t_first_position": "last",
+   "form": "F3",
+   "form_name": "conditional"
+  },
+  {
+   "cell": "add/diff_owner",
+   "op": "add",
+   "shape": "diff_owner",
+   "t_first_position": "first",
+   "form": "F4",
+   "form_name": "indirect"
+  },
+  {
+   "cell": "sub/list",
+   "op": "sub",
+   "shape": "list",
+   "t_first_position": "last",
+   "form": "F5",
+   "form_name": "casual"
+  },
+  {
+   "cell": "sub/other_time",
+   "op": "sub",
+   "shape": "other_time",
+   "t_first_position": "first",
+   "form": "F6",
+   "form_name": "fill_blank"
+  },
+  {
+   "cell": "sub/diff_owner",
+   "op": "sub",
+   "shape": "diff_owner",
+   "t_first_position": "middle",
+   "form": "F7",
+   "form_name": "dialogue"
+  },
+  {
+   "cell": "mul/list",
+   "op": "mul",
+   "shape": "list",
+   "t_first_position": "first",
+   "form": "F0",
+   "form_name": "plain"
+  },
+  {
+   "cell": "mul/other_time",
+   "op": "mul",
+   "shape": "other_time",
+   "t_first_position": "middle",
+   "form": "F1",
+   "form_name": "question_first"
+  },
+  {
+   "cell": "mul/diff_owner",
+   "op": "mul",
+   "shape": "diff_owner",
+   "t_first_position": "last",
+   "form": "F2",
+   "form_name": "imperative"
+  },
+  {
+   "cell": "div/list",
+   "op": "div",
+   "shape": "list",
+   "t_first_position": "middle",
+   "form": "F3",
+   "form_name": "conditional"
+  },
+  {
+   "cell": "div/other_time",
+   "op": "div",
+   "shape": "other_time",
+   "t_first_position": "last",
+   "form": "F4",
+   "form_name": "indirect"
+  },
+  {
+   "cell": "div/diff_owner",
+   "op": "div",
+   "shape": "diff_owner",
+   "t_first_position": "first",
+   "form": "F5",
+   "form_name": "casual"
+  }
+ ],
+ "templates": 12,
+ "output_file": "writers/lt/W5X-lt-u541.json",
+ "story_ids": [
+  54101,
+  54112
+ ],
+ "language_notes": {
+  "script": "Latin",
+  "digits": "ASCII digits are filled into every slot, with no grouping, as in v3_61 (1664/1664 of its lt rows used ASCII digits only). You write no digit at all, of any script.",
+  "punctuation": "End statements with . and questions with ? (the usual Lithuanian punctuation).",
+  "agreement": "1 (21, 31 ... not 11) singular, 2-9 plural, 10-20 and round tens genitive plural: prefer a unit abbreviation (kg, l, €, vnt.), a label and a colon, or declare number_dependent.",
+  "number_words": "the validator lists: du dvi trys keturi keturios penki penkios šeši šešios septyni aštuoni devyni dešimt šimtas tūkstantis dvigubai",
+  "file_check": [
+   "no Lithuanian letters (ą č ę ė į š ų ū ž)"
+  ],
+  "flagged": false
+ }
+}

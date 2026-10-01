@@ -1,0 +1,158 @@
+{
+ "uid": "W5X-kn-u555",
+ "lang": "kn",
+ "language": "Kannada",
+ "unit": 555,
+ "k": 3,
+ "chunk": "C3",
+ "slice": "S19",
+ "slice_title": "building and mining",
+ "half": 1,
+ "topics": [
+  "mine_output",
+  "road_building",
+  "scaffolding"
+ ],
+ "lead_in": "ಉತ್ತರ:",
+ "t_first_position": {
+  "add/list": "first",
+  "add/other_time": "middle",
+  "add/diff_owner": "last",
+  "sub/list": "middle",
+  "sub/other_time": "last",
+  "sub/diff_owner": "first",
+  "mul/list": "last",
+  "mul/other_time": "first",
+  "mul/diff_owner": "middle",
+  "div/list": "first",
+  "div/other_time": "middle",
+  "div/diff_owner": "last"
+ },
+ "forms": {
+  "add/list": "F1",
+  "add/other_time": "F2",
+  "add/diff_owner": "F3",
+  "sub/list": "F4",
+  "sub/other_time": "F5",
+  "sub/diff_owner": "F6",
+  "mul/list": "F7",
+  "mul/other_time": "F0",
+  "mul/diff_owner": "F1",
+  "div/list": "F2",
+  "div/other_time": "F3",
+  "div/diff_owner": "F4"
+ },
+ "cells": [
+  {
+   "cell": "add/list",
+   "op": "add",
+   "shape": "list",
+   "t_first_position": "first",
+   "form": "F1",
+   "form_name": "question_first"
+  },
+  {
+   "cell": "add/other_time",
+   "op": "add",
+   "shape": "other_time",
+   "t_first_position": "middle",
+   "form": "F2",
+   "form_name": "imperative"
+  },
+  {
+   "cell": "add/diff_owner",
+   "op": "add",
+   "shape": "diff_owner",
+   "t_first_position": "last",
+   "form": "F3",
+   "form_name": "conditional"
+  },
+  {
+   "cell": "sub/list",
+   "op": "sub",
+   "shape": "list",
+   "t_first_position": "middle",
+   "form": "F4",
+   "form_name": "indirect"
+  },
+  {
+   "cell": "sub/other_time",
+   "op": "sub",
+   "shape": "other_time",
+   "t_first_position": "last",
+   "form": "F5",
+   "form_name": "casual"
+  },
+  {
+   "cell": "sub/diff_owner",
+   "op": "sub",
+   "shape": "diff_owner",
+   "t_first_position": "first",
+   "form": "F6",
+   "form_name": "fill_blank"
+  },
+  {
+   "cell": "mul/list",
+   "op": "mul",
+   "shape": "list",
+   "t_first_position": "last",
+   "form": "F7",
+   "form_name": "dialogue"
+  },
+  {
+   "cell": "mul/other_time",
+   "op": "mul",
+   "shape": "other_time",
+   "t_first_position": "first",
+   "form": "F0",
+   "form_name": "plain"
+  },
+  {
+   "cell": "mul/diff_owner",
+   "op": "mul",
+   "shape": "diff_owner",
+   "t_first_position": "middle",
+   "form": "F1",
+   "form_name": "question_first"
+  },
+  {
+   "cell": "div/list",
+   "op": "div",
+   "shape": "list",
+   "t_first_position": "first",
+   "form": "F2",
+   "form_name": "imperative"
+  },
+  {
+   "cell": "div/other_time",
+   "op": "div",
+   "shape": "other_time",
+   "t_first_position": "middle",
+   "form": "F3",
+   "form_name": "conditional"
+  },
+  {
+   "cell": "div/diff_owner",
+   "op": "div",
+   "shape": "diff_owner",
+   "t_first_position": "last",
+   "form": "F4",
+   "form_name": "indirect"
+  }
+ ],
+ "templates": 12,
+ "output_file": "writers/kn/W5X-kn-u555.json",
+ "story_ids": [
+  55501,
+  55512
+ ],
+ "language_notes": {
+  "script": "Kannada",
+  "digits": "ASCII digits are filled into every slot, with no grouping, as in v3_61 (1152/1152 of its kn rows used ASCII digits only). You write no digit at all, of any script.",
+  "punctuation": "End statements with . and questions with ? (the usual Kannada punctuation).",
+  "agreement": "A noun after a numeral is singular after 1 and plural otherwise in many of these languages: prefer a unit abbreviation, a counter or a label and a colon, or declare number_dependent (at most 2 of 12).",
+  "number_words": "the validator lists: ಎರಡು ಮೂರು ನಾಲ್ಕು ಐದು ಎಂಟು ಒಂಬತ್ತು ನೂರು ಸಾವಿರ ಅರ್ಧ",
+  "file_check": [],
+  "flagged": false
+ }
+}

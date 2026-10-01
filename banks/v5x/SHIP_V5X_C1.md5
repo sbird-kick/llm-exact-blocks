@@ -1,0 +1,10 @@
+# md5 of the files `python banks/make_v5x.py` writes under banks/v5x/bank/C1/ (v5x.py gen on the joined clean_v5x_C1.json,
+# md5 476b62cf4e7a4fd33c68c0bd8eedb32e): 274 templates x 24 rows = 6,576 rows. PARTIAL bank: chunk C1 of 6 only.
+# Recorded 2026-10-01 for this repository (the project had not generated v5x rows yet): identical under PYTHONHASHSEED=1
+# and 7, and with the project's own copies of the v5 tools. The three empty files (d41d8cd9...) are real: no bank B, no decimals.
+59ec4a48267b2cc0dcc407f7dce4aeac  AUDIT_v5x.txt
+0bf6ba09de8894ebc69afb0bb24ceaef  pairs.json
+d41d8cd98f00b204e9800998ecf8427e  signed_A_dec.jsonl
+f0e669abf6681552d99e1eb001643271  signed_A_int.jsonl
+d41d8cd98f00b204e9800998ecf8427e  signed_B_dec.jsonl
+d41d8cd98f00b204e9800998ecf8427e  signed_B_int.jsonl

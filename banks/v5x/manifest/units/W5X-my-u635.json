@@ -1,0 +1,158 @@
+{
+ "uid": "W5X-my-u635",
+ "lang": "my",
+ "language": "Burmese",
+ "unit": 635,
+ "k": 3,
+ "chunk": "C6",
+ "slice": "S05",
+ "slice_title": "sport and tournaments",
+ "half": 1,
+ "topics": [
+  "cycling_race",
+  "chess_club",
+  "basketball"
+ ],
+ "lead_in": "အဖြေမှာ",
+ "t_first_position": {
+  "add/list": "last",
+  "add/other_time": "first",
+  "add/diff_owner": "middle",
+  "sub/list": "first",
+  "sub/other_time": "middle",
+  "sub/diff_owner": "last",
+  "mul/list": "middle",
+  "mul/other_time": "last",
+  "mul/diff_owner": "first",
+  "div/list": "last",
+  "div/other_time": "first",
+  "div/diff_owner": "middle"
+ },
+ "forms": {
+  "add/list": "F5",
+  "add/other_time": "F6",
+  "add/diff_owner": "F7",
+  "sub/list": "F0",
+  "sub/other_time": "F1",
+  "sub/diff_owner": "F2",
+  "mul/list": "F3",
+  "mul/other_time": "F4",
+  "mul/diff_owner": "F5",
+  "div/list": "F6",
+  "div/other_time": "F7",
+  "div/diff_owner": "F0"
+ },
+ "cells": [
+  {
+   "cell": "add/list",
+   "op": "add",
+   "shape": "list",
+   "t_first_position": "last",
+   "form": "F5",
+   "form_name": "casual"
+  },
+  {
+   "cell": "add/other_time",
+   "op": "add",
+   "shape": "other_time",
+   "t_first_position": "first",
+   "form": "F6",
+   "form_name": "fill_blank"
+  },
+  {
+   "cell": "add/diff_owner",
+   "op": "add",
+   "shape": "diff_owner",
+   "t_first_position": "middle",
+   "form": "F7",
+   "form_name": "dialogue"
+  },
+  {
+   "cell": "sub/list",
+   "op": "sub",
+   "shape": "list",
+   "t_first_position": "first",
+   "form": "F0",
+   "form_name": "plain"
+  },
+  {
+   "cell": "sub/other_time",
+   "op": "sub",
+   "shape": "other_time",
+   "t_first_position": "middle",
+   "form": "F1",
+   "form_name": "question_first"
+  },
+  {
+   "cell": "sub/diff_owner",
+   "op": "sub",
+   "shape": "diff_owner",
+   "t_first_position": "last",
+   "form": "F2",
+   "form_name": "imperative"
+  },
+  {
+   "cell": "mul/list",
+   "op": "mul",
+   "shape": "list",
+   "t_first_position": "middle",
+   "form": "F3",
+   "form_name": "conditional"
+  },
+  {
+   "cell": "mul/other_time",
+   "op": "mul",
+   "shape": "other_time",
+   "t_first_position": "last",
+   "form": "F4",
+   "form_name": "indirect"
+  },
+  {
+   "cell": "mul/diff_owner",
+   "op": "mul",
+   "shape": "diff_owner",
+   "t_first_position": "first",
+   "form": "F5",
+   "form_name": "casual"
+  },
+  {
+   "cell": "div/list",
+   "op": "div",
+   "shape": "list",
+   "t_first_position": "last",
+   "form": "F6",
+   "form_name": "fill_blank"
+  },
+  {
+   "cell": "div/other_time",
+   "op": "div",
+   "shape": "other_time",
+   "t_first_position": "first",
+   "form": "F7",
+   "form_name": "dialogue"
+  },
+  {
+   "cell": "div/diff_owner",
+   "op": "div",
+   "shape": "diff_owner",
+   "t_first_position": "middle",
+   "form": "F0",
+   "form_name": "plain"
+  }
+ ],
+ "templates": 12,
+ "output_file": "writers/my/W5X-my-u635.json",
+ "story_ids": [
+  63501,
+  63512
+ ],
+ "language_notes": {
+  "script": "Myanmar",
+  "digits": "ASCII digits are filled into every slot, with no grouping, as in v3_61 (1664/1664 of its my rows used ASCII digits only). You write no digit at all, of any script.",
+  "punctuation": "End every sentence with ။ and a question with its question particle (နည်း / လဲ ...) + ။; use ၊ as the comma.",
+  "agreement": "Noun + {M} + classifier: invariant.",
+  "number_words": "the validator has no list for my; the blind verifier flags any number word, ordinal, date or clock time",
+  "file_check": [],
+  "flagged": true
+ }
+}

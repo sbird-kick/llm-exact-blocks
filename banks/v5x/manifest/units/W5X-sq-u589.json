@@ -1,0 +1,160 @@
+{
+ "uid": "W5X-sq-u589",
+ "lang": "sq",
+ "language": "Albanian",
+ "unit": 589,
+ "k": 1,
+ "chunk": "C4",
+ "slice": "S12",
+ "slice_title": "factories and warehouses",
+ "half": 0,
+ "topics": [
+  "assembly_line",
+  "packing",
+  "warehouse_stock"
+ ],
+ "lead_in": "Përgjigja është",
+ "t_first_position": {
+  "add/list": "middle",
+  "add/other_time": "last",
+  "add/diff_owner": "first",
+  "sub/list": "last",
+  "sub/other_time": "first",
+  "sub/diff_owner": "middle",
+  "mul/list": "first",
+  "mul/other_time": "middle",
+  "mul/diff_owner": "last",
+  "div/list": "middle",
+  "div/other_time": "last",
+  "div/diff_owner": "first"
+ },
+ "forms": {
+  "add/list": "F6",
+  "add/other_time": "F7",
+  "add/diff_owner": "F0",
+  "sub/list": "F1",
+  "sub/other_time": "F2",
+  "sub/diff_owner": "F3",
+  "mul/list": "F4",
+  "mul/other_time": "F5",
+  "mul/diff_owner": "F6",
+  "div/list": "F7",
+  "div/other_time": "F0",
+  "div/diff_owner": "F1"
+ },
+ "cells": [
+  {
+   "cell": "add/list",
+   "op": "add",
+   "shape": "list",
+   "t_first_position": "middle",
+   "form": "F6",
+   "form_name": "fill_blank"
+  },
+  {
+   "cell": "add/other_time",
+   "op": "add",
+   "shape": "other_time",
+   "t_first_position": "last",
+   "form": "F7",
+   "form_name": "dialogue"
+  },
+  {
+   "cell": "add/diff_owner",
+   "op": "add",
+   "shape": "diff_owner",
+   "t_first_position": "first",
+   "form": "F0",
+   "form_name": "plain"
+  },
+  {
+   "cell": "sub/list",
+   "op": "sub",
+   "shape": "list",
+   "t_first_position": "last",
+   "form": "F1",
+   "form_name": "question_first"
+  },
+  {
+   "cell": "sub/other_time",
+   "op": "sub",
+   "shape": "other_time",
+   "t_first_position": "first",
+   "form": "F2",
+   "form_name": "imperative"
+  },
+  {
+   "cell": "sub/diff_owner",
+   "op": "sub",
+   "shape": "diff_owner",
+   "t_first_position": "middle",
+   "form": "F3",
+   "form_name": "conditional"
+  },
+  {
+   "cell": "mul/list",
+   "op": "mul",
+   "shape": "list",
+   "t_first_position": "first",
+   "form": "F4",
+   "form_name": "indirect"
+  },
+  {
+   "cell": "mul/other_time",
+   "op": "mul",
+   "shape": "other_time",
+   "t_first_position": "middle",
+   "form": "F5",
+   "form_name": "casual"
+  },
+  {
+   "cell": "mul/diff_owner",
+   "op": "mul",
+   "shape": "diff_owner",
+   "t_first_position": "last",
+   "form": "F6",
+   "form_name": "fill_blank"
+  },
+  {
+   "cell": "div/list",
+   "op": "div",
+   "shape": "list",
+   "t_first_position": "middle",
+   "form": "F7",
+   "form_name": "dialogue"
+  },
+  {
+   "cell": "div/other_time",
+   "op": "div",
+   "shape": "other_time",
+   "t_first_position": "last",
+   "form": "F0",
+   "form_name": "plain"
+  },
+  {
+   "cell": "div/diff_owner",
+   "op": "div",
+   "shape": "diff_owner",
+   "t_first_position": "first",
+   "form": "F1",
+   "form_name": "question_first"
+  }
+ ],
+ "templates": 12,
+ "output_file": "writers/sq/W5X-sq-u589.json",
+ "story_ids": [
+  58901,
+  58912
+ ],
+ "language_notes": {
+  "script": "Latin",
+  "digits": "ASCII digits are filled into every slot, with no grouping, as in v3_61 (1664/1664 of its sq rows used ASCII digits only). You write no digit at all, of any script.",
+  "punctuation": "End statements with . and questions with ? (the usual Albanian punctuation).",
+  "agreement": "A noun after 1 is singular, after any other number plural: prefer a unit abbreviation (kg, l, lekë) or a label and a colon, or declare number_dependent.",
+  "number_words": "the validator lists: dy tre katër pesë gjashtë shtatë tetë nëntë dhjetë njëqind mijë gjysmë dyfish",
+  "file_check": [
+   "no ë / ç anywhere: not Albanian"
+  ],
+  "flagged": false
+ }
+}

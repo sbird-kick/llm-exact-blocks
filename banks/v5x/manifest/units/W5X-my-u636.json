@@ -1,0 +1,158 @@
+{
+ "uid": "W5X-my-u636",
+ "lang": "my",
+ "language": "Burmese",
+ "unit": 636,
+ "k": 4,
+ "chunk": "C6",
+ "slice": "S11",
+ "slice_title": "offices and services",
+ "half": 1,
+ "topics": [
+  "filing_and_forms",
+  "reception_visitors",
+  "printing_and_copying"
+ ],
+ "lead_in": "အဖြေမှာ",
+ "t_first_position": {
+  "add/list": "first",
+  "add/other_time": "middle",
+  "add/diff_owner": "last",
+  "sub/list": "middle",
+  "sub/other_time": "last",
+  "sub/diff_owner": "first",
+  "mul/list": "last",
+  "mul/other_time": "first",
+  "mul/diff_owner": "middle",
+  "div/list": "first",
+  "div/other_time": "middle",
+  "div/diff_owner": "last"
+ },
+ "forms": {
+  "add/list": "F7",
+  "add/other_time": "F0",
+  "add/diff_owner": "F1",
+  "sub/list": "F2",
+  "sub/other_time": "F3",
+  "sub/diff_owner": "F4",
+  "mul/list": "F5",
+  "mul/other_time": "F6",
+  "mul/diff_owner": "F7",
+  "div/list": "F0",
+  "div/other_time": "F1",
+  "div/diff_owner": "F2"
+ },
+ "cells": [
+  {
+   "cell": "add/list",
+   "op": "add",
+   "shape": "list",
+   "t_first_position": "first",
+   "form": "F7",
+   "form_name": "dialogue"
+  },
+  {
+   "cell": "add/other_time",
+   "op": "add",
+   "shape": "other_time",
+   "t_first_position": "middle",
+   "form": "F0",
+   "form_name": "plain"
+  },
+  {
+   "cell": "add/diff_owner",
+   "op": "add",
+   "shape": "diff_owner",
+   "t_first_position": "last",
+   "form": "F1",
+   "form_name": "question_first"
+  },
+  {
+   "cell": "sub/list",
+   "op": "sub",
+   "shape": "list",
+   "t_first_position": "middle",
+   "form": "F2",
+   "form_name": "imperative"
+  },
+  {
+   "cell": "sub/other_time",
+   "op": "sub",
+   "shape": "other_time",
+   "t_first_position": "last",
+   "form": "F3",
+   "form_name": "conditional"
+  },
+  {
+   "cell": "sub/diff_owner",
+   "op": "sub",
+   "shape": "diff_owner",
+   "t_first_position": "first",
+   "form": "F4",
+   "form_name": "indirect"
+  },
+  {
+   "cell": "mul/list",
+   "op": "mul",
+   "shape": "list",
+   "t_first_position": "last",
+   "form": "F5",
+   "form_name": "casual"
+  },
+  {
+   "cell": "mul/other_time",
+   "op": "mul",
+   "shape": "other_time",
+   "t_first_position": "first",
+   "form": "F6",
+   "form_name": "fill_blank"
+  },
+  {
+   "cell": "mul/diff_owner",
+   "op": "mul",
+   "shape": "diff_owner",
+   "t_first_position": "middle",
+   "form": "F7",
+   "form_name": "dialogue"
+  },
+  {
+   "cell": "div/list",
+   "op": "div",
+   "shape": "list",
+   "t_first_position": "first",
+   "form": "F0",
+   "form_name": "plain"
+  },
+  {
+   "cell": "div/other_time",
+   "op": "div",
+   "shape": "other_time",
+   "t_first_position": "middle",
+   "form": "F1",
+   "form_name": "question_first"
+  },
+  {
+   "cell": "div/diff_owner",
+   "op": "div",
+   "shape": "diff_owner",
+   "t_first_position": "last",
+   "form": "F2",
+   "form_name": "imperative"
+  }
+ ],
+ "templates": 12,
+ "output_file": "writers/my/W5X-my-u636.json",
+ "story_ids": [
+  63601,
+  63612
+ ],
+ "language_notes": {
+  "script": "Myanmar",
+  "digits": "ASCII digits are filled into every slot, with no grouping, as in v3_61 (1664/1664 of its my rows used ASCII digits only). You write no digit at all, of any script.",
+  "punctuation": "End every sentence with ။ and a question with its question particle (နည်း / လဲ ...) + ။; use ၊ as the comma.",
+  "agreement": "Noun + {M} + classifier: invariant.",
+  "number_words": "the validator has no list for my; the blind verifier flags any number word, ordinal, date or clock time",
+  "file_check": [],
+  "flagged": true
+ }
+}

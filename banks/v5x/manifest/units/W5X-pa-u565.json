@@ -1,0 +1,158 @@
+{
+ "uid": "W5X-pa-u565",
+ "lang": "pa",
+ "language": "Punjabi",
+ "unit": 565,
+ "k": 1,
+ "chunk": "C3",
+ "slice": "S09",
+ "slice_title": "money and banking",
+ "half": 0,
+ "topics": [
+  "bank_account",
+  "savings",
+  "loans_and_debt"
+ ],
+ "lead_in": "ਜਵਾਬ:",
+ "t_first_position": {
+  "add/list": "middle",
+  "add/other_time": "last",
+  "add/diff_owner": "first",
+  "sub/list": "last",
+  "sub/other_time": "first",
+  "sub/diff_owner": "middle",
+  "mul/list": "first",
+  "mul/other_time": "middle",
+  "mul/diff_owner": "last",
+  "div/list": "middle",
+  "div/other_time": "last",
+  "div/diff_owner": "first"
+ },
+ "forms": {
+  "add/list": "F0",
+  "add/other_time": "F1",
+  "add/diff_owner": "F2",
+  "sub/list": "F3",
+  "sub/other_time": "F4",
+  "sub/diff_owner": "F5",
+  "mul/list": "F6",
+  "mul/other_time": "F7",
+  "mul/diff_owner": "F0",
+  "div/list": "F1",
+  "div/other_time": "F2",
+  "div/diff_owner": "F3"
+ },
+ "cells": [
+  {
+   "cell": "add/list",
+   "op": "add",
+   "shape": "list",
+   "t_first_position": "middle",
+   "form": "F0",
+   "form_name": "plain"
+  },
+  {
+   "cell": "add/other_time",
+   "op": "add",
+   "shape": "other_time",
+   "t_first_position": "last",
+   "form": "F1",
+   "form_name": "question_first"
+  },
+  {
+   "cell": "add/diff_owner",
+   "op": "add",
+   "shape": "diff_owner",
+   "t_first_position": "first",
+   "form": "F2",
+   "form_name": "imperative"
+  },
+  {
+   "cell": "sub/list",
+   "op": "sub",
+   "shape": "list",
+   "t_first_position": "last",
+   "form": "F3",
+   "form_name": "conditional"
+  },
+  {
+   "cell": "sub/other_time",
+   "op": "sub",
+   "shape": "other_time",
+   "t_first_position": "first",
+   "form": "F4",
+   "form_name": "indirect"
+  },
+  {
+   "cell": "sub/diff_owner",
+   "op": "sub",
+   "shape": "diff_owner",
+   "t_first_position": "middle",
+   "form": "F5",
+   "form_name": "casual"
+  },
+  {
+   "cell": "mul/list",
+   "op": "mul",
+   "shape": "list",
+   "t_first_position": "first",
+   "form": "F6",
+   "form_name": "fill_blank"
+  },
+  {
+   "cell": "mul/other_time",
+   "op": "mul",
+   "shape": "other_time",
+   "t_first_position": "middle",
+   "form": "F7",
+   "form_name": "dialogue"
+  },
+  {
+   "cell": "mul/diff_owner",
+   "op": "mul",
+   "shape": "diff_owner",
+   "t_first_position": "last",
+   "form": "F0",
+   "form_name": "plain"
+  },
+  {
+   "cell": "div/list",
+   "op": "div",
+   "shape": "list",
+   "t_first_position": "middle",
+   "form": "F1",
+   "form_name": "question_first"
+  },
+  {
+   "cell": "div/other_time",
+   "op": "div",
+   "shape": "other_time",
+   "t_first_position": "last",
+   "form": "F2",
+   "form_name": "imperative"
+  },
+  {
+   "cell": "div/diff_owner",
+   "op": "div",
+   "shape": "diff_owner",
+   "t_first_position": "first",
+   "form": "F3",
+   "form_name": "conditional"
+  }
+ ],
+ "templates": 12,
+ "output_file": "writers/pa/W5X-pa-u565.json",
+ "story_ids": [
+  56501,
+  56512
+ ],
+ "language_notes": {
+  "script": "Gurmukhi",
+  "digits": "ASCII digits are filled into every slot, with no grouping, as in v3_61 (1344/1344 of its pa rows used ASCII digits only). You write no digit at all, of any script.",
+  "punctuation": "End statements with । (or .) and questions with ?.",
+  "agreement": "A noun after a numeral is singular after 1 and plural otherwise in many of these languages: prefer a unit abbreviation, a counter or a label and a colon, or declare number_dependent (at most 2 of 12).",
+  "number_words": "the validator lists: ਦੋ ਤਿੰਨ ਚਾਰ ਪੰਜ ਛੇ ਸੱਤ ਅੱਠ ਨੌਂ ਸੌ ਹਜ਼ਾਰ ਅੱਧਾ ਅੱਧੀ ਦੁੱਗਣਾ",
+  "file_check": [],
+  "flagged": false
+ }
+}
