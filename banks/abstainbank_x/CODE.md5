@@ -1,0 +1,10 @@
+# md5 of the ABX clean template files (md5sum format; `md5sum -c CODE.md5` from banks/abstainbank_x/).
+# clean/X01r1/<lang>.json + index.json join (python banks/clean_split.py join clean/X01r1 <out>) byte for byte into the
+# project's clean_abstainbank_x_X01r1.json, md5 d279cab3f4f278f1b85f065bdd2ae99d. PARTIAL: chunk X01, round 1 of 2 only.
+f7bec5886ea2a93da50d0745f60299d9  clean/X01r1/index.json
+aca51326d075e6c95b61094e2fb17133  clean/X01r1/de.json
+844dced13c6ff858ab0ed8168546babf  clean/X01r1/es.json
+e1df7d3e6c250da5600a516e1d964beb  clean/X01r1/fr.json
+f6659c343f42cb69289e94394c75fbc7  clean/X01r1/it.json
+26528aca5930a4569252ebdeb9bfb8e6  clean/X01r1/nl.json
+50adb36ca01ddf70cad80c7683b0f892  clean/X01r1/pt.json

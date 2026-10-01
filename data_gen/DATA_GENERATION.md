@@ -1017,3 +1017,6 @@ layouts are in [`banks/README.md`](../banks/README.md).
   section 8 from the other side: if the abstain question and its twin can be told apart
   by their words alone, a gate trained on them learns the words. Write the twin in the
   abstain question's vocabulary.
+* **`banks/abstainbank_x/`** (PARTIAL): AB1 written natively in other languages, each
+  template in one of the eight v5x question forms. So far 68 templates in German, Spanish,
+  French, Italian, Dutch and Portuguese (round 1 of the pilot chunk). Templates only.

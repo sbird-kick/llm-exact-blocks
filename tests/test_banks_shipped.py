@@ -93,6 +93,19 @@ def test_abstainbank_templates_match_code_md5():
     assert len(kept) == 503 == len({e["template"]["id"] for e in kept})
 
 
+def test_abstainbank_x_templates_match_and_join():
+    import clean_split as CS
+    d = os.path.join(ROOT, "banks", "abstainbank_x")
+    want = MB.read_ship(os.path.join(d, "CODE.md5"))
+    assert len(want) == 7
+    bad = [rel for rel in sorted(want) if MB.md5_of(os.path.join(d, rel)) != want[rel]]
+    assert not bad, bad
+    b, md5 = CS.join_clean(os.path.join(d, "clean", "X01r1"))
+    assert hashlib.md5(b).hexdigest() == md5 == "d279cab3f4f278f1b85f065bdd2ae99d"
+    j = json.loads(b)
+    assert len(j["kept"]) == 68 and len(j["dropped"]) == 28
+
+
 def test_v5x_regenerates():
     """about five seconds: join, v5x.py gen, six md5s"""
     import make_v5x as MX
