@@ -33,6 +33,7 @@ from make_banks import md5_of, read_ship  # noqa: E402
 # name -> (tool, SHIP file); the order matters: subrole_g3 reads subrole/ (its stamped bank)
 BANKS = {
     "subrole": ("subrole.py", "SHIP_SUBROLE.md5"),
+    "subrole_g3": ("subrole_g3.py", "SHIP_SUBROLE_G3.md5"),
 }
 
 

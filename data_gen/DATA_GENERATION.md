@@ -993,3 +993,6 @@ layouts are in [`banks/README.md`](../banks/README.md).
   words of the facts ("this week it holds {M}", "last week it held {S}"), in its own
   clause, and the question must read naturally with a negative answer ("What was the
   change ... from last week to this week?", never "how many more" or "the difference").
+* **`banks/subrole_g3/`** (English, subtraction): 33 more templates in the same design,
+  for testing only (`fold = -2`): score a reader fitted on `subrole/` on them, never fit on
+  them. 3,036 rows; `python banks/make_role_banks.py subrole_g3`.

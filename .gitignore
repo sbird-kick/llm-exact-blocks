@@ -32,3 +32,4 @@ banks/v5/VERIFY_REPORT_v5.md
 banks/v5/clean/*.json
 # the role banks' generated rows (python banks/make_role_banks.py)
 banks/subrole/bank/
+banks/subrole_g3/bank/

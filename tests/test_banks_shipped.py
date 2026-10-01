@@ -61,6 +61,10 @@ def test_subrole_bank_regenerates():
     regen_role_bank("subrole")
 
 
+def test_subrole_g3_bank_regenerates():
+    regen_role_bank("subrole_g3")
+
+
 def test_no_shipped_file_over_1mb():
     import subprocess
     try:

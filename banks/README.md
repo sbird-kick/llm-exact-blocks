@@ -122,3 +122,13 @@ or positive-only questions ("difference", "how many more", "left", "by how much"
 chunks (kept and dropped, with the verifier's reasons); `seeds/v5_signed_sub_en.json` is the
 30 v5 candidates. `subrole.py selftest` (52 checks) runs here once
 `python banks/make_v5.py --join-only` has rebuilt the joined v5 clean file it reads.
+
+### `subrole_g3/`: a held-out top-up of `subrole/`
+
+33 more kept templates (33/36 written, three new units on 36 topics no `subrole/` unit
+used, two or three per frame F01-F12), blind-verified exactly like `subrole/`, 23 number
+pairs each: 3,036 rows (`bank/dump/SUBROLE_G3.jsonl`, 3.2 MB, not committed), every one
+with `fold = -2` and `template_source = written_g3`. It is meant to be scored by a reader
+fitted on `subrole/` and never fitted on. `subrole_g3.py` reads `../subrole/` (md5-pinned)
+and refuses any template that is a near-twin of a `subrole/` one in either written order.
+Its selftest runs here (71 checks).

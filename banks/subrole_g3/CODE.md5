@@ -1,0 +1,8 @@
+# md5 of every input of banks/subrole_g3 (md5sum format; `md5sum -c CODE.md5` from banks/subrole_g3/, or python banks/make_role_banks.py).
+# subrole_g3.py also reads ../subrole/ (clean/*.json, seeds/), md5-pinned inside it (STAMPED_PIN).
+# subrole_g3.py differs from the project's copy in two comment / status-string rewordings (no person's name, no cluster
+# name) and in one pin, STAMPED_SUBROLE_PY_MD5, which names this repo's reworded ../subrole/subrole.py (05446a45; the
+# project's 3fb169ad), so that its selftest's source-identity check runs (71/71). The rows in SHIP_SUBROLE_G3.md5 are the project's.
+#   subrole_g3.py  project md5 7b73c868fb2f44ecb7f47f8b8cb8b77e
+0775744029d0a78e1c0d01cb14c4d1f4  subrole_g3.py
+8bf2e5dae6478a7232752f27d8bc3404  clean/G3.json
