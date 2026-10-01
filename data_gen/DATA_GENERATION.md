@@ -974,3 +974,22 @@ new language changes the bytes of a bank regenerated without `--langs`; that is 
   its old flags. Print the md5s; if one moves, you changed something you did not mean to.
 * **Keep all state interruptible.** Any job, agent or script should be safe to stop at any
   instant and resume from its files.
+
+---------------------------------------------------------------------------------------
+
+## 14. Banks added after v5
+
+These were built with the same writer -> validate -> close -> blind verify -> clean ->
+generate pipeline as v5 (sections 2-5), one tool per bank. What is shipped is the clean
+templates (kept and dropped, with the verifier's reasons) and, wherever the tool runs on
+its own in this repository, the tool and the md5s of the rows it generates. The writer
+and verifier briefs, the blind files and their answer keys are not shipped. Counts and
+layouts are in [`banks/README.md`](../banks/README.md).
+
+* **`banks/subrole/`** (English, subtraction): the minuend is smaller in half the rows and
+  written second in half the rows, so neither size nor order names it. 190 templates,
+  6,080 rows; `python banks/make_role_banks.py subrole` regenerates them byte for byte.
+  Writing for it is the lesson of section 8 turned around: the role must sit in the
+  words of the facts ("this week it holds {M}", "last week it held {S}"), in its own
+  clause, and the question must read naturally with a negative answer ("What was the
+  change ... from last week to this week?", never "how many more" or "the difference").

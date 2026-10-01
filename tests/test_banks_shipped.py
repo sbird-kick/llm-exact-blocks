@@ -50,6 +50,17 @@ def test_v5_clean_files_join_to_the_project_file():
     assert hashlib.md5(M5.dump(d).encode("utf-8")).hexdigest() == M5.CLEAN_MD5 == "e92b1741ff7d4cac752f18bf033f60e9"
 
 
+def regen_role_bank(bank):
+    """Run make_role_banks on one bank (inputs checked, gen run, SHIP md5s compared); about a second."""
+    import make_role_banks as MR
+    assert bank in MR.BANKS
+    assert MR.main([bank]) == 0
+
+
+def test_subrole_bank_regenerates():
+    regen_role_bank("subrole")
+
+
 def test_no_shipped_file_over_1mb():
     import subprocess
     try:

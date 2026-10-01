@@ -1,0 +1,9 @@
+# md5 of every input of banks/subrole (md5sum format; `md5sum -c CODE.md5` from banks/subrole/, or python banks/make_role_banks.py).
+# subrole.py differs from the project's copy in four comment / status-string rewordings only (no person's name, no
+# internal file name); no rewording touches code, and the bank md5s in SHIP_SUBROLE.md5 are the project's.
+#   subrole.py  project md5 3fb169ad39357b23682ce4f64f7862a4
+05446a450ef5811e8cc95a5c38c8158b  subrole.py
+c35ce359eead16258d455dce41e2cc8f  clean/P1.json
+b467ec9440bd4195e45635c3f295f1df  clean/G1.json
+f1edc6839815f989136b8ca0f3fd9a0e  clean/G2.json
+4fb2817b6de1406dc0f0cbf7127a1a3f  seeds/v5_signed_sub_en.json

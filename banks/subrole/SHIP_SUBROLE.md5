@@ -1,0 +1,4 @@
+# md5 of the two files `python3 subrole.py gen` writes under banks/subrole/bank/, as the project recorded them
+# (190 kept templates x 8 number pairs x 4 cells = 6,080 rows). Check with python banks/make_role_banks.py subrole.
+e75e670a85eb1be6d2d62c8fa8dccce8  dump/SUBROLE.jsonl
+c33a11eb3204c03171696217a9b2813e  bank_census.json

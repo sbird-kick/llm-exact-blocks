@@ -85,3 +85,40 @@ The v5 bank (25 languages, add / sub / mul / div, 4,352 verified templates, 24 r
 lives in [`v5/`](v5/): its clean templates (one file per language in `v5/clean/r1-16/`), the tools that made it, and
 `python banks/make_v5.py`, which regenerates it and checks its md5s. See
 [`data_gen/V5_TOOLS.md`](../data_gen/V5_TOOLS.md).
+
+## Role banks (English): the operand's role is fixed by the words
+
+In ordinary prose the minuend of a subtraction is usually the larger number and is usually
+written first, so a reader can often name it from size or from order alone. The role banks
+make both shortcuts useless at once. Each template has two slots, `{M}` (the minuend or the dividend) and `{S}`
+(the subtrahend or the divisor), fixed by the template's words, and two written orders,
+`first` (M before S) and `second` (S before M). Each number pair X > Y is filled four
+ways: both written orders, crossed with M = X (a > b) and M = Y (a < b, a negative
+difference or a proper fraction). So on every bank the size rule names the role on
+exactly 0 of the a<b rows and the first-written rule on exactly 0 of the `second` rows.
+Every row carries `fold` (template-grouped, 0-4; near-duplicate templates share a fold, so
+a held-out template never has a near-twin in training), `half` (`a>b` / `a<b`),
+`written_order` (`F` / `S`) and `prov.gold_run_idx` (the minuend run, then the subtrahend
+run, in written-run order).
+
+```bash
+python banks/make_role_banks.py          # checks each bank's CODE.md5, runs its gen, checks its SHIP md5s (a few seconds)
+```
+
+### `subrole/`: subtraction, minuend smaller in half the rows and written second in half
+
+190 kept templates (blind-verified, all four filled texts of a template had to pass), 8
+number pairs each (2..99), 6,080 rows (`bank/dump/SUBROLE.jsonl`, 6.2 MB, not committed):
+
+| source | kept | rows |
+|---|---|---|
+| written (12 directed-change frames F01-F12: temperature, money in/out, height then descent, points won/lost, stock in/out, actual vs target, count over time, profit, forward/back, weight over time, water level, votes for/against) | 168/192 | 5,376 |
+| `v5` (the English signed v5 subtraction templates, re-verified under the same blind check) | 22/30 | 704 |
+
+Kept per frame: F01 14, F02 16, F03 9, F04 13, F05 16, F06 14, F07 16, F08 16, F09 14, F10 12,
+F11 12, F12 16, v5 22. The question must read naturally with a negative answer: undirected
+or positive-only questions ("difference", "how many more", "left", "by how much", "gap",
+"total") are refused by the validator. `clean/P1.json`, `G1.json`, `G2.json` are the three
+chunks (kept and dropped, with the verifier's reasons); `seeds/v5_signed_sub_en.json` is the
+30 v5 candidates. `subrole.py selftest` (52 checks) runs here once
+`python banks/make_v5.py --join-only` has rebuilt the joined v5 clean file it reads.

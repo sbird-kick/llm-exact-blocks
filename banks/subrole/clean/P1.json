@@ -1,0 +1,1066 @@
+{
+ "bar": "kept(written) >= 50% of written and total kept >= 25",
+ "chunk": "P1",
+ "dropped": [
+  {
+   "notes": [
+    "'down from' contradicts 44 being larger than 3"
+   ],
+   "reasons": [
+    "Fa>b: flags ['number_dependent_grammar']"
+   ],
+   "tkey": "v5:W5-en-u02-06"
+  },
+  {
+   "notes": [
+    "the facts alone do not say which number is subtracted from; only the question fixes the direction; a 2-ticket target for a headline act is implausible",
+    "the facts alone do not say which number is subtracted from; only the question fixes the direction; a 2-ticket target for a headline act is implausible",
+    "the facts alone do not say which number is subtracted from; only the question fixes the direction; a 2-ticket target for a headline act is implausible",
+    "the facts alone do not say which number is subtracted from; only the question fixes the direction; a 2-ticket target for a headline act is implausible"
+   ],
+   "reasons": [
+    "Fa>b: flags ['unnatural']",
+    "Sa>b: flags ['unnatural']",
+    "Sa<b: flags ['unnatural']",
+    "Fa<b: flags ['unnatural']"
+   ],
+   "tkey": "v5:W5-en-u03-04"
+  },
+  {
+   "notes": [
+    "the question presupposes income exceeded spending; here it did not, so a negative excess reads oddly",
+    "the question presupposes income exceeded spending; here it did not, so a negative excess reads oddly"
+   ],
+   "reasons": [
+    "Fa<b: a negative answer does not read naturally",
+    "Sa<b: a negative answer does not read naturally"
+   ],
+   "tkey": "v5:W5-en-u06-02"
+  },
+  {
+   "notes": [
+    "a gauge reading tonnes at the crest/foot of a stockpile is odd; the facts give two peer quantities; only the question fixes the direction",
+    "a gauge reading tonnes at the crest/foot of a stockpile is odd; 'how much higher' with a lower reading reads as no sensible answer; the facts give two peer quantities; only the question fixes the direction",
+    "a gauge reading tonnes at the crest/foot of a stockpile is odd; 'how much higher' with a lower reading reads as no sensible answer; the facts give two peer quantities; only the question fixes the direction",
+    "a gauge reading tonnes at the crest/foot of a stockpile is odd; the facts give two peer quantities; only the question fixes the direction"
+   ],
+   "reasons": [
+    "Fa>b: flags ['unnatural']",
+    "Fa<b: a negative answer does not read naturally",
+    "Fa<b: flags ['unnatural']",
+    "Sa<b: a negative answer does not read naturally",
+    "Sa<b: flags ['unnatural']",
+    "Sa>b: flags ['unnatural']"
+   ],
+   "tkey": "v5:W5-en-u09-04"
+  },
+  {
+   "notes": [
+    "the facts alone do not say which number is subtracted from; only the question fixes the direction; 'difference between actual and target' is often read as a size, so a reader may answer the unsigned gap",
+    "the facts alone do not say which number is subtracted from; only the question fixes the direction; 'difference between actual and target' is often read as a size, so a reader may answer the unsigned gap",
+    "the facts alone do not say which number is subtracted from; only the question fixes the direction; 'difference between actual and target' is often read as a size, so a reader may answer the unsigned gap",
+    "the facts alone do not say which number is subtracted from; only the question fixes the direction; 'difference between actual and target' is often read as a size, so a reader may answer the unsigned gap"
+   ],
+   "reasons": [
+    "Sa<b: a negative answer does not read naturally",
+    "Sa<b: flags ['ambiguous']",
+    "Fa<b: a negative answer does not read naturally",
+    "Fa<b: flags ['ambiguous']",
+    "Fa>b: flags ['ambiguous']",
+    "Sa>b: flags ['ambiguous']"
+   ],
+   "tkey": "v5:W5-en-u10-05"
+  },
+  {
+   "notes": [
+    "cumulative running total cannot fall; a fluent reader would find the change incoherent",
+    "cumulative running total cannot fall; a fluent reader would find the change incoherent"
+   ],
+   "reasons": [
+    "Fa<b: a negative answer does not read naturally",
+    "Sa<b: a negative answer does not read naturally"
+   ],
+   "tkey": "v5:W5-en-u12-05"
+  },
+  {
+   "notes": [
+    "cumulative running total cannot fall; a fluent reader would find the change incoherent",
+    "cumulative running total cannot fall; a fluent reader would find the change incoherent"
+   ],
+   "reasons": [
+    "Fa<b: a negative answer does not read naturally",
+    "Sa<b: a negative answer does not read naturally"
+   ],
+   "tkey": "v5:W5-en-u13-04"
+  },
+  {
+   "notes": [
+    "cumulative running total cannot fall; a fluent reader would find the change incoherent",
+    "cumulative running total cannot fall; a fluent reader would find the change incoherent"
+   ],
+   "reasons": [
+    "Fa<b: a negative answer does not read naturally",
+    "Sa<b: a negative answer does not read naturally"
+   ],
+   "tkey": "v5:W5-en-u16-06"
+  },
+  {
+   "notes": [
+    "a puppy changing by 49 pounds in a month is implausible",
+    "a puppy changing by 49 pounds in a month is implausible",
+    "a puppy changing by 49 pounds in a month is implausible",
+    "a puppy changing by 49 pounds in a month is implausible"
+   ],
+   "reasons": [
+    "Sa<b: flags ['unnatural']",
+    "Fa>b: flags ['unnatural']",
+    "Sa>b: flags ['unnatural']",
+    "Fa<b: flags ['unnatural']"
+   ],
+   "tkey": "written:SR-u01-10"
+  },
+  {
+   "notes": [
+    "balloon ends below the field level, physically odd",
+    "balloon ends below the field level, physically odd"
+   ],
+   "reasons": [
+    "Sa<b: flags ['unnatural']",
+    "Fa<b: flags ['unnatural']"
+   ],
+   "tkey": "written:SR-u02-03"
+  },
+  {
+   "notes": [
+    "word order 'lost ... along the way ... but won' is awkward",
+    "word order 'lost ... along the way ... but won' is awkward"
+   ],
+   "reasons": [
+    "Sa<b: flags ['unnatural']",
+    "Sa>b: flags ['unnatural']"
+   ],
+   "tkey": "written:SR-u02-04"
+  },
+  {
+   "notes": [
+    "a kitten of a few grams is implausible; tuna and naps suggest a gain",
+    "a kitten of a few grams is implausible",
+    "a kitten of a few grams is implausible",
+    "a kitten of a few grams is implausible"
+   ],
+   "reasons": [
+    "Sa<b: flags ['unnatural']",
+    "Sa>b: flags ['unnatural']",
+    "Fa<b: flags ['unnatural']",
+    "Fa>b: flags ['unnatural']"
+   ],
+   "tkey": "written:SR-u02-10"
+  },
+  {
+   "notes": [],
+   "reasons": [
+    "Sa<b: a negative answer does not read naturally",
+    "Fa<b: a negative answer does not read naturally"
+   ],
+   "tkey": "written:SR-u03-03"
+  },
+  {
+   "notes": [
+    "the facts alone do not say which number is subtracted from; only the question fixes the direction; a daily step target or count of 14-18 steps is implausible",
+    "the facts alone do not say which number is subtracted from; only the question fixes the direction; a daily step target or count of 14-18 steps is implausible",
+    "the facts alone do not say which number is subtracted from; only the question fixes the direction; a daily step target or count of 14-18 steps is implausible",
+    "the facts alone do not say which number is subtracted from; only the question fixes the direction; a daily step target or count of 14-18 steps is implausible"
+   ],
+   "reasons": [
+    "Sa>b: flags ['unnatural']",
+    "Fa<b: flags ['unnatural']",
+    "Fa>b: flags ['unnatural']",
+    "Sa<b: flags ['unnatural']"
+   ],
+   "tkey": "written:SR-u03-06"
+  },
+  {
+   "notes": [],
+   "reasons": [
+    "Sa<b: a negative answer does not read naturally",
+    "Fa<b: a negative answer does not read naturally"
+   ],
+   "tkey": "written:SR-u03-09"
+  },
+  {
+   "notes": [],
+   "reasons": [
+    "Sa<b: a negative answer does not read naturally",
+    "Fa<b: a negative answer does not read naturally"
+   ],
+   "tkey": "written:SR-u03-11"
+  },
+  {
+   "notes": [],
+   "reasons": [
+    "Sa<b: a negative answer does not read naturally",
+    "Fa<b: a negative answer does not read naturally"
+   ],
+   "tkey": "written:SR-u04-09"
+  },
+  {
+   "notes": [],
+   "reasons": [
+    "Fa<b: a negative answer does not read naturally",
+    "Sa<b: a negative answer does not read naturally"
+   ],
+   "tkey": "written:SR-u04-11"
+  }
+ ],
+ "kept": [
+  {
+   "first": "This week the pottery studio's kiln shelf holds {M} glazed mugs. Last week it held {S} glazed mugs.",
+   "frame": "v5",
+   "negative_reading": "",
+   "question": "What was the change in the number of glazed mugs on the pottery studio's kiln shelf from last week to this week?",
+   "role_only_in_question": 0,
+   "second": "Last week the pottery studio's kiln shelf held {S} glazed mugs. This week it holds {M} glazed mugs.",
+   "sign_convention": "this week minus last week",
+   "source": "v5",
+   "tid": "W5-en-u01-05",
+   "tkey": "v5:W5-en-u01-05",
+   "topic": "pottery",
+   "unit": "v5"
+  },
+  {
+   "first": "This month our workshop received {M} fabric rolls. We used {S} fabric rolls for orders.",
+   "frame": "v5",
+   "negative_reading": "",
+   "question": "What was our workshop's balance of fabric rolls this month, counting rolls received minus rolls used?",
+   "role_only_in_question": 0,
+   "second": "This month our workshop used {S} fabric rolls for orders. It received {M} fabric rolls.",
+   "sign_convention": "rolls received minus rolls used",
+   "source": "v5",
+   "tid": "W5-en-u01-06",
+   "tkey": "v5:W5-en-u01-06",
+   "topic": "sewing",
+   "unit": "v5"
+  },
+  {
+   "first": "By the end of this week the weaving co-op had finished {M} baskets. By the end of the month before last, it had finished {S} baskets.",
+   "frame": "v5",
+   "negative_reading": "",
+   "question": "What was the change in the number of baskets the weaving co-op had finished, from the end of the month before last to the end of this week?",
+   "role_only_in_question": 0,
+   "second": "By the end of the month before last, the weaving co-op had finished {S} baskets. By the end of this week, it had finished {M} baskets.",
+   "sign_convention": "end of this week minus end of the month before last",
+   "source": "v5",
+   "tid": "W5-en-u02-05",
+   "tkey": "v5:W5-en-u02-05",
+   "topic": "weaving",
+   "unit": "v5"
+  },
+  {
+   "first": "At the end of the season our choir's wardrobe team counted {M} robes. At the start of the season it had counted {S}.",
+   "frame": "v5",
+   "negative_reading": "",
+   "question": "What was the change in the number of robes our choir's wardrobe team counted from the start of the season to the end of the season?",
+   "role_only_in_question": 0,
+   "second": "At the start of the season our choir's wardrobe team counted {S} robes. By the end of the season it counted {M}.",
+   "sign_convention": "end of season minus start of season",
+   "source": "v5",
+   "tid": "W5-en-u04-04",
+   "tkey": "v5:W5-en-u04-04",
+   "topic": "choir",
+   "unit": "v5"
+  },
+  {
+   "first": "Tonight's concert has sold {M} seats so far. Its target is {S} seats.",
+   "frame": "v5",
+   "negative_reading": "",
+   "question": "How far above or below target were tonight's seat sales?",
+   "role_only_in_question": 4,
+   "second": "Tonight's concert has a target of {S} seats. It has sold {M} so far.",
+   "sign_convention": "sold minus target",
+   "source": "v5",
+   "tid": "W5-en-u04-05",
+   "tkey": "v5:W5-en-u04-05",
+   "topic": "orchestra",
+   "unit": "v5"
+  },
+  {
+   "first": "At the start of May the safari park counted {M} elephants. At the start of April it counted {S} elephants.",
+   "frame": "v5",
+   "negative_reading": "",
+   "question": "What was the change in the number of elephants at the safari park from the start of April to the start of May?",
+   "role_only_in_question": 0,
+   "second": "At the start of April the safari park counted {S} elephants. At the start of May it counted {M} elephants.",
+   "sign_convention": "start of May minus start of April",
+   "source": "v5",
+   "tid": "W5-en-u05-04",
+   "tkey": "v5:W5-en-u05-04",
+   "topic": "zoo",
+   "unit": "v5"
+  },
+  {
+   "first": "The sanctuary tagged {M} pelicans this breeding season. The season before that it tagged {S} pelicans.",
+   "frame": "v5",
+   "negative_reading": "",
+   "question": "What was the change in the number of pelicans tagged by the sanctuary from the season before last to this season?",
+   "role_only_in_question": 0,
+   "second": "The season before last the sanctuary tagged {S} pelicans. This season it has tagged {M} pelicans.",
+   "sign_convention": "this season minus the season before last",
+   "source": "v5",
+   "tid": "W5-en-u05-05",
+   "tkey": "v5:W5-en-u05-05",
+   "topic": "bird_count",
+   "unit": "v5"
+  },
+  {
+   "first": "At the spring count the wildlife park had {M} giraffes. At the winter count it had {S} giraffes.",
+   "frame": "v5",
+   "negative_reading": "",
+   "question": "What was the change in the wildlife park's giraffe count from the winter count to the spring count?",
+   "role_only_in_question": 0,
+   "second": "At the winter count the wildlife park had {S} giraffes. At the spring count it had {M} giraffes.",
+   "sign_convention": "spring count minus winter count",
+   "source": "v5",
+   "tid": "W5-en-u06-06",
+   "tkey": "v5:W5-en-u06-06",
+   "topic": "wildlife_park",
+   "unit": "v5"
+  },
+  {
+   "first": "This month the fish market's cold store holds {M} trays of squid, against {S} trays last month.",
+   "frame": "v5",
+   "negative_reading": "",
+   "question": "What was the change in the number of trays of squid held in the fish market's cold store from last month to this month?",
+   "role_only_in_question": 4,
+   "second": "Last month the fish market's cold store held {S} trays of squid, against {M} trays this month.",
+   "sign_convention": "this month minus last month",
+   "source": "v5",
+   "tid": "W5-en-u07-05",
+   "tkey": "v5:W5-en-u07-05",
+   "topic": "fish_market",
+   "unit": "v5"
+  },
+  {
+   "first": "Our team transplanted {M} coral fragments onto the reef shelf this year; last year it had transplanted {S} fragments.",
+   "frame": "v5",
+   "negative_reading": "",
+   "question": "What was the change in the number of coral fragments our team transplanted onto the reef shelf from last year to this year?",
+   "role_only_in_question": 0,
+   "second": "Last year our team had transplanted {S} coral fragments onto the reef shelf; this year it transplanted {M} fragments.",
+   "sign_convention": "this year minus last year",
+   "source": "v5",
+   "tid": "W5-en-u07-06",
+   "tkey": "v5:W5-en-u07-06",
+   "topic": "coral_survey",
+   "unit": "v5"
+  },
+  {
+   "first": "At the end of the summer regatta the sailing club's score stood at {M} points. At the start of the season in April it had stood at {S} points.",
+   "frame": "v5",
+   "negative_reading": "",
+   "question": "What was the change in the sailing club's regatta score from the start of the season in April to the end of the summer regatta?",
+   "role_only_in_question": 0,
+   "second": "At the start of the season in April the sailing club's score stood at {S} points. By the end of the summer regatta it stood at {M} points.",
+   "sign_convention": "end of the summer regatta minus start of the season in April",
+   "source": "v5",
+   "tid": "W5-en-u08-05",
+   "tkey": "v5:W5-en-u08-05",
+   "topic": "sailing_club",
+   "unit": "v5"
+  },
+  {
+   "first": "Our seaweed farm's kelp stock now stands at {M} sacks. Its target level is {S} sacks.",
+   "frame": "v5",
+   "negative_reading": "",
+   "question": "How far above or below its target level was our seaweed farm's kelp stock?",
+   "role_only_in_question": 4,
+   "second": "Our seaweed farm's target kelp level is {S} sacks. Its stock now stands at {M} sacks.",
+   "sign_convention": "stock minus target level",
+   "source": "v5",
+   "tid": "W5-en-u08-06",
+   "tkey": "v5:W5-en-u08-06",
+   "topic": "seaweed_farm",
+   "unit": "v5"
+  },
+  {
+   "first": "At the end of March our construction site employed {M} workers. At the end of January it had employed {S} workers.",
+   "frame": "v5",
+   "negative_reading": "",
+   "question": "What was the change in the number of workers employed at our construction site from the end of January to the end of March?",
+   "role_only_in_question": 4,
+   "second": "At the end of January our construction site had employed {S} workers. By the end of March it employed {M} workers.",
+   "sign_convention": "end of March minus end of January",
+   "source": "v5",
+   "tid": "W5-en-u09-05",
+   "tkey": "v5:W5-en-u09-05",
+   "topic": "construction_site",
+   "unit": "v5"
+  },
+  {
+   "first": "The Ridge crusher processed {M} tonnes of ore this shift. The Marsh crusher processed {S} tonnes.",
+   "frame": "v5",
+   "negative_reading": "",
+   "question": "How much more or less ore did the Ridge crusher process than the Marsh crusher this shift?",
+   "role_only_in_question": 4,
+   "second": "The Marsh crusher processed {S} tonnes of ore this shift. The Ridge crusher processed {M} tonnes.",
+   "sign_convention": "Ridge crusher minus Marsh crusher",
+   "source": "v5",
+   "tid": "W5-en-u10-04",
+   "tkey": "v5:W5-en-u10-04",
+   "topic": "mine_output",
+   "unit": "v5"
+  },
+  {
+   "first": "At the winter stock check the archive room logged {M} undelivered letters. At the spring stock check before that it had logged {S} undelivered letters.",
+   "frame": "v5",
+   "negative_reading": "",
+   "question": "What was the change in the number of undelivered letters logged in the archive room from the spring stock check to the winter stock check?",
+   "role_only_in_question": 0,
+   "second": "At the spring stock check the archive room had logged {S} undelivered letters. By the winter stock check it logged {M} undelivered letters.",
+   "sign_convention": "winter stock check minus spring stock check",
+   "source": "v5",
+   "tid": "W5-en-u11-04",
+   "tkey": "v5:W5-en-u11-04",
+   "topic": "post_office",
+   "unit": "v5"
+  },
+  {
+   "first": "At the end of Monday the hub's backlog stood at {M} mail sacks. At the end of Saturday it had stood at {S} mail sacks.",
+   "frame": "v5",
+   "negative_reading": "",
+   "question": "What was the change in the hub's mail-sack backlog from the end of Saturday to the end of Monday?",
+   "role_only_in_question": 4,
+   "second": "At the end of Saturday the hub's backlog stood at {S} mail sacks. By the end of Monday it stood at {M} mail sacks.",
+   "sign_convention": "end of Monday minus end of Saturday",
+   "source": "v5",
+   "tid": "W5-en-u12-04",
+   "tkey": "v5:W5-en-u12-04",
+   "topic": "mail_sorting",
+   "unit": "v5"
+  },
+  {
+   "first": "This month the tablet has downloaded {M} videos. Its owner set a personal target of {S} videos for the month.",
+   "frame": "v5",
+   "negative_reading": "",
+   "question": "How far above or below the personal target was this month's download count?",
+   "role_only_in_question": 0,
+   "second": "The tablet's owner set a personal target of {S} videos for the month. This month the tablet has downloaded {M} videos.",
+   "sign_convention": "this month's download count minus the personal target",
+   "source": "v5",
+   "tid": "W5-en-u13-05",
+   "tkey": "v5:W5-en-u13-05",
+   "topic": "downloads",
+   "unit": "v5"
+  },
+  {
+   "first": "The app currently has {M} paying subscribers. The platform requires at least {S} paying subscribers to keep its premium listing.",
+   "frame": "v5",
+   "negative_reading": "",
+   "question": "How far above or below the required minimum is the app's current number of paying subscribers?",
+   "role_only_in_question": 4,
+   "second": "The platform requires at least {S} paying subscribers to keep its premium listing. The app currently has {M} paying subscribers.",
+   "sign_convention": "current subscribers minus the required minimum",
+   "source": "v5",
+   "tid": "W5-en-u14-05",
+   "tkey": "v5:W5-en-u14-05",
+   "topic": "app_users",
+   "unit": "v5"
+  },
+  {
+   "first": "The downtown helpdesk answered {M} text messages this shift. Its quota was {S} text messages.",
+   "frame": "v5",
+   "negative_reading": "",
+   "question": "How far above or below its quota was the number of text messages the downtown helpdesk answered this shift?",
+   "role_only_in_question": 4,
+   "second": "The downtown helpdesk's quota was {S} text messages. It answered {M} text messages this shift.",
+   "sign_convention": "text messages answered minus quota",
+   "source": "v5",
+   "tid": "W5-en-u14-06",
+   "tkey": "v5:W5-en-u14-06",
+   "topic": "text_messages",
+   "unit": "v5"
+  },
+  {
+   "first": "At the end of August the harbourside hotel had {M} rooms occupied. At the end of June it had {S} rooms occupied.",
+   "frame": "v5",
+   "negative_reading": "",
+   "question": "What was the change in the number of rooms occupied at the harbourside hotel from the end of June to the end of August?",
+   "role_only_in_question": 4,
+   "second": "At the end of June the harbourside hotel had {S} rooms occupied. At the end of August it had {M} rooms occupied.",
+   "sign_convention": "end of August minus end of June",
+   "source": "v5",
+   "tid": "W5-en-u15-04",
+   "tkey": "v5:W5-en-u15-04",
+   "topic": "hotel_rooms",
+   "unit": "v5"
+  },
+  {
+   "first": "Tonight the banquet hall's crew arranged {M} chairs for the reception. At the start of the week the planning sheet had called for {S} chairs.",
+   "frame": "v5",
+   "negative_reading": "",
+   "question": "How many more or fewer chairs did the banquet hall's crew arrange tonight than the start-of-week plan called for?",
+   "role_only_in_question": 4,
+   "second": "At the start of the week the planning sheet had called for {S} chairs. Tonight the banquet hall's crew arranged {M} chairs for the reception.",
+   "sign_convention": "tonight's count minus the start-of-week plan",
+   "source": "v5",
+   "tid": "W5-en-u15-05",
+   "tkey": "v5:W5-en-u15-05",
+   "topic": "wedding_guests",
+   "unit": "v5"
+  },
+  {
+   "first": "This year the safety team has stationed {M} marshals along the route. Last year it had stationed {S} marshals.",
+   "frame": "v5",
+   "negative_reading": "",
+   "question": "What was the change in the number of marshals the safety team stationed along the route, from last year to this year?",
+   "role_only_in_question": 0,
+   "second": "Last year the safety team had stationed {S} marshals along the route. This year it has stationed {M} marshals.",
+   "sign_convention": "this year minus last year",
+   "source": "v5",
+   "tid": "W5-en-u16-05",
+   "tkey": "v5:W5-en-u16-05",
+   "topic": "fireworks_show",
+   "unit": "v5"
+  },
+  {
+   "first": "The greenhouse showed {M} degrees at dusk, and it had shown {S} degrees at dawn.",
+   "frame": "F01",
+   "negative_reading": "the greenhouse cooled down",
+   "question": "What was the change in the greenhouse temperature from dawn to dusk?",
+   "role_only_in_question": 0,
+   "second": "The greenhouse had shown {S} degrees at dawn, and it showed {M} degrees at dusk.",
+   "sign_convention": "dusk reading minus dawn reading",
+   "source": "written",
+   "tid": "SR-u01-01",
+   "tkey": "written:SR-u01-01",
+   "topic": "greenhouse",
+   "unit": "SR-u01"
+  },
+  {
+   "first": "This term the lunch card took in {M} dollars in deposits and paid out {S} dollars for meals.",
+   "frame": "F02",
+   "negative_reading": "the card is overdrawn",
+   "question": "What is the card's balance for the term, money in minus money out?",
+   "role_only_in_question": 0,
+   "second": "This term the lunch card paid out {S} dollars for meals and took in {M} dollars in deposits.",
+   "sign_convention": "money taken in minus money paid out",
+   "source": "written",
+   "tid": "SR-u01-02",
+   "tkey": "written:SR-u01-02",
+   "topic": "school lunch card",
+   "unit": "SR-u01"
+  },
+  {
+   "first": "A hiker started at a lookout {M} meters above the lake; the hiker then descended {S} meters.",
+   "frame": "F03",
+   "negative_reading": "the hiker ended below the level of the lake",
+   "question": "What is the hiker's height relative to the lake now, positive above it and negative below it?",
+   "role_only_in_question": 0,
+   "second": "A hiker descended {S} meters; the hiker had started at a lookout {M} meters above the lake.",
+   "sign_convention": "starting height minus descent",
+   "source": "written",
+   "tid": "SR-u01-03",
+   "tkey": "written:SR-u01-03",
+   "topic": "hiker above a lake",
+   "unit": "SR-u01"
+  },
+  {
+   "first": "The quiz team won {M} points on correct answers and lost {S} points on penalties.",
+   "frame": "F04",
+   "negative_reading": "the team lost more points than it won",
+   "question": "What was the team's net score?",
+   "role_only_in_question": 0,
+   "second": "The quiz team lost {S} points on penalties and won {M} points on correct answers.",
+   "sign_convention": "points won minus points lost",
+   "source": "written",
+   "tid": "SR-u01-04",
+   "tkey": "written:SR-u01-04",
+   "topic": "quiz team",
+   "unit": "SR-u01"
+  },
+  {
+   "first": "Suppliers delivered {M} crates to the warehouse this week, and stores took {S} crates out.",
+   "frame": "F05",
+   "negative_reading": "the warehouse stock fell",
+   "question": "What was the net change in the warehouse stock this week?",
+   "role_only_in_question": 0,
+   "second": "Stores took {S} crates out, and suppliers delivered {M} crates to the warehouse this week.",
+   "sign_convention": "crates received minus crates sent out",
+   "source": "written",
+   "tid": "SR-u01-05",
+   "tkey": "written:SR-u01-05",
+   "topic": "warehouse",
+   "unit": "SR-u01"
+  },
+  {
+   "first": "This month sales reached {M} units against a target of {S} units.",
+   "frame": "F06",
+   "negative_reading": "sales fell short of the target",
+   "question": "What was the sales result relative to the target, actual minus target?",
+   "role_only_in_question": 4,
+   "second": "This month a target of {S} units was set, and sales reached {M} units against the target.",
+   "sign_convention": "actual sales minus target",
+   "source": "written",
+   "tid": "SR-u01-06",
+   "tkey": "written:SR-u01-06",
+   "topic": "sales target",
+   "unit": "SR-u01"
+  },
+  {
+   "first": "The latest count found {M} residents in town; the previous count had found {S} residents.",
+   "frame": "F07",
+   "negative_reading": "the town lost residents",
+   "question": "What was the change in the town's population from the previous count to the latest count?",
+   "role_only_in_question": 4,
+   "second": "The previous count had found {S} residents in town; the latest count found {M} residents.",
+   "sign_convention": "latest count minus previous count",
+   "source": "written",
+   "tid": "SR-u01-07",
+   "tkey": "written:SR-u01-07",
+   "topic": "town population",
+   "unit": "SR-u01"
+  },
+  {
+   "first": "Lemonade sales earned the stand {M} dollars this summer, and it spent {S} dollars on supplies.",
+   "frame": "F08",
+   "negative_reading": "the stand made a loss",
+   "question": "What was the stand's profit for the summer?",
+   "role_only_in_question": 0,
+   "second": "The stand spent {S} dollars on supplies this summer, and lemonade sales earned it {M} dollars.",
+   "sign_convention": "money earned minus money spent",
+   "source": "written",
+   "tid": "SR-u01-08",
+   "tkey": "written:SR-u01-08",
+   "topic": "lemonade stand",
+   "unit": "SR-u01"
+  },
+  {
+   "first": "The toy robot drove forward {M} centimeters along the track, then reversed {S} centimeters.",
+   "frame": "F09",
+   "negative_reading": "the robot ended up behind its starting point",
+   "question": "What is the robot's final position relative to its starting point, with forward counted as positive?",
+   "role_only_in_question": 0,
+   "second": "The toy robot reversed {S} centimeters along the track after it drove forward {M} centimeters.",
+   "sign_convention": "forward move minus backward move",
+   "source": "written",
+   "tid": "SR-u01-09",
+   "tkey": "written:SR-u01-09",
+   "topic": "toy robot on a track",
+   "unit": "SR-u01"
+  },
+  {
+   "first": "On Monday the river stood {M} centimeters above the gauge mark; by Friday the water had fallen {S} centimeters.",
+   "frame": "F11",
+   "negative_reading": "the river ended below the gauge mark",
+   "question": "What was the river's level on Friday relative to the gauge mark, counting below the mark as negative?",
+   "role_only_in_question": 0,
+   "second": "By Friday the water had fallen {S} centimeters from where the river stood on Monday, {M} centimeters above the gauge mark.",
+   "sign_convention": "starting level minus fall",
+   "source": "written",
+   "tid": "SR-u01-11",
+   "tkey": "written:SR-u01-11",
+   "topic": "river gauge",
+   "unit": "SR-u01"
+  },
+  {
+   "first": "At the student council meeting, {M} members voted for the proposal and {S} voted against it.",
+   "frame": "F12",
+   "negative_reading": "the proposal was defeated",
+   "question": "What was the margin of votes for over votes against?",
+   "role_only_in_question": 4,
+   "second": "At the student council meeting, {S} members voted against the proposal and {M} voted for it.",
+   "sign_convention": "votes for minus votes against",
+   "source": "written",
+   "tid": "SR-u01-12",
+   "tkey": "written:SR-u01-12",
+   "topic": "student council",
+   "unit": "SR-u01"
+  },
+  {
+   "first": "The freezer read {M} degrees when Dana checked it at noon, and it had read {S} degrees at dawn.",
+   "frame": "F01",
+   "negative_reading": "the freezer got colder",
+   "question": "What was the change in the freezer's temperature from dawn to noon?",
+   "role_only_in_question": 0,
+   "second": "The freezer had read {S} degrees at dawn, and it read {M} degrees when Dana checked it at noon.",
+   "sign_convention": "noon reading minus dawn reading",
+   "source": "written",
+   "tid": "SR-u02-01",
+   "tkey": "written:SR-u02-01",
+   "topic": "freezer",
+   "unit": "SR-u02"
+  },
+  {
+   "first": "Over the school year the club fund took in {M} dollars and paid out {S} dollars.",
+   "frame": "F02",
+   "negative_reading": "the fund is overdrawn",
+   "question": "What was the fund's balance for the year, money in minus money out?",
+   "role_only_in_question": 0,
+   "second": "Over the school year the club fund paid out {S} dollars and took in {M} dollars.",
+   "sign_convention": "money taken in minus money paid out",
+   "source": "written",
+   "tid": "SR-u02-02",
+   "tkey": "written:SR-u02-02",
+   "topic": "club fund",
+   "unit": "SR-u02"
+  },
+  {
+   "first": "The bookstore received {M} books from the publisher this month and sent {S} books out to other branches.",
+   "frame": "F05",
+   "negative_reading": "the store's stock shrank",
+   "question": "What was the net change in the store's stock of books this month?",
+   "role_only_in_question": 0,
+   "second": "This month the bookstore sent {S} books out to other branches and received {M} books from the publisher.",
+   "sign_convention": "books received minus books sent out",
+   "source": "written",
+   "tid": "SR-u02-05",
+   "tkey": "written:SR-u02-05",
+   "topic": "bookstore",
+   "unit": "SR-u02"
+  },
+  {
+   "first": "Maya read {M} pages this week, while her goal for the week was {S} pages.",
+   "frame": "F06",
+   "negative_reading": "Maya fell short of her goal",
+   "question": "How far above her goal, counting a shortfall as negative, did Maya's reading finish the week?",
+   "role_only_in_question": 4,
+   "second": "Her goal for the week was {S} pages, while Maya read {M} pages this week.",
+   "sign_convention": "pages actually read minus pages in the goal",
+   "source": "written",
+   "tid": "SR-u02-06",
+   "tkey": "written:SR-u02-06",
+   "topic": "reading goal",
+   "unit": "SR-u02"
+  },
+  {
+   "first": "The robotics club has {M} members this spring; last autumn it had {S} members.",
+   "frame": "F07",
+   "negative_reading": "the club lost members",
+   "question": "What was the change in the club's membership from autumn to spring?",
+   "role_only_in_question": 0,
+   "second": "Last autumn the robotics club had {S} members; this spring it has {M} members.",
+   "sign_convention": "spring members minus autumn members",
+   "source": "written",
+   "tid": "SR-u02-07",
+   "tkey": "written:SR-u02-07",
+   "topic": "club members",
+   "unit": "SR-u02"
+  },
+  {
+   "first": "The bake sale earned {M} dollars from customers, and the ingredients and supplies cost {S} dollars.",
+   "frame": "F08",
+   "negative_reading": "the bake sale lost money",
+   "question": "What was the bake sale's profit?",
+   "role_only_in_question": 0,
+   "second": "The ingredients and supplies for the bake sale cost {S} dollars, and it earned {M} dollars from customers.",
+   "sign_convention": "dollars earned minus dollars spent",
+   "source": "written",
+   "tid": "SR-u02-08",
+   "tkey": "written:SR-u02-08",
+   "topic": "bake sale",
+   "unit": "SR-u02"
+  },
+  {
+   "first": "A frog hopped {M} centimeters forward along the path, then jumped {S} centimeters back toward its start.",
+   "frame": "F09",
+   "negative_reading": "the frog ended up behind its starting spot",
+   "question": "Where is the frog now, measured forward from its starting spot, with behind the start counted as negative?",
+   "role_only_in_question": 0,
+   "second": "A frog jumped {S} centimeters back along the path after it hopped {M} centimeters forward.",
+   "sign_convention": "forward move minus backward move",
+   "source": "written",
+   "tid": "SR-u02-09",
+   "tkey": "written:SR-u02-09",
+   "topic": "frog on a path",
+   "unit": "SR-u02"
+  },
+  {
+   "first": "On Monday the reservoir stood {M} centimeters above the mark painted on the dam, and by Friday it had fallen {S} centimeters.",
+   "frame": "F11",
+   "negative_reading": "the water is below the painted mark",
+   "question": "How far above the painted mark is the reservoir on Friday, counting a level below the mark as negative?",
+   "role_only_in_question": 0,
+   "second": "By Friday the reservoir had fallen {S} centimeters from its Monday level of {M} centimeters above the mark painted on the dam.",
+   "sign_convention": "starting level minus the fall",
+   "source": "written",
+   "tid": "SR-u02-11",
+   "tkey": "written:SR-u02-11",
+   "topic": "reservoir",
+   "unit": "SR-u02"
+  },
+  {
+   "first": "Residents packed the town meeting hall; {M} voted for the new bridge and {S} voted against it.",
+   "frame": "F12",
+   "negative_reading": "the proposal was defeated",
+   "question": "What was the margin of votes for over votes against?",
+   "role_only_in_question": 4,
+   "second": "Residents packed the town meeting hall; {S} voted against the new bridge and {M} voted for it.",
+   "sign_convention": "votes for minus votes against",
+   "source": "written",
+   "tid": "SR-u02-12",
+   "tkey": "written:SR-u02-12",
+   "topic": "town meeting",
+   "unit": "SR-u02"
+  },
+  {
+   "first": "The lake water measured {M} degrees at dusk and {S} degrees at dawn.",
+   "frame": "F01",
+   "negative_reading": "the lake water cooled between dawn and dusk",
+   "question": "What was the change in the lake's temperature from dawn to dusk?",
+   "role_only_in_question": 0,
+   "second": "The lake water measured {S} degrees at dawn and {M} degrees at dusk.",
+   "sign_convention": "dusk reading minus dawn reading",
+   "source": "written",
+   "tid": "SR-u03-01",
+   "tkey": "written:SR-u03-01",
+   "topic": "lake water",
+   "unit": "SR-u03"
+  },
+  {
+   "first": "Over the month, the family put {M} dollars into the savings jar and took {S} dollars out of it.",
+   "frame": "F02",
+   "negative_reading": "the jar was drained, with more money taken out than put in",
+   "question": "What was the jar's net balance change for the month, money in minus money out?",
+   "role_only_in_question": 0,
+   "second": "Over the month, the family took {S} dollars out of the savings jar and put {M} dollars into it.",
+   "sign_convention": "money put in minus money taken out",
+   "source": "written",
+   "tid": "SR-u03-02",
+   "tkey": "written:SR-u03-02",
+   "topic": "savings jar",
+   "unit": "SR-u03"
+  },
+  {
+   "first": "At the card table, Maya won {M} points in some hands and lost {S} points in others.",
+   "frame": "F04",
+   "negative_reading": "she lost more points than she won",
+   "question": "What was her net score for the evening?",
+   "role_only_in_question": 0,
+   "second": "At the card table, Maya lost {S} points in some hands and won {M} points in others.",
+   "sign_convention": "points won minus points lost",
+   "source": "written",
+   "tid": "SR-u03-04",
+   "tkey": "written:SR-u03-04",
+   "topic": "card game",
+   "unit": "SR-u03"
+  },
+  {
+   "first": "The pharmacy received {M} boxes of tablets this week and sent out {S} boxes to its branches.",
+   "frame": "F05",
+   "negative_reading": "the pharmacy's stock of tablets shrank",
+   "question": "What was the net change in the pharmacy's stock of tablets, boxes received minus boxes sent out?",
+   "role_only_in_question": 0,
+   "second": "The pharmacy sent out {S} boxes of tablets to its branches this week and received {M} boxes.",
+   "sign_convention": "boxes received minus boxes sent out",
+   "source": "written",
+   "tid": "SR-u03-05",
+   "tkey": "written:SR-u03-05",
+   "topic": "pharmacy",
+   "unit": "SR-u03"
+  },
+  {
+   "first": "The school enrolled {M} pupils this autumn, compared with {S} pupils the previous autumn.",
+   "frame": "F07",
+   "negative_reading": "enrolment fell",
+   "question": "What was the change in enrolment from the previous autumn to this autumn?",
+   "role_only_in_question": 0,
+   "second": "Compared with {S} pupils the previous autumn, the school enrolled {M} pupils this autumn.",
+   "sign_convention": "this autumn's enrolment minus the previous autumn's enrolment",
+   "source": "written",
+   "tid": "SR-u03-07",
+   "tkey": "written:SR-u03-07",
+   "topic": "school enrolment",
+   "unit": "SR-u03"
+  },
+  {
+   "first": "The car wash brought in {M} dollars from customers but cost {S} dollars for soap and sponges.",
+   "frame": "F08",
+   "negative_reading": "the car wash made a loss",
+   "question": "What was the car wash's profit?",
+   "role_only_in_question": 0,
+   "second": "The car wash cost {S} dollars for soap and sponges but brought in {M} dollars from customers.",
+   "sign_convention": "money brought in minus money spent",
+   "source": "written",
+   "tid": "SR-u03-08",
+   "tkey": "written:SR-u03-08",
+   "topic": "car wash",
+   "unit": "SR-u03"
+  },
+  {
+   "first": "The sack of rice weighed {M} kilograms at the end of the week and {S} kilograms at the start of the week.",
+   "frame": "F10",
+   "negative_reading": "the sack lost weight as rice was used",
+   "question": "What was the change in the sack's weight from the start of the week to the end?",
+   "role_only_in_question": 0,
+   "second": "At the start of the week the sack of rice weighed {S} kilograms, and at the end of the week it weighed {M} kilograms.",
+   "sign_convention": "end-of-week weight minus start-of-week weight",
+   "source": "written",
+   "tid": "SR-u03-10",
+   "tkey": "written:SR-u03-10",
+   "topic": "sack of rice",
+   "unit": "SR-u03"
+  },
+  {
+   "first": "At the book club meeting, {M} members voted for the new reading list and {S} members voted against it.",
+   "frame": "F12",
+   "negative_reading": "the proposal was defeated",
+   "question": "What was the margin of votes for over votes against?",
+   "role_only_in_question": 4,
+   "second": "At the book club meeting, {S} members voted against the new reading list and {M} members voted for it.",
+   "sign_convention": "votes for minus votes against",
+   "source": "written",
+   "tid": "SR-u03-12",
+   "tkey": "written:SR-u03-12",
+   "topic": "book club",
+   "unit": "SR-u03"
+  },
+  {
+   "first": "At dusk the thermometer on the mountain hut wall showed {M} degrees, whereas at dawn it had shown {S} degrees.",
+   "frame": "F01",
+   "negative_reading": "the temperature fell",
+   "question": "What was the change in temperature at the hut from dawn to dusk?",
+   "role_only_in_question": 0,
+   "second": "At dawn the thermometer on the mountain hut wall had shown {S} degrees, whereas at dusk it showed {M} degrees.",
+   "sign_convention": "dusk reading minus dawn reading",
+   "source": "written",
+   "tid": "SR-u04-01",
+   "tkey": "written:SR-u04-01",
+   "topic": "mountain hut",
+   "unit": "SR-u04"
+  },
+  {
+   "first": "Over the month the phone account took in {M} dollars of top-ups and paid out {S} dollars for calls and texts.",
+   "frame": "F02",
+   "negative_reading": "more was spent than topped up, so the credit is overdrawn",
+   "question": "What was the phone credit balance for the month, money in minus money out?",
+   "role_only_in_question": 0,
+   "second": "Over the month the phone account paid out {S} dollars for calls and texts and took in {M} dollars of top-ups.",
+   "sign_convention": "money taken in minus money paid out",
+   "source": "written",
+   "tid": "SR-u04-02",
+   "tkey": "written:SR-u04-02",
+   "topic": "phone credit",
+   "unit": "SR-u04"
+  },
+  {
+   "first": "The drone began hovering {M} meters above the rooftop and then descended {S} meters.",
+   "frame": "F03",
+   "negative_reading": "the drone ended below the rooftop",
+   "question": "What was the drone's height relative to the rooftop after the descent?",
+   "role_only_in_question": 0,
+   "second": "The drone descended {S} meters after it began hovering {M} meters above the rooftop.",
+   "sign_convention": "starting height minus descent",
+   "source": "written",
+   "tid": "SR-u04-03",
+   "tkey": "written:SR-u04-03",
+   "topic": "drone above a rooftop",
+   "unit": "SR-u04"
+  },
+  {
+   "first": "On the final level the player won {M} points from treasure chests and lost {S} points to traps.",
+   "frame": "F04",
+   "negative_reading": "the player lost more points than they won",
+   "question": "What was the player's net score for that level?",
+   "role_only_in_question": 0,
+   "second": "On the final level the player lost {S} points to traps and won {M} points from treasure chests.",
+   "sign_convention": "points won minus points lost",
+   "source": "written",
+   "tid": "SR-u04-04",
+   "tkey": "written:SR-u04-04",
+   "topic": "video game level",
+   "unit": "SR-u04"
+  },
+  {
+   "first": "This week the toy shop received {M} boxes of building blocks from the warehouse and sent out {S} boxes to customers.",
+   "frame": "F05",
+   "negative_reading": "the shop's stock of blocks shrank",
+   "question": "What was the net change in the shop's stock of building blocks over the week?",
+   "role_only_in_question": 0,
+   "second": "This week the toy shop sent out {S} boxes of building blocks to customers and received {M} boxes from the warehouse.",
+   "sign_convention": "boxes received minus boxes sent out",
+   "source": "written",
+   "tid": "SR-u04-05",
+   "tkey": "written:SR-u04-05",
+   "topic": "toy shop",
+   "unit": "SR-u04"
+  },
+  {
+   "first": "The fundraising drive brought in {M} dollars against a planned target of {S} dollars.",
+   "frame": "F06",
+   "negative_reading": "the drive fell short of its target",
+   "question": "How far above its target did the drive finish, counting a shortfall as negative?",
+   "role_only_in_question": 4,
+   "second": "Against a planned target of {S} dollars, the fundraising drive brought in {M} dollars.",
+   "sign_convention": "amount raised minus target",
+   "source": "written",
+   "tid": "SR-u04-06",
+   "tkey": "written:SR-u04-06",
+   "topic": "fundraising drive",
+   "unit": "SR-u04"
+  },
+  {
+   "first": "A survey in autumn found {M} herons on the marsh, and a survey the previous spring had found {S} herons.",
+   "frame": "F07",
+   "negative_reading": "the heron count fell",
+   "question": "What was the change in the heron count from spring to autumn?",
+   "role_only_in_question": 4,
+   "second": "A survey the previous spring had found {S} herons on the marsh, and a survey in autumn found {M} herons.",
+   "sign_convention": "autumn count minus spring count",
+   "source": "written",
+   "tid": "SR-u04-07",
+   "tkey": "written:SR-u04-07",
+   "topic": "bird count",
+   "unit": "SR-u04"
+  },
+  {
+   "first": "Ticket sales for the school play earned {M} dollars, while the costumes and scenery cost {S} dollars.",
+   "frame": "F08",
+   "negative_reading": "the play made a loss",
+   "question": "What was the profit of the school play?",
+   "role_only_in_question": 0,
+   "second": "The costumes and scenery for the school play cost {S} dollars, while ticket sales earned {M} dollars.",
+   "sign_convention": "money earned minus money spent",
+   "source": "written",
+   "tid": "SR-u04-08",
+   "tkey": "written:SR-u04-08",
+   "topic": "school play",
+   "unit": "SR-u04"
+  },
+  {
+   "first": "At harvest the pumpkin weighed {M} pounds; back in midsummer it had weighed {S} pounds.",
+   "frame": "F10",
+   "negative_reading": "the pumpkin lost weight",
+   "question": "What was the change in the pumpkin's weight from midsummer to harvest?",
+   "role_only_in_question": 0,
+   "second": "Back in midsummer the pumpkin had weighed {S} pounds; at harvest it weighed {M} pounds.",
+   "sign_convention": "harvest weight minus midsummer weight",
+   "source": "written",
+   "tid": "SR-u04-10",
+   "tkey": "written:SR-u04-10",
+   "topic": "pumpkin",
+   "unit": "SR-u04"
+  },
+  {
+   "first": "In the team captain election, {M} players voted for the nominee and {S} players voted against her.",
+   "frame": "F12",
+   "negative_reading": "the nominee was defeated",
+   "question": "What was the margin of votes for over votes against?",
+   "role_only_in_question": 4,
+   "second": "In the team captain election, {S} players voted against the nominee and {M} players voted for her.",
+   "sign_convention": "votes for minus votes against",
+   "source": "written",
+   "tid": "SR-u04-12",
+   "tkey": "written:SR-u04-12",
+   "topic": "team captain",
+   "unit": "SR-u04"
+  }
+ ],
+ "kept_v5": [
+  22,
+  30
+ ],
+ "kept_written": [
+  38,
+  48
+ ],
+ "verdict": "GO"
+}
