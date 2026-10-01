@@ -253,7 +253,7 @@ section 14 of the guide; each folder has its clean templates and a `CODE.md5`):
 * `banks/abstainbank/`: 503 English questions the block should abstain on (percent, roots,
   two-step, yes/no ...), each with an ordinary one-step twin; templates only;
 * `banks/abstainbank_x/`, **partial**: the same in German, Spanish, French, Italian, Dutch
-  and Portuguese (68 templates so far); templates only;
+  and Portuguese (148 templates so far, the first chunk); templates only;
 * `banks/audience/`, **demo-grade**: 199 short demo-style prompts and their generator.
 
 **Training and evaluating on a bank.** `data_gen/bank_to_corpus.py` writes a bank's rows

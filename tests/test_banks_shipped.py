@@ -97,13 +97,18 @@ def test_abstainbank_x_templates_match_and_join():
     import clean_split as CS
     d = os.path.join(ROOT, "banks", "abstainbank_x")
     want = MB.read_ship(os.path.join(d, "CODE.md5"))
-    assert len(want) == 7
+    assert len(want) == 14
     bad = [rel for rel in sorted(want) if MB.md5_of(os.path.join(d, rel)) != want[rel]]
     assert not bad, bad
-    b, md5 = CS.join_clean(os.path.join(d, "clean", "X01r1"))
-    assert hashlib.md5(b).hexdigest() == md5 == "d279cab3f4f278f1b85f065bdd2ae99d"
-    j = json.loads(b)
-    assert len(j["kept"]) == 68 and len(j["dropped"]) == 28
+    ids = set()
+    for rnd, md5_want, n_kept, n_dropped in (("X01r1", "d279cab3f4f278f1b85f065bdd2ae99d", 68, 28),
+                                              ("X01r2", "9bfef48eb823d21734dff0777d198504", 80, 16)):
+        b, md5 = CS.join_clean(os.path.join(d, "clean", rnd))
+        assert hashlib.md5(b).hexdigest() == md5 == md5_want, rnd
+        j = json.loads(b)
+        assert len(j["kept"]) == n_kept and len(j["dropped"]) == n_dropped, rnd
+        ids |= {e["template"]["id"] for e in j["kept"]}
+    assert len(ids) == 148
 
 
 def test_audience_bank_v2_regenerates():

@@ -1,6 +1,7 @@
 # md5 of the ABX clean template files (md5sum format; `md5sum -c CODE.md5` from banks/abstainbank_x/).
-# clean/X01r1/<lang>.json + index.json join (python banks/clean_split.py join clean/X01r1 <out>) byte for byte into the
-# project's clean_abstainbank_x_X01r1.json, md5 d279cab3f4f278f1b85f065bdd2ae99d. PARTIAL: chunk X01, round 1 of 2 only.
+# clean/<round>/<lang>.json + index.json join (python banks/clean_split.py join clean/<round> <out>) byte for byte into the
+# project's clean files: X01r1 -> clean_abstainbank_x_X01r1.json md5 d279cab3f4f278f1b85f065bdd2ae99d (68 kept),
+# X01r2 -> clean_abstainbank_x_X01r2.json md5 9bfef48eb823d21734dff0777d198504 (80 kept). PARTIAL: chunk X01 only (148/192).
 f7bec5886ea2a93da50d0745f60299d9  clean/X01r1/index.json
 aca51326d075e6c95b61094e2fb17133  clean/X01r1/de.json
 844dced13c6ff858ab0ed8168546babf  clean/X01r1/es.json
@@ -8,3 +9,10 @@ e1df7d3e6c250da5600a516e1d964beb  clean/X01r1/fr.json
 f6659c343f42cb69289e94394c75fbc7  clean/X01r1/it.json
 26528aca5930a4569252ebdeb9bfb8e6  clean/X01r1/nl.json
 50adb36ca01ddf70cad80c7683b0f892  clean/X01r1/pt.json
+8d414a32e052d313012d53a27b1d40c7  clean/X01r2/index.json
+1932c6e90c6380831d6a8235e3a1d850  clean/X01r2/de.json
+83fe8da4ba31b678096d3ccea99e1350  clean/X01r2/es.json
+d41ba7faac42290b4b90895daba47781  clean/X01r2/fr.json
+68ac7d4f155ee9bc80d40acded741f53  clean/X01r2/it.json
+745aee0e962bb515e13f6b6e916d26ac  clean/X01r2/nl.json
+239e7419f5b99c4f49dafc64e2db9763  clean/X01r2/pt.json

@@ -234,34 +234,36 @@ would be right to fire; for `compare` and `lookup` the answer is one of the writ
 itself). The project's bank used about 8 rows per template (small, mid and
 huge numbers where the operation makes sense).
 
-## Abstain bank ABX (PARTIAL: chunk X01, round 1 of 2): AB1 in other languages, with question forms
+## Abstain bank ABX (PARTIAL: chunk X01 only): AB1 in other languages, with question forms
 
 ABX is AB1 (same classes, same `abs_prog` language, same in-set twins and keep rule) written
 natively in the 60 non-English languages of `v3_61`, 96 templates per language when
 finished, and every template (abstain question and twin alike) is asked in one of the eight
 v5x question forms F0-F7 (`template.form`). A template was kept only if all four of its
 texts passed the blind verifier AND the verifier judged each text to be in its form. **Only
-round 1 of the pilot chunk X01 is cleaned so far**: 6 languages x 16 templates, 68 kept:
+the pilot chunk X01 is done so far**: 6 languages, two rounds of 16 templates each, 148 of
+192 kept (round 2 was written after a drop analysis of round 1 and fixed its brief; German
+went from 6/16 to 13/16):
 
-| lang | kept | dropped |
-|---|---:|---:|
-| de German | 6 | 10 |
-| es Spanish | 13 | 3 |
-| fr French | 13 | 3 |
-| it Italian | 11 | 5 |
-| nl Dutch | 15 | 1 |
-| pt Portuguese | 10 | 6 |
-| **X01 round 1** | **68** | **28** |
+| lang | round 1 kept | round 2 kept | X01 kept | X01 dropped |
+|---|---:|---:|---:|---:|
+| de German | 6/16 | 13/16 | 19 | 13 |
+| es Spanish | 13/16 | 14/16 | 27 | 5 |
+| fr French | 13/16 | 13/16 | 26 | 6 |
+| it Italian | 11/16 | 14/16 | 25 | 7 |
+| nl Dutch | 15/16 | 14/16 | 29 | 3 |
+| pt Portuguese | 10/16 | 12/16 | 22 | 10 |
+| **X01** | **68/96** | **80/96** | **148** | **44** |
 
-Kept per class: average 4, compare 5, counting 4, digits 5, estimate 6, hidden_const 5,
-inexact_div 2, lookup 4, no_arith 2, noninteger 6, number_theory 4, percent 5, power_root 5,
-ratio 5, rounding 4, two_step 2 (no nonnumeric yet). Per form: F0 12, F1 5, F2 10, F3 8,
-F4 13, F5 6, F6 12, F7 2. Twins: add 19, sub 16, mul 18, div 15. Each template also carries
-`gloss_en` (an English gloss), `hidden_word_en` and `twin_cue_en`. Round 2 of X01 (the
-same six languages, 96 more templates) has been verified but not yet cleaned; it will be
-added as `clean/X01r2/`. The clean files are one per language in `abstainbank_x/clean/X01r1/`
-with `index.json`; `python banks/clean_split.py join banks/abstainbank_x/clean/X01r1 <out.json>`
-rebuilds the project's single file byte for byte. As for AB1, the filling tool is not
+Kept per class (X01): average 10, compare 6, counting 10, digits 9, estimate 10, hidden_const
+11, inexact_div 8, lookup 9, no_arith 4, noninteger 12, number_theory 8, percent 11,
+power_root 11, ratio 11, rounding 10, two_step 8 (no nonnumeric yet). Per form: F0 19, F1 18,
+F2 16, F3 23, F4 19, F5 20, F6 19, F7 14. Twins: add 41, sub 37, mul 37, div 33. Each
+template also carries `gloss_en` (an English gloss), `hidden_word_en` and `twin_cue_en`. The
+clean files are one per language and round, in `abstainbank_x/clean/X01r1/` and
+`abstainbank_x/clean/X01r2/`, each with `index.json`;
+`python banks/clean_split.py join banks/abstainbank_x/clean/X01r2 <out.json>` (or `X01r1`)
+rebuilds the project's single file of that round byte for byte. As for AB1, the filling tool is not
 shipped (it builds on AB1's); the AB1 notes on filling apply unchanged.
 
 ## The audience demo bank (English, DEMO-GRADE)

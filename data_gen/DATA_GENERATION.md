@@ -1018,8 +1018,8 @@ layouts are in [`banks/README.md`](../banks/README.md).
   by their words alone, a gate trained on them learns the words. Write the twin in the
   abstain question's vocabulary.
 * **`banks/abstainbank_x/`** (PARTIAL): AB1 written natively in other languages, each
-  template in one of the eight v5x question forms. So far 68 templates in German, Spanish,
-  French, Italian, Dutch and Portuguese (round 1 of the pilot chunk). Templates only.
+  template in one of the eight v5x question forms. So far 148 templates in German, Spanish,
+  French, Italian, Dutch and Portuguese (the pilot chunk, two rounds). Templates only.
 * **`banks/audience/`** (English, DEMO-GRADE): 199 short prompts of the kind people type at
   a live demo ("What is {A} plus {B}?", a three-number story, "What number is {A} percent of
   {B}?", "What is Tom's jersey number?"), so a demo gate can be fitted on them. Not a test
