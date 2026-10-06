@@ -27,7 +27,148 @@ This repo does **binary integer arithmetic only**: addition, subtraction and
 multiplication, operands up to 16 digits, results up to 32 digits. It is meant to be read
 in an afternoon and reproduced in an hour on one GPU.
 
-## The architecture
+> **Read/route/write is superseded.** Everything from "The architecture" down to "What is deliberately left out"
+> describes `exact_block/`, the original one-step block. It still runs, its tests still pass, and it stays in the
+> repo as **legacy**. The project's current method is the def-use reader in `defuse/`, described in the next section;
+> [MIGRATION.md](MIGRATION.md) maps one onto the other and [TASKS.md](TASKS.md) is the Llama port plan.
+
+## Read/route/write is superseded: the def-use reader (`defuse/`)
+
+### What replaced it, and why
+
+The block above reads two operands, picks one of three operations and writes the answer back into the stream. That
+is a good machine for "add these two numbers", and on templated one-step prose it is close to perfect. It is the
+wrong machine for real word problems, for three reasons that the project ran into one after the other:
+
+1. **Real problems are multi-step.** In the project's read of 198,599 public word problems, 141,167 need two or more
+   operations, and that is where the host goes wrong: the frozen Qwen3-8B is wrong on 88,517 of those 141,167. A one-operation block cannot fix a row whose answer needs
+   `(a x b) - c`, however well it reads `a` and `b`.
+2. **Writing into the stream is fragile.** Free-running, a written digit that is slightly off corrupts every digit
+   after it (the greedy table further down shows this), and every write is a change to the host's own answer whether
+   or not the host needed help.
+3. **Most of the time the host is already right.** At 8B the host answers 12,601 of the 29,070 held-out rows right
+   by itself. Any system that overrides it must prove it does not break those rows. That needs an explicit
+   abstention rule, and a write-back block has no natural place for one.
+
+The replacement keeps the idea that worked, *read what the frozen host is already computing from its hidden states*,
+and changes what is read and what is done with it:
+
+* **What is read: the whole program.** At the cue ("The answer is"), the host's hidden states at each written number
+  and at the answer position are read by small heads: is this number USED or a distractor, what is the operator of
+  its PARENT step, which SIDE of a subtraction or division it sits on, how DEEP it is, which numbers are SIBLINGS,
+  how many STEPS the program has, its ROOT operator, and which hidden CONSTANTS (2, 100, 12, ...) it needs. A
+  decoder assembles those reads into a program tree over the written numbers and a 20-value constant vocabulary
+  (reader A: independent heads plus a beam search; reader B: a small tree decoder trained end to end).
+* **What is done with it: execute exactly, then decide.** The program is executed in exact fractions, outside the
+  model. Nothing is written into the residual stream. The executed value replaces the host's answer only when a rule
+  says so (next point); otherwise the host's own answer stands.
+* **When it acts: the R1 rule.** *Never turn a host-right or a host-silent row into a wrong answer.* The base rule
+  (DU-AG) fires only when the programs read at three layers agree and the host's own answer is an echo of a prompt
+  number or some other number; it never fires when the host wrote no number, and it has nothing to do when the host
+  already agrees. A small gate then scores each fire, fixed against broken, and the cut is set on folds 1-4 so that
+  rows broken stay at or below 1% of host-right rows (`defuse/gate.py`). A configuration counts as passing only if
+  that holds on the held-out fold: broken <= floor(1% of host-right).
+
+### One worked example (made up for illustration, not a measured row)
+
+```
+prompt     "A shop packed 12 boxes with 5 pens in each box. It sold 23 pens. How many pens are left?
+            The answer is"
+dump       hidden states at the last token of "12", "5", "23" and at the answer position, layers 20 / 24 / 28
+heads      12: USED, parent x, depth 2      5: USED, parent x, depth 2      23: USED, parent -, side right
+           row: 2 steps, root -, no hidden constant
+program    (12 x 5) - 23        the same program at layers 20, 24 and 28
+executed   60 - 23 = 37         exact fractions, outside the model
+host       the frozen model's own greedy answer is " 60"   -> an intermediate result, not the answer
+DU-AG      layers agree; the host's number is neither the program's value nor silent (class "other") -> candidate
+gate       score from the decoder's confidence per leaf, the host-outcome probes, 2 steps, 3 numbers -> above the
+           frozen cut -> FIRE: the answer shown is 37
+had the host said " 37"   -> host agrees, nothing to do (no fire)
+had the host said nothing -> host silent, never fire (R1)
+had the layers disagreed  -> no fire; the host's own answer stands
+```
+
+### Where it stands (headline numbers from the project's verdict files)
+
+All numbers are n/total. Rows are the project's wild pools (Ape210K, Math23K, MathQA, ASDiv, MAWPS; up to five
+written numbers per problem). **Fold 5** is the held-out fold of the pool (29,070 rows), scored once with frozen
+settings. **Official** is the source datasets' own test splits (Ape210K test/valid and Math23K test, 9,208 rows), a
+second held-out set; the 8B / 1.7B / 0.6B lines below are the third look at it, the 32B line the first. "Host" is
+the hardware the hidden states were dumped on: the 8B on a Thor board, the others on an H100; the same model on
+different hardware flips a few percent of greedy answers, so sizes are never pooled.
+
+**The default configuration: reader A + the M1 gate** (frozen; `RULES2.md`, `FROZEN2.json` md5 12653bc0; 32B
+`RULES32.md`). R1 SUCCESS at every size on both held-out sets.
+
+| host model (dump host) | rule | fold 5 broken / host-right (bar) | fold 5 fixed / host-wrong | fold 5 system right (host alone) | official broken / host-right (bar) | official fixed / host-wrong | official system right (host alone) |
+|---|---|---|---|---|---|---|---|
+| Qwen3-32B (H100) | A + M1b, tau 0.75% | 106/16388 (163) | 913/12682 | 17195/29070 (16388) | 49/5474 (54) | 351/3734 | 5776/9208 (5474) |
+| Qwen3-8B (Thor) | A + M1c, tau 1.00% | 120/12601 (126) | 1247/16469 | 13728/29070 (12601) | 36/4475 (44) | 480/4733 | 4919/9208 (4475) |
+| Qwen3-1.7B (H100) | A + M1b, tau 0.75% | 40/4986 (49) | 2198/24084 | 7144/29070 (4986) | 11/1908 (19) | 780/7300 | 2677/9208 (1908) |
+| Qwen3-0.6B (H100) | A + M1b, tau 0.75% | 19/2201 (22) | 1959/26869 | 4141/29070 (2201) * | 5/878 (8) | 781/8330 | 1654/9208 (878) |
+
+Sources: fold 5 from `defuse/broken/FOLD5_RULES2.md` (md5 e6bbe171) and `defuse/r32/FOLD5_32.md` (08e7994f);
+official from `defuse/broken/OFFICIAL3.md` (130b48bf) and `defuse/r32/OFFICIAL32.md` (5fc98e07).
+\* The 0.6B fold-5 system-right figure (4141) is being re-checked in the project; the broken / fixed counts are not
+in question. The project notes that at 0.6B the official bar is 8 rows, so SUCCESS there is close to a coin flip
+whatever the rule's quality.
+
+**Gated at the two small sizes only: reader B + its gate** (frozen `GATE24B.json` md5 57e464de; fold 5 only, never
+looked at on official; `defuse/readerB/FOLD5_GATE.md` md5 7b25dbb1). It passes R1 at 1.7B and 0.6B and fixes more
+than A + M1 there; at 8B and 32B it misses the bar by 4 and 3 rows, so A + M1 stays the default at those sizes.
+
+| host model (dump host) | rule | fold 5 broken / host-right (bar) | fixed / host-wrong | system right | R1 |
+|---|---|---|---|---|---|
+| Qwen3-32B (H100) | B + gate, tau 0.75% | 166/16388 (163) | 886/12682 | 17108/29070 | NEITHER |
+| Qwen3-8B (Thor) | B + gate, tau 1.00% | 130/12601 (126) | 1626/16469 | 14097/29070 | NEITHER |
+| Qwen3-1.7B (H100) | B + gate, tau 0.75% | 36/4986 (49) | 3575/24084 | 8525/29070 | SUCCESS |
+| Qwen3-0.6B (H100) | B + gate, tau 0.75% | 19/2201 (22) | 3778/26869 | 5960/29070 | SUCCESS |
+
+**How well the program itself is read, by gold steps** (reader A at layer label 24, fold 5, rows whose gold program
+the reader's grammar can express; value right = the read program executes to the gold value, fired or not; an
+exploratory diagnostic, not a gate: `defuse/diag/A_ROWS.md` md5 b9029d16, `defuse/r32/A_ROWS_32B.md` fce9111e).
+
+| host model (dump host) | 1 step | 2 steps | 3 steps | 4 steps | 5+ steps |
+|---|---|---|---|---|---|
+| Qwen3-32B (H100) | 2355/3519 | 4536/7381 | 1302/4315 | 391/2397 | 39/1741 |
+| Qwen3-8B (Thor) | 2355/3519 | 4284/7381 | 1159/4315 | 343/2397 | 32/1741 |
+| Qwen3-1.7B (H100) | 2135/3519 | 3473/7381 | 736/4315 | 273/2397 | 27/1741 |
+| Qwen3-0.6B (H100) | 2014/3519 | 2912/7381 | 515/4315 | 236/2397 | 26/1741 |
+
+The same diagnosis says where the misses come from: mostly the hidden-constant heads (a 2, 100 or 12 that is never
+written) and distractor numbers admitted as used, not the operators.
+
+**Pending / experimental (not defaults, not gated).** A joint leaf-set decoder ("a decoder that can say no"):
+frozen, its gate files not yet pinned, fold 5 not read. A feature-source ablation and 2x2 refit (x12): not frozen.
+Better constant heads: passed their pre-registered bars on folds 1-4 at 8B; the fold-5 check and a gated-selection
+amendment are in progress. An A / B / abstain selector: frozen on folds 1-4 only, no held-out gate yet, and its 0.6B
+input is the figure under re-check above. None of these is in `defuse/`.
+
+### What is in `defuse/`
+
+```
+defuse/dump.py        the one GPU step: hidden states at the cue + the host's own greedy answer (any HF causal LM)
+defuse/inventory.py   gold equations (ASDiv, MAWPS, MathQA, Ape210K / Math23K, GSM8K-style, Dolphin) -> exact programs
+defuse/reader_a.py    reader A: targets, features, ridge heads, DU-AG firing (its beam decoder: pending, see below)
+defuse/reader_b.py    reader B: the tree decoder (numpy, manual gradients)
+defuse/fit_b.py       fit reader B on folds 1-4 (grid on 1-3, select on 4, refit on 1-4) and decode rows into records
+defuse/gate.py        the R1 ledger, the M1-style gate (cross-fitted on folds 1-4), the host-outcome state probe
+defuse/evaluate.py    value-right / host-right / system-right by gold steps, and the R1 ledger table, n/total
+defuse/data.py, guard.py   the fold discipline: fold 5 and fold 6 rows are refused by every fit
+defuse/run.py         the pipeline as commands (fit-b, lofo-b, fit-gate, decode-b)
+defuse/PROVENANCE.md  every source file md5, line range and patch: this is a port, not a rewrite
+tests/test_defuse_cpu.py   16 CPU tests on synthetic fixtures (python -m pytest -q tests/test_defuse_cpu.py)
+sbatch/defuse_dump.sbatch, sbatch/defuse_cpu.sbatch   the cluster job files
+```
+
+**One known gap.** Reader A's beam decoder is not ported yet (`reader_a.decode` raises and says so), so reader A can
+be fitted and its heads measured, but it cannot yet produce programs, and the M1 gate's decoder-confidence features
+cannot be computed for it. Reader B + its gate run end to end. Nothing in this package was fitted on a real row:
+there are no weights to download. Every head, decoder and gate is meant to be refitted on your own host's dumps,
+which is the point of the Llama port ([TASKS.md](TASKS.md)).
+
+
+## The architecture (legacy: `exact_block/`)
 
 ```
 prompt: "The depot received 90310 bolts on Monday and 472 bolts on Tuesday,
@@ -111,6 +252,8 @@ operand wider than `dmax`, is caught by the locator before the forward pass, and
 a span the tagger could not find, is caught by the tagger itself.
 
 ## Files
+
+The def-use package `defuse/` is listed in its own section above; the files below are the legacy block's and the banks'.
 
 ```
 exact_block/numerals.py   the locator: digit-token runs -> LSD-first lane vectors
