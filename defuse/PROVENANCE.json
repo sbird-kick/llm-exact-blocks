@@ -1,0 +1,222 @@
+[
+ {
+  "module": "reader_a.py",
+  "source": "defuse_reader.py",
+  "source_md5": "d2eb8b33672d3cb03c7f16c5dfede819",
+  "lines": "45-731",
+  "segment_md5": "3792c20c36a00e5f366b918a00c82ca0"
+ },
+ {
+  "module": "reader_a.py",
+  "patch": "the cluster fit guard is replaced by defuse/guard.py (same md5f / check_path / check_row_id names)"
+ },
+ {
+  "module": "reader_a.py",
+  "patch": "drop PINS and HOST_LABEL (cluster bookkeeping, unused by the ported functions)"
+ },
+ {
+  "module": "reader_a.py",
+  "patch": "load_pinned: no cluster path search; returns defuse/inventory.py"
+ },
+ {
+  "module": "reader_a.py",
+  "source": "defuse_reader.py",
+  "source_md5": "d2eb8b33672d3cb03c7f16c5dfede819",
+  "lines": "1149-1186",
+  "segment_md5": "eb2bf9e67b4434782a429dd2e43e8190"
+ },
+ {
+  "module": "reader_b.py",
+  "source": "defuse_reader_b.py",
+  "source_md5": "ececa84a8f107191f573d50c94cc398f",
+  "lines": "27-338",
+  "segment_md5": "b967d7cfb68478329d80e1aa0d1b5ab8"
+ },
+ {
+  "module": "reader_b.py",
+  "source": "defuse_reader_b.py",
+  "source_md5": "ececa84a8f107191f573d50c94cc398f",
+  "lines": "340-358",
+  "segment_md5": "d7714cf14be61c86df8562c03af072fb"
+ },
+ {
+  "module": "reader_b.py",
+  "patch": "import reader A from the package"
+ },
+ {
+  "module": "inventory.py",
+  "source": "defuse_inventory.py",
+  "source_md5": "a0a2b821ac27e04b242f6b041e300d53",
+  "lines": "24-26",
+  "segment_md5": "14da75c371a8c359ed48eda7d822398f"
+ },
+ {
+  "module": "inventory.py",
+  "source": "defuse_inventory.py",
+  "source_md5": "a0a2b821ac27e04b242f6b041e300d53",
+  "lines": "35-507",
+  "segment_md5": "aeee772118c8b4479aeb4481ac5ac636"
+ },
+ {
+  "module": "gate.py",
+  "source": "br_common.py",
+  "source_md5": "6dcfc2da80d12165de1ecf1e1c2052fe",
+  "lines": "16-19",
+  "segment_md5": "2d47574a3c3a212ef9f4e8b77bc119c4"
+ },
+ {
+  "module": "gate.py",
+  "source": "br_common.py",
+  "source_md5": "6dcfc2da80d12165de1ecf1e1c2052fe",
+  "lines": "43-82",
+  "segment_md5": "131e7a6dc1a9a9a96fb28d6b25cc5d6e"
+ },
+ {
+  "module": "gate.py",
+  "source": "task4_rules2.py",
+  "source_md5": "a9102b7a478d370deea497583dc6e1c5",
+  "lines": "20-20",
+  "segment_md5": "3875586527027cb7c63999588f00f81f"
+ },
+ {
+  "module": "gate.py",
+  "source": "task4_rules2.py",
+  "source_md5": "a9102b7a478d370deea497583dc6e1c5",
+  "lines": "26-26",
+  "segment_md5": "6bcbd133c31529c9078c6cc98ce2c536"
+ },
+ {
+  "module": "gate.py",
+  "source": "task3_rules.py",
+  "source_md5": "2bb53325be67b396ac1c93efcda67857",
+  "lines": "66-71",
+  "segment_md5": "5b237afbbf99d19f67bc1f6569878965"
+ },
+ {
+  "module": "gate.py",
+  "patch": "rename task3_rules.prep -> prep_a (reader A rows)"
+ },
+ {
+  "module": "gate.py",
+  "source": "task4_rules2.py",
+  "source_md5": "a9102b7a478d370deea497583dc6e1c5",
+  "lines": "33-77",
+  "segment_md5": "117b899f3c325f7536545a60ed817d2e"
+ },
+ {
+  "module": "gate.py",
+  "patch": "rename task4_rules2.prep -> prep_m1; it calls prep_a"
+ },
+ {
+  "module": "gate.py",
+  "source": "bgate_rules.py",
+  "source_md5": "cbb27ff3b2e3852bc9e559117ca97255",
+  "lines": "67-86",
+  "segment_md5": "195acb40974d6f74ccc63c09c900bf9a"
+ },
+ {
+  "module": "gate.py",
+  "source": "bgate_rules.py",
+  "source_md5": "cbb27ff3b2e3852bc9e559117ca97255",
+  "lines": "104-113",
+  "segment_md5": "f14b088706a7df71610b16e3a0ddc559"
+ },
+ {
+  "module": "gate.py",
+  "patch": "rename bgate_rules.prep -> prep_b (reader B rows)"
+ },
+ {
+  "module": "gate.py",
+  "patch": "rename bgate_rules.feats -> feats_b; T4.feats -> feats"
+ },
+ {
+  "module": "gate.py",
+  "patch": "cross_scores: T4.fit_logit / T4.score_logit -> local"
+ },
+ {
+  "module": "gate.py",
+  "source": "firing_probe.py",
+  "source_md5": "26f014098895427fb6e827f39beed0f0",
+  "lines": "28-30",
+  "segment_md5": "14307f9b7577c1345d63345eabe9835c"
+ },
+ {
+  "module": "gate.py",
+  "source": "firing_probe.py",
+  "source_md5": "26f014098895427fb6e827f39beed0f0",
+  "lines": "37-53",
+  "segment_md5": "f2c8461d05e6fc467404bbed41fd5aa0"
+ },
+ {
+  "module": "gate.py",
+  "source": "firing_probe.py",
+  "source_md5": "26f014098895427fb6e827f39beed0f0",
+  "lines": "98-156",
+  "segment_md5": "83777c5199c436fd0fcc68b8c836a093"
+ },
+ {
+  "module": "gate.py",
+  "patch": "rename firing_probe.auroc -> auroc_mw (br_common.auroc keeps its name)"
+ },
+ {
+  "module": "gate.py",
+  "patch": "fit_arm: its two auroc(...) calls -> auroc_mw(...)"
+ },
+ {
+  "module": "fit_b.py",
+  "source": "defuse_fit.py",
+  "source_md5": "80e86a7537404ae1420c25b58b652997",
+  "lines": "76-79",
+  "segment_md5": "334b10a5ad7467c6c821f84efbeca828"
+ },
+ {
+  "module": "fit_b.py",
+  "source": "defuse_fit.py",
+  "source_md5": "80e86a7537404ae1420c25b58b652997",
+  "lines": "556-610",
+  "segment_md5": "55e33911f2db8d7ae5962c9d171524ed"
+ },
+ {
+  "module": "fit_b.py",
+  "patch": "run_fitb: data from rows_by_fold(folds) (in memory) instead of the cluster cache; default grid F2_GRID"
+ },
+ {
+  "module": "fit_b.py",
+  "patch": "run_fitb: the final refit data from rows_by_fold"
+ },
+ {
+  "module": "fit_b.py",
+  "patch": "run_fitb also returns the fitted model"
+ },
+ {
+  "module": "dump.py",
+  "source": "hsig_operandstate_v2b.py",
+  "source_md5": "6a583426e23e8cb08cf2ef8184061dda",
+  "lines": "1-271",
+  "segment_md5": "5ffed9d940f0a911176e6df0f7b6b83a"
+ },
+ {
+  "module": "dump.py",
+  "patch": "--hr (a cluster path to the locator module) -> --locator single|grouped"
+ },
+ {
+  "module": "dump.py",
+  "patch": "the locator comes from this module, not from a cluster path"
+ },
+ {
+  "module": "dump.py",
+  "patch": "print the locator name"
+ },
+ {
+  "module": "dump.py",
+  "patch": "add digit_runs_single (pinned locator) and digit_runs_grouped (NEW) before main()"
+ },
+ {
+  "module": "dump.py",
+  "patch": "torch / transformers imported inside main() so the locators import without them (CPU tests)"
+ },
+ {
+  "module": "dump.py",
+  "patch": "the moved imports"
+ }
+]
