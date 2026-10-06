@@ -349,3 +349,17 @@ def test_host_fields_from_greedy_text_and_steps_table():
             dict(row_id="c", gold_steps=None, value24=None, gold_value="1", host1_right=False, fire=False, right=False)]
     txt = EV.steps_table(recs)
     assert "| 1 | 1 | 1/1 | 0/1 | 1/1 |" in txt and "| all | 3 | 1/3 | 1/3 | 2/3 |" in txt
+
+
+def test_bank_row_adapter_fills_def_use_fields():
+    from defuse import bank_rows as BR
+    r = dict(row_id="b:1", text="A shop has 88 buns, bakes 42 more and sells 41. How many are left? The answer is",
+             answer_cue="The answer is", ans=89, annotation=dict(kind="v6ms infix", equation="x=(88+42)-41"),
+             prov=dict(n_runs=3, gold_run_idx=[0, 1, 2]), v6=dict(tmpl_fold=3))
+    x = BR.to_defuse_row(r, ("v6", "tmpl_fold"), heldout_value=5)
+    assert x["numerals_written"] == ["88", "42", "41"] and x["gold_frac"] == "89" and x["fold"] == 3
+    t, s = A.gold_tree(x)
+    assert s == "exec_exact" and A.n_steps(t) == 2 and r["annotation"]["kind"] == "v6ms infix"   # input untouched
+    assert BR.to_defuse_row(r, ("v6", "tmpl_fold"), heldout_value=3)["fold"] == 5
+    with pytest.raises(SystemExit):
+        BR.to_defuse_row(r, ("v6", "tmpl_fold"), heldout_value=None)

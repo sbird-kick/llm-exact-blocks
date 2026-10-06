@@ -155,9 +155,10 @@ defuse/fit_b.py       fit reader B on folds 1-4 (grid on 1-3, select on 4, refit
 defuse/gate.py        the R1 ledger, the M1-style gate (cross-fitted on folds 1-4), the host-outcome state probe
 defuse/evaluate.py    value-right / host-right / system-right by gold steps, and the R1 ledger table, n/total
 defuse/data.py, guard.py   the fold discipline: fold 5 and fold 6 rows are refused by every fit
+defuse/bank_rows.py   a bank row (data/banks/) -> a def-use row; you choose which bank fold is held out
 defuse/run.py         the pipeline as commands (fit-b, lofo-b, fit-gate, decode-b)
 defuse/PROVENANCE.md  every source file md5, line range and patch: this is a port, not a rewrite
-tests/test_defuse_cpu.py   16 CPU tests on synthetic fixtures (python -m pytest -q tests/test_defuse_cpu.py)
+tests/test_defuse_cpu.py   17 CPU tests on synthetic fixtures (python -m pytest -q tests/test_defuse_cpu.py)
 sbatch/defuse_dump.sbatch, sbatch/defuse_cpu.sbatch   the cluster job files
 ```
 
@@ -391,13 +392,18 @@ section 14 of the guide; each folder has its clean templates and a `CODE.md5`):
   subtraction where the minuend is smaller in half the rows and written second in half;
 * `banks/divrole2/`: English division in the same design (164 templates + 20 reference);
   these three regenerate with `python banks/make_role_banks.py`;
-* `banks/v5x/`, **partial**: v5 in Bulgarian, Czech, Hungarian, Romanian, Slovak and Serbian,
-  with eight question forms (274 templates, the first of six chunks); `python banks/make_v5x.py`;
+* `banks/v5x/`, **complete since 2026-10-06**: v5 in the 36 languages of v3_61 that v5 lacks, with eight question
+  forms (all six chunks C1-C6, 1,675 templates in the later chunks); `python banks/make_v5x.py`;
 * `banks/abstainbank/`: 503 English questions the block should abstain on (percent, roots,
   two-step, yes/no ...), each with an ordinary one-step twin; templates only;
 * `banks/abstainbank_x/`, **partial**: the same in German, Spanish, French, Italian, Dutch
-  and Portuguese (148 templates so far, the first chunk); templates only;
+  and Portuguese (390 templates so far: chunk X01, rounds 1-5); templates only;
 * `banks/audience/`, **demo-grade**: 199 short demo-style prompts and their generator.
+
+**Banks added on 2026-10-06** (`banks/README.md`; their generated rows are shipped in `data/banks/`, see
+[DATA.md](DATA.md)): `banks/v5div/` (division in the 25 v5 languages, the dividend smaller in half the rows; 851
+templates, 20,424 rows) and `banks/v6ms/` (multi-step chains, conditionals and varied question types in 20 languages;
+9 closed rounds, 1,326 templates, 42,268 rows). Rows of subrole, divrole2 (folds 0-4) and v5x are shipped too.
 
 **Training and evaluating on a bank.** `data_gen/bank_to_corpus.py` writes a bank's rows
 in exactly the format `train.py` and `eval.py` already read, so neither needs a new flag:

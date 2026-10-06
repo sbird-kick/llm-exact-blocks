@@ -74,6 +74,7 @@ Two more source facts:
 | `fit_b.py` `b_data` / `make_rows_by_fold` / `decode_record` / `_cap` | in-memory versions of `defuse_fit.b_rows` (same predicates) and of readerB `bgate.py`'s decode record (md5 `81a72db4`) |
 | `dump.py` `digit_runs_grouped`, `--locator` | the multi-digit-token locator for Llama-style tokenizers (default off) |
 | `run.py` | the pipeline as commands; `host_fields` (host answer from the dump's greedy text) is simpler than the project's wild scorer |
+| `bank_rows.py` | adapter from a bank row (`data/banks/`) to the def-use row fields; folds from a named bank fold column |
 | `evaluate.py` | value-right / host-right / system-right by gold steps, and the R1 ledger table |
 
 ## Pending (not ported)

@@ -6,7 +6,7 @@ fitted on a Qwen row, so the port is a refit, not a transfer. Budget: about two 
 GPU step.
 
 ## Stage 0: the package on your machine (CPU, an hour)
-- `python -m pytest -q tests/test_defuse_cpu.py` (16 tests, numpy + pytest). Read `defuse/PROVENANCE.md` and
+- `python -m pytest -q tests/test_defuse_cpu.py` (17 tests, numpy + pytest). Read `defuse/PROVENANCE.md` and
   MIGRATION.md.
 - Read the known gap: reader A's beam decoder is not ported yet, so the runnable end-to-end path is reader B + gate.
 

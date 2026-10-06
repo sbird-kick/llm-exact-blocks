@@ -1002,11 +1002,10 @@ layouts are in [`banks/README.md`](../banks/README.md).
   `python banks/make_role_banks.py divrole2`. A division template must read naturally with
   a fractional answer: 3/8 of a litre each is fine, 3/8 of a bus is not, so the frames are
   shares of an amount, rates and unit prices, never a count of whole things.
-* **`banks/v5x/`** (PARTIAL): bank v5 extended to the 36 languages of v3_61 that v5 lacks,
+* **`banks/v5x/`** (complete since 2026-10-06): bank v5 extended to the 36 languages of v3_61 that v5 lacks,
   with a question-form axis (F0-F7: plain, question first, instruction, conditional,
-  indirect, casual, fill-in-the-blank, dialogue). Only chunk C1 is
-  done: Bulgarian, Czech, Hungarian, Romanian, Slovak and Serbian, 274 templates, 6,576
-  rows; `python banks/make_v5x.py`. The tool, `v5x.py`, wraps the v5 tools of section 4
+  indirect, casual, fill-in-the-blank, dialogue). All six chunks C1-C6 (six languages each)
+  are done; their rows are shipped in `data/banks/v5x/` (DATA.md); `python banks/make_v5x.py`. The tool, `v5x.py`, wraps the v5 tools of section 4
   unchanged and adds the form rules, so writing a v5x unit is writing a v5 unit with one
   more field per cell.
 * **`banks/abstainbank/`** (English, AB1): 503 templates of questions the block should
@@ -1018,8 +1017,8 @@ layouts are in [`banks/README.md`](../banks/README.md).
   by their words alone, a gate trained on them learns the words. Write the twin in the
   abstain question's vocabulary.
 * **`banks/abstainbank_x/`** (PARTIAL): AB1 written natively in other languages, each
-  template in one of the eight v5x question forms. So far 148 templates in German, Spanish,
-  French, Italian, Dutch and Portuguese (the pilot chunk, two rounds). Templates only.
+  template in one of the eight v5x question forms. So far 390 templates in German, Spanish,
+  French, Italian, Dutch and Portuguese (chunk X01, rounds 1-5). Templates only.
 * **`banks/audience/`** (English, DEMO-GRADE): 199 short prompts of the kind people type at
   a live demo ("What is {A} plus {B}?", a three-number story, "What number is {A} percent of
   {B}?", "What is Tom's jersey number?"), so a demo gate can be fitted on them. Not a test
