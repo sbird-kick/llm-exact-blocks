@@ -54,6 +54,8 @@ follow these rules, and `defuse/data.py` already enforces the fold part:
   `status`), the gold-program labels, and the project's Qwen3 host-outcome labels (host right / host silent) only
   as clearly named, Qwen-specific columns. Never hidden-state dumps (they are tens of gigabytes; you make your own
   with `defuse/dump.py`).
+* **Git:** `.gitignore` ignores everything under `data/` except `data/banks/`; when wild rows arrive, add
+  `!data/wild/` and `!data/wild/**/*.jsonl` to it, or git will silently skip them.
 * **Never:** any evaluation or held-out set (the GSM8K test family, MGSM, AfriMGSM, SVAMP, the project's fresh
   held-out set), and no bank that is still being generated.
 

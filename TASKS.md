@@ -25,7 +25,7 @@ GPU step.
 - Data: a cleared bank from `banks/` / `data/` first (synthetic, in many languages), then wild rows if and when
   they are added (DATA.md).
 - Per host: dump (with `--greedy 12` for the host's own answer), `fit-b` on folds 1-4, `lofo-b`, `fit-gate` with the
-  project's tau (0.75% below 8B, 1.00% at 8B), then fold 5 ONCE.
+  project's tau (0.75% at 0.6B / 1.7B / 32B, 1.00% at 8B), then fold 5 ONCE.
 - Reader A's heads can be fitted already (`reader_a.fit_reader`) and their per-head accuracy compared with the
   project's; programs from reader A wait for the decoder port.
 
