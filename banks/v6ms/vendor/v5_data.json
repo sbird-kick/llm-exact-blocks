@@ -1,0 +1,337 @@
+{
+ "note": "Copied 2026-10-02 from signed/v5/v5_common.py SLICES (md5 3c162b31...) and signed/verified/<lang>.verified.json lead_in; data only.",
+ "slices": [
+  [
+   "S01",
+   "kitchens and bakeries",
+   [
+    "bread_and_pastry",
+    "restaurant_kitchen",
+    "school_canteen",
+    "catering",
+    "market_food_stall",
+    "home_cooking"
+   ]
+  ],
+  [
+   "S02",
+   "farms and orchards",
+   [
+    "dairy",
+    "orchard_harvest",
+    "poultry",
+    "grain_fields",
+    "beekeeping",
+    "greenhouse"
+   ]
+  ],
+  [
+   "S03",
+   "schools and learning",
+   [
+    "classroom_supplies",
+    "exam_marks",
+    "school_trip",
+    "homework",
+    "science_fair",
+    "school_library_corner"
+   ]
+  ],
+  [
+   "S04",
+   "books and printing",
+   [
+    "library_loans",
+    "bookshop",
+    "printing_press",
+    "newspaper",
+    "archive",
+    "bookbinding"
+   ]
+  ],
+  [
+   "S05",
+   "sport and tournaments",
+   [
+    "football",
+    "athletics",
+    "swimming",
+    "cycling_race",
+    "chess_club",
+    "basketball"
+   ]
+  ],
+  [
+   "S06",
+   "roads and rail",
+   [
+    "trains",
+    "buses",
+    "car_park",
+    "road_traffic",
+    "taxis",
+    "freight_trucks"
+   ]
+  ],
+  [
+   "S07",
+   "air and sea travel",
+   [
+    "airport",
+    "ferry",
+    "harbour",
+    "cruise_ship",
+    "cargo_ship",
+    "airline_baggage"
+   ]
+  ],
+  [
+   "S08",
+   "weather and climate",
+   [
+    "temperature",
+    "rainfall",
+    "snowfall",
+    "wind_measurement",
+    "river_level",
+    "air_quality"
+   ]
+  ],
+  [
+   "S09",
+   "money and banking",
+   [
+    "bank_account",
+    "savings",
+    "loans_and_debt",
+    "currency_exchange",
+    "household_budget",
+    "payroll"
+   ]
+  ],
+  [
+   "S10",
+   "shops and markets",
+   [
+    "grocery",
+    "clothing_store",
+    "hardware_store",
+    "online_orders",
+    "flea_market",
+    "toy_shop"
+   ]
+  ],
+  [
+   "S11",
+   "offices and services",
+   [
+    "call_centre",
+    "meetings",
+    "office_paper",
+    "filing_and_forms",
+    "reception_visitors",
+    "printing_and_copying"
+   ]
+  ],
+  [
+   "S12",
+   "factories and warehouses",
+   [
+    "assembly_line",
+    "packing",
+    "warehouse_stock",
+    "quality_control",
+    "bottling_plant",
+    "textile_mill"
+   ]
+  ],
+  [
+   "S13",
+   "health and clinics",
+   [
+    "clinic_patients",
+    "pharmacy",
+    "blood_bank",
+    "vaccination",
+    "hospital_beds",
+    "fitness_steps"
+   ]
+  ],
+  [
+   "S14",
+   "homes and repairs",
+   [
+    "household_chores",
+    "plumbing",
+    "electricity_meter",
+    "painting",
+    "furniture_assembly",
+    "laundry"
+   ]
+  ],
+  [
+   "S15",
+   "crafts and making",
+   [
+    "knitting",
+    "pottery",
+    "sewing",
+    "woodwork",
+    "weaving",
+    "candle_making"
+   ]
+  ],
+  [
+   "S16",
+   "music, theatre and museums",
+   [
+    "concert_tickets",
+    "theatre_seats",
+    "museum_visitors",
+    "choir",
+    "orchestra",
+    "film_screenings"
+   ]
+  ],
+  [
+   "S17",
+   "animals and reserves",
+   [
+    "zoo",
+    "bird_count",
+    "aquarium",
+    "animal_shelter",
+    "wildlife_park",
+    "insect_survey"
+   ]
+  ],
+  [
+   "S18",
+   "fishing and the sea",
+   [
+    "fishing_boats",
+    "fish_market",
+    "coral_survey",
+    "lighthouse",
+    "sailing_club",
+    "seaweed_farm"
+   ]
+  ],
+  [
+   "S19",
+   "building and mining",
+   [
+    "construction_site",
+    "bricklaying",
+    "quarry",
+    "mine_output",
+    "road_building",
+    "scaffolding"
+   ]
+  ],
+  [
+   "S20",
+   "post and delivery",
+   [
+    "post_office",
+    "parcel_courier",
+    "stamps_and_letters",
+    "delivery_vans",
+    "mail_sorting",
+    "drone_delivery"
+   ]
+  ],
+  [
+   "S21",
+   "computing and telecoms",
+   [
+    "data_storage",
+    "downloads",
+    "phone_calls",
+    "servers",
+    "app_users",
+    "text_messages"
+   ]
+  ],
+  [
+   "S22",
+   "festivals, hotels and events",
+   [
+    "hotel_rooms",
+    "wedding_guests",
+    "festival_stalls",
+    "conference",
+    "fireworks_show",
+    "parade"
+   ]
+  ],
+  [
+   "S23",
+   "geography and population",
+   [
+    "city_population",
+    "mountain_heights",
+    "river_lengths",
+    "census",
+    "depth_below_sea_level",
+    "islands"
+   ]
+  ],
+  [
+   "S24",
+   "energy and water",
+   [
+    "reservoir",
+    "solar_panels",
+    "fuel_station",
+    "power_plant",
+    "water_meter",
+    "wind_farm"
+   ]
+  ]
+ ],
+ "lead_in": {
+  "en": "The answer is",
+  "de": "Die Antwort lautet",
+  "es": "La respuesta es",
+  "pl": "Odpowiedź to",
+  "ru": "Ответ:",
+  "el": "Η απάντηση είναι",
+  "tr": "Cevap:",
+  "ar": "الجواب هو",
+  "he": "התשובה היא",
+  "fa": "پاسخ",
+  "hi": "उत्तर है",
+  "bn": "উত্তর হল",
+  "ta": "பதில்:",
+  "th": "คำตอบคือ",
+  "vi": "Đáp số là",
+  "id": "Jawabannya adalah",
+  "sw": "Jibu ni",
+  "zh": "答案是",
+  "ja": "答えは",
+  "ko": "정답은"
+ },
+ "names": {
+  "en": "English",
+  "de": "German",
+  "es": "Spanish",
+  "pl": "Polish",
+  "ru": "Russian",
+  "el": "Modern Greek",
+  "tr": "Turkish",
+  "ar": "Modern Standard Arabic",
+  "he": "Hebrew",
+  "fa": "Persian (Farsi)",
+  "hi": "Hindi (Devanagari script, but ASCII digits)",
+  "bn": "Bengali (Bengali script, but ASCII digits)",
+  "ta": "Tamil",
+  "th": "Thai",
+  "vi": "Vietnamese",
+  "id": "Indonesian",
+  "sw": "Swahili",
+  "zh": "Chinese (Simplified)",
+  "ja": "Japanese",
+  "ko": "Korean"
+ }
+}

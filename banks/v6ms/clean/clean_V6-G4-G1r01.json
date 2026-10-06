@@ -1,0 +1,263 @@
+{
+ "verifier_unit": "V6-G4-G1r01",
+ "templates": {
+  "W6-id-SL-G1r01-05": {
+   "kept": true,
+   "mismatch": [],
+   "flags": [],
+   "tags": []
+  },
+  "W6-id-SL-G1r01-07": {
+   "kept": true,
+   "mismatch": [],
+   "flags": [],
+   "tags": []
+  },
+  "W6-ja-SL-G1r01-07": {
+   "kept": false,
+   "mismatch": [
+    "k4"
+   ],
+   "flags": [
+    "ambiguous"
+   ],
+   "tags": []
+  },
+  "W6-ja-SL-G1r01-03": {
+   "kept": true,
+   "mismatch": [],
+   "flags": [],
+   "tags": []
+  },
+  "W6-sw-SL-G1r01-02": {
+   "kept": true,
+   "mismatch": [],
+   "flags": [],
+   "tags": [
+    "formula_in_question"
+   ]
+  },
+  "W6-id-SL-G1r01-01": {
+   "kept": true,
+   "mismatch": [],
+   "flags": [],
+   "tags": []
+  },
+  "W6-ja-SL-G1r01-01": {
+   "kept": true,
+   "mismatch": [],
+   "flags": [],
+   "tags": []
+  },
+  "W6-ja-SL-G1r01-04": {
+   "kept": true,
+   "mismatch": [],
+   "flags": [],
+   "tags": []
+  },
+  "W6-ja-SL-G1r01-02": {
+   "kept": true,
+   "mismatch": [],
+   "flags": [],
+   "tags": []
+  },
+  "W6-sw-SL-G1r01-03": {
+   "kept": true,
+   "mismatch": [],
+   "flags": [],
+   "tags": []
+  },
+  "W6-ko-SL-G1r01-06": {
+   "kept": true,
+   "mismatch": [],
+   "flags": [],
+   "tags": []
+  },
+  "W6-sw-SL-G1r01-01": {
+   "kept": true,
+   "mismatch": [],
+   "flags": [],
+   "tags": []
+  },
+  "W6-ja-SL-G1r01-06": {
+   "kept": true,
+   "mismatch": [],
+   "flags": [],
+   "tags": []
+  },
+  "W6-zh-SL-G1r01-06": {
+   "kept": true,
+   "mismatch": [],
+   "flags": [],
+   "tags": []
+  },
+  "W6-sw-SL-G1r01-05": {
+   "kept": true,
+   "mismatch": [],
+   "flags": [],
+   "tags": []
+  },
+  "W6-ko-SL-G1r01-01": {
+   "kept": true,
+   "mismatch": [],
+   "flags": [],
+   "tags": []
+  },
+  "W6-zh-SL-G1r01-07": {
+   "kept": true,
+   "mismatch": [],
+   "flags": [],
+   "tags": []
+  },
+  "W6-zh-SL-G1r01-03": {
+   "kept": true,
+   "mismatch": [],
+   "flags": [],
+   "tags": [
+    "formula_in_question"
+   ]
+  },
+  "W6-id-SL-G1r01-06": {
+   "kept": true,
+   "mismatch": [],
+   "flags": [],
+   "tags": []
+  },
+  "W6-zh-SL-G1r01-01": {
+   "kept": true,
+   "mismatch": [],
+   "flags": [],
+   "tags": []
+  },
+  "W6-ko-SL-G1r01-07": {
+   "kept": false,
+   "mismatch": [],
+   "flags": [
+    "unnatural"
+   ],
+   "tags": []
+  },
+  "W6-ja-SL-G1r01-08": {
+   "kept": false,
+   "mismatch": [],
+   "flags": [
+    "distractor_needed"
+   ],
+   "tags": []
+  },
+  "W6-ko-SL-G1r01-02": {
+   "kept": true,
+   "mismatch": [],
+   "flags": [],
+   "tags": []
+  },
+  "W6-ko-SL-G1r01-03": {
+   "kept": true,
+   "mismatch": [],
+   "flags": [],
+   "tags": [
+    "formula_in_question"
+   ]
+  },
+  "W6-zh-SL-G1r01-08": {
+   "kept": true,
+   "mismatch": [],
+   "flags": [],
+   "tags": []
+  },
+  "W6-sw-SL-G1r01-08": {
+   "kept": true,
+   "mismatch": [],
+   "flags": [],
+   "tags": []
+  },
+  "W6-ko-SL-G1r01-04": {
+   "kept": false,
+   "mismatch": [],
+   "flags": [
+    "ambiguous"
+   ],
+   "tags": []
+  },
+  "W6-sw-SL-G1r01-07": {
+   "kept": true,
+   "mismatch": [],
+   "flags": [],
+   "tags": []
+  },
+  "W6-zh-SL-G1r01-04": {
+   "kept": true,
+   "mismatch": [],
+   "flags": [],
+   "tags": []
+  },
+  "W6-ko-SL-G1r01-08": {
+   "kept": true,
+   "mismatch": [],
+   "flags": [],
+   "tags": []
+  },
+  "W6-id-SL-G1r01-03": {
+   "kept": true,
+   "mismatch": [],
+   "flags": [],
+   "tags": []
+  },
+  "W6-ko-SL-G1r01-05": {
+   "kept": true,
+   "mismatch": [],
+   "flags": [],
+   "tags": [
+    "formula_in_question"
+   ]
+  },
+  "W6-ja-SL-G1r01-05": {
+   "kept": true,
+   "mismatch": [],
+   "flags": [],
+   "tags": []
+  },
+  "W6-zh-SL-G1r01-02": {
+   "kept": true,
+   "mismatch": [],
+   "flags": [],
+   "tags": []
+  },
+  "W6-sw-SL-G1r01-04": {
+   "kept": true,
+   "mismatch": [],
+   "flags": [],
+   "tags": []
+  },
+  "W6-id-SL-G1r01-02": {
+   "kept": true,
+   "mismatch": [],
+   "flags": [],
+   "tags": []
+  },
+  "W6-id-SL-G1r01-08": {
+   "kept": true,
+   "mismatch": [],
+   "flags": [],
+   "tags": []
+  },
+  "W6-sw-SL-G1r01-06": {
+   "kept": true,
+   "mismatch": [],
+   "flags": [],
+   "tags": []
+  },
+  "W6-zh-SL-G1r01-05": {
+   "kept": true,
+   "mismatch": [],
+   "flags": [],
+   "tags": []
+  },
+  "W6-id-SL-G1r01-04": {
+   "kept": true,
+   "mismatch": [],
+   "flags": [],
+   "tags": []
+  }
+ }
+}

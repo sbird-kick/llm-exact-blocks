@@ -1,0 +1,248 @@
+{
+ "verifier_unit": "V6-G4-G2r03",
+ "templates": {
+  "W6-ja-INT-G2r03-06": {
+   "kept": true,
+   "mismatch": [],
+   "flags": [],
+   "tags": []
+  },
+  "W6-ja-INT-G2r03-05": {
+   "kept": true,
+   "mismatch": [],
+   "flags": [],
+   "tags": []
+  },
+  "W6-id-INT-G2r03-03": {
+   "kept": true,
+   "mismatch": [],
+   "flags": [],
+   "tags": []
+  },
+  "W6-id-INT-G2r03-05": {
+   "kept": true,
+   "mismatch": [],
+   "flags": [],
+   "tags": []
+  },
+  "W6-sw-INT-G2r03-01": {
+   "kept": true,
+   "mismatch": [],
+   "flags": [],
+   "tags": []
+  },
+  "W6-ja-INT-G2r03-08": {
+   "kept": true,
+   "mismatch": [],
+   "flags": [],
+   "tags": []
+  },
+  "W6-zh-INT-G2r03-04": {
+   "kept": true,
+   "mismatch": [],
+   "flags": [],
+   "tags": []
+  },
+  "W6-zh-INT-G2r03-06": {
+   "kept": true,
+   "mismatch": [],
+   "flags": [],
+   "tags": []
+  },
+  "W6-id-INT-G2r03-08": {
+   "kept": true,
+   "mismatch": [],
+   "flags": [],
+   "tags": []
+  },
+  "W6-ja-INT-G2r03-01": {
+   "kept": true,
+   "mismatch": [],
+   "flags": [],
+   "tags": []
+  },
+  "W6-ja-INT-G2r03-04": {
+   "kept": true,
+   "mismatch": [],
+   "flags": [],
+   "tags": []
+  },
+  "W6-zh-INT-G2r03-07": {
+   "kept": true,
+   "mismatch": [],
+   "flags": [],
+   "tags": []
+  },
+  "W6-id-INT-G2r03-04": {
+   "kept": true,
+   "mismatch": [],
+   "flags": [],
+   "tags": []
+  },
+  "W6-ko-INT-G2r03-06": {
+   "kept": true,
+   "mismatch": [],
+   "flags": [],
+   "tags": []
+  },
+  "W6-sw-INT-G2r03-02": {
+   "kept": true,
+   "mismatch": [],
+   "flags": [],
+   "tags": []
+  },
+  "W6-sw-INT-G2r03-05": {
+   "kept": true,
+   "mismatch": [],
+   "flags": [],
+   "tags": []
+  },
+  "W6-ko-INT-G2r03-04": {
+   "kept": true,
+   "mismatch": [],
+   "flags": [],
+   "tags": []
+  },
+  "W6-ko-INT-G2r03-05": {
+   "kept": true,
+   "mismatch": [],
+   "flags": [],
+   "tags": []
+  },
+  "W6-ko-INT-G2r03-07": {
+   "kept": true,
+   "mismatch": [],
+   "flags": [],
+   "tags": []
+  },
+  "W6-sw-INT-G2r03-07": {
+   "kept": true,
+   "mismatch": [],
+   "flags": [],
+   "tags": []
+  },
+  "W6-zh-INT-G2r03-08": {
+   "kept": true,
+   "mismatch": [],
+   "flags": [],
+   "tags": []
+  },
+  "W6-ja-INT-G2r03-07": {
+   "kept": true,
+   "mismatch": [],
+   "flags": [],
+   "tags": []
+  },
+  "W6-ja-INT-G2r03-02": {
+   "kept": true,
+   "mismatch": [],
+   "flags": [],
+   "tags": []
+  },
+  "W6-ko-INT-G2r03-08": {
+   "kept": true,
+   "mismatch": [],
+   "flags": [],
+   "tags": []
+  },
+  "W6-ja-INT-G2r03-03": {
+   "kept": true,
+   "mismatch": [],
+   "flags": [],
+   "tags": []
+  },
+  "W6-ko-INT-G2r03-01": {
+   "kept": true,
+   "mismatch": [],
+   "flags": [],
+   "tags": []
+  },
+  "W6-zh-INT-G2r03-01": {
+   "kept": true,
+   "mismatch": [],
+   "flags": [],
+   "tags": []
+  },
+  "W6-zh-INT-G2r03-02": {
+   "kept": true,
+   "mismatch": [],
+   "flags": [],
+   "tags": []
+  },
+  "W6-ko-INT-G2r03-02": {
+   "kept": true,
+   "mismatch": [],
+   "flags": [],
+   "tags": []
+  },
+  "W6-zh-INT-G2r03-05": {
+   "kept": true,
+   "mismatch": [],
+   "flags": [],
+   "tags": []
+  },
+  "W6-sw-INT-G2r03-04": {
+   "kept": true,
+   "mismatch": [],
+   "flags": [],
+   "tags": []
+  },
+  "W6-id-INT-G2r03-07": {
+   "kept": true,
+   "mismatch": [],
+   "flags": [],
+   "tags": []
+  },
+  "W6-id-INT-G2r03-02": {
+   "kept": true,
+   "mismatch": [],
+   "flags": [],
+   "tags": []
+  },
+  "W6-sw-INT-G2r03-03": {
+   "kept": true,
+   "mismatch": [],
+   "flags": [],
+   "tags": []
+  },
+  "W6-id-INT-G2r03-01": {
+   "kept": false,
+   "mismatch": [],
+   "flags": [
+    "ambiguous",
+    "distractor_needed"
+   ],
+   "tags": []
+  },
+  "W6-sw-INT-G2r03-06": {
+   "kept": true,
+   "mismatch": [],
+   "flags": [],
+   "tags": []
+  },
+  "W6-id-INT-G2r03-06": {
+   "kept": true,
+   "mismatch": [],
+   "flags": [],
+   "tags": []
+  },
+  "W6-zh-INT-G2r03-03": {
+   "kept": true,
+   "mismatch": [],
+   "flags": [],
+   "tags": []
+  },
+  "W6-ko-INT-G2r03-03": {
+   "kept": true,
+   "mismatch": [],
+   "flags": [],
+   "tags": []
+  },
+  "W6-sw-INT-G2r03-08": {
+   "kept": true,
+   "mismatch": [],
+   "flags": [],
+   "tags": []
+  }
+ }
+}

@@ -4,7 +4,13 @@
 # project's md5 was 8b17e937dffd27daa61b565d3cd31612. v5x_lang.py and the manifest are the project's, byte for byte.
 # The project's own md5 list for v5x pins its copies of the v5 tools; three of them (v5_common.py, gen_v5.py,
 # status_v5.py) differ from banks/v5/ in a few comment lines. The rows are identical with either copy (SHIP_V5X_C1.md5).
-e57cbabb1b261be839ca79c31c242076  v5x.py
+# Chunks C2-C6 (added 2026-10-06): clean/<C>/<lang>.json + index.json join byte for byte into the project's
+# clean_v5x_<C>.json (md5s in make_v5x.py). The project's v5x.py has since gained a redo path (md5
+# 3beef49ea19bfee19587d48b5cf839dc, used for C6's Tibetan rewrite); its gen is unchanged, and the rows of all six
+# chunks are identical with it and with the v5x.py shipped here. One more edit here (2026-10-06, rows unchanged): the
+# selftest's live story-id scan skips data/banks/v5x/ (v5x's own shipped rows) and v5div's reserved range 80101-90012
+# joins the pinned list; before it v5x.py was e57cbabb1b261be839ca79c31c242076.
+7ed4bb2e55773dc53d712b48f8cb94c5  v5x.py
 2a645442f2cc8f5c87dc1c9f20dd30c3  v5x_lang.py
 fed873163ce54498bdcddd3005241b5c  manifest/MANIFEST_INDEX.json
 7c6fd32fbe5afb1578f313617f727cac  manifest/units/W5X-am-u621.json
@@ -158,3 +164,38 @@ f2de1c7776b25b482784f04aa1f8118e  clean/C1/hu.json
 4f7852f5fc2af70cde2cdbeac1900d21  clean/C1/ro.json
 0e30c113c0b214893ab4cf199a0f7f1d  clean/C1/sk.json
 5c345a1611a0b5011e6b659ad87d7d50  clean/C1/sr.json
+6e13d7dc27202e4f47c6811ac5eeef4d  clean/C2/index.json
+fd967aff4e2999981d6a4497ff1c94f2  clean/C2/eu.json
+773690dc321c19528e764ac61efb7979  clean/C2/fi.json
+dead86a82d8c841122b893615b1a8221  clean/C2/is.json
+308d1796bb703a1e3303d9b619cdd4d9  clean/C2/la.json
+d506f009326260b292dc3c1daae10543  clean/C2/lt.json
+b9a1275e8022e122adffa326a92fb129  clean/C2/sv.json
+03ede1a41916853695e3a38271c8b82e  clean/C3/index.json
+5334e72d2204952fa24278feacbe301b  clean/C3/gu.json
+fb9f3130ba46604903d532a5d1205482  clean/C3/kn.json
+be65f4fc45eb70279fb56af6ec3a3317  clean/C3/ml.json
+3064fe5949548e82497d4f7a528f9768  clean/C3/mr.json
+177c1b2ecdb01e0e36e3fa45fdac025a  clean/C3/pa.json
+9ccc989c5dc73c67de4c741e16cd3237  clean/C3/te.json
+f8b1818ebb7fcb5b7627c190d4380dc0  clean/C4/index.json
+ca60d41e213aca9928806bcd2e4e7240  clean/C4/hy.json
+15acccfb65fc58c7ac72376092801b82  clean/C4/ka.json
+e59b5ee231f9f3143bf4902267a3a858  clean/C4/kk.json
+29d5422f71b8f4e5676278dda81382f3  clean/C4/mn.json
+a9bf377448926ccea896dd85e62e2712  clean/C4/sq.json
+19c8fc9c4b74f9d300cbf70a3f4ab745  clean/C4/uz.json
+3450df0c4525ca5326bd18b297df2f74  clean/C5/index.json
+0a857ee943f53e786f96c954d7c5cf75  clean/C5/ha.json
+fdfb4777534900a976003cb2154e98d2  clean/C5/ms.json
+20cb56946782c295b0cccb56f11048d4  clean/C5/ne.json
+4c2b96bbf0048e29f5e3dfb71fef9ef5  clean/C5/tl.json
+c5ea16aac38e664130a096a141d6dbc9  clean/C5/ur.json
+fd92c819e551e640fc79b894bf5e6666  clean/C5/zu.json
+b9c6e6f515458f7b40d0ca42d73fee73  clean/C6/index.json
+ec597f90ce068df1ba84328f69565636  clean/C6/am.json
+a11b147309970b98b5e7761a24b3c14c  clean/C6/bo.json
+91ed487a19e651a1ed5291a2f1c80248  clean/C6/km.json
+16339abe68d39b508c8c7af8399bb914  clean/C6/my.json
+6d6025653f0a2531680ce801c8d283a6  clean/C6/si.json
+37dc0c48f99d44a19f9a366839ccafab  clean/C6/yo.json

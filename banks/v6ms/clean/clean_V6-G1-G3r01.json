@@ -1,0 +1,262 @@
+{
+ "verifier_unit": "V6-G1-G3r01",
+ "templates": {
+  "W6-ru-INV-G3r01-05": {
+   "kept": false,
+   "mismatch": [],
+   "flags": [
+    "ambiguous",
+    "distractor_needed"
+   ],
+   "tags": []
+  },
+  "W6-es-INV-G3r01-06": {
+   "kept": true,
+   "mismatch": [],
+   "flags": [],
+   "tags": []
+  },
+  "W6-ru-INV-G3r01-07": {
+   "kept": true,
+   "mismatch": [],
+   "flags": [],
+   "tags": []
+  },
+  "W6-es-INV-G3r01-04": {
+   "kept": true,
+   "mismatch": [],
+   "flags": [],
+   "tags": []
+  },
+  "W6-es-INV-G3r01-02": {
+   "kept": true,
+   "mismatch": [],
+   "flags": [],
+   "tags": []
+  },
+  "W6-ru-INV-G3r01-08": {
+   "kept": true,
+   "mismatch": [],
+   "flags": [],
+   "tags": []
+  },
+  "W6-ru-INV-G3r01-01": {
+   "kept": true,
+   "mismatch": [],
+   "flags": [],
+   "tags": []
+  },
+  "W6-ru-INV-G3r01-02": {
+   "kept": true,
+   "mismatch": [],
+   "flags": [],
+   "tags": []
+  },
+  "W6-pl-INV-G3r01-07": {
+   "kept": true,
+   "mismatch": [],
+   "flags": [],
+   "tags": []
+  },
+  "W6-de-INV-G3r01-07": {
+   "kept": true,
+   "mismatch": [],
+   "flags": [],
+   "tags": []
+  },
+  "W6-es-INV-G3r01-01": {
+   "kept": false,
+   "mismatch": [],
+   "flags": [
+    "another_program_answers"
+   ],
+   "tags": []
+  },
+  "W6-ru-INV-G3r01-04": {
+   "kept": false,
+   "mismatch": [],
+   "flags": [
+    "ungrammatical"
+   ],
+   "tags": []
+  },
+  "W6-pl-INV-G3r01-05": {
+   "kept": true,
+   "mismatch": [],
+   "flags": [],
+   "tags": []
+  },
+  "W6-de-INV-G3r01-04": {
+   "kept": true,
+   "mismatch": [],
+   "flags": [],
+   "tags": []
+  },
+  "W6-de-INV-G3r01-06": {
+   "kept": true,
+   "mismatch": [],
+   "flags": [],
+   "tags": []
+  },
+  "W6-pl-INV-G3r01-03": {
+   "kept": false,
+   "mismatch": [],
+   "flags": [
+    "ungrammatical"
+   ],
+   "tags": []
+  },
+  "W6-de-INV-G3r01-02": {
+   "kept": true,
+   "mismatch": [],
+   "flags": [],
+   "tags": []
+  },
+  "W6-es-INV-G3r01-05": {
+   "kept": true,
+   "mismatch": [],
+   "flags": [],
+   "tags": []
+  },
+  "W6-es-INV-G3r01-08": {
+   "kept": false,
+   "mismatch": [],
+   "flags": [
+    "ambiguous"
+   ],
+   "tags": []
+  },
+  "W6-de-INV-G3r01-08": {
+   "kept": true,
+   "mismatch": [],
+   "flags": [],
+   "tags": []
+  },
+  "W6-pl-INV-G3r01-01": {
+   "kept": true,
+   "mismatch": [],
+   "flags": [],
+   "tags": []
+  },
+  "W6-pl-INV-G3r01-08": {
+   "kept": true,
+   "mismatch": [],
+   "flags": [],
+   "tags": []
+  },
+  "W6-ru-INV-G3r01-03": {
+   "kept": true,
+   "mismatch": [],
+   "flags": [],
+   "tags": []
+  },
+  "W6-ru-INV-G3r01-06": {
+   "kept": true,
+   "mismatch": [],
+   "flags": [],
+   "tags": []
+  },
+  "W6-en-INV-G3r01-02": {
+   "kept": false,
+   "mismatch": [],
+   "flags": [
+    "unnatural"
+   ],
+   "tags": []
+  },
+  "W6-pl-INV-G3r01-04": {
+   "kept": false,
+   "mismatch": [],
+   "flags": [
+    "another_program_answers"
+   ],
+   "tags": []
+  },
+  "W6-en-INV-G3r01-04": {
+   "kept": true,
+   "mismatch": [],
+   "flags": [],
+   "tags": []
+  },
+  "W6-pl-INV-G3r01-02": {
+   "kept": true,
+   "mismatch": [],
+   "flags": [],
+   "tags": []
+  },
+  "W6-de-INV-G3r01-01": {
+   "kept": true,
+   "mismatch": [],
+   "flags": [],
+   "tags": []
+  },
+  "W6-de-INV-G3r01-05": {
+   "kept": true,
+   "mismatch": [],
+   "flags": [],
+   "tags": []
+  },
+  "W6-en-INV-G3r01-07": {
+   "kept": true,
+   "mismatch": [],
+   "flags": [],
+   "tags": []
+  },
+  "W6-es-INV-G3r01-07": {
+   "kept": true,
+   "mismatch": [],
+   "flags": [],
+   "tags": []
+  },
+  "W6-en-INV-G3r01-01": {
+   "kept": true,
+   "mismatch": [],
+   "flags": [],
+   "tags": []
+  },
+  "W6-es-INV-G3r01-03": {
+   "kept": true,
+   "mismatch": [],
+   "flags": [],
+   "tags": []
+  },
+  "W6-en-INV-G3r01-03": {
+   "kept": false,
+   "mismatch": [],
+   "flags": [
+    "unnatural"
+   ],
+   "tags": []
+  },
+  "W6-de-INV-G3r01-03": {
+   "kept": true,
+   "mismatch": [],
+   "flags": [],
+   "tags": []
+  },
+  "W6-en-INV-G3r01-08": {
+   "kept": true,
+   "mismatch": [],
+   "flags": [],
+   "tags": []
+  },
+  "W6-en-INV-G3r01-05": {
+   "kept": true,
+   "mismatch": [],
+   "flags": [],
+   "tags": []
+  },
+  "W6-pl-INV-G3r01-06": {
+   "kept": true,
+   "mismatch": [],
+   "flags": [],
+   "tags": []
+  },
+  "W6-en-INV-G3r01-06": {
+   "kept": true,
+   "mismatch": [],
+   "flags": [],
+   "tags": []
+  }
+ }
+}

@@ -1,0 +1,10 @@
+# md5 of the files `python banks/make_v5div.py` (= v5div.py gen --clean clean/P1.json,clean/R1.json,clean/R2.json,clean/R3.json)
+# writes, as the project recorded them (its laptop dry run before the bank was used): 851 templates, 20,424 rows, 25 languages.
+# Reproduced for this repository under PYTHONHASHSEED unset and 7, with the repository's copies of the v5 tools.
+# The three empty files (d41d8cd9...) are real: no bank B, no decimal rows.
+c8e969d2687d914191ce676a8bf77ffe  AUDIT_v5div.txt
+24ca73c977d5d1dfc560447c673ed42e  pairs.json
+d41d8cd98f00b204e9800998ecf8427e  signed_A_dec.jsonl
+ddaf2959b963641f15d7775a8989e8de  signed_A_int.jsonl
+d41d8cd98f00b204e9800998ecf8427e  signed_B_dec.jsonl
+d41d8cd98f00b204e9800998ecf8427e  signed_B_int.jsonl

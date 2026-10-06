@@ -120,7 +120,8 @@ VARIANTS = MB.VARIANTS
 OCCUPIED = ((0, 999, 'v2 / v3 / v3_50 / v3_61 / v4 / v4wild / framebank / oosprose / numwords: per-language story ids'),
             (101, 3212, 'W5 (v5 units 1-32: gen_v5 uid*100+MM)'), (5101, 9912, 'R5 (v5/ruuk, reserved 51-99)'),
             (10101, 17012, 'X5 (v5/weird, units 101-170)'), (20101, 20813, 'A5 abstain pilot'),
-            (30101, 30412, 'A5 abstain re-pilot'), (40101, 43015, 'AB1 abstainbank (units 401-430)'))
+            (30101, 30412, 'A5 abstain re-pilot'), (40101, 43015, 'AB1 abstainbank (units 401-430)'),
+            (80101, 90012, 'v5div (written after v5x; added in this repository)'))
 # pilot bars (DESIGN_v5x.md section 8): anchored on v5 round 1 (CTRN/log/2026-09-29.md 16:01), scaled to one chunk
 BARS = (('B2 all three (op, operand pair, role) per text', 'all', 0.96, 'v5 round 1: 1181/1200 = 98.4%'),
         ('B3 role (sub / div) per text', 'role', 0.96, 'v5 round 1: 585/600 = 97.5%'),
@@ -1053,6 +1054,9 @@ SKIP_PATH = re.compile(r'e2|gsm8k|key|redteam|withheld|blind|answers', re.I)
 SID_RE = re.compile(rb'"story_id": ?(-?\d+)')
 
 
+OWN_ROWS = os.path.join(ROLE, 'data', 'banks', 'v5x')   # this repository ships v5x's own rows there (not another bank)
+
+
 def idscan(root=ROLE):
     """{path: (n distinct, min, max)} of the numeric story ids in every *.jsonl under root (forbidden paths skipped)."""
     out = {}
@@ -1061,7 +1065,7 @@ def idscan(root=ROLE):
             continue
         for f in fn:
             q = os.path.join(dp, f)
-            if not f.endswith('.jsonl') or SKIP_PATH.search(q) or q.startswith(HERE):
+            if not f.endswith('.jsonl') or SKIP_PATH.search(q) or q.startswith(HERE) or q.startswith(OWN_ROWS):
                 continue
             vals = set()
             with open(q, 'rb') as fh:

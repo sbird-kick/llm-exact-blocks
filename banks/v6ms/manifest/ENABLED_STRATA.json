@@ -1,0 +1,16 @@
+{
+ "enabled": [
+  "SL",
+  "CB",
+  "SEL",
+  "INT",
+  "INV",
+  "CMQ",
+  "RAT",
+  "PCT",
+  "CNV",
+  "BKP",
+  "DST"
+ ],
+ "note": "strata that status --next / launch / close offer; REP is off (PLAN D3). Gates (GATES in v6ms.py) apply on top."
+}

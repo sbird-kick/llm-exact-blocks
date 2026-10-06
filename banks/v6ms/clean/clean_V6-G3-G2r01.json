@@ -1,0 +1,269 @@
+{
+ "verifier_unit": "V6-G3-G2r01",
+ "templates": {
+  "W6-ta-CB-G2r01-05": {
+   "kept": true,
+   "mismatch": [],
+   "flags": [],
+   "tags": []
+  },
+  "W6-bn-CB-G2r01-02": {
+   "kept": true,
+   "mismatch": [],
+   "flags": [],
+   "tags": []
+  },
+  "W6-ta-CB-G2r01-06": {
+   "kept": false,
+   "mismatch": [],
+   "flags": [
+    "ambiguous"
+   ],
+   "tags": []
+  },
+  "W6-bn-CB-G2r01-05": {
+   "kept": true,
+   "mismatch": [],
+   "flags": [],
+   "tags": []
+  },
+  "W6-vi-CB-G2r01-05": {
+   "kept": true,
+   "mismatch": [],
+   "flags": [],
+   "tags": []
+  },
+  "W6-hi-CB-G2r01-04": {
+   "kept": true,
+   "mismatch": [],
+   "flags": [],
+   "tags": []
+  },
+  "W6-hi-CB-G2r01-06": {
+   "kept": true,
+   "mismatch": [],
+   "flags": [],
+   "tags": []
+  },
+  "W6-vi-CB-G2r01-01": {
+   "kept": true,
+   "mismatch": [],
+   "flags": [],
+   "tags": []
+  },
+  "W6-th-CB-G2r01-02": {
+   "kept": true,
+   "mismatch": [],
+   "flags": [],
+   "tags": []
+  },
+  "W6-hi-CB-G2r01-01": {
+   "kept": true,
+   "mismatch": [],
+   "flags": [],
+   "tags": []
+  },
+  "W6-vi-CB-G2r01-02": {
+   "kept": true,
+   "mismatch": [],
+   "flags": [],
+   "tags": []
+  },
+  "W6-bn-CB-G2r01-04": {
+   "kept": true,
+   "mismatch": [],
+   "flags": [],
+   "tags": []
+  },
+  "W6-th-CB-G2r01-06": {
+   "kept": true,
+   "mismatch": [],
+   "flags": [],
+   "tags": []
+  },
+  "W6-th-CB-G2r01-07": {
+   "kept": true,
+   "mismatch": [],
+   "flags": [],
+   "tags": [
+    "formula_in_question"
+   ]
+  },
+  "W6-th-CB-G2r01-05": {
+   "kept": true,
+   "mismatch": [],
+   "flags": [],
+   "tags": []
+  },
+  "W6-vi-CB-G2r01-07": {
+   "kept": true,
+   "mismatch": [],
+   "flags": [],
+   "tags": [
+    "formula_in_question"
+   ]
+  },
+  "W6-th-CB-G2r01-03": {
+   "kept": true,
+   "mismatch": [],
+   "flags": [],
+   "tags": []
+  },
+  "W6-ta-CB-G2r01-03": {
+   "kept": true,
+   "mismatch": [],
+   "flags": [],
+   "tags": []
+  },
+  "W6-bn-CB-G2r01-01": {
+   "kept": true,
+   "mismatch": [],
+   "flags": [],
+   "tags": []
+  },
+  "W6-vi-CB-G2r01-08": {
+   "kept": true,
+   "mismatch": [],
+   "flags": [],
+   "tags": [
+    "formula_in_question"
+   ]
+  },
+  "W6-ta-CB-G2r01-07": {
+   "kept": true,
+   "mismatch": [],
+   "flags": [],
+   "tags": [
+    "formula_in_question"
+   ]
+  },
+  "W6-ta-CB-G2r01-01": {
+   "kept": true,
+   "mismatch": [],
+   "flags": [],
+   "tags": []
+  },
+  "W6-hi-CB-G2r01-02": {
+   "kept": true,
+   "mismatch": [],
+   "flags": [],
+   "tags": []
+  },
+  "W6-bn-CB-G2r01-03": {
+   "kept": true,
+   "mismatch": [],
+   "flags": [],
+   "tags": []
+  },
+  "W6-ta-CB-G2r01-02": {
+   "kept": true,
+   "mismatch": [],
+   "flags": [],
+   "tags": []
+  },
+  "W6-hi-CB-G2r01-03": {
+   "kept": true,
+   "mismatch": [],
+   "flags": [],
+   "tags": []
+  },
+  "W6-hi-CB-G2r01-07": {
+   "kept": true,
+   "mismatch": [],
+   "flags": [],
+   "tags": [
+    "formula_in_question"
+   ]
+  },
+  "W6-vi-CB-G2r01-06": {
+   "kept": true,
+   "mismatch": [],
+   "flags": [],
+   "tags": []
+  },
+  "W6-ta-CB-G2r01-08": {
+   "kept": true,
+   "mismatch": [],
+   "flags": [],
+   "tags": [
+    "formula_in_question"
+   ]
+  },
+  "W6-th-CB-G2r01-04": {
+   "kept": true,
+   "mismatch": [],
+   "flags": [],
+   "tags": []
+  },
+  "W6-bn-CB-G2r01-08": {
+   "kept": true,
+   "mismatch": [],
+   "flags": [],
+   "tags": [
+    "formula_in_question"
+   ]
+  },
+  "W6-vi-CB-G2r01-04": {
+   "kept": true,
+   "mismatch": [],
+   "flags": [],
+   "tags": []
+  },
+  "W6-ta-CB-G2r01-04": {
+   "kept": true,
+   "mismatch": [],
+   "flags": [],
+   "tags": []
+  },
+  "W6-hi-CB-G2r01-08": {
+   "kept": true,
+   "mismatch": [],
+   "flags": [],
+   "tags": [
+    "formula_in_question"
+   ]
+  },
+  "W6-hi-CB-G2r01-05": {
+   "kept": true,
+   "mismatch": [],
+   "flags": [],
+   "tags": []
+  },
+  "W6-bn-CB-G2r01-06": {
+   "kept": true,
+   "mismatch": [],
+   "flags": [],
+   "tags": []
+  },
+  "W6-bn-CB-G2r01-07": {
+   "kept": true,
+   "mismatch": [],
+   "flags": [],
+   "tags": [
+    "formula_in_question"
+   ]
+  },
+  "W6-th-CB-G2r01-08": {
+   "kept": false,
+   "mismatch": [],
+   "flags": [
+    "ambiguous"
+   ],
+   "tags": [
+    "formula_in_question"
+   ]
+  },
+  "W6-th-CB-G2r01-01": {
+   "kept": true,
+   "mismatch": [],
+   "flags": [],
+   "tags": []
+  },
+  "W6-vi-CB-G2r01-03": {
+   "kept": true,
+   "mismatch": [],
+   "flags": [],
+   "tags": []
+  }
+ }
+}

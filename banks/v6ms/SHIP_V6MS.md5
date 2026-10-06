@@ -1,0 +1,21 @@
+# md5 of the rows `python banks/make_v6ms.py` writes (v6ms.py gen --units <the round's 20 writer units> --out-dir <round>),
+# as the project recorded them when it generated the 9 closed rounds: 42,268 rows (31,716 with <= 5 numerals in rows_le5,
+# 10,552 with more than 5 in rows_n6). Every round's audit says violations: NONE.
+1ee4713137cc704df2767152215285cb  G1r01/rows_le5.jsonl
+9355cd341705265e68574063bc2b76e0  G1r01/rows_n6.jsonl
+9e585e960cadfb5733d80202dcffb247  G1r02/rows_le5.jsonl
+75ed98bd9d2fe7c1c57b65f5de9e35e5  G1r02/rows_n6.jsonl
+697dbb877eb9a26b25fb6e662d52d0c5  G1r03/rows_le5.jsonl
+55912daa292173418bc90185cb3be45c  G1r03/rows_n6.jsonl
+59619858a23450d74c9d0b0848596fc5  G1r04/rows_le5.jsonl
+00133bc23b00f4e83d09c2fc0f0d55a7  G1r04/rows_n6.jsonl
+471eac9ea4d158cbaa6642830fefe73b  G2r01/rows_le5.jsonl
+4bfc9ac60149e7c932984dbf908f8fa9  G2r01/rows_n6.jsonl
+d113de41bd3054c1af6783dc30a10d3c  G2r02/rows_le5.jsonl
+059e4e468e4c25715798b7fbe71c00fe  G2r02/rows_n6.jsonl
+a647f8820fdb854bd2007c3b7cb6d18c  G2r03/rows_le5.jsonl
+5fee310ab52ce3a0aa13c2430e5f1736  G2r03/rows_n6.jsonl
+77102a038835fbdaf4456cd0e1b4bff9  G3r01/rows_le5.jsonl
+798c975d1e9732915118afe99b6b07c0  G3r01/rows_n6.jsonl
+3926cc2d964d419958934c6e8810354f  G3r02/rows_le5.jsonl
+4806eb542a01adf1dec6d0a9c9c739ef  G3r02/rows_n6.jsonl

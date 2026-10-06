@@ -41,3 +41,11 @@ banks/v5x/clean/*.json
 banks/audience/bank/
 banks/audience/bank_v2/
 banks/audience/validate.json
+
+# shipped training rows of the banks (data/DATA_banks.md; checked by python banks/make_bank_data.py):
+# re-include data/banks/ and data/DATA_banks.md, everything else under data/ stays ignored
+!data/
+data/*
+!data/DATA_banks.md
+!data/banks/
+!data/banks/**/*.jsonl

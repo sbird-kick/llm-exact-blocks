@@ -1,0 +1,13 @@
+# md5 of every input of banks/v5div (md5sum format; `md5sum -c CODE.md5` from banks/v5div/, or python banks/make_v5div.py).
+# v5div.py imports the v5 tools in ../v5/ (V5_CODE.md5 there; the bank's md5s are the same with the project's own copies).
+# The clean files are the project's, byte for byte: P1 (pilot) + R1 + R2 + R3, the 851 kept templates the project fits on.
+# Chunk R4 is NOT shipped: it is the project's fresh test set for this bank.
+# v5div.py differs from the project's copy (md5 e1b731fda701ee55ad0cc17da192dcc8) in wording and one path only:
+#   - the path constants (SIGNED = this banks/ folder instead of the project's signed-bank folder; V5 = ../v5);
+#   - four comment / message / brief strings no longer name a person ("the project owner").
+#   No edit touches the rows: SHIP_V5DIV.md5 is the project's record and is reproduced byte for byte.
+c7e0e0d48ac62c485dea2f92b284c066  v5div.py
+72a1a66d7b292300e919f4b517e577ba  clean/P1.json
+b825e045064600f0714aaa0aae4dc8cb  clean/R1.json
+28b441c7cf8554c3daa0ab46316f31bd  clean/R2.json
+3a7c4cd15f1e4ba4aec349c7b151b19f  clean/R3.json

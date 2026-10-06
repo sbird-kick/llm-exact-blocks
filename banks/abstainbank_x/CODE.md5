@@ -1,7 +1,11 @@
 # md5 of the ABX clean template files (md5sum format; `md5sum -c CODE.md5` from banks/abstainbank_x/).
 # clean/<round>/<lang>.json + index.json join (python banks/clean_split.py join clean/<round> <out>) byte for byte into the
 # project's clean files: X01r1 -> clean_abstainbank_x_X01r1.json md5 d279cab3f4f278f1b85f065bdd2ae99d (68 kept),
-# X01r2 -> clean_abstainbank_x_X01r2.json md5 9bfef48eb823d21734dff0777d198504 (80 kept). PARTIAL: chunk X01 only (148/192).
+# X01r2 -> clean_abstainbank_x_X01r2.json md5 9bfef48eb823d21734dff0777d198504 (80 kept),
+# X01r3 -> clean_abstainbank_x_X01r3.json md5 0e6f1806b01e16b34824f8f6c82d7fac (83 kept),
+# X01r4 -> clean_abstainbank_x_X01r4.json md5 a3c22d2816d89ce01533ef9249656223 (73 kept),
+# X01r5 -> clean_abstainbank_x_X01r5.json md5 2b594934e8d539a5d195d6d7da6ba14b (86 kept).
+# PARTIAL: chunk X01 rounds 1-5 of 6 (390/480 kept); X01r6 and chunk X02 are verified in the project but not yet cleaned.
 f7bec5886ea2a93da50d0745f60299d9  clean/X01r1/index.json
 aca51326d075e6c95b61094e2fb17133  clean/X01r1/de.json
 844dced13c6ff858ab0ed8168546babf  clean/X01r1/es.json
@@ -16,3 +20,24 @@ d41ba7faac42290b4b90895daba47781  clean/X01r2/fr.json
 68ac7d4f155ee9bc80d40acded741f53  clean/X01r2/it.json
 745aee0e962bb515e13f6b6e916d26ac  clean/X01r2/nl.json
 239e7419f5b99c4f49dafc64e2db9763  clean/X01r2/pt.json
+61a379b212f4429250027ad20af3c0b1  clean/X01r3/index.json
+106a7099eb530b9f9d4f1a45127c49f0  clean/X01r3/de.json
+c9265e04ccd57491b91bc73fa60ba207  clean/X01r3/es.json
+9c8327024cff20bdc15bc6460d31c845  clean/X01r3/fr.json
+9b4c52799cde9102fba9d26d007050cf  clean/X01r3/it.json
+27e50c993987953d437c1d1359681190  clean/X01r3/nl.json
+766911508720329b94fb6388a14febb2  clean/X01r3/pt.json
+97355cbfe92cbf5088c5bfb2c7294556  clean/X01r4/index.json
+a23db60cae1a337538499836c083af29  clean/X01r4/de.json
+237c7880c93418b2131c0bea34ea9c2f  clean/X01r4/es.json
+7c82f84ad8894ce577e17b2b8466ec94  clean/X01r4/fr.json
+7752f42e935ded22f06f88be671e6a0a  clean/X01r4/it.json
+829638690bd70fc93a5ba1888db21d3b  clean/X01r4/nl.json
+9a3e28f3c4d18080b01d60fbcf320d9d  clean/X01r4/pt.json
+667d0e9fad09347866b8901007d321c8  clean/X01r5/index.json
+504d20ca059f2cb0b01d4062f8e952d8  clean/X01r5/de.json
+86f29302b1a573918776c334723a0c54  clean/X01r5/es.json
+7534f268982ee19cef0cfe194239be50  clean/X01r5/fr.json
+ad57bca866fa2a3aa61fd9e2056701cc  clean/X01r5/it.json
+1d9698ec31158e9014eb749a753e6dd6  clean/X01r5/nl.json
+ab4d0b236d47115384475df2876a1ffb  clean/X01r5/pt.json

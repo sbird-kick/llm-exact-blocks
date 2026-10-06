@@ -108,7 +108,7 @@ python banks/make_role_banks.py          # checks each bank's CODE.md5, runs its
 ### `subrole/`: subtraction, minuend smaller in half the rows and written second in half
 
 190 kept templates (blind-verified, all four filled texts of a template had to pass), 8
-number pairs each (2..99), 6,080 rows (`bank/dump/SUBROLE.jsonl`, 6.2 MB, not committed):
+number pairs each (2..99), 6,080 rows (`bank/dump/SUBROLE.jsonl`, 6.2 MB; shipped as `data/banks/subrole/SUBROLE.jsonl`):
 
 | source | kept | rows |
 |---|---|---|
@@ -137,8 +137,8 @@ Its selftest runs here (71 checks).
 
 `{M}` is the dividend and `{S}` the divisor; the answer is always M / S as an exact
 fraction, so on the a<b rows it is a proper fraction (`ans` is then not an integer).
-184 kept templates, 8 number pairs each, 5,888 rows (`bank/dump/DIVROLE2.jsonl`, 7.2 MB,
-not committed):
+184 kept templates, 8 number pairs each, 5,888 rows (`bank/dump/DIVROLE2.jsonl`, 7.2 MB; the
+5,248 rows of folds 0-4 are shipped as `data/banks/divrole2/DIVROLE2_folds0-4.jsonl`):
 
 | source | kept | fold | rows |
 |---|---|---|---|
@@ -152,36 +152,141 @@ D04 14, D05 14, D06 15, D07 15, D08 16, D09 14, D10 15, D11 13, D12 15. The self
 `divrole2.py` needs the earlier bank's candidate files, which are not shipped; `gen` does
 not.
 
-## Bank v5x (PARTIAL: chunk C1 of 6)
+## Bank v5x: v5 in 36 more languages, with question forms (all six chunks)
 
 Bank v5x is v5 (same row schema, wild-shaped distractors, add / sub / mul / div, 24 rows
 per template) for the 36 languages of `v3_61` that v5 lacks, plus a question-form axis:
 every template is asked in one of eight forms: F0 plain (facts, then the question), F1 question
 first, F2 an instruction ("Work out how many ..."), F3 conditional ("If ..., how many ...?"),
 F4 indirect ("Tell me how many ..."), F5 casual chat, F6 a statement ending in a blank ___,
-F7 a dialogue (one speaker gives the facts, another asks). It is written in six
-chunks of six languages. **Only chunk C1 has been verified and cleaned so far**, so the bank
-is partial and its md5s will change when later chunks arrive:
+F7 a dialogue (one speaker gives the facts, another asks). It was written in six chunks of
+six languages; every chunk was blind-verified and passed all eight of its go / no-go bars
+(for C6, after Tibetan was rewritten once):
 
-| lang | kept | dropped | add | sub | mul | div |
-|---|---:|---:|---:|---:|---:|---:|
-| bg Bulgarian | 45 | 3 | 12 | 12 | 12 | 9 |
-| cs Czech | 47 | 1 | 12 | 12 | 12 | 11 |
-| hu Hungarian | 46 | 2 | 12 | 12 | 11 | 11 |
-| ro Romanian | 42 | 6 | 12 | 11 | 10 | 9 |
-| sk Slovak | 47 | 1 | 12 | 11 | 12 | 12 |
-| sr Serbian | 47 | 1 | 12 | 12 | 12 | 11 |
-| **C1** | **274** | **14** | **72** | **70** | **69** | **63** |
+| chunk | languages (kept / 48 each) | kept | dropped | rows |
+|---|---|---:|---:|---:|
+| C1 | bg 45, cs 47, hu 46, ro 42, sk 47, sr 47 | 274 | 14 | 6,576 |
+| C2 | eu 48, fi 48, is 48, la 45, lt 47, sv 47 | 283 | 5 | 6,792 |
+| C3 | gu 47, kn 48, ml 48, mr 47, pa 48, te 48 | 286 | 2 | 6,864 |
+| C4 | hy 46, ka 47, kk 46, mn 47, sq 45, uz 46 | 277 | 11 | 6,648 |
+| C5 | ha 48, ms 46, ne 48, tl 48, ur 48, zu 38 | 276 | 12 | 6,624 |
+| C6 | am 48, bo 47, km 47, my 45, si 48, yo 44 | 279 | 9 | 6,696 |
+| **all** | **36 languages** | **1,675** | **53** | **40,200** |
 
 ```bash
-python banks/make_v5x.py              # joins v5x/clean/C1/<lang>.json, runs v5x.py gen -> banks/v5x/bank/C1/, checks 6 md5s
+python banks/make_v5x.py              # per chunk: joins v5x/clean/<C>/<lang>.json, runs v5x.py gen -> banks/v5x/bank/<C>/, checks 6 md5s
+python banks/make_v5x.py C4           # one chunk only
 ```
 
-6,576 rows (`signed_A_int.jsonl`, 18.6 MB, not committed). The clean templates are one file
-per language in `v5x/clean/C1/` plus `index.json`; `banks/clean_split.py` joins them byte for
-byte into the clean file `v5x.py` reads (md5 `476b62cf...`) and splits a clean file of your
-own the same way. `v5x/manifest/` holds the 144 writer-unit specs of all six chunks (`gen`
-reads their forms and story ids). `v5x.py selftest` runs here (76 checks).
+Each chunk is generated on its own (`signed_A_int.jsonl`, 18.6-22.7 MB per chunk; md5s in
+`v5x/SHIP_V5X_<C>.md5`). The rows are also shipped ready to use in `data/banks/v5x/<C>.jsonl`
+(see below). The clean templates are one file per language in `v5x/clean/<C>/` plus
+`index.json`; `banks/clean_split.py` joins them byte for byte into the clean file `v5x.py`
+reads (md5s in `make_v5x.py`) and splits a clean file of your own the same way.
+`v5x/manifest/` holds the 144 writer-unit specs of all six chunks (`gen` reads their forms and
+story ids). `v5x.py selftest` runs here (76 checks).
+
+## Bank v5div (25 languages): division with the dividend smaller in half the rows
+
+In ordinary prose the dividend of a division is almost always the larger number, so "divide
+the big number by the small one" is nearly always right, and a reader can name the
+dividend without reading the words. Bank v5div makes that shortcut useless in v5's 25
+languages. Every template is a division story whose dividend `{M}` and divisor `{S}` are
+fixed by the words, and every number pair is filled four ways: dividend larger or smaller,
+crossed with dividend written first or second. On the rows where the dividend is smaller
+the answer is a fraction ("what fraction of ...": 3/8) or a percentage below 100, and the
+templates were written and verified so that such an answer reads naturally. Four kinds of
+division, about a quarter of the rows each: `share` (an amount split equally: litres per
+vat), `rate` (an amount per hour, per kilometre ...), `ratio` (what fraction of ...) and
+`pct` (what percent of ...), each in three shapes, with v5's distractor arms (`base`, `T`,
+`ex`, `sem`, `T+s`, `T+ex+sem`).
+
+851 kept templates (31-36 per language), 24 rows each: 20,424 rows (66.6 MB). They are the
+pilot P1 and chunks R1-R3, all blind-verified; each chunk passed its go / no-go bars (R1
+after four languages rewrote their dropped templates, R2 after an Arabic noun-form fix). The
+bank's last chunk (R4) is the project's fresh test set for it and is not shipped. On the
+shipped rows, "the dividend is the larger written number" is right on exactly 10,212 of
+20,424 and "the dividend is written first" on exactly 10,212 of 20,424.
+
+```bash
+python banks/make_v5div.py            # checks v5div/CODE.md5, runs v5div.py gen (about 10 s), checks the project's 6 md5s
+python banks/make_v5div.py --out DIR  # the same, keeping the bank in DIR
+```
+
+`v5div/v5div.py` is the project's tool (writer validator, blind close, report, clean, gen,
+selftest: `python3 v5div.py selftest`, 111 checks, runs here); it imports the v5 tools in
+`v5/`. For Arabic it carries a counted-noun markup, `{X|dual|3-10|11-99|100}`: the
+generator picks the noun form that agrees with the filled number. `v5div/clean/` holds the
+four clean files (kept and dropped templates, with the verifier's reasons). The rows are
+shipped in three parts in `data/banks/v5div/`.
+
+## Bank v6ms (20 languages): multi-step problems with every intermediate stored
+
+Bank v6ms holds two- and three-step word problems written natively in 20 languages (ar bn
+de el en es fa he hi id ja ko pl ru sw ta th tr vi zh). Each template is a small program over
+named slots, fixed by a manifest cell, which the generator executes exactly; every row
+stores the program, the value of every step and which written number feeds which step (its
+def-use structure), so a reader can be fitted on the whole computation and not just on the
+answer. A round is one stratum in all 20 languages (20 writer units of 8 templates), blind
+verified by executing the formula the verifier wrote (a text matches only when the formula
+gives the gold answer on 8 different fills). Only the 9 closed rounds (of 17 planned) are
+shipped:
+
+| round | stratum | programs | templates kept | rows |
+|---|---|---|---:|---:|
+| G1r01-G1r04 | SL | straight-line chains, `(A o1 B) o2 C`, `((A o1 B) o2 C) o3 D`, `(A o1 B) o2 (C o3 D)`; signed | 603 | 19,208 |
+| G2r01 | CB | conditionals: `t = A o1 B; IF t cmp C THEN t o2 D ELSE ...` | 147 | 4,676 |
+| G2r02 | SEL | `max/min(A, B) o C`, `max/min(A o1 B, C o1 D)` | 145 | 4,592 |
+| G2r03 | INT | `ceil((A o1 B) / C)`, `floor(...)`, `(A o1 B) mod C`, `ceil(A / B) o2 C` | 153 | 4,896 |
+| G3r01 | INV | unknown start `(C o1 A) o2 B`, unknown group size `(C - B) / A` | 127 | 4,064 |
+| G3r02 | CMQ | "how many more": `(A o1 B) - C`, always positive | 151 | 4,832 |
+| **all** | | | **1,326** (of 1,440 written) | **42,268** |
+
+32 rows per template (4 distractor arms x 2 draws x 2 twins x 2 written orders), minus 164
+fills the generator refused. Each round writes `rows_le5.jsonl` (at most 5 written numerals,
+31,716 rows) and `rows_n6.jsonl` (more than 5, 10,552 rows). Rows carry three fold columns:
+`v6.lang_fold` (5 folds of 4 languages, for leave-language-out), `v6.script_fold` (latin,
+greek_cyrillic, abjad, brahmic, cjk) and `v6.tmpl_fold` (1 + md5(template id) mod 5; all
+rows of a template share it). `v6.program`, `v6.steps` and `v6.leaf_run_idx` hold the
+program, every step's value and which written number is which leaf.
+
+```bash
+python banks/make_v6ms.py             # checks v6ms/CODE.md5 (402 inputs), regenerates the 9 rounds (about 5 min), checks 18 md5s
+python banks/make_v6ms.py G3r01       # one round (about 35 s)
+```
+
+`v6ms/v6ms.py` is the project's tool (shapes, exact execution, validator, manifest, close,
+report, clean, gen, selftest: `python3 v6ms.py selftest`, 2,556 checks, runs here). Its
+templates are in the writer files: `v6ms/writers/<lang>/<unit>.json` (the 180 accepted
+units, all their templates), `v6ms/accept/` (which file each unit accepted), and
+`v6ms/clean/` (the verifier's verdict per template; gen uses only the kept ones). The rows
+are shipped in `data/banks/v6ms/<round>_le5.jsonl` and `<round>_n6.jsonl`.
+
+## The generated rows, ready to train on: `data/banks/`
+
+The training banks' rows are also shipped as plain JSON-lines files, so you can train on
+them without running anything. Every file is under 25 MB and listed with its md5 in
+`data/banks/ROWS.md5`; [`data/DATA_banks.md`](../data/DATA_banks.md) has one line per file
+(bank, languages, rows, bytes, md5, the command that made it).
+
+| folder | bank | rows | files |
+|---|---|---:|---|
+| `data/banks/subrole/` | subrole | 6,080 | `SUBROLE.jsonl` |
+| `data/banks/divrole2/` | divrole2, folds 0-4 only | 5,248 | `DIVROLE2_folds0-4.jsonl` |
+| `data/banks/v5x/` | v5x, 36 languages | 40,200 | `C1.jsonl` ... `C6.jsonl` |
+| `data/banks/v5div/` | v5div, 25 languages | 20,424 | `part_000.jsonl` ... `part_002.jsonl` (`cat` them for the generator's file) |
+| `data/banks/v6ms/` | v6ms, 20 languages | 42,268 | `<round>_le5.jsonl`, `<round>_n6.jsonl` for 9 rounds |
+
+```bash
+python banks/make_bank_data.py               # md5 of every shipped row file (a couple of seconds)
+python banks/make_bank_data.py --rebuild     # regenerate every bank and compare (about 7 minutes)
+```
+
+Not shipped as rows: `v3_61`, `v4`, `v4wild` and `v5` (regenerate them byte for byte with
+`make_banks.py` and `make_v5.py`); `subrole_g3` and divrole2's 640 reference rows (fold -1),
+which are meant for scoring a reader, never for fitting it; the abstain banks AB1 and ABX
+(their filling tool is not shipped); and the audience demo bank (`gen_audience_v2.py`
+writes it in a second).
 
 ## Abstain bank AB1 (English): questions the block must NOT answer, each with an in-set twin
 
@@ -234,37 +339,40 @@ would be right to fire; for `compare` and `lookup` the answer is one of the writ
 itself). The project's bank used about 8 rows per template (small, mid and
 huge numbers where the operation makes sense).
 
-## Abstain bank ABX (PARTIAL: chunk X01 only): AB1 in other languages, with question forms
+## Abstain bank ABX (PARTIAL: rounds 1-5 of chunk X01): AB1 in other languages, with question forms
 
 ABX is AB1 (same classes, same `abs_prog` language, same in-set twins and keep rule) written
 natively in the 60 non-English languages of `v3_61`, 96 templates per language when
 finished, and every template (abstain question and twin alike) is asked in one of the eight
 v5x question forms F0-F7 (`template.form`). A template was kept only if all four of its
 texts passed the blind verifier AND the verifier judged each text to be in its form. **Only
-the pilot chunk X01 is done so far**: 6 languages, two rounds of 16 templates each, 148 of
-192 kept (round 2 was written after a drop analysis of round 1 and fixed its brief; German
-went from 6/16 to 13/16):
+rounds 1-5 of the pilot chunk X01 are cleaned so far**: 6 languages, five rounds of 16
+templates per language, 390 of 480 kept (round 2 was written after a drop analysis of round
+1 and fixed its brief; German went from 6/16 to 13/16). Round 6 of X01 and the next chunk
+(X02) have been verified in the project but not cleaned yet, so they are not here.
 
-| lang | round 1 kept | round 2 kept | X01 kept | X01 dropped |
-|---|---:|---:|---:|---:|
-| de German | 6/16 | 13/16 | 19 | 13 |
-| es Spanish | 13/16 | 14/16 | 27 | 5 |
-| fr French | 13/16 | 13/16 | 26 | 6 |
-| it Italian | 11/16 | 14/16 | 25 | 7 |
-| nl Dutch | 15/16 | 14/16 | 29 | 3 |
-| pt Portuguese | 10/16 | 12/16 | 22 | 10 |
-| **X01** | **68/96** | **80/96** | **148** | **44** |
+| lang | r1 | r2 | r3 | r4 | r5 | kept | dropped |
+|---|---:|---:|---:|---:|---:|---:|---:|
+| de German | 6/16 | 13/16 | 16/16 | 13/16 | 13/16 | 61 | 19 |
+| es Spanish | 13/16 | 14/16 | 13/16 | 12/16 | 14/16 | 66 | 14 |
+| fr French | 13/16 | 13/16 | 13/16 | 12/16 | 14/16 | 65 | 15 |
+| it Italian | 11/16 | 14/16 | 13/16 | 14/16 | 16/16 | 68 | 12 |
+| nl Dutch | 15/16 | 14/16 | 14/16 | 11/16 | 13/16 | 67 | 13 |
+| pt Portuguese | 10/16 | 12/16 | 14/16 | 11/16 | 16/16 | 63 | 17 |
+| **X01 r1-r5** | **68/96** | **80/96** | **83/96** | **73/96** | **86/96** | **390** | **90** |
 
-Kept per class (X01): average 10, compare 6, counting 10, digits 9, estimate 10, hidden_const
-11, inexact_div 8, lookup 9, no_arith 4, noninteger 12, number_theory 8, percent 11,
-power_root 11, ratio 11, rounding 10, two_step 8 (no nonnumeric yet). Per form: F0 19, F1 18,
-F2 16, F3 23, F4 19, F5 20, F6 19, F7 14. Twins: add 41, sub 37, mul 37, div 33. Each
-template also carries `gloss_en` (an English gloss), `hidden_word_en` and `twin_cue_en`. The
-clean files are one per language and round, in `abstainbank_x/clean/X01r1/` and
-`abstainbank_x/clean/X01r2/`, each with `index.json`;
-`python banks/clean_split.py join banks/abstainbank_x/clean/X01r2 <out.json>` (or `X01r1`)
-rebuilds the project's single file of that round byte for byte. As for AB1, the filling tool is not
-shipped (it builds on AB1's); the AB1 notes on filling apply unchanged.
+Kept per class: average 26, compare 14, counting 24, date_time 6, digits 15, estimate 25,
+hidden_const 28, inexact_div 23, lookup 13, multi_step 16, no_arith 7, noninteger 27,
+nonnumeric 17, number_theory 14, percent 24, power_root 24, ratio 29, rounding 22, two_step
+25, underspecified 11. Per form: F0 54, F1 47, F2 53, F3 46, F4 50, F5 47, F6 51, F7 42.
+Twins: add 102, sub 101, mul 101, div 86. The AB1 warning about the nonnumeric class applies
+here too (no text-classifier check has been run on ABX's 17). Each template also carries
+`gloss_en` (an English gloss), `hidden_word_en` and `twin_cue_en`. The clean files are one per
+language and round, in `abstainbank_x/clean/X01r1/` ... `X01r5/`, each with `index.json`;
+`python banks/clean_split.py join banks/abstainbank_x/clean/X01r3 <out.json>` (or any other
+round) rebuilds the project's single file of that round byte for byte. As for AB1, the
+filling tool is not shipped (it builds on AB1's) and no rows are shipped; the AB1 notes on
+filling apply unchanged.
 
 ## The audience demo bank (English, DEMO-GRADE)
 
