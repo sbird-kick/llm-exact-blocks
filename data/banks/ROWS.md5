@@ -1,0 +1,35 @@
+# md5 of every shipped row file under data/banks/ (md5sum format; `md5sum -c ROWS.md5` from data/banks/,
+# or python banks/make_bank_data.py). 29 files, 114,220 rows, 322,921,154 bytes; each file < 25 MB.
+# Joined: cat v5div/part_000.jsonl v5div/part_001.jsonl v5div/part_002.jsonl = v5div.py gen's signed_A_int.jsonl,
+#   md5 ddaf2959b963641f15d7775a8989e8de (66,619,438 bytes, 20,424 rows; banks/v5div/SHIP_V5DIV.md5).
+# Filtered: divrole2/DIVROLE2_folds0-4.jsonl = divrole2.py gen's dump/DIVROLE2.jsonl (md5 a89f5e04e937784b7247caf6c02ce12b)
+#   without its 640 fold -1 rows. Every other file is byte for byte the file its generator writes (SHIP md5s in banks/).
+e75e670a85eb1be6d2d62c8fa8dccce8  subrole/SUBROLE.jsonl
+4426928f04f2035580884b7ac87b38e7  divrole2/DIVROLE2_folds0-4.jsonl
+f0e669abf6681552d99e1eb001643271  v5x/C1.jsonl
+d8c5a93d69d6b064251da342a2619c33  v5x/C2.jsonl
+b4cbca7ebfe32cc0e6142977350e50ef  v5x/C3.jsonl
+4d299c060944dc3c766174bc34b1d5c0  v5x/C4.jsonl
+a2597a4c07e2eaf9db6886a1b0f36ed0  v5x/C5.jsonl
+f1754a945066cc1580ee0c546fa440cc  v5x/C6.jsonl
+4c482b1b6a7be5bb263e059451f5b29f  v5div/part_000.jsonl
+7ce1f354e96b0ec341651c4d5a36eda4  v5div/part_001.jsonl
+cc236b0ce5ef692860d838e98031f98d  v5div/part_002.jsonl
+1ee4713137cc704df2767152215285cb  v6ms/G1r01_le5.jsonl
+9355cd341705265e68574063bc2b76e0  v6ms/G1r01_n6.jsonl
+9e585e960cadfb5733d80202dcffb247  v6ms/G1r02_le5.jsonl
+75ed98bd9d2fe7c1c57b65f5de9e35e5  v6ms/G1r02_n6.jsonl
+697dbb877eb9a26b25fb6e662d52d0c5  v6ms/G1r03_le5.jsonl
+55912daa292173418bc90185cb3be45c  v6ms/G1r03_n6.jsonl
+59619858a23450d74c9d0b0848596fc5  v6ms/G1r04_le5.jsonl
+00133bc23b00f4e83d09c2fc0f0d55a7  v6ms/G1r04_n6.jsonl
+471eac9ea4d158cbaa6642830fefe73b  v6ms/G2r01_le5.jsonl
+4bfc9ac60149e7c932984dbf908f8fa9  v6ms/G2r01_n6.jsonl
+d113de41bd3054c1af6783dc30a10d3c  v6ms/G2r02_le5.jsonl
+059e4e468e4c25715798b7fbe71c00fe  v6ms/G2r02_n6.jsonl
+a647f8820fdb854bd2007c3b7cb6d18c  v6ms/G2r03_le5.jsonl
+5fee310ab52ce3a0aa13c2430e5f1736  v6ms/G2r03_n6.jsonl
+77102a038835fbdaf4456cd0e1b4bff9  v6ms/G3r01_le5.jsonl
+798c975d1e9732915118afe99b6b07c0  v6ms/G3r01_n6.jsonl
+3926cc2d964d419958934c6e8810354f  v6ms/G3r02_le5.jsonl
+4806eb542a01adf1dec6d0a9c9c739ef  v6ms/G3r02_n6.jsonl
