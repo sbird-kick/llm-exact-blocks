@@ -49,3 +49,6 @@ data/*
 !data/DATA_banks.md
 !data/banks/
 !data/banks/**/*.jsonl
+# the wild training rows (folds 1-4 only; data/wild/README.md)
+!data/wild/
+!data/wild/**/*.jsonl
