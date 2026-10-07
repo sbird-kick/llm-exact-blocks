@@ -1,0 +1,480 @@
+{
+ "what": "reference numbers on the shipped data/wild rows (folds 1-4), from the project's own Qwen3-1.7B run",
+ "host": "Qwen3-1.7B",
+ "hardware": "H100 dumps",
+ "layers_real": [
+  16,
+  19,
+  22
+ ],
+ "layer_labels": [
+  20,
+  24,
+  28
+ ],
+ "readers": "reader B (F2 grid), leave-one-fold-out over folds 1-4: each row decoded by readers fitted on the other three folds of the project's FULL pool (about 98,600 training programs per layer from five sources: Ape210K, Math23K, MAWPS, ASDiv, MathQA), not on these 7,497 rows alone",
+ "host_labels": "the project's host scorer: HOST1 = the first number of the host's natural-form greedy decode (no added space, up to 64 new tokens). run.py's host_fields reads the dump's 12-token greedy text after the dumper's added space instead, so host-right can differ on some rows",
+ "gates": {
+  "gate_no_probe": {
+   "what": "defuse.gate.fit_gate(side='b', probes=None, tau=0.0075) fitted on these 7,497 rows' out-of-fold decodes: the same command as RUN_ON_THOR.md step 6",
+   "cut": 2.348819194965717,
+   "oof_auroc": 0.6612768330080847,
+   "budget": 11
+  },
+  "gate_project": {
+   "what": "the project's frozen 1.7B gate (13 features incl. the two host-outcome probes; cut calibrated on folds 1-4 of the full pool), applied to these rows: context only, you do not fit probes in this recipe",
+   "cut": 3.350172543721139
+  }
+ },
+ "cells": {
+  "asdiv|1": {
+   "rows": 270,
+   "HR": 138,
+   "host_none": 0,
+   "fires": 39,
+   "broken": 2,
+   "fixed": 32,
+   "gate_no_probe": {
+    "fires": 10,
+    "broken": 0,
+    "fixed": 10
+   },
+   "gate_project": {
+    "fires": 17,
+    "broken": 0,
+    "fixed": 17
+   },
+   "steps": {
+    "0": {
+     "rows": 0,
+     "reader_value_right": 0,
+     "host_right": 0,
+     "system_right": 0
+    },
+    "1": {
+     "rows": 153,
+     "reader_value_right": 112,
+     "host_right": 95,
+     "system_right": 117
+    },
+    "2": {
+     "rows": 59,
+     "reader_value_right": 22,
+     "host_right": 13,
+     "system_right": 21
+    },
+    "3": {
+     "rows": 11,
+     "reader_value_right": 2,
+     "host_right": 2,
+     "system_right": 2
+    },
+    "4+": {
+     "rows": 10,
+     "reader_value_right": 0,
+     "host_right": 3,
+     "system_right": 3
+    },
+    "no gold program": {
+     "rows": 37,
+     "reader_value_right": 3,
+     "host_right": 25,
+     "system_right": 25
+    }
+   }
+  },
+  "asdiv|2": {
+   "rows": 227,
+   "HR": 121,
+   "host_none": 0,
+   "fires": 32,
+   "broken": 2,
+   "fixed": 25,
+   "gate_no_probe": {
+    "fires": 10,
+    "broken": 0,
+    "fixed": 10
+   },
+   "gate_project": {
+    "fires": 15,
+    "broken": 0,
+    "fixed": 13
+   },
+   "steps": {
+    "0": {
+     "rows": 0,
+     "reader_value_right": 0,
+     "host_right": 0,
+     "system_right": 0
+    },
+    "1": {
+     "rows": 122,
+     "reader_value_right": 89,
+     "host_right": 87,
+     "system_right": 105
+    },
+    "2": {
+     "rows": 52,
+     "reader_value_right": 22,
+     "host_right": 13,
+     "system_right": 20
+    },
+    "3": {
+     "rows": 12,
+     "reader_value_right": 2,
+     "host_right": 2,
+     "system_right": 1
+    },
+    "4+": {
+     "rows": 5,
+     "reader_value_right": 0,
+     "host_right": 0,
+     "system_right": 0
+    },
+    "no gold program": {
+     "rows": 36,
+     "reader_value_right": 1,
+     "host_right": 19,
+     "system_right": 18
+    }
+   }
+  },
+  "asdiv|3": {
+   "rows": 310,
+   "HR": 179,
+   "host_none": 0,
+   "fires": 28,
+   "broken": 2,
+   "fixed": 25,
+   "gate_no_probe": {
+    "fires": 6,
+    "broken": 0,
+    "fixed": 6
+   },
+   "gate_project": {
+    "fires": 13,
+    "broken": 0,
+    "fixed": 13
+   },
+   "steps": {
+    "0": {
+     "rows": 0,
+     "reader_value_right": 0,
+     "host_right": 0,
+     "system_right": 0
+    },
+    "1": {
+     "rows": 171,
+     "reader_value_right": 126,
+     "host_right": 125,
+     "system_right": 143
+    },
+    "2": {
+     "rows": 55,
+     "reader_value_right": 27,
+     "host_right": 15,
+     "system_right": 21
+    },
+    "3": {
+     "rows": 12,
+     "reader_value_right": 2,
+     "host_right": 2,
+     "system_right": 1
+    },
+    "4+": {
+     "rows": 10,
+     "reader_value_right": 1,
+     "host_right": 3,
+     "system_right": 3
+    },
+    "no gold program": {
+     "rows": 62,
+     "reader_value_right": 2,
+     "host_right": 34,
+     "system_right": 34
+    }
+   }
+  },
+  "asdiv|4": {
+   "rows": 294,
+   "HR": 168,
+   "host_none": 0,
+   "fires": 26,
+   "broken": 2,
+   "fixed": 20,
+   "gate_no_probe": {
+    "fires": 9,
+    "broken": 0,
+    "fixed": 9
+   },
+   "gate_project": {
+    "fires": 16,
+    "broken": 1,
+    "fixed": 13
+   },
+   "steps": {
+    "0": {
+     "rows": 0,
+     "reader_value_right": 0,
+     "host_right": 0,
+     "system_right": 0
+    },
+    "1": {
+     "rows": 175,
+     "reader_value_right": 123,
+     "host_right": 128,
+     "system_right": 145
+    },
+    "2": {
+     "rows": 59,
+     "reader_value_right": 24,
+     "host_right": 18,
+     "system_right": 20
+    },
+    "3": {
+     "rows": 9,
+     "reader_value_right": 1,
+     "host_right": 1,
+     "system_right": 1
+    },
+    "4+": {
+     "rows": 12,
+     "reader_value_right": 0,
+     "host_right": 1,
+     "system_right": 1
+    },
+    "no gold program": {
+     "rows": 39,
+     "reader_value_right": 3,
+     "host_right": 20,
+     "system_right": 19
+    }
+   }
+  },
+  "mathqa|1": {
+   "rows": 1572,
+   "HR": 241,
+   "host_none": 1,
+   "fires": 49,
+   "broken": 6,
+   "fixed": 26,
+   "gate_no_probe": {
+    "fires": 20,
+    "broken": 0,
+    "fixed": 19
+   },
+   "gate_project": {
+    "fires": 14,
+    "broken": 0,
+    "fixed": 14
+   },
+   "steps": {
+    "0": {
+     "rows": 0,
+     "reader_value_right": 0,
+     "host_right": 0,
+     "system_right": 0
+    },
+    "1": {
+     "rows": 92,
+     "reader_value_right": 26,
+     "host_right": 35,
+     "system_right": 39
+    },
+    "2": {
+     "rows": 207,
+     "reader_value_right": 32,
+     "host_right": 52,
+     "system_right": 54
+    },
+    "3": {
+     "rows": 305,
+     "reader_value_right": 48,
+     "host_right": 49,
+     "system_right": 60
+    },
+    "4+": {
+     "rows": 703,
+     "reader_value_right": 10,
+     "host_right": 55,
+     "system_right": 56
+    },
+    "no gold program": {
+     "rows": 265,
+     "reader_value_right": 25,
+     "host_right": 50,
+     "system_right": 52
+    }
+   }
+  },
+  "mathqa|2": {
+   "rows": 1711,
+   "HR": 279,
+   "host_none": 0,
+   "fires": 75,
+   "broken": 7,
+   "fixed": 44,
+   "gate_no_probe": {
+    "fires": 33,
+    "broken": 2,
+    "fixed": 25
+   },
+   "gate_project": {
+    "fires": 26,
+    "broken": 1,
+    "fixed": 24
+   },
+   "steps": {
+    "0": {
+     "rows": 0,
+     "reader_value_right": 0,
+     "host_right": 0,
+     "system_right": 0
+    },
+    "1": {
+     "rows": 113,
+     "reader_value_right": 43,
+     "host_right": 33,
+     "system_right": 49
+    },
+    "2": {
+     "rows": 289,
+     "reader_value_right": 94,
+     "host_right": 83,
+     "system_right": 88
+    },
+    "3": {
+     "rows": 346,
+     "reader_value_right": 48,
+     "host_right": 45,
+     "system_right": 56
+    },
+    "4+": {
+     "rows": 683,
+     "reader_value_right": 27,
+     "host_right": 61,
+     "system_right": 67
+    },
+    "no gold program": {
+     "rows": 280,
+     "reader_value_right": 30,
+     "host_right": 57,
+     "system_right": 56
+    }
+   }
+  },
+  "mathqa|3": {
+   "rows": 1485,
+   "HR": 202,
+   "host_none": 0,
+   "fires": 39,
+   "broken": 6,
+   "fixed": 16,
+   "gate_no_probe": {
+    "fires": 13,
+    "broken": 2,
+    "fixed": 9
+   },
+   "gate_project": {
+    "fires": 11,
+    "broken": 1,
+    "fixed": 8
+   },
+   "steps": {
+    "0": {
+     "rows": 0,
+     "reader_value_right": 0,
+     "host_right": 0,
+     "system_right": 0
+    },
+    "1": {
+     "rows": 111,
+     "reader_value_right": 51,
+     "host_right": 53,
+     "system_right": 58
+    },
+    "2": {
+     "rows": 201,
+     "reader_value_right": 22,
+     "host_right": 38,
+     "system_right": 38
+    },
+    "3": {
+     "rows": 293,
+     "reader_value_right": 45,
+     "host_right": 44,
+     "system_right": 50
+    },
+    "4+": {
+     "rows": 592,
+     "reader_value_right": 14,
+     "host_right": 36,
+     "system_right": 35
+    },
+    "no gold program": {
+     "rows": 288,
+     "reader_value_right": 16,
+     "host_right": 31,
+     "system_right": 31
+    }
+   }
+  },
+  "mathqa|4": {
+   "rows": 1628,
+   "HR": 248,
+   "host_none": 0,
+   "fires": 47,
+   "broken": 7,
+   "fixed": 23,
+   "gate_no_probe": {
+    "fires": 10,
+    "broken": 0,
+    "fixed": 10
+   },
+   "gate_project": {
+    "fires": 15,
+    "broken": 1,
+    "fixed": 11
+   },
+   "steps": {
+    "0": {
+     "rows": 0,
+     "reader_value_right": 0,
+     "host_right": 0,
+     "system_right": 0
+    },
+    "1": {
+     "rows": 121,
+     "reader_value_right": 28,
+     "host_right": 48,
+     "system_right": 52
+    },
+    "2": {
+     "rows": 283,
+     "reader_value_right": 40,
+     "host_right": 58,
+     "system_right": 64
+    },
+    "3": {
+     "rows": 269,
+     "reader_value_right": 33,
+     "host_right": 47,
+     "system_right": 51
+    },
+    "4+": {
+     "rows": 687,
+     "reader_value_right": 26,
+     "host_right": 57,
+     "system_right": 59
+    },
+    "no gold program": {
+     "rows": 268,
+     "reader_value_right": 23,
+     "host_right": 38,
+     "system_right": 38
+    }
+   }
+  }
+ },
+ "rows": 7497
+}

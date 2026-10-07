@@ -57,3 +57,19 @@ rows = D.load_rows("data/wild/mathqa/fold1.jsonl", fit=True)   # refuses any fol
 ```
 
 To dump or fit on all of them at once, concatenate the eight files into one rows file (RUN_ON_THOR.md, step 4).
+
+## The reference numbers (`reference/qwen3-1.7b_h100.json`, md5 `71f8855d2aea0ccbef5930c156e0b587`)
+
+The project's own Qwen3-1.7B numbers on exactly these 7,497 rows, so you can tell whether you reproduced the pipeline:
+per (set, fold) cell, the rows, host right, host silent, the ungated DU-AG ledger (fires / broken / fixed), value-right
+by gold steps, and the gated ledger under two gates (the no-probe gate recipe you run, fitted on the reference
+decodes; and the project's frozen gate with its host-outcome probes, as context). Aggregates only: no per-row host
+answers. `python -m defuse.evaluate ... --reference data/wild/reference/qwen3-1.7b_h100.json` prints them beside yours.
+What differs from your run, and therefore what should not be expected to match exactly:
+
+* **Hardware.** The reference dumps were made on an H100. The same weights in bf16 on the Thor take a slightly different
+  arithmetic path, so a few percent of rows flip (the host's answer, or a near-tie between programs).
+* **Training data.** The reference readers were fitted (leave one fold out) on the project's full pool, about 98,600
+  training programs per layer from five sources; yours see these 7,497 rows. Expect a lower reader value-right.
+* **Host labels.** The reference host answer is the first number of the host's natural-form greedy decode (no added
+  space, up to 64 tokens); `run.py` reads the dump's 12-token greedy text after the dumper's added space.
