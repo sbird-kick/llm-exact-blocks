@@ -77,6 +77,12 @@ Two more source facts:
 | `run.py` | the pipeline as commands; `host_fields` (host answer from the dump's greedy text) is simpler than the project's wild scorer |
 | `bank_rows.py` | adapter from a bank row (`data/banks/`) to the def-use row fields; folds from a named bank fold column |
 | `evaluate.py` | value-right / host-right / system-right by gold steps, and the R1 ledger table |
+| `evaluate.py` `reference_table`, `--reference` | (2026-10-07) your headline numbers beside a reference file's, on the (set, fold) cells your records cover |
+| `live.py` | (2026-10-07) one prompt through the host and the fitted readers for the demo: the dumper's pass 0 and per-row extraction for a batch of one, `live_record` (= `fit_b.decode_record` minus the gold fields), `check` (live features vs a dump) |
+| `wild.py` | (2026-10-07) one rows file from `data/wild/`, md5-checked, folds 1-4 only |
+| `run.py` `SMOKE_GRID`, `fit-b --smoke` | (2026-10-07) a one-setting grid for plumbing tests on a few hundred rows |
+| `gate.py` `fit_gate` | (2026-10-07) refuses, with a message, when a cross-fit part has too few fixed / broken fires (a smoke subset) |
+| `demo/serve.py`, `demo/index.html` | (2026-10-07) the live demo with your fits; the page keeps the project demo page's style sheet and layout, with only the panels this package fills |
 
 ## Reader A's decoder (ported 2026-10-07)
 

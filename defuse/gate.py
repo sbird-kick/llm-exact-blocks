@@ -286,6 +286,11 @@ def fit_gate(rows, tau, side="b", probes=None):
     F = np.array([_feats(x, side, probes) for x in fires], float); oc = [outcome(x) for x in fires]
     lab = np.array([1.0 if o == "fixed" else 0.0 for o in oc]); use = np.array([o in ("fixed", "broken") for o in oc])
     fo = np.array([x["fold"] - 1 for x in fires])
+    thin = [k + 1 for k in range(4) if int((use & (fo != k)).sum()) < 2 or len(set(lab[use & (fo != k)].tolist())) < 2]
+    if thin:
+        raise SystemExit("REFUSE (fit_gate): too few fixed / broken fires to cross-fit (%d labelled fires of %d fires; the "
+                         "training part for held-out fold(s) %s lacks one of the two outcomes). A gate needs the full "
+                         "folds-1-4 run, not a smoke subset." % (int(use.sum()), len(fires), thin))
     oof = cross_scores(F, lab, use, fo, 4)
     cut, b, f = calibrate(oof.tolist(), oc, math.floor(tau * HR))
     model = fit_logit(F[use], lab[use])

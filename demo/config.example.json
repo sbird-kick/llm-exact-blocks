@@ -1,0 +1,13 @@
+{
+ "model": "Qwen/Qwen3-1.7B",
+ "label": "Qwen3-1.7B (Thor)",
+ "layers": [16, 19, 22],
+ "relabel": {"16": 20, "19": 24, "22": 28},
+ "fit_dir": "runs/q17/fitB",
+ "gate": "runs/q17/gate.json",
+ "port": 8765,
+ "bind": "127.0.0.1",
+ "device": "cuda",
+ "greedy": 12,
+ "locator": "single"
+}

@@ -66,12 +66,19 @@ def _load(a, scoring=False):
     return rows, st, asms
 
 
+# NEW: a one-setting grid for smoke tests of the plumbing on a few hundred rows (never for numbers you report)
+SMOKE_GRID = dict(FB.F2_GRID, l2=(1e-3,), lr=(1e-3,), epochs=(3,))
+
+
 def cmd_fit_b(a):
     rows, st, asms = _load(a)
     os.makedirs(a.out, exist_ok=True)
     folds = [r["fold"] for r in rows]
+    grid = SMOKE_GRID if a.smoke else FB.F2_GRID
+    if a.smoke:
+        print("SMOKE grid %s: plumbing only, not a fit to report" % json.dumps({k: SMOKE_GRID[k] for k in ("l2", "lr", "epochs")}))
     for L in A.LAYERS:
-        res, _ = FB.run_fitb(FB.make_rows_by_fold(asms[L], folds), a.out, L)
+        res, _ = FB.run_fitb(FB.make_rows_by_fold(asms[L], folds), a.out, L, grid=grid)
         print(json.dumps(res))
 
 
@@ -138,6 +145,8 @@ def main():
             p.add_argument("--fit", required=True, help="the fit-b output folder")
         if name == "decode-b":
             p.add_argument("--heldout", action="store_true")
+        if name == "fit-b":
+            p.add_argument("--smoke", action="store_true", help="one setting, 3 epochs: a plumbing test, not a fit to report")
     p = sp.add_parser("fit-gate")
     p.add_argument("--records", required=True); p.add_argument("--tau", type=float, required=True)
     p.add_argument("--probes", default=None); p.add_argument("--out", required=True)
