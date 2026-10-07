@@ -11,6 +11,11 @@ GPU step.
 - `python -m pytest -q tests/test_reader_a_decode.py` (reader A's decoder against the pinned file's recorded outputs).
   The runnable end-to-end path (`run.py`) is reader B + gate.
 
+## Stage 0b: reproduce the project's 1.7B pipeline on the Thor (one GPU dump, one CPU job, the demo)
+- Follow RUN_ON_THOR.md end to end on the shipped wild rows (`data/wild/`, folds 1-4). The scoring step prints the
+  project's own Qwen3-1.7B numbers on the same rows beside yours; step 7 there says what should and should not match.
+- This is the baseline every Llama line below is compared with: same rows, same folds, same recipe, your hardware.
+
 ## Stage 1: tokenizer and layers (CPU, then one small GPU job)
 - Llama 3 writes numbers in chunks of up to three digits, so the project's locator (one decimal digit per token)
   finds the wrong runs. Use `--locator grouped`, and check on 200 rows that the dumper's `run_count_mismatch` skip

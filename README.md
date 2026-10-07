@@ -34,6 +34,10 @@ in an afternoon and reproduced in an hour on one GPU.
 
 ## Read/route/write is superseded: the def-use reader (`defuse/`)
 
+**Running it yourself at Qwen3-1.7B on the Thor** (dump, fit, score beside the project's numbers on the same rows, and
+the live demo with your own fits): [RUN_ON_THOR.md](RUN_ON_THOR.md). The real word problems it uses (ASDiv and MathQA
+train, folds 1-4) are in `data/wild/` ([DATA.md](DATA.md)).
+
 ### What replaced it, and why
 
 The block above reads two operands, picks one of three operations and writes the answer back into the stream. That
@@ -157,10 +161,15 @@ defuse/evaluate.py    value-right / host-right / system-right by gold steps, and
 defuse/data.py, guard.py   the fold discipline: fold 5 and fold 6 rows are refused by every fit
 defuse/bank_rows.py   a bank row (data/banks/) -> a def-use row; you choose which bank fold is held out
 defuse/run.py         the pipeline as commands (fit-b, lofo-b, fit-gate, decode-b)
+defuse/wild.py        one rows file from data/wild/ (md5-checked, folds 1-4)
+defuse/live.py        one prompt through the host and your readers (the demo's path) + its parity check against a dump
+demo/serve.py, demo/index.html   the live demo with your fits (RUN_ON_THOR.md, step 9)
+data/wild/            ASDiv + MathQA-train rows, folds 1-4, and the project's 1.7B reference numbers on them
 defuse/PROVENANCE.md  every source file md5, line range and patch: this is a port, not a rewrite
 tests/test_defuse_cpu.py   17 CPU tests on synthetic fixtures (python -m pytest -q tests/test_defuse_cpu.py)
 tests/test_reader_a_decode.py   reader A's decoder against outputs recorded from the pinned project file
 sbatch/defuse_dump.sbatch, sbatch/defuse_cpu.sbatch   the cluster job files
+sbatch/thor_*.sbatch, sbatch/thor_common.sh   the Thor job files (smoke, dump, fit, demo; RUN_ON_THOR.md)
 ```
 
 **Reader A's decoder** was ported on 2026-10-07 (the pinned file's lines 732-1063, unchanged; checked against
