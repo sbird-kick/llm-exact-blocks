@@ -22,9 +22,9 @@ analysis files (br_common.py, task4_rules2.py, task3_rules.py, readerB bgate_rul
 ranges in PROVENANCE.md). `fit_gate` re-assembles, in one function, the exact steps of bgate_rules.fit (cross-fit,
 calibrate, final fit) so that it runs on a list of rows instead of the project's files.
 
-DEPENDENCY: the A-side features `_spl` / `_minspl` come from reader A's decoder beam score (its `margins`), and that
-decoder is not ported yet (reader_a.decode). The B-side features (`prep_b`) come from reader B's own beam log-prob,
-so the B gate runs end to end today.
+A-side features `_spl` / `_minspl` come from reader A's decoder beam score per leaf (`margins`; reader_a.decode returns
+the score and the leaf count). The B-side features (`prep_b`) come from reader B's own beam log-prob; the B gate is
+the one wired into run.py.
 """
 import collections, hashlib, json, math
 import numpy as np
@@ -270,7 +270,7 @@ def fit_gate(rows, tau, side="b", probes=None):
     rows   dicts with fold (1-4), fire (the ungated DU-AG decision), right (the executed program equals the gold),
            host1_right (the host's own answer equals the gold), and the decoder fields: for side "b" lp / nleaves /
            steps24 (reader B's beam log-prob, leaf count and steps per layer label "20" / "24" / "28") and n_numerals;
-           for side "a" margins / reader_steps / n_numerals (reader A's decoder; not ported yet).
+           for side "a" margins / reader_steps / n_numerals (from reader A's decoder).
     tau    the R1 budget fraction used to set the cut on folds 1-4 (the project: 0.01 at 8B, 0.0075 otherwise).
     probes optional {row_id: {"slot": s, "space": s}} host-outcome probe scores (fit_arm); None drops those three
            features (bgate_rules' "no-probe" variant).

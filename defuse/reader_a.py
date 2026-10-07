@@ -6,9 +6,9 @@ PORTED, NOT REWRITTEN. Every function below is copied line for line from the pro
 The patches only (a) swap the project's cluster path guard for `defuse/guard.py` (same function names, fold-5 /
 fold-6 refusal kept), and (b) load the gold-equation parser from `defuse/inventory.py` instead of a cluster path.
 
-NOT PORTED YET: the bottom-up beam decoder `decode` (and the program search / answer-only arm that sit next to it).
-`decode` below is a stub that raises. See PROVENANCE.md, "Pending". Reader B (`reader_b.py`) has its own complete
-decoder and is the runnable end-to-end path in this package for now.
+The decoder block (`decode`, `_depth_score`, `a_identifiable`, `oracle_P`, `search_programs`, `answer_targets`,
+`host_program_line`, `head_accuracy_by_position`) is the pinned file's lines 732-1063, copied unchanged (PROVENANCE.md);
+tests/test_reader_a_decode.py checks it against outputs recorded from the pinned file on synthetic fixtures.
 
 Program trees:  ('n', k, value) pointer to written numeral k | ('c', ci, value) constant VOCAB[ci] |
                 ('u', 'pct'|'neg', child) | ('b', op, left, right) with op in add / sub / mul / div.
@@ -687,6 +687,339 @@ def predict_row(heads, A, i):
 BEAM = 64
 
 
+def decode(P, beam=BEAM, used_thr=0.5):
+    """bottom-up beam search; returns (tree or None, score, info). Leaves: numerals with P(USED) > used_thr (top 6
+    by P(USED)) + the row head's constant multiset; total leaves <= 7 (constants dropped first, vocab order)."""
+    run = P["run"]
+    cand = [(math.exp(run[k]["used"][1]), k) for k in run if "used" in run[k] and k in P["run_value"]]
+    num_leaves = [k for p, k in sorted(cand, key=lambda x: (-x[0], x[1])) if p > used_thr][:MAX_USED]
+    consts = [c for c in range(len(VOCAB)) for _ in range(P["consts"][c])]
+    consts = consts[:max(0, MAX_STEPS + 1 - len(num_leaves))]
+    if not num_leaves and not consts:
+        return None, -math.inf, dict(why="no_leaves", n_leaves=0)
+    items, base = [], 0.0
+    for k in num_leaves:
+        ni, v = P["run_value"][k]
+        lf = ("n", ni, v)
+        pr = run[k].get("parent")
+        if pr is not None and int(np.argmax(pr)) == PARENT_CLASSES.index("pct"):
+            items.append((("u", "pct", lf), frozenset([k]), frozenset([k]))); base += pr[PARENT_CLASSES.index("pct")]
+        else:
+            items.append((lf, frozenset([k]), frozenset([k])))
+        base += run[k]["used"][1]
+    for k in run:
+        if k not in num_leaves and "used" in run[k]:
+            base += run[k]["used"][0]
+    for c in consts:
+        items.append((("c", c, VOCAB[c]), frozenset(), frozenset()))
+    for (a, b), lp in P["sib"].items():
+        if a in num_leaves and b in num_leaves:
+            base += lp[0]
+    nL = len(items)
+    base += P["steps"][min(nL - 1, STEP_CLASSES - 1)]
+
+    def run_of(t):
+        return next(iter(t[1])) if (t[0][0] in ("n",) or (t[0][0] == "u" and t[0][2][0] == "n")) and len(t[1]) == 1 else None
+
+    def local(left, right, op):
+        s = 0.0
+        for me, other, side in ((left, right, 0), (right, left, 1)):
+            k = run_of(me)
+            if k is None:
+                continue
+            is_pct = me[0][0] == "u"
+            if not is_pct and run[k].get("parent") is not None:
+                s += run[k]["parent"][PARENT_CLASSES.index(op)]
+            if run[k].get("cpartner") is not None:
+                oc = _leaf_core(other[0])
+                s += run[k]["cpartner"][(1 + oc[1]) if (oc is not None and oc[0] == "c") else 0]
+        if op in ("sub", "div"):                                           # SIDE: every run exposed on each side
+            for me, side in ((left, 0), (right, 1)):
+                for k in me[2]:
+                    if run[k].get("side") is not None:
+                        s += run[k]["side"][side]
+        a, b = run_of(left), run_of(right)
+        if a is not None and b is not None:
+            key = (min(a, b), max(a, b))
+            if key in P["sib"]:
+                s += P["sib"][key][1] - P["sib"][key][0]
+        return s
+
+    if nL == 1:
+        t = items[0][0]
+        return t, base + P["root"][ROOT_CLASSES.index("pct" if t[0] == "u" else "leaf")] + _depth_score(t, run, P), \
+            dict(n_leaves=1, states=1)
+    states = [(0.0, tuple(items))]
+    n_states = 0
+    for _ in range(nL - 1):
+        nxt = {}
+        for sc, its in states:
+            for i, j in itertools.combinations(range(len(its)), 2):
+                rest = tuple(x for m, x in enumerate(its) if m not in (i, j))
+                for op in BOPS:
+                    orders = [(its[i], its[j])] if op in ("add", "mul") else [(its[i], its[j]), (its[j], its[i])]
+                    for L_, R_ in orders:
+                        if L_[0][0] == "c" and R_[0][0] == "c":
+                            continue                                       # no constant-only step
+                        node = (("b", op, L_[0], R_[0]), L_[1] | R_[1],
+                                frozenset() if op in ("sub", "div") else (L_[2] | R_[2]))
+                        new = tuple(sorted(rest + (node,), key=lambda x: canon(x[0])))
+                        key = tuple(canon(x[0]) for x in new)
+                        s2 = sc + local(L_, R_, op)
+                        n_states += 1
+                        if key not in nxt or nxt[key][0] < s2:
+                            nxt[key] = (s2, new)
+        states = sorted(nxt.values(), key=lambda x: -x[0])[:beam]
+    best, best_s = None, -math.inf
+    for sc, its in states:
+        t = its[0][0]
+        if execute(t) is None:
+            continue
+        s = base + sc + P["root"][ROOT_CLASSES.index(t[1])] + _depth_score(t, run, P)
+        if s > best_s:
+            best, best_s = t, s
+    return best, best_s, dict(n_leaves=nL, states=n_states)
+
+
+def _depth_score(t, run, P):
+    s = 0.0
+
+    def w(n, d):
+        nonlocal s
+        if n[0] == "b":
+            w(n[2], d + 1); w(n[3], d + 1); return
+        if n[0] == "u":
+            w(n[2], d); return
+        if n[0] == "n":
+            for k, (ni, v) in P["run_value"].items():
+                if ni == n[1] and k in run and run[k].get("depth") is not None:
+                    s += run[k]["depth"][min(d, DEPTH_CLASSES - 1)]; break
+    w(t, 0)
+    return s
+
+
+def a_identifiable(t):
+    """True iff reader A's head set can pin this program: every non-root step has a numeral leaf as a direct child
+    (its PARENT-OP names the step's operator) and every - or / step has a numeral exposed on one side (its SIDE orders
+    the step). A step joining two subtrees, or a subtree and a constant, has no per-numeral signal for its operator:
+    the prereg's own reason for reader B (s4.2)."""
+    def core_num(n):
+        c = _leaf_core(n)
+        return c is not None and c[0] == "n"
+
+    def exposed(n):
+        if n[0] == "u":
+            return exposed(n[2])
+        if n[0] == "n":
+            return True
+        if n[0] == "c":
+            return False
+        return n[1] in ("add", "mul") and (exposed(n[2]) or exposed(n[3]))
+
+    def ok(n, root):
+        if n[0] == "u":
+            return ok(n[2], root)
+        if n[0] != "b":
+            return True
+        if not root and not (core_num(n[2]) or core_num(n[3])):
+            return False
+        if n[1] in ("sub", "div") and not (exposed(n[2]) or exposed(n[3])):
+            return False
+        return ok(n[2], False) and ok(n[3], False)
+    return ok(t, True)
+
+
+def oracle_P(tg, row, R, sharp=30.0):
+    """head outputs that put all mass on the gold targets (decoder selftest)"""
+    T = tg["per_run"]
+    P = dict(leafable=tg["leafable"], run={}, sib={}, run_value={})
+    for k in tg["leafable"]:
+        d = {}
+        for h, C in (("used", 2), ("parent", len(PARENT_CLASSES)), ("side", 2), ("depth", DEPTH_CLASSES),
+                     ("cpartner", 1 + len(VOCAB))):
+            v = np.full(C, -sharp)
+            if T[h][k] >= 0:
+                v[T[h][k]] = 0.0
+            else:
+                v[:] = -math.log(C)
+            d[h] = v
+        P["run"][k] = d
+    for key, s in tg["pairs"].items():
+        v = np.full(2, -sharp); v[s] = 0.0; P["sib"][key] = v
+    P["steps"] = np.full(STEP_CLASSES, -sharp); P["steps"][tg["steps"]] = 0.0
+    P["root"] = np.full(len(ROOT_CLASSES), -sharp); P["root"][tg["root"]] = 0.0
+    P["consts"] = [int(x) for x in tg["consts"]]
+    al = align_numerals(row); nums = numeral_values(row)
+    for ni, r in enumerate(al):
+        if r is not None and r < R and r not in P["run_value"] and nums[ni] is not None:
+            P["run_value"][r] = (ni, nums[ni])
+    return P
+
+
+# ================================================================== A-answer search (D6) and the host program
+def search_programs(row, target, R, max_steps=3, max_consts=2, tie_cap=64, eps=1e-9):
+    """the shortest programs (<= max_steps) over the row's pointer-able numerals and the vocabulary that execute EXACTLY
+    to target. Each numeral used at most once, at most max_consts constant leaves, no constant-only step. Float search,
+    exact verification. Returns (steps or None, [trees], n_candidates_checked)."""
+    target = Fraction(target)
+    al = align_numerals(row); nums = numeral_values(row)
+    seen, L = set(), []
+    for ni, (r, v) in enumerate(zip(al, nums)):
+        if r is not None and r < R and v is not None and v not in seen:
+            seen.add(v); L.append((("n", ni, v), frozenset([ni]), 0))
+    for ci, v in enumerate(VOCAB):
+        L.append((("c", ci, v), frozenset(), 1))
+    tf = float(target)
+    hits = {}
+
+    def add_hit(t):
+        if len(hits) < tie_cap and execute(t) == target:
+            hits.setdefault(canon(t), t)
+    for t, _, _ in L:
+        if t[0] == "n" and t[2] == target:
+            add_hit(t)
+    if hits:
+        return 0, list(hits.values()), len(L)
+
+    def comb(a, b):
+        out = []
+        if a[2] + b[2] > max_consts or (a[0][0] == "c" and b[0][0] == "c") or (a[1] & b[1]):
+            return out
+        for op in BOPS:
+            pairs = [(a, b)] if op in ("add", "mul") else [(a, b), (b, a)]
+            for x, y in pairs:
+                out.append((("b", op, x[0], y[0]), x[1] | y[1], x[2] + y[2]))
+        return out
+
+    def fval(t):
+        try:
+            v = execute(t)
+        except (ZeroDivisionError, OverflowError):
+            return None
+        return None if v is None else float(v)
+    E1 = []
+    for a, b in itertools.combinations(L, 2):
+        for e in comb(a, b):
+            v = fval(e[0])
+            if v is not None:
+                E1.append((e, v))
+    checked = len(E1)
+    for e, v in E1:
+        if abs(v - tf) <= eps * max(1.0, abs(tf)):
+            add_hit(e[0])
+    if hits or max_steps < 2:
+        return (1, list(hits.values()), checked) if hits else (None, [], checked)
+    E2 = []
+    for e, _ in E1:
+        for lf in L:
+            for c in comb(e, lf):
+                v = fval(c[0])
+                if v is not None:
+                    E2.append((c, v))
+    checked += len(E2)
+    for e, v in E2:
+        if abs(v - tf) <= eps * max(1.0, abs(tf)):
+            add_hit(e[0])
+    if hits or max_steps < 3:
+        return (2, list(hits.values()), checked) if hits else (None, [], checked)
+    # 3 steps by inverse lookup: target = E2 (op) leaf, leaf (op) E2, or E1 (op) E1'
+    def key(v):
+        return round(v, 6) if abs(v) < 1e12 else None
+    idx2 = collections.defaultdict(list)
+    for e, v in E2:
+        k = key(v)
+        if k is not None:
+            idx2[k].append(e)
+    idx1 = collections.defaultdict(list)
+    for e, v in E1:
+        k = key(v)
+        if k is not None:
+            idx1[k].append(e)
+
+    def need(op, known, known_left):
+        """the other operand's value so that (known op x) or (x op known) = target"""
+        try:
+            if op == "add": return tf - known
+            if op == "mul": return tf / known if known != 0 else None
+            if op == "sub": return known - tf if known_left else tf + known
+            if op == "div": return known / tf if known_left else tf * known
+        except ZeroDivisionError:
+            return None
+    for big, index in ((L, idx2), ([e for e, _ in E1], idx1)):
+        for x in big:
+            xv = fval(x[0])
+            if xv is None:
+                continue
+            for op in BOPS:
+                for known_left in (True, False):
+                    if op in ("add", "mul") and not known_left:
+                        continue
+                    nv = need(op, xv, known_left)
+                    if nv is None or key(nv) is None:
+                        continue
+                    for y in index.get(key(nv), []):
+                        if len(hits) >= tie_cap:
+                            break
+                        if (x[1] & y[1]) or x[2] + y[2] > max_consts:
+                            continue
+                        t = ("b", op, x[0], y[0]) if known_left else ("b", op, y[0], x[0])
+                        checked += 1
+                        if n_steps(t) == 3:
+                            add_hit(t)
+    return (3, list(hits.values()), checked) if hits else (None, [], checked)
+
+
+def answer_targets(row, R, **kw):
+    """A-answer (D6): targets from the searched programs, ties split (weight 1/n per tied program)"""
+    steps, progs, _ = search_programs(row, Fraction(row["gold_frac"]), R, **kw)
+    if steps is None:
+        return None
+    w = 1.0 / len(progs)
+    return [(targets_from_tree(t, row, R), w) for t in progs]
+
+
+def host_program_line(items):
+    """ADDENDUM_DEFUSE_A1 item 2. items: (reader_tree or None, host_programs list, gold_tree or None) per host-wrong
+    row. Where the host program is UNIQUE: the reader's program matches host / gold / neither. n/total."""
+    c = collections.Counter()
+    for rt, hp, gt in items:
+        c["host_wrong_rows"] += 1
+        if not hp:
+            c["no_host_program"] += 1; continue
+        if len(hp) > 1:
+            c["host_program_ambiguous"] += 1; continue
+        c["unique"] += 1
+        if rt is None:
+            c["reader_no_program"] += 1; continue
+        r, h = canon(rt), canon(hp[0])
+        g = canon(gt) if gt is not None else None
+        c["reader_is_host"] += r == h
+        c["reader_is_gold"] += (g is not None and r == g)
+        c["reader_is_neither"] += (r != h and (g is None or r != g))
+    u = c["unique"]
+    return dict(host_wrong_rows=c["host_wrong_rows"], host_program_unique=nt(u, c["host_wrong_rows"]),
+                host_program_ambiguous=nt(c["host_program_ambiguous"], c["host_wrong_rows"]),
+                no_host_program=nt(c["no_host_program"], c["host_wrong_rows"]),
+                reader_no_program=nt(c["reader_no_program"], u), reader_matches_host=nt(c["reader_is_host"], u),
+                reader_matches_gold=nt(c["reader_is_gold"], u), reader_matches_neither=nt(c["reader_is_neither"], u))
+
+
+# ================================================================== per-head accuracy, by text position
+def head_accuracy_by_position(A, heads, idx):
+    """held-out per-head accuracy, n/total, split by the numeral's text position (first / middle / last / only)"""
+    S = head_samples(A, idx)
+    out = {}
+    for h, (keys, y, _) in S.items():
+        if h not in heads or h == "sib" or h in ("steps", "root") or h.startswith("const"):
+            continue
+        pred = np.argmax(_hlogp(heads[h], _X_for(A, h, keys)), 1)
+        c = collections.defaultdict(lambda: [0, 0])
+        for (i, k), yy, p in zip(keys, y, pred):
+            pc = position_class(k, A["tg"][i][2]["n_runs"])
+            c[pc][0] += int(p == yy); c[pc][1] += 1; c["all"][0] += int(p == yy); c["all"][1] += 1
+        out[h] = {k: nt(*v) for k, v in sorted(c.items())}
+    return out
+
 
 def frac_or_none(x):
     if x is None or isinstance(x, bool):
@@ -724,13 +1057,3 @@ def du_ag(progs, host1, host1_none, prompt_vals, layers=LAYERS):
     if hc in ("echo", "other"):
         return dict(fire=True, reason="layers agree; host %s" % hc, answer=str(v), host_class=hc, v=v, program=cs[0])
     return dict(fire=False, reason="host %s" % hc, answer=host1, host_class=hc, v=v, program=cs[0])
-
-
-
-
-def decode(P, beam=BEAM, used_thr=0.5):
-    """NOT PORTED YET (see the module docstring and PROVENANCE.md, "Pending"). Reader A's frozen bottom-up beam
-    decoder (beam 64, <= 6 steps, + - x / and percent, leaves = numerals with P(used) > 0.5 plus the row head's
-    constants) has not been copied into this package. Do not replace it with a hand-written search: the project's
-    numbers were all produced by the pinned one."""
-    raise NotImplementedError("reader A's pinned decoder is not ported yet: see defuse/PROVENANCE.md (Pending)")

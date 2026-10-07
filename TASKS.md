@@ -8,7 +8,8 @@ GPU step.
 ## Stage 0: the package on your machine (CPU, an hour)
 - `python -m pytest -q tests/test_defuse_cpu.py` (17 tests, numpy + pytest). Read `defuse/PROVENANCE.md` and
   MIGRATION.md.
-- Read the known gap: reader A's beam decoder is not ported yet, so the runnable end-to-end path is reader B + gate.
+- `python -m pytest -q tests/test_reader_a_decode.py` (reader A's decoder against the pinned file's recorded outputs).
+  The runnable end-to-end path (`run.py`) is reader B + gate.
 
 ## Stage 1: tokenizer and layers (CPU, then one small GPU job)
 - Llama 3 writes numbers in chunks of up to three digits, so the project's locator (one decimal digit per token)
@@ -26,8 +27,8 @@ GPU step.
   they are added (DATA.md).
 - Per host: dump (with `--greedy 12` for the host's own answer), `fit-b` on folds 1-4, `lofo-b`, `fit-gate` with the
   project's tau (0.75% at 0.6B / 1.7B / 32B, 1.00% at 8B), then fold 5 ONCE.
-- Reader A's heads can be fitted already (`reader_a.fit_reader`) and their per-head accuracy compared with the
-  project's; programs from reader A wait for the decoder port.
+- Reader A's heads can be fitted (`reader_a.fit_reader`), their per-head accuracy measured
+  (`reader_a.head_accuracy_by_position`) and programs decoded (`reader_a.decode(reader_a.predict_row(...))`).
 
 ## Stage 3: compare with Qwen at matched size (CPU)
 - On the SAME rows and folds, put the Llama line beside the Qwen line for each table: value-right by gold steps

@@ -149,7 +149,7 @@ input is the figure under re-check above. None of these is in `defuse/`.
 ```
 defuse/dump.py        the one GPU step: hidden states at the cue + the host's own greedy answer (any HF causal LM)
 defuse/inventory.py   gold equations (ASDiv, MAWPS, MathQA, Ape210K / Math23K, GSM8K-style, Dolphin) -> exact programs
-defuse/reader_a.py    reader A: targets, features, ridge heads, DU-AG firing (its beam decoder: pending, see below)
+defuse/reader_a.py    reader A: targets, features, ridge heads, the bottom-up beam decoder, DU-AG firing
 defuse/reader_b.py    reader B: the tree decoder (numpy, manual gradients)
 defuse/fit_b.py       fit reader B on folds 1-4 (grid on 1-3, select on 4, refit on 1-4) and decode rows into records
 defuse/gate.py        the R1 ledger, the M1-style gate (cross-fitted on folds 1-4), the host-outcome state probe
@@ -159,14 +159,15 @@ defuse/bank_rows.py   a bank row (data/banks/) -> a def-use row; you choose whic
 defuse/run.py         the pipeline as commands (fit-b, lofo-b, fit-gate, decode-b)
 defuse/PROVENANCE.md  every source file md5, line range and patch: this is a port, not a rewrite
 tests/test_defuse_cpu.py   17 CPU tests on synthetic fixtures (python -m pytest -q tests/test_defuse_cpu.py)
+tests/test_reader_a_decode.py   reader A's decoder against outputs recorded from the pinned project file
 sbatch/defuse_dump.sbatch, sbatch/defuse_cpu.sbatch   the cluster job files
 ```
 
-**One known gap.** Reader A's beam decoder is not ported yet (`reader_a.decode` raises and says so), so reader A can
-be fitted and its heads measured, but it cannot yet produce programs, and the M1 gate's decoder-confidence features
-cannot be computed for it. Reader B + its gate run end to end. Nothing in this package was fitted on a real row:
-there are no weights to download. Every head, decoder and gate is meant to be refitted on your own host's dumps,
-which is the point of the Llama port ([TASKS.md](TASKS.md)).
+**Reader A's decoder** was ported on 2026-10-07 (the pinned file's lines 732-1063, unchanged; checked against
+outputs recorded from the pinned file in `tests/test_reader_a_decode.py`). `run.py` wires the reader B path (reader B +
+its gate), which is the configuration the project deployed at 1.7B and 0.6B; reader A's heads and decoder are
+callable from Python. Nothing in this package was fitted on a real row: there are no weights to download. Every head,
+decoder and gate is meant to be refitted on your own host's dumps, which is the point of the Llama port ([TASKS.md](TASKS.md)).
 
 
 ## The architecture (legacy: `exact_block/`)

@@ -148,9 +148,15 @@ def test_du_ag_never_fires_on_host_silent_rows():
     assert not A.du_ag({20: p, 24: q, 28: p}, "40", False, vals)["fire"]  # layers disagree
 
 
-def test_reader_a_decoder_is_an_honest_stub():
-    with pytest.raises(NotImplementedError):
-        A.decode({})
+def test_reader_a_decoder_recovers_an_oracle_program():
+    """the ported decoder (tests/test_reader_a_decode.py checks it against the pinned file in detail)"""
+    r = dict(row_id="syn:x", numerals_written=["40", "120", "32"], prov=dict(n_runs=3, run_values=["40", "120", "32"]),
+             annotation=dict(kind="mathqa linear_formula", equation="subtract(n1,n0)|divide(#0,n2)|"), gold_frac="5/2")
+    t, st = A.gold_tree(r)
+    tg = A.targets_from_tree(t, r, 5)
+    bt, score, info = A.decode(A.oracle_P(tg, r, 5))
+    assert st == "exec_exact" and A.canon(bt) == A.canon(t) == "((120 - 40) / 32)" and A.execute(bt) == Fraction(5, 2)
+    assert info["n_leaves"] == 3 and score > -1.0
 
 
 # ------------------------------------------------------------------ reader A heads

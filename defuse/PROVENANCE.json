@@ -22,6 +22,13 @@
   "module": "reader_a.py",
   "source": "defuse_reader.py",
   "source_md5": "d2eb8b33672d3cb03c7f16c5dfede819",
+  "lines": "732-1063",
+  "segment_md5": "1ac498fbe5a498f81ad2d5c924925524"
+ },
+ {
+  "module": "reader_a.py",
+  "source": "defuse_reader.py",
+  "source_md5": "d2eb8b33672d3cb03c7f16c5dfede819",
   "lines": "1149-1186",
   "segment_md5": "eb2bf9e67b4434782a429dd2e43e8190"
  },

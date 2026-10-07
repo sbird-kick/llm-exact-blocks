@@ -12,6 +12,7 @@ and cluster-only bookkeeping are removed, and the project's cluster-bound selfte
 | module | source file | source md5 | lines | segment md5 |
 |---|---|---|---|---|
 | `reader_a.py` | `defuse_reader.py` | `d2eb8b33672d3cb03c7f16c5dfede819` | 45-731 | `3792c20c36a00e5f366b918a00c82ca0` |
+| `reader_a.py` | `defuse_reader.py` | `d2eb8b33672d3cb03c7f16c5dfede819` | 732-1063 | `1ac498fbe5a498f81ad2d5c924925524` |
 | `reader_a.py` | `defuse_reader.py` | `d2eb8b33672d3cb03c7f16c5dfede819` | 1149-1186 | `eb2bf9e67b4434782a429dd2e43e8190` |
 | `reader_b.py` | `defuse_reader_b.py` | `ececa84a8f107191f573d50c94cc398f` | 27-338 | `b967d7cfb68478329d80e1aa0d1b5ab8` |
 | `reader_b.py` | `defuse_reader_b.py` | `ececa84a8f107191f573d50c94cc398f` | 340-358 | `d7714cf14be61c86df8562c03af072fb` |
@@ -77,13 +78,22 @@ Two more source facts:
 | `bank_rows.py` | adapter from a bank row (`data/banks/`) to the def-use row fields; folds from a named bank fold column |
 | `evaluate.py` | value-right / host-right / system-right by gold steps, and the R1 ledger table |
 
+## Reader A's decoder (ported 2026-10-07)
+
+Lines 732-1063 of the pinned `defuse_reader.py` (`decode`, `_depth_score`, `a_identifiable`, `oracle_P`,
+`search_programs`, `answer_targets`, `host_program_line`, `head_accuracy_by_position`) are copied unchanged, between
+`BEAM = 64` and the DU-AG block, in the pinned file's order. They call only functions already ported from lines 45-731.
+`tests/test_reader_a_decode.py` compares the port with outputs RECORDED from the pinned file itself
+(`tests/fixtures/reader_a_decode.json`, `reader_a_states.npz`; synthetic rows from the pinned `_syn_rows` /
+`_syn_states`, seed 20261007): oracle heads (beam 64 and 256, 239/239 A-identifiable programs recovered), the same heads
+with noise (beam 64 / 8, P(used) threshold 0.3), flat heads (negative control), the answer-only search, the
+host-program line, and reader A fitted end to end on planted states. When the fixture was written, the pinned file and
+the port agreed on all 1,350 comparisons.
+
 ## Pending (not ported)
 
-* **Reader A's decoder** (`decode` in the pinned `defuse_reader.py`, with `_depth_score`, `a_identifiable`,
-  `oracle_P`, `search_programs`, `answer_targets` next to it) is NOT in this package yet: `reader_a.decode` is a
-  stub that raises. Until it lands, reader A can be fitted (all heads) and its per-head accuracy measured, but it
-  cannot produce programs, and the M1 gate's A-side features (`_spl`, `_minspl`, from the decoder's beam score)
-  cannot be computed. Reader B (`reader_b.py`, `fit_b.py`) has its own complete decoder and is the runnable path.
 * The project's streaming fit driver for reader A (sufficient statistics over a large cache, per-source weights)
-  is not ported; `reader_a.fit_reader` (the in-memory fit in the same pinned file) is.
+  is not ported; `reader_a.fit_reader` (the in-memory fit in the same pinned file) is. run.py wires reader B + its
+  gate only; reader A's heads and decoder are callable from Python (see tests/test_reader_a_decode.py for the calls).
+* The BW guardrail (lines 1066-1147) needs two cluster-only pinned modules and is not ported.
 * The A-text twin and the answer-only arm are not wired into `run.py`.
