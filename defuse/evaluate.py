@@ -138,8 +138,8 @@ def reference_table(recs, ref, gate=None, probes=None, label=""):
     if other:
         L.append("NOTE: %d of your records are outside the reference's cells and are left out of this table." % other)
     if bad:
-        L.append("NOT THE SAME ROWS in %d cell(s): %s. The dumper skips rows whose run count differs, and --max-rows "
-                 "takes a prefix; compare rates, not counts, there." % (len(bad), "; ".join(bad)))
+        L.append("NOT THE SAME ROWS in %d cell(s): %s. Either you ran a subset (a smoke, --max-rows), or the dumper "
+                 "skipped rows whose run count differs; compare rates, not counts, there." % (len(bad), "; ".join(bad)))
     return "\n".join(L)
 
 

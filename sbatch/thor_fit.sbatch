@@ -5,8 +5,8 @@
 #SBATCH --job-name=defuse-fit
 #SBATCH --partition=main
 #SBATCH --cpus-per-task=2
-#SBATCH --mem=12G
-#SBATCH --time=08:00:00
+#SBATCH --mem=10G
+#SBATCH --time=06:00:00
 #SBATCH --output=logs/%x-%j.out
 source sbatch/thor_common.sh
 D=${1:?run folder}

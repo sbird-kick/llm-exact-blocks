@@ -7,8 +7,8 @@
 #SBATCH --partition=main
 #SBATCH --gres=shard:1
 #SBATCH --cpus-per-task=4
-#SBATCH --mem=16G
-#SBATCH --time=00:45:00
+#SBATCH --mem=6G
+#SBATCH --time=00:20:00
 #SBATCH --output=logs/%x-%j.out
 source sbatch/thor_common.sh
 D=runs/smoke-${SLURM_JOB_ID:-local}; MAP=16:20,19:24,22:28; MODEL=${MODEL:-Qwen/Qwen3-1.7B}

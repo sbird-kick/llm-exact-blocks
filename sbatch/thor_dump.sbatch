@@ -7,7 +7,7 @@
 #SBATCH --gres=shard:1
 #SBATCH --cpus-per-task=4
 #SBATCH --mem=8G
-#SBATCH --time=02:00:00
+#SBATCH --time=01:00:00
 #SBATCH --output=logs/%x-%j.out
 source sbatch/thor_common.sh
 ROWS=${1:?rows.jsonl}; OUT=${2:?output folder}; MODEL=${MODEL:-Qwen/Qwen3-1.7B}

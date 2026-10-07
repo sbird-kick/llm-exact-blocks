@@ -4,17 +4,20 @@ This is the whole pipeline on your own: dump the host's hidden states, fit the r
 the shipped wild rows, score them beside the project's own numbers on the same rows, and run the live demo with your
 fits. Only step 5 (the dump) and step 9 (the demo) use the GPU. Everything below runs from the repository root.
 
+Our smoke ran on 2026-10-07 while another user's 8B job held most of the GPU (GPU utilisation 96% mean over the job,
+all users together), so its times are on a busy GPU; the full-run figures are ESTIMATES scaled from it, not measurements.
+
 | step | what | where | measured in our smoke (200 rows) | full run (7,497 rows) |
 |---|---|---|---|---|
 | 1 | environment | login shell | - | once |
 | 2 | weights (3.4 GB) | login shell | - | once |
-| 3 | smoke: the whole recipe on 200 rows | one GPU job | MEASURED_SMOKE | - |
+| 3 | smoke: the whole recipe on 200 rows | one GPU job | 2 min 08 s wall; peak RSS 4.1 GB (loading the model); the job file asks `--mem 6G` (ours ran with 16G) | - |
 | 4 | the rows file | login shell (seconds) | - | 7,497 rows |
-| 5 | dump | one GPU job | MEASURED_DUMP | ESTIMATE_DUMP |
-| 6 | fit reader B, out-of-fold decodes, gate, tables | one CPU job | MEASURED_FIT | ESTIMATE_FIT |
+| 5 | dump | one GPU job | 40 s (forward 10 s, greedy 19 s); peak RSS 4.1 GB | about 20 min, about 5.3 GB (estimate: 1.2 GB more tensors); `--mem 8G` |
+| 6 | fit reader B, out-of-fold decodes, gate, tables | one CPU job | fit-b 5 s + lofo-b 9 s (smoke grid); peak RSS 0.6 GB | about 2-3 h with the full grid, about 6.5 GB (estimate); `--mem 10G` |
 | 7 | read your numbers beside the reference | - | - | - |
-| 8 | parity check of the live path | inside the smoke, or one GPU job | MEASURED_CHECK | - |
-| 9 | the demo | one GPU job, as long as you use it | MEASURED_DEMO | - |
+| 8 | parity check of the live path | inside the smoke, or one GPU job | 43 s for 40 rows; peak RSS 4.1 GB | - |
+| 9 | the demo | one GPU job, as long as you use it | model load 10-12 s; 0.7-1.7 s per prompt; RSS 0.9-1.8 GB after loading, 4.1 GB peak while loading; `--mem 6G` | - |
 
 ## The Thor's rules (it is a shared machine)
 
@@ -159,8 +162,10 @@ python -m defuse.live check --host Qwen/Qwen3-1.7B --dump runs/q17/q17_wild_oper
 (inside a GPU job: `srun --partition=main --gres=shard:1 --mem=8G ...`). It runs the demo's live path on the first 40
 dumped rows and compares: the digit runs, the greedy text, the features (max |difference| from the dump's tensors), the
 three layers' programs, DU-AG's decision and the final decision. The live path runs one prompt at a time and the dump
-ran batches of 8, so tiny float differences and a few flipped near-ties are expected; the programs and decisions should
-agree on nearly every row (our smoke: MEASURED_CHECK_RESULT).
+ran batches of 8 (right-padded forward, left-padded greedy decode), so bf16 differences and a few flipped near-ties are
+expected; the programs and decisions should agree on nearly every row. The max |difference| it prints is absolute and
+dominated by a few very large hidden-state coordinates that Qwen3 carries at every position, so judge the check by the
+programs and decisions (our smoke: 40 rows: digit runs 40/40, greedy text 32/40, programs at all three layers 35/40, DU-AG fire 39/40, final decision 40/40).
 
 ## 9. The demo with your readers (GPU)
 
