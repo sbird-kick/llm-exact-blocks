@@ -52,3 +52,6 @@ data/*
 # the wild training rows (folds 1-4 only; data/wild/README.md)
 !data/wild/
 !data/wild/**/*.jsonl
+# more training rows (data/more/README.md): wild train rows + the project's generated train rows, by in-force split
+!data/more/
+!data/more/**/*.jsonl

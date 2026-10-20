@@ -194,8 +194,8 @@ def test_no_shipped_file_over_1mb():
         files = subprocess.run(["git", "ls-files"], cwd=ROOT, capture_output=True, text=True, check=True).stdout.split()
     except (OSError, subprocess.CalledProcessError):
         return  # not a git checkout: nothing to check
-    # the shipped training rows (data/banks/*.jsonl, data/wild/**/*.jsonl) are the one exception: each must stay under 25 MB
-    rows = [f for f in files if f.startswith(("data/banks/", "data/wild/")) and f.endswith(".jsonl")]
+    # the shipped training rows (data/banks/*.jsonl, data/wild/**/*.jsonl, data/more/**/*.jsonl) are the one exception: each must stay under 25 MB
+    rows = [f for f in files if f.startswith(("data/banks/", "data/wild/", "data/more/")) and f.endswith(".jsonl")]
     big = [f for f in files if os.path.getsize(os.path.join(ROOT, f)) > 1_000_000
            and f != "banks/v5/manifest_v5.json" and f not in rows]
     assert not big, big
